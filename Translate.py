@@ -23,7 +23,7 @@ def translate_file(data):
 		textEvent = data["EventText"][a]["theScene"] # list Texto del evento
 		for c in range(len(textEvent)):
 			b = str(textEvent[c])
-			if " " in b and not(".mp3" in b) and not(".png" in b) and not(".jpeg" in b) and not(".ogg" in b) and not(".jpg" in b) and not(".waw" in b) and not(b in special_words):
+			if " " in b and not(".mp3" in b) and not(".png" in b) and not(".jpeg" in b) and not(".ogg" in b) and not(".jpg" in b) and not(".wav" in b) and not(b in special_words):
 				
 				if "|f|" in b:
 					print("r1")
