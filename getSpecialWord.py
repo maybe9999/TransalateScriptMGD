@@ -4,9 +4,24 @@ from itertools import chain
 
 list_word = []
 
-files_path_skill = [archivo.as_posix() for archivo in Path('./x-Skills').glob("**/*.json")]
+def get_paths(folder):
+	return [archivo.as_posix() for archivo in Path(folder).glob("**/*.json")]
 
-files_path_monster = [archivo.as_posix() for archivo in Path('./x-Monsters').glob("**/*.json")]
+files_path_skill = get_paths('./x-Skills')#
+
+files_path_monster = get_paths('./x-Monsters')#
+
+files_path_adventures = get_paths('./x-Adventures') # 
+
+files_path_fetishes = get_paths('./x-Fetishes') #
+
+files_path_items = get_paths('./x-Items') #
+
+files_path_locations = get_paths('./x-Locations') #
+
+files_path_events = get_paths('./x-Events') #
+
+files_path_perks = get_paths('./x-Perks')
 
 
 def open_file(input_file_name):
@@ -17,98 +32,198 @@ def open_file(input_file_name):
 		with open(input_file_name, 'r') as f:
 			return json.load(f)
 
+def get_name_root(data, tag):
+	try:
+		if " " in data[tag] and len(data[tag]) >=2:
+			return data[tag]
+	except:
+		return False
+
 #x-Skills
 def get_special_wor_skill(data):
 	list_wor = []
 	val = ["skillTags","statType", "fetishTags", "requiresStance","startsStance", "skillType", "unusableIfStance", "unusableIfTarget", "removesStance", "requiresStatusEffect", "unusableIfStatusEffect", "statusEffect", "statusResistedBy", "name" ]
 	
-	try:
-		if " " in data["name"]:
-			list_wor.append(data["name"])
-	except:
-		pass
-	
+	list_wor.append(data["name"]) if get_name_root(data, "name") else None
+			
 	for tag in val:
 		try:
 			for a in range(len(data[tag])):
-				b = data[tag][a]
-				if " " in b and len(b) >= 2:
-					list_wor.append(b)
+				b = data[tag]
+				list_wor.append(b[a]) if get_name_root(data, [a]) else None
 		except Exception as err:
-			print(err)
+			pass
 	return list_wor
-	
+
+#x-Monsters
 def get_special_wor_monster(data):
 	list_wor = []
 	val = ["name", "requires", "skillList", "perks", "Fetishes","ItemDropList", "lossScenes", "victoryScenes"]
-	try:
-		if " " in data["name"]:
-			list_wor.append(data["name"])
-	except:
-		pass
-	try:
-		if " " in data["IDname"]:
-			list_wor.append(data["IDname"])
-	except:
-		pass
+	
+	list_wor.append(data["name"]) if get_name_root(data, "name") else None
+	
+	list_wor.append(data["IDname"]) if get_name_root(data, "IDname") else None
 		
 	for tag in val:
 		try:
 			for a in range(len(data[tag])):
 				b = data[tag][a]
-				try:
-					if " " in b["name"]:
-						list_wor.append(b["name"])
-				except:
-					pass
-				try:
-					if " " in b["NameOfScene"]:
-						list_wor.append(b["NameOfScene"])
-				except:
-					pass 
+				
+				list_wor.append(b["name"]) if get_name_root(b, "name") else None
+				
+				list_wor.append(b["NameOfScene"]) if get_name_root(b, "NameOfScene") else None
+				
 				if " " in b and len(b) >= 2:
 					list_wor.append(b)
 		except Exception as err:
-			print(err)
+			pass
 	return list_wor
 	
 
 #x-Events
-def get_special_wor(data):
+def get_special_wor_events(data):
 	list_wor = []
+	
+	list_wor.append(data["name"]) if get_name_root(data, "name") else None
+	
 	for a in range(len(data["EventText"])): #Lista de eventos
-		if " " in a:
-			list_wor.append(data["EventText"][a]["NameOfScene"]) # list Texto del evento
-	print(list_wor)
+		b = data["EventText"][a]
+	
+		list_wor.append(b["NameOfScene"]) if get_name_root(b, "NameOfScene") else None # list Texto del evento
+	return list_wor
+
+
+def get_special_wor_adventures(data):
+	list_wor = []
+	val = ["requires", "Deck", "RandomMonsters", "RandomEvents", ]
+	list_wor.append(data["name"]) if get_name_root(data, "name") else None
+	
+	for tag in val:
+		try:
+			for a in range(len(data[tag])):
+				b = data[tag]
+				list_wor.append(b[a]) if get_name_root(b, [a]) else None
+		except:
+			pass
+	return list_wor
+
+def get_special_wor_fetish(data):
+	list_wor = []
+	try:
+		for a in range(len(data["FetishList"])):
+			b = data["FetishList"][a]
+			list_wor.append(b["Name"]) if get_name_root(b, ["Name"]) else None
+	except:
+		pass
+	return list_wor
+
+def get_special_wor_items(data):
+	list_wor = []
+	val = ["requires","perks","skills"]
+	
+	list_wor.append(data["name"]) if get_name_root(data, "name") else None
+	
+	for tag in val:
+		try:
+			for a in range(len(data[tag])):
+				b = data[tag]
+				list_wor.append(b[a]) if get_name_root(b, [a]) else None
+		except:
+			pass
+	return list_wor
+	
+def get_special_wor_location(data):
+	list_wor = []
+	val = ["requires","FullyUnlockedBy","Monsters", "Events", "Quests", "Adventures"]
+	
+	list_wor.append(data["name"]) if get_name_root(data, "name") else None
+	list_wor.append(data["exploreTitle"]) if get_name_root(data, "exploreTitle") else None
+	
+	for tag in val:
+		try:
+			for a in range(len(data[tag])):
+				b = data[tag]
+				list_wor.append(b[a]) if get_name_root(b, [a]) else None
+		except:
+			pass
+	return list_wor
+
+
+def get_special_wor_perks(data):
+	list_wor = []
+	val = ["PerkReq","StatReq","PerkType"]
+	
+	list_wor.append(data["name"]) if get_name_root(data, "name") else None
+	
+	for tag in val:
+		try:
+			for a in range(len(data[tag])):
+				b = data[tag]
+				list_wor.append(b[a]) if get_name_root(b, [a]) else None
+		except:
+			pass
 	return list_wor
 
 
 def save_file(data, output_file_name):
 	with open(output_file_name, 'w') as f:
   	  f.write(str(data))
+
+
+def init_get_word(files_paths, func):
+	for file_path in files_paths:
+		open_file_path = f"./{file_path}"
+			
+		data = open_file(open_file_path)
+		list_word.append(func(data))
+	print(files_paths[0], "Len:  ", len(list_word))
+	
+
+
+def init():
+	init_get_word(files_path_skill, get_special_wor_skill)
+	
+	init_get_word(files_path_monster, get_special_wor_monster)
+	
+	init_get_word(files_path_events, get_special_wor_events)
+	
+	init_get_word(files_path_adventures, get_special_wor_adventures)
+	
+	init_get_word(files_path_fetishes, get_special_wor_fetish)
+	
+	init_get_word(files_path_items, get_special_wor_items)
+	
+	init_get_word(files_path_locations, 
+	get_special_wor_location)
+	
+	init_get_word(files_path_perks, get_special_wor_perks)
 	
 	
-for file_path in files_path_skill:
-	open_file_path = f"./{file_path}"
+	list_word = list(chain.from_iterable(list_word))
 	
-	print("file",open_file_path)
-
-	data = open_file(open_file_path)
-	list_word.append(get_special_wor_skill(data))
-
-for file_path in files_path_monster:
-	open_file_path = f"./{file_path}"
+	list_word = [str(elemento) for elemento in list_word]
 	
-	print("file",open_file_path)
+	print("Total len(Before): ", len(list_word))
+	
+	list_word = list(set(list_word))
+	
+	print("Total len(After): ", len(list_word))
+	
+	save_file(list_word, "SpecialWord.txt")
+	
+		
+def open_file():
+	with open("./SpecialWord.txt", "r") as f:
+		return f.read()
+		
+arch = repr(open_file().replace("\"", "").replace("\'", "").replace("[",""). replace("]","")).split(",")
 
-	data = open_file(open_file_path)
-	list_word.append(get_special_wor_monster(data))
+print(type(arch))
+print(len(arch),"\n")
 
+arch = list(set(arch))
 
+print("\n",type(arch))
+print(len(arch))
 
-list_word = list(chain.from_iterable(list_word))
-
-list_word = list(set(list_word))
-print(list_word)
-
-save_file(list_word, "SpecialWord.txt")
+print(arch)
