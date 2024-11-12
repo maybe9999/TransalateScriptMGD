@@ -1,5 +1,9 @@
 <h1> Translator MGD</h1>
 
+<h2> Description </h2>
+For now only translate the dialogues stored in X-Events(Made for this section, can be easily adapted to translate other sections). The script excludes and does not modify any other data stored in the .json other than dialogs. (Being recent it is prone to errors)
+
+
 <h2> Negative points: </h2>
 - It takes approximately 12 hours to translate all of X Events. (Needs optimization)
 - There are certain dialogues that due to errors in the code or translation errors, not everything is translated and remains as it was originally.
