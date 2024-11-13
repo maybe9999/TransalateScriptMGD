@@ -2,6 +2,10 @@
 Python 3.12.3
 Encoding: UTF-8
 """
+# Windows: Before running the script, run "chcp 65001" in the console
+# chcp 65001
+# Set InputEncoding and OutputEncoding to UTF8
+# https://learn.microsoft.com/en-us/answers/questions/213769/what-are-the-differences-between-chcp-65001-and-(c
 
 import json, os, re
 from googletrans import Translator
@@ -130,15 +134,20 @@ def translate_simple_text(text, n_event, n_scene, arch):
 		return None
 
 def manager_translation(data="", text="", n_event="", n_scene="", path="", list_of_paths=[]):
-	if is_complex_text(text):
-		translated_text = translate_complex_text(text, n_event, n_scene, path) or text
-	else:
-		translated_text = translate_simple_text(text, n_event, n_scene, path) or text
+	try:
+		if is_complex_text(text):
+			translated_text = translate_complex_text(text, n_event, n_scene, path) or text
+		else:
+			translated_text = translate_simple_text(text, n_event, n_scene, path) or text
+			
+		if check_brackets(text):
+			translated_text = correct_brackets(translated_text, text)
 		
-	if check_brackets(text):
-		translated_text = correct_brackets(translated_text, text)
-	
-	data["EventText"][n_event]["theScene"][n_scene] = translated_text
+		data["EventText"][n_event]["theScene"][n_scene] = translated_text
+	except Exception as err:
+		aditional_data = f"Error en el evento {n_event}, escena {n_scene}: {text}"
+		print(aditional_data)
+		create_debug(path, err, aditional_data)
 			
 	print(
 		f"Name File: {path} \n",
