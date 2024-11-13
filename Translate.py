@@ -12,10 +12,18 @@ from itertools import chain
 input_lang = "en"
 output_lang = "es"
 
+#https://proxyscrape.com/free-proxy-list
+# To avoid bans for too many queries
 translator = Translator(
-	service_urls=[
-		"translate.googleapis.com"
-		], user_agent="Mozilla/5.0 (U; Linux i581 x86_64) Gecko/20100101 Firefox/52.6"
+	user_agent="Mozilla/5.0 (U; Linux i581 x86_64) Gecko/20100101 Firefox/52.6",
+    proxies = {
+		'http':'154.85.58.149:80',
+		'http':'63.143.57.116:80',
+		'http':'165.232.129.150:80',
+		'http':'162.223.90.130:80',
+		'http':'144.126.216.57:80',
+		'http':'12.176.231.147:80',
+		}
 )
 
 def get_paths(folder):
@@ -39,8 +47,13 @@ files_path_perks = get_paths('Perks')
 
 
 def get_file_words():
-	with open("./SpecialWord.txt", "r", encoding="UTF-8") as f:
-		return f.read()		
+	if os.path.isfile("./SpecialWord.txt"):
+		with open("./SpecialWord.txt", "r", encoding="UTF-8") as f:
+			return f.read()
+	else:
+		raise Exception('"SpecialWords.txt" is not found, it is necessary for correct execution.')
+		
+
 special_words = repr(get_file_words().replace("\"", "").replace("\'", "").replace("[",""). replace("]","")).split(", ")
 special_words = list(set(special_words))
 
@@ -54,7 +67,7 @@ def open_json_file(input_file_name):
 			return json.load(f)
 
 def save_json_file(data, output_file_name):
-	with open(output_file_name, 'w') as f:
+	with open(output_file_name, 'w', encoding="UTF-8") as f:
   	  json.dump(data, f, ensure_ascii=False, indent=4)
 
 def create_debug(open_file_path = "", err = "", other_content=None):
@@ -104,7 +117,6 @@ def translate_complex_text(text, n_event, n_scene, arch):
 		print("Error en la libreria de traduccion / Error in the translation library: \n", err)
 		aditional_data_err = f"Event: {n_event} SceneNum: {n_scene}"
 		create_debug(arch, err, aditional_data_err)
-		input("Continue?...: ")
 		return None
 
 def translate_simple_text(text, n_event, n_scene, arch):
@@ -115,7 +127,6 @@ def translate_simple_text(text, n_event, n_scene, arch):
 		print("Error en la libreria de traduccion / Error in the translation library: \n", err)
 		aditional_data_err = f"Event: {n_event} SceneNum: {n_scene}"
 		create_debug(arch, err, aditional_data_err)
-		input("Continue?...: ")
 		return None
 
 def manager_translation(data="", text="", n_event="", n_scene="", path="", list_of_paths=[]):
