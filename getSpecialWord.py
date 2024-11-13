@@ -62,6 +62,12 @@ def get_special_wor_monster(data):
 	
 	list_wor.append(data["name"]) if get_name_root(data, "name") else None
 	
+	for a in range(15):
+		try:
+			list_wor.append(f'{data["name"]} {a+1}')
+		except:
+			pass
+	
 	list_wor.append(data["IDname"]) if get_name_root(data, "IDname") else None
 		
 	for tag in val:
@@ -181,6 +187,7 @@ def init_get_word(files_paths, func):
 
 
 def init():
+	global list_word
 	init_get_word(files_path_skill, get_special_wor_skill)
 	
 	init_get_word(files_path_monster, get_special_wor_monster)
@@ -211,7 +218,8 @@ def init():
 	
 	save_file(list_word, "SpecialWord.txt")
 	
-		
+init()
+"""		
 def open_file():
 	with open("./SpecialWord.txt", "r") as f:
 		return f.read()
@@ -227,3 +235,4 @@ print("\n",type(arch))
 print(len(arch))
 
 print(arch)
+"""
