@@ -61,6 +61,19 @@ def get_special_wor_monster(data):
 	val = ["name", "requires", "skillList", "perks", "Fetishes","ItemDropList", "lossScenes", "victoryScenes"]
 	
 	list_wor.append(data["name"]) if get_name_root(data, "name") else None
+	list_wor.append(f"Random {data['name']}") if get_name_root(data, "name") else None
+	try:
+		list_wor.append(f'Random {data["name"]}')
+		list_wor.append(data["name"])
+	except:
+		pass
+		
+	try:
+		list_wor.append(data["IDname"])
+		list_wor.append(f"Random {data['IDname']}")
+	except:
+		pass
+
 	
 	for a in range(15):
 		try:
@@ -69,6 +82,7 @@ def get_special_wor_monster(data):
 			pass
 	
 	list_wor.append(data["IDname"]) if get_name_root(data, "IDname") else None
+	list_wor.append(f"Random {data['IDname']}") if get_name_root(data, "IDname") else None
 		
 	for tag in val:
 		try:
@@ -76,6 +90,7 @@ def get_special_wor_monster(data):
 				b = data[tag][a]
 				
 				list_wor.append(b["name"]) if get_name_root(b, "name") else None
+				list_wor.append(f"Random {b['name']}") if get_name_root(b, "name") else None
 				
 				list_wor.append(b["NameOfScene"]) if get_name_root(b, "NameOfScene") else None
 				
@@ -109,6 +124,7 @@ def get_special_wor_adventures(data):
 			for a in range(len(data[tag])):
 				b = data[tag]
 				list_wor.append(b[a]) if get_name_root(b, [a]) else None
+				list_wor.append(f"Random {b[a]}") if get_name_root(b, [a]) else None
 		except:
 			pass
 	return list_wor
