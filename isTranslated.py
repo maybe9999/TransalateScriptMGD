@@ -1,0 +1,106 @@
+
+import json, os, re
+from googletrans import Translator
+from pathlib import Path
+#pip install googletrans==4.0.0rc1
+from itertools import chain
+
+def get_paths(folder):
+	return [archivo.as_posix() for archivo in Path(folder).glob("**/*.json")]
+
+files_path_skill = get_paths('./x-Skills')#
+
+files_path_monster = get_paths('./x-Monsters')#
+
+files_path_adventures = get_paths('./x-Adventures') # 
+
+files_path_fetishes = get_paths('./x-Fetishes') #
+
+files_path_items = get_paths('./x-Items') #
+
+files_path_locations = get_paths('./x-Locations') #
+
+files_path_events = get_paths('./x-Events') #
+
+files_path_perks = get_paths('./x-Perks')
+
+def open_file():
+	with open("./SpecialWord.txt", "r") as f:
+		return f.read()
+		
+special_words = repr(open_file().replace("\"", "").replace("\'", "").replace("[",""). replace("]","")).split(", ")
+
+special_words = list(set(special_words))
+
+
+def open_file(input_file_name):
+	try: 
+		with open(input_file_name, 'r', encoding='utf-8') as f:
+			return json.load(f)    
+	except:
+		with open(input_file_name, 'r') as f:
+			return json.load(f)
+			
+			
+def is_dialog(text):
+    extensions = [".mp3", ".png", ".jpeg", ".ogg", ".jpg", ".wav"]
+    return (
+        " " in text
+        and all(ext not in text for ext in extensions)
+        and text.replace("\'", "") not in special_words
+    )
+
+def is_complex_text(text):
+	return "|f|" in text
+
+def create_debug(open_file_path = "", errores = "", other_content=None):
+	with open('-Errores_debug.txt', 'a', encoding='utf-8') as f:
+		content=f"\n{open_file_path}    {other_content}\n{errores}\n\n\n"
+		f.write(content)
+
+def get_text_events(data,  path, list_of_paths, data_translated=None):
+	dialog_total = 0
+	iguales=0
+	
+	for a in range(len(data["EventText"])): 
+		textEvent = data["EventText"][a]["theScene"]
+		for b in range(len(textEvent)):
+			text = str(textEvent[b])
+			if is_dialog(text):
+				dialog_total += 1
+				if data["EventText"][a]["theScene"][b] == data_translated["EventText"][a]["theScene"][b]:
+					iguales+=1
+					
+						
+				print(f"Name File: {path} \n Num File: {list_of_paths.index(path)} / {len(list_of_paths)} \n Event: {a} / {len(data['EventText'])} \n SceneNum: {b} / {len(textEvent)}\n")
+	create_debug(path, f"Need Translation:  {iguales} / {dialog_total}")
+				
+				
+def init_translation(files_paths, func):
+	for file_path in files_paths:
+		open_file_path = f"./{file_path}"
+		open_translated_file_path = f"./ES/{file_path}"
+		dirname_save_file = os.path.dirname(open_translated_file_path)
+		
+		if os.path.isfile(open_translated_file_path):
+
+			try:
+				data = open_file(open_file_path)
+				data_translated = open_file(open_translated_file_path)
+				func(data, file_path, files_paths, data_translated=data_translated)
+				
+				save_file(data, save_file_path)
+				
+			except Exception as e:
+			    print(f'\n\nError en el archivo : {open_file_path} ...',e)
+			    #save_file(data, save_file_path)
+			    create_debug(open_file_path, e)
+			
+		else:
+			print("Archivo inexistente")
+
+def init():
+	init_translation(files_path_events, get_text_events)
+
+init()
+	  	  
