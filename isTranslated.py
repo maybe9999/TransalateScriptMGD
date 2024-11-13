@@ -54,13 +54,14 @@ def is_complex_text(text):
 	return "|f|" in text
 
 def create_debug(open_file_path = "", errores = "", other_content=None):
-	with open('-Errores_debug.txt', 'a', encoding='utf-8') as f:
-		content=f"\n{open_file_path}    {other_content}\n{errores}\n\n\n"
+	with open('-needTranslated.txt', 'a', encoding='utf-8') as f:
+		content=f"\n{open_file_path}    {other_content}\n{errores or ""}\n\n\n"
 		f.write(content)
 
 def get_text_events(data,  path, list_of_paths, data_translated=None):
 	dialog_total = 0
 	iguales=0
+	xy = ""
 	
 	for a in range(len(data["EventText"])): 
 		textEvent = data["EventText"][a]["theScene"]
@@ -70,10 +71,10 @@ def get_text_events(data,  path, list_of_paths, data_translated=None):
 				dialog_total += 1
 				if data["EventText"][a]["theScene"][b] == data_translated["EventText"][a]["theScene"][b]:
 					iguales+=1
-					
+					xy += f"Event: {a}, Scene: {b} Text: {data_translated["EventText"][a]["theScene"][b]}\n"
 						
 				print(f"Name File: {path} \n Num File: {list_of_paths.index(path)} / {len(list_of_paths)} \n Event: {a} / {len(data['EventText'])} \n SceneNum: {b} / {len(textEvent)}\n")
-	create_debug(path, f"Need Translation:  {iguales} / {dialog_total}")
+	create_debug(path,  other_content=f"\nNeed Translation:  {iguales} / {dialog_total}", errores=xy)
 				
 				
 def init_translation(files_paths, func):
