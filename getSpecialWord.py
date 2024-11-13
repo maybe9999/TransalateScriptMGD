@@ -5,23 +5,25 @@ from itertools import chain
 list_word = []
 
 def get_paths(folder):
-	return [archivo.as_posix() for archivo in Path(folder).glob("**/*.json")]
+	path = r"MonGirlDreams-Alpha-v26.6-pc/game/Json/"
+	if os.path.exists(path): #PC
+		return [archivo.as_posix() for archivo in Path(path+folder).glob("**/*.json")]
+	elif os.path.exists(folder): #Android (extract .APK)
+		return [archivo.as_posix() for archivo in Path(folder).glob("**/*.json")]
+	elif os.path.exists(f"./x-{folder}"): #Android (extract .APK)
+		return [archivo.as_posix() for archivo in Path(f"./x-{folder}").glob("**/*.json")]
+	else:
+		raise Exception("Problems defining the route")
+	
 
-files_path_skill = get_paths('./x-Skills')#
-
-files_path_monster = get_paths('./x-Monsters')#
-
-files_path_adventures = get_paths('./x-Adventures') # 
-
-files_path_fetishes = get_paths('./x-Fetishes') #
-
-files_path_items = get_paths('./x-Items') #
-
-files_path_locations = get_paths('./x-Locations') #
-
-files_path_events = get_paths('./x-Events') #
-
-files_path_perks = get_paths('./x-Perks')
+files_path_events = get_paths('Events') #OK
+files_path_skill = get_paths('Skills') #
+files_path_monster = get_paths('Monsters')#
+files_path_adventures = get_paths('Adventures') # 
+files_path_fetishes = get_paths('Fetishes') #
+files_path_items = get_paths('Items') #
+files_path_locations = get_paths('Locations') #
+files_path_perks = get_paths('Perks')
 
 
 def open_file(input_file_name):
@@ -188,8 +190,8 @@ def get_special_wor_perks(data):
 
 
 def save_file(data, output_file_name):
-	with open(output_file_name, 'w') as f:
-  	  f.write(str(data))
+	with open(output_file_name, 'w', encoding="UTF-8") as f:
+  	  f.write(repr(data))
 
 
 def init_get_word(files_paths, func):
@@ -224,12 +226,12 @@ def init():
 	
 	list_word = list(chain.from_iterable(list_word))
 	
-	list_word = [str(elemento) for elemento in list_word]
+	list_word = [str(elemento) for elemento in list_word if not (len(elemento) <= 1 and (elemento == "" or elemento == " "))]
 	
 	print("Total len(Before): ", len(list_word))
 	
 	list_word = list(set(list_word))
-	
+
 	print("Total len(After): ", len(list_word))
 	
 	save_file(list_word, "SpecialWord.txt")

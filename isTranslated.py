@@ -6,23 +6,23 @@ from pathlib import Path
 from itertools import chain
 
 def get_paths(folder):
-	return [archivo.as_posix() for archivo in Path(folder).glob("**/*.json")]
+	path = r"MonGirlDreams-Alpha-v26.6-pc/game/Json/"
+	if os.path.exists(path): #PC
+		return [archivo.as_posix() for archivo in Path(path+folder).glob("**/*.json")]
+	elif os.path.exists(f"./x-{folder}"): #Android (extract .APK)
+		return [archivo.as_posix() for archivo in Path(f"./x-{folder}").glob("**/*.json")]
+	else:
+		raise Exception("Problems defining the route")
+	
 
-files_path_skill = get_paths('./x-Skills')#
-
-files_path_monster = get_paths('./x-Monsters')#
-
-files_path_adventures = get_paths('./x-Adventures') # 
-
-files_path_fetishes = get_paths('./x-Fetishes') #
-
-files_path_items = get_paths('./x-Items') #
-
-files_path_locations = get_paths('./x-Locations') #
-
-files_path_events = get_paths('./x-Events') #
-
-files_path_perks = get_paths('./x-Perks')
+files_path_events = get_paths('Events') #OK
+files_path_skill = get_paths('Skills') #
+files_path_monster = get_paths('Monsters')#
+files_path_adventures = get_paths('Adventures') # 
+files_path_fetishes = get_paths('Fetishes') #
+files_path_items = get_paths('Items') #
+files_path_locations = get_paths('Locations') #
+files_path_perks = get_paths('Perks')
 
 def open_file():
 	with open("./SpecialWord.txt", "r") as f:
@@ -89,13 +89,12 @@ def init_translation(files_paths, func):
 				data_translated = open_file(open_translated_file_path)
 				func(data, file_path, files_paths, data_translated=data_translated)
 				
-				save_file(data, save_file_path)
+				#save_file(data, save_file_path)
 				
 			except Exception as e:
-			    print(f'\n\nError en el archivo : {open_file_path} ...',e)
+				print(f'\n\nError en el archivo : {open_file_path} ...',e)
 			    #save_file(data, save_file_path)
-			    create_debug(open_file_path, e)
-			
+				create_debug(open_file_path, e)
 		else:
 			print("Archivo inexistente")
 
