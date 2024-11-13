@@ -7,28 +7,68 @@ Encoding: UTF-8
 # Set InputEncoding and OutputEncoding to UTF8
 # https://learn.microsoft.com/en-us/answers/questions/213769/what-are-the-differences-between-chcp-65001-and-(c
 
-import json, os, re
+import json, os, re, random
 from googletrans import Translator
-from pathlib import Path
 #pip install googletrans==4.0.0rc1
+from pathlib import Path
 from itertools import chain
 
 input_lang = "en"
 output_lang = "es"
 
-#https://proxyscrape.com/free-proxy-list
+#To translate groups instead of 1 by 1, when you fix the error of : 'NoneType' object is not iterable"...
+#5k limit of letters?
+temp_dialog_text = {
+	"1":[],
+	"2":[],
+	"3":[],
+	"4":[],
+	"5":[],
+	"6":[],
+	"7":[],
+	"8":[],
+	"9":[],
+	"10":[],
+	}
+
+# https://proxyscrape.com/free-proxy-list
 # To avoid bans for too many queries
-translator = Translator(
-	user_agent="Mozilla/5.0 (U; Linux i581 x86_64) Gecko/20100101 Firefox/52.6",
-    proxies = {
-		'http':'154.85.58.149:80',
-		'http':'63.143.57.116:80',
-		'http':'165.232.129.150:80',
-		'http':'162.223.90.130:80',
-		'http':'144.126.216.57:80',
-		'http':'12.176.231.147:80',
-		}
-)
+list_of_proxies = {
+	                "0":['http','138.68.60.8:8080'],
+					"1":['http','4.157.219.21:80'],
+					"2":['http','172.191.74.198:8080'],
+					"3":['http','35.92.233.193:80'],
+					"4":['http','198.49.68.80:80'],
+					"5":['http','129.10.76.179:80'],
+					"6":['http','23.237.145.36:31288'],
+					"7":['http','138.68.60.8:3128'],
+					"8":['http','172.191.74.198:8080'],
+					"9":['http','172.212.97.167:80'],
+					"10":['http','12.176.231.147:80'],
+					"11":['http','132.145.134.243:31288'],
+					"12":['http','162.223.90.130:80'],
+					"13":['http','142.93.202.130:3128'],
+					"14":['http','132.145.134.243:31288'],
+					"15":['http','138.68.60.8:8080'],
+					"16":['http','23.247.136.245:80'],
+					"17":['http','63.143.57.116:80'],
+					"18":['http','165.232.129.150:80'],
+					"19":['http','162.223.90.130:80'],
+					"20":['http','144.126.216.57:80'],
+					"21":['http','12.176.231.147:80'],
+					}
+
+def recharge_construct():
+	global translator
+	num_random = random.randint(0, len(list_of_proxies)-1)
+	print(list_of_proxies[str(num_random)][0], list_of_proxies[str(num_random)][1])
+	translator = Translator(
+				user_agent="Mozilla/5.0 (U; Linux i581 x86_64) Gecko/20100101 Firefox/52.6",
+				proxies = {
+					list_of_proxies[str(num_random)][0]: list_of_proxies[str(num_random)][1]
+					}
+			)
+	
 
 def get_paths(folder):
 	path = r"MonGirlDreams-Alpha-v26.6-pc/game/Json/"
@@ -112,25 +152,27 @@ def translate_complex_text(text, n_event, n_scene, arch):
 				resultado.append(parte.split('|n|'))
 		for t in range(len(resultado)):
 			text = resultado[t][1]
-			resultado[t][1] = translator.translate(fr"{text}", dest=output_lang, src=input_lang).text or text			
+			resultado[t][1] = translator.translate(text, dest=output_lang, src=input_lang).text or text			
 		union  = ["|n|".join(x) for x in resultado]
 		tradd ="|f|" +"|f|".join(union)
 		return tradd
 		
 	except Exception as err:
 		print("Error en la libreria de traduccion / Error in the translation library: \n", err)
-		aditional_data_err = f"Event: {n_event} SceneNum: {n_scene}"
+		aditional_data_err = f"Event: {n_event} SceneNum: {n_scene}, Raiz: translate_complex_text()\nText: {text}"
 		create_debug(arch, err, aditional_data_err)
+		recharge_construct()
 		return None
 
 def translate_simple_text(text, n_event, n_scene, arch):
 	try:
-		tradd = translator.translate(fr"{text}", dest=output_lang, src=input_lang).text or text
+		tradd = translator.translate(text, dest=output_lang, src=input_lang).text or text
 		return tradd
 	except Exception as err:
-		print("Error en la libreria de traduccion / Error in the translation library: \n", err)
-		aditional_data_err = f"Event: {n_event} SceneNum: {n_scene}"
+		print("Error al traducir / Error in the translation: \n", err)
+		aditional_data_err = f"\nEvent: {n_event} SceneNum: {n_scene}, Raiz: translate_simple_text()\nText: {text}"
 		create_debug(arch, err, aditional_data_err)
+		recharge_construct()
 		return None
 
 def manager_translation(data="", text="", n_event="", n_scene="", path="", list_of_paths=[]):
@@ -145,7 +187,7 @@ def manager_translation(data="", text="", n_event="", n_scene="", path="", list_
 		
 		data["EventText"][n_event]["theScene"][n_scene] = translated_text
 	except Exception as err:
-		aditional_data = f"Error en el evento {n_event}, escena {n_scene}: {text}"
+		aditional_data = f"Error en el evento {n_event}, escena {n_scene}: {text}, Raiz: manager_translation()\nText: {text}"
 		print(aditional_data)
 		create_debug(path, err, aditional_data)
 			
@@ -194,7 +236,8 @@ def init_translation(files_paths, func):
 		dirname_save_file = os.path.dirname(save_file_path)
 		
 		if not(os.path.isfile(save_file_path)):		
-			os.makedirs(dirname_save_file, exist_ok=True)		
+			os.makedirs(dirname_save_file, exist_ok=True)
+			recharge_construct()
 				
 			try:
 				data = open_json_file(open_file_path)
@@ -203,7 +246,8 @@ def init_translation(files_paths, func):
 			except Exception as e:
 				print(f'\n\nError en el archivo : {open_file_path} ...',e)
 				#save_file(data, save_file_path)
-				create_debug(open_file_path, e)
+				aditional_data = "Raiz: init_translation()"
+				create_debug(open_file_path, e, aditional_data)
 		else:
 			print("Archivo existente")
 
