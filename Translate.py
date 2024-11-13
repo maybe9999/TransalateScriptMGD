@@ -64,7 +64,7 @@ def is_dialog(text):
     return (
         " " in text
         and all(ext not in text for ext in extensions)
-        and text not in special_words
+        and text.replace("\'", "") not in special_words
     )
 
 def is_complex_text(text):
