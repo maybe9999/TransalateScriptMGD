@@ -7,8 +7,9 @@ Encoding: UTF-8
 # Set InputEncoding and OutputEncoding to UTF8
 # https://learn.microsoft.com/en-us/answers/questions/213769/what-are-the-differences-between-chcp-65001-and-(c
 
-import json, os, re, random, requests, deepl
-#from googletrans import Translator
+import json, os, re, random, requests
+#deepl   # Import Deepl or Google Translate but do not import both at the same time
+from googletrans import Translator
 #pip install googletrans==4.0.0rc1
 from pathlib import Path
 from itertools import chain
@@ -17,12 +18,14 @@ input_lang = "en"
 output_lang = "es"
 output_lang2 = "ES"
 
-auth_key = "insert Api Key..."  # Replace with your key. limit: 500.000 characters (free)
-translator = deepl.Translator(auth_key)
+#Deepl:
+#"auth_key = "insert Api Key..."  # Replace with your key. limit: 500.000 characters (free)
+#translator = deepl.Translator(auth_key)
 #translator.translate_text("Hello, world!", target_lang=output_lang)
 
+
 #To translate groups instead of 1 by 1, 
-#5k limit of letters?
+#5k limit of letters?, googletrans
 temp_dialog_text = {
 	"1":[],
 	"2":[],
@@ -62,7 +65,7 @@ list_of_proxies = {
 					"20":['http','144.126.216.57:80'],
 					"21":['http','12.176.231.147:80'],
 					}
-"""
+#googletrans
 def recharge_construct():
 	global translator
 	num_random = random.randint(0, len(list_of_proxies)-1)
@@ -74,7 +77,7 @@ def recharge_construct():
 			)
 	print("\nProxy actual: ", translator.client.proxies)
 	create_debug(translator.client.proxies)
-"""
+
 
 def get_paths(folder):
 	path = r"MonGirlDreams-Alpha-v26.6-pc/game/Json/"
@@ -138,6 +141,14 @@ def correct_brackets(text1, text2):
 		text1 = text1.replace(f'[{content1}]', f'[{content2}]')
 		return text1
 
+
+""" 
+To improve validation: Before each dialog, 
+generally, there is: a text that says "speak", 
+there is a dialog, there is an emotion / expression 
+(smile, etc.) (In events, I don't 
+remember if it is the same in the others).
+"""
 def is_dialog(text):
     extensions = [".mp3", ".png", ".jpeg", ".ogg", ".jpg", ".wav"]
     return (
@@ -176,9 +187,9 @@ def translate_complex_text(text, n_event, n_scene, arch):
 				resultado.append(parte.split('|n|'))
 		for t in range(len(resultado)):
 			text = resultado[t][1]
-			resultado[t][1] = translator.translate_text(text=str(text), target_lang=output_lang2).text or text
+			#resultado[t][1] = translator.translate_text(text=str(text), target_lang=output_lang2).text or text     #deepl
 			#resultado[t][1] = alternative_translate_request(text, lang_src=input_lang, lang_out=output_lang) or text
-			#resultado[t][1] = translator.translate(text, dest=output_lang, src=input_lang).text or text			
+			resultado[t][1] = translator.translate(text, dest=output_lang, src=input_lang).text or text			#googletrans
 		union  = ["|n|".join(x) for x in resultado]
 		tradd ="|f|" +"|f|".join(union)
 		return tradd
@@ -187,20 +198,20 @@ def translate_complex_text(text, n_event, n_scene, arch):
 		print("Error en la libreria de traduccion / Error in the translation library: \n", err)
 		aditional_data_err = f"Event: {n_event} SceneNum: {n_scene}, Raiz: translate_complex_text()\nText: {text}"
 		create_debug(arch, err, aditional_data_err)
-		#recharge_construct()
+		recharge_construct() #googletrans
 		return None
 
 def translate_simple_text(text, n_event, n_scene, arch):
 	try:
-		tradd = translator.translate_text(text=str(text), target_lang=output_lang2).text or text
+		#tradd = translator.translate_text(text=str(text), target_lang=output_lang2).text or text #Deepl
 		#tradd = alternative_translate_request(text, lang_src=input_lang, lang_out=output_lang) or text
-		#tradd = translator.translate(text, dest=output_lang, src=input_lang).text or text
+		tradd = translator.translate(text, dest=output_lang, src=input_lang).text or text   #googletrans
 		return tradd
 	except Exception as err:
 		print("Error al traducir / Error in the translation: \n", err)
 		aditional_data_err = f"\nEvent: {n_event} SceneNum: {n_scene}, Raiz: translate_simple_text()\nText: {text}"
 		create_debug(arch, err, aditional_data_err)
-		#recharge_construct()
+		recharge_construct()  #googletrans
 		return None
 
 def manager_translation(data="", text="", n_event="", n_scene="", path="", list_of_paths=[]):
@@ -326,7 +337,7 @@ def init_translation(files_paths, func):
 		
 		if not(os.path.isfile(save_file_path)):		
 			os.makedirs(dirname_save_file, exist_ok=True)
-			#recharge_construct()
+			recharge_construct()
 				
 			try:
 				data = open_json_file(open_file_path)
@@ -334,7 +345,6 @@ def init_translation(files_paths, func):
 				save_json_file(data, save_file_path)
 			except Exception as e:
 				print(f'\n\nError en el archivo : {open_file_path} ...',e)
-				#save_file(data, save_file_path)
 				aditional_data = "Raiz: init_translation()"
 				create_debug(open_file_path, e, aditional_data)
 		else:
