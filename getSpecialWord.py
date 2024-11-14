@@ -60,7 +60,7 @@ def get_special_wor_skill(data):
 #x-Monsters
 def get_special_wor_monster(data):
 	list_wor = []
-	val = ["name", "requires", "skillList", "perks", "Fetishes","ItemDropList", "lossScenes", "victoryScenes"]
+	val = ["name", "requires", "skillList", "perks", "Fetishes","ItemDropList", "lossScenes", "victoryScenes", "combatDialogue"]
 	
 	list_wor.append(data["name"]) if get_name_root(data, "name") else None
 	list_wor.append(f"Random {data['name']}") if get_name_root(data, "name") else None
@@ -91,6 +91,16 @@ def get_special_wor_monster(data):
 			for a in range(len(data[tag])):
 				b = data[tag][a]
 				
+				if tag == "combatDialogue":
+					for b in range(len(data[tag])):
+						text = data[tag][b]["move"]
+						if type(text) != list:
+							list_wor.append(text) if get_name_root(data[tag][b], "move") else None
+						for c in data[tag][b]["move"]:
+							text = data[tag][b]["move"][c]
+							list_wor.append(text) if get_name_root(data[tag][b]["move"], c) else None
+
+
 				list_wor.append(b["name"]) if get_name_root(b, "name") else None
 				list_wor.append(f"Random {b['name']}") if get_name_root(b, "name") else None
 				

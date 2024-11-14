@@ -61,13 +61,14 @@ list_of_proxies = {
 def recharge_construct():
 	global translator
 	num_random = random.randint(0, len(list_of_proxies)-1)
-	print(list_of_proxies[str(num_random)][0], list_of_proxies[str(num_random)][1])
 	translator = Translator(
 				user_agent="Mozilla/5.0 (U; Linux i581 x86_64) Gecko/20100101 Firefox/52.6",
 				proxies = {
 					list_of_proxies[str(num_random)][0]: list_of_proxies[str(num_random)][1]
 					}
 			)
+	print("Proxy actual: ", translator.client.proxies)
+	create_debug(translator.client.proxies)
 	
 
 def get_paths(folder):
@@ -116,7 +117,7 @@ def save_json_file(data, output_file_name):
 
 def create_debug(open_file_path = "", err = "", other_content=None):
 	with open('-Errores_debug.txt', 'a', encoding='utf-8') as f:
-		content=f"\n{open_file_path}    {other_content}\n{err}\n\n\n"
+		content=f"{open_file_path}    {other_content}\n{err}\n"
 		f.write(content)
 
 def check_brackets(text):
@@ -185,19 +186,21 @@ def manager_translation(data="", text="", n_event="", n_scene="", path="", list_
 		if check_brackets(text):
 			translated_text = correct_brackets(translated_text, text)
 		
-		data["EventText"][n_event]["theScene"][n_scene] = translated_text
-	except Exception as err:
-		aditional_data = f"Error en el evento {n_event}, escena {n_scene}: {text}, Raiz: manager_translation()\nText: {text}"
-		print(aditional_data)
-		create_debug(path, err, aditional_data)
-			
-	print(
+		print(
 		f"Name File: {path} \n",
 		f"Num File: {list_of_paths.index(path)} / {len(list_of_paths)} \n",
 		f"Event: {n_event} / {len(data['EventText'])} \n", 
 		f"SceneNum: {n_scene} / {len(data["EventText"][n_event]["theScene"])}\n", 
 		translated_text,"\n"
 		)
+
+		return translated_text
+	except Exception as err:
+		aditional_data = f"Error en el evento {n_event}, escena {n_scene}: {text}, Raiz: manager_translation()\nText: {text}"
+		print(aditional_data)
+		create_debug(path, err, aditional_data)
+		return text
+
 
 
 def get_text_events(data, path, list_of_paths):
@@ -206,28 +209,87 @@ def get_text_events(data, path, list_of_paths):
 		for b in range(len(textEvent)):
 			text = str(textEvent[b])
 			if is_dialog(text):
-				manager_translation(data=data, text=text, n_event=a, n_scene=b, path=path, list_of_paths=list_of_paths)
+				translated_text = manager_translation(data=data, text=text, n_event=a, n_scene=b, path=path, list_of_paths=list_of_paths)
+				data["EventText"][a]["theScene"][b] = translated_text
 
 def get_text_skill(data, path, list_of_paths):
-	pass
+	val = ["descrip", "outcome", "miss", "statusOutcome", "statusText"]
+	for tag in val:
+		try:
+			text = str(data[tag])
+		except:
+			text = "no"
+		if is_dialog(text):
+			translated_text = manager_translation(data=data, text=text, n_event=tag, n_scene="nothing...", path=path, list_of_paths=list_of_paths)
+			data[tag] = translated_text
 
 def get_text_monster(data, path, list_of_paths):
-	pass
+	val = ["description", "combatDialogue", "encyclopedia"] #"victoryScenes"
+	for tag in val:
+		if not (tag == "description"):
+			try:
+				if data[tag]:
+					for a in range(len(data[tag])): 
+						textEvent = data[tag][a]["theText"]
+						for b in range(len(textEvent)):
+							text = str(textEvent[b])
+							if is_dialog(text):
+								translated_text = manager_translation(data=data, text=text, n_event=a, n_scene=b, path=path, list_of_paths=list_of_paths)
+								data[tag][a]["theText"][b] = translated_text
+			except:
+				pass
+		else:
+			text = str(data[tag])
+			if is_dialog(text):
+				translated_text = manager_translation(data=data, text=text, n_event=tag, n_scene="nothing...", path=path, list_of_paths=list_of_paths)
+				data[tag] = translated_text
+
 
 def get_text_adventures(data, path, list_of_paths):
-	pass
+	try:
+		text = str(data["description"])
+		if is_dialog(text):
+			translated_text = manager_translation(data=data, text=text, n_event="description", n_scene="nothing...", path=path, list_of_paths=list_of_paths)
+			data["description"] = translated_text
+	except:
+		pass
+	
 
 def get_text_fetishes(data, path, list_of_paths):
-	pass
+	for a in range(len(data["FetishList"])): 
+		text = data["FetishList"][a]["CreationOn"]
+		text1 = data["FetishList"][a]["CreationOff"]
+		if is_dialog(text):
+			translated_text = manager_translation(data=data, text=text, n_event=a, n_scene="nothing...", path=path, list_of_paths=list_of_paths)
+			data["FetishList"][a]["CreationOn"] = translated_text
+		if is_dialog(text1):
+			translated_text = manager_translation(data=data, text=text1, n_event=a, n_scene="nothing...", path=path, list_of_paths=list_of_paths)
+			data["FetishList"][a]["CreationOff"] = translated_text
+
 
 def get_text_items(data, path, list_of_paths):
-	pass
+	val = ["descrip", "useOutcome", "useMiss"]
+	for tag in val:
+		try:
+			text = str(data[tag])
+		except:
+			text = "no"
+		if is_dialog(text):
+			translated_text = manager_translation(data=data, text=text, n_event=tag, n_scene="nothing...", path=path, list_of_paths=list_of_paths)
+			data[tag] = translated_text
 
 def get_text_locations(data, path, list_of_paths):
 	pass
 
 def get_text_perks(data, path, list_of_paths):
-	pass
+	tag = "description"
+	try:
+		text = str(data[tag])
+	except:
+		text = "no"
+	if is_dialog(text):
+		translated_text = manager_translation(data=data, text=text, n_event=tag, n_scene="nothing...", path=path, list_of_paths=list_of_paths)
+		data[tag] = translated_text
 	
 def init_translation(files_paths, func):
 	for file_path in files_paths:
@@ -259,7 +321,7 @@ def init():
 	init_translation(files_path_adventures, get_text_adventures)
 	init_translation(files_path_fetishes, get_text_fetishes)
 	init_translation(files_path_items, get_text_items)
-	init_translation(files_path_locations, get_text_locations)
+	#init_translation(files_path_locations, get_text_locations)
 	init_translation(files_path_perks, get_text_perks)
 	"""
 
