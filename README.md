@@ -1,7 +1,7 @@
 <h1> Translator MGD</h1>
 
 <h2> Description </h2>
-For now only translate the dialogues stored in X-Events(Made for this section, can be easily adapted to translate other sections). The script excludes and does not modify any other data stored in the .json other than dialogs. (Being recent it is prone to errors)
+For now only translate the dialogues stored in X-Events(Made for this section, can be easily adapted to translate other sections). The script excludes and does not modify any other data stored in the .json other than dialogs(It is not 100% effective, so sometimes it translates things that it should not translate).
 
 
 <h2> Usage notes:</h2>
