@@ -7,7 +7,7 @@ Encoding: UTF-8
 # Set InputEncoding and OutputEncoding to UTF8
 # https://learn.microsoft.com/en-us/answers/questions/213769/what-are-the-differences-between-chcp-65001-and-(c
 
-import json, os, re, random, requests
+import json, os, re, random, requests, datetime, time
 #deepl   # Import Deepl or Google Translate but do not import both at the same time
 from googletrans import Translator
 #pip install googletrans==4.0.0rc1
@@ -65,10 +65,24 @@ list_of_proxies = {
 					"20":['http','144.126.216.57:80'],
 					"21":['http','12.176.231.147:80'],
 					}
+
+latests_proxys = [0,0,0,0,0]
+
+def get_random_num_of_proxy():
+	global latests_proxys
+	while True:
+		temp_num = random.randint(0, len(list_of_proxies)-1)
+		if  temp_num not in latests_proxys[-4:]: 
+			latests_proxys.append(temp_num)
+			return temp_num
+
+def get_time():
+	return str(datetime.datetime.now().strftime("%H:%M:%S"))
+
 #googletrans
 def recharge_construct():
 	global translator
-	num_random = random.randint(0, len(list_of_proxies)-1)
+	num_random = get_random_num_of_proxy()
 	translator = Translator(
 				user_agent = "Mozilla/5.0 (Android; Android 5.1.1; SAMSUNG SM-G9350L Build/LMY47X) AppleWebKit/603.19 (KHTML, like Gecko)  Chrome/54.0.1522.302 Mobile Safari/601.0",
 				proxies = {
@@ -125,7 +139,7 @@ def save_json_file(data, output_file_name):
 
 def create_debug(open_file_path = "", err = "", other_content=None):
 	with open('-Errores_debug.txt', 'a', encoding='utf-8') as f:
-		content=f"{open_file_path}    {other_content}\n{err}\n"
+		content=f"{get_time()}: {open_file_path}{"\n" + other_content if other_content else ""} \n{err}\n"
 		f.write(content)
 
 def check_brackets(text):
@@ -141,7 +155,8 @@ def correct_brackets(text1, text2):
 		text1 = text1.replace(f'[{content1}]', f'[{content2}]')
 		return text1
 
-
+# ------------------------------------------------------------------------------------------------ #
+# ------------------------------------------------------------------------------------------------ #
 """ 
 To improve validation: Before each dialog, 
 generally, there is: a text that says "speak", 
@@ -149,6 +164,8 @@ there is a dialog, there is an emotion / expression
 (smile, etc.) (In events, I don't 
 remember if it is the same in the others).
 """
+# ------------------------------------------------------------------------------------------------ #
+# ------------------------------------------------------------------------------------------------ #
 def is_dialog(text):
     extensions = [".mp3", ".png", ".jpeg", ".ogg", ".jpg", ".wav"]
     return (
@@ -177,8 +194,25 @@ def alternative_translate_request(text, lang_src="auto", lang_out="es"):
 	except:
 		return None
 
+last_error = ""
+repeat = 0
+repeat_in_time = 0
+def check_repetitive_err(err):
+	global last_error, repeat, repeat_in_time
+	if last_error == str(err):
+		repeat+=1
+	else: 
+		repeat=0
+	last_error = str(err)
+	if repeat >= 3:
+		repeat = 0
+		return True
+	else:
+		return False
 
+#Check later: Events/MysticForest/VeneficasMilkingPet.json  Event: 17 SceneNum: 7, Raiz: translate_complex_text()
 def translate_complex_text(text, n_event, n_scene, arch):
+	global repeat, repeat_in_time
 	try:
 		partes = text.split('|f|')
 		resultado = []
@@ -192,6 +226,8 @@ def translate_complex_text(text, n_event, n_scene, arch):
 			resultado[t][1] = translator.translate(text, dest=output_lang, src=input_lang).text or text			#googletrans
 		union  = ["|n|".join(x) for x in resultado]
 		tradd ="|f|" +"|f|".join(union)
+		repeat = 0
+		repeat_in_time = 0
 		return tradd
 		
 	except Exception as err:
@@ -199,19 +235,44 @@ def translate_complex_text(text, n_event, n_scene, arch):
 		aditional_data_err = f"Event: {n_event} SceneNum: {n_scene}, Raiz: translate_complex_text()\nText: {text}"
 		create_debug(arch, err, aditional_data_err)
 		recharge_construct() #googletrans
+		if check_repetitive_err(err):
+			print("Repetive error:")
+			if repeat_in_time >= 2:
+				exit()
+			elif repeat_in_time == 1:
+				print(get_time(), "2 Minutos para reintentar")
+				time.sleep(121)
+			else:
+				print(get_time(), "30 segundos para reintentar")
+				time.sleep(31)
+			repeat_in_time =+1
 		return None
 
 def translate_simple_text(text, n_event, n_scene, arch):
+	global repeat, repeat_in_time
 	try:
 		#tradd = translator.translate_text(text=str(text), target_lang=output_lang2).text or text #Deepl
 		#tradd = alternative_translate_request(text, lang_src=input_lang, lang_out=output_lang) or text
 		tradd = translator.translate(text, dest=output_lang, src=input_lang).text or text   #googletrans
+		repeat = 0
+		repeat_in_time = 0
 		return tradd
 	except Exception as err:
 		print("Error al traducir / Error in the translation: \n", err)
 		aditional_data_err = f"\nEvent: {n_event} SceneNum: {n_scene}, Raiz: translate_simple_text()\nText: {text}"
 		create_debug(arch, err, aditional_data_err)
 		recharge_construct()  #googletrans
+		if check_repetitive_err(err):
+			print("Repetive error:")
+			if repeat_in_time >= 2:
+				exit()
+			elif repeat_in_time == 1:
+				print(get_time(), "2 Minutos para reintentar")
+				time.sleep(121)
+			else:
+				print(get_time(), "30 segundos para reintentar")
+				time.sleep(31)
+			repeat_in_time =+1
 		return None
 
 def manager_translation(data="", text="", n_event="", n_scene="", path="", list_of_paths=[]):
@@ -223,22 +284,26 @@ def manager_translation(data="", text="", n_event="", n_scene="", path="", list_
 			
 		if check_brackets(text):
 			translated_text = correct_brackets(translated_text, text)
-		
+
 		print(
 		f"Name File: {path} \n",
 		f"Num File: {list_of_paths.index(path)} / {len(list_of_paths)} \n",
-		f"Event: {n_event} / {len(data['EventText'])} \n", 
-		f"SceneNum: {n_scene} / {len(data["EventText"][n_event]["theScene"])}\n", 
+		f"Event: {n_event}\n", 
+		f"SceneNum: {n_scene}\n", 
 		translated_text,"\n"
 		)
+		# EventText no aplica a todas
+		#f"Event: {n_event} / {len(data['EventText'])} \n", 
+		#f"SceneNum: {n_scene} / {len(data["EventText"][n_event]["theScene"])}\n", 
 
 		return translated_text
+	
 	except Exception as err:
 		aditional_data = f"Error en el evento {n_event}, escena {n_scene}: {text}, Raiz: manager_translation()\nText: {text}"
 		print(aditional_data)
 		create_debug(path, err, aditional_data)
 		return text
-
+	
 
 
 def get_text_events(data, path, list_of_paths):
@@ -343,16 +408,18 @@ def init_translation(files_paths, func):
 				data = open_json_file(open_file_path)
 				func(data, file_path, files_paths)
 				save_json_file(data, save_file_path)
+				
 			except Exception as e:
 				print(f'\n\nError en el archivo : {open_file_path} ...',e)
 				aditional_data = "Raiz: init_translation()"
 				create_debug(open_file_path, e, aditional_data)
+			
 		else:
 			print("Archivo existente")
 
 def init():
 	init_translation(files_path_events, get_text_events)
-	"""
+	
 	init_translation(files_path_skill, get_text_skill)
 	init_translation(files_path_monster, get_text_monster)
 	init_translation(files_path_adventures, get_text_adventures)
@@ -360,7 +427,7 @@ def init():
 	init_translation(files_path_items, get_text_items)
 	#init_translation(files_path_locations, get_text_locations)
 	init_translation(files_path_perks, get_text_perks)
-	"""
+	
 
 init()
 	  	  
