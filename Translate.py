@@ -148,13 +148,25 @@ def check_brackets(text):
     
 def correct_brackets(text1, text2):
 	#Ensure that the content in brackets is the same as the original
-	content1_list = re.findall(r'\[(.*?)\]', text1)
-	content2_list = re.findall(r'\[(.*?)\]', text2)
+	content1_list = re.findall(r'\[(.*?)\]', text1) #Translated
+	content2_list = re.findall(r'\[(.*?)\]', text2) #Origin
 	
 	for content1, content2 in zip(content1_list, content2_list):
 		text1 = text1.replace(f'[{content1}]', f'[{content2}]')
-		return text1
+	return text1
 
+def check_curly_bracket(text):
+	# Check if it has [ ]
+    return True if re.search(r'[\{\}]', text) else False
+
+def correct_curly_bracket(text1, text2):
+	#Ensure that the content in brackets is the same as the original
+	content1_list = re.findall(r'\{(.*?)\}', text1) #Translated
+	content2_list = re.findall(r'\{(.*?)\}', text2) #Origin
+	
+	for content1, content2 in zip(content1_list, content2_list):
+		text1 = text1.replace("{"+content1+"}", "{"+str(content2).lower()+"}")
+	return text1
 # ------------------------------------------------------------------------------------------------ #
 # ------------------------------------------------------------------------------------------------ #
 """ 
@@ -169,7 +181,7 @@ remember if it is the same in the others).
 def is_dialog(text):
     extensions = [".mp3", ".png", ".jpeg", ".ogg", ".jpg", ".wav"]
     return (
-        " " in text
+        " " in text and len(text) >= 2
         and all(ext not in text for ext in extensions)
         and text.replace("\'", "") not in special_words
     )
@@ -223,7 +235,8 @@ def translate_complex_text(text, n_event, n_scene, arch):
 			text = resultado[t][1]
 			#resultado[t][1] = translator.translate_text(text=str(text), target_lang=output_lang2).text or text     #deepl
 			#resultado[t][1] = alternative_translate_request(text, lang_src=input_lang, lang_out=output_lang) or text
-			resultado[t][1] = translator.translate(text, dest=output_lang, src=input_lang).text or text			#googletrans
+			if type(text) == str and len(text) >= 3:
+				resultado[t][1] = translator.translate(text, dest=output_lang, src=input_lang).text or text			#googletrans
 		union  = ["|n|".join(x) for x in resultado]
 		tradd ="|f|" +"|f|".join(union)
 		repeat = 0
@@ -277,13 +290,16 @@ def translate_simple_text(text, n_event, n_scene, arch):
 
 def manager_translation(data="", text="", n_event="", n_scene="", path="", list_of_paths=[]):
 	try:
-		if is_complex_text(text):
-			translated_text = translate_complex_text(text, n_event, n_scene, path) or text
-		else:
+		if not(is_complex_text(text)) and type(text) == str and len(text) >= 3:
 			translated_text = translate_simple_text(text, n_event, n_scene, path) or text
+		else:
+			translated_text = translate_complex_text(text, n_event, n_scene, path) or text
 			
 		if check_brackets(text):
 			translated_text = correct_brackets(translated_text, text)
+
+		if check_curly_bracket(text):
+			translated_text = correct_curly_bracket(translated_text, text)
 
 		print(
 		f"Name File: {path} \n",
