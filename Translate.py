@@ -186,8 +186,25 @@ def is_dialog(text):
         and text.replace("\'", "") not in special_words
     )
 
+
+# ------------------------------------------------------------------------------------------------ #
+# ------------------------------------------------------------------------------------------------ #
+""" 
+You could also translate everything and then do a 
+replace() of what should not remain the same... 
+similar to correct_brackets(), this looks simpler
+"""
+# ------------------------------------------------------------------------------------------------ #
+# ------------------------------------------------------------------------------------------------ #
 def is_complex_text(text):
 	return "|f|" in text
+	# Example:
+	"""
+	|f|ChangeImageLayer|/|Expression|/|1|/|Shy|n|Ah... Maybe I set 
+	you down the road to total fishing addiction... |f|ChangeImageLayer
+	|/|Expression|/|1|/|Excited|n|Well, as long as you're having fun, 
+	it's fine... Just remember to take breaks! Even I do.
+	"""
 
 def alternative_translate_request(text, lang_src="auto", lang_out="es"):
 	response = requests.post("https://trans.zillyhuhn.com/translate", 
@@ -308,7 +325,7 @@ def manager_translation(data="", text="", n_event="", n_scene="", path="", list_
 		f"SceneNum: {n_scene}\n", 
 		translated_text,"\n"
 		)
-		# EventText no aplica a todas
+		# EventText no aplica a todas / no apply to all
 		#f"Event: {n_event} / {len(data['EventText'])} \n", 
 		#f"SceneNum: {n_scene} / {len(data["EventText"][n_event]["theScene"])}\n", 
 
@@ -409,8 +426,10 @@ def get_text_perks(data, path, list_of_paths):
 	if is_dialog(text):
 		translated_text = manager_translation(data=data, text=text, n_event=tag, n_scene="nothing...", path=path, list_of_paths=list_of_paths)
 		data[tag] = translated_text
+
+temp_list_folder_ok = []
+def init_translation(files_paths, func, folder):
 	
-def init_translation(files_paths, func):
 	for file_path in files_paths:
 		open_file_path = f"./{file_path}"
 		save_file_path = f"./ES/{file_path}"
@@ -432,17 +451,21 @@ def init_translation(files_paths, func):
 			
 		else:
 			print("Archivo existente")
+	os.system("cls")
+	temp_list_folder_ok.append("Section: "+ folder + " is OK\n")
+	print("".join(temp_list_folder_ok))
+	time.sleep(3)
+		
 
 def init():
-	init_translation(files_path_events, get_text_events)
-	
-	init_translation(files_path_skill, get_text_skill)
-	init_translation(files_path_monster, get_text_monster)
-	init_translation(files_path_adventures, get_text_adventures)
-	init_translation(files_path_fetishes, get_text_fetishes)
-	init_translation(files_path_items, get_text_items)
+	init_translation(files_path_events, get_text_events, "events")
+	init_translation(files_path_skill, get_text_skill, "skill")
+	init_translation(files_path_monster, get_text_monster, "monster")
+	init_translation(files_path_adventures, get_text_adventures, "adventures")
+	init_translation(files_path_fetishes, get_text_fetishes, "fetishes")
+	init_translation(files_path_items, get_text_items, "items")
 	#init_translation(files_path_locations, get_text_locations)
-	init_translation(files_path_perks, get_text_perks)
+	init_translation(files_path_perks, get_text_perks, "perks")
 	
 
 init()
