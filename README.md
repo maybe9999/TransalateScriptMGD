@@ -59,6 +59,24 @@ Related:
 
 - Instead of translating dialogue by dialogue, can translate groups of dialogues (It would greatly reduce the time required) </br>
 
+I imagined something like this, although there are surely better ways to do it, but the logic would be more or less that:
+```
+a = [["position of the text in the .json", "Translated text" ,"original text"]]
+temp_text = ""
+
+for b in a:
+    temp_text = temp_text+b[-1]+" .-|----|- "
+
+c = translate(temp_text).split(" .-|----|- ")
+
+for g in range(len(c)):
+    a[g][-2] = c[a]
+
+json[a[0]] = a[0][-2]
+```
+
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Any suggestion, collaboration or constructive comment is welcome. If you see any flaws or where there is point for improvement, please comment...
