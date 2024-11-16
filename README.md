@@ -11,13 +11,21 @@ Translate the dialogues stored in Json. The script excludes and does not modify 
 pip install googletrans==4.0.0rc1
 ```
 2) Windows: Open CMD and run "chcp 65001" in the console.
-
+```
+chcp 65001
+```   
 3) Run "getSpecialWord.py". This will generate a txt file needed for text filtering.
-
-4) Start the translation by running "Translate.py". (It will only translate x-Events for now, the translation library may generate errors).
-
-5) Check if everything was translated correctly by running "isTranslated.py".
-
+```
+python getSpecialWord.py
+```
+5) Start the translation by running "Translate.py". (It will only translate x-Events for now, the translation library may generate errors).
+```
+python Translate.py
+```
+7) Check if everything was translated correctly by running "isTranslated.py". (this is not necessary...)
+```
+python isTranslated.py
+```
 
 <h2> Solutions to problem with googletrans:</h2>
 When translating, an error is sometimes generated due to the googletrans library.
@@ -52,5 +60,6 @@ Related:
 - Instead of translating dialogue by dialogue, can translate groups of dialogues (It would greatly reduce the time required) </br>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Any suggestion, collaboration or constructive comment is welcome. If you see any flaws or where there is point for improvement, please comment...
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
