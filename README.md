@@ -53,7 +53,7 @@ Related:
 
 <h2> Negative points: </h2>
 
-- It takes approximately 8-12 hours to translate all of X Events, the other sections make the time even longer.... (Needs optimization, I probably won't, but if you don't want to wait you can modify the script and make a pull request)</br>
+- It takes approximately 8-12 hours to translate all of X Events, the other sections make the time even longer.... (It needs optimization, I probably won't do it, but if you don't want to wait so long for everything to be translated you can modify the script and make a pull request)</br>
 
 <h2> Solutions</h2>
 
