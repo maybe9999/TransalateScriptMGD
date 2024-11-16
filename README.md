@@ -7,9 +7,9 @@ Translate the dialogues stored in Json. The script excludes and does not modify 
 <h2> Usage notes:</h2>
 
 1) Install:
-"""
+```
 pip install googletrans==4.0.0rc1
-"""
+```
 2) Windows: Open CMD and run "chcp 65001" in the console.
 
 3) Run "getSpecialWord.py". This will generate a txt file needed for text filtering.
