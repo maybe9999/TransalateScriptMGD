@@ -4,7 +4,7 @@
 Translate the dialogues stored in Json. The script excludes and does not modify any other data stored in the .json other than dialogs(Not 100% tested).
 
 
-<h2> Usage notes:</h2>
+<h2> installation and use:</h2>
 
 1) Install:
 ```
