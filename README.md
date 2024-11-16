@@ -45,17 +45,12 @@ Related:
 
 <h2> Negative points: </h2>
 
-- It takes approximately 8-12 hours to translate all of X Events. (Needs optimization)</br>
-
-- There are certain dialogues that due to errors in the code or translation errors, not everything is translated and remains as it was originally.</br>
+- It takes approximately 8-12 hours to translate all of X Events, the other sections make the time even longer.... (Needs optimization, I probably won't, but if you don't want to wait you can modify the script and make a pull request)</br>
 
 <h2> Solutions</h2>
 
-- Instead of translating dialogue by dialogue, you can translate groups of dialogues (It would greatly optimize the time required), I will implement it later. </br>
+- Instead of translating dialogue by dialogue, can translate groups of dialogues (It would greatly reduce the time required) </br>
 
-- A script to analyze dialogs that remain the same between the translated file and the original. if a == b: print("Translation error"), Those specific parts would be translated.</br>
-
-
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 Any suggestion, collaboration or constructive comment is welcome. If you see any flaws or where there is point for improvement, please comment...
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------
