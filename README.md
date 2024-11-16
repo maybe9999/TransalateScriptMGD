@@ -1,10 +1,10 @@
 <h1> Translator MGD</h1>
 
 <h2> Description </h2>
-Translate the dialogues stored in Json. The script excludes and does not modify any other data stored in the .json other than dialogs(Not 100% tested).
+Translate the dialogues stored in Json. The script excludes and does not modify any other data stored in the .json other than dialogs (Not 100% tested).
 
 
-<h2> installation and use:</h2>
+<h2> Installation and use:</h2>
 
 1) Install:
 ```
