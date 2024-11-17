@@ -1,0 +1,65 @@
+{
+    "name": "Wandering Oni Twins of Terror",
+    "CardType": "Event",
+    "CardLimit": "1",
+    "Description": "The dreaded oni sisters Himika and Mizuko, who share the role of one of the Demon Queen's commanders, patrol the hallways of this place together...",
+    "requires": [
+        "Sigil Of Will-Power"
+    ],
+    "requiresEvent": [
+        {
+            "NameOfEvent": "The Terrifying Oni Twins",
+            "Progress": "0",
+            "ChoiceNumber": "1",
+            "Choice": "ClearedLabyMatch"
+        }
+    ],
+    "Speakers": [
+        {
+            "name": "Mizuko",
+            "postName": "",
+            "SpeakerType": "Monster"
+        },
+        {
+            "name": "Himika",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Fight both!",
+            "theScene": [
+                "GetEventAndSetChoice",
+                "Will-Power Final Boss",
+                "5",
+                "",
+                "ChangeBG",
+                "templeMainHall.png",
+                "En un instante, desde los corredores negros sin rasgos del laberinto de Umbral, de repente te encuentras en las profundidades abiertas en forma de arena del templo, el anillo familiar adornado a cada lado con un par revelador de pilares grandes, uno rojo, uno azul.",
+                "DisplayCharacters",
+                "1",
+                "2",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "Himika",
+                "Cocky",
+                "ChangeImageLayer",
+                "Expression",
+                "Mizuko",
+                "Smug",
+                "Himika y Mizuko están de pie en el centro de la arena, ya que claramente han estado esperando su llegada.A juzgar por sus expresiones cachondas y hambrientas, definitivamente no están interesados ​​en hablar, ¡así que inmediatamente te preparas para la batalla cuando la puerta se cerró detrás de ti!",
+                "CombatEncounter",
+                "RunningWontSkipEvent",
+                "NoRunning",
+                "Mizuko",
+                "Himika",
+                "StartCombat",
+                "ChangeBG",
+                "dungeon.png",
+                "Con las derrotas climáticas de Mizuko y Himika, eres libre de reanudar tu aventura y seguir explorando los salones oscuros del laberinto ..."
+            ]
+        }
+    ]
+}
