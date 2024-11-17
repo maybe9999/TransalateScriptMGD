@@ -1,0 +1,47 @@
+{
+    "name": "Gold Rune",
+    "itemType": "Rune",
+    "cost": "20000",
+    "descrip": "Una runa brillante e intrincada entrelazada con oro, esta espléndida pieza artística tiene un alto valor de venta, y si se usa, aumenta las ganancias de Eros en un 25%.",
+    "requires": [
+        ""
+    ],
+    "perks": [
+        "Golden Gleam"
+    ],
+    "hp": "0",
+    "ep": "0",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "0",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "useOutcome": "",
+    "useMiss": ""
+}

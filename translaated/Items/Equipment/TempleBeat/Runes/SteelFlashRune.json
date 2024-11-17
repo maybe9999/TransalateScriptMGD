@@ -1,0 +1,47 @@
+{
+    "name": "Steel Flash Rune",
+    "itemType": "Rune",
+    "cost": "1000",
+    "descrip": "Una runa brillante de acero plegado puro.Reduce la excitación tomada en un 2%, aumenta la fuerza de voluntad y la técnica en 2.",
+    "requires": [
+        "Sigil Of Will-Power"
+    ],
+    "perks": [
+        "SteelFlashRune"
+    ],
+    "hp": "0",
+    "ep": "0",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "2",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "2",
+    "Luck": "0",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "useOutcome": "",
+    "useMiss": ""
+}

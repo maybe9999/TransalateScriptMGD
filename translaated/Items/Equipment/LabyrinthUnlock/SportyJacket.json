@@ -1,0 +1,47 @@
+{
+    "name": "Stylish Jacket",
+    "itemType": "Accessory",
+    "cost": "5000",
+    "descrip": "Un aspecto duro, deportivo y elegante, aunque bastante extraño, probablemente hecho de materiales especiales e infundidos con magia.Aumenta la tecnología por 15, iniciativa por 5 y Max Energy por 50.",
+    "requires": [
+        "Labyrinth Checkpoint Gem"
+    ],
+    "perks": [
+        "Sporty Clothes"
+    ],
+    "hp": "0",
+    "ep": "50",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "15",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "0",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "useOutcome": "",
+    "useMiss": ""
+}
