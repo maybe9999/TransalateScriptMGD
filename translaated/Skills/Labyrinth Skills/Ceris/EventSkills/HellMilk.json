@@ -1,0 +1,57 @@
+{
+    "name": "HellMilk",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Allure",
+    "requiredStat": "7",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "Titfuck",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Titfuck",
+        "Blowjob",
+        "Making Out",
+        "Breast Smother",
+        "Nursing"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "150",
+    "statusDuration": "11",
+    "statusPotency": "15",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "OrgasmCheck",
+    "miss": "",
+    "statusOutcome": "[AttackerName] usa enredaderas [AttackerHisOrHer], restringiendo [TargetYouOrMonsterName] a medida que comienzan a atraer [TargetYouOrMonsterName] hacia [AttackerHisOrHer]![AttackerName] te acerca y envuelve tu polla rígida entre sus acres de escote antes de verter néctar sobre sus senos.",
+    "statusMiss": "[AttackerName] uses [AttackerHisOrHer] vines, restraining [TargetYouOrMonsterName] as they start to pull [TargetYouOrMonsterName] towards [AttackerHisOrHer], but [TargetYouOrMonsterName] manages to resist, tearing off [AttackerHisOrHer] vines as [TargetYouOrMonsterName] backs away!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

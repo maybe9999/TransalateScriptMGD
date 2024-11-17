@@ -1,0 +1,53 @@
+{
+    "name": "Absolute Umbral Territory",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "attack",
+    "statType": "Intelligence",
+    "requiredStat": "6",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Legs"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "75",
+    "statusDuration": "5",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Ushris se ríe suavemente mientras presiona firmemente sus lujosos muslos, girando sus caderas suavemente mientras muestra la suavidad de sus piernas almohadas, corriendo en torsión sus garras sobre la piel flexible, mostrando cada parte tentadora de carne a [TargetName].",
+    "miss": "Ushris se ríe suavemente mientras presiona firmemente sus lujosos muslos, girando sus caderas suavemente mientras muestra la suavidad de sus piernas almohadas, pero [TargetName] logra ignorar [AttackerHisOrHer] exhibición sexy.",
+    "statusOutcome": "¡La cabeza [TargetName] se queda girando con un deseo caliente de la tentadora pantalla de [AttackerName]![TargetName] está encantado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

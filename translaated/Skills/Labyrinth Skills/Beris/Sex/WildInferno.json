@@ -1,0 +1,54 @@
+{
+    "name": "Wild Inferno",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Pain"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "20",
+    "targetType": "3Hits",
+    "statusEffect": "Stun",
+    "statusChance": "5",
+    "statusDuration": "2",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] sonríe agresivamente mientras cabalga salvajemente la polla de [TargetName], golpeando sus caderas curvas con toda velocidad y forzar su forma poderosa y en forma puede reunir, enviando ondas de choque rápidas y resonantes de placer a través de [TargetName] ''¡S TODA LA CINTURA EN LA Sucesión rápida!",
+    "miss": "[AttackerName] sonríe agresivamente mientras monta la polla de [TargetName], pero [TargetHeOrShe] no parece afectada!",
+    "statusOutcome": "¡El ritmo frenético de los columpios de cadera dominante de Beris deja a los aturdidos y atónitos de [TargetName]!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

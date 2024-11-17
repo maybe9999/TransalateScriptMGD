@@ -1,0 +1,63 @@
+{
+    "name": "Opulent Kiss",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "50",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction",
+        "Mouth"
+    ],
+    "fetishTags": [
+        "Kissing",
+        "Breasts"
+    ],
+    "startsStance": "",
+    "requiresStance": "Making Out",
+    "unusableIfStance": [
+        "Blowjob",
+        "Face Sit",
+        "Footjob",
+        "Titfuck",
+        "Thighjob",
+        "Footjob",
+        "Sex",
+        "Anal"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Face Sit"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "999",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Besa a tu oponente.",
+    "outcome": "Iabel se balancea sensualmente su voluptuoso cuerpo como se distingue cariñosamente con usted, mastando sus anchas caderas contra usted, frotando y sacudiendo sus abundantes tetas contra su pecho como si estuviera bailando con usted mientras plantaba besos húmedos sobre su cara entre los que teñir con sulengua, dejando tu mente girando con una dicha seductora.",
+    "miss": "Iabel influye sensualmente su voluptuoso cuerpo como ella se hace cariñosamente contigo, pero [TargetHeOrShe] logra soportar el placer de girar la mente.",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|IabelCombatEvents|/|KissStack|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

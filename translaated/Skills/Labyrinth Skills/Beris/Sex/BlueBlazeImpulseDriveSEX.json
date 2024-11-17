@@ -1,0 +1,53 @@
+{
+    "name": "Blue Blaze Impulse Drive - SEX",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "requiredStat": "6",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "15",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "999",
+    "statusDuration": "5",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|BlueBlazeImpulseDriveSEX|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

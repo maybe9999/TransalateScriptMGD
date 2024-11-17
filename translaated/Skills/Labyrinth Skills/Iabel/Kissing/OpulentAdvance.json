@@ -1,0 +1,53 @@
+{
+    "name": "Opulent Advance",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "50",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth"
+    ],
+    "fetishTags": [
+        "Kissing"
+    ],
+    "startsStance": "Making Out",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "15",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "999",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Comienza a besarte con un oponente.",
+    "outcome": "Iabel deja escapar un bajo silbido de advertencia y un deslizamiento balanceado antes de que ella te establezca con una ráfaga repentina de velocidad, moviéndose con suave gracia depredadora, cerrando la distancia en un instante para presionar su lujosa forma contra ti con un ronroneo, envolviendo sus brazos.A su alrededor para atraparte mientras ella te obliga a un beso profundo y aturdidor.",
+    "miss": "Isabel deja escapar un bajo silbido de advertencia y un deslizamiento balanceado antes de que ella te establezca con una repentina explosión de velocidad, ¡pero [TargetName] logra eludir el alcance de [AttackerName]!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|IabelCombatEvents|/|KissStack|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

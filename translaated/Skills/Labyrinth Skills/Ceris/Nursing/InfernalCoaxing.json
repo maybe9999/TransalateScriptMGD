@@ -1,0 +1,57 @@
+{
+    "name": "Infernal Coaxing",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "7",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "",
+    "requiresStance": "Nursing",
+    "unusableIfStance": [
+        "Titfuck",
+        "Blowjob",
+        "Making Out",
+        "Breast Smother"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "15",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "150",
+    "statusDuration": "10",
+    "statusPotency": "20",
+    "statusResistedBy": "Willpower",
+    "statusText": "aphrodisiac",
+    "descrip": "",
+    "outcome": "Mientras susurra afirmaciones dulces y seductoras, Ceris acaricia amorosamente la parte posterior de la cabeza con una poderosa garra, y te lames y chupas ansiosamente su pezón pert., Dibujando un brote después de chocar con leche cremosa para tragar, llenando tu cabeza con un ardiente necesitadobruma.",
+    "miss": "Mientras susurran afirmaciones dulces y seductoras, Ceris acaricia amorosamente la parte posterior de la cabeza con una poderosa garra, ¡pero [TargetHeOrShe] logra soportar la tentación y no beber ninguna leche!",
+    "statusOutcome": "Los efectos de la crema cómodamente cálida llenan lentamente cada parte del cuerpo de [TargetName] con deseo sexual pulsante y necesitado, persuadiéndole para beber aún más.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

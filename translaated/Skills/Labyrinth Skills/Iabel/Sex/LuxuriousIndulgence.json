@@ -1,0 +1,57 @@
+{
+    "name": "Luxurious Indulgence",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob",
+        "Breast Smother",
+        "Nursing"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "50",
+    "statusDuration": "11",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Iabel mantiene sus senos completos presionados contra ti mientras ella se balancea sensualmente y gira sus caderas, masajeando tu erección rígida desde todos los ángulos a medida que su exquisito coño se aprieta y se agita de manera experta en un baile seductor constante que se siente completamente diferente con cada giro meloso y batido de su cintura.Mientras trabaja para domesticar tu palidez de la virilidad.",
+    "miss": "Iabel mantiene sus senos completos presionados contra usted mientras ella se balancea sensualmente y gira sus caderas, masajeando su erección rígida desde todos los ángulos a medida que su exquisito coño aprieta y se agita de manera experta, ¡pero [TargetName] soporta las burlas sexuales!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|IabelCombatEvents|/|SexCharmStack|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

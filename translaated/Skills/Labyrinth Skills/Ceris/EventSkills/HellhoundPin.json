@@ -1,0 +1,54 @@
+{
+    "name": "HellhoundPin",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Power",
+    "statusEffectScaling": "25",
+    "requiredStat": "7",
+    "skillTags": [
+        "Pain"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Restrain",
+    "statusChance": "95",
+    "statusDuration": "0",
+    "statusPotency": "25",
+    "statusResistedBy": "Technique",
+    "statusText": "pinned",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] cae a cuatro patas antes de saltar a [TargetName]![AttackerName] aterriza en el cofre de [TargetName], sujetando a [TargetHimOrHer] al suelo!",
+    "statusMiss": "[AttackerName] drops down onto all fours before leaping at [TargetName], but [TargetHeOrShe] sidesteps, causing [AttackerHisOrHer] to miss!",
+    "restraintStruggle": "[TargetName] struggles against [AttackerName]'s powerful body bearing down on [TargetHimOrHer], her heavy claws pinning [TargetHisOrHer] hands while her plush, muscular curves weight presses down on the rest of [TargetHimOrHer]...",
+    "restraintStruggleCharmed": "[TargetName] weakly struggles against [AttackerName]'s powerful, seductive curves bearing down on [TargetHimOrHer], her heavy claws pinning [TargetHisOrHer] hands while her hot, muscular body weight lewdly presses down on the rest of [TargetHimOrHer]...",
+    "restraintEscaped": "[TargetName] manages to shove [AttackerName]'s back enough to break her opressive interlocking hold! But her [SexWord] is still firmly engulfing [TargetName]'s rigid cock.",
+    "restraintEscapedFail": "But [TargetName] can only manage to weakly push back against [AttackerName]'s overwhelming hold, and she growls in increased desire at [TargetHisOrHer] seemingly futile struggle!"
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Imperious Captivation",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Penetration",
+        "Breasts"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob",
+        "Breast Smother",
+        "Nursing"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "requiresOnePerk": [
+        "Gilded Captivation",
+        "Gilded Enchantment"
+    ],
+    "power": "55",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "100",
+    "statusDuration": "11",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Iabel deja escapar un suspiro lánguido mientras mantiene sus caderas quietas, dejando que su rostro acaricia brevemente entre su escote celestial para que pueda sofocarse mientras su coño divino masajea cariñosamente cada parte de su polla dolorida con derretimiento de la mente, apretones de agitaciones, coaxiUsted para empujar con superficie hacia ella, mientras ella perezosamente le rompe la parte posterior de la cabeza cariñosamente, erosionando su resistencia a su cuerpo encantador.",
+    "miss": "Hundes con avidez tus dedos en el grueso trasero de Iabel mientras te inclinas en su lujoso seno, aprovechando tu agarre en su lujosa trasera para ayudarte en tu ansioso y obediente balanceo de cadera, ¡pero logras soportar la dicha sexual auto infligida!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|IabelCombatEvents|/|Sex2CharmStack|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

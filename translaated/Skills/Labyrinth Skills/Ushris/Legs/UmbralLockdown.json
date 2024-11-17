@@ -1,0 +1,58 @@
+{
+    "name": "Umbral Lockdown",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "100",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "4",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Legs"
+    ],
+    "startsStance": "",
+    "requiresStance": "Thighjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Blowjob",
+        "Titfuck",
+        "Footjob",
+        "Tailjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Paralyzed"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "75",
+    "statusDuration": "5",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Las cadenas sombrías que lo unen se ajustan mientras Ushris susurra con una voz burlona, ​​moliendo y balanceándose las caderas para bombear su polla sacudida con sus piernas almohadas, dejando que sus dedos aprecien completamente su culo regordete mientras se ve obligado a apretarla, elEl calor cálido de su cuerpo ágil que se filtra en tu bit a un poco llenándote de placer.",
+    "miss": "Las cadenas sombrías que te unen se ajustan mientras Ushris te susurra con una voz burlona, ​​moliendo y balanceando sus caderas para bombear tu polla sacudida con sus piernas almohadas, pero [TargetHeOrShe] logra para soportar el placer que rodea [TargetHisOrHer] Manuez.",
+    "statusOutcome": "Te quedas mareado y dolorosamente cachondo en este apretado abrazo, encantado y ansioso por más.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,55 @@
+{
+    "name": "PetrifiedBJ",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Oral"
+    ],
+    "startsStance": "",
+    "requiresStance": "Blowjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Blowjob"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Chupar Dick más profundo.",
+    "outcome": "[AttackerName] tira de la polla de [TargetName] profundamente en su boca y se burla de la longitud [TargetHisOrHer] con una lengua hábil.",
+    "miss": "[TargetName] aprieta los dientes para resistir el placer de la boca de [AttackerName] tomando [TargetHisOrHer] de longitud más profunda y profunda.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

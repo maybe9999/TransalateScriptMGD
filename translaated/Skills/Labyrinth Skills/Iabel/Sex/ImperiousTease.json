@@ -1,0 +1,57 @@
+{
+    "name": "Imperious Tease",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob",
+        "Breast Smother",
+        "Nursing"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "50",
+    "statusDuration": "11",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Iabel lánguidamente mantiene su cintura quieta por el momento, simplemente dejando que su coño divino se aprieta con fuerza y ​​masajea cada parte de su dolor de polla por sí misma, el lujoso interior golpeando con precisión sus puntos más sensibles mientras mantiene su punta besando su matriz, todo el tiempo.Ella perezosamente rompe la parte posterior de tu cabeza cariñosamente, atrayendo tu virilidad para permanecer en su abrazo celestial.",
+    "miss": "Iabel mantiene sus senos completos presionados contra usted mientras ella se balancea sensualmente y gira sus caderas, masajeando su erección rígida desde todos los ángulos a medida que su exquisito coño aprieta y se agita de manera experta, ¡pero [TargetName] soporta las burlas sexuales!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|IabelCombatEvents|/|SexCharmStack|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

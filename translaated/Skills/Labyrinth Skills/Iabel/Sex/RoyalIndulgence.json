@@ -1,0 +1,61 @@
+{
+    "name": "Royal Indulgence",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob",
+        "Breast Smother",
+        "Nursing"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "requiresOnePerk": [
+        "Gilded Captivation",
+        "Gilded Enchantment"
+    ],
+    "power": "55",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "100",
+    "statusDuration": "11",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Hundes con avidez tus dedos en el grueso trasero de Iabel mientras te inclinas en su lujoso seno, aprovechando tu agarre en su lujosa trasera para ayudarte en tu ansioso y obediente balanceo de la cadera, gimiendo descuidadamente de tu virilidad empujando a su coño divino.La diosa serpentina sisee la aprobación de su cautivación mientras actúas como su consolador real personal, rastreando la cabeza de tu cabeza con las uñas para instarte.",
+    "miss": "Hundes con avidez tus dedos en el grueso trasero de Iabel mientras te inclinas en su lujoso seno, aprovechando tu agarre en su lujosa trasera para ayudarte en tu ansioso y obediente balanceo de cadera, ¡pero logras soportar la dicha sexual auto infligida!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|IabelCombatEvents|/|Sex2CharmStack|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

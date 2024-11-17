@@ -1,0 +1,53 @@
+{
+    "name": "Lust Blaze",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "500",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "10",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "30",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "50",
+    "statusDuration": "6",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] teje los brazos y las piernas en movimientos acrobáticos mientras las llamas azules envuelven sus extremidades antes de enviar un aumento de fuego erótico placentero que inunda el cuerpo de [TargetName] con el calor pulsante necesitado mientras lame [TargetHimOrHer] en una caricia extraña.",
+    "miss": "[AttackerName] teje los brazos y las piernas en movimientos acrobáticos mientras las llamas azules envían sus extremidades antes de enviar una oleada de fuego erótico placentero, [TargetHeOrShe] evita hábilmente el infierno mágico!",
+    "statusOutcome": "La mente de [TargetName] gira con la lujuria vertiginosa de las llamas disipadoras, dejando [TargetHimOrHer] extrañamente encantada!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

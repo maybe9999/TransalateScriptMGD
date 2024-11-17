@@ -1,0 +1,53 @@
+{
+    "name": "Lust Inferno",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "500",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "10",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "45",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "65",
+    "statusDuration": "6",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] teje sus delgados brazos y piernas con movimientos acrobáticos rápidos, las llamas azules girando sobre su sudor desnuda resbaladiza antes de enviar la ardiente oleada de fuego erótico placentero que se desborda a través del cuerpo de [TargetName] con un calor pulsante necesitado en un retorcedor inferno infernoMientras lame y se burla de [TargetHimOrHer] en una mentalidad que derrite la caricia.",
+    "miss": "[AttackerName] teje sus delgados brazos y piernas en movimientos acrobáticos rápidos, las llamas azules que se torcían a través de su sudor desnuda resbaladiza antes de enviar el ardiente oleaje de fuego erótico placentero, [TargetHeOrShe] evita hábilmente el infierno mágico!",
+    "statusOutcome": "La mente de [TargetName] gira con la lujuria vertiginosa de las llamas disipadoras, dejando [TargetHimOrHer] extrañamente encantada!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

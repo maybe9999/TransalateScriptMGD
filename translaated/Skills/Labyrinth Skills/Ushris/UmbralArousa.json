@@ -1,0 +1,57 @@
+{
+    "name": "Umbral Arousa",
+    "cost": "20",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "2500",
+    "skillType": "attack",
+    "statType": "Intelligence",
+    "requiredStat": "40",
+    "statusEffectScaling": "25",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "requiresPerk": [],
+    "requiresOnePerk": [],
+    "unusableIfPerk": [],
+    "power": "35",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "25",
+    "statusDuration": "10",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Poderoso magia erótica que despierta a tu objetivo.Puede encantar.",
+    "outcome": "[AttackerName] levanta una mano monstruosa con garras para apuntar hacia [TargetName], generando una masa retorcida de mágica verde y negro siniestra que al llenar toda su palma, dispara el orbe pulsante y crepitante en [TargetName], que está atrapada en sus pecaminososSeductive explosto, dejando [TargetHimOrHer] temblando y jadeando cuando el placer de fechón caliente aumenta a través de [TargetHisOrHer] todo el cuerpo en ondas rebotadas.",
+    "miss": "[AttackerName] levanta una mano monstruosa con garras para apuntar hacia [TargetName], generando una masa retorcida de mágica ominosa verde y negra que al llenar toda su palma, dispara el orbe pulsante y crepitante en [TargetName], pero [TargetHeOrShe] evita estrechamente¡él!",
+    "statusOutcome": "¡Las réplicas del hechizo perverso envían dolor de calor doloroso y encantador a través de [TargetName], y [TargetHisOrHer] Procos con el deseo encantado de atenciones de [AttackerName]!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}
