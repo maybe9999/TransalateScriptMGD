@@ -1,0 +1,54 @@
+{
+    "name": "Multi Thrust",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "20",
+    "skillTags": [
+        "Penetration"
+    ],
+    "fetishTags": [
+        "Penetration",
+        "Cock"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "15",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "3Hits",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Folle rápidamente a su objetivo, golpeándolos tres veces.",
+    "outcome": "[AttackerName] empuja hábilmente su polla en [TargetName] [SexAdjective] una y otra vez.",
+    "miss": "[AttackerName] empuja hábilmente su polla en [TargetName] [SexAdjective], pero [SexWord] no parece afectado!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

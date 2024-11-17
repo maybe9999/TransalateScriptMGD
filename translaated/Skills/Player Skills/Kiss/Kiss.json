@@ -1,0 +1,60 @@
+{
+    "name": "Kiss",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth",
+        "RestrainUsable"
+    ],
+    "fetishTags": [
+        "Kissing",
+        "Foreplay"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Face Sit",
+        "Nursing",
+        "Breast Smother"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Blowjob",
+        "Face Sit",
+        "Titfuck",
+        "Footjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "10",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "5",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Besa suavemente a tu oponente.Es una habilidad de juego previo.",
+    "outcome": "[AttackerName] besos ligeramente [TargetName].",
+    "miss": "[AttackerName] intenta besar [TargetName], pero [TargetHeOrShe] se mantiene fuera de alcance.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

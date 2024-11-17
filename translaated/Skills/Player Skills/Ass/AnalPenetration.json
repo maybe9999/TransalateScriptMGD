@@ -1,0 +1,64 @@
+{
+    "name": "Anal Penetration",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "50",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "skillTags": [
+        "Ass",
+        "Penetration"
+    ],
+    "fetishTags": [
+        "Ass",
+        "Cock"
+    ],
+    "startsStance": "Anal",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Blowjob",
+        "Sex",
+        "Anal",
+        "Face Sit",
+        "Titfuck",
+        "Footjob",
+        "Tailjob",
+        "Tail Fuck"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Tailjob"
+    ],
+    "removesStance": "Thighjob",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "20",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Empiece a follar el trasero de un oponente.Inflige excitación moderada, pero también lo despertará.",
+    "outcome": "[AttackerName] empuja su polla mágicamente lubricada en el apretado gilipollas de [TargetName].",
+    "miss": "[AttackerName] intenta empujar el culo de [TargetName], pero [TargetHeOrShe] permanece fuera de su alcance.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

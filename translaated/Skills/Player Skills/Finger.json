@@ -1,0 +1,57 @@
+{
+    "name": "Finger",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "200",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Blowjob",
+        "Footjob",
+        "Titfuck",
+        "Thighjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Date el coño de tu oponente.",
+    "outcome": "[AttackerName] rápidamente empuja un dedo al coño de [TargetName] y lo empuja cuidadosamente dentro y fuera.",
+    "miss": "[AttackerName] trata de tocar el coño de [TargetName], pero [TargetHeOrShe] se mantiene fuera del alcance.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

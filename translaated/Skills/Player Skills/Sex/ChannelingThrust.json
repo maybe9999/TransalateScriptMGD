@@ -1,0 +1,54 @@
+{
+    "name": "Channeling Thrust",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "2500",
+    "skillType": "attack",
+    "statType": "Intelligence",
+    "requiredStat": "40",
+    "skillTags": [
+        "Penetration"
+    ],
+    "fetishTags": [
+        "Penetration",
+        "Cock"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Dibuja en maná ambiental mientras follas, recuperando 25 energía.",
+    "outcome": "|f|ChangeEnergyQuietly|/|25|n|[AttackerName] empuja lentamente su polla en [SexWord] [SexAdjective] de [SexWord] mientras se basa gradualmente en maná de [TargetHimOrHer] y el aire alrededor de ustedes dos.",
+    "miss": "|f|ChangeEnergyQuietly|/|25|n|[AttackerName] empuja lentamente su polla en [SexWord] [SexAdjective] de [SexWord] mientras se basa gradualmente en maná de [TargetHimOrHer] y el aire alrededor de ustedes dos.Aunque [TargetHeOrShe] no parece estar muy interesado.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

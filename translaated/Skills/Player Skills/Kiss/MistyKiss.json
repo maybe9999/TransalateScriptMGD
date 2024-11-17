@@ -1,0 +1,54 @@
+{
+    "name": "Misty Kiss",
+    "cost": "15",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "500",
+    "skillType": "attack",
+    "statType": "Intelligence",
+    "requiredStat": "20",
+    "skillTags": [
+        "Mouth"
+    ],
+    "fetishTags": [
+        "Kissing"
+    ],
+    "startsStance": "",
+    "requiresStance": "Making Out",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Making Out"
+    ],
+    "unusableIfTarget": [
+        "Blowjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "15",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "10",
+    "critChance": "20",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "75",
+    "statusDuration": "6",
+    "statusPotency": "5",
+    "statusResistedBy": "Willpower",
+    "statusText": "aphrodisiac",
+    "descrip": "Respira un dulce afrodisíaco con un beso.Tiene una gran oportunidad de criticar.",
+    "outcome": "[AttackerName] Besos amorosamente [TargetName] mientras sus lenguas se entrelazan, antes de respirar una dulce niebla de afrodisíacos mágicos en la boca [TargetHisOrHer]!",
+    "miss": "[AttackerName] besa amorosamente [TargetName] mientras sus lenguas se entrelazan, antes de respirar una dulce niebla de afrodisíacos mágicos en la boca [TargetHisOrHer], ¡pero [TargetName] logra soportar el intenso beso!",
+    "statusOutcome": "[TargetName] se descarga profundamente a medida que el afrodisíaco se afianza lentamente!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

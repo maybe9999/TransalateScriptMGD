@@ -1,0 +1,54 @@
+{
+    "name": "Overlimit",
+    "cost": "20",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "statusEffect",
+    "statType": "Power",
+    "statusEffectScaling": "48",
+    "requiredStat": "40",
+    "skillTags": [
+        "Buffs"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Power",
+    "statusChance": "100",
+    "statusDuration": "11",
+    "statusPotency": "2",
+    "statusResistedBy": "",
+    "statusText": "Overlimit",
+    "descrip": "¡Rompe más allá de los límites de tu fuerza, aumentando tu poder!Sin embargo, esto reducirá su defensa en un 25%, este detrimento no se puede eliminar con elementos o habilidades.",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "|f|RemovePerkQuietly|/|Overlimit|n||f|GivePerkQuietly|/|Overlimit|n|El poder de [AttackerName] aumenta, aumentando la fuerza [AttackerHisOrHer]!Pero [AttackerHeOrShe] queda con defensas bajas ...",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

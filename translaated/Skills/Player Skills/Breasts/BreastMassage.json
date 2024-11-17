@@ -1,0 +1,55 @@
+{
+    "name": "Breast Massage",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "attack",
+    "statType": "Technique",
+    "statusEffectScaling": "25",
+    "requiredStat": "20",
+    "skillTags": [
+        "Breasts"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Face Sit",
+        "Footjob"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Damage",
+    "statusChance": "50",
+    "statusDuration": "6",
+    "statusPotency": "-10",
+    "statusResistedBy": "Willpower",
+    "statusText": "Desarmado",
+    "descrip": "Masajear hábilmente las tetas de tu oponente.Puede reducir el daño.",
+    "outcome": "[AttackerName] amasta lentamente los senos de [TargetName] con las manos hábiles [AttackerHisOrHer] hábiles, provocando un gemido de [TargetHisOrHer] como [AttackerHisOrHer] películas y burlas [TargetHisOrHer] Sensitive Nipples.",
+    "miss": "[AttackerName] intenta masajear los senos de [TargetName], pero [TargetHeOrShe] los mantiene fuera de alcance.",
+    "statusOutcome": "[TargetName] queda desenfocado y desorientado de las burlas de expertos!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

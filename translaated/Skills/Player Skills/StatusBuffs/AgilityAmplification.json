@@ -1,0 +1,54 @@
+{
+    "name": "Agility Amplification",
+    "cost": "20",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "2500",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "statusEffectScaling": "24",
+    "requiredStat": "40",
+    "skillTags": [
+        "Buffs"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Technique",
+    "statusChance": "100",
+    "statusDuration": "11",
+    "statusPotency": "1",
+    "statusResistedBy": "",
+    "statusText": "Agility Amplification",
+    "descrip": "¡Aumenta tu técnica con magia!",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "¡Los reflejos y las habilidades de [AttackerName] se afilan a medida que la magia fluye a través de su piel!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Enamor",
+    "cost": "20",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "2500",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "40",
+    "skillTags": [
+        "Seduction",
+        "RestrainUsable"
+    ],
+    "fetishTags": [
+        "Foreplay"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Nursing",
+        "Breast Smother",
+        "Face Sit"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "70",
+    "statusDuration": "6",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Seduce dulcemente a tu oponente con solo tus palabras.Puede encantar.Es una habilidad de juego previo.",
+    "outcome": "[AttackerName] susurra sensualmente y apasionadamente a [TargetName], cautivando [TargetHimOrHer] con promesas sexuales seductoras que dejan [TargetHimOrHer] sonrojando profusamente.",
+    "miss": "[AttackerName] susurra sensualmente y apasionadamente [TargetName], tratando de cautivar [TargetHimOrHer] con promesas sexuales seductoras, pero [TargetHeOrShe] parece no verse afectado.",
+    "statusOutcome": "La mente de [TargetName] está llena de fantasías sexuales de las palabras de [AttackerName].[TargetName] ha sido encantado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

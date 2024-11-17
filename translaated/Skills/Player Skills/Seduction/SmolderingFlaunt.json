@@ -1,0 +1,53 @@
+{
+    "name": "Smoldering Flaunt",
+    "cost": "25",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "attack",
+    "statType": "Power",
+    "requiredStat": "40",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "all",
+    "statusEffect": "Charm",
+    "statusChance": "30",
+    "statusDuration": "6",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Caliente a todos tus oponentes y molesto con tu impresionante apariencia y algunas palabras seductoras.Pueden encantar oponentes.No puedo estar en una postura.",
+    "outcome": "[AttackerName] posa seductoramente, mostrando los músculos [AttackerHisOrHer], dejando que la mirada [AttackerHisOrHer] revolotee como [AttackerHeOrShe] hace proclamas sexuales y seductoras, y [TargetName] se llena en la exhibición sexualmente cargada.",
+    "miss": "[AttackerName] posa seductoramente, mostrando los músculos [AttackerHisOrHer], dejando que la mirada [AttackerHisOrHer] revolotee como [AttackerHeOrShe] hace proclamas sexuales y seductoras, pero [TargetName] parece no verse afectado.",
+    "statusOutcome": "La mente de [TargetName] está llena de fantasías sexuales del cuerpo seductor de [AttackerName].[TargetName] ha sido encantado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

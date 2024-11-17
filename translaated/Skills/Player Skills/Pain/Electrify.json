@@ -1,0 +1,55 @@
+{
+    "name": "Electrify",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "2500",
+    "skillType": "attack",
+    "statType": "Intelligence",
+    "statusEffectScaling": "25",
+    "requiredStat": "30",
+    "skillTags": [
+        "Pain",
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Stun",
+    "statusChance": "25",
+    "statusDuration": "2",
+    "statusPotency": "0",
+    "statusResistedBy": "Power",
+    "statusText": "",
+    "descrip": "Use magia para enviar corrientes eléctricas ligeras en el cuerpo de su objetivo.Puede aturdir.",
+    "outcome": "[AttackerName] CareSes [TargetName] 'El cuerpo de [AttackerHisOrHer] de manos mientras envía trozos de electricidad mágica a través de ellas, obligándolas a llorar con un dolor placentero.",
+    "miss": "[AttackerName] CareSes [TargetName] 'El cuerpo con [AttackerHisOrHer] manos mientras envía bits de electricidad mágica a través de ellas, ¡pero [TargetName] parece completamente no afectado!",
+    "statusOutcome": "¡La magia deja [TargetName] sin sentido incoherente![TargetName] está atónito!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

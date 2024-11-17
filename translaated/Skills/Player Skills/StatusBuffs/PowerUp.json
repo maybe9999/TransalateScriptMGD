@@ -1,0 +1,54 @@
+{
+    "name": "Power Up!",
+    "cost": "20",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "statusEffect",
+    "statType": "Power",
+    "statusEffectScaling": "140",
+    "requiredStat": "20",
+    "skillTags": [
+        "Buffs"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Damage",
+    "statusChance": "100",
+    "statusDuration": "2",
+    "statusPotency": "60",
+    "statusResistedBy": "",
+    "statusText": "Power Up!",
+    "descrip": "Una vieja habilidad de héroe que te empodera enormemente para un turno, lo que aumenta la excitación que lidias.Funciona en el dormitorio también.",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] canales [AttackerHisOrHer] Espíritu heroico para un impulso masivo de poder!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,54 @@
+{
+    "name": "Lewd Bottle",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "statusEffectScaling": "25",
+    "requiredStat": "20",
+    "skillTags": [
+        "Afflictions"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "60",
+    "maxRange": "115",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "75",
+    "statusDuration": "11",
+    "statusPotency": "10",
+    "statusResistedBy": "Power",
+    "statusText": "aphrodisiac",
+    "descrip": "Un pequeño dispositivo mágico de forma extraña que rocía afrodisíaco, rellenada automáticamente cuando pones energía en él.No puede estar en una postura.",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] Use un pequeño dispositivo para rociar una niebla rosa en la cara de [TargetName], y [TargetHeOrShe] pronto se alza de la lujuria.",
+    "statusMiss": "[AttackerName] use a small device to spray some pink mist at [TargetName]'s face, but [TargetHeOrShe] seems completely unaffected!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

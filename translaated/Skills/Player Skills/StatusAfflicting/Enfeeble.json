@@ -1,0 +1,54 @@
+{
+    "name": "Enfeeble",
+    "cost": "20",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "statusEffectScaling": "25",
+    "requiredStat": "40",
+    "skillTags": [
+        "Afflictions"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Power",
+    "statusChance": "75",
+    "statusDuration": "11",
+    "statusPotency": "-5",
+    "statusResistedBy": "",
+    "statusText": "Enfeeble",
+    "descrip": "¡Debrianza a tu oponente con la magia, bajando su poder!",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] envía magia enrollable alrededor de [TargetName], ¡la fuerza de [TargetHisOrHer]!",
+    "statusMiss": "[AttackerName] sends coiling magic around [TargetName], but [TargetHeOrShe] resists the spell!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

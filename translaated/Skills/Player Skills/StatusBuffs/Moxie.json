@@ -1,0 +1,55 @@
+{
+    "name": "Moxie",
+    "cost": "20",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "statusEffect",
+    "statType": "Allure",
+    "statusEffectScaling": "30",
+    "requiredStat": "20",
+    "skillTags": [
+        "Buffs",
+        "RestrainUsable"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Allure",
+    "statusChance": "100",
+    "statusDuration": "6",
+    "statusPotency": "20",
+    "statusResistedBy": "",
+    "statusText": "Moxie",
+    "descrip": "¡Mejore su encanto sexual a través de su propia confianza sexual!",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] Mentalmente publicidad [AttackerHimOrHer] a sí mismo con la confianza sexual, y una ola de determinación suave se lava [AttackerName], ya que sienten que se están volviendo más atractivos con cada momento que pasa.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}
