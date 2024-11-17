@@ -1,0 +1,162 @@
+{
+    "name": "EndOfDay",
+    "CardType": "EndOfDay",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "requiresEvent": [
+        {
+            "NameOfEvent": "",
+            "Progress": "-99",
+            "ChoiceNumber": "-1",
+            "Choice": ""
+        }
+    ],
+    "Speakers": [
+        {
+            "name": "character",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "CallNextSceneJumpThenReturn",
+                "IfFetishLevelEqualOrGreater",
+                "Venom Manticore",
+                "0",
+                "TickdownVenomAddict",
+                "CallNextSceneJumpThenReturn",
+                "IfFetishLevelEqualOrGreater",
+                "Adicto a Sofía",
+                "1",
+                "TickdownSofiaAddict",
+                "CallNextSceneJumpThenReturn",
+                "IfFetishLevelEqualOrGreater",
+                "VeneficasFindom",
+                "1",
+                "TickdownVeneficasFindom",
+                "CallNextSceneJumpThenReturn",
+                "IfFetishLevelEqualOrGreater",
+                "VeneficasDominance",
+                "1",
+                "TickdownVeneficasDominance",
+                "CallNextSceneJumpThenReturn",
+                "IfFetishLevelEqualOrGreater",
+                "VeneficasMilkingPet",
+                "1",
+                "TickdownVeneficasMilkingPet",
+                "CallNextSceneJumpThenReturn",
+                "IfFetishLevelEqualOrGreater",
+                "StellasLipstick",
+                "1",
+                "TickdownStellaLipstick",
+                "CallNextSceneJumpThenReturn",
+                "IfFetishLevelEqualOrGreater",
+                "Rut",
+                "1",
+                "TickdownRut"
+            ]
+        },
+        {
+            "NameOfScene": "TickdownVenomAddict",
+            "theScene": [
+                "ChangeFetish",
+                "Venom Manticore",
+                "-2"
+            ]
+        },
+        {
+            "NameOfScene": "TickdownSofiaAddict",
+            "theScene": [
+                "ChangeFetish",
+                "Adicto a Sofía",
+                "-2"
+            ]
+        },
+        {
+            "NameOfScene": "TickdownVeneficasFindom",
+            "theScene": [
+                "ChangeFetish",
+                "VeneficasFindom",
+                "-3"
+            ]
+        },
+        {
+            "NameOfScene": "TickdownVeneficasDominance",
+            "theScene": [
+                "ChangeFetish",
+                "VeneficasDominance",
+                "-1"
+            ]
+        },
+        {
+            "NameOfScene": "TickdownVeneficasMilkingPet",
+            "theScene": [
+                "ChangeFetish",
+                "VeneficasMilkingPet",
+                "-3"
+            ]
+        },
+        {
+            "NameOfScene": "TickdownStellaLipstick",
+            "theScene": [
+                "IfHasPerk",
+                "Stella's Lipstick Slave",
+                "EndCheck",
+                "ChangeFetish",
+                "StellasLipstick",
+                "-5",
+                "IfHasPerk",
+                "Stella's Lipstruck Toy",
+                "RemoveStellaPerkCheck"
+            ]
+        },
+        {
+            "NameOfScene": "RemoveStellaPerkCheck",
+            "theScene": [
+                "IfFetishLevelEqualOrGreater",
+                "StellasLipstick",
+                "26",
+                "EndCheck",
+                "Con suficiente tiempo lejos de Stella y sus labios regordetes, has superado tu facisnación con sus besos manchados de lápiz labial.",
+                "RemovePerk",
+                "Stella's Lipstruck Toy"
+            ]
+        },
+        {
+            "NameOfScene": "TickdownRut",
+            "theScene": [
+                "ChangeFetish",
+                "Rut",
+                "-5",
+                "IfHasPerk",
+                "Rut",
+                "CheckRutLevel"
+            ]
+        },
+        {
+            "NameOfScene": "CheckRutLevel",
+            "theScene": [
+                "IfFetishLevelEqualOrGreater",
+                "Rut",
+                "1",
+                "TickdownRut"
+            ]
+        },
+        {
+            "NameOfScene": "EndCheck",
+            "theScene": []
+        },
+        {
+            "NameOfScene": "EventBroke",
+            "theScene": [
+                "Aaaaa se rompió"
+            ]
+        }
+    ]
+}

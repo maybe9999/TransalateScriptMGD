@@ -1,0 +1,504 @@
+{
+    "name": "Elena Tutorial",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Elena",
+            "postName": "",
+            "SpeakerType": "NPC"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Ask questions about adventuring.",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "¿Qué necesitabas saber?",
+                "Menu",
+                "'Tell me about combat information.'",
+                "'Can you explain adventuring?'",
+                "'How do quests work?'",
+                "'I have no more questions.'",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "'Tell me about combat information.'",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Claro, ¿qué querías saber?",
+                "JumpToScene",
+                "CombatInfoMenu"
+            ]
+        },
+        {
+            "NameOfScene": "'Something else about combat.'",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "¿Hubo algo más que quisieras saber sobre el combate?",
+                "JumpToScene",
+                "CombatInfoMenu"
+            ]
+        },
+        {
+            "NameOfScene": "CombatInfoMenu",
+            "theScene": [
+                "Menu",
+                "'Tell me about leveling up.'",
+                "'Tell me about skills.'",
+                "'Tell me about status effects.'",
+                "'Tell me about fetishes.'",
+                "'I want to ask about something else.'",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "'Tell me about leveling up.'",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "Speaks",
+                "Bueno, cada vez que subas de nivel obtendrás tres puntos de estadísticas para gastar.",
+                "Speaks",
+                "Cada tres niveles obtienes un beneficio para ayudar a aumentar tus habilidades.Así como un punto adicional en el nivel 5, y dos extra a 10 y 20.",
+                "Speaks",
+                "Y por cada quinto nivel, obtienes un punto para reducir tu sensibilidad.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Thinking",
+                "Speaks",
+                "Ah, y para subir de nivel, debes obtener experiencia al derrotar a los monstruos, aunque estoy bastante seguro de que lo sabías.",
+                "JumpToScene",
+                "'Something else about combat.'"
+            ]
+        },
+        {
+            "NameOfScene": "'Tell me about skills.'",
+            "theScene": [
+                "Speaks",
+                "Todas las habilidades que inducen la excitación se vuelven más poderosas de dos maneras diferentes.",
+                "Speaks",
+                "La primera forma es aumentar la estadística con la que se asocia la medida, como las nalgadas, se vuelven más potentes si tiene mayor potencia.",
+                "Speaks",
+                "La segunda forma es aumentar su estadística de encanto, lo que aumenta el daño base de todos sus movimientos.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "Speaks",
+                "Entonces, si el movimiento escala con encanto, ¡eso significa que el daño aumenta dos veces diferentes!Pero no dejes que eso te disuade de aumentar otras estadísticas, ¡son igual de buenas!",
+                "Speaks",
+                "La mayoría de las habilidades también se dirigen a algo específico, como el disfrute del dolor, diferentes partes del cuerpo, o incluso mágicamente, si lo desea.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "AraAra",
+                "Speaks",
+                "Todos los monstruos son débiles para diferentes cosas, ¡así que asegúrese de tener muchos tipos diferentes de habilidades para capitalizar esas debilidades!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Por supuesto, también tiene sus propias debilidades que algunos monstruos pueden tratar de explotar, así que tenga cuidado.",
+                "Speaks",
+                "Algunos elementos pueden ayudar a compensar esto, pero simplemente no cedan las tentaciones del monstruo y ¡estará bien!",
+                "Speaks",
+                "Algunas habilidades también tienen la oportunidad de aplicar los efectos de estado al objetivo junto con el daño del ojo, pero la mayoría de las habilidades exclusivamente causan daños, aplicando aficionados y debuffs o efectos de estado.¡Asegúrese de saber qué hace cada movimiento antes de usarlos!",
+                "JumpToScene",
+                "'Something else about combat.'"
+            ]
+        },
+        {
+            "NameOfScene": "'Tell me about status effects.'",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "¿Con cuál quieres aprender?",
+                "JumpToScene",
+                "StatusEffectMenu"
+            ]
+        },
+        {
+            "NameOfScene": "StatusEffectMenu",
+            "theScene": [
+                "Menu",
+                "'Generally'",
+                "'Charm'",
+                "'Restrained'",
+                "'Aphrodisiacs'",
+                "More status effects",
+                "'Something else about combat.'",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "More status effects",
+            "theScene": [
+                "Menu",
+                "'Stun'",
+                "'Sleep'",
+                "'Trance'",
+                "Even more status effects",
+                "Back",
+                "'I want to ask about something else.'",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Even more status effects",
+            "theScene": [
+                "Menu",
+                "'Paralysis'",
+                "'Buffs and Debuffs.'",
+                "Back.",
+                "'I want to ask about something else.'",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Back",
+            "theScene": [
+                "JumpToScene",
+                "StatusEffectMenu"
+            ]
+        },
+        {
+            "NameOfScene": "Back.",
+            "theScene": [
+                "JumpToScene",
+                "More status effects"
+            ]
+        },
+        {
+            "NameOfScene": "'Generally'",
+            "theScene": [
+                "Speaks",
+                "En términos generales, los efectos de estado son cosas malas que los monstruos le hacen, o usted les hace.",
+                "Speaks",
+                "Todos los efectos de estado se pueden resistir si tiene el equipo adecuado en o si tiene la estadística relacionada con la resistencia al efecto de estado.",
+                "Speaks",
+                "Por ejemplo, si un monstruo intenta controlar su mente de alguna manera, ¡su fuerza de voluntad lo ayudará a resistirlo!",
+                "Speaks",
+                "Si se las arregló para afligirse con un efecto de estado, puede esperar o usar elementos para eliminarlos.La única excepción es si estás siendo restringido, en cuyo caso tienes que luchar para liberarte.No existe ningún artículo que les haga que simplemente te dejen ir, ¡ya sabes!",
+                "JumpToScene",
+                "StatusEffectMenu"
+            ]
+        },
+        {
+            "NameOfScene": "'Charm'",
+            "theScene": [
+                "Speaks",
+                "Charm le impide huir, luchando correctamente por las restricciones y hace que sea más difícil para las habilidades que lo ayudan a escapar de posturas o restricciones para trabajar en absoluto.Incluso aumenta cuánto te excitarás tus oponentes.",
+                "Speaks",
+                "En general, deberías evitar que te encanten si puedes.",
+                "JumpToScene",
+                "StatusEffectMenu"
+            ]
+        },
+        {
+            "NameOfScene": "'Restrained'",
+            "theScene": [
+                "Speaks",
+                "No podrás hacer mucho mientras estén restringidos.Algunas restricciones pueden ser más difíciles de salir que otras, así que no esperes salir de todos ellos en la misma cantidad de tiempo.",
+                "Speaks",
+                "Cuanto más poder tenga, más fácil será para ti escapar de ser restringido, y si tienes un enemigo restringido, puedes salir fácilmente de las posturas con ellos o huir.",
+                "JumpToScene",
+                "StatusEffectMenu"
+            ]
+        },
+        {
+            "NameOfScene": "'Aphrodisiacs'",
+            "theScene": [
+                "Speaks",
+                "Los afrodisíacos son cosas insidiosas.Actúan como un veneno, construyendo constantemente su excitación mientras están en vigencia.",
+                "Speaks",
+                "No solo eso, sino que los afrodisíacos se construyen entre sí, por lo que si más de uno se usa en ti, ¡su efecto se intensifica!",
+                "Speaks",
+                "Sería prudente llevar algunas hierbas Anaph para contrarrestarlas.",
+                "JumpToScene",
+                "StatusEffectMenu"
+            ]
+        },
+        {
+            "NameOfScene": "'Stun'",
+            "theScene": [
+                "Speaks",
+                "No puede hacer nada aturdido, pero generalmente no dura mucho, y hay artículos que puede comprar para ayudar a prevenirlo.",
+                "Speaks",
+                "¡Asegúrate de equiparte adecuadamente para el enemigo si tienes problemas!",
+                "Speaks",
+                "Ah, y si aturde a un enemigo, salir de una postura con ellos o huir se vuelve mucho más fácil.",
+                "JumpToScene",
+                "StatusEffectMenu"
+            ]
+        },
+        {
+            "NameOfScene": "'Sleep'",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Shy",
+                "Speaks",
+                "Si te quedas dormido, no podrás luchar o incluso saber lo que está pasando, y puede durar bastante tiempo.Pero despertarás en el momento en que liberes el espíritu, mucho más de lo normal.Pero se revitalizará, aunque eso es después de haber perdido toda la energía para mantenerse despierto.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Pero también lleva un poco de tiempo quedarse dormido de un ataque de monstruos, ya que lentamente drena su energía, por lo que debe tener tiempo para hacer algo al respecto, y si se queda dormido, será inmune a cualquier nuevo efecto de sueño después de despertarsearriba por un tiempo.",
+                "Speaks",
+                "¡Asegúrese de comprar algunas pociones de insomnio o pociones de energía si cree que tendrá que lidiar con los enemigos inductores del sueño!",
+                "Speaks",
+                "Pero si logras hacer que tu oponente se duerma, se vuelve fácil salir de las posturas con ellos o huir.Tenga en cuenta que puede acelerarlo con piezas de fundición repetidas, algunos monstruos tienen mucha más energía para quemar que otros.Tampoco perderán espíritu extra por el orgasmo mientras duermen.",
+                "JumpToScene",
+                "StatusEffectMenu"
+            ]
+        },
+        {
+            "NameOfScene": "'Trance'",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Depressed",
+                "Speaks",
+                "Trance es un efecto de estado más bien ... insidioso, aunque primero se apodera de ti, ¿no tiene ningún efecto en ti, pero una vez que está completamente configurado, las cosas probablemente no te van a ir bien.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Una vez que Trance se haya establecido por completo, en cada turno tendrás aproximadamente un 30% de posibilidades de no poder actuar, y aunque puedes intentar correr, tu cuerpo no te dejará, de manera similar, los ataques de monstruos siempre te golpearán comoSu capacidad para esquivar desaparecerá como su mente en este punto.",
+                "Speaks",
+                "Sin embargo, eso no es todo, lo peor es que los monstruos que usan este efecto de estado generalmente usan un ataque especial relacionado con lo cerca de estar en trance, o si está completamente en trance, pero cada monstruo que lo usa podría hacer algo diferente, así que no puedo ayudarte mucho.",
+                "Speaks",
+                "Pero te advertiré, tales ataques {i} pueden {/i} aumentar tus fetiches a mitad de combate, o potencialmente hacer que pierdas el combate instantáneamente, ¡si estás completamente fascinado!Así que intenta no ir completamente debajo.",
+                "Speaks",
+                "La buena noticia es que, si logras no perder un turno por tres turnos, ¡comenzarás a salir del trance!Pero no completamente, por lo que aún será bastante fácil enviarte de vuelta bajo ...",
+                "Speaks",
+                "Trance tampoco desaparece al final del combate, solo se desvanece gradualmente a medida que pasa el tiempo, su mejor opción será llevar elementos para eliminarlo, pero esos elementos generalmente solo eliminan parcialmente el trance.¡Excepto para Panacea,, eso te arreglará!Lástima que son tan caros ...",
+                "Speaks",
+                "No olvide obtener elementos para ayudarlo a resistir el efecto de estado si tiene problemas para tratarlo.",
+                "JumpToScene",
+                "StatusEffectMenu"
+            ]
+        },
+        {
+            "NameOfScene": "'Paralysis'",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Shy",
+                "Speaks",
+                "La parálisis es francamente, bastante aterradora, inicialmente no hará demasiado que menos lo rápido que puedes actuar y te hará un poco más fácil de golpear, pero a medida que se aplica cada vez más, la posibilidad de que no puedasIncluso el movimiento aumenta.",
+                "Speaks",
+                "No ayuda que su iniciativa y su capacidad para esquivar los ataques disminuyan a medida que aumentan los efectos, tal vez lo peor de todo es que el efecto no desaparecerá por sí solo hasta que no esté en combate, e incluso entoncesSolo desaparecerá lentamente.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Los ataques paralíticos de algunos monstruos incluso continúan afectándolo después del golpe inicial, eliminando lentamente su capacidad de moverse en el transcurso de la pelea ...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Pero otros monstruos necesitan golpearlo constantemente con sus movimientos paralizantes antes de que realmente comience a importar, y también puede limpiarse por completo el efecto con un solo elemento como la mayoría de los otros efectos de estado, pero este es un poco caro, así que tenga cuidado cuandolo usas.",
+                "JumpToScene",
+                "StatusEffectMenu"
+            ]
+        },
+        {
+            "NameOfScene": "'Buffs and Debuffs.'",
+            "theScene": [
+                "Speaks",
+                "Hay una gran cantidad de diferentes aficionados y debuffs, desde el ataque y la defensa, hasta su poder, fuerza de voluntad y otras estadísticas centrales.Pueden ser pulidos o debilitados por algo.",
+                "Speaks",
+                "Los debuffs son uno de los pocos efectos de estado que no puede prevenir fácilmente con el equipo.Pero si usa su propia habilidad de pulido, puede contrarrestar un debuff en usted hasta cierto punto.",
+                "Speaks",
+                "Tenga en cuenta que el aficionado o debuff de una sola habilidad solo se puede aplicar una vez a alguien hasta que ese caso de Buff o debuff desaparezca.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Thinking",
+                "Speaks",
+                "Ah, y una panacea despejará todos tus debuffs en caso de apuro, pero es un poco caro para eso.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "Speaks",
+                "Pero cuando usas tus propias habilidades de pulido, ¡pueden ser un gran activo en cualquier batalla!Así que asegúrese de aprender algunos.",
+                "JumpToScene",
+                "StatusEffectMenu"
+            ]
+        },
+        {
+            "NameOfScene": "'Tell me about fetishes.'",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Embarrassed",
+                "ChangeImageLayer",
+                "Face",
+                "1",
+                "Blush",
+                "La cara de Elena se vuelve roja con vergüenza de su pregunta.",
+                "Speaks",
+                "¿Eh?W-Well, es una especie de acto sexual que te gusta mucho.Los humanos generalmente tienen al menos uno.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Tener un fetiche por algo te deja muy vulnerable a los ataques con esa parte del cuerpo en particular, y puede dejarte a merced de algunos tipos de enemigos.",
+                "ChangeImageLayer",
+                "Face",
+                "1",
+                "",
+                "Speaks",
+                "En general, los fetiches se calculan en niveles de intensidad, comenzando en cero por ciento y hasta el cien por ciento.El que probablemente tenías cuando llegaste aquí se considera el veinticinco por ciento, que es cuando en realidad se considera un fetiche, y no solo una fijación.",
+                "Speaks",
+                "El porcentaje se traduce directamente en cuánto daño adicional vas a recibir de las habilidades con ese fetiche.¡Pero la excitación de bonificación no es todo lo que los fetiches pueden hacerte!Durante sus aventuras, algunos monstruos pueden tratar de pasar por alto la lucha por completo explotando sus fetiches, obligándolo efectivamente a ceder ante ellos, ¡pero debe resistir la tentación!",
+                "Speaks",
+                "Estas tentaciones generalmente serán más difíciles de tratar en estos marcadores a medida que su fetiche crece: 25%, 50%, 75%y 100%.Pero muchos monstruos realizarán estos de diferentes maneras, por lo que no todos estos puntos de referencia realmente se aplicarán todo el tiempo, pero aún debe tenerlo en cuenta.",
+                "Speaks",
+                "Si tienes problemas con un enemigo que explota tu fetiche, puede haber algunos artículos que puedes comprar para ayudarte, y si todo lo demás falla, ¡sigan curando los artículos a mano!",
+                "Speaks",
+                "Si las chicas monstruosas que te encuentras comienzan a darte nuevos fetiches que no quieres, siempre puedes ir a la iglesia para purgarlas, siempre que les dé una donación primero.",
+                "JumpToScene",
+                "Ask questions about adventuring."
+            ]
+        },
+        {
+            "NameOfScene": "'Can you explain adventuring?'",
+            "theScene": [
+                "Speaks",
+                "Supongo que te refieres a usar el grimoire para salir al mundo, ¿correcto?",
+                "Asintes.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "Speaks",
+                "Simplemente complete sus páginas con eventos que desea explorar y monstruos que cree que puede derrotar fácilmente.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Disgust",
+                "Speaks",
+                "No es como si hubieras elegido a los monstruos solo para perder con ellos, ¿verdad?",
+                "Elena te da una mirada extrañamente penetrante mientras un silencio incómodo llena el aire por un breve momento antes de que continúe hablando.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "Speaks",
+                "* Ejem* Las ubicaciones tienen una longitud de aventura Mimimum, lo que significa que al menos debe tener tantas páginas seleccionadas antes de poder embarcarse en aventuras.¡Este número se muestra en la parte superior de la pantalla!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Diferentes ubicaciones tienen diferentes límites de página, por lo que algunos pueden obligarlo a tener más monstruos o más eventos, dependiendo de a dónde vaya.¡Este límite se muestra a la izquierda y ligeramente por debajo de la longitud de la aventura!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "Speaks",
+                "Y los eventos también pueden limitarse al número que puede usar, debido a la física mágica cuántica.",
+                "PlayerSpeaks",
+                "What?",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Thinking",
+                "Speaks",
+                "Ve a preguntarle a Elly.Ella es el mago del gremio.Si intentara explicarlo, ambos terminaríamos con dolores de cabeza.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "Speaks",
+                "De todos modos, si no puede decidir qué hacer, ¡siempre puede seleccionar al azar!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Luego, cuando esté listo, ¡simplemente seleccione Embark!",
+                "Speaks",
+                "Pero no olvides tomar misiones cuando crees que estás preparado para vencerlos.Las misiones pueden tener todos los tipos diferentes de recompensas, ¡y algunas de ellas son la única forma en que puedes acercarte a derrotar a la reina del demonio!",
+                "JumpToScene",
+                "Ask questions about adventuring."
+            ]
+        },
+        {
+            "NameOfScene": "'How do quests work?'",
+            "theScene": [
+                "Speaks",
+                "Cada vez que realices una búsqueda, siempre será lo último que encuentras al final de tu aventura, después de todas las cosas que seleccionaste del Grimorio.",
+                "Speaks",
+                "Y antes de preguntar por qué, es parte de un sistema mágico muy complejo que le permite navegar a Lucidia de manera segura, y no lo entiendo yo mismo.Si quieres saber más, pregúntale.",
+                "Elena apunta a una mujer con ropa esterotípica de brujas y leyendo un libro.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Shy",
+                "Speaks",
+                "La última persona que intentó evitar esto terminó teletransportándose directamente a una guarida de Succubi ... nosotros, uhm ... no hemos tenido noticias de ella.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Ah, me estoy saliendo del tema.Cuando completes misiones, serás recompensado.Las recompensas van desde dinero hasta equipo, hasta incluso obtener acceso a nuevas áreas.Definitivamente valen la pena hacer en mi opinión.",
+                "JumpToScene",
+                "Ask questions about adventuring."
+            ]
+        },
+        {
+            "NameOfScene": "'I have no more questions.'",
+            "theScene": [
+                "JumpToNPCEventThenScene",
+                "Go see Elena at the Guild counter.",
+                "VisitMenu"
+            ]
+        },
+        {
+            "NameOfScene": "'I want to ask about something else.'",
+            "theScene": [
+                "JumpToScene",
+                "Ask questions about adventuring."
+            ]
+        }
+    ]
+}

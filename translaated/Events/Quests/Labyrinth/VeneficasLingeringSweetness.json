@@ -1,0 +1,86 @@
+{
+    "name": "Venefica's Lingering Sweetness",
+    "CardType": "Quest",
+    "CardLimit": "0",
+    "Description": "As you browse your options for your exploration of the Labyrinth, you come upon a strange black page within your Grimoire, its flowing eldritch script glowing with formidable demonic energy, like a lingering nightmare... It feels like you could encounter something familiar within the depths of this place, something that is supposed to have been placated... 'Witch Queen Venefica.'",
+    "requires": [
+        ""
+    ],
+    "requiresEvent": [
+        {
+            "NameOfEvent": "ConfrontingVenefica",
+            "Progress": "0",
+            "ChoiceNumber": "3",
+            "Choice": "DefeatedCrazyVenefica"
+        }
+    ],
+    "Speakers": [
+        {
+            "name": "Venefica",
+            "postName": "",
+            "SpeakerType": ""
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Fight!",
+            "theScene": [
+                "ChangeBG",
+                "Caverns.png",
+                "Progresando hacia adelante, te encuentras dentro de las profundidades de las cavernas, un espeso miasma de esencia demoníaca extrañamente dulce a la deriva por el aire ...",
+                "DisplayCharacters",
+                "1",
+                "EndLoop",
+                "ChangeImageLayer",
+                "ImageSet",
+                "1",
+                "Tattoos",
+                "ChangeImageLayer",
+                "Expression",
+                "Venefica",
+                "Predatory",
+                "Luego, con un estremecedor remolino de la oscuridad, Venefa aparece ante ti, adornada en una obsidiana familiares, con la envoltura de energía mágica y muy parecida a que no tiene la intención de perder el tiempo en las bromas, sus ojos cargados de amor en ti.¡Ciertamente mientras se lame los labios como un depredador hambriento!",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "LongTongue",
+                "Speak",
+                "Venefica",
+                "Hahhh, ♥ ahí estás, [ThePlayerName] ... ♥ Te ahogaré en mi {i} amor {/i}, hasta que te estás derritiendo en éxtasis. ♥",
+                "GetEventAndSetChoice",
+                "VeneficaCombatEvents",
+                "2",
+                "",
+                "GetEventAndSetChoice",
+                "VeneficaCombatEvents",
+                "1",
+                "NotHoldingback",
+                "CombatEncounter",
+                "RunningWontSkipEvent",
+                "NoRunning",
+                "Venefica",
+                "StartCombat",
+                "ChangeBG",
+                "dungeon.png",
+                "IfChoice",
+                "1",
+                "ClearedLabyMatch",
+                "PostWin",
+                "SetChoice",
+                "1",
+                "ClearedLabyMatch",
+                "GetEventAndChangeProgress",
+                "Labyrinth Depths",
+                "1",
+                "JumpToScene",
+                "PostWin"
+            ]
+        },
+        {
+            "NameOfScene": "PostWin",
+            "theScene": [
+                "Con la derrota climática de la Venefa ilusoria, te devuelven a los salones oscuros del laberinto, ¡una luz reconfortante que finalmente indica el final de tus arduos viajes!"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "name": "EnteringInn",
+    "CardType": "Inn",
+    "CardLimit": "0",
+    "Description": "EnterArea",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Vivian",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EnteringArea",
+            "theScene": [
+                "IfChoice",
+                "1",
+                "",
+                "VivianIntro"
+            ]
+        },
+        {
+            "NameOfScene": "VivianIntro",
+            "theScene": [
+                "DisplayCharacters",
+                "1",
+                "EndLoop",
+                "SetChoice",
+                "1",
+                "VivianIntro",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Speaks",
+                "Hmmmm? ♥ oh, {i} hola [ThePlayerName]. ♥ {/i} Bienvenido a mi humilde posada.¿Aquí para llevarme a esa oferta de trabajo?",
+                "Ya no tratando de encontrar su orientación, el voluptuoso cuerpo de Vivian no parece tener un efecto cautivador en ti, fue antes, pero sus enormes senos todavía son muy oídos.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "PlayerSpeaks",
+                "Uhm no, solo estaba viendo lo que la posada tenía para ofrecer.Aparte del trabajo.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Ella te da un puchero sensual y suspira, apoyado en su podio, haciendo que su pecho pesado cree un valle tentador que amenaza con atraer el enfoque completo de tus ojos.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Bueno, Cutie, aventureros como tú puedes dormir aquí de forma gratuita gracias al gremio.Solo asegúrese de cerrar su puerta si no desea que una chica monstruosa deambule y que haga su compañía. ♪",
+                "Ella se ríe juguetonamente, pero no puedes decir si realmente está bromeando ...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Caring",
+                "Speaks",
+                "La comida y la bebida básica también se proporcionan de forma gratuita, prometo que sigue siendo el mejor de la ciudad a pesar de su simplicidad.Pero si quieres algo elegante, tendrás que pagar como todos los demás.",
+                "Speaks",
+                "Por supuesto, soy totalmente capaz de enseñarte una o dos habilidades que estoy seguro de que te ayudará a disfrutar {i} tú mismo mientras aventuras.O al menos hacer que una chica monstruosa te enamore de ti. ♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "Vivian se mantiene recto nuevamente con una sonrisa burlona, ​​haciendo que su pecho rebote ligeramente, atrayendo los ojos brevemente al colgante brillante que flota justo por encima de su escote antes de mirarla a los ojos nuevamente.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Caring",
+                "Speaks",
+                "Avísame si tienes alguna pregunta {i} héroe {/i}, me encantaría ayudarte de cualquier manera que pueda. ♥",
+                "Su sonrisa alegre y seductora se desliza un poco mientras piensa en otra cosa.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Worried",
+                "Speaks",
+                "Ah, y para que lo sepas, la taberna obtiene {i} muy {/i} llena por la noche, así que no esperes un servicio increíble o una comida tranquila hasta la mañana siguiente.Mi clientela de Monster Girl toma mucho servicio.Aunque siempre deberíamos poder conseguir una comida fresca antes de salir a una aventura.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Caring",
+                "Speaks",
+                "Así que no se preocupe demasiado por la falta de cena, también tenemos servicio de habitación.Simplemente no por nada extravagante."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "DayShiftBar",
+    "CardType": "DayShift",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Elf",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "ChangeBG",
+                "Bar.png",
+                "Terminas trabajando detrás del bar con Belle ayudando a hacer bebidas para los clientes, pero no muchas personas van al bar durante el día, por lo que tienes tiempo para charlar con Belle en ocasiones.",
+                "ChangeBG",
+                "Inn.png",
+                "En general, fue un cambio bastante relajante, e incluso te pagaron.",
+                "ChangeEros",
+                "100",
+                "AdvanceTime",
+                "1"
+            ]
+        }
+    ]
+}
