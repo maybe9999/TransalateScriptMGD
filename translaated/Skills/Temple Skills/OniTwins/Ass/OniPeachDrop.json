@@ -1,0 +1,57 @@
+{
+    "name": "Oni Peach Drop",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Power",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth",
+        "Pain"
+    ],
+    "fetishTags": [
+        "Ass"
+    ],
+    "startsStance": "Face Sit",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Penetration",
+        "Face Sit",
+        "Making Out",
+        "Titfuck"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "20",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] repentinamente salta hacia [TargetName] con [AttackerHisOrHer] regordete con el culo que se extiende hacia [TargetHimOrHer].[AttackerName] aterriza primero en la cara de [TargetName], que rápidamente cae hacia atrás de la fuerza y ​​el peso combinados de la mujer oni! | N | [AttackerName] se ríe como [AttackerHeOrShe] le da a su abundante trasero un batido espeluznante en [TargetName] La cara, dejando [TargetHimOrHer] para dejar escapar un gemido incoherente amortiguado.",
+    "miss": "[AttackerName] repentinamente salta hacia [TargetName] con [AttackerHisOrHer] regordete culo extendiéndose hacia [TargetHimOrHer], pero [TargetName] logra saltar del camino de la parte trasera curvilínea antes de que pueda atacar, [AttackerName] aterriza con gracia y patina y patina aun parado con una pequeña sonrisa.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

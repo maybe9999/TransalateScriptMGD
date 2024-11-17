@@ -1,0 +1,56 @@
+{
+    "name": "Ninja Art: Blowjob",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Oral"
+    ],
+    "startsStance": "Blowjob",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Footjob",
+        "Titfuck"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "15",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Chupar la polla.",
+    "outcome": "[AttackerName] se agacha con una sonrisa sutil antes de desaparecer repentinamente en una bocanada de humo, y antes de [TargetName] se da cuenta de lo que está sucediendo, [AttackerHeOrShe] reaparece delante de [TargetHisOrHer] Groin y lunes hacia adelante, envolviendo [AttackerHisOrHer] las armas alrededor de [TargetHisOrHer] La cintura como [AttackerHeOrShe] comienza a bob [AttackerHisOrHer] cabeza sobre la polla [TargetHisOrHer].",
+    "miss": "[AttackerName] desaparece en una bocanada de humo, pero [TargetName] siente [AttackerHisOrHer] que se acerca y esquiva rápidamente fuera del camino de [AttackerHisOrHer].",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

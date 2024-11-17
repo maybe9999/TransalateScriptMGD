@@ -1,0 +1,55 @@
+{
+    "name": "Ninja Art: Draining Waves",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Intelligence",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "",
+    "requiresStance": "Titfuck",
+    "unusableIfStance": [
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Tailjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "25",
+    "statusDuration": "3",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "|f|ChangeEnergyQuietly|/|-10|n|El cuerpo de [AttackerName] comienza a brillar con una luz morada misteriosa mientras [AttackerHeOrShe] roda suavemente los senos [AttackerHisOrHer] alrededor[TargetName] Como guts de energía se drenan suavemente del eje [TargetHimOrHer].",
+    "miss": "El cuerpo de [AttackerName] comienza a brillar con una luz morada misteriosa cuando [AttackerHeOrShe] lanza suavemente los senos [AttackerHisOrHer] alrededor de la polla de [TargetName] en movimientos lentos y ondulados, pero [TargetHeOrShe] logran soportar los drenadores y mágicos Paizuri!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Enticing Molten Squeeze",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Power",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "",
+    "requiresStance": "Titfuck",
+    "unusableIfStance": [
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Tailjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Trance",
+    "statusChance": "100",
+    "statusDuration": "1",
+    "statusPotency": "2",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] Sensualmente exprime [AttackerHisOrHer] los senos regordetes en torno a la polla de [AttackerHisOrHer], y la acogedora calidez de [AttackerHisOrHer] que el cofre se filtra en la polla de [AttackerHisOrHer], llenándola con necesidad.Al rebotar suavemente [AttackerHisOrHer] cautivando a los senos arriba y abajo en la virilidad de [AttackerHisOrHer], y los ojos [TargetName] no pueden evitar ver las fascinantes tetas mientras acechan [TargetName] Dick.",
+    "miss": "[AttackerName] Sensualmente exprime [AttackerHisOrHer] los senos regordetes alrededor de la polla de [TargetHisOrHer] de [TargetHisOrHer].Pero [TargetHisOrHer] logra soportar el dulce calor que se extiende a través de la ingle [Targethisorher].",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|OniCombatEvents|/|Hypnotic Paizuri|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

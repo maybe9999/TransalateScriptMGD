@@ -1,0 +1,55 @@
+{
+    "name": "Entrancing Sway",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction",
+        "Magic"
+    ],
+    "fetishTags": [
+        "HypnosisAddict",
+        "Ass"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Trance",
+    "statusChance": "100",
+    "statusDuration": "1",
+    "statusPotency": "1",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Mientras que [TargetName] está restringido por la hermana de [AttackerName], [TargetHeOrShe] se ve forzado, y [AttackerName] se balancea y sacude [AttackerHisOrHer] intoxicantemente goteo de la cara de [TargetName], dejando [TargetHimOrHer] Pequeña elecciónPero para mirar impotente a la exhibición hipnótica, dejando la mente [TargetHisOrHer] derritiendo del culo y la polla [TargetHisOrHer] que duele con la necesidad.",
+    "miss": "Mientras que [TargetName] está restringido por la hermana de [AttackerName], [TargetHeOrShe] se ve forzado a baja, y [AttackerName] se balancea y sacude [AttackerHisOrHer] intoxicantemente gachos de la cara de [TargetName], pero [TargetHeOrShe] lograCierre los ojos [TargetHisOrHer] antes de que la pantalla hipnótica pueda afianzarse.",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|OniCombatEvents|/|Close Range Hypnotic Butt|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

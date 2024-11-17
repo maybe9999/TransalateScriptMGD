@@ -1,0 +1,56 @@
+{
+    "name": "Ninja Art: Pressure Points",
+    "cost": "25",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        "Pain"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "None",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Blowjob",
+        "Titfuck"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "120",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Defence",
+    "statusChance": "100",
+    "statusDuration": "5",
+    "statusPotency": "-25",
+    "statusResistedBy": "Power",
+    "statusText": "Ninja Art: Pressure Points",
+    "descrip": "",
+    "outcome": "[AttackerName] arroja adelante y ataques [TargetName] en varios puntos en el cuerpo [TargetHisOrHer] con [AttackerHisOrHer] dedos ágiles, [AttackerHisOrHer] asalto sintiéndose extrañamente agradable como [AttackerHisOrHer] se aleja con una granja!",
+    "miss": "[AttackerName] arroja hacia adelante e intenta atacar el cuerpo de [TargetName] en varios puntos con [AttackerHisOrHer] dedos ágiles, ¡pero [TargetName] esquiva cada ataque!",
+    "statusOutcome": "[TargetName] se estremece como [TargetHeOrShe] se da cuenta de que el cuerpo [TargetHisOrHer] es más sensible!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

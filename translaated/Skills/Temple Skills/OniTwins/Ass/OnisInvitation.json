@@ -1,0 +1,58 @@
+{
+    "name": "Oni's Invitation",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Ass",
+        "HypnosisAddict"
+    ],
+    "startsStance": "Anal",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Penetration",
+        "Face Sit",
+        "Making Out",
+        "Titfuck"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Trance",
+    "requiresStatusPotency": "6",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "20",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] se propaga de manera intencionada [AttackerHisOrHer].Antes de que [AttackerName] se dé cuenta de lo que [TargetHeOrShe] está haciendo, [TargetHisOrHer] la mente hipnóticamente debilitada ya ha impulsado a [TargetHimOrHer] a sumergir [TargetHisOrHer] Menitud en el culo apretado de [AttackerName].Attackerhisorher] Volver a la ingle de [AttackerName], enviando [TargetHimOrHer] al piso, y comienza a rebotar sensualmente la virilidad palpitante] La trasera hipnótica de broma.",
+    "miss": "[AttackerName] se propaga de manera intencionada [AttackerHisOrHer].Pero [TargetName] logra ignorar la tentación de sumergirse [TargetHisOrHer] virilidad en el interior.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

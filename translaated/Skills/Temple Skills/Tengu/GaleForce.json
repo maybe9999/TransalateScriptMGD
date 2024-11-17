@@ -1,0 +1,53 @@
+{
+    "name": "Gale Force",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "requiredStat": "8",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Stun",
+    "statusChance": "80",
+    "statusDuration": "2",
+    "statusPotency": "0",
+    "statusResistedBy": "Power",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "With an almost dismissive flick of [AttackerHisOrHer] fan, [AttackerName] sends an intense gust of wind billowing towards [TargetName], knocking [TargetHimOrHer] flat on [TargetHisOrHer] back and [TargetHimOrHer] gasping for air.|f|CallCombatEventAndScene|/|TenguCombatEvents|/|Start Face Sit|n|",
+    "statusMiss": "With an almost dismissive flick of [AttackerHisOrHer] fan, [AttackerName] sends an intense gust of wind billowing towards [TargetName], but [TargetHeOrShe] manages to brace [TargetHimOrHer]self in the face of the gale and stands [TargetHisOrHer] ground!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

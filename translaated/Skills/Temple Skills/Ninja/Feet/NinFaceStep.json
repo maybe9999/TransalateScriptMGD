@@ -1,0 +1,53 @@
+{
+    "name": "Ninja Art: Face Step",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Feet"
+    ],
+    "startsStance": "",
+    "requiresStance": "None",
+    "unusableIfStance": [
+        "Footjob"
+    ],
+    "requiresTargetStance": [
+        "Footjob"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "40",
+    "statusDuration": "3",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] Presses [AttackerHisOrHer] almacenando el pie revestido en la cara de [TargetName], forzando a [TargetHimOrHer] a respirar el aroma sorprendentemente dulce de la ropa [AttackerHisOrHer] como [AttackerHeOrShe] muele su talón.",
+    "miss": "[AttackerName] Presses [AttackerHisOrHer] almacenando el pie revestido en la cara de [TargetName], pero [TargetHeOrShe] logra ignorar su ataque bastante humillante.",
+    "statusOutcome": "Como [TargetName] se ve obligado a oler la fragancia potentemente femenina del pie de [AttackerName], [TargetHisOrHer] la cabeza comienza a sentirse flotante, vacía y débilmente sumisa, y [TargetHeOrShe] comienza a preguntarse de manera inactualizada si sus medias están recubiertas en algunastipo de droga ... [TargetName] está encantado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

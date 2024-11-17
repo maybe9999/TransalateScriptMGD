@@ -1,0 +1,59 @@
+{
+    "name": "Explosive Tackle",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Power",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Pain"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "Titfuck",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Making Out",
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Tailjob",
+        "Blowjob",
+        "Face Sit"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] repentinamente salta hacia adelante, y se estrella directamente en el entra de [TargetName] con [AttackerHisOrHer] de peso bastante impresionante, enviándolos a ambos extendidos al suelo y dejando [TargetName] aturdido por un momento mientras se envuelve [AttackerName] [AttackerHisOrHer]¡Las tetas increíblemente cálidas y deliciosas alrededor de la polla [TargetHisOrHer]!",
+    "miss": "[AttackerName] trata de saltar hacia adelante y abordar [TargetName], ¡pero [TargetHeOrShe] logra esquivar la estocada repentina!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

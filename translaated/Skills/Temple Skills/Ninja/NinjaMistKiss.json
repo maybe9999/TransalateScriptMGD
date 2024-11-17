@@ -1,0 +1,54 @@
+{
+    "name": "Ninja Art: Erotic Mist Kiss",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "requiredStat": "0",
+    "skillTags": [
+        "Magic",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Kissing"
+    ],
+    "startsStance": "",
+    "requiresStance": "Making Out",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "None"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "60",
+    "maxRange": "115",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "100",
+    "statusDuration": "5",
+    "statusPotency": "25",
+    "statusResistedBy": "Willpower",
+    "statusText": "aphrodisiac",
+    "descrip": "",
+    "outcome": "OrgasmCheck",
+    "miss": "",
+    "statusOutcome": "Mientras [AttackerName] mantiene [TargetName] encerrado en un beso profundo, [AttackerHeOrShe] repentinamente de los labios [AttackerHisOrHer] y saca una gruesa niebla rosada directamente en la boca de [TargetName]!S pulmones y sentidos, [TargetName] se esconde cuando el afrodisíaco se afianza!",
+    "statusMiss": "As [AttackerName] keeps [TargetName] locked in a deep kiss, [AttackerHeOrShe] suddenly purses [AttackerHisOrHer] lips and tries to breathe out a thick pink mist directly into [TargetName]'s mouth, but [TargetHeOrShe] manages to shut her mouth in time and hold [TargetHisOrHer] breath!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

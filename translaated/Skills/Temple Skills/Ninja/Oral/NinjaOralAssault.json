@@ -1,0 +1,54 @@
+{
+    "name": "Ninja Art: Oral Assault",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Oral"
+    ],
+    "startsStance": "",
+    "requiresStance": "Blowjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Blowjob"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] agresivamente saca la cabeza hacia arriba y hacia abajo sobre la virilidad de [TargetName] mientras lame simultáneamente la parte inferior del eje [TargetHisOrHer] con su lengua inhumanamente hábil, obligando a un escalofrío de placer a correr [TargetHisOrHer] de las sensaciones de ella de ellaboca.",
+    "miss": "[AttackerName] agresivamente saca la cabeza hacia arriba y hacia abajo sobre la virilidad de [TargetName] mientras lame simultáneamente la parte inferior del eje [TargetHisOrHer] con su lengua inhumanamente hábil, ¡pero [TargetHeOrShe] se conecta [TargetHisOrHer] y gestiona para resistir las sensaciones agradables!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

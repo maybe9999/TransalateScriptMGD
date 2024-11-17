@@ -1,0 +1,56 @@
+{
+    "name": "Captivating Grind",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Willpower",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Magic"
+    ],
+    "fetishTags": [
+        "HypnosisAddict",
+        "Sex",
+        "Ass"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "Trance",
+    "statusChance": "100",
+    "statusDuration": "1",
+    "statusPotency": "1",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] lentamente muele [AttackerHisOrHer] caderas con curvas sobre el pollo doloroso de [TargetName], todo mientras mantiene [AttackerHisOrHer] culo regordete frente a [TargetHimOrHer], y [TargetName] no puede mantener los ojos [TargetHisOrHer] de los ojos intoxicantemente lusciosos como[AttackerName] Hypnóticamente lo sacude de un lado a otro mientras agita la dolor de virilidad de [TargetName] con [AttackerHisOrHer] un orificio firmemente musculoso.",
+    "miss": "[AttackerName] lentamente muele [AttackerHisOrHer] caderas con curvas sobre el pollo doloroso de [TargetName], todo mientras mantiene [AttackerHisOrHer] regordete con el culo que enfrenta [TargetHimOrHer], ¡pero [TargetHeOrShe] logra para evitar [TargetHisOrHer] mirando y resistir el placer intoxicante!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|OniCombatEvents|/|Grinding Hypnotic Butt|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

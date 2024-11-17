@@ -1,0 +1,57 @@
+{
+    "name": "Brain Crusher",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Willpower",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth",
+        "Pain",
+        "Magic"
+    ],
+    "fetishTags": [
+        "Ass",
+        "HypnosisAddict"
+    ],
+    "startsStance": "",
+    "requiresStance": "Face Sit",
+    "unusableIfStance": [
+        "Penetration",
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Making Out"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Trance",
+    "statusChance": "100",
+    "statusDuration": "1",
+    "statusPotency": "1",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] levanta [AttackerHimOrHer] culo voluptuoso de la cara de [TargetName] por un breve momento, dejando a [TargetHimOrHer] inhalar delirantemente [AttackerHimOrHer] aroma femenino, antes de que [AttackerHimOrHer] golpea su volante hacia atrás en [TargetName] 'scara, enviando una ola de placer intoxicante a través de la mente [TargetHisOrHer].",
+    "miss": "[AttackerName] levanta el culo [AttackerHimOrHer] voluptuoso de la cara de [TargetName] por un breve momento, pero como [TargetHeOrShe] inhala [AttackerHimOrHer] aroma femenino, para sorpresa de [AttackerName], [TargetName] tira [AttackerHimOrHer] a topeVuelve a [TargetHisOrHer] cara para acariciar con amor.",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|OniCombatEvents|/|FaceSitting Hypnotic Butt|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}
