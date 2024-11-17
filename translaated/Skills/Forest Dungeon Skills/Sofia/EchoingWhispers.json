@@ -1,0 +1,53 @@
+{
+    "name": "Echoing Whispers",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "100",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "5",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "HypnosisAddict"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Trance",
+    "statusChance": "999",
+    "statusDuration": "1",
+    "statusPotency": "1",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Las dulces palabras de [AttackerName] resuenan dentro de la mente de [TargetName], convenciéndote suavemente para concentrarte en [AttackerHisOrHer] cada susurro sensual.",
+    "miss": "Las dulces palabras de [AttackerName] resuenan dentro de la mente de [TargetName], pero [TargetHeOrShe] logra sacudir la voz cautivada que reverberan en el cerebro [TargetHisOrHer].",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|SofiaCombatEvents|/|EchoingWhisper|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

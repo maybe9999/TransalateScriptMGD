@@ -1,0 +1,58 @@
+{
+    "name": "Interlocking Abyssal Loving",
+    "cost": "2",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "50",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Sex",
+        "Monstrous",
+        "Kissing"
+    ],
+    "startsStance": "",
+    "requiresStance": "Sex",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Sex",
+        "Making Out",
+        "Entrapping"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "60",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "100",
+    "statusDuration": "6",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] se encierra las manos de [TargetName] en las suyas mientras se empuja hacia abajo [TargetHimOrHer], posesivamente besándose con [TargetHimOrHer] mientras conduce frenéticamente [TargetHimOrHer], sus ojos perdidos en una nómada sexual maníaca.wildly dominates [TargetHisOrHer] mouth, stirring up [TargetHisOrHer] senses and lovingly coiling around [TargetHisOrHer] own tongue, [TargetHisOrHer] waist jerking and shivering with every obscene impact of her curvy hips while her unearthly hands cling to [TargetName] from every angle, acariciando y palmando [TargetHimOrHer].",
+    "miss": "[AttackerName] se encierra las manos de [TargetName] en las suyas mientras se empujan hacia abajo [TargetHimOrHer], posesivamente besándose con [TargetHimOrHer] mientras conduce frenéticamente [TargetHimOrHer], sus ojos perdidos en una nómada sexual maníaca, su lengua larga y salvajemente dominante [TargetHisOrHer] Boca, ¡pero [TargetName] logra ignorar las sensaciones eufóricas!",
+    "statusOutcome": "La mente de [TargetName] se deja girar con la euforia dulcemente encantada del apareamiento infundido con maldición, lo que hace que los peligros del abrazo abisal de [AttackerName] se sientan nebulosos y distantes, cada momento de amor frenético que envía un pulso caliente de placer encantador[TargetHisOrHer] caderas ...",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

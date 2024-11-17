@@ -1,0 +1,54 @@
+{
+    "name": "Draining Gyration",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Cock"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "20",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Pierdes 25 energía como [AttackerName] muele lenta y sensualmente [AttackerName] caderas sobre [TargetName] palizamiento de la virilidad en pequeños círculos, y [TargetHeOrShe] solo puede gemir como una corriente constante de energía se saca suavemente de [TargetHisOrHer], obteniendoIntenso placer de contracción a través de [TargetHisOrHer] toda la longitud.",
+    "miss": "[AttackerName] Muele lenta y sensualmente las caderas [AttackerHisOrHer] en las caderas [TargetName] palpitante en pequeños círculos, ¡pero [TargetHeOrShe] logra resistir el intenso placer!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

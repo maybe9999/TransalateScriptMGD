@@ -1,0 +1,54 @@
+{
+    "name": "Sofia's Enthralling Embrace",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "200",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "statusEffectScaling": "25",
+    "requiredStat": "7",
+    "skillTags": [
+        "Pain"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Restrain",
+    "statusChance": "75",
+    "statusDuration": "0",
+    "statusPotency": "40",
+    "statusResistedBy": "Technique",
+    "statusText": "restrained",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": " ",
+    "statusMiss": " ",
+    "restraintStruggle": "[TargetName] struggles against the magical circles coiled around [TargetHisOrHer] wrists and [AttackerName]'s powerful wings wrapped around [TargetHimOrHer], all while [AttackerHeOrShe] continues to spin a hypnotic magic circle in front of [TargetHisOrHer] eyes...",
+    "restraintStruggleCharmed": "[TargetName] weakly squirms against the magical circles coiled around [TargetHisOrHer] wrists and [AttackerName]'s powerful wings wrapped around [TargetHimOrHer], finding it harder and harder to ignore [AttackerHisOrHer] mind melting magic spiral in front of [TargetHisOrHer] eyes...",
+    "restraintEscaped": "|f|CallCombatEventAndScene|/|AwakeSofiaCombatEvents|/|BreakFree!",
+    "restraintEscapedFail": "But [TargetName] can't get free of [AttackerName]'s enthralling embrace!"
+}

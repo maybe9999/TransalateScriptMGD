@@ -1,0 +1,57 @@
+{
+    "name": "Vili's Overwhelming Puff Puff Massage",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "7",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Breasts",
+        "Vili's Curse"
+    ],
+    "startsStance": "",
+    "requiresStance": "Breast Smother",
+    "unusableIfStance": [
+        "Titfuck",
+        "Blowjob",
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Breast Smother",
+        "Breast Smother"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "75",
+    "statusDuration": "8",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Los dos Vili rodan suavemente sus grandes tetas suaves alrededor de la cabeza de [TargetName] en los círculos alternativos, dejando la mente [TargetHisOrHer] derretida con excitación mientras sus abundantes senos masajes [TargetHisOrHer] resistencia mientras mantienen [TargetName] firmemente en su intoxicación y su intoxicación y su intoxicación y su intoxicaciónPrisión de escote almohada.",
+    "miss": "Los dos Vili rodan suavemente sus grandes tetas suaves alrededor de la cabeza de [TargetName] en círculos alternativos, ¡pero [TargetName] logra ignorar las sensaciones agradables!",
+    "statusOutcome": "[TargetName] no puede evitar estar cautivado impotente por la sensación de sus bustos combinados masajeando su cara borracha.[TargetName] está encantado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

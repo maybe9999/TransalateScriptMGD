@@ -1,0 +1,57 @@
+{
+    "name": "Vili's Enthralling Tittyfuck",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "0",
+    "requiredStat": "7",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts",
+        "Vili's Curse"
+    ],
+    "startsStance": "",
+    "requiresStance": "Titfuck",
+    "unusableIfStance": [
+        "Blowjob",
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Titfuck",
+        "Titfuck"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "45",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Willpower",
+    "statusChance": "100",
+    "statusDuration": "9",
+    "statusPotency": "-3",
+    "statusResistedBy": "Willpower",
+    "statusText": "Vili's Enthralling Tittyfuck",
+    "descrip": "",
+    "outcome": "Los dos Vili apretan firmemente sus abundantes tetas, enterrando seductoramente la polla de [TargetName] más profunda en su escote atractivo y profundo, enfatizando sus enormes pechos con un pulso de magia seductora que deja [TargetName] empujando sin pensar en sus tits de almohadas combinadas, perdiendoMás de sí mismo con cada dólar de las caderas [TargetHisOrHer].",
+    "miss": "Los dos Vili apretan firmemente sus abundantes tetas, enterrando seductoramente la polla de [TargetName] más profunda en su escote atractivo y profundo, enfatizando sus enormes senos con un pulso de magia seductora que deja [TargetName] empujando sin pensar en sus tits de almohadas combinadas, pero[TargetName] logra ignorar las sensaciones agradables!",
+    "statusOutcome": "[TargetName] gime cuando [TargetHeOrShe] cede al dúo de las abundantes tetas de Vili, empujando voluntariamente a sus profundidades encantadoras y suaves sin la magia seductora, dejando que sus tetas se filtren en el cerebro [TargetHisOrHer], bajando [TargetHisOrHer] Willpower!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

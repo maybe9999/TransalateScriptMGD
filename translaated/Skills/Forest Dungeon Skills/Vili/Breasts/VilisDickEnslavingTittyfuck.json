@@ -1,0 +1,64 @@
+{
+    "name": "Vili's Dick-Enslaving Tittyfuck",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "0",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts",
+        "Vili's Curse",
+        "Vili's Curse"
+    ],
+    "startsStance": "",
+    "requiresStance": "Titfuck",
+    "unusableIfStance": [
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Tailjob"
+    ],
+    "unusableIfTargetHasTheseSets": [
+        [
+            "Titfuck",
+            "Titfuck"
+        ]
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Charm",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "45",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Willpower",
+    "statusChance": "100",
+    "statusDuration": "10",
+    "statusPotency": "-6",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] rebota en la erección de [TargetHisOrHer] de [TargetHisOrHer] por unos momentos antes de enterrar por completo [TargetHisOrHer] Longitud más profunda en su escote abundante, apretando firmemente sus tetas.Teal Glow la envía envidios, enviando una oleada después de un aumento de la magia atractiva que pulsa a través de la polla [TargetHisOrHer] espasming, moldeándote para anhelar sus enormes y perfectas tetas.",
+    "miss": "[AttackerName] rebota en la erección de [TargetHeOrShe] de [TargetHeOrShe], pero [TargetHisOrHer] logra ignorar las sacudidas de placer que se convierte en una ingle [Targethisorher]!",
+    "statusOutcome": "[TargetName] No puedo evitar gemir felizmente, enamorándose completamente de la suavidad celestial que rompió su virilidad contraproducente, esclavizando ansiosamente por las tetas de [AttackerName]!Bajo [TargetHisOrHer] fuerza de voluntad.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

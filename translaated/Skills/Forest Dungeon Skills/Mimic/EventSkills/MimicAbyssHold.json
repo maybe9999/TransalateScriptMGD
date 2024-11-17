@@ -1,0 +1,60 @@
+{
+    "name": "Mimic Abyss Hold",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Power",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Restrain",
+    "statusChance": "50",
+    "statusDuration": "0",
+    "statusPotency": "50",
+    "statusResistedBy": "Power",
+    "statusText": "bound",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "¡Mientras abre el cofre, dos brazos grandes y carnosos salen del interior y te agarras!",
+    "statusMiss": "",
+    "restraintStruggle": "Desperate to escape the void-like space of the treasure chest, [TargetName] struggles in near futility against the unending swarm of unnaturally pale hands lovingly and possessively holding [TargetHimOrHer] in place, all the while the gothic beauty coos as she continues to ride [TargetHisOrHer] aching erection with a hint of maniacal glee...",
+    "restraintStruggleCharmed": "In a half-hearted attempt to escape the void-like space of the treasure chest, [TargetName] struggles meekly against the unending swarm of unnaturally pale hands lovingly and possessively holding [TargetHimOrHer] in place, all the while the gothic beauty coos as she lovingly continues to ride [TargetHisOrHer] aching erection with a hint of maniacal glee...",
+    "restraintEscaped": "|f|ChangeImageLayer|/|ImageSetDontCarryOver|/|Normal|n||f|ChangeImageLayer|/|Expression|/|Creepy|n||f|ClearStances|n|[TargetName] finally manages to shake off enough of [AttackerName]'s ghastly slender arms and push away the intimately entwined mimic who cries out in sputtering protest, freeing [TargetHimOrHer] from the clingy restraints! Making use of [TargetHisOrHer] short-lived freedom, [TargetName] swims and flails [TargetHisOrHer] way out of the abyssal space and bursts free of the wooden chest in a heap, followed by the fuming woman who reseats herself on the rim of the box.",
+    "restraintEscapedFail": [
+        "|f|ChangeImageLayer|/|ImageSetDontCarryOver|/|SexPose2|n|Despite [TargetName]'s best efforts, [AttackerName]'s countless unearthly hands slowly drag [TargetHimOrHer] deeper into the yawning abyss of depravity, squeezing and massaging [TargetHimOrHer] from every angle, sending intoxicating shivering tingles of pleasure across [TargetHisOrHer] skin while [AttackerName] passionately bounces [AttackerHisOrHer] curvy hips on [TargetHisOrHer] throbbing cock and lovingly rolls her long tongue around [TargetHisOrHer] hapless mouth.",
+        "|f|ChangeImageLayer|/|ImageSetDontCarryOver|/|SexPose1|n|But right as the many hands relax their hold, giving [TargetHimOrHer] a glimmer of hope, the lusty woman quickly shifts her position to a sitting one, wrapping [AttackerHisOrHer] smooth legs around [TargetHisOrHer] waist and draping her arms around [TargetHimOrHer], keeping [TargetHimOrHer] locked in place from every direction!|n|Dizzy and winded, [TargetName] is pleasurably coaxed back into [AttackerName]'s tight possessive hold, sinking deeper into the abyss, unable to do anything but unthinkingly thrust [TargetHisOrHer] hips into her welcoming pussy, prisoner of the dark depths of sultry bliss.",
+        "|f|ChangeImageLayer|/|ImageSetDontCarryOver|/|SexPose1|n|But just as [TargetName] starts to break free of the clinging unearthly hands, [AttackerName]'s tattoos glow with an ethereal light while [AttackerHeOrShe] wildly bounces on [TargetHisOrHer] twitching manhood with renewed lustful fervor, rolling [AttackerHisOrHer] hips in teasing circles upon each mind-numbing impact, every obscene slap accented by a pulse of pleasurable dark magic, leaving [TargetName]'s mind spacing out in bliss while [TargetHeOrShe] drifts further down with the eldritch woman!",
+        "|f|ChangeImageLayer|/|ImageSetDontCarryOver|/|SexPose1|n|But between the dizzying sinking sensation, the lustful groping of the unnaturally pale hands, [AttackerName]'s constant passionate sex accented with flares of dark cursing magic from her lewd tattoos, and the long-tongued possessive kisses, [TargetName] feels so delightfully floaty and dreamy that [TargetHeOrShe] currently can't bring [TargetHimOrHer]self to do more than relax and enjoy the pleasure rippling into [TargetHimOrHer] from every angle.",
+        "|f|ChangeImageLayer|/|ImageSetDontCarryOver|/|SexPose2|n|But [TargetName] is kept firmly in place by the combined hold of [AttackerName] and her countless hands, slowly pulled deeper and deeper down into her physics-defying lair, her occult tattoos gleaming ominously with every gently draining impact, the hot jolts of pleasure from [TargetHisOrHer] tip kissing her womb leaving [TargetHisOrHer] thoughts hazy and fizzling, the gnawing darkness and eldritch hands feeling less and less worth struggling against..."
+    ]
+}

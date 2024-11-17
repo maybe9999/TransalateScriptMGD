@@ -1,0 +1,62 @@
+{
+    "name": "Vili's Double Trouble",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "7",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts",
+        "Vili's Curse"
+    ],
+    "startsStance": "Titfuck",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Blowjob",
+        "Making Out",
+        "Breast Smother"
+    ],
+    "requiresTargetStance": [
+        "Titfuck"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "unusableIfTargetHasTheseSets": [
+        [
+            "Titfuck",
+            "Titfuck"
+        ]
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "70",
+    "statusDuration": "3",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] presiona sus enormes tetas contra la otra su polla rígida [TargetName], encarcelándola firmemente entre dos series de sus senos perfectos, y se ríen juntos cuando comienzan a romper la resistencia de la virilidad [TargetHisOrHer] con su combinación de suavidad de Marshmellowy.",
+    "miss": "[AttackerName] se mueve para presionar sus enormes tetas contra la otra que su polla rígida [TargetName], pero [TargetHeOrShe] logra mantener a [AttackerHimOrHer] lejos!",
+    "statusOutcome": "[TargetName] no puedo evitar disfrutar de la abrumadora sensación de que su polla se cubra en dos conjuntos de deliciosos escote.[TargetName] está encantado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

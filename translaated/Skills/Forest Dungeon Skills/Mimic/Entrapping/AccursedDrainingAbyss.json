@@ -1,0 +1,58 @@
+{
+    "name": "Accursed Draining Abyss",
+    "cost": "2",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "50",
+    "skillType": "attack",
+    "statType": "Intelligence",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Unholy"
+    ],
+    "fetishTags": [
+        "Sex",
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Sex",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Sex",
+        "Making Out",
+        "Entrapping"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "50",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": " ",
+    "statusChance": "100",
+    "statusDuration": "6",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] brilla con una luz siniestra oscura mientras muele y balancea sus caderas en un espectáculo tentador, lentos pulsos de magia impía irradiando de ella, enviando un placer constante a través de la piel de [TargetName] mientras intenta savia [TargetHisOrHer]¡Energía! | N | Con una risita baja, presiona sus labios para que [TargetName] se duplique en las sensaciones alucinantes que corren a través de [TargetHimOrHer] mientras sus largos juguetes de lengua con [TargetHisOrHer] indefenso, ansioso por [TargetHisOrHer] Energía deliciosa.",
+    "miss": "[AttackerName] brilla con una luz siniestra oscura mientras muele y balancea sus caderas en un espectáculo tentador, lentos pulsos de magia impía irradiando de ella, enviando un placer constante a través de la piel de [TargetName] mientras intenta savia [TargetHisOrHer]Energía directamente con una risita baja, ¡pero [TargetName] logra resistir el sexo drenador!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|MimicCombatEvents|/|AccursedDrainingAbyss|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

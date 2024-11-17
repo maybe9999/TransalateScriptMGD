@@ -1,0 +1,54 @@
+{
+    "name": "Titillating Temptation",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "100",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "5",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Breasts",
+        "Vili's Curse"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "25",
+    "statusDuration": "6",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] juega con sus grandes senos hinchables, masajeando y amasando la carne suave, sacudiendo sus tetas perfectas y [TargetName] no puede evitar ver la excitante exhibición, [TargetHisOrHer] palpitando con deseo ante la vista cautivadora.",
+    "miss": "[AttackerName] juega con sus grandes senos hinchables, masajeando y amasando la carne suave, sacudiendo sus tetas perfectas, pero [TargetName] ignora la cautivadora exhibición.",
+    "statusOutcome": "La mente de [TargetName] está completamente llena de tetas abundantes de [AttackerName], dejando [TargetHimOrHer] encantados!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

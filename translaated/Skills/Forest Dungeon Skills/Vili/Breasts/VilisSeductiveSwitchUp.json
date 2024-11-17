@@ -1,0 +1,63 @@
+{
+    "name": "Vili's Seductive Switch Up",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "0",
+    "requiredStat": "7",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Breasts",
+        "Vili's Curse"
+    ],
+    "startsStance": "Titfuck",
+    "requiresStance": "Breast Smother",
+    "unusableIfStance": [
+        "Blowjob",
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTargetHasTheseSets": [
+        [
+            "Titfuck",
+            "Titfuck"
+        ]
+    ],
+    "unusableIfTarget": [
+        "Sex"
+    ],
+    "removesStance": "Breast Smother",
+    "requiresStatusEffect": "Charm",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] sacude sus tetas bruscas en la cara de [TargetName] antes de deslizarse en el cofre [TargetHisOrHer] con una sonrisa lasciva, envolviendo sus abundantes senos alrededor de [TargetHisOrHer] Manitud rígida, atrapada profundamente en su escote suave de Marshmellowy.",
+    "miss": "[AttackerName] sacude sus tetas bruscas en [TargetName], pero [TargetName] la sostiene allí mientras trata de deslizarse hasta la polla [TargetHisOrHer]!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

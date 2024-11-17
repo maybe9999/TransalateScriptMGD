@@ -1,0 +1,54 @@
+{
+    "name": "Primordial Ecstasy",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Cock"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "60",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "20",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "150",
+    "statusDuration": "10",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] monta la rígida virilidad de [TargetName] con una intensa pasión desenfrenada, cada reunión húmeda de tus caderas puntuadas por un brillante pulso de magia rosa que envía una cascada de placer resonante que se derrite con tu razón con vistas aturdidas.",
+    "miss": "[AttackerName] monta la rígida virilidad de [TargetName] con una intensa pasión desenfrenada, ¡pero [TargetHeOrShe] resiste el placer!",
+    "statusOutcome": "Experimentar un éxtasis tan entusiasta ha dejado [TargetName] completamente encantado, y ansioso por más del placer interminable [AttackerName] está dando [TargetHimOrHer].",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

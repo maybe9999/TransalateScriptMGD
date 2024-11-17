@@ -1,0 +1,60 @@
+{
+    "name": "Vili's Overflowing Tittyfucking",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts",
+        "Vili's Curse"
+    ],
+    "startsStance": "Titfuck",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Making Out",
+        "Blowjob",
+        "Breast Smother"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Tailjob",
+        "Blowjob",
+        "Titfuck"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "30",
+    "statusDuration": "5",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] envuelve [AttackerHisOrHer] enormes tetas alrededor de la polla rígida de [TargetName], atrapándolo por completo en [AttackerHisOrHer] abrumador escote, dejando [TargetName] gimiendo cuando [AttackerHisOrHer] comienza a bombar.",
+    "miss": "[AttackerName] intenta envolver [AttackerHisOrHer], ¡pero [TargetName] logra permanecer libre de la prisión de almohada!",
+    "statusOutcome": "[TargetName] No puedo evitar enamorarse de la suavidad celestial que envuelve su rígida virilidad, ¡encantado con las tetas de almohada de [AttackerName]!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

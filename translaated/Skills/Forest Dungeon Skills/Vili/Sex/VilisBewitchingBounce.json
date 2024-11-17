@@ -1,0 +1,56 @@
+{
+    "name": "Vili's Bewitching Bounce",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Cock"
+    ],
+    "fetishTags": [
+        "Penetration",
+        "Breasts",
+        "Vili's Curse"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "75",
+    "statusDuration": "6",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] rebota lentamente [AttackerHisOrHer], manteniendo sus enormes tetas frente a [TargetHimOrHer] todo el tiempo mientras se rebotan hacia arriba y hacia abajo con ella, y la atracción atractiva mantiene un control firme en [TargetHimOrHer] ''S Línea de visión, dibujando [TargetHimOrHer] en la dulce cautivación.",
+    "miss": "[AttackerName] lentamente rebota en las caderas [AttackerHisOrHer] de las caderas sobre la polla de [TargetName], manteniendo sus enormes tetas frente a [TargetHimOrHer] todo el tiempo mientras se rebotan hacia arriba y hacia abajo con ella, pero [TargetYouOrMonsterName] resiste el placer!",
+    "statusOutcome": "[TargetName] no puede evitar estar completamente encantado con la vista encantadora de las abundantes tetas de Vili que rebotan con sus movimientos seductores.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}
