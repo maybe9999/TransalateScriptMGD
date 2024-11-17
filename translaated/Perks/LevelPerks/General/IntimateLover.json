@@ -1,0 +1,23 @@
+{
+    "name": "Intimate Lover",
+    "description": "Eres un amante muy sensual, lo que aumenta la excitación que abordas todas las habilidades de seducción en un 10%, y las habilidades de besos en un 20%.",
+    "LevelReq": "10",
+    "PerkReq": [
+        "Loving"
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "SeductionBoost",
+        "KissBoost"
+    ],
+    "EffectPower": [
+        "10",
+        "20"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

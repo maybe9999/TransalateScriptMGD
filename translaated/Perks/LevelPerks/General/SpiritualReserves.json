@@ -1,0 +1,21 @@
+{
+    "name": "Spiritual Reserves",
+    "description": "Desde el entrenamiento intensamente de tu cuerpo, ganas 1 espíritu.",
+    "LevelReq": "10",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "GainSpirit"
+    ],
+    "EffectPower": [
+        "1"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Aphrodisiac Tolerant",
+    "description": "¡Su cuerpo se ha visto capaz de procesar todo tipo de afrodisíacos de manera mucho más efectiva, reduciendo su potencia en 1 cada turno y reduciendo el daño tomado por los afrodisíacos en un 5%!",
+    "LevelReq": "10",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "AphrodisiacTurnCure",
+        "AphrodisiacAmp"
+    ],
+    "EffectPower": [
+        "1",
+        "-5"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

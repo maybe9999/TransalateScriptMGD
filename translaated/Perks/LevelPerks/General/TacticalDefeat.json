@@ -1,0 +1,21 @@
+{
+    "name": "Tactical Defeat",
+    "description": "¡Obtenga el 25% del encuentro EXP cuando pierde en combate!Con los efectos de impulso de EXP a la mitad cuando esto sucede.No es que estés planeando perder intencionalmente, ¿verdad?",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "LossExp"
+    ],
+    "EffectPower": [
+        "25"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

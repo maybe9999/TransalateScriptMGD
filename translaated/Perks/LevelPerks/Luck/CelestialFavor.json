@@ -1,0 +1,21 @@
+{
+    "name": "Celestial Favor",
+    "description": "¡Parece que el reino celestial en sí mismo te está otorgando protección!... que o es una gran suerte.Puede usar el favor de la Diosa (es decir, pasar automáticamente un cheque fallido) 1 tiempo más por descanso.",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Divine Favor"
+    ],
+    "StatReq": [
+        "Luck"
+    ],
+    "StatReqAmount": [
+        "20"
+    ],
+    "PerkType": [
+        "FavorBoost"
+    ],
+    "EffectPower": [
+        "1"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

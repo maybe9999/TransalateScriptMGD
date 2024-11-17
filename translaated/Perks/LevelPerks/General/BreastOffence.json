@@ -1,0 +1,21 @@
+{
+    "name": "Breast Offence",
+    "description": "¡Eres un experto en burlarse de las tetas!¡Aumenta la excitación que aborda las habilidades dirigidas a los senos en un 25%!",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "BreastBoost"
+    ],
+    "EffectPower": [
+        "25"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

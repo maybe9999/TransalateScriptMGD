@@ -1,0 +1,21 @@
+{
+    "name": "Premium Quality",
+    "description": "De alguna manera, ¡siempre tienes las manos en las mejores cosas!Aumente la efectividad de todos los elementos consumibles de curación y daños en otro 25%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        "Luck"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "ItemBonus"
+    ],
+    "EffectPower": [
+        "25"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

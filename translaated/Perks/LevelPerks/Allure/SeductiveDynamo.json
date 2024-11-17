@@ -1,0 +1,21 @@
+{
+    "name": "Seductive Dynamo",
+    "description": "¡Con la alegría energética y sensual, recuperas el 5% de tu energía máxima cada vez que usas una habilidad de juego previo!",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Seductive Touch"
+    ],
+    "StatReq": [
+        "Allure"
+    ],
+    "StatReqAmount": [
+        "20"
+    ],
+    "PerkType": [
+        "ForeplayEnergyRegen"
+    ],
+    "EffectPower": [
+        "5"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

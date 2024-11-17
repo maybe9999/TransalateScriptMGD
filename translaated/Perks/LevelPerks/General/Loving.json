@@ -1,0 +1,23 @@
+{
+    "name": "Loving",
+    "description": "Eres un amante muy sensual, lo que aumenta la excitación que trata con habilidades de seducción no penetrativa y habilidades de besos en un 20%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "NonPenSeductionBoost",
+        "KissBoost"
+    ],
+    "EffectPower": [
+        "20",
+        "20"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Pacing",
+    "description": "¡Al mantener el control de usted mismo, recibe un 10% menos de daño de retroceso al atacar!",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "RecoilDamageTaken"
+    ],
+    "EffectPower": [
+        "-10"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

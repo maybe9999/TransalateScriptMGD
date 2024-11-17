@@ -1,0 +1,23 @@
+{
+    "name": "Expert Tongue",
+    "description": "Tienes una lengua increíblemente hábil, que aumenta los besos y la excitación oral tratada en un 25%.",
+    "LevelReq": "10",
+    "PerkReq": [
+        "Skilled Tongue"
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "OralBoost",
+        "KissBoost"
+    ],
+    "EffectPower": [
+        "25",
+        "25"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

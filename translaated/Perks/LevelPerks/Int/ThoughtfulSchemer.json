@@ -1,0 +1,21 @@
+{
+    "name": "Thoughtful Schemer",
+    "description": "¡Sus planes bien establecidos despliegan y sus enemigos quedan indefensos!Aumente sus posibilidades de aplicar todos los efectos de estado en un 5%.Esto incluye habilidades de escape.",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Schemer"
+    ],
+    "StatReq": [
+        "Intelligence"
+    ],
+    "StatReqAmount": [
+        "20"
+    ],
+    "PerkType": [
+        "StatusChanceBoost"
+    ],
+    "EffectPower": [
+        "5"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

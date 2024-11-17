@@ -1,0 +1,23 @@
+{
+    "name": "Pussy Lover",
+    "description": "¡Eres un experto en burlas y follando al fabricante de bebés de una mujer!Aumenta la excitación que aborda las habilidades dirigidas a los coños en un 5% y todas las habilidades de orientación del coño no penetrante en un 20%.Estas bonificaciones también se aplican al uso de juguetes sexuales.",
+    "LevelReq": "20",
+    "PerkReq": [
+        "Pussy Pleasurer"
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "SexBoost",
+        "NonPenSexBoost"
+    ],
+    "EffectPower": [
+        "5",
+        "20"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

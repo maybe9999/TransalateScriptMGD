@@ -1,0 +1,21 @@
+{
+    "name": "Sadist",
+    "description": "Te gusta infligir dolor a los demás, tanto que la excitación que lidia con las habilidades de dolor aumenta en un 25%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "PainBoost"
+    ],
+    "EffectPower": [
+        "25"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

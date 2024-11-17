@@ -1,0 +1,23 @@
+{
+    "name": "Rarity Hunter",
+    "description": "Has ganado una habilidad extraña para encontrar tesoros raros, dando un aumento del 30% a tu oportunidad de encontrar tesoros, la rareza del tesoro que encuentras y la oportunidad de caer de los enemigos que derrotas.",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Treasure Finder"
+    ],
+    "StatReq": [
+        "Luck"
+    ],
+    "StatReqAmount": [
+        "20"
+    ],
+    "PerkType": [
+        "ItemDropChance",
+        "TreasureFindChance"
+    ],
+    "EffectPower": [
+        "30",
+        "30"
+    ],
+    "PlayerCanPurchase": "Yes"
+}
