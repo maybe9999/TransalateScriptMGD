@@ -1,0 +1,23 @@
+{
+    "name": "Focused Defender",
+    "description": "¡Has aprendido a aprovechar tu enfoque y preparar tu próximo movimiento al defender!Aumenta aún más la reducción del daño cuando se defiende en un 5%, y cuando se defiende, obtienes una posibilidad de crítica de un 25% mayor para 1 turno.",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Defender"
+    ],
+    "StatReq": [
+        "Willpower"
+    ],
+    "StatReqAmount": [
+        "20"
+    ],
+    "PerkType": [
+        "DefendPower",
+        "DefendCrit"
+    ],
+    "EffectPower": [
+        "5",
+        "25"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

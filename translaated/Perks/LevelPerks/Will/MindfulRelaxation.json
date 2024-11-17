@@ -1,0 +1,25 @@
+{
+    "name": "Mindful Relaxation",
+    "description": "Con un manejo cuidadoso y un descanso adecuado, en los puntos de reposo ha aumentado el espíritu recuperado en 1, la energía recuperada en un 10%y la excitación eliminada en un 10%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        "Willpower"
+    ],
+    "StatReqAmount": [
+        "10"
+    ],
+    "PerkType": [
+        "RestSpiritRestored",
+        "RestEnergyRestored",
+        "RestArousalRestored"
+    ],
+    "EffectPower": [
+        "1",
+        "10",
+        "10"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Unshackled",
+    "description": "¡Nada puede detenerte ahora!Obtienes +20% para liberarte de restricciones y cuando te libras de restricciones, ¡aún puedes dar tu turno!No se activa con el efecto de la ventaja ilimitada.",
+    "LevelReq": "20",
+    "PerkReq": [
+        "Uncontainable"
+    ],
+    "StatReq": [
+        "Power"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "Unshackled",
+        "RemoveRestraints"
+    ],
+    "EffectPower": [
+        "0",
+        "20"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

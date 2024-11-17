@@ -1,0 +1,21 @@
+{
+    "name": "Tricky",
+    "description": "¡Tienes tantos trucos bajo la manga que probablemente olvides la mitad de ellos!Aumente sus posibilidades de aplicar todos los efectos de estado en un 10%.Esto incluye habilidades de escape.",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Schemer"
+    ],
+    "StatReq": [
+        "Technique"
+    ],
+    "StatReqAmount": [
+        "20"
+    ],
+    "PerkType": [
+        "StatusChanceBoost"
+    ],
+    "EffectPower": [
+        "10"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

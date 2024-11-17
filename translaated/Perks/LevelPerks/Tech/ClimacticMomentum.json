@@ -1,0 +1,21 @@
+{
+    "name": "Climactic Momentum",
+    "description": "¡Recupere 25 energía cuando haces que un enemigo cum!",
+    "LevelReq": "20",
+    "PerkReq": [
+        "Sexual Momentum"
+    ],
+    "StatReq": [
+        "Technique"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "OrgasmEnergyDrain"
+    ],
+    "EffectPower": [
+        "25"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

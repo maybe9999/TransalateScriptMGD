@@ -1,0 +1,21 @@
+{
+    "name": "Enduring Body",
+    "description": "Reduce la posibilidad crítica de ataques contra ti en un 10%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        "Power"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "CritChanceBoostSelf"
+    ],
+    "EffectPower": [
+        "-10"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

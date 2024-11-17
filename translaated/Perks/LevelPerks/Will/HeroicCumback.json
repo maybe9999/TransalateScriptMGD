@@ -1,0 +1,23 @@
+{
+    "name": "Heroic Cumback",
+    "description": "Base 10% de probabilidad en el orgasmo final para mantener su último espíritu después de Cumming, pero usted permanece en la excitación actual, la oportunidad de resistir se basa en su voluntad, suerte y virilidad, cada 2 fuerza de voluntad y suerte = 1% de posibilidades, cada 10% devirilidad = 1% de probabilidad, máxima al 60%.Solo funciona en 1 Spirit y solo funciona en combate directo.Puede suceder cualquier cantidad de veces.También esta ventaja aumenta su virilidad en un 10%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        "Willpower"
+    ],
+    "StatReqAmount": [
+        "20"
+    ],
+    "PerkType": [
+        "ResistFinalOrgasm",
+        "VirilityBoost"
+    ],
+    "EffectPower": [
+        "4",
+        "10"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

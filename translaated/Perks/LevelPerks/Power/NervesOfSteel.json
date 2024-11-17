@@ -1,0 +1,21 @@
+{
+    "name": "Nerves Of Steel",
+    "description": "¡De la práctica cuidadosa, puede excluir el maravilloso placer que sus enemigos infligen!Reduzca todo el daño recibido en un 5%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        "Power"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "DamageReduction"
+    ],
+    "EffectPower": [
+        "5"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Endurance",
+    "description": "Con el entrenamiento y la fuerza de voluntad, su excitación máxima se ha incrementado en 50, y su energía se ha incrementado en 25.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        "Willpower"
+    ],
+    "StatReqAmount": [
+        "10"
+    ],
+    "PerkType": [
+        "GainArousal",
+        "GainEnergy"
+    ],
+    "EffectPower": [
+        "50",
+        "25"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

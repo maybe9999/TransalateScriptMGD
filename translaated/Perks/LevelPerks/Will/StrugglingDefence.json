@@ -1,0 +1,21 @@
+{
+    "name": "Struggling Defence",
+    "description": "¡Defender ahora las luchas contra las restricciones y las posturas al 25% de la tasa de lucha normal o la acción de alejar!Sin embargo, la defensa no puede liberarlo de una moderación o postura.",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Defender"
+    ],
+    "StatReq": [
+        "Willpower"
+    ],
+    "StatReqAmount": [
+        "20"
+    ],
+    "PerkType": [
+        "DefendEscape"
+    ],
+    "EffectPower": [
+        "25"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Iron Will",
+    "description": "¡Puedes soportar todo tipo de sensaciones maravillosas!Reduzca todo el daño recibido en un 5%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        "Willpower"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "DamageReduction"
+    ],
+    "EffectPower": [
+        "5"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

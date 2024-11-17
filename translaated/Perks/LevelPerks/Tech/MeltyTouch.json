@@ -1,0 +1,21 @@
+{
+    "name": "Melty Touch",
+    "description": "De cada pequeña caricia, sus socios se derriten un poco más.Cada habilidad de juego previo que usa disminuye sus defensas a la excitación en un 5% durante 3 turnos, este efecto puede apilarse sobre sí mismo y se combina con los efectos similares que tenga.",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Enticing Touch"
+    ],
+    "StatReq": [
+        "Technique"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "ForeplayDefDown"
+    ],
+    "EffectPower": [
+        "5"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

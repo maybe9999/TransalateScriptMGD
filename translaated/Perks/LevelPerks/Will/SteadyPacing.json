@@ -1,0 +1,21 @@
+{
+    "name": "Steady Pacing",
+    "description": "¡Al mantener un mejor control de usted mismo, recibe un 15% menos de daño de retroceso al atacar!",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Pacing"
+    ],
+    "StatReq": [
+        "Willpower"
+    ],
+    "StatReqAmount": [
+        "20"
+    ],
+    "PerkType": [
+        "RecoilDamageTaken"
+    ],
+    "EffectPower": [
+        "-15"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

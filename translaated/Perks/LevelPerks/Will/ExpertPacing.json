@@ -1,0 +1,21 @@
+{
+    "name": "Expert Pacing",
+    "description": "¡Al mantener el control experto de usted mismo, recibe un 15% menos de daño de retroceso al atacar!",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Steady Pacing"
+    ],
+    "StatReq": [
+        "Willpower"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "RecoilDamageTaken"
+    ],
+    "EffectPower": [
+        "-15"
+    ],
+    "PlayerCanPurchase": "Yes"
+}
