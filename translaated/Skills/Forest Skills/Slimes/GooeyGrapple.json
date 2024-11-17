@@ -1,0 +1,55 @@
+{
+    "name": "Gooey Grapple",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Power",
+    "requiredStat": "7",
+    "skillTags": [
+        "Pain"
+    ],
+    "fetishTags": [
+        "Monstrous"
+    ],
+    "startsStance": "Slimed",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Slimed",
+        "Slimed 50%",
+        "Slimed 100%"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "85",
+    "statusDuration": "0",
+    "statusPotency": "10",
+    "statusResistedBy": "",
+    "statusText": "gooed",
+    "descrip": "Lidiar con Goo",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] se arroja a [TargetName] y comienza a cubrir [TargetHimOrHer] con limo!",
+    "statusMiss": "[AttackerName] flings herself at [TargetName], but [AttackerName] misses entirely!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Succubi's Charm",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "requiredStat": "8",
+    "skillTags": [
+        "Magic",
+        "Seduction",
+        "RestrainUsable"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "95",
+    "statusDuration": "7",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Lanza un encanto a tu oponente.",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] mira a los ojos de [TargetName], y los propios ojos de [AttackerName] parpadean de color rosa brillante con un brillo de magia, ¡entonces una sensación de hormigueo de afecto intoxicante pasa a través de [TargetName], completamente encantador [TargetHimOrHer]!",
+    "statusMiss": "[AttackerName] stares into [TargetName]'s eyes, and [AttackerName]'s own eyes flash bright pink with a glow of magic, but [TargetName] resists the charm gaze from [AttackerYouOrMonsterName].",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,57 @@
+{
+    "name": "Witches Intoxication",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "7",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "",
+    "requiresStance": "Nursing",
+    "unusableIfStance": [
+        "Titfuck",
+        "Blowjob",
+        "Making Out",
+        "Breast Smother"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "150",
+    "statusDuration": "10",
+    "statusPotency": "15",
+    "statusResistedBy": "Willpower",
+    "statusText": "aphrodisiac",
+    "descrip": "",
+    "outcome": "Una de las manos arañadas de [AttackerName] acaricia suavemente la parte posterior de la cabeza de [TargetName], mientras que [TargetHeOrShe] enferma en los senos cremosos de [AttackerHisOrHer] de [AttackerHisOrHer], convenciendo a [TargetName], usando su mano libre para provocar ociosamente la erección emocionada de [TargetName].",
+    "miss": "Una de las manos arañadas de [AttackerName] acaricia suavemente la parte posterior de la cabeza de [TargetName], mientras que [TargetHeOrShe] enfermera en los senos cremosos de [AttackerHisOrHer], pero [TargetHeOrShe] logra soportar la tentación y no beber ninguna leche!",
+    "statusOutcome": "Cuanto más bebida con leche [TargetName], la mente numorosa [TargetHisOrHer] se vuelve, el dulce afrodisíaco inunda lentamente [TargetHimOrHer] con la excitación melúdica y necesitada y anhelando aún más la crema intoxicante de Venefa.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

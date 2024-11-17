@@ -1,0 +1,60 @@
+{
+    "name": "Marshmallowy Love",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "0",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Penetration",
+        "Breasts"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob",
+        "Nursing",
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Penetration",
+        "Breast Smother"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "60",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "critChance": "20",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "10",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] monta suavemente la erección de [TargetName] de [TargetHisOrHer] cara enterrada en su escote de lujoso, y la dulce suavidad y la fragancia empalagosa dejan a [TargetHimOrHer] acariciando en sus senos con entusiasmo, el cerebro se desvanece lentamente en un charco sin sentido seducido., cada reunión de sus caderas dibujando [TargetHimOrHer] más profundo en el enamoramiento total.",
+    "miss": "[AttackerName] monta suavemente la erección de [TargetName] mientras mantiene la cara [TargetHisOrHer] enterrada en su escote de lujoso, y la dulce suavidad y la fragancia empalagosa dejan [TargetHimOrHer] acariciando en sus senos ansiosos, pero [TargetYouOrMonsterName] ¡Resiste el placer!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

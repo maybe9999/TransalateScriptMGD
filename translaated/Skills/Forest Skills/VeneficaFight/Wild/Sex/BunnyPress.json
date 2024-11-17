@@ -1,0 +1,54 @@
+{
+    "name": "Bunny Press",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Power",
+    "statusEffectScaling": "0",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "85",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "40",
+    "targetType": "single",
+    "statusEffect": "Stun",
+    "statusChance": "40",
+    "statusDuration": "2",
+    "statusPotency": "0",
+    "statusResistedBy": "Power",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] a fondo apedea a [TargetName] hacia abajo, forzando brevemente las piernas [TargetHisOrHer] mientras presiona su voluptuoso cuerpo cerca de [TargetHimOrHer] mientras ella balancea salvajemente sus caderas, manteniendo [TargetHisOrHer] arqueando polla en un estado constante de tirar a Bliss como ella como ella[SexWord] aprieta y acaricia su longitud a un tempo rápido y humilosamente resonante.",
+    "miss": "[AttackerName] se apodera a fondo [TargetName], forzando brevemente las piernas [TargetHisOrHer] mientras presiona su voluptuoso cuerpo cerca de [TargetHimOrHer] mientras balancea salvajemente sus caderas, ¡pero [TargetYouOrMonsterName] resiste el placer!",
+    "statusOutcome": "[TargetName] se encuentra rápidamente [TargetHimOrHer] Auturos bajo [AttackerName], ya que no ralentiza el golpe de sus caderas bien formadas por un segundo, dejando a [TargetHimOrHer] jadeando y retorciéndose mientras [TargetHisOrHer] las caderas comienzan a dolor agradablemente.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

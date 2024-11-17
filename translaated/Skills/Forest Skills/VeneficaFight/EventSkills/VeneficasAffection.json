@@ -1,0 +1,54 @@
+{
+    "name": "Venefica's Affection",
+    "cost": "20",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "statusEffect",
+    "statType": "Willpower",
+    "statusEffectScaling": "0",
+    "requiredStat": "20",
+    "skillTags": [
+        "Buffs"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Defence",
+    "statusChance": "100",
+    "statusDuration": "999",
+    "statusPotency": "-25",
+    "statusResistedBy": "",
+    "statusText": "Venefica's Affection",
+    "descrip": "El cuerpo de Venefica parece más vulnerable mientras lucha contra lo que sea que la esté afligiendo.",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] se prepara para soportar el placer a través de pura fuerza de voluntad!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}
