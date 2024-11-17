@@ -1,0 +1,47 @@
+{
+    "name": "Bondage Coat",
+    "itemType": "Accessory",
+    "cost": "5000",
+    "descrip": "Un gran abrigo holgado negro con una miríada de anillos y correas, que te da un toque ligeramente extraño.Aumenta la excitación máxima en 200 y disminuye la sensibilidad al dolor en un 25%, pero reduce su capacidad de salir de las restricciones en un 25%y reduce la resistencia a la restricción en un 25%.",
+    "requires": [
+        ""
+    ],
+    "perks": [
+        "BondageCoat"
+    ],
+    "hp": "200",
+    "ep": "0",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "0",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "-25",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "-25",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "useOutcome": "",
+    "useMiss": ""
+}
