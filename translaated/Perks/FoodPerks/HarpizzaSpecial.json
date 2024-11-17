@@ -1,0 +1,27 @@
+{
+    "name": "Harpizza Special",
+    "description": "Gracias a la pizza de lujo que comiste, estás lleno de oportunistas, aumentando tus eros obtenidos y las tasas de caída de artículos en un 25%, ¡y los EROS que obtienes al vender artículos en un 5%!",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "ErosBoost",
+        "ItemDropChance",
+        "TreasureFindChance",
+        "SellPrices"
+    ],
+    "EffectPower": [
+        "25",
+        "25",
+        "25",
+        "5"
+    ],
+    "PlayerCanPurchase": "No"
+}

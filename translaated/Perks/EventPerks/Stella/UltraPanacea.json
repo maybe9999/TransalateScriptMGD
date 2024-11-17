@@ -1,0 +1,39 @@
+{
+    "name": "Ultra-Panacea!",
+    "description": "De una dosis de super medicina, su energía máxima ha aumentado en 20, su virilidad en un 10%y su resistencia a todos los efectos de estado ha aumentado en un 5%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "GainEnergy",
+        "VirilityBoost",
+        "StunRes",
+        "CharmRes",
+        "AphrodisiacRes",
+        "RestraintsRes",
+        "SleepRes",
+        "TranceRes",
+        "ParalysisRes",
+        "DebuffRes"
+    ],
+    "EffectPower": [
+        "20",
+        "10",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "PlayerCanPurchase": "No"
+}

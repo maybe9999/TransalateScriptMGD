@@ -1,0 +1,29 @@
+{
+    "name": "Blue Balls",
+    "description": "Te duelen las bolas para descargar.Hasta que se cumpla, su virilidad aumenta en un 10%, toma un 10% más de excitación y pierde el doble espíritu en su próximo orgasmo.Eliminado en el orgasmo.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "VirilityBoost",
+        "DamageReduction",
+        "MultiplySpiritLoss",
+        "RemovedOnOrgasm"
+    ],
+    "EffectPower": [
+        "StatusIcons/blueballs.png",
+        "10",
+        "-10",
+        "2",
+        "0"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Venefica's Milking Pet",
+    "description": "Venefa te ha encantado que Venefa te ordeñe sin sentido, y tu cuerpo se ha adaptado al ordeño y burlas constantes, ansiosos por correrse con la mayor frecuencia posible.Bajando su excitación máxima en 50, y su fuerza de voluntad por 5, pero su poder aumenta en 5, su virilidad en un 25%y su espíritu en 1.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "Power",
+        "Willpower",
+        "VirilityBoost",
+        "GainArousal",
+        "GainSpirit"
+    ],
+    "EffectPower": [
+        "5",
+        "-5",
+        "25",
+        "-50",
+        "1"
+    ],
+    "PlayerCanPurchase": "No"
+}

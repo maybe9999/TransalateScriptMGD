@@ -1,0 +1,25 @@
+{
+    "name": "Spicy Burger Special",
+    "description": "Gracias a la hamburguesa picante de Afrodisiac Spicy, su virilidad aumenta en un 10% y, mientras que en combatir su excitación aumenta en un 10% de su máximo cada turno, pero recupera el 10% de su energía máxima.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "VirilityBoost",
+        "RegenMaxArousal",
+        "RegenMaxEnergy"
+    ],
+    "EffectPower": [
+        "10",
+        "-10",
+        "10"
+    ],
+    "PlayerCanPurchase": "No"
+}

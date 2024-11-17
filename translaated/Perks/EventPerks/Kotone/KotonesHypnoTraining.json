@@ -1,0 +1,23 @@
+{
+    "name": "Kotone's Hypno Training 1",
+    "description": "¡Por el entrenamiento inducido hipnóticamente, ha ganado 1 fuerza de voluntad!Y entrar en trance debería ser un poco más efectivo la próxima vez.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "IncreaseFetish",
+        "Willpower"
+    ],
+    "EffectPower": [
+        "HypnosisAddict|/|10",
+        "1"
+    ],
+    "PlayerCanPurchase": "No"
+}

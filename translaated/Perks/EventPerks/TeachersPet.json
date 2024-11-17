@@ -1,0 +1,25 @@
+{
+    "name": "Teacher's Pet",
+    "description": "De todas esas lecciones privadas que ha aprendido {i} así {/i} mucho, aumentando su inteligencia en 6 y aumentando la excitación que trata con habilidades indulgentes en un 10%.Pero te ha dejado flexible, moldeable y feliz de servir a tus maestros, aumentando tu sensibilidad de seducción en un 10%, y te dejó ansioso por obedecer y ceder a la voluntad de tus maestros, simplemente no puedes resistirte ...",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "Intelligence",
+        "IndulgentBoost",
+        "SeductionSensitivity"
+    ],
+    "EffectPower": [
+        "6",
+        "10",
+        "10"
+    ],
+    "PlayerCanPurchase": "No"
+}

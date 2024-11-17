@@ -1,0 +1,25 @@
+{
+    "name": "Stella's Lipstick Slave",
+    "description": "Estás completamente enganchado a los labios lujosos de Stella, cargado de lápiz labial, te encuentras ansioso por obedecerla y secar.Tu fetiche para besarse y oral ha aumentado en un 25%, pero tus bolas están ansiosas por producir 1 espíritu para ayudar a compensar el apetito de la mujer voraz.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "GainSpirit",
+        "IncreaseFetish",
+        "IncreaseFetish"
+    ],
+    "EffectPower": [
+        "1",
+        "Kissing|/|25",
+        "Oral|/|25"
+    ],
+    "PlayerCanPurchase": "No"
+}

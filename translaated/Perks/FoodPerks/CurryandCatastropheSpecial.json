@@ -1,0 +1,49 @@
+{
+    "name": "Curry and Catastrophe Special",
+    "description": "Gracias al curry especializado que comió, su virilidad aumenta en un 25%, sus habilidades indulgentes se ocupan 10%más de excitación, su daño crítico aumenta en un 25%, su oportunidad crítica de golpes aumenta en un 5%y su oportunidad de aplicar el estado¡Los efectos aumentan en un 20%!Sin embargo, recibe un 25%más de daño por éxitos críticos, su oportunidad de recibir éxitos críticos aumenta en un 5%y su resistencia a todos los efectos de estado disminuye en un 20%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "VirilityBoost",
+        "CritDamageBoost",
+        "CritDamageBoostSelf",
+        "CritChanceBoostSelf",
+        "CritChanceBoost",
+        "IndulgentBoost",
+        "StatusChanceBoost",
+        "StunRes",
+        "CharmRes",
+        "AphrodisiacRes",
+        "RestraintsRes",
+        "TranceRes",
+        "ParalysisRes",
+        "SleepRes",
+        "DebuffRes"
+    ],
+    "EffectPower": [
+        "25",
+        "25",
+        "25",
+        "5",
+        "5",
+        "10",
+        "20",
+        "-20",
+        "-20",
+        "-20",
+        "-20",
+        "-20",
+        "-20",
+        "-20",
+        "-20"
+    ],
+    "PlayerCanPurchase": "No"
+}

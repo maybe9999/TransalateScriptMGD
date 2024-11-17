@@ -1,0 +1,23 @@
+{
+    "name": "Minor Blessing Of Venereae",
+    "description": "Gracias a sus generosas contribuciones a la Iglesia de la Diosa, ¡ha sido bendecido con +10 Max Shousal y +5 Max Energy!",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "GainArousal",
+        "GainEnergy"
+    ],
+    "EffectPower": [
+        "10",
+        "5"
+    ],
+    "PlayerCanPurchase": "No"
+}

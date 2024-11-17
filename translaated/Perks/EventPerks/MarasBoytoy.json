@@ -1,0 +1,29 @@
+{
+    "name": "Mara's Boytoy",
+    "description": "Eres el ansioso boytoy de Mara, infundido con un poco de su magia demoníaca.Aumenta su excitación de retroceso tratada en un 5%, y la capacidad de su encanto de escalar su daño de retroceso en un 10%.También aumenta la excitación de sus habilidades indulgentes tratada en un 20% y su virilidad en un 10%.Sin embargo, también aumenta su nivel de fetiche sexual en 10.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "RecoilBoost",
+        "AllureRecoilBoost",
+        "IndulgentBoost",
+        "VirilityBoost",
+        "IncreaseFetish"
+    ],
+    "EffectPower": [
+        "5",
+        "10",
+        "20",
+        "10",
+        "Sex|/|10"
+    ],
+    "PlayerCanPurchase": "No"
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Kotone's Hypno Training 3",
+    "description": "¡Desde el entrenamiento inducido hipnóticamente, ha ganado 2 fuerza de voluntad, 5 excitación máxima y el 5% de resistencia aumentan contra los efectos del sueño y el encanto!Pero eres un 10% más susceptible a los efectos de trance, y encontrarte un nivel más profundo en un fetiche de besos, pero entrar en trance para Kotone debería ser aún más fácil y más agradable la próxima vez.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "IncreaseFetish",
+        "IncreaseFetish",
+        "GainArousal",
+        "Willpower",
+        "TranceRes",
+        "SleepRes",
+        "CharmRes"
+    ],
+    "EffectPower": [
+        "HypnosisAddict|/|30",
+        "Kissing|/|10",
+        "5",
+        "2",
+        "-10",
+        "5",
+        "5"
+    ],
+    "PlayerCanPurchase": "No"
+}

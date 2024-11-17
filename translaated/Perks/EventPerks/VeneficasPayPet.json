@@ -1,0 +1,27 @@
+{
+    "name": "Venefica's Pay-Pet",
+    "description": "Te has convertido en la ansiosa masa de pago de Venefica, feliz de gastar todos tus centavos y más en delicias sexuales.Está más emocionado de gastar más de lo que debería, aumentando los precios de compra en un 30%, pero es mucho mejor para escapar todo lo que pueda, aumentando las tasas de eros y caídas de artículos en un 30%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "BuyPrices",
+        "ErosBoost",
+        "ItemDropChance",
+        "TreasureFindChance"
+    ],
+    "EffectPower": [
+        "-30",
+        "30",
+        "30",
+        "30"
+    ],
+    "PlayerCanPurchase": "No"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Virility Blessing",
+    "description": "¡Has sido bendecido por un ángel de Venereae, aumentando tu virilidad a los 25!",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "VirilityBoost"
+    ],
+    "EffectPower": [
+        "25"
+    ],
+    "PlayerCanPurchase": "No"
+}

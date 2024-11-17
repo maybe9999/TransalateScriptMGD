@@ -1,0 +1,35 @@
+{
+    "name": "Breast Worshipper",
+    "description": "Gracias al entrenamiento muy personal de Vivian, el fetiche de su seno ha aumentado en 25 y su sensibilidad a la seducción aumentó en un 5%, pero su excitación máxima ha aumentado en 20, el daño que se ocupa de los senos se ha incrementado en un 25% debido a su adoración entrenada.La devoción y sus habilidades indulgentes infligen un 10% más de daño.Su virilidad también se ha incrementado en 5.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "BreastBoost",
+        "IndulgentBoost",
+        "IncreaseFetish",
+        "IncreaseFetish",
+        "GainArousal",
+        "VirilityBoost",
+        "HolySensitivity",
+        "SeductionSensitivity"
+    ],
+    "EffectPower": [
+        "25",
+        "10",
+        "Devotion to Vivian|/|10",
+        "Breasts|/|25",
+        "20",
+        "5",
+        "10",
+        "5"
+    ],
+    "PlayerCanPurchase": "No"
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Kotone's Blessing",
+    "description": "¡Has sido bendecido por el Foxy Kitsune Kotone!¡Su suerte se ha incrementado en 5, su espíritu en 1, su virilidad en un 5% adicional y sus habilidades mágicas se ocupan 10% más de excitación!",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "MagicBoost",
+        "VirilityBoost",
+        "Luck",
+        "GainSpirit"
+    ],
+    "EffectPower": [
+        "10",
+        "5",
+        "5",
+        "1"
+    ],
+    "PlayerCanPurchase": "No"
+}

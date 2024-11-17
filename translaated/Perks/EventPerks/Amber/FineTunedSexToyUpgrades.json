@@ -1,0 +1,21 @@
+{
+    "name": "Fine Tuned Sex Toy Upgrades",
+    "description": "Gracias a las actualizaciones de Amber, sus juguetes sexuales ofrecen un 25% más de excitación.No se aplica a las reliquias sagradas.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "SexToyBoost"
+    ],
+    "EffectPower": [
+        "25"
+    ],
+    "PlayerCanPurchase": "No"
+}

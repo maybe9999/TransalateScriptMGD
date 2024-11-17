@@ -1,0 +1,23 @@
+{
+    "name": "Hearty Meal Special",
+    "description": "¡Gracias a la maravillosa cocina casera de Trisha, su energía máxima ha aumentado en 50 y su espíritu máximo ha aumentado en 1!",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "GainEnergy",
+        "GainSpirit"
+    ],
+    "EffectPower": [
+        "50",
+        "1"
+    ],
+    "PlayerCanPurchase": "No"
+}
