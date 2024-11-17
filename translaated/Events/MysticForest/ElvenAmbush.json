@@ -1,0 +1,253 @@
+{
+    "name": "Elven Ambush",
+    "CardType": "Event",
+    "CardLimit": "2",
+    "Description": "Pairs of elves have set traps around the forest to catch men with.",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Elf",
+            "postName": "",
+            "SpeakerType": ""
+        },
+        {
+            "name": "Elf",
+            "postName": "",
+            "SpeakerType": ""
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "StoreCurrentBG",
+                "ChangeBG",
+                "forest.png",
+                "Mientras camina pacíficamente por el bosque, no puedes evitar sentir que estás siendo observado ...",
+                "Menu",
+                "Keep your wits about you. (Int)",
+                "Trust in your reflexes. (Tech)",
+                "Walk forward without a care in the world.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Keep your wits about you. (Int)",
+            "theScene": [
+                "StatCheck",
+                "Intelligence",
+                "15",
+                "RopeWPass",
+                "Fail",
+                "RopeFail"
+            ]
+        },
+        {
+            "NameOfScene": "Trust in your reflexes. (Tech)",
+            "theScene": [
+                "StatCheck",
+                "Technique",
+                "15",
+                "RopeTPass",
+                "Fail",
+                "RopeFail"
+            ]
+        },
+        {
+            "NameOfScene": "Walk forward without a care in the world.",
+            "theScene": [
+                "JumpToScene",
+                "RopeFail"
+            ]
+        },
+        {
+            "NameOfScene": "RopeFail",
+            "theScene": [
+                "¡A medida que continúa caminando hacia adelante, escucha el chasquido de un cable mientras de repente es elevado al aire por una red!",
+                "ApplyStatusEffect",
+                "Elven Rope Trap",
+                "¡Las restricciones te envuelven firmemente antes de dejarte caer sin ceremonias al suelo!",
+                "DisplayCharacters",
+                "1",
+                "2",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Sonrojo",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "Sonrojo",
+                "¡Dos elfos muy emocionados emergen de algún follaje cercano y descienden sobre su cuerpo ahora restringido!",
+                "CombatEncounter",
+                "Elf",
+                "Elf",
+                "StartCombat",
+                "De alguna manera lograste derrotar a los elfos a pesar de quedar atrapados en su trampa.",
+                "Avanzando, sientes una sensación de orgullo.",
+                "UseHeldBG"
+            ]
+        },
+        {
+            "NameOfScene": "RopeWPass",
+            "theScene": [
+                "A medida que continúa caminando hacia adelante, nota un cable hábilmente oculto en el camino frente a usted, encima de lo que parece ser una red de cuerda.",
+                "Menu",
+                "Step over it.",
+                "Set it off intentionally.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Set it off intentionally.",
+            "theScene": [
+                "¡Relabas el cable con tu pie y tu mundo gira mientras de repente te pones al aire por una red!",
+                "ApplyStatusEffect",
+                "Elven Rope Trap",
+                "¡Las restricciones te envuelven firmemente antes de dejarte caer sin ceremonias al suelo!",
+                "DisplayCharacters",
+                "1",
+                "2",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Sonrojo",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "Sonrojo",
+                "Dos elfos muy emocionados emergen de algún follaje cercano y descienden sobre su cuerpo ahora restringido",
+                "CombatEncounter",
+                "Elf",
+                "Elf",
+                "StartCombat",
+                "De alguna manera lograste derrotar a los elfos a pesar de quedar atrapados intencionalmente en su trampa.",
+                "UseHeldBG"
+            ]
+        },
+        {
+            "NameOfScene": "Step over it.",
+            "theScene": [
+                "Pasas cuidadosamente el cable y continúas en tu camino, solo para escuchar a algunos elfos gritando no mucho después.",
+                "DisplayCharacters",
+                "1",
+                "2",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Shock",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "Sonrojo de choque",
+                "Te giras, listo para pelear, solo para ver cómo dos elfos, que presumiblemente establecen la trampa en primer lugar, desencadenan el Trip -Wire y se elevan al aire.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Flustered",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "Tsun Blush",
+                "Parecen bastante avergonzados por ser atrapados por su propia trampa.Te miran torpemente mientras colgan suavemente en el aire.",
+                "Speaks",
+                "Uhm ... y no estaría dispuesto a bajarnos desde aquí, ¿verdad?¿Merculoso héroe?",
+                "Menu",
+                "Get them down.",
+                "Leave them there.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Get them down.",
+            "theScene": [
+                "Agarras la cuerda sosteniéndolos en el aire y rápidamente desates, dejando a los elfos chillando mientras caen al suelo.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Flustered",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "Flustered",
+                "Los elfos se desenredan de las cuerdas y se ponen de pie, desempolvando.",
+                "Speaks",
+                "Uhm ... ah ... gracias ...",
+                "Parecen muy avergonzados por esto y regresan al bosque.",
+                "UseHeldBG"
+            ]
+        },
+        {
+            "NameOfScene": "Leave them there.",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Tsun Blush",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "Tsun Blush",
+                "Decides continuar en tu camino, ignorando las súplicas de los elfos.Intentaron atraparte en esa trampa, después de todo.Se merecen un sabor de su propia medicina, ¿no?",
+                "Mientras te alejas, estás bastante seguro de que puedes escucharlos gemir suavemente detrás de ti ...",
+                "UseHeldBG"
+            ]
+        },
+        {
+            "NameOfScene": "RopeTPass",
+            "theScene": [
+                "A medida que continúa caminando hacia adelante, ¡escuchas el chasquido de un cable!Afortunadamente, tus rayos como reflejos entran en acción y sales hacia adelante, ¡evitando la inevitable trampa!",
+                "La red te extraña por completo.",
+                "DisplayCharacters",
+                "1",
+                "2",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewd",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "Lustful",
+                "Ves a dos elfos mirándote con asombro de un follaje cercano.Tus acrobacias parecen haberlos calientes y molestos.",
+                "Menu",
+                "Get out of there.",
+                "Fuck the horny elves.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Get out of there.",
+            "theScene": [
+                "Continúas en tu camino, dejando a la pareja de elfos parados allí, enamorados de tu increíble exhibición.",
+                "UseHeldBG"
+            ]
+        },
+        {
+            "NameOfScene": "Fuck the horny elves.",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug lasciormente",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "Smug lasciormente",
+                "¡A medida que te acercas a los dos elfos, salen de su estupor lujurioso y cargan hacia ti!",
+                "CombatEncounter",
+                "Elf",
+                "Elf",
+                "StartCombat",
+                "Con ambos elfos satisfechos, continúas en tu camino, sintiendo un pequeño sentido de orgullo.",
+                "UseHeldBG"
+            ]
+        }
+    ]
+}

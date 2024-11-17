@@ -1,0 +1,40 @@
+{
+    "name": "Hunting Beris",
+    "CardType": "Event",
+    "CardLimit": "3",
+    "Description": "Beris is tracking you down through the Labyrinth, burning to thrash you into a pleasure-addled mess.\n\n{i}There’s a small note on the page mentioning that unlike the regular Labyrinth challenge, the hellhounds won't get stronger in the course of your exploration, since their lustful inner flames have time to abate from one encounter to the next.{/i}",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Beris",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Fight",
+            "theScene": [
+                "DisplayCharacters",
+                "1",
+                "EndLoop",
+                "GetEventAndSetProgress",
+                "BerisCombatEvents",
+                "0",
+                "ChangeImageLayer",
+                "Expression",
+                "Beris",
+                "Frown",
+                "Sin palabras, Beris se apresura a una esquina con una mirada de mal humor en su rostro mientras las llamas azules estallan alrededor de ustedes dos, evitando que se escapen.¡Parece que está decidida a desahogar sus frustraciones en ti, dejándote sin otra opción que follarla primero!",
+                "CombatEncounter",
+                "RunningWontSkipEvent",
+                "NoRunning",
+                "Beris",
+                "StartCombat",
+                "Con el Hellhound de Hellmuthed derrotado, las llamas parpadean y desaparecen, dejándote libre para continuar ..."
+            ]
+        }
+    ]
+}

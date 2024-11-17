@@ -1,0 +1,26 @@
+{
+    "name": "Ceris Pink Heart Tile",
+    "CardType": "Event",
+    "CardLimit": "2",
+    "Description": "These pink tiles will conjure Ceris and have her try to seduce you by rubbing her body against a pane of magical glass.",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ceris",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Triggered",
+            "theScene": [
+                "JumpToEventThenScene",
+                "PinkHeartTile",
+                "PinkHeart"
+            ]
+        }
+    ]
+}

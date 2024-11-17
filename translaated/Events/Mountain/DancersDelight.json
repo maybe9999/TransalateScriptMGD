@@ -1,0 +1,41 @@
+{
+    "name": "Dancer's Delight",
+    "CardType": "Event",
+    "CardLimit": "1",
+    "Description": "Nara seems intent on seducing and teasing you into submission.",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Nara",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Fight",
+            "theScene": [
+                "StoreCurrentBG",
+                "ChangeBG",
+                "mountain.png",
+                "DisplayCharacters",
+                "1",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "Nara",
+                "Smug",
+                "¡Jarvantemente, te encuentras de vuelta en la cumbre de la montaña, con Nara bloqueando tu camino!Una sonrisa desafiante en su rostro, se presenta con un balanceo y se mueve en sus caderas con curvas, ¡lista para follarte en la sumisión!",
+                "CombatEncounter",
+                "RunningWontSkipEvent",
+                "NoRunning",
+                "Nara",
+                "StartCombat",
+                "Con la aparición de Ditzy Dancer Derroted, te devuelven al laberinto, libre de continuar con desafíos más extraños ...",
+                "UseHeldBG"
+            ]
+        }
+    ]
+}

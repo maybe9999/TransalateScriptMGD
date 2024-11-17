@@ -1,0 +1,165 @@
+{
+    "name": "FireGridTimers",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ceris",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "FireTimer",
+            "theScene": [
+                "IfChoice",
+                "1",
+                "",
+                "DormantGridTimer",
+                "IfChoice",
+                "1",
+                "Warning",
+                "WarningGridTimer",
+                "IfChoice",
+                "1",
+                "Active",
+                "ActiveGridTimer",
+                "IfChoice",
+                "1",
+                "Calming",
+                "CalmingGridTimer"
+            ]
+        },
+        {
+            "NameOfScene": "DormantGridTimer",
+            "theScene": [
+                "ChangeProgress",
+                "1",
+                "IfProgressEqualsOrGreater",
+                "7",
+                "DormantGridTimeUp"
+            ]
+        },
+        {
+            "NameOfScene": "DormantGridTimeUp",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "1",
+                "Warning"
+            ]
+        },
+        {
+            "NameOfScene": "SwapToWarning",
+            "theScene": [
+                "SpawnGridNPC",
+                "FireGridWarning",
+                "Here",
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "WarningGridTimer",
+            "theScene": [
+                "ChangeProgress",
+                "1",
+                "IfProgressEqualsOrGreater",
+                "3",
+                "WarningTimerUp"
+            ]
+        },
+        {
+            "NameOfScene": "WarningTimerUp",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "1",
+                "Active"
+            ]
+        },
+        {
+            "NameOfScene": "SwapToActive",
+            "theScene": [
+                "SpawnGridNPC",
+                "FireGridActive",
+                "Here",
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "ActiveGridTimer",
+            "theScene": [
+                "ChangeProgress",
+                "1",
+                "IfProgressEqualsOrGreater",
+                "5",
+                "ActiveTimerUp"
+            ]
+        },
+        {
+            "NameOfScene": "ActiveTimerUp",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "1",
+                "Calming"
+            ]
+        },
+        {
+            "NameOfScene": "SwapToCalm",
+            "theScene": [
+                "SpawnGridNPC",
+                "FireGridCalming",
+                "Here",
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "CalmingGridTimer",
+            "theScene": [
+                "ChangeProgress",
+                "1",
+                "IfProgressEqualsOrGreater",
+                "1",
+                "CalmTimerUp"
+            ]
+        },
+        {
+            "NameOfScene": "CalmTimerUp",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "1",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "SwapToDormant",
+            "theScene": [
+                "SpawnGridNPC",
+                "FireGridDormant",
+                "Here",
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "EventBreak",
+            "theScene": [
+                "Evento Broko"
+            ]
+        }
+    ]
+}

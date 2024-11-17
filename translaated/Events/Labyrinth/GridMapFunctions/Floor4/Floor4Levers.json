@@ -1,0 +1,212 @@
+{
+    "name": "Floor4Levers",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ceris",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Trove1Off",
+            "theScene": [
+                "SpawnGridNPC",
+                "LeverOffTrove1",
+                "Here",
+                "RemoveGridNPC",
+                "Current",
+                "RemoveGridNPC",
+                "Specific",
+                "FireDoorOffTrove1",
+                "SpawnGridNPC",
+                "FireDoorOnTrove1",
+                "2",
+                "4"
+            ]
+        },
+        {
+            "NameOfScene": "Trove1On",
+            "theScene": [
+                "SpawnGridNPC",
+                "LeverOnTrove1",
+                "Here",
+                "RemoveGridNPC",
+                "Current",
+                "RemoveGridNPC",
+                "Specific",
+                "FireDoorOnTrove1",
+                "SpawnGridNPC",
+                "FireDoorOffTrove1",
+                "2",
+                "4"
+            ]
+        },
+        {
+            "NameOfScene": "Trove2DoorOff",
+            "theScene": [
+                "SpawnGridNPC",
+                "LeverOffTrove2Door",
+                "Here",
+                "RemoveGridNPC",
+                "Current",
+                "RemoveGridNPC",
+                "Specific",
+                "FireDoorOnTrove2",
+                "SpawnGridNPC",
+                "FireDoorOffTrove2",
+                "2",
+                "8"
+            ]
+        },
+        {
+            "NameOfScene": "Trove2DoorOn",
+            "theScene": [
+                "SpawnGridNPC",
+                "LeverOnTrove2Door",
+                "Here",
+                "RemoveGridNPC",
+                "Current",
+                "RemoveGridNPC",
+                "Specific",
+                "FireDoorOffTrove2",
+                "SpawnGridNPC",
+                "FireDoorOnTrove2",
+                "2",
+                "8"
+            ]
+        },
+        {
+            "NameOfScene": "Trove2TrapsOff",
+            "theScene": [
+                "SpawnGridNPC",
+                "LeverOffTrove2Traps",
+                "Here",
+                "RemoveGridNPC",
+                "Current",
+                "RemoveGridNPC",
+                "Specific",
+                "PurpleHeartTrapTrove2",
+                "RemoveGridNPC",
+                "Specific",
+                "GoldenHeartTrapTrove2",
+                "RemoveGridNPC",
+                "Specific",
+                "GoldenHeartTrapTrove2",
+                "RemoveGridNPC",
+                "Specific",
+                "GoldenHeartTrapTrove2",
+                "RemoveGridNPC",
+                "Specific",
+                "PurpleHeartTrapDormant2",
+                "RemoveGridNPC",
+                "Specific",
+                "GoldenHeartTrapDormant2",
+                "RemoveGridNPC",
+                "Specific",
+                "GoldenHeartTrapDormant2",
+                "RemoveGridNPC",
+                "Specific",
+                "GoldenHeartTrapDormant2"
+            ]
+        },
+        {
+            "NameOfScene": "Trove2TrapsOn",
+            "theScene": [
+                "SpawnGridNPC",
+                "LeverOnTrove2Traps",
+                "Here",
+                "RemoveGridNPC",
+                "Current",
+                "SpawnGridNPC",
+                "PurpleHeartTrapTrove2",
+                "4",
+                "9",
+                "SpawnGridNPC",
+                "GoldenHeartTrapTrove2",
+                "5",
+                "9",
+                "SpawnGridNPC",
+                "GoldenHeartTrapTrove2",
+                "6",
+                "9",
+                "SpawnGridNPC",
+                "GoldenHeartTrapTrove2",
+                "7",
+                "9"
+            ]
+        },
+        {
+            "NameOfScene": "Trove3TrapsOff",
+            "theScene": [
+                "SpawnGridNPC",
+                "LeverOffTrove3Traps",
+                "Here",
+                "RemoveGridNPC",
+                "Current",
+                "RemoveGridNPC",
+                "Specific",
+                "PurpleHeartTrapTrove3",
+                "RemoveGridNPC",
+                "Specific",
+                "GoldenHeartTrapTrove3",
+                "RemoveGridNPC",
+                "Specific",
+                "GoldenHeartTrapTrove3",
+                "RemoveGridNPC",
+                "Specific",
+                "GoldenHeartTrapTrove3",
+                "RemoveGridNPC",
+                "Specific",
+                "PurpleHeartTrapDormant3",
+                "RemoveGridNPC",
+                "Specific",
+                "GoldenHeartTrapDormant3",
+                "RemoveGridNPC",
+                "Specific",
+                "GoldenHeartTrapDormant3",
+                "RemoveGridNPC",
+                "Specific",
+                "GoldenHeartTrapDormant3"
+            ]
+        },
+        {
+            "NameOfScene": "Trove3TrapsOn",
+            "theScene": [
+                "SpawnGridNPC",
+                "LeverOnTrove3Traps",
+                "Here",
+                "RemoveGridNPC",
+                "Current",
+                "SpawnGridNPC",
+                "PurpleHeartTrapTrove3",
+                "18",
+                "3",
+                "SpawnGridNPC",
+                "GoldenHeartTrapTrove3",
+                "17",
+                "3",
+                "SpawnGridNPC",
+                "GoldenHeartTrapTrove3",
+                "16",
+                "3",
+                "SpawnGridNPC",
+                "GoldenHeartTrapTrove3",
+                "15",
+                "3"
+            ]
+        },
+        {
+            "NameOfScene": "EventBreak",
+            "theScene": [
+                "Evento Broko"
+            ]
+        }
+    ]
+}

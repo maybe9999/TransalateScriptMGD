@@ -1,0 +1,26 @@
+{
+    "name": "Ceris Red Heart Tile",
+    "CardType": "Event",
+    "CardLimit": "2",
+    "Description": "Red tiles will conjure Ceris and have her seek to entice you into fucking her.",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ceris",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Triggered",
+            "theScene": [
+                "JumpToEventThenScene",
+                "RedHeartTile",
+                "RedHeart"
+            ]
+        }
+    ]
+}

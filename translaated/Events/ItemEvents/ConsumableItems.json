@@ -1,0 +1,47 @@
+{
+    "name": "ConsumableItemEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "",
+            "postName": "",
+            "SpeakerType": ""
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "ManticoreSpike",
+            "theScene": [
+                "Miras el Manticore Spike un momento considerando si realmente te inyectas.",
+                "Menu",
+                "Inject yourself with manticore venom.",
+                "Put it away.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Put it away.",
+            "theScene": [
+                "GiveItemQuietly",
+                "1",
+                "Manticore Spike"
+            ]
+        },
+        {
+            "NameOfScene": "Inject yourself with manticore venom.",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Manticore Spike",
+                "ChangeFetish",
+                "Venom Manticore",
+                "5",
+                "Te tocas cuidadosamente con la espiga y jadeas con deleite mientras el afrodisíaco inunda tu cuerpo, llenándolo lentamente de dolor de lujuria."
+            ]
+        }
+    ]
+}

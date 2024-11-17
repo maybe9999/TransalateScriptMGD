@@ -1,0 +1,43 @@
+{
+    "name": "Climb End",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "character",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "Finalmente, llegas al templo en la cima de la montaña, y un arco adornado que proclaman con orgullo el 'Templo de fuerza de voluntad' sobre la entrada.",
+                "Mientras miras la delicada arquitectura de madera con varios hermosos arcos rojos que soportan un techo intrincadamente mosaico, tienes la sensación más extraña de que has visto algo como esto en el pasado ...",
+                "PlayerSpeaks",
+                "Hmmm ... ¡aha!",
+                "¡Ahora recuerdas!Fue de una clase de geografía que tuvo durante su segundo año en Adventum, ¡debe ser una réplica de los templos y santuarios que tienen en los continentes lejos hacia el este!",
+                "Lamentablemente, apenas podrías decir que disfrutaste la clase.El instructor fue la persona más aburrida que has conocido, incluso hizo que la aventura fuera aburrida.",
+                "PlayerSpeaks",
+                "Y Elena dijo que todo lo que aprendí en Adventuring School no valía nada.",
+                "Sonriendo un poco, miras a tu alrededor una vez más y notas otra vista familiar de los días de tu academia ocultos dentro de lo que parece ser un pequeño jardín de piedra.",
+                "Es una gran gema azul flotando suavemente en el aire.Una gema de punto de control, para ser más específica.¡Debería permitirle teletransportarse fácilmente a la cima de la montaña sin tener que subirla de nuevo!",
+                "... aunque estés bastante seguro de que tu piedra de recuerdo y Grimoire te dejarían hacer eso de todos modos.Pero solo para estar a salvo, tocas la gema flotante y sientes una oleada de mágica flujo a través de ti mientras una pequeña piedra preciosa azul se materializa en tu otra mano.",
+                "GiveItem",
+                "1",
+                "Temple Checkpoint Gem",
+                "Sacas tu grimorio, listo para regresar a la ciudad para prepararte antes de entrar en el templo y note un enchufe en la cubierta delantera que estás bastante seguro que no estaba allí antes.Parece ser el tamaño perfecto para su nueva gema de punto de control.",
+                "Mientras presionas la gema dentro del agujero, una luz mágica suave emana del grimoire.Una vez que se desvanece, la gema está firmemente alojada dentro de la cubierta.",
+                "Por curiosidad, le das algunos remolcadores experimentales y descubres que se adhiere firmemente al grimorio.",
+                "Curiosity Sated, regresas a la ciudad.",
+                "AdventureComplete",
+                "Mountain Ascent"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Wandering Dark Queen Slime Perpetua",
+    "CardType": "Event",
+    "CardLimit": "1",
+    "Description": "Your Grimoire shows a black page glowing with chillingly familiar, threatening demonic energy, like a lingering cherry-scented nightmare... It looks like you might encounter something familiar within the depths of this place... 'Dark Queen Slime Perpetua.'",
+    "requires": [
+        "Slime Badge"
+    ],
+    "requiresEvent": [
+        {
+            "NameOfEvent": "Dark Queen Slime Perpetua",
+            "Progress": "0",
+            "ChoiceNumber": "1",
+            "Choice": "DefeatedDarkPerpoRematch"
+        }
+    ],
+    "Speakers": [
+        {
+            "name": "Dark Perpetua",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Rematch",
+            "theScene": [
+                "Progresando al azar a través de la arquitectura no sensible de este lugar irreal, terminas insondablemente profundo dentro de los pasillos del labral labral, una oscuridad miasmica casi asfixia que te rodea, rezumando de las mismas paredes.No importa cuánto tiempo camine, parece que no hay cambios en estos caminos abisales, y no hay fin a la vista ...",
+                "DisplayCharacters",
+                "1",
+                "EndLoop",
+                "PlayVisualEffect",
+                "ScreenFlash",
+                "Void.png",
+                "PlayMotionEffect",
+                "Explosion",
+                "ChangeBG",
+                "combat.png",
+                "Pero la monotonía que aturde la mente de tus viajes se interrumpe repentinamente a medida que la energía demoníaca aumenta y aumenta a tu alrededor con un choque, el aire girando y goteando con un deseo venenoso, mientras que la realidad misma parece deshilacha con las costuras, llevándote a la caraLa reaparición de pesadilla del trío de deliciosas villanas: ¡perpetua oscura!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "EvilGrin",
+                "Speaks",
+                "Ahí están, nuestro {i} Darling {/i} némesis.¡No tendrás tanta suerte esta vez! ♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Laugh",
+                "Speaks",
+                "¡Ohohohoho!¡Prepárese para ahogarse en mi perfección! ♥",
+                "CombatEncounter",
+                "RunningWontSkipEvent",
+                "NoRunning",
+                "Dark Perpetua",
+                "StartCombat",
+                "ChangeBG",
+                "dungeon.png",
+                "A medida que la coalescencia de pesadilla se desvanece en la derrota climática, una vez más te quedas solo en los oscuros pasillos del laberinto, la sensación de oscuridad que se eleva mientras avanzas hacia tus pruebas laberínticas ..."
+            ]
+        }
+    ]
+}

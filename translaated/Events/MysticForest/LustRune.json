@@ -1,0 +1,229 @@
+{
+    "name": "Lust Rune",
+    "CardType": "Event",
+    "CardLimit": "3",
+    "Description": "Strange pink runes have been scattered around the area. How they got there is unknown, but they're still something to be cautious of.",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "",
+            "postName": "",
+            "SpeakerType": ""
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "Mientras camina hacia adelante y aprecia el paisaje, ¡una intrincada runa rosa aparece de repente debajo de ti!",
+                "Menu",
+                "Try to dodge! (Technique)",
+                "Try to use your magical powers to destroy the rune! (Intelligence)",
+                "Wait and see what happens.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Try to dodge! (Technique)",
+            "theScene": [
+                "StatCheck",
+                "Technique",
+                "10",
+                "TechPass",
+                "Fail",
+                "StatFail"
+            ]
+        },
+        {
+            "NameOfScene": "Try to use your magical powers to destroy the rune! (Intelligence)",
+            "theScene": [
+                "StatCheck",
+                "Intelligence",
+                "10",
+                "WillPass",
+                "Fail",
+                "StatFail"
+            ]
+        },
+        {
+            "NameOfScene": "Wait and see what happens.",
+            "theScene": [
+                "¡Dejas que la runa se apague y parpadea!",
+                "ChangeArousalByPercent",
+                "50",
+                "ChangeArousalQuietly",
+                "10",
+                "No puedes evitar gemir a medida que tu polla se vuelve rígida por la repentina afluencia de excitación.",
+                "IfPlayerOrgasm",
+                "OrgasmScene",
+                "JumpToScene",
+                "StayMenu"
+            ]
+        },
+        {
+            "NameOfScene": "StatFail",
+            "theScene": [
+                "¡Antes de que pueda reaccionar, la runa parpadea intensamente!",
+                "ChangeArousalByPercent",
+                "50",
+                "ChangeArousalQuietly",
+                "10",
+                "No puedes evitar gemir a medida que tu polla se vuelve rígida por la repentina afluencia de excitación.",
+                "IfPlayerOrgasm",
+                "OrgasmScene",
+                "JumpToScene",
+                "StayMenu"
+            ]
+        },
+        {
+            "NameOfScene": "WillPass",
+            "theScene": [
+                "Antes de que la runa pueda activarse, ¡rápidamente lo anula usando sus propias habilidades mágicas!¡Tras una inspección adicional, los restos de la runa contienen una pequeña cantidad de eros!",
+                "ChangeEros",
+                "50",
+                "A fin de cuentas, eso salió bien."
+            ]
+        },
+        {
+            "NameOfScene": "TechPass",
+            "theScene": [
+                "Antes de que la runa pueda activarse, ¡salgas rápidamente de ella!",
+                "Dejando que se active inofensivamente.",
+                "A fin de cuentas, eso salió bien."
+            ]
+        },
+        {
+            "NameOfScene": "StayMenu",
+            "theScene": [
+                "Menu",
+                "Get out of here!",
+                "Stay in the rune...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Get out of here!",
+            "theScene": [
+                "Con un rubor avergonzado, continúas en tu camino."
+            ]
+        },
+        {
+            "NameOfScene": "Stay in the rune...",
+            "theScene": [
+                "ChangeArousalByPercent",
+                "60",
+                "ChangeArousalQuietly",
+                "10",
+                "Con un dolor lujurioso en tu ingle, decides permanecer en la runa por un poco más de tiempo, ¡y eres recompensado con otro brillante destello de magia y una oleada de excitación inundando tu cuerpo que te hace caer de rodillas con un gemido!",
+                "JumpToScene",
+                "OrgasmScene"
+            ]
+        },
+        {
+            "NameOfScene": "OrgasmScene",
+            "theScene": [
+                "La lujuria inducida mágicamente te abruma rápidamente, y comienzas a masturbarte impotente mientras la runa comienza a brillar más en pulsos de magia rosa que hacen que tu cabeza se entumeciera de felicidad.",
+                "El placer arcano electrifica su cerebro con una repentina oleada de placer, mientras que cada golpe de su polla sacudida solo sirve para intensificar las sensaciones de fusión mental.",
+                "Siente que su cabeza se va a romper con la gran cantidad de éxtasis en cascada en su cuerpo mientras su frenética masturbación lo envía al límite.",
+                "PlayerOrgasm",
+                "1",
+                "Disparas la carga después de la carga de semen en el suelo, estremeciéndose con placer alucinante mientras el placer corta los circuitos de tu cuerpo, y la runa brillante se remoja en tu semilla, brillando un poco más brillante.¡Perdiste 1 espíritu!",
+                "IfPlayerSpiritGone",
+                "CantThink",
+                "Entrando desde las réplicas de su orgasmo y es suficiente en un aclarador de acogida cálido desde su orgasmo, lentamente comienzas a recolectarte antes de darte cuenta de lo que acaba de pasar ...",
+                "Estás bastante seguro de que si te quedas aquí, la runa te mantendrá cachondo y masturbándose mientras puedas soportar ...",
+                "Menu",
+                "Get out of here!",
+                "Just one more time...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "CantThink",
+            "theScene": [
+                "Entrando desde las réplicas de su orgasmo y es suficiente en un brillo de acogedora cálido de su orgasmo, su mente se queda anhelando más de esta dulce dicha masturbatoria ...",
+                "JumpToScene",
+                "J-Just one more time...♥"
+            ]
+        },
+        {
+            "NameOfScene": "Just one more time...",
+            "theScene": [
+                "ChangeArousalByPercent",
+                "55",
+                "Jadeas feliz mientras comienzas a acariciar tu polla nuevamente y la runa se vuelve a tener vida, inundando tu cuerpo y tu mente con dolor de excitación, dejando tu expresión suelta y placer borracho mientras bombea tu virilidad.",
+                "ChangeArousalByPercent",
+                "55",
+                "Temblando de las maravillosas olas de éxtasis, la runa te está inundando, tu erección sacudida parece que está en un borde orgásmico constante mientras te masturbas sin sentido, dejándote jadeando y gimiendo en éxtasis.",
+                "PlayerOrgasm",
+                "1",
+                "Incluso mientras se estremece y se contrae en el orgasmo, su polla brotando cuerdas gruesas de semen en la runa brillante, no puede dejar de bombear su polla dolorida, su mente en blanco con necesidad y placer mientras se corre y quiuver en el éxtasis tembloroso.",
+                "ChangeArousalByPercent",
+                "110",
+                "Sientes que estás perdiendo la cabeza, ya que incluso después de que tu orgasmo termina, el siguiente ya se acerca rápidamente, tu frenética masturbación manteniendo tu virilidad contraproducente mientras la runa pulsa con la mente de la mente derretiendo, enviando olas de dicha a través de todo tu ser.",
+                "PlayerOrgasm",
+                "1",
+                "A medida que lloras incoherentemente en el éxtasis orgásmico, tu polla dispara más de tu semilla en el brillante círculo mágico, todo tu cuerpo se tensó de placer mientras tiemblas en la dicha sin sentido, dejando fuera la carga después de la carga de tu semen en la dicha masturbatoria.",
+                "IfPlayerSpiritGone",
+                "OrgasmHellScene",
+                "La magia se desvanece lentamente y te quedas jadeando y sudando en un leve delirio mientras te recuperas del placer, todo tu cuerpo todavía se contrae y sacude de las réplicas ...",
+                "No estás seguro de lo seguro que sería seguir adelante ... pero se siente muuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuul eléc eléc y -.",
+                "Menu",
+                "Get out of here!",
+                "J-Just one more time...♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "OrgasmHellScene",
+            "theScene": [
+                "Jadeando y sudando en delirio leve después del intenso orgasmo, intentas recordarte, sintiéndote completamente fuera de él.Todo tu cuerpo todavía se contrae y sacude de las réplicas.",
+                "Sin embargo, antes de que puedas, la runa comienza a brillar nuevamente, dejándote gemir cuando el placer te cobra una vez más y tu polla golpeando indefensamente otra carga de semen mientras se contrae con la felicidad sin sentido.",
+                "JumpToScene",
+                "FinalScene"
+            ]
+        },
+        {
+            "NameOfScene": "J-Just one more time...♥",
+            "theScene": [
+                "Empiezas a acariciar suavemente tu dolor de virilidad nuevamente, y la runa comienza a brillar nuevamente, y gemirás cuando el placer te atraviesa una vez más, dejando tu polla impulsando indefensamente otra carga de semen mientras se contrae en la dicha sin sentido.",
+                "JumpToScene",
+                "FinalScene"
+            ]
+        },
+        {
+            "NameOfScene": "FinalScene",
+            "theScene": [
+                "PlayerOrgasm",
+                "1",
+                "Tu mente se enturbió de la embestida mágica y la dicha orgásmica, comienzas a masturbarte incontrolablemente nuevamente, pero esta vez cada golpe completo de tu erección dura de la roca saca otra carga de tu semen.",
+                "PlayerOrgasm",
+                "1",
+                "Gimiendo delirantemente mientras te ordeñas, la runa absorbe tu semen, recompensándolo con pulso después de un pulso de intenso placer en cascada a través de todo tu cuerpo en tu placer borracho.",
+                "PlayerOrgasm",
+                "1",
+                "Con tu mente frita por la cantidad de placer climático que te acompaña, no puedes evitar sonreír libremente y babear a medida que el ataque mágico entra cada vez más placer hacia ti mientras bombea tu polla dolorida y brote como un grifo roto.",
+                "PlayerOrgasm",
+                "1",
+                "La pequeña parte de ustedes que se quedaron deseando el infierno orgásmico en el que está atrapado para detenerse está completamente arrastrado en una ola tras ola de éxtasis, dejándote con ganas de más y más placer mientras te complaces sin fin, sacando tus cerebros una y otra vez.",
+                "PlayerOrgasm",
+                "5",
+                "El tiempo en sí mismo se derrite hasta el placer incesante, dejándote gemir y acariciarte sin sentido mientras la runa te inunda con placer por quién sabe cuánto tiempo ...",
+                "SetSpirit",
+                "0",
+                "Eventualmente, su cuerpo cansado no puede tomar más, y colapsas en el suelo, demasiado cansado para levantar un dedo, incluso cuando la runa continúa enviando más y más pulsos mental derretiendo éxtasis a lo largo de ti, haciendo que tu cuerpo se contrae con la felicidad a pesar de cómoPasé tú.",
+                "Pero eventualmente el agotamiento te alcanza, rápidamente se oscurece tu mundo incluso cuando tu mente grita por más placer ...",
+                "...",
+                "ChangeSensitivity",
+                "Sex",
+                "5",
+                "ChangeSensitivity",
+                "Magic",
+                "5",
+                "GameOver"
+            ]
+        }
+    ]
+}
