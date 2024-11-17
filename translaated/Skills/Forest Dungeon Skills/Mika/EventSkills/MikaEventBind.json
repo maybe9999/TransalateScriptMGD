@@ -1,0 +1,54 @@
+{
+    "name": "Mika Event Bind",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        ""
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "10",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Restrain",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "10",
+    "statusResistedBy": "Power",
+    "statusText": "bound",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "En su momento de distracción, la cola de Mika se envuelve hábilmente en ambas muñecas y las une firmemente.",
+    "statusMiss": "",
+    "restraintStruggle": "[TargetName] struggles to free [TargetHisOrHer] wrists from [AttackerName]'s tail coiled around them...",
+    "restraintStruggleCharmed": "[TargetName] weakly struggles to free [TargetHisOrHer] wrists from [AttackerName]'s soft tail coiled around them...",
+    "restraintEscaped": "And manages to free [TargetHisOrHer] arms from her restraining tail!",
+    "restraintEscapedFail": "But her soft tail stays firmly coiled around [TargetName]'s wrists! Her tail gives you a domineering squeeze while [AttackerName] smiles back at you.'"
+}

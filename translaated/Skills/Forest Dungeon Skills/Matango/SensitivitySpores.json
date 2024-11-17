@@ -1,0 +1,55 @@
+{
+    "name": "Sensitivity Spores",
+    "cost": "25",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "statusEffectScaling": "0",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction",
+        "RestrainUsable"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Sex",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Defence",
+    "statusChance": "185",
+    "statusDuration": "10",
+    "statusPotency": "-50",
+    "statusResistedBy": "",
+    "statusText": "Sensitivity Spores",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] Deja escapar una nube de intensa sensibilidad que induce esporas, y [TargetName] está demasiado cerca para evitar respirarlas como hormigueo de cuerpo entero [TargetHisOrHer]!",
+    "statusMiss": "[AttackerName] lets out a cloud of intense sensitivity inducing spores, but [TargetName] manages to hold [TargetHisOrHer] breath!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

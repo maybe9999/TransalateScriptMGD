@@ -1,0 +1,60 @@
+{
+    "name": "Tempting Thigh Prison",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "100",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "4",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Ass",
+        "Legs"
+    ],
+    "startsStance": "",
+    "requiresStance": "Thighjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Blowjob",
+        "Titfuck",
+        "Footjob",
+        "Tailjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Adophed entre la pared y un cuello [AttackerName] de [AttackerName] de [AttackerName], y no puede evitar aprovechar [TargetHisOrHer], apretando [AttackerHisOrHer] la Aspaza de Fuck [AttackerHisOrHer]Los muslos suaves mientras se dedican al trasero voluptuosos y tensos [AttackerHisOrHer].",
+    "miss": "Adophed entre la pared y un cuello de [AttackerName] de [AttackerName] de [TargetName] dulcemente ronroneadores, pero se logra contener [TargetName] impulsos y no disfrutar de un placer dulce.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}
