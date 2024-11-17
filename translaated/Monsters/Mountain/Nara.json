@@ -1,0 +1,1445 @@
+{
+    "name": "Nara",
+    "IDname": "Nara",
+    "species": "Human",
+    "gender": "female",
+    "description": "Una mujer con curvas con piel de color chocolate, cabello rosa largo y fluido y ojos morados claros y brillantes.Sus pechos DD Cup apenas están contenidos por su tapa de lencería escasa y exótica, mientras que sus caderas anchas apenas están vestidas en una tanga de aspecto muy elegante.\n\nUn bonito joya con el círculo dorado con incrustaciones descanse sobre su cabeza.Su ropa está acentuada por varias cantidades de tela transparente, brazaletes de oro y otros adornos dorados.Su estómago está agradablemente ajustado, mostrando músculos ligeramente tonificados debajo de su piel.\n\nSu cuerpo casi nunca parece dejar de moverse, incluso si solo está balanceando ligeramente sus caderas o rebotando de lado a lado, haciendo que sus senos se muevan continuamente atractivos.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        "Alluring Dance",
+        "Alluring Dance",
+        "Energetic Dance",
+        "Sensual Dance",
+        "Captive Audience",
+        "Assjob",
+        "Deep Kiss",
+        "Kissing Dance",
+        "Dancer's Two Step Seduction",
+        "Dance Invitation",
+        "Bounce",
+        "Energetic Bounce",
+        "Hip Dance"
+    ],
+    "perks": [
+        "Swift",
+        "Pacing",
+        "Undeniable Pleasure",
+        "Alluring",
+        "Lovers Passion",
+        "Escape Artist",
+        "Unshackled",
+        "Seductive",
+        "Evasive",
+        "Sex Adept"
+    ],
+    "stats": {
+        "lvl": "20",
+        "Exp": "250",
+        "max_hp": "200",
+        "max_ep": "100",
+        "max_sp": "3",
+        "Power": "6",
+        "Technique": "15",
+        "Intelligence": "7",
+        "Allure": "25",
+        "Willpower": "9",
+        "Luck": "15"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "90",
+        "Ass": "90",
+        "Breasts": "175",
+        "Mouth": "110",
+        "Seduction": "110",
+        "Magic": "100",
+        "Pain": "50",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "100",
+        "Aphrodisiac": "0",
+        "Restraints": "10",
+        "Sleep": "100",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "moneyDropped": "650",
+    "ItemDropList": [
+        {
+            "name": "Circlet of Seduction",
+            "dropChance": "10"
+        },
+        {
+            "name": "Lovers Rune",
+            "dropChance": "20"
+        },
+        {
+            "name": "Whimsical Bangle",
+            "dropChance": "20"
+        },
+        {
+            "name": "Enlightenment Rune",
+            "dropChance": "10"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "Sex Loss Scene",
+            "move": "",
+            "stance": "Sex",
+            "includes": [
+                "Nara"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "Nara lets out a little victory cheer as she continues to sway her shapely hips while riding your throbbing manhood, all the fight danced out of you.",
+                "Speaks",
+                "Yay! I won! Hmmm...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Thinking",
+                "She looks off in thought, still unconsciously wiggling her hips back and forth, leaving you moaning in bliss.",
+                "Speaks",
+                "Well, I don't really have a reason to keep playing with your body 'till you end up in the church...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "A seductive smile creeps over her face.",
+                "Speaks",
+                "Or do I...?",
+                "She slowly looks down at you with a sultry smile, sensually swaying her hips back and forth, emphasizing her movement with quick teasing shakes.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Speaks",
+                "I guess I could use you as a training dummy. Ah, no offence meant, of course.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Kissing",
+                "You give her a nervous look and she gives you a reassuring kiss.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Speaks",
+                "Don't worry, you're going to love this.♥",
+                "She rolls her hips in slow gyrating circles while giving you a loving gaze.",
+                "Speaks",
+                "I'm just going to practice a sexy little dance routine on your cock.",
+                "Speaks",
+                "Really, the dance is meant for you anyways, so this should be a good learning experience for the both of us.♥",
+                "She sways and grinds her hips against you while her hands slowly caress and tease your chest, her tight pussy squeezing and massaging your every inch.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Dominant",
+                "Speaks",
+                "This way I can figure out just what you like, your favorite parts of my dance, your weak spots, {i}everything.♥{/i}",
+                "You groan as she starts to bounce her hips energetically on your shaft, occasionally stopping to wiggle them after taking your full length.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Mnn,♥ ahh!♥ Come on, you lost, so just enjoy this.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "One of her hands caresses one of your cheeks, making you look up into her loving purple eyes and seductive smile.",
+                "Your heart throbs in your chest, making you flush, and as you try to avert your eyes she redirects your attention to her luscious chest.",
+                "Nara giggles at your rapt attention of her bouncing breasts while she continues to ride your rigid erection.",
+                "Her alluring chest dominates your vision until her sexual dance starts to overwhelm you, and you throw your head back with a moan.",
+                "As you get closer to orgasm, her dance gets slower and subtler, filled with little movements of her hips and the occasional small circular motion.",
+                "You lay moaning in pleasure, squirming from the heavenly sensations flowing into your body.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Kissing",
+                "As you reach the brink of orgasm, Nara finishes slowly gyrating her hips in a circle before lovingly kissing you and impaling herself on the full length of your cock.",
+                "PlayerOrgasm",
+                "1",
+                "You let out a muffled cry into her mouth as you cum into her tight pussy, your hips bucking up into her in response to the orgasm rippling through you.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "She breaks the kiss as your orgasm subsides, but leaves her chest pressed against you, and you both stay there gasping...",
+                "You didn't realize before, but it seems she also came from her 'dance'.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "She smiles at you cheerfully.",
+                "Speaks",
+                "Mmmm.♥ I'd say that was a good dance, huh [ThePlayerName]?",
+                "You nod, unable to deny how good that felt.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Dominant",
+                "Speaks",
+                "Good!♥ Only 1000 more dances to try out.♥",
+                "You balk at her for a moment before she starts giggling.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Speaks",
+                "I'm kidding!♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Kissing",
+                "She pulls you back into another deep kiss, dominating your mouth with her nimble tongue, and your already pleasure addled mind becomes more and more intoxicated by her loving embrace.",
+                "After a long, seemingly endless moment, she breaks the kiss.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Speaks",
+                "Buttt... There {i}are{/i} some more dances I want to try on you. That was only one of them.♥",
+                "You moan as she starts to move her hips again, your aching cock still lodged inside her, and you find yourself eager to experience more of her lovely dances...",
+                "PlayerOrgasm",
+                "1",
+                "Sadly, the two of you are only human and only manage two more rounds of 'dancing', and the two of you now lay intertwined with one another, simply enjoying each other's embrace as you both bask in your respective afterglows.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "PlayerOrgasm",
+                "1",
+                "Nara kept each dance session going long enough so she could cum too, and now she's all smiles as her purple eyes stare lovingly into yours.",
+                "Speaks",
+                "Ahhhh...♥ That was great.♥",
+                "She moans a bit as you grope one of her sensitive breasts.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Speaks",
+                "Hmhmhm,♥ we should do this again some time [ThePlayerName].♥",
+                "You nod as exhaustion starts to take both of you, and the two of you snuggle together before falling into a warm, cozy slumber...",
+                "ChangeSensitivity",
+                "Sex",
+                "3",
+                "ChangeSensitivity",
+                "Mouth",
+                "3",
+                "ChangeSensitivity",
+                "Seduction",
+                "3"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Loss Scene",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Nara"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "You collapse to your knees, completely overcome by Nara's seductive dance. After one last teasing wiggle, she stops her sensual hip-shaking, and looks down at you with a triumphant, cheerful grin.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Speaks",
+                "Looks like I win, hehe.♪ ...But since you love my dancing so much, I'll keep going.♪",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "Humming happily, she gently pulls you to your feet while enchanting hearts keep floating in your dazed vision, maintaining you in a pleasant docile stupor as she takes your hand and guides you to the lone mountaintop seat where she sits you down with a grazing caress to your cheek.",
+                "Speaks",
+                "I could really use some more practice, so this is a great opportunity! Just go ahead and get nice and comfortable...♪",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Still hopelessly horny and charmed, the only response you can muster is an unresisting mumble of assent as you lay back and settle in the chair while your eyes remain glued to Nara's smooth motions and flowing curves, your indulgent passivity rewarded by a satisfied laugh from the dancer who blows you an enchanting kiss alongside a knowing wink.",
+                "Speaks",
+                "I'm going to try a different routine, so just sit back, relax, and enjoy the show. You're gonna love it!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "With that, still humming, she pulls your pants down for you, making you gasp as your stiff manhood is suddenly exposed to the pleasantly warm mountain air, your erect tip pointed at the mesmerizing woman who coos lasciviously.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Speaks",
+                "Looks like you're already in the right mood.♥ Feel free to fap while you watch me dance.♥ To cheer me on.♥",
+                "As she talks, her voice growing increasingly lower and sultrier, she leans forward against you and rests her delicate hands on your shoulders, her posture letting her ample, barely covered bust bounce seductively right in front of your dazed, captivated eyes.",
+                "Enraptured by the sight of her gently swaying, jiggling breasts, you let your stoked libido dictate your actions and reflexively wrap your hand around your growing erection, eagerly settling into a steady stroking pace as she begins to slowly rock her upper body back and forth, making her alluring tits dance for you, just inches away from your face, close enough that you can smell their sweet, slightly sweaty scent.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Dominant",
+                "Speaks",
+                "That's it, [ThePlayerName]... Enjoy yourself.♥ But don't cum until the show's over.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "While she speaks, Nara's chest keeps swaying and bouncing to an unheard tune, keeping your eyes locked on her tantalizing tits as they dominate more and more of your vision, each pendulous movement more captivating than the last, your gaze sinking deeper and deeper into the hypnotizing valley of her cleavage...",
+                "Speaks",
+                "Very nice.♥ Keep at it...♥ You can massage your balls, too.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Spurred by her whispered instructions, you keep stroking yourself with abandon while your free hand begins to cradle and massage your aching sack, just as Nara's hands wrap around the back of your head and stuff your face right between her soft, plush breasts, a huff of definite surrender escaping your mouth as her feminine scent fills your senses.",
+                "Basking in the perverted, intimately close contact, you let out a wanton muffled moan, your body tensing up from the electrifying pleasure that flows across you as you masturbate along the dancer's movements who keeps jiggling and bouncing her luscious chest in your face, smothering you with affection while she runs her nails through your hair with crooning murmurs, sending rewarding tingles of indulgent bliss through your body.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Looks like you're all set to enjoy the show, [ThePlayerName].♥",
+                "Smoothly, she releases you from her boobs' embrace and begins to swish and swing her hips while still leaning over you, the little golden ornaments on her outfit jingling merrily, the pleasant sound stringing you along as you keep fapping in a hazy daze, your infatuated thoughts hopelessly mired in Nara's presence and in the enchanting sights and sounds of her scantily clad, erotic body.",
+                "Speaks",
+                "Let's get started, then.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Kissing",
+                "Suddenly, she plants her soft, plump lips against your mouth in a brief but intoxicating kiss, a floaty sensation of cottony euphoria filling your head as you passively melt under the affectionate smooch, until Nara breaks it with a wet smack of her lips, licking her mouth playfully, leaving you trembling and gasping as you fervently keep pumping your cock, your thoughts scattering from her constant teasing, the urge to cum surging within you!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "...But right as you're about to stroke yourself all the way there, the victorious adventuress' command takes hold of your deeply charmed mind and you immediately release your cock before you can push yourself over the edge, leaving you loudly breathing in powerless mesmerization while your dick twitches and throbs, leaking droplets of precum oozing along your shaft in helpless protest while a feminine giggle echoes in your ears.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "Speaks",
+                "Oh, you're already on the brink.♥ Hehe, you're going to love this dance.♥",
+                "With catlike elegance, she stands up and hovers over your lap, legs on either side of the chair, leaving your eyes level with her wide womanly hips. With how light and thin her clothing is, you can see right through her translucent skirt, noticing with a horny gulp that her panties are damp with her own arousal as she temptingly shakes her hips back and forth, her graceful movements once more effortlessly capturing your senses.",
+                "Your eyes trail back up to her bouncing breasts as she rocks her body with seductive, curvy swings of her waist, your hand slowly returning to stroking your aching manhood to Nara's unheard rhythm now that the climactic edge has subsided, letting the tantric pleasure build up again as she giggles seductively.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "While you fall back into helpless mesmerized depravity, she suddenly steps back slightly and pivots on her long supple legs, twirling over in a flowing, perfectly balanced motion which instantly fills your vision with her bountiful swaying derriere, your gaze immediately gluing itself to the alluring shapely backside presented to you.",
+                "Moaning rapturously at the heavenly sight, you lean back and watch with perverted delight as Nara's ass shakes and jiggles at an increasingly fast-paced tempo that you can't help but stroke along to, your hand moving on autopilot to your onanistic delight.",
+                "With wanton willingness, you give in to the lovely charm pouring through your mind like sweet syrup as she swings her luscious hips back and forth, keeping you fixated on her toned bubble butt as it shakes in front of you, Nara looking back at your captivated face with a sweetly dominant smile.",
+                "Speaks",
+                "You're really loving my dancing.♥ Seeing how much you're into this, you're really going to be cumming like crazy... But not yet.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Dominant",
+                "With a sudden, quick, seductive wiggle of her enthralling ass, she brings you to the brink of climactic ecstasy... and tantalizingly leaves you there as your hand slavishly keeps pace with her dancing, forcing you to let go of your spasming length, leaving you trembling with near-orgasmic bliss, the mere sight of Nara swaying her shapely hips sending enchanting waves of euphoria through you as you keep staring rapturously at her dance.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Even as your manhood madly jumps and leaks precum in edged frustration, there's nothing you can do but docilely let yourself come down from your trembling pleasure high while Nara switches her pose again and turns to face you with a lascivious smile, still rocking her curvaceous waist side to side at a slower, soothing pace to ease you back into a placid stupor, her sensual dance never pausing for a moment.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Gently, placatingly, sensuously, she keeps her languid movements going, letting the throbbing urge in your loins abate... Then, as soon as the melting heat in your hips has ebbed away from its bubbling orgasmic peak, your hand returns to your hard, hot shaft and you resume your eager masturbation while Nara slowly brings her pussy closer to your face with a giggle.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "Speaks",
+                "Time for round two.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "With a teasing sway of her hips, she smoothly brings her soaked, silk-clad pussy against your mouth and nose, flooding your senses with her lewd fragrance of potent, cloying arousal as she grinds against your haplessly charmed face, a blush of excitement spreading over her face as she too lets herself sink into horny abandon, letting out a lewd coo at your own ecstatic expression.",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "Blush",
+                "Speaks",
+                "For this part, we're dancing together.♥ Your mind is going to end up drenched in love.♥",
+                "She delicately places her hands on the top of your head as you moan into her sex, making you inhale her delightfully intoxicating scent while you stroke yourself with renewed fervor, your eyes rolling back felicitously, your length quickly turning into a drooling mess of precum, making it easy to keep stroking yourself as your charmed mind keeps getting melted by her pheromones, filling to the brim with nothing but reverent bliss.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "Getting increasingly heated, Nara moans along with you, clutching your hair gently as she sways her hips in a slow, intimate tango while you thoughtlessly lick her pussy through her panty's thin fabric, your slavish lapping deepening your captivated state with each mesmerizing gyration of Nara's waist who stifles a moan.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Dominant",
+                "Speaks",
+                "Mmmm-♥ Great job...♥ But don't worry, let me lead.♥ Just lay back and enjoy yourself.♥",
+                "Dominantly, she teasingly rubs her drooling pussy against your mouth, her scanty clothing still standing as a thin barrier between you and her wet sex, the cushiony weight of her inner thighs all over your face cutting off your breath and signaling you to stop your stroking after having once again been brought to the verge of cumming by Nara's intoxicating taste, seductive movements, and tantalizing tempo.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Speaks",
+                "Oh, you're looking so pent up...♥ But don't worry, we're almost to the finale, so just hold on.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "While you have no choice but to obediently remain sitting with your hands maddeningly away from your desperate cock, the enthralling dancer grinds herself up and down your face, filling your senses to overflowing with the erotic scent of her blossoming arousal before she draws herself back down and gracefully alights in your lap, bringing her mischievously sparkling eyes level with yours.",
+                "Cooing languorously while locking her hands behind your head in a coddling embrace, Nara keeps shifting her hips and torso in time with her humming crooning the entire time, keeping you completely captivated with the sight of her jiggling, voluptuous body as it rubs and bounces against you, the sensation of Nara's soft skin against your own sensitized one sending shivering jolts of tantric pleasure through your frame.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "Speaks",
+                "You're doing great, [ThePlayerName]! We're nearly there, now...♥ I'm going to count down to the climax.♥ So follow along.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "While an ecstatic grin spreads over your face at the idea of your denied release finally being granted, Nara stands up again, once more wantonly sliding her drenched panties along your mouth and nose, making you moan sloppily and blissfully as you're left ever more intoxicated and charmed senseless by her lewd fragrance, marked all over by her mesmerizing body, her voice ringing in your mind as she starts to count down.",
+                "Speaks",
+                "{i}Five.{/i}",
+                "She slides back down, once again ensnaring your face in her breasts, this time slipping you underneath her bra and smothering you into her sensually soft flesh, your completely infatuated brain short-circuiting with euphoria when she gives her boobs a tempting shake, then presses down on them with her hands to smush your face in her luscious cleavage.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Speaks",
+                "{i}Four.{/i}",
+                "Smoothly, she releases you from the captivating titty prison, only to deftly remove her bra and fling it at your pleasure-drunk face, letting it fall into your lap as you resume pumping yourself and playing with your balls in a horny frenzy, her bare breasts shining lewdly with a thin layer of shimmering sweat as she rolls her fingers along her plump chest, gently teasing her nipples before you ogling eyes.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Dominant",
+                "Speaks",
+                "{i}Three.{/i}",
+                "Sliding with feline grace, she slips from your lap and stands in front of you, hands on your knees, her position perfect for her to sway back and forth and showily make her luscious tits bounce hypnotically, stoking your lust to a boiling point as she sultrily dances for your adoring enjoyment, making you moan in delight as you pump your shaft along her rhythm, blissfully feeling your climax return in force.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Speaks",
+                "{i}Two.{/i}",
+                "She agilely pivots, then pushes her plump bubble butt towards your head, keeping her hands on your knees to brace herself as she briefly bounces and sways her ass into your face to your thought-scrambling ecstasy, before scooting forward to stand in front of you, looking seductively over her shoulder as she keeps gyrating her shapely hips, jiggling her intoxicating rear for you to stroke yourself into a mind-blanking orgasm.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Dominant",
+                "Speaks",
+                "{i}One.{/i}",
+                "Finally, she bends over, lasciviously sliding her sheer leggings down to her knees to reveal her luscious ass completely, her wet panties on full display as she rocks her waist back and forth, bending over to seductively shake her plump butt side to side, up and down, making her bountiful cheeks jiggle enchantingly, total surrender to Nara's enthralling body flooding your mind as you frantically pump your twitching, precum-slick erection.",
+                "You can feel you're on the very brink of release, every enchanting swing of Nara's hips threatening to send you over the edge, the rapid, mesmerizingly bouncy shakes of her voluptuous ass driving you {i}so{/i} close, your pumping hand rubbing up and down your throbbing erection with fanatical abandon, slavishly and feverishly stroking your leaking, painfully hard cock, desperate to hear the one word she needs to finish you off.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Speaks",
+                "{i}Cum.♥{/i}",
+                "PlayerOrgasm",
+                "3",
+                "The order rings through your ears, through your brain, through your entire body, and you almost scream as you finally erupt in bursting ecstasy, your cum geysering out of your unbearably edged and aching dick, spraying all over Nara's wonderful, voluptuous ass as it keeps bouncing enticingly right in front of you, shattering your thoughts with searing hot pleasure as you spurt and spurt...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "All through your mind-breaking ejaculation, Nara purrs in delight, clearly enjoying teasing you senseless, licking her lips as she watches you continue to fap with maddened fervor, too glad to finally be allowed to reach your orgasm to care about anything but emptying your tensing balls to the glorious sight of Nara's divine figure.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Speaks",
+                "Cum as much as you want, [ThePlayerName].♪ Show me how much you loved my dance.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "PlayerOrgasm",
+                "2",
+                "You are all too happy to comply, continuing to stroke yourself with single-minded worshipful ardor as you keep spending yourself all over Nara's gorgeous cheeks, covering their smooth, jiggling perfection with more and more of your seed like a perverse offering, feeling like one orgasm after another is coaxed out of you and overlapping as you continue to cum without a break...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "However, even in your frenzied edged state, your body too quickly reaches its limits, and after one final squirt of semen splashing on the ground between you and Nara, the stream of hot cum comes to a twitching end and you crumple back in your seat gasping and panting, completely spent while Nara showily gives you a perky little bounce of her copiously glazed butt, quite clearly satisfied with your thick coating.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "Speaks",
+                "Hehe, that was fun.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Kissing",
+                "Giddily, she pivots with a cheerful giggle and plants another plump, wet smooch right on your hapless mouth, her tongue entangling with your own unresisting one briefly, making you shiver and gasp as aftershocks of climactic bliss ooze through you, crushing fatigue swiftly claiming you after all the edging and ensuing consecutive ejaculations you just went through.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "With a lewd {i}Mwah{/i} that hangs in the air like a final mesmerizing goodbye, Nara breaks the passionate kiss as you begin to fade away, giving you a teasing whisper as you go.",
+                "Speaks",
+                "Come back soon, I'll dance for you as much as you want.♥",
+                "Your culminating exhaustion does not leave you the strength to answer as you sink for good into unconsciousness, where images, sounds, and scents of Nara's wondrous body, enchanting voice, and sweet perfume keep haunting you, her sensual, lascivious dancing replaying in your mind on loop, making you crave to return to her and enjoy it all over again...",
+                "ChangeSensitivity",
+                "Sex",
+                "5",
+                "ChangeSensitivity",
+                "Seduction",
+                "5"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "SetMusicTo",
+            "move": "",
+            "theText": [
+                "music/Mountain/Purple Planet Music - Energy - Salsa Nites (2_13) 120bpm.mp3"
+            ]
+        },
+        {
+            "lineTrigger": "StartOfCombat",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|NaraCombatEvents|/|Intro|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Spank",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'¡EEP! ♥ ¡HEY CUIDADO!'",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|¡Ah!¡H-HEY!¡Ir a tientas!¡No golpees!",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|¿Kya!?¡Deja de intentar hacerme perder el ritmo!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Whip",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|¡Mmy bailar no es tan malo!... ¿es?",
+                "|f|ChangeImageLayer|/|Expression|/|Serious|n|¿Ah!?¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¿¡¡¡¡¡¡",
+                "|f|ChangeImageLayer|/|Expression|/|Serious|n|¡Kya!No eres muy romántico, ¿verdad ...?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Demon Layer",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'¡EEP! ♥ ¡HEY CUIDADO!'",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|¡Mmy bailar no es tan malo!... ¿es?",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'¡Kya! ♥ deja de tratar de hacerme perder mi ritmo!'",
+                "|f|ChangeImageLayer|/|Expression|/|Serious|n|'AH!? ♥ Y-eres el peor!'",
+                "|f|ChangeImageLayer|/|Expression|/|Serious|n|'KYA! ♥ Y-No eres muy romántico, ¿verdad ...?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Holy Headpat",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'Um, ¿no podrías interrumpir mi baile con esto?",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'Why?'",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'Uh, no estoy realmente interesado en este tipo de alabanza ..."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Bondage Net",
+                "Magical Binding"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'¡¿Qué?Uh ... H-hey ... ¡No puedo bailar así!",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|¡Wait un segundo!¡Esto definitivamente es trampa!",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'Mnnn ... las cuerdas están cavando en mi piel ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'G-Gotta se libera ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pin",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'¡¿Qué?Uh ... H-hey ... ¡No puedo bailar así!",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'Realmente no sabes cómo relajarse, ¿tú ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'G-Gotta se libera ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Finger",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mnn. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmm.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No te preocupes, estoy listo para ti. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Dildo",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Creo que tu polla preferiría ser la que bailaba con mi coño. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Este es un calentamiento decente. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Demasiado tímido para poner tu propia polla? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Arouse",
+                "Arousara",
+                "Arousero"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|¿Uwa?Jajaja ... ♥ No creo que me pierda un ritmo por eso ... '",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Mmmmmnnn, ♥♥♥ So ... Holding. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ohhh- realmente te gustaría verme retorcerse de placer. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ah ... ♥ Mi cabeza está empezando a girar ... ♥ S-Stop usando Magic, por favor. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Electrify",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Sad|n|¡Mmy bailar no es tan malo!... ¿es?",
+                "|f|ChangeImageLayer|/|Expression|/|Serious|n|¿Ah!?¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¿¡¡¡¡¡¡",
+                "|f|ChangeImageLayer|/|Expression|/|Serious|n|¡Kya!No eres muy romántico, ¿verdad ...?",
+                "|f|ChangeImageLayer|/|Expression|/|Serious|n|Ella te mira con un poco de ira."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Grope Ass",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'MMmmm...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Tus dedos se hunden fácilmente en su suave trasero, haciéndola gemir con deleite.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Ahhh...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ella sigue bailando a través de tu tientas, permitiéndote apreciar el influencia de sus caderas bien formadas."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Squeeze Ass",
+                "Massage Ass",
+                "Fondle Ass"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|Tus dedos se hunden fácilmente en su suave trasero, haciéndola gemir con deleite.",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Oh! ♥ Mmmm ... ♥ Debería hacer que hagas esto cuando no estamos peleando. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|Ella sigue bailando a través de tu tientas, permitiéndote apreciar el influencia de sus caderas bien formadas.",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ahhh...♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Breast Caress",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'MMmmm...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Tus dedos se hunden fácilmente en sus suaves senos, haciéndola gemir con deleite.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Ahhh...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Froquelos más. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Breast Knead",
+                "Breast Massage",
+                "Breast Fondle"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|Tus dedos se hunden fácilmente en sus suaves senos, haciéndola gemir con deleite.",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Oh! ♥ Mmmm ... ♥ Debería hacer que hagas esto cuando no estamos peleando. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Y estás haciendo que mi cabeza gire! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'¿Maybe no te importaría solo verme bailar?'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ahhh...♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Suckle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡EEEP! ♥ WAIT mis pezones son realmente sensibles, si lo haces, no podré enfocarme! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ahhh ... ♥ D-No seas tan agresivo ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'No puedo pensar bien ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'¿Puedo decirte que realmente me gustan mis senos, b Pero crees que podrías parar un poco? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'¡Es muy difícil bailar contigo chupando mis senos!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pinch Nipples",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'MMMMnnn!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Kya!♥.'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ah!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'¡A, un poco más suave, por favor!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'No te preocupes, seguiré bailando mientras me follas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Tu polla es bastante grande, pero ¿puede seguir el ritmo de mí?' ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No te detengas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¿Crees que puedes sobrevivirme? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Penetrate",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'No te preocupes, seguiré bailando mientras me follas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Tu polla es bastante grande, pero ¿puede seguir el ritmo de mí?' ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No te detengas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¿Crees que puedes sobrevivirme? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'Solo déjame liderar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Ah!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'Vamos, sigue al día. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella mueve sus caderas en tu empuje.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmmm!♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'¡Mmmmmmm! ♥ ¡No está mal!'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Ah! ♥ sí! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Mnnn! ♥ tratando de tomar la delantera? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella coincide con tus empujes con balancines de sus caderas.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Este es un gran baile. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Ahhh ... ♥ Creo que me estoy enamorando de ti. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Ah! ♥ K-Kinda siente que mi mente se está derritiendo ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Eres un bailarín. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmmmm ... ♥ Este es el mejor tipo de baile. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella coincide con tus empujes con balancines de sus caderas.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Sensualmente mueve sus caderas en tus lentos empujes."
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'Solo déjame liderar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Ah!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'Vamos, sigue al día. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella mueve sus caderas en tu empuje.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmmm!♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'¡Mmmmmmm! ♥ ¡No está mal!'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Ah! ♥ sí! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Mnnn! ♥ tratando de tomar la delantera? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella coincide con tus empujes con balancines de sus caderas.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Este es un gran baile. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Ahhh ... ♥ Creo que me estoy enamorando de ti. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Ah! ♥ K-Kinda siente que mi mente se está derritiendo ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Eres un bailarín. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmmmm ... ♥ Este es el mejor tipo de baile. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella coincide con tus empujes con balancines de sus caderas.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Sensualmente mueve sus caderas en tus lentos empujes."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Lewd Bottle",
+                "Cloying Mist",
+                "Placebo Pheromone"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Mmmm ... ♥ afrodisiacs ¿eh? ♥ Tal vez debería conseguir algunos de esos también ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Ahhh ... ♥ realmente quieres hacer que bailar sea más difícil para mí, no tú. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Realmente querías verme bailar mientras se enjuagaba con excitación {i} que {/i} mal?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Charm",
+                "Charm Wave"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmmm ... ♥ ¿Es este amor? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Ahhh ... ♥ ¡Ahora quiero bailar todo el día! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Enfeeble",
+                "Sensitize"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|\"Incluso si mis piernas se sienten como gelatina, no dejaré de bailar\".",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'¿Podrías verme bailar por un momento?'",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'Todo es tan hormigueado ahora ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Disarming Appeal"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿No sabes bailar?No te preocupes, te enseñaré. ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Puedo moverme un poco más lento si lo necesitas, lo disfrutarás más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Eres muy lindo cuando estás nervioso."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Seduce",
+                "Enamor",
+                "Smoldering Seduction",
+                "Smoldering Flaunt",
+                "Massaging Seduction",
+                "Mass Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|\"Mmmm, bueno, ¿no eres el dulce hablador?\"",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Vamos, baila conmigo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Oye, llámame lindo de nuevo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'¿Es mi baile realmente tan bueno? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Ear Tease",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Mnnn, ♥ S-So es por eso que esto funciona tan bien en los elfos. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Su baile se detiene por un momento mientras su cuerpo se tensa.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¡Ah! ♥ K-Kinda siente que mi mente se está derritiendo ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Oh...♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Podemos besar aún más si quieres. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Eres dulce, ¿por qué no te relajas y me ves bailar un poco? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Making Out"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|'Soy bueno en todo tipo de bailes. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|'Nuestras lenguas también pueden bailar. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Deep Kiss",
+                "Lovingly Rough Kiss",
+                "Skillfully Passionate Kiss",
+                "Misty Kiss",
+                "Sensually Seductive Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|Ella se ríe dulcemente en tu boca.",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|Ella gime suavemente en tu boca.",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|'Mmmmm...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|'Mmm ♥ hmhmhm. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Analyze",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|¿Eh?!¡D-no analizarme!T-eso es vergonzoso!",
+                "|f|ChangeImageLayer|/|Expression|/|Nervous|n|'D-Doing que no te ayudará a verme bailar ...'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Captive Audience",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella deja escapar una risita seductora mientras te hará un gesto con un dedo brillo de color rosa brillante con magia.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Pink Magic fluye sobre su cuerpo mientras se balancea sus caderas con curvas de un lado a otro.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Continúa, disfruta del espectáculo! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Deep Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|Ella se ríe dulcemente en tu boca.",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|Ella gime suavemente en tu boca.",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|'Mmmmm...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|'Mmm ♥ hmhmhm. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Kissing Dance",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|Ella se ríe dulcemente en tu boca.",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|Ella gime suavemente en tu boca.",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|'Mmmmm...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|'Mmm ♥ hmhmhm. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Assjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿Disfrutando de mi lapdance? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Siéntete libre de tocar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Disfrútalo todo el tiempo que quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Tu polla es tan cálida y gruesa. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella te sonríe seductoramente."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Bounce",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmm! ♥ ah! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella te sonríe seductoramente.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Sus manos fluyen sobre su cuerpo mientras monta tu eje, atrayendo tus ojos hacia sus senos sacudidos.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Sus senos rebotan tentadoramente con cada movimiento que realiza.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Su jingle de brazaletes dorados, creando música que se mezcla con los sonidos del sexo."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Energetic Bounce",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmm! ♥ ah! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella te sonríe seductoramente.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Sus manos fluyen sobre su cuerpo mientras monta tu eje, atrayendo tus ojos hacia sus senos sacudidos.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Sus senos rebotan tentadoramente con cada movimiento que realiza.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Su jingle de brazaletes dorados, creando música que se mezcla con los sonidos del sexo.",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¿Puedes mantener el ritmo? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Hip Dance",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmm! ♥ ah! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿No es este el mejor baile de todos? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella te sonríe seductoramente.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Sus manos fluyen sobre su cuerpo mientras monta tu eje, atrayendo tus ojos hacia sus senos sacudidos.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Sus senos rebotan tentadoramente con cada movimiento.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Su jingle de brazaletes dorados, creando música que se mezcla con los sonidos del sexo.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Puedo sentirte latiendo dentro de mí. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Mmmm ... ♥ Eres un gran compañero de baile. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Nnnn, ♥ No creo que pueda tomar mucho más de esto. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Ahhh, ♥ realmente tienes algunos movimientos. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Parece que estás completamente encantado por mí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Es mi cuerpo lo único en lo que puedes pensar? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No tengas miedo de correrse, prometo seguir bailando para ti. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Continúa, corre tanto como quieras, lo tomaré como un cumplido. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, me alegro de que te estés disfrutando. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Assjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Nara continúa moliendo su deliciosa trasera contra su polla, y usted, hipnotizado por las sensaciones, agarra sus caderas para empujar entre sus suaves mejillas.Ella te devuelve la sonrisa, moviendo sus caderas ocasionalmente con el tiempo con tus empujes hasta que no puedes tomar más y rociar su curvas y con tu semen.",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|Mientras Nara muele sus caderas contra tu virilidad, te lleva a un beso íntimo.Encuentras tus manos deambulando por todo su cuerpo suave, haciéndola gemir con deseo en tu boca.Mientras te al a tientas el lujoso cofre, tu polla no puede disfrutar de su tentadora trasera y te cubras el culo con tu semilla."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Te encuentras fascinado por las caderas influyentes de Nara y sacudiendo los senos mientras ella folla tu eje, haciendo un baile cautivador y seductor.A medida que sus caderas se mueven en pequeños y encantadores movimientos, encuentras tu cabeza girando de placer, finalmente deteniendo cuando su coño se aprieta sobre tu polla, haciéndote gemir mientras la bombea llena de semen.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Nara rebota con un ritmo fluido sobre tu polla, y aunque haces tu mejor esfuerzo para que coincidan con sus movimientos, te encuentras rápidamente en tu límite, gimiendo mientras te recuestas e intentas soportar las sensaciones celestiales que tus caderas te están dando.Al ver cómo estás a punto de correrse, Nara aumenta su ritmo, haciendo que tus gemidos se intensifiquen mientras folla tu eje sin sentido hasta que finalmente alcanzas un orgasmo feliz dentro de ella.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Nara monta lenta y sensualmente su eje mientras se encuentra demasiado cerca del borde del orgasmo para tratar de empujarla.Haces todo lo posible para aguantar el placer, pero sus sutiles movimientos sexys erosionan rápidamente tu voluntad de resistir.Mientras continúa influyendo lentamente en las caderas de lado a lado, su cuerpo no puede tomar más y lo empuja en ella, llenándola de semen.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Encuentras tus ojos atraídos por las tetas rebotando y abundantes de Nara mientras ella monta tu eje.Nara se ríe y presiona sus suaves senos en la cara y sacude su pecho curvilíneo mientras ella muele las caderas contra las tuyas.Gemes en su cálido escote y envuelve tus brazos alrededor de ella mientras te monta a un clímax feliz."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Te encuentras fascinado por las caderas influyentes de Nara y sacudiendo los senos mientras ella folla tu eje, haciendo un baile cautivador y seductor.A medida que sus caderas se mueven en pequeños y encantadores movimientos, encuentras tu cabeza girando de placer, finalmente deteniendo cuando su culo se aprieta sobre tu polla, haciéndote gemir mientras la bombea llena de semen.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Nara rebota con un ritmo fluido sobre tu polla, y aunque haces tu mejor esfuerzo para que coincidan con sus movimientos, te encuentras rápidamente en tu límite, gimiendo mientras te recuestas e intentas soportar las sensaciones celestiales que tus caderas te están dando.Al ver cómo estás a punto de correrse, Nara aumenta su ritmo, haciendo que tus gemidos se intensifiquen mientras folla tu eje sin sentido hasta que finalmente alcanzas un orgasmo feliz dentro de ella.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Nara monta lenta y sensualmente su eje mientras se encuentra demasiado cerca del borde del orgasmo para tratar de empujarla.Haces todo lo posible para aguantar el placer, pero sus sutiles movimientos sexys erosionan rápidamente tu voluntad de resistir.Mientras continúa influyendo lentamente en las caderas de lado a lado, su cuerpo no puede tomar más y lo empuja en ella, llenándola de semen.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Encuentras tus ojos atraídos por las tetas rebotando y abundantes de Nara mientras ella monta tu eje.Nara se ríe y presiona sus suaves senos en la cara y sacude su pecho curvilíneo mientras ella muele las caderas contra las tuyas.Gemes en su cálido escote y envuelve tus brazos alrededor de ella mientras te monta a un clímax feliz."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|La lengua de Nara domina fácilmente tu boca, haciéndote gemir en la suya mientras se abalanza una mano a tu polla, ágilmente sacudiéndote mientras frota su suave pecho contra ti.Demasiado beso borracho para resistir, no le tarda mucho en ordeñar una espesa carga de semen de su dolor de polla.",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|Gime mientras el cuerpo de Nara se mueve contra ti mientras se bita contigo, y pronto se ríe mientras atrapa tu polla entre sus suaves muslos.Incapaz de negar su excitación por más tiempo, empujas entre sus piernas mientras te besa sin sentido, y sientes un pequeño pop en tu cerebro mientras te corres entre sus piernas."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Te encuentras cautivado por el baile de Nara, su carne atractiva y sacudida sosteniendo tu visión mientras se acerca lentamente a ti, las caderas balanceándose.Ella le da a su eje emocionado algunos golpes firmes y te corres duro mientras fantasías con su cuerpo.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Haciendo todo lo posible para ignorar las caderas influyentes de Nara, cierras los ojos, pero ella capitaliza tu momento de debilidad y se mueve rápidamente cerca de ti.Gemes mientras presiona tu eje entre sus muslos, moliendo y balanceándose contra tu virilidad, haciendo que tus caderas sean inconscientemente mientras te corres entre sus suaves piernas.",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|Nara guiña un ojo y te beso, y un corazón fluye de ella hacia ti, y estás demasiado excitado para esquivarlo.Te golpea en el pecho, provocando un gemido, y comienzas a masturbarte mientras la miras bailar.Su cerebro hace todo lo posible para quemar la imagen de sus caderas que se balancearon y rebotan los senos en su mente mientras usted tiene un orgasmo."
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|¡EEEE! ♥ Ahhh ... ♥ I-todavía puedo seguir ... ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|Mmmm, ♥ ohhh ... ♥ que se sintió genial! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|¡Aaaaah! ♥♥♥ mmmm, ♥ eres bastante hombre. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, ♥ Bueno, ¿por qué no te relajas y disfrutas del espectáculo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Bueno, ¡no me importará el pago gratuito y la exp! ♥ me aseguraré de hacerte disfrutar esto. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Jeje, al menos podrías tratar de pelear. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Confused|n|\"Vaya, no pensé que mi baile te cautivara {i} que {/i} mucho."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Sex",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del coño girado de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Sex",
+            "theText": [
+                "Pero [AttackerName] constante molienda te deja gemir de placer, ¡manteniéndote justo donde ella te quiere!",
+                "¡Pero [AttackerName] comienza a rebotar en tu eje con un ritmo incesante que se siente demasiado bien para detenerse!",
+                "Pero Pink Magic fluye sobre el cuerpo curvilíneo de [AttackerName], ¡y no puedes pensar en nada más que follarla!",
+                "¡Pero [AttackerName] te sopla un beso, enviándole un corazón que no tienes forma de esquivar!¡Como te sorprende, estás lleno de deseo y necesidad de [AttackerName]!",
+                "Pero mientras agarras sus caderas para retirarte, te encuentras perdido en los movimientos fluidos de su cuerpo y la excitante influencia de sus caderas.",
+                "Pero cuando comienzas a sacar, ella golpea sus caderas en tu ingle con una fuerza sorprendente antes de darle a sus caderas un pequeño meneo sexy."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Sex",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Baila hasta que caigas, [ThePlayerName]! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Mmm?¿No disfrutando de mi baile?No te preocupes [ThePlayerName], lo harás. ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No te preocupes por correrse por dentro. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Solo disfruta del espectáculo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Sus senos rebotan tentadoramente frente a tus ojos."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Sex",
+            "theText": [
+                "¡Y elige sacar tu polla de su hendidura apretada!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Sin perder el ritmo, continúa donde dejó su baile.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, ¿mi baile fue demasiado para ti? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Vamos, solo pierdes conmigo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Estoy seguro de que ya te duele bailar de nuevo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella se ríe seductoramente.",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Anal",
+            "theText": [
+                "[ThePlayerName] intenta retirarse de la apretada trasera de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Anal",
+            "theText": [
+                "Pero [AttackerName] constante molienda te deja gemir de placer, ¡manteniéndote justo donde ella te quiere!",
+                "¡Pero [AttackerName] comienza a rebotar en tu eje con un ritmo incesante que se siente demasiado bien para detenerse!",
+                "Pero Pink Magic fluye sobre el cuerpo curvilíneo de [AttackerName], ¡y no puedes pensar en nada más que follarla!",
+                "¡Pero [AttackerName] te sopla un beso, enviándole un corazón que no tienes forma de esquivar!¡Como te sorprende, estás lleno de deseo y necesidad de [AttackerName]!",
+                "Pero mientras agarras sus caderas para retirarte, te encuentras perdido en los movimientos fluidos de su cuerpo y la excitante influencia de sus caderas.",
+                "Pero cuando comienzas a sacar, ella golpea sus caderas en tu ingle con una fuerza sorprendente antes de darle a sus caderas un pequeño meneo sexy."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Anal",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Baila hasta que caigas, [ThePlayerName]! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Mmm?¿No disfrutando de mi baile?No te preocupes [ThePlayerName], lo harás. ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No te preocupes por correrse por dentro. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Solo disfruta del espectáculo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Sus senos rebotan tentadoramente frente a tus ojos."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Anal",
+            "theText": [
+                "¡Y logra sacar tu polla de su tentador trasero!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Sin perder el ritmo, continúa donde dejó su baile.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, ¿mi baile fue demasiado para ti? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Vamos, solo pierdes conmigo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Estoy seguro de que ya te duele bailar de nuevo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella se ríe seductoramente.",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Making Out",
+            "theText": [
+                "[ThePlayerName] intenta romper el beso profundo con [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Making Out",
+            "theText": [
+                "Pero ella mantiene sus brazos firmemente encerrados [ThePlayerName], ¡y él permanece encerrado en un beso profundo y apasionado!",
+                "Pero ella mira con amor a tus ojos seductoramente mientras muele su cuerpo lujoso contra ti mientras profundiza el beso, ¡y no puedes alejarte de ella!",
+                "¡Pero ella logra guiar sus manos hacia sus caderas, y te encuentras balanceándote lentamente con ella mientras te besas!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Making Out",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella frota su suave cofre contra ti.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmmm ... ♥ ¿Qué pasa?¿No sabe tu lengua bailar? ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|Ella le acaricia sensualmente tu cuerpo mientras te besa antes de darte un lindo guiño.",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|Una de sus manos se burla suavemente de tu eje como parte de sus movimientos de baile."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Making Out",
+            "theText": [
+                "¡Y libera tu boca de los labios suaves de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella se ríe.'¿No esperaba que fuera un buen besador? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|Mientras empujas su boca, una larga cadena de saliva cuelga entre ustedes dos por un breve momento.",
+                "|f|ChangeImageLayer|/|Expression|/|Kissing|n|Mientras se aleja, anhelaba su pecho con una mano mientras luce un pequeño puchero.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Lentamente se lame los labios."
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "Nara Defeated Sex",
+            "move": "",
+            "stance": "Sex",
+            "includes": [
+                "Nara"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Nervous",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "Blush",
+                "Despite her orgasm and slackening body Nara is still doing her best to swing her hips back into yours, making your cock twitch in delight from each impact and teasing wiggle as she keeps 'dancing' even with her weakening resolve.",
+                "Speaks",
+                "I-I can still w-win this-♥",
+                "Bending her over in front of you, you take hold of her wrists in your hands, and start to fuck her at a renewed tempo, working to try and finish her off before she can get a second wind, making Nara gasp out in pleasure from each of your intense thrusts.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "Speaks",
+                "Ah-♥ Wait-♥ N-Not fair-♥ Ohh!♥",
+                "Nara grits her teeth as you plow her relentlessly from behind, the wet sounds of sex echoing through the clearing, and despite the helpless position you've put her in she still wiggles and gyrates her waist when your hips meet, making you gasp and moan along with her as her vice-tight pussy works to milk you.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "Speaks",
+                "Ahn-♥ Y-You can't hold out f-forever-♥",
+                "She sets her feet onto yours as you keep a firm hold on her wrists, and starts to actually leverage her bent over position against you, moving her hips in perfect time with your thrusts, swaying her body along with your movements, giving you the feeling of a sensual dance.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "Gasping with desire and need, you start to piston your length into her squeezing pussy, your throbbing cock needily twitching with the urge to cum, her seductive swaying, swinging hips, and soft, bubble butt impacting into your waist, all driving you wild, but she's quickly left moaning and gasping along with you as you strike her most sensitive spots with each thrust.",
+                "Speaks",
+                "Mnnn!♥ [ThePlayerName]!♥ C-Cum with me!♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Orgasm",
+                "You groan as Nara gyrates her hips to the left or right in-between every meeting of your hips, making the bliss in your groin bubble over as your aching balls tense, and Nara's moans get lewder as you fuck her in time with her erotic 'dance', driving you both closer to climax the prior fight distant in both of your thoughts.",
+                "PlayerOrgasmNoSpiritLoss",
+                "Then with a few rapid swings of your hips, electric bliss goes shooting through both you, and the two of you are left crying out in ecstasy as you pour your seed into her. Your minds going blank with orgasmic pleasure, but even still Nara's hips unconsciously rock in slow circles while her pussy squeezes tight, milking you for every drop as she extends your spurting climax.",
+                "For a few floaty thoughtless moments you both stay interlocked, shivering and gasping with pleasure, dazed expressions on your face.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Then as you both start to come down from your respective orgasms, Nara starts to fade away, and she goes slack in your grasp with a giggle, looking back at you with a cheerful, albeit horny, smile.",
+                "Speaks",
+                "You're a wonderful dance partner.♥"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Nara Defeated",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Nara"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "Blush",
+                "Nara is left gasping on the ground from her final orgasm as you continue to tease her sensitive body just a few moments longer, until from a few more simple caresses she's left tensing and crying out again in melty bliss, finally fading away from your groping hands with a dazed smile plastered on her face...",
+                "Speaks",
+                "W-We should dance again sometime...♥"
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Base",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.19",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Nara/Body_Nara.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Blush",
+                    "File": "Monsters/Nara/Body_NaraBlush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Nara/Expression_Nara_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Cheerful",
+                    "File": "Monsters/Nara/Expression_Nara_Cheerful.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Confused",
+                    "File": "Monsters/Nara/Expression_Nara_Confused.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Dominant",
+                    "File": "Monsters/Nara/Expression_Nara_Dominant.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Happy",
+                    "File": "Monsters/Nara/Expression_Nara_Happy.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Kiss",
+                    "File": "Monsters/Nara/Expression_Nara_Kiss.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Nervous",
+                    "File": "Monsters/Nara/Expression_Nara_Nervous.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Orgasm",
+                    "File": "Monsters/Nara/Expression_Nara_Orgasm.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Panic",
+                    "File": "Monsters/Nara/Expression_Nara_Panic.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pleasured",
+                    "File": "Monsters/Nara/Expression_Nara_Pleasured.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Sad",
+                    "File": "Monsters/Nara/Expression_Nara_Sad.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Seductive",
+                    "File": "Monsters/Nara/Expression_Nara_Seductive.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Serious",
+                    "File": "Monsters/Nara/Expression_Nara_Serious.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Smug",
+                    "File": "Monsters/Nara/Expression_Nara_Smug.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Thinking",
+                    "File": "Monsters/Nara/Expression_Nara_Thinking.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}

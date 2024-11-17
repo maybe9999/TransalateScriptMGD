@@ -1,0 +1,365 @@
+{
+    "name": "Belle",
+    "IDname": "Belle",
+    "species": "Beast",
+    "gender": "female",
+    "description": "Una mujer de Minotaur increíblemente tetona y alta con piel bronceada.\n\nElla tiene cabello negro corto y picante, ojos grises afilados, orejas largas y puntiagudas que terminan en mechones de pelusa, y hay una cicatriz de aspecto malvado cortando diagonalmente a través de su ojo izquierdo y en su rostro, pero a juzgar por su afilada mirada, puede.Todavía veo fuera de eso bien.\n\nLos lados de su cabeza están adornados con dos cuernos curvos largos.Una larga cola que termina en un mechón de cabello negro y esponjoso se balancea de su firme trasera.\n\nDespués de sus muslos, sus piernas están cubiertas de piel negra que terminan en cascos intimidantes.Todo su cuerpo parece bien construido y musculado.Lleva pantalones cortos de color marrón cortos, una camisa de vestir blanca con un chaleco negro en la parte superior, y parece que la mayoría de los botones se han roto desde hace mucho tiempo, lo que la obliga a mostrar su amplio escote.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        ""
+    ],
+    "perks": [
+        ""
+    ],
+    "stats": {
+        "lvl": "1",
+        "Exp": "10",
+        "max_hp": "100",
+        "max_ep": "10",
+        "max_sp": "1",
+        "Power": "5",
+        "Technique": "5",
+        "Intelligence": "5",
+        "Allure": "5",
+        "Willpower": "5",
+        "Luck": "5"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "100",
+        "Ass": "100",
+        "Breasts": "100",
+        "Mouth": "100",
+        "Seduction": "100",
+        "Magic": "100",
+        "Pain": "100",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "moneyDropped": "0",
+    "ItemDropList": [
+        {
+            "name": "Anaph Herb",
+            "dropChance": "75"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "HitWith",
+            "move": "Spank",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Tail",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Tail",
+                    "File": "Monsters/Belle/Tail_Belle.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Base",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.161",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Belle/Body_Belle.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Blush",
+                    "File": "Monsters/Belle/Body_BelleBlush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Pants",
+            "StartOn": "1",
+            "AlwaysOn": "0",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "PantsOn",
+                    "File": "Monsters/Belle/Clothing_Belle_Pants.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Bra",
+            "StartOn": "1",
+            "AlwaysOn": "0",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "BraOn",
+                    "File": "Monsters/Belle/Clothing_Belle_Bra.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Top",
+            "StartOn": "1",
+            "AlwaysOn": "0",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "TopOn",
+                    "File": "Monsters/Belle/Clothing_Belle_Top.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Belle/Expressions_Belle_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Annoyed",
+                    "File": "Monsters/Belle/Expressions_Belle_Annoyed.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Angry",
+                    "File": "Monsters/Belle/Expressions_Belle_Angry.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Caring",
+                    "File": "Monsters/Belle/Expressions_Belle_Caring.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Dominamnt",
+                    "File": "Monsters/Belle/Expressions_Belle_Dominant.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Flustered",
+                    "File": "Monsters/Belle/Expressions_Belle_Flustered.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Fury",
+                    "File": "Monsters/Belle/Expressions_Belle_Fury.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Orgasm",
+                    "File": "Monsters/Belle/Expressions_Belle_Orgasm.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "OrgasmIntense",
+                    "File": "Monsters/Belle/Expressions_Belle_OrgasmIntense.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pleasured",
+                    "File": "Monsters/Belle/Expressions_Belle_Pleasured.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "PleasuredMoaning",
+                    "File": "Monsters/Belle/Expressions_Belle_PleasuredMoaning.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "PleasuredResisting",
+                    "File": "Monsters/Belle/Expressions_Belle_PleasuredResisting.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Sad",
+                    "File": "Monsters/Belle/Expressions_Belle_Sad.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Scoff",
+                    "File": "Monsters/Belle/Expressions_Belle_Scoff.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Shock",
+                    "File": "Monsters/Belle/Expressions_Belle_Shock.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Shy",
+                    "File": "Monsters/Belle/Expressions_Belle_Shy.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Sigh",
+                    "File": "Monsters/Belle/Expressions_Belle_Sigh.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Smug",
+                    "File": "Monsters/Belle/Expressions_Belle_Smug.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Stern",
+                    "File": "Monsters/Belle/Expressions_Belle_Stern.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}

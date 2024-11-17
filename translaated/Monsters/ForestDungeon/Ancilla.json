@@ -1,0 +1,1222 @@
+{
+    "name": "Ancilla",
+    "IDname": "Ancilla",
+    "species": "Beast",
+    "gender": "female",
+    "description": "Una mujer de oveja inexpresiva con crema ondulada de la cintura con un cabello coloreado con un pequeño arco negro.Ella tiene ojos dorados fríos y un conjunto de grandes cuernos de carnero negro que se curvan sobre sus oídos de oveja de aspecto esponjoso caído.La base de su cuello y las muñecas están cubiertas de lana de color crema suave y esponjosa.\n\nSus senos parecen estar alrededor de una taza C, pero están ocultos por un elegante atuendo de doncellas que termina con una falda corta con un delantal blanco con volantes sobre el frente y un montículo de lana en la parte posterior.\n\nJusto debajo de su falda, puedes ver una cola corta de oveja que se asomaba, llamando la atención sobre su firme y bien redondeada parte trasera y sus piernas bien formadas, que llevan medias negras altas.En sus pies hay zapatos negros simples pero muy prácticos.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        "Handjob",
+        "Handjob",
+        "Sudden Mattress",
+        "Sleepy Cuddle",
+        "Sleepy Cuddle",
+        "Cuddly Handjob",
+        "Cuddly Handjob",
+        "Sleep Sex",
+        "Sleepy Sexual Embrace",
+        "Sleeping Sex Finisher",
+        "Lulling Grind",
+        "Soothing Whisper Sex",
+        "Methodical Pacification",
+        "Fluff Step",
+        "Fluff Step Counter",
+        "Foot Grind",
+        "Foot Stroke",
+        "Ancilla's Invitation",
+        "Gentle Thighjob",
+        "Comforting Thighjob",
+        "Sleeping Thighjob Finisher"
+    ],
+    "perks": [
+        "Swift",
+        "Escape Artist",
+        "Unshackled",
+        "DelayedStunned",
+        "Sex Adept",
+        "Skilled Feet"
+    ],
+    "stats": {
+        "lvl": "10",
+        "Exp": "100",
+        "max_hp": "350",
+        "max_ep": "100",
+        "max_sp": "1",
+        "Power": "7",
+        "Technique": "15",
+        "Intelligence": "10",
+        "Allure": "9",
+        "Willpower": "10",
+        "Luck": "6"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "100",
+        "Ass": "100",
+        "Breasts": "100",
+        "Mouth": "100",
+        "Seduction": "50",
+        "Magic": "100",
+        "Pain": "25",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "50",
+        "Aphrodisiac": "0",
+        "Restraints": "10",
+        "Sleep": "150",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "moneyDropped": "250",
+    "ItemDropList": [
+        {
+            "name": "Insomnia Potion",
+            "dropChance": "100"
+        },
+        {
+            "name": "Specially Maid Spice Mix",
+            "dropChance": "60"
+        },
+        {
+            "name": "Cold Rune",
+            "dropChance": "50"
+        },
+        {
+            "name": "Enlightenment Rune",
+            "dropChance": "10"
+        },
+        {
+            "name": "Strange Collar",
+            "dropChance": "10"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "Thighjob loss",
+            "move": "",
+            "stance": "Thighjob",
+            "includes": [
+                "Ancilla"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base Blush",
+                "You moan and lean on Ancilla for support as she gently strokes you length with her soft thighs, all the energy and fight completely drained out of you.",
+                "Speaks",
+                "It seems you have lost.",
+                "She gently pushes you backwards until the two of you fall onto a soft bed, with her still ontop of you, caringly squeezing your rigid erection with her warm thighs.",
+                "Speaks",
+                "Then I will relieve you of your urges.",
+                "Ancilla keeps her cold gaze on your eyes as she firmly presses herself against you, tightly cuddling you as you sink into the fluffy bed, surrounding you in lethargy educing warmth.",
+                "You feel your eyes start to droop as she slowly rubs herself against you, soothingly whispering in your ear with monotone coolness that makes you shiver. All while her inviting thighs squeeze and rub your twitching cock.",
+                "Lazily you wrap your arms around her, losing yourself to this cozy pleasure, your cock pulsing with joy between her wonderful thighs.",
+                "Her gentle stimulation is just enough to keep you awake through the cuddly haze she's inducing in you, and your hands slowly drift lower and lower down her body until they firmly grab her shapely rear.",
+                "Leveraging your hold on her soft butt you thrust between her soft thighs drowsily seeking release, your cock aching with warmth from her cuddly tease.",
+                "You gasp as she gently nibbles on your ear while you fuck her thigh with an increasing tempo as your cock leaks pre-cum all over her legs.",
+                "As your mind blanks out with pleasure every time you thrust up into her welcoming thighs, a jolt of near-orgasm pleasure surges through you, and you faintly know you couldn't stop your hips even if you wanted to as bubbling ecstasy fills your hips.",
+                "PlayerOrgasm",
+                "1",
+                "You cry out with ecstasy as with one final thrust of your hips, and tensing grope of her soft rear, your cock erupts, spurting thick ropes of cum into the air while you dreamily grin with pleasure drunk bliss.",
+                "Slowly your orgasm ebbs away, and your body loosens, your arms gently shifting back up to tightly hold Ancilla close as you desperately cuddle into her for post orgasmic comfort, and she nuzzles back as your eyes drift closed and sleep takes you...",
+                "PlayerOrgasm",
+                "1",
+                "With a murmur you awake in a daze, seeing Ancilla gazing down into you eyes with a cold expression, and moan as your shaft spurts a thick rope of cum between her soft thighs. You faintly realize she's been still teasing you in your sleep, wringing out your cum until you're dry.",
+                "PlayerOrgasm",
+                "1",
+                "This thought only makes you smile sleepily as you start to drift off again in her comforting warm embrace as she gently hushes you back to sleep while her thighs work to wring out another thick load of your cum...",
+                "...",
+                "ChangeFetish",
+                "Legs",
+                "5",
+                "ChangeSensitivity",
+                "Sex",
+                "3",
+                "ChangeSensitivity",
+                "Seduction",
+                "3"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Sex loss",
+            "move": "",
+            "stance": "Sex",
+            "includes": [
+                "Ancilla"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base Blush",
+                "Ancilla continues to methodically ride your rigid manhood as you let out a moan of defeat.",
+                "Quickly she leans down and starts to pepper you face with kisses for a few moments before pulling you into a deep kiss.",
+                "She is staring intensely into your eyes with an emotionless gaze, holding you tightly as she continues to slowly bounce her hips on your cock while her tongue dominates your mouth with calculated precision.",
+                "As she gently rubs her body against you, your head starts to feel floaty and filled with soft fluff, her gentle kiss and the methodical movements of her hips flooding you with blissful pleasure.",
+                "Her hands carefully tease your sides, trailing down them slowly, making you squirm and shiver from all the stimulation assailing your body.",
+                "You moan into her mouth as an orgasm starts to well up in your groin, but right before you can blissfully ejaculate, she slows down her hips movements until she is just gently grinding her hips against you.",
+                "Your need to cum abates slightly, but never goes away as Ancilla continues to slowly move her hips, and you're left hanging on the edge of cumming, growing increasingly desperate to spurt your load.",
+                "She breaks the kiss as you start to feel out of breath, staring down at you with her emotionless golden eyes as she speaks to you in her monotone voice.",
+                "Speaks",
+                "I will take care of all of your sexual urges with a single orgasm.",
+                "You can only moan as she methodically rolls her hips on your cock, carefully keeping you on the edge of orgasm. But bringing you just a bit more mind numbing pleasure all the same.",
+                "Her hands gently caress your chest, and trail down your sides, sending tingling bliss across your skin, making you twitch and squirm in pleasure.",
+                "Despite the constant need to cum, your brain feels too drowsy to even consider moving your hips, leaving you to whimper in ecstasy as Ancilla continues her achingly slow stimulation.",
+                "Gradually, your entire body starts to feel like one big sex nerve electrified with constant edging pleasure, completely wrapped up in a warm comforting sexual embrace with no escape.",
+                "Her pussy keeps tight control over your aching manhood, slowing down to slight movements that send shivers up your spine, bringing you teasingly close to cumming, only to let the pleasure fade away to sleepy bliss.",
+                "Your face strains from desperation and pleasure, Ancilla takes you into another deep kiss as your eyes start to roll back slightly from all the over-stimulation, your mind-blanking out completely with this intoxicatingly soothing bliss.",
+                "Her hands continue to dutifully tease your body, massaging your chest and sides, and then her hips suddenly start to speed up, causing the pleasure cascading through your body to bubble and multiply with each meeting of your hips.",
+                "PlayerOrgasm",
+                "1",
+                "You mindlessly cry out into Ancilla's mouth as the molten ecstasy starts to completely overtake you as your denied orgasm finally erupts through your aching shaft.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base Deep Blush",
+                "PlayerOrgasm",
+                "1",
+                "Searing hot pleasure streaks through you as you let a huge load of semen into Ancilla's pussy, filling her to the brim in an instant, your cock spurting out every drop it can into her warm embrace.",
+                "For a few moments she keeps you locked in the deep kiss, her pussy clamping down on your length, letting you revel in the warm bliss flooding every part of your body.",
+                "But eventually she pulls away from your twitching and spasming form, freeing your shaft and tongue before quietly snuggling up against you with an emotionless but flushed face.",
+                "Your pleasure wracked mind is helpless against the sweet siren song of sleep as you thoughtlessly cuddle with the warm sheep girl.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy Blush",
+                "Soon your eyes close and you drift off, wrapped up in Ancilla's soft soothing embrace...",
+                "PlayerOrgasm",
+                "1",
+                "Your dreams are filled with visions of fucking the sheep maid senseless as you cum in her again and again, the two of you lost in a sweet sexual haze...",
+                "...",
+                "ChangeSensitivity",
+                "Sex",
+                "3",
+                "ChangeSensitivity",
+                "Seduction",
+                "3"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Footjob loss",
+            "move": "",
+            "stance": "Footjob",
+            "includes": [
+                "Ancilla"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "You won't be bothering my mistress then...",
+                "She continues to tease your shaft with her foot while speaking to you with a monotone voice.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Disgust",
+                "Speaks",
+                "Are you into this kind of thing? Cumming from a girl's foot?",
+                "Your voice turns into a moan as she strokes your shaft harder with the soft stocking-covered sole of her foot.",
+                "Speaks",
+                "Then I will indulge you until you pass out.",
+                "As if to punctuate her statement, you're suddenly struck with another orgasm as she roughly presses her foot down on your overstimulated manhood, and your aching shaft spurts out a few ropes of semen into the air.",
+                "She doesn't relent in teasing your throbbing erection, slowly torturing you with pleasure as she alternates between stroking and grinding your twitching dick with her foot.",
+                "Unable to fight back, you are forced to simply lay there and try to endure the numbing ecstasy she is forcing into your groin with her stockinged sole.",
+                "The longer she teases your throbbing shaft, the more achingly sensitive it starts to feel, every motion of her foot continuing to get more and more intense on your sensitive flesh, leaving your mind turning to mush.",
+                "As she firmly presses her foot down on your shaft, another orgasm surges through your body, making your balls ache as you shoot out another large load of semen all over her foot and your waist.",
+                "You whimper as she carefully presses her heel on your balls, turning into a cry of pleasure as she starts to grind her foot down onto your entire manhood with calculated gentle force.",
+                "Even if your mind is trying to reject this pleasure, your body clearly isn't, giving in and loving the sensations of her domineering foot pressing down on you.",
+                "PlayerOrgasm",
+                "1",
+                "Her heel presses down a bit harder on your balls and ropes of cum shoot out of your shaft, almost like she is forcing it out of you. The agonizing ecstasy leaves you howling mindlessly in orgasmic pleasure.",
+                "She doesn't relent teasing your shaft for a single moment, using her stocking-covered toes to caress the sensitive head of your twitching cock.",
+                "Your hips instinctively thrust your throbbing shaft into the mind melting stimulation, and Ancilla adjusts her rhythm as she starts to stroke your shaft with her foot in time with your body's thrusts.",
+                "Soon your entire body is tingling with pleasure and you feel another orgasm welling up inside you as your body gives in completely to Ancilla's domineering foot pumping your cock dry.",
+                "PlayerOrgasm",
+                "1",
+                "You shudder and twitch with a moan as orgasmic bliss shoots through you, and your aching shaft spurts out another large rope of cum into the air.",
+                "Speaks",
+                "As long as your body wants more pleasure, I will continue to give it more.",
+                "Your still painfully erect manhood continues to get teased by her stocking-covered foot, and your body is too immersed in pleasure for you to try and make a coherent response, leaving your mind to drown in this foot induced ecstasy as you hips weakly buck into the stimulation.",
+                "PlayerOrgasm",
+                "1",
+                "Ancilla's foot milks load after load of cum out of your balls, leaving you moaning blissfully with pleasure, all while her emotionless face looks down on your twitching form.",
+                "PlayerOrgasm",
+                "1",
+                "With an almost constant string of orgasms, it doesn't take long for your loins to run completely dry, leaving your flagging length, your hips, and Ancilla's foot all coated white with your seed. You sink helplessly into the soft pillows underneath you, completely exhausted, still panting with arousal.",
+                "You simply lay there, occasionally twitching, unable to think coherently as aftershocks of pleasure run through you...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Dominant",
+                "Speaks",
+                "...Hmm. I may have overdone it...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base Blush",
+                "Ancilla dutifully cleans up all of your seed with a soft cloth before cuddling against you, providing herself as an extra pillow.",
+                "Almost mindlessly, you lean into her soft inviting form as you quickly drift off to sleep...",
+                "ChangeFetish",
+                "Feet",
+                "5",
+                "ChangeSensitivity",
+                "Sex",
+                "3"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Cuddly Loss",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Ancilla"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "As you feel your energy leaving you, Ancilla quickly moves in to embrace you, gently lowering you to the ground.",
+                "Instead of landing on the ground, however, you find yourself laying on one of the most comfortable beds you have ever been in, surrounded by dozens of soft pillows.",
+                "Before you can even comprehend what's going on, Ancilla nuzzles into your neck and wraps one of her hands around your shaft.",
+                "Her warm breath on your neck sends shivers down your spine as her hand starts to slowly but firmly stroke your rigid manhood.",
+                "She whispers in your ear with her monotone voice.",
+                "Speaks",
+                "You lost, and therefore you are unfit to see my mistress, so I will take care of you instead.",
+                "Her hand keeps a slow steady pace as it strokes your erect cock, sending sweet jolts of pleasure through your manhood.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base Blush",
+                "Despite the pleasure building in your groin, your eyelids start to droop from Ancilla's persistent nuzzling and gentle cuddling, something about her soothing embrace lulling you into relaxation.",
+                "Your entire body gradually becomes lethargic and tingly as Ancilla continues to gently pump your rigid shaft with her soft hand, and a soft fluffy feeling fills your mind, making you sigh happily.",
+                "The sensation of her hot breath on your neck as she cuddles into you fills you with blissful pleasure, only amplifying the pulses of pleasure her hand is inflicting on your throbbing cock.",
+                "With the multitude of pleasant sensations, you cannot help but smile even as your eyes start to close and you fall asleep despite the wonderful tingling ecstasy...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base Deep Blush",
+                "...Only to wake moments later to a nearly mind shattering orgasm as your cock throbs and aches, spurting out semen like a fountain, leaving you moaning incoherently.",
+                "Even as your body spasms in pleasure, the lethargic and tingly sensations across your body only intensifies, leaving you feeling drowsier than ever.",
+                "With a groan, you find yourself mindlessly snuggling deeper into the bed's comfort and Ancilla's embrace, soothing sleep pervading your entire body.",
+                "Her hand has been slowly increasing its pumping tempo, sending waves of pleasure across your body, but the ecstasy seems to lull you into further relaxation.",
+                "Ancilla gently nibbles on your ear, and you feel sleep starting to overtake you once more and your half lidded eyes drift closed once more...",
+                "...And you're left to dream about Ancilla gently pampering you, pumping your cock, cuddling close to you while cooing in your ear.",
+                "Only to wake up once more into that very scene as another bliss inducing orgasm cascades through you and Ancilla's gloved hand pumps your rigid spurting length.",
+                "PlayerOrgasm",
+                "1",
+                "Your hips weakly thrust into Ancilla's stoking hand as your throbbing shaft ejaculates thick ropes of cum into the air, leaving your pleasure ridden mind even more lethargic than before.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy Blush",
+                "Pleasure and sleepy bliss pulse through your entire being with every stroke of her soft hand, leaving your tired mind nothing but happy mush for her to gently lull to sleep.",
+                "Ancilla continues to stroke your shaft and cuddle against you, sending tingling drowsy pleasure across your entire body as your eyes drift closed once more...",
+                "PlayerOrgasm",
+                "1",
+                "Leaving you drift between sleeping and wakefulness, lewd dreams crossing over with reality, making the only thing that lets you know if you actually woke up again is the intense sensation of an orgasm surging through you as you spurt cum all over Ancilla's hand and your waist.",
+                "PlayerOrgasm",
+                "1",
+                "Even then, you can no longer tell if that was a dream or if you fell asleep again, making you completely lose track of the number of times Ancilla makes you cum as you slip back and forth between a melty ecstasy ridden reality and sweet insidious soothing dreams.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base Deep Blush",
+                "Eventually, you groggily wake up under a soft down blanket with Ancilla snuggling up against you, completely asleep, breathing quietly and soothingly.",
+                "You feel far too exhausted, comfortable, and basking in the afterglow of pleasure to even consider getting out of bed as you snuggle back into Ancilla's warm, woolen embrace...",
+                "Soon you drift back to sleep...",
+                "ChangeSensitivity",
+                "Sex",
+                "5",
+                "ChangeSensitivity",
+                "Seduction",
+                "5"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "SetMusicTo",
+            "move": "",
+            "theText": [
+                "music/Forest Dungeon/chain.mp3"
+            ]
+        },
+        {
+            "lineTrigger": "EndOfRound",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|AncillaCombatEvents|/|EndOfRoundCounterCheck|n|"
+            ]
+        },
+        {
+            "lineTrigger": "OffenceCounter",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|AncillaCombatEvents|/|CallCounterAttack|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Spank",
+                "Whip",
+                "Pinch Nipples"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...' Parece completamente inmutada."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Demon Layer",
+                "Arouse",
+                "Arousara",
+                "Arousero"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Holy Headpat",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...' Parece completamente inmutada."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Bondage Net",
+                "Magical Binding",
+                "Pin"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n|'...' Parece un poco molesta."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Electrify",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n|'...' Parece un poco molesta."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Breast Caress",
+                "Grope Ass"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... mnn ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... ah ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Breast Massage",
+                "Breast Knead",
+                "Breast Fondle",
+                "Squeeze Ass",
+                "Massage Ass",
+                "Fondle Ass"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... mnn ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... ah ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ella deja escapar algunos jadeos lindos."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Suckle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'...?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... mnn ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ella acuna suavemente tu cabeza contra su pecho.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... ah ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Finger",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... mnn ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... ah ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Dildo",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... mnn ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... ah ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... mnn ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ancilla te mira a los ojos por un momento con una expresión ilegible en su rostro."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Make Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shock|n|Sus ojos se abren ligeramente en estado de shock.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... Mnn'."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Deep Kiss",
+                "Lovingly Rough Kiss",
+                "Skillfully Passionate Kiss",
+                "Misty Kiss",
+                "Sensually Seductive Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shock|n|Ancilla mira profundamente e inquebrantable en tus ojos con una mirada fría mientras te besas.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... ah ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... Mnn'."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Seduce",
+                "Ear Tease",
+                "Enamor",
+                "Smoldering Seduction",
+                "Smoldering Flaunt",
+                "Massaging Seduction",
+                "Mass Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'...' Su rostro está un poco rubor."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Charm",
+                "Charm Wave"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Deep Blush|n|Su rostro se vuelve rojo mientras evita su mirada momentáneamente."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Sensitize",
+                "Enfeeble"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n|Ella se queda quieta por un momento antes de verte con una leve molestia."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ella deja escapar algunos jadeos lindos.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ancilla te mira a los ojos mientras la follas.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|¿Te estás cansando todavía?",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... mnn ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Deep Blush|n|Ella deja escapar algunos gemidos.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Deep Blush|n|Ancilla lucha por mantener su expresión estoica."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ella deja escapar algunos jadeos lindos.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ancilla te mira a los ojos mientras la follas.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'...?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... mnn ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ella deja escapar algunos jadeos lindos.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ancilla te mira a los ojos mientras la follas.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|¿Te estás cansando todavía?",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... mnn ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck",
+                "Anal Piston"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Deep Blush|n|Ella deja escapar algunos gemidos.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Deep Blush|n|Ancilla lucha por mantener su expresión estoica."
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ella deja escapar algunos jadeos lindos.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ancilla te mira a los ojos mientras la follas.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'...?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... mnn ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ella rápidamente te paga la cara con besos.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ella te besa en el cuello.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ancilla te mira a los ojos por un momento con una expresión ilegible en su rostro."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Handjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Su mano es cálida y firme alrededor de su eje.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿Te estás disfrutando?",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ella acaricia tu eje a un ritmo constante e inmutable.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ella te mira a los ojos con una expresión ilegible en su rostro.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ella mira tu eje con una expresión ilegible en su rostro."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Sleepy Cuddle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿Estás cómodo?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Solo quédate aquí conmigo.Su voz monótona hace que suene un poco desconcertante.",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|Crees que por un momento viste el menor indicio de una sonrisa en su rostro.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Puedes sentir su cálido aliento en tu cuello.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Cada parte de ti se siente increíblemente cómoda.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ella te mira a los ojos con una expresión ilegible en su rostro."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Sleepy Cuddle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿Estás cómodo?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Solo quédate aquí conmigo.Su voz monótona hace que suene un poco desconcertante.",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|Crees que por un momento viste el menor indicio de una sonrisa en su rostro.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Puedes sentir su cálido aliento en tu cuello.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Cada parte de ti se siente increíblemente cómoda.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ella te mira a los ojos con una expresión ilegible en su rostro."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Methodical Pacification",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|Crees que por un momento viste el menor indicio de una sonrisa en su rostro.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ancilla Nuzzles contra tu cuello.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ancilla te mira a los ojos con una expresión ilegible en su rostro.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Relax.'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...♥'"
+            ]
+        },
+        {
+            "lineTrigger": "usesMoveA",
+            "move": "Methodical Pacification",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|Crees que por un momento viste el menor indicio de una sonrisa en su rostro.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ancilla Nuzzles contra tu cuello.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ancilla te mira a los ojos con una expresión ilegible en su rostro.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Relax.'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Soothing Whisper Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿Estás cómodo?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Shhhhh...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Relax.'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Te cuidaré'.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...♥'"
+            ]
+        },
+        {
+            "lineTrigger": "usesMoveA",
+            "move": "Soothing Whisper Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿Estás cómodo?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Shhhhh...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Relax.'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Te cuidaré'.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Lulling Grind",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿Estás cómodo?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Shhhhh...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Relax.'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Te cuidaré'.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...♥'"
+            ]
+        },
+        {
+            "lineTrigger": "usesMoveA",
+            "move": "Lulling Grind",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿Estás cómodo?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Shhhhh...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Relax.'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Te cuidaré'.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Gentle Thighjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Disgust|n|'¿Te gusta esto?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Puedo sentir tu polla sacudiéndose ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Shhhhh...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Relax.'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Comforting Thighjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Disgust|n|'¿Te gusta esto?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Puedo sentir tu polla sacudiéndose ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Shhhhh...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Relax.'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Foot Grind",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Disgust|n|'¿Te gusta esto?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Puedo sentir tu polla sacudiéndose ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ella mira tu eje con una expresión ilegible en su rostro.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Foot Stroke",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Disgust|n|'¿Te gusta esto?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Puedo sentir tu polla sacudiéndose ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ella mira tu eje con una expresión ilegible.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...'"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Deep Blush|n|Su rostro está muy al ras y está dejando escapar pequeños jadeos de placer."
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|\"La forma en que te estás retorciendo ... estás a punto de correrse\".",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|\"Cum para mí, así que mi amante no necesita molestarse contigo\".",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ella mira a tu virilidad mientras se contrae y palpita, casi lista para correrse.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'No puedes aguantar más.Deja escapar tu semen.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|\"Mexilaré cada gota de tu semen\"."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Sleeping Thighjob Finisher",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Con un gemido, te corres por todos los muslos suaves de Ancilla mientras ella bombea con calma tu longitud con ellos, una sensación placentera flotante que se apodera de todo tu cuerpo.Tu cabeza se siente como si estuviera llena de algodón esponjoso, y sonríes a la mirada fría de Ancilla mientras apoya tu peso para mantenerte en pie.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Te encuentras con un labio encerrado con Ancilla mientras mira apasionadamente a tus ojos, el placer ya superaba tu cuerpo de su éxtasis inductor de muslos acariciando suavemente tu eje.Tu cerebro se queda en blanco de su placer metódico y te gemirás felizmente en su boca mientras cubres los muslos blancos con semen.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Todo tu cuerpo está hormigueando con un placer somnoliento que emanan en olas de tu virilidad, y tu mente aún somnolienta ni siquiera puede comenzar a luchar contra las mareas interminables de placer que Ancilla te está dando suavemente.Con un apretón final de sus muslos celestiales, Ancilla ordeña una espesa carga de semen de ti y sobre sus muslos, dejándote temblar con una dicha orgásmica.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ancilla está susurrando en tu oído con su voz fría sin emociones, tu cerebro somnoliento amando el dulce placer yacidamente que su voz te está dando mientras acaricia suavemente tu virilidad con sus suaves muslos, dando a tu longitud el apretón ocasional.|n|You feel like you could drift back to sleep in her embrace even as orgasmic bliss jolts through your body, and Ancilla's monotone cooing sends you over the edge into a mindless twitching orgasm. Leaving you spurting thick ropes of cum all over her thighs and onto the floor while you grin sleepily."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Sleeping Sex Finisher",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Con un gemido, te corres dentro de Ancilla mientras ella lentamente monta tu eje, una sensación flotante placentera llenando todo tu cuerpo, dejándote perdido|n|You are completely surrounded by a feeling of comfy softness and can't help but smile loosely as Ancilla keeps methodically wringing you dry.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Te encuentras con el labio encerrado con Ancilla mientras mira apasionadamente a tus ojos, el placer ya superaba tu cuerpo de su éxtasis inductor de coño acariciando tu eje.Tu cerebro se queda en blanco por su complaciente y te gemirás en la boca mientras cubres su interior blanco con semen, y ella sigue montando suavemente tu longitud.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Todo su cuerpo está hormigueando de placer que emana en olas de su ingle, y su mente aún somnolienta ni siquiera puede comenzar a luchar contra las mareas interminables de placer.Con un movimiento final hacia abajo de sus caderas, Ancilla ordeña el eje de una espesa carga de semen, haciéndote estremecer con una dicha orgásmica y obligándolo a apenas luchar contra la tentación de volver a dormir.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ancilla se susurra en tu oído con su voz fría sin emociones, tu cerebro somnoliento amando el dulce placer y espeluznante que su voz te está dando mientras ella muele suavemente sus caderas contra ti, masajeando toda tu longitud.|n|You feel like you could drift back to sleep even as orgasmic bliss jolts through your body, and Ancilla's monotone cooing sends you over the edge into a mindless twitching orgasm. Leaving you spurting thick loads into her, while you grin sleepily."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Thighjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Jadeas y gemes mientras Ancilla bombea suavemente tu longitud con sus suaves muslos, enviando mentes de placer a través de tu virilidad, lo que te acerca cada vez más al orgasmo mientras mira sin emoción a tus ojos.|n|She suddenly forces you into a deep methodical kiss that sweetly frays your focus and resistance, her tongue slowly entangling with yours in an almost sleepy dance.|n|Combined with her comforting thighs your mind blanks out with pleasure, you can't endure this any longer, and you blow your hot load between her warm thighs, coating them with your seed. She breaks the wet kiss, but shows no sign of stopping her soft thighs slow stroking of your twitching erection.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ancilla apreta suavemente tu longitud entre sus muslos celestiales en un ritmo metódico, todo mientras susurraba en silencio en tu oído con su voz monótona extrañamente reconfortante.|n|'Cum, cum, cum, cum.'|n|Already so close to orgasm, her simple mantra bores into your mind more and more with each gentle squeeze of her thighs, the urge to cum overwhelms your thoughts, and with a final tight squeeze of her legs, Ancilla forces a thick spurting orgasm out of you that leaves you moaning in bliss.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Te sientes tan aturdido y perdido en el abrazo de Ancilla, no puedes evitar empujar lentamente a sus invitados muslos mientras acaricia tu longitud con ellos, tus ojos profundamente encerrados con su mirada fría mientras el placer deja tus pensamientos más sueltos y vacíos.|n|You fuck her thighs faster and faster as you lose yourself to sleepy pleasure, blissful ecstasy seeping into every part of you, until it all finally erupts in climactic bliss, and you spurt thick ropes of cum all over her thighs and out the other side of their gentle embrace."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ancilla, con movimientos lentos y metódicos, trabaja tu eje con su apretado coño mientras se acaricia contra ti, haciéndote gemir mientras te lleva lentamente al borde del orgasmo, dejándote allí mientras continúa sus movimientos dolorosamente lentos.|n|The overwhelmingly strong desire to cum fills you and you buck your hips into her thoughtlessly, letting orgasmic pleasure overtake you as you fill her full of cum, moaning with release. You let out a thoughtless sigh as your orgasm ebbs away and Ancilla gently grinds her hips against yours, and you feel like you could drift off to sleep.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Encuentra que su orgasmo se acerca rápidamente cuando Ancilla repentinamente se inclina el eje y se inclina hacia adelante antes de salpicar la cara con besos.La combinación de sensaciones de su placentero coño y besos sin emociones pero llenos de amor te envían al borde en un orgia que te rocías llena de semen.|n|The sweet climactic bliss leaves you dazed and sleepy, and you can't help but sigh happily as Ancilla continues to soothingly ride your manhood.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ancilla rebota metódicamente en su eje, el placer que continúa construyendo en su ingle mientras su cabeza continúa sintiendo que ha estado llena de pelusa.|n|You can't think straight anymore, your brain only able to focus on the pleasure cascading through your body until you erupt in bliss, coating the inside of her pussy with semen. With a happy smile, you sink into the bed, feeling the faint desire to just lay there and continue to enjoy yourself...",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ancilla susurra con calma en tu oído, su voz sin emociones contrasta con el placer hormigueo que sus palabras están enviando a tu cerebro, todo mientras ella gira suavemente las caderas sobre tu virilidad palpitante, dejándote temblando de felicidad somnolienta.|n|Feeling so floaty and lost you can only moan as orgasmic bliss spreads through your entire body, and you tense as you start to spurt into Ancilla's inviting pussy as it gently clamps down on your cock as she coos in your ear.|n|As the orgasmic bliss fades away you feel so relaxed and tired, and she keeps gently moving her hips, leaving you increasingly pleasured and lethargic..."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ancilla, con movimientos lentos y metódicos, trabaja tu eje con su trasero apretado mientras se acaricia contra ti, haciéndote gemir mientras te lleva lentamente al borde del orgasmo, dejándote allí mientras continúa sus movimientos dolorosamente lentos.|n|The overwhelmingly strong desire to cum fills you and you buck your hips into her thoughtlessly, letting orgasmic pleasure overtake you as you fill her full of cum, moaning with release. You let out a thoughtless sigh as your orgasm ebbs away and Ancilla gently grinds her hips against yours, and you feel like you could drift off to sleep.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Encuentra que su orgasmo se acerca rápidamente cuando Ancilla repentinamente se inclina el eje y se inclina hacia adelante antes de salpicar la cara con besos.La combinación de sensaciones de su placentero besos traseros y sin emociones pero llenos de amor te envía al borde en un orgasmo estremecedor mientras te rocías llena de semen.|n|The sweet climactic bliss leaves you dazed and sleepy, and you can't help but sigh happily as Ancilla continues to soothingly ride your manhood.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ancilla rebota metódicamente en su eje, el placer que continúa construyendo en su ingle mientras su cabeza continúa sintiendo que ha estado llena de pelusa.|n|You can't think straight anymore, your brain only able to focus on the pleasure cascading through your body until you erupt in bliss, coating the inside of her ass with semen. With a happy smile, you sink into the bed, feeling the faint desire to just lay there and continue to enjoy yourself...",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Ancilla susurra con calma en tu oído, su voz sin emociones contrasta con el placer hormigueo que sus palabras están enviando a tu cerebro, todo mientras ella gira suavemente las caderas sobre tu virilidad palpitante, dejándote temblando de felicidad somnolienta.|n|Feeling so floaty and lost you can only moan as orgasmic bliss spreads through your entire body, and you tense as you start to spurt into Ancilla's rear as it gently clamps down on your cock as she coos in your ear.|n|As the orgasmic bliss fades away you feel so relaxed and tired, and she keeps gently moving her hips, leaving you increasingly pleasured and lethargic..."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Cuddle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Todo sobre la situación en la que se encuentra actualmente es demasiado cómodo para querer hacer cualquier cosa, desde la cama increíblemente suave hasta la calidez reconfortante del cuerpo de Ancilla mientras se burla de ociosos y se acurruca contra su cuerpo.|n|Soon your eyes start to glaze over as pleasurable tingles spread over your whole body, and you mind goes blank for a moment as your manhood spurts out a thick load. You're left feeling more relaxed than ever, and you almost want to feel like this forever.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ninguna emoción cruza la cara de Ancilla mientras ella, casi amorosamente, acaricia tu eje, dejándote jadeando y gimiendo.Su mano es hábil y hábil, manteniendo un ritmo increíblemente constante en su rígida virilidad.A medida que sus bolas comienzan a doler su inevitable orgasmo, de repente acelera su mano, el repentino cambio de tempo envía un placer feliz en cascada a través de usted mientras se quita la carga después de la carga de semen.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Las sensaciones felices se encuentran con tu piel mientras la niña continúa acurrucándose contigo, tu cerebro se encoge mientras tu polla palpita y duele con la necesidad.|n|Your entire body slowly becomes electrified with pleasure, leaving you a gasping and moaning mess as she continues to slowly caress you all over. Shivering on the knife's edge of an orgasm, Ancilla gently blows into your ear, making your entire body shake as a cascading orgasm blows through you.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Con un gemido tranquilo, se encuentra que sus ojos se cierran lentamente mientras Ancilla acaricia su eje con un agarre firme.Mientras se acerca a ti, te caes en un sueño cómodo ...|n|...Only to awake soon after with a moan as your hips buck into the sheep girl's grip, spraying out a thick load onto her hand. You let out a relaxed sigh as everything feels even more comfortable than before, briefly sinking deeper into the comfortable bed while Ancilla continues to tease your shaft."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Footjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Disgust|n|Te encuentras derritiéndote de placer mientras el pie de Ancilla bombea firmemente tu eje, dejándote incapaz de moverte mientras las sensaciones abrumadoras se acumulan en tu ingle hasta que la felicidad orgásmica finalmente te alcanza y te disparas una espesa carga de semen en la pierna de Ancilla.",
+                "|f|ChangeImageLayer|/|Expression|/|Disgust|n|La presión sigue construyendo en su ingle mientras Ancilla muele su pie contra su polla, dejándote jadeando de placer mientras baja firmemente sobre tu dolor de virilidad, esa sensación final final envía un éxtasis orgásmico que recurre tu columna vertebralpecho.",
+                "|f|ChangeImageLayer|/|Expression|/|Disgust|n|Ancilla te mira severamente mientras bombea tu erección rígida con su elegante pie, su tratamiento emocional y metódico deja tu cabeza sintiendo que está flotando mientras se retira del placer persistente que se mueve hacia tu ingle.|n|Brought closer and closer to the edge you can't bear any more, and Ancilla gently grinds her foot down, sending you careening into the abyss of climactic ecstasy, and your spurting cock coats her foot with your seed."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|A medida que jadea en placer, Ancilla se mueve rápidamente y te encierra en un beso mientras ella se extiende hacia abajo y acaricia tu eje rígido, bombeándolo suavemente, tan excitada que ni siquiera puedes tratar de soportar el éxtasis que pulsa a través de tu polla.|n|With a few final bliss inducing strokes you blow your load, spurting it all over the floor, and Ancilla backs away with a cold expression, freeing your lips from hers.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Temblas y jadea con excitación, incapaz de tomar más estimulación, y con una expresión fría Ancilla traza ligeramente la parte inferior de tu eje con un solo dedo.La simple sensación lo envía al instante al instante cuando un orgasmo placentero lo supera, y su polla brota su carga por todo el piso.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ancilla le bombea suavemente la polla con una mano enguantada, acurruca hacia tu lado y susurrando dulces nada de monótono en tu oído que te dejan temblando de un deseo cada vez mayor, hasta que finalmente lloras con felicidad y espuran cuerdas de esperma en todo el piso y ellaMano, dejándote temblando ligeramente a su alcance."
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|Su rostro se retorce de placer por un momento antes de que finalmente deje escapar un fuerte gemido.",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|Está jadeando mientras temblan en éxtasis, incapaz de tomar tu toque más mientras llora en la dicha orgásmica."
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Disgust|n|'... ¿Viniste todo este camino solo para rendirte?Bien entonces.",
+                "|f|ChangeImageLayer|/|Expression|/|Disgust|n|'¿Por qué te molestaste en venir aquí si vas a rendirte ...?'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Sex",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del coño apretado de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Sex",
+            "theText": [
+                "Pero [AttackerName] acaricia suavemente su cuerpo mientras ella muele sus caderas contra usted, ¡dejándolo incapaz de moverse del placer!",
+                "¡Pero con una fuerza sorprendente, [AttackerName] golpea sus caderas de regreso al tuyo!",
+                "Pero mientras agarras sus caderas para sacarte, ella te abraza, y por un momento crees que tiene una expresión casi linda en su rostro antes de que te das cuenta de que no has tratado de sacar en absoluto."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Sex",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|Su cara está ligeramente sonrojada.",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'... mnn ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base Blush|n|'No puedes ganar."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Sex",
+            "theText": [
+                "¡Y elige sacar tu polla de su hendidura apretada!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿Sigues resistiendo?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|\"Ella te mira con una expresión ilegible en su rostro\".",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'No puedes aguantar para siempre'.",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Cuddle",
+            "theText": [
+                "[ThePlayerName] intenta salir del cómodo agarre de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Cuddle",
+            "theText": [
+                "¡Pero [AttackerName] suavemente acaricia en tu cuerpo y su hallazgo la estás sosteniendo más apretado!",
+                "¡Pero te sientes demasiado cansado para tratar de alejarla, resignándote a acurrucarse más profundamente en su cuerpo suave!",
+                "¡Pero ella se aferra demasiado a tu cuerpo con su forma suave!Ella susurra silenciosamente en tu oído ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Cuddle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Shhhhh.'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿Estás cómodo?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Solo quédate aquí conmigo.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'No puedes ganar'."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Cuddle",
+            "theText": [
+                "¡Y logra escapar de la acogedora retención de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Cuddle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿Sigues resistiendo?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|\"Ella te mira con una expresión ilegible en su rostro\".",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'No puedes aguantar para siempre'.",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Anal",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del culo apretado de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Anal",
+            "theText": [
+                "Pero [AttackerName] acaricia suavemente su cuerpo mientras ella muele sus caderas contra usted, ¡dejándolo incapaz de moverse del placer!",
+                "¡Pero con una fuerza sorprendente, [AttackerName] golpea sus caderas de regreso al tuyo!",
+                "Pero mientras agarras sus caderas para sacarte, ella te abraza, y por un momento crees que tiene una expresión casi linda en su rostro antes de que te das cuenta de que no has tratado de sacar en absoluto."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Anal",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Su cara está ligeramente sonrojada.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...Mnn...♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Anal",
+            "theText": [
+                "¡Y logra sacar su polla de su apretada trasera!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'...'",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Footjob",
+            "theText": [
+                "[ThePlayerName] intenta empujar el pie de [AttackerName] lejos del eje rígido [TargetHisOrHer] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Footjob",
+            "theText": [
+                "¡Pero ella presiona su pie con fuerza sobre tu polla, haciéndote llorar con dolor y placer!",
+                "Pero a medida que comienzas a alejarse, Ancilla coloca rápidamente su pie en tu cara en una muestra de dominio, deteniéndote en seco antes de que vuelva a subir a tu eje.",
+                "¡Pero ella mueve su pie sobre tu palpitante polla, haciendo que gemir con placer!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Footjob",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Submit.'",
+                "|f|ChangeImageLayer|/|Expression|/|Disgust|n|'Tu polla está palpitante ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Disgust|n|'Tu cuerpo quiere más'."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Footjob",
+            "theText": [
+                "¡Y se las arregla para alejarse de sus pies dominantes!",
+                "¡Y empuja [AttackerName] fuera del equilibrio para que puedas escapar de su talón!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Footjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Disgust|n|'¿Sigues resistiendo?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Ella te mira con una expresión ilegible en su rostro.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'No puedes aguantar para siempre'.",
+                "|f|ChangeImageLayer|/|Expression|/|Disgust|n|¿Lo estabas disfrutando?",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Making Out",
+            "theText": [
+                "[ThePlayerName] intenta romper el beso profundo con Ancilla ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Making Out",
+            "theText": [
+                "Pero ella mantiene un ajuste apretado [ThePlayerName], ¡y él permanece encerrado en un beso profundo!",
+                "Pero cuando comienzas a alejarla, ella envuelve un brazo alrededor de la parte posterior de tu cabeza, profundizando el beso mientras ella mira sin emoción a tus ojos."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Making Out",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Making Out",
+            "theText": [
+                "¡Y libera tu boca de los suaves labios de Ancilla!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Making Out",
+            "theText": [
+                "'...?'"
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.25",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Ancilla/Ancilla_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Base Blush",
+                    "File": "Monsters/Ancilla/Ancilla_Base_Blush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Base Deep Blush",
+                    "File": "Monsters/Ancilla/Ancilla_Base_Deep_Blush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Flustered",
+                    "File": "Monsters/Ancilla/Ancilla_Flustered.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Embarrassed",
+                    "File": "Monsters/Ancilla/Ancilla_Embarrased.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Shock",
+                    "File": "Monsters/Ancilla/Ancilla_Shock.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Shock Blush",
+                    "File": "Monsters/Ancilla/Ancilla_Shock_Blush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Happy",
+                    "File": "Monsters/Ancilla/Ancilla_Happy.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Happy Blush",
+                    "File": "Monsters/Ancilla/Ancilla_Happy_Blush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Frown",
+                    "File": "Monsters/Ancilla/Ancilla_Frown.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Threat",
+                    "File": "Monsters/Ancilla/Ancilla_Base_Threat.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pissed",
+                    "File": "Monsters/Ancilla/Ancilla_Pissed.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Rage",
+                    "File": "Monsters/Ancilla/Ancilla_Rage.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Disgust",
+                    "File": "Monsters/Ancilla/Ancilla_Disgust.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Dominant",
+                    "File": "Monsters/Ancilla/Ancilla_Dominant.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Concern",
+                    "File": "Monsters/Ancilla/Ancilla_Concern.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}

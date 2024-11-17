@@ -1,0 +1,833 @@
+{
+    "name": "Stella",
+    "IDname": "Stella",
+    "species": "Aberrant",
+    "gender": "female",
+    "description": "Tarjeta de imitación de bolsas para que no tenga el nombre de maldito mal. Espera, ahora tiene arte.Uh ... tienes el arte puesto, ¿verdad?",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        ""
+    ],
+    "perks": [
+        "Semen Eater",
+        "Alluring",
+        "Honey Trap",
+        "Lovers Passion",
+        "Clingy",
+        "Loving",
+        "Intimate Lover",
+        "Sex Adept",
+        "Skilled Tongue",
+        "Skilled Tongue",
+        "Treasure Finder"
+    ],
+    "stats": {
+        "lvl": "20",
+        "Exp": "10",
+        "max_hp": "100",
+        "max_ep": "10",
+        "max_sp": "1",
+        "Power": "5",
+        "Technique": "20",
+        "Intelligence": "15",
+        "Allure": "15",
+        "Willpower": "12",
+        "Luck": "18"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "100",
+        "Ass": "100",
+        "Breasts": "100",
+        "Mouth": "100",
+        "Seduction": "100",
+        "Magic": "100",
+        "Pain": "100",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "moneyDropped": "0",
+    "ItemDropList": [
+        {
+            "name": "Anaph Herb",
+            "dropChance": "75"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Tighten",
+            "theText": [
+                "''",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        }
+    ],
+    "victoryScenes": [],
+    "pictures": [
+        {
+            "Name": "Bag",
+            "Set": [
+                {
+                    "Name": "Bag",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Bag",
+                            "File": "Monsters/Stella/BagStellas.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "BagPopOut",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Bag",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushHeavy",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_BlushHeavy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_Expression_SmileClosed.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Excited",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_Expression_Excited.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Kiss",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_Expression_Kiss.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KissSmug",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_Expression_KissSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_Expression_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLickHungry",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_Expression_LipLickHungry.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Oral",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_Expression_Oral.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OralSmug",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_Expression_OralSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PoutSexy",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_Expression_PoutSexy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Seductive",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_Expression_Seductive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmileOpenMouth",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_Expression_SmileOpen.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_Expression_SmugSly.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Surprised",
+                            "File": "Monsters/Stella/Stella_PokingOutOfBag_Expression_Surprised.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "BagPeerInto",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Backing",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Backing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Head",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Head",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Head.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Head_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushHeavy",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Head_BlushHeavy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Expression_SmileClosed.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Excited",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Expression_Excited.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Kiss",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Expression_Kiss.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KissSmug",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Expression_KissSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Expression_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLickHungry",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Expression_LipLickHungry.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Oral",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Expression_Oral.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OralSmug",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Expression_OralSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PoutSexy",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Expression_PoutSexy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Seductive",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Expression_Seductive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmileOpenMouth",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Expression_SmileOpen.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Expression_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Surprised",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Expression_Surprised.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Lid",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Lid",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Bag.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "BagPeerIntoOral",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Backing",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Backing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Head",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Head",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushHeavy",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose_BlushHeavy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose_Expression_Smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Excited",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose_Expression_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Kiss",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose_Expression_Kiss.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KissSmug",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose_Expression_KissSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose_Expression_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLickHungry",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose_Expression_LipLickHungry.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Oral",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose_Expression_Oral.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OralSmug",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose_Expression_OralSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PoutSexy",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose_Expression_PoutSexy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Seductive",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose_Expression_Seductive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmileOpenMouth",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose_Expression_Smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose_Expression_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Surprised",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_HeadOralClose_Expression_PoutSexy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Lid",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Lid",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Bag.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "BagPeerIntoBody",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Backing",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Backing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Part",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "SingleEye",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_EyeCloseUp.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Boobs",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Breasts.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Hip",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Hip.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pussy",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Pussy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Lid",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Lid",
+                            "File": "Monsters/Stella/Stella_VeiwportBag_Bag.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "FullBody",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.2",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Stella/Stella_Body.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Stella/Stella_Body_Face_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushHeavy",
+                            "File": "Monsters/Stella/Stella_Body_Face_BlushHeavy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/Stella/Stella_Body_Expression_SmileClosed.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Excited",
+                            "File": "Monsters/Stella/Stella_Body_Expression_Excited.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Kiss",
+                            "File": "Monsters/Stella/Stella_Body_Expression_Kiss.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KissSmug",
+                            "File": "Monsters/Stella/Stella_Body_Expression_KissSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Stella/Stella_Body_Expression_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLickHungry",
+                            "File": "Monsters/Stella/Stella_Body_Expression_LipLickHungry.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Oral",
+                            "File": "Monsters/Stella/Stella_Body_Expression_Oral.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OralSmug",
+                            "File": "Monsters/Stella/Stella_Body_Expression_OralSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PoutSexy",
+                            "File": "Monsters/Stella/Stella_Body_Expression_PoutSexy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Seductive",
+                            "File": "Monsters/Stella/Stella_Body_Expression_Seductive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmileOpenMouth",
+                            "File": "Monsters/Stella/Stella_Body_Expression_SmileOpen.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Stella/Stella_Body_Expression_SmugSly.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Surprised",
+                            "File": "Monsters/Stella/Stella_Body_Expression_Surprised.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

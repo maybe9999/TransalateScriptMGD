@@ -1,0 +1,269 @@
+{
+    "name": "Dancer",
+    "IDname": "Dancer",
+    "species": "Human",
+    "gender": "female",
+    "description": "Una mujer con curvas con piel de color chocolate, cabello rosa largo y fluido y ojos morados claros y brillantes.Sus pechos DD Cup apenas están contenidos por su tapa de lencería escasa y exótica, mientras que sus caderas anchas apenas están vestidas en una tanga de aspecto muy elegante.\n\nUn bonito joya con el círculo dorado con incrustaciones descanse sobre su cabeza.Su ropa está acentuada por varias cantidades de tela transparente, brazaletes de oro y otros adornos dorados.Su estómago está agradablemente ajustado, mostrando músculos ligeramente tonificados debajo de su piel.\n\nSu cuerpo casi nunca parece dejar de moverse, incluso si solo está balanceando ligeramente sus caderas o rebotando de lado a lado, haciendo que sus senos se muevan continuamente atractivos.",
+    "encyclopedia": "This is just for her meeting description.",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        ""
+    ],
+    "perks": [
+        ""
+    ],
+    "stats": {
+        "lvl": "1",
+        "Exp": "10",
+        "max_hp": "100",
+        "max_ep": "10",
+        "max_sp": "1",
+        "Power": "5",
+        "Technique": "5",
+        "Intelligence": "5",
+        "Allure": "5",
+        "Willpower": "10",
+        "Luck": "5"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "100",
+        "Ass": "100",
+        "Breasts": "100",
+        "Mouth": "100",
+        "Seduction": "100",
+        "Magic": "100",
+        "Pain": "100",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "moneyDropped": "0",
+    "ItemDropList": [
+        {
+            "name": "Anaph Herb",
+            "dropChance": "75"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "HitWith",
+            "move": "Spank",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Base",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.19",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Nara/Body_Nara.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Blush",
+                    "File": "Monsters/Nara/Body_NaraBlush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Nara/Expression_Nara_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Cheerful",
+                    "File": "Monsters/Nara/Expression_Nara_Cheerful.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Confused",
+                    "File": "Monsters/Nara/Expression_Nara_Confused.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Dominant",
+                    "File": "Monsters/Nara/Expression_Nara_Dominant.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Happy",
+                    "File": "Monsters/Nara/Expression_Nara_Happy.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Kiss",
+                    "File": "Monsters/Nara/Expression_Nara_Kiss.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Nervous",
+                    "File": "Monsters/Nara/Expression_Nara_Nervous.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Orgasm",
+                    "File": "Monsters/Nara/Expression_Nara_Orgasm.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Panic",
+                    "File": "Monsters/Nara/Expression_Nara_Panic.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pleasured",
+                    "File": "Monsters/Nara/Expression_Nara_Pleasured.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Sad",
+                    "File": "Monsters/Nara/Expression_Nara_Sad.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Seductive",
+                    "File": "Monsters/Nara/Expression_Nara_Seductive.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Serious",
+                    "File": "Monsters/Nara/Expression_Nara_Serious.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Smug",
+                    "File": "Monsters/Nara/Expression_Nara_Smug.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Thinking",
+                    "File": "Monsters/Nara/Expression_Nara_Thinking.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}

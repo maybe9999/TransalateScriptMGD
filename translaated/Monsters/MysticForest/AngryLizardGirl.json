@@ -1,0 +1,803 @@
+{
+    "name": "Angry Lizard Girl",
+    "IDname": "Angry Lizard Girl",
+    "species": "Reptilian",
+    "gender": "female",
+    "description": "Una chica bien tonificada con piel besada por el sol, cabello rubio hasta los hombros en una cola de caballo y con los ojos de reptiles de oro dorados.Las escamas amarillas acentúan varias partes de su rostro desde sus mejillas hasta las puntas de sus orejas puntiagudas, y ambas están adornadas con aretes dorados.Su boca es bastante intimidante, con dientes notablemente afilados, y su lengua amarilla parece ser mucho más larga que el promedio.Una gargantilla dorada con grabado estilizado adorna su cuello, acentuando su clavícula bien definida.Sus senos de Copa C bastante amplios están restringidos por una tela roja de aspecto duro conectado a la armadura de metal sobre sus hombros con un cierre de aspecto resistente.Una pequeña capa roja cuelga de la armadura de su hombro, revoloteando ligeramente cada vez que se mueve.Sus brazos de los codos hacia abajo están cubiertos de escamas de color amarillo pálido, que terminan en garras bastante imponentes, compensadas ligeramente por algunas envolturas de telas alrededor de su antebrazo y algunos dos pulseras doradas de aspecto exótico alrededor de sus muñecas.Su abdomen está desnudo, mostrando sus abdominales tonificados.Más escamas amarillas muestran sus delgadas caderas, ligeramente cortadas por placas de armadura de metal de aspecto sólido, mientras que su ingle está cubierta por otra placa de metal con una pieza de tela roja fluida que cuelga como un tapón blindado.Una cola de lagarto a escala amarilla con una parte inferior de aspecto suave se balancea de justo por encima de su trasero bien formado, balanceándose suavemente de un lado a otro mientras se mueve.Sus piernas bien formadas están cubiertas de escamas justo debajo de sus rodillas, y en lugar de los pies normales, tiene una intimidante garras de aspecto lagarto, cada una con dos brazaletes dorados de aspecto exótico para la decoración.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        "Green Scale"
+    ],
+    "skillList": [
+        "Grind",
+        "Kiss",
+        "Huntress' Pin",
+        "Huntress' Pin",
+        "Pinch Nipples",
+        "Handjob"
+    ],
+    "perks": [
+        "Anal Adverse"
+    ],
+    "stats": {
+        "lvl": "4",
+        "Exp": "25",
+        "max_hp": "200",
+        "max_ep": "40",
+        "max_sp": "1",
+        "Power": "10",
+        "Technique": "5",
+        "Intelligence": "5",
+        "Allure": "3",
+        "Willpower": "3",
+        "Luck": "4"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "100",
+        "Ass": "200",
+        "Breasts": "100",
+        "Mouth": "100",
+        "Seduction": "150",
+        "Magic": "100",
+        "Pain": "25",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "10",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0",
+        "Debuff": "25"
+    },
+    "moneyDropped": "100",
+    "ItemDropList": [
+        {
+            "name": "Forest Kebab",
+            "dropChance": "50"
+        },
+        {
+            "name": "Calming Potion",
+            "dropChance": "30"
+        },
+        {
+            "name": "Energy Potion",
+            "dropChance": "25"
+        },
+        {
+            "name": "Indomitable Rune",
+            "dropChance": "5"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "victory",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Angry Lizard Girl"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Surprised",
+                "Speaks",
+                "Huh?! You're done already!? Guess I win then...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Angry",
+                "You lay on the ground, panting in exhaustion while the lizard girl looms over you, triumphantly placing her clawed foot on your torso.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Yelling",
+                "Speaks",
+                "Hey! If you don't get better or something, you can't be my soulmate!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Bashful",
+                "She immediately takes her foot off of you and moves away bashfully.",
+                "Speaks",
+                "N-Not that I WANT you to be my soulmate... I-It's just that you're the only guy I-I've found so far, a-and... Uh...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "PanicBlush",
+                "As darkness fills your vision, you hear her running back into the forest.",
+                "ChangeSensitivity",
+                "Pain",
+                "1"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "HitWith",
+            "move": "Spank",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|\"Tch, vas a tener que esforzarte más que eso\".",
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¡Ja!Que todo lo que tienes?",
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¡Apenas sentí eso!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Whip",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¡Apenas sentí eso!'",
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¡Ja!Que todo lo que tienes?",
+                "|f|ChangeImageLayer|/|Expression|/|Hmph|n|'Hm, tal vez debería conseguir un látigo ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Electrify",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'Tch, ¿realmente crees que puedes vencerme con eso?'",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|¡Maldita sea, la magia es molesta!",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|'Ja, ¿se supone que esto me lastimará o algo así?E-eh?¡N-No, tampoco se siente bien!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Holy Headpat",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Hmph|n|'... ¿estás {i} burlándose {/i} me?'|f|CallCombatEventAndScene|/|PlayerCombatEvents|/|Enraged|n|",
+                "|f|ChangeImageLayer|/|Expression|/|Hmph|n|'¡No creo que me estés tomando lo suficientemente en serio!'|f|CallCombatEventAndScene|/|PlayerCombatEvents|/|Enraged|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Demon Layer",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¿Qué demonios fue ese? ♥",
+                "|f|ChangeImageLayer|/|Expression|/|PanicBlush|n|'¡Ghhhh! ♥ I-si tengo mis garras en esa cosa, ¡te voy a lanzar tonto!'",
+                "|f|ChangeImageLayer|/|Expression|/|Hmph|n|'Mmnnnn! ♥ H-huh ... casi se siente como si estuviéramos {i} realmente {/i} luchando ... i-i-i debería encontrar un arma como ese ...",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'MMMM!!!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Ahhh!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'¡Ohhh! ♥ damn it!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Bondage Net",
+                "Magical Binding",
+                "Pin"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¡Ja, me liberaré de esto en poco tiempo!'",
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¿No puedo manejarme si puedo moverme o algo así?'",
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¿Realmente crees que esto puede abrazarme?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Lewd Bottle",
+                "Cloying Mist",
+                "Placebo Pheromone"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|¿Kya?A-ah?M mi cuerpo se está calentando ... '",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|Su rostro rápidamente se vuelve al ras cuando comienza a jadear con lujuria."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Finger",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|¡No estoy disfrutando esto!",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¿Realmente crees que tus dedos F tendrán un efecto en mí?'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¡Y, no me vencerás con eso!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Dildo",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|PanicBlush|n|'¡C-corta eso!'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|¿Demasiado miedo de follarme?Uhm, t-eso no significa que debas ... '"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Breast Caress",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|BaseBlush|n|'Y-you perseguido ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¡L-Leve mis senos solos!'",
+                "|f|ChangeImageLayer|/|Expression|/|BaseBlush|n|'Khhh...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Mnn ... ♥ th-esto no se siente tan bien ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Breast Massage",
+                "Breast Knead",
+                "Breast Fondle"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|PanicBlush|n|'Mnnn ... ♥ ¿eh?¡N-No!No gemí de eso, ¡de qué estás hablando!",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'No sabía que mis senos podían sentirse tan bien ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'S-stop burlándose de mis pezones así! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Tus manos son tan cálidas ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Suckle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¿Eh?",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'No estoy lactando, entonces, ¿por qué ar- ahh ... ♥ ¿Por qué esto- mmm! ♥ se siente tan bien ...?'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Y tu lengua es tan cálida ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'Ahhh ... ♥ ¡Mi pezón no deja de hormiguear! ♥ ¡Deténgalo!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Grope Ass",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¡C-corta eso!'",
+                "|f|ChangeImageLayer|/|Expression|/|BaseBlush|n|'Y-you perseguido ...'",
+                "|f|ChangeImageLayer|/|Expression|/|BaseBlush|n|'Te haré arrepentirte de esto ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Squeeze Ass",
+                "Massage Ass",
+                "Fondle Ass"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'M-my piernas se está debilitando ...?'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Y-PERVO ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Esto no es nada ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Tus manos son tan cálidas ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Ear Tease",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¡C-corta eso!'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¡Y, no me vencerás con eso!'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|Respirando fuertemente, se inclina en tus gentiles burlas."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Seduce",
+                "Mass Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'D-no digo cosas como esa, idiota ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Ye-Yeah bueno, voy a ... G-Gonna ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'No voy a liberar mi guardia ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Enamor",
+                "Smoldering Seduction",
+                "Smoldering Flaunt",
+                "Massaging Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'U-um ... ah ... w-well ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Eso es ... um ... sh-shut up ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Arouse",
+                "Arousara",
+                "Arousero"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'La magia es tan molesta ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|\"H-Ha, apenas sentí tu hechizo tonto\".",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|¡No voy a perder ante la magia!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Charm",
+                "Charm Wave"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'Mi S-Soulma-' Su rostro se vuelve roja y se cubre la boca."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Enfeeble",
+                "Sensitize"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'¿Qué hiciste?",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'GHH-?I-me siento extrañamente débil ... '",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|¡D-no creo que esto me detendrá!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Disarming Appeal"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Hmph|n|'¿En serio?¿Necesitas un descanso o algo?... F-Fine, pero no creo que realmente te lo vaya a tomar con calma ni nada de ti \".",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'Ah, bueno ... ¡D-no creo que puedas tirarme!'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'I- ah- quiero decir-'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Sleep",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'W-¿Qué hiciste ...?Ella bosteza fácilmente."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'D-no creo que esto sea G-para trabajar ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Ahh ... mmm ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Y eres más grande de lo que me realié ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Ahh ...! ♥ Th-Este es un poco demasiado íntimo ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'I-I Can E-Endure esto ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|PanicBlush|n|'T-este no es faiirrrr ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¡Te haré R-Reglet esto!'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'St-stop golpeando lugares raros ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'¡¿Ah?!W-WAIT, S-SLOW DOWN!",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¡No puedo tomarlo! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|PanicBlush|n|'¡H-HOW, ¿se supone que debo vencer esto? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¡Te haré R-Reglet esto!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|PanicBlush|n|'¡Esperar!¡¿Dónde crees que estás poniendo tha-ahh! ♥ si podría patearte el trasero lo haría!",
+                "|f|ChangeImageLayer|/|Expression|/|PanicBlush|n|'¡No te gustes! ♥ si crees que estoy dejando eso, ¡entonces estás equivocado!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Eee! ♥ w-wai- aaahhh! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¡MMM!Thi- 'Ella deja escapar un jadeo agradable.'¡Esto no es nada!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Ahh ...! ♥ Th-Este es un poco demasiado íntimo ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'I-I Can E-Endure esto ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|PanicBlush|n|'T-este no es faiirrrr ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¡Te haré R-Reglet esto!'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'St-stop golpeando lugares raros ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck",
+                "Anal Piston"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|Ella gime de manera incoherente.",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¡No puedo tomarlo! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'¡H-HOW, ¿se supone que debo vencer esto? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'N-no m-more! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Make Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Hmph|n|Ella mira directamente a tus ojos.",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'MMPH?!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|Ella mira con un suave shushing por un momento.",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¿Qué crees que estás haciendo?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Deep Kiss",
+                "Lovingly Rough Kiss",
+                "Skillfully Passionate Kiss",
+                "Misty Kiss",
+                "Sensually Seductive Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Mmmm ... ♥ uhm ... ah ...'",
+                "|f|ChangeImageLayer|/|Expression|/|BaseBlush|n|Ella te mira a los ojos con amor.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|Su lengua sorprendentemente larga entra con la tuya.",
+                "|f|ChangeImageLayer|/|Expression|/|PanicBlush|n|'Esto no nos hace un par ni nada, ¿G-got it?"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Handjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¡Toma esto!'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¿Eh?¿Mi agarre está demasiado apretado?",
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¡Toma esto!'",
+                "|f|ChangeImageLayer|/|Expression|/|BaseBlush|n|¿Se supone que se supone que palpita tanto?"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|¡T-esto no es romántico!G-got it!? '",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Chu, ♥ ugh, eso se sintió mal ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'Uhm...'",
+                "|f|ChangeImageLayer|/|Expression|/|PanicBlush|n|'Ve a besar ... ataca ...' Su rostro se vuelve completamente rojo."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Huntress' Pin",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¡Quédate quieto!'",
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¡Te tengo ahora!'",
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¡No hay escape ahora!'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Pinch Nipples",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'Oye, ¿se siente bien?",
+                "|f|ChangeImageLayer|/|Expression|/|BaseBlush|n|'Al menos esto es un poco como pelear ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|\"Está bien si gritas un poco ... ¿verdad?"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Grind",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'Estaba tratando de no hacer esto'.",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'¿Se supone que debe ... sentir tan bien?'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Es tan ... cálido ...'"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'W no te perderá ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Shit, mi cabeza es ... Sp-Spinning ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'¡Estoy ... no a punto de correrme!'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Estoy siendo started ... ¡R-REALLY!'"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|\"Je, tu polla no es tan dura después de todo\".",
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¡Parece que estás a punto de perder!'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|\"Date prisa y terminemos con esto."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Hmph|n|Con un último empuje, sopla tu carga dentro de su apretado coño.¿Te cansar?¡Solo estoy empezando!",
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¡Esto es para ti!'Sus paredes vaginales se sujetan a su eje rígido, y no puede contenerse mientras se acelera en su hendidura apretada."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|Con un último empuje, volas tu carga dentro de su apretado culo.'Mnngg ... ¿H-huh?Viniste antes que yo, quiero decir ... ¡Estoy empezando!"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|Incapaz de contener más, disparas tu carga y aterriza en la sorprendida niña lagarto.¿Gah!?¡He-Hey!¡Dame una advertencia la próxima vez!",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|Mientras agarra tu eje y lo acaricia, la brutal estimulación te envía rápidamente al límite mientras disparas tu semen a la niña lagarto.¿Kyaa?Ugh ... apesta ... '"
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'I- ¡Oh, no, voy a curoummm! ♥♥♥ Ahhh ... t-eso no es un conde, alma gemela!'|f|ChangeImageLayer|/|Expression|/|PanicBlush|n|'... ¿eh?¡No escuchaste eso!"
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¿Eh?¿Te estás dando por vencido?¡No puedes hacer eso!¡Será mejor que intentes defenderse!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Anal",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del culo apretado del [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Anal",
+            "theText": [
+                "¡Pero ella empuja apenas sus caderas a su ingle y comienza a moler contra su eje!",
+                "¡Pero mientras intentas alejarla, su cola te envuelve amorosamente alrededor de tu cintura y te lleva de vuelta a su firme trasera!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Anal",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Realmente no debería ... pero se siente tan bien ...",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'' D-Damn ... realmente debería dejarte parar ... '"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Anal",
+            "theText": [
+                "¡Y liberarse de la parte trasera firme del [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'¡A-, ¿te estás burlando de mí o algo así?'Su cara está muy sonrojada.",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¡Y, cobarde!¡P-Put It It In In! 'Ella te mira, algo avergonzada.",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|Ella deja escapar un jadeo aliviado."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Sex",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del coño apretado del [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Sex",
+            "theText": [
+                "¡Pero ella te empuja más o menos y comienza a montar tu eje!",
+                "¡Pero mientras intentas alejarla, ella te agarra más o menos los brazos y te empuja de nuevo a ella!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Sex",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'Si realmente vamos a hacer esto, ¡no voy a dejar que me saque sobre mí!",
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¿Y a dónde crees que vas?'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Sex",
+            "theText": [
+                "¡Y liberarse de la hendidura húmeda del [AttackerName]!",
+                "¡Y alejándose del apretón de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¡Y tú, el que lo comenzó!'Su cara está muy sonrojada.",
+                "|f|ChangeImageLayer|/|Expression|/|PanicBlush|n|'¡Y, cobarde!¡Ponlo de nuevo!Ella te mira, algo avergonzada."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Making Out",
+            "theText": [
+                "[ThePlayerName] intenta alejarse del [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Making Out",
+            "theText": [
+                "¡Pero mantiene sus brazos firmemente envueltos alrededor de la parte posterior del cuello de [ThePlayerName], manteniendo [TargetHimOrHer] en una sesión de Makeout Romantic en una romántica sesión!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Making Out",
+            "theText": [
+                "",
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Yelling|n|'¡No tratar de besar y correr!'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Making Out",
+            "theText": [
+                "¡Y liberarse de los labios del [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¡Y tú, el que comenzó eso!'",
+                ""
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.26",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Kyra/kyra_normal.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "BaseBlush",
+                    "File": "Monsters/Kyra/kyra_normal_blush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Panic",
+                    "File": "Monsters/Kyra/kyra_panic.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "PanicBlush",
+                    "File": "Monsters/Kyra/kyra_panic_blush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Submissive",
+                    "File": "Monsters/Kyra/kyra_submissive.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Surprised",
+                    "File": "Monsters/Kyra/kyra_surprised.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Angry",
+                    "File": "Monsters/Kyra/kyra_angry.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Yelling",
+                    "File": "Monsters/Kyra/kyra_mad.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Hmph",
+                    "File": "Monsters/Kyra/kyra_hmph.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Tease",
+                    "File": "Monsters/Kyra/kyra_kidding.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Lewd",
+                    "File": "Monsters/Kyra/kyra_dominant.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Bashful",
+                    "File": "Monsters/Kyra/kyra_bashful.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}

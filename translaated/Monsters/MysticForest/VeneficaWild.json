@@ -1,0 +1,1562 @@
+{
+    "name": "Venefica",
+    "IDname": "VeneficaWild",
+    "species": "Demonic Beast",
+    "gender": "female",
+    "description": "Una mujer estricta con piel de chocolate, llamativos ojos amarillos con esclera negra y cabello rosa de chicle salvaje atado parcialmente en una enorme trenza, y dos orejas de conejo rosadas notablemente grandes se sientan sobre su cabeza, sacudiéndose ocasionalmente.\n\nEn su cabeza usa un gran sombrero de bruja con tonos de chocolate con llamativos acentos blancos en los lados, hay una división encuestada en el borde en el frente que ayuda a mantener su cara visible a pesar del tamaño de los sombreros, y las cadenas doradas están envueltas alrededor de su base, unaOrnamento en forma de ojo en su centro, la punta del sombrero parece fluir y parpadear por medios mágicos.\n\nSu atuendo es bastante adornado, y un color de chocolate negro con acentos escarlatas oscuros, con un cuello emergente sin mangas que se conecta a lo largo de los lados de su forma con el vestido ajustado y suave que está usando, que a su vez tiene dos con forma de llama puntiaguda y puntiagudaspiezas de tela resistente que cubren y apoyan sus pechos de taza F desbordantes, presionándolos firmemente en un valle seductor de escote profundo y totalmente visible, enmarcado por la parte superior y una cadena dorada sobre su collar que se conecta a los lados del popcollar de arriba.\n\nSus brazos están adornados con mangas sin hombros que comienzan justo antes de sus codos, con piezas parpadeantes de tela roja que se arrastran en la parte superior, mientras que la mayoría de la manga es de un color crema suave con una línea dorada de tela que termina con sus manos en unaojo similar al del sombrero.Sus manos parecen estar adornadas en una obsidiana suave, cada dedo delicado con una garra amenazante y afilada.\n\nEl extremo inferior de su bustier sólido está bordeado de oro, y tiene cadenas doradas que se arrastran desde una punta inferior hasta la parte posterior de su atuendo, y un gran chocolate ornamentado y una pinza escarlata profunda cortadas desde el atuendo, con otro ojo de aspecto malvado cercaLa punta puntiaguda de la tela.A los lados del taparrabos se encuentran la tela drapeada con forma de vestido con forma de vestir que bucee alrededor de sus piernas como una capa, la tela interior es un rojo llamativo y parpadeante como ese en su sombrero y mangas, y el material fluido deja amplias ventanas para su flexibleLos muslos a los lados mientras se recorren.\n\nSus largas y poderosas piernas están adornadas con elegantes botas de chocolate negro con tacones de color crema que solo se suman a su apariencia dominante.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        "Umbral Devastation",
+        "Umbral Rending",
+        "Surging Calamity",
+        "Umbral Bunny Rampage",
+        "Sweet Hunger",
+        "Ravenous Passion",
+        "Binding Braid",
+        "Calamity Rush",
+        "Bunny Blitz",
+        "Frenzied Bunny",
+        "Bunny Press",
+        "Umbral Mania"
+    ],
+    "perks": [
+        "Energy Drainer",
+        "Energy Drainer",
+        "Monster Pacing",
+        "Monster Pacing",
+        "Semen Eater",
+        "Arcane Adept",
+        "Arcane Expert",
+        "Arcane Master",
+        "Insightful Schemer",
+        "Thoughtful Schemer",
+        "Predictive",
+        "Quick Witted",
+        "Aphrodisiac Tolerant",
+        "Aphrodisiac Resistant",
+        "Bond Breaker",
+        "Bond Breaker",
+        "Bond Breaker",
+        "Domineering",
+        "Loving",
+        "Sex Adept",
+        "Sex Expert",
+        "Sex Master",
+        "Skilled Tongue",
+        "Swift",
+        "Alluring",
+        "Honey Trap",
+        "Lovers Passion",
+        "Unbridled Passion",
+        "Grappler",
+        "Unbounded",
+        "Unshackled",
+        "Great Tits",
+        "Amazing Tits",
+        "Nice Legs",
+        "Amazing Legs",
+        "Skilled Feet",
+        "Flawless Feet"
+    ],
+    "stats": {
+        "lvl": "100",
+        "Exp": "1000",
+        "max_hp": "444",
+        "max_ep": "400",
+        "max_sp": "10",
+        "Power": "100",
+        "Technique": "75",
+        "Intelligence": "5",
+        "Allure": "70",
+        "Willpower": "5",
+        "Luck": "44"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "90",
+        "Ass": "70",
+        "Breasts": "110",
+        "Mouth": "100",
+        "Seduction": "110",
+        "Magic": "80",
+        "Pain": "1",
+        "Holy": "135",
+        "Unholy": "65"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "30",
+        "Charm": "0",
+        "Aphrodisiac": "25",
+        "Restraints": "25",
+        "Sleep": "25",
+        "Trance": "0",
+        "Paralysis": "0",
+        "Debuff": "30"
+    },
+    "moneyDropped": "4444",
+    "ItemDropList": [
+        {
+            "name": "Witch Hat",
+            "dropChance": "50"
+        },
+        {
+            "name": "Luck Rune",
+            "dropChance": "75"
+        },
+        {
+            "name": "Alraune Nectar Glazed Donut",
+            "dropChance": "15"
+        },
+        {
+            "name": "Bag of Gummi Slimes",
+            "dropChance": "30"
+        },
+        {
+            "name": "Jumbo Mint Choco Chip Clarity Cookie",
+            "dropChance": "15"
+        },
+        {
+            "name": "Box of Assorted Deluxe Chocolates",
+            "dropChance": "20"
+        },
+        {
+            "name": "Sinfully Divine Chocolate Truffle",
+            "dropChance": "5"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "LossIntroSex",
+            "move": "",
+            "stance": "Sex",
+            "includes": [
+                "Venefica"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Devious",
+                "You tremble underneath Venefica as she continues to wildly ride your aching cock, and she purrs excitedly watching your resistance melt away, animalistic lust glinting in her eyes.",
+                "GetEventAndIfChoice",
+                "VeneficaCombatEvents",
+                "2",
+                "EllyAid",
+                "BlastEllyWhileRiding",
+                "JumpToScene",
+                "LossSexScene"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "BlastEllyWhileRiding",
+            "move": "",
+            "stance": "NoEntry",
+            "includes": [
+                "None"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Predatory",
+                "Despite you going down, Elly attempts to continue to fight Venefica, firing blasts of pleasure inducing magic at her, but the witch deflects the spells casually as she sends a crushing outburst of dark magic at the now unsupported mage, leaving her crying out in orgasm as the arcane induced ecstasy ravishes her body.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "Then Venefica turns her hungry gaze back to you, grinding her hips in seductive circles, making your cock twitch inside her as focus is on you fully once more.",
+                "JumpToScene",
+                "LossSexScene"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "LossIntro",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Venefica"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Devious",
+                "You lay on the ground shivering in total defeat, and Venefica prowls closer to you with a hungry grin, casting an ominous shadow over you...",
+                "GetEventAndIfChoice",
+                "VeneficaCombatEvents",
+                "2",
+                "EllyAid",
+                "BlastElly",
+                "JumpToScene",
+                "Mount"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "BlastElly",
+            "move": "",
+            "stance": "NoEntry",
+            "includes": [
+                "None"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Predatory",
+                "Despite you going down, Elly attempts to continue to fight Venefica, firing blasts of pleasure inducing magic at her, but the witch deflects the spells casually as she sends a crushing outburst of dark magic at the now unsupported mage, leaving her crying out in orgasm as the arcane induced ecstasy ravishes her body.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "Then Venefica purrs with excitement as she looks between her two fallen prey, before settling her hungry gaze on you with a lick of her lips.",
+                "JumpToScene",
+                "Mount"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Mount",
+            "move": "",
+            "stance": "NoEntry",
+            "includes": [
+                "None"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "The ravenously lustful witch pounces on your hapless form, and slams down her hips, taking your full length in single smooth motion before she starts to wildly bounce on your aching shaft, letting out a sigh of excitement as you squirm with pleasure underneath her.",
+                "JumpToScene",
+                "LossSexScene"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "LossSexScene",
+            "move": "None",
+            "stance": "NoEntry",
+            "includes": [
+                "None"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "You gasp and squirm underneath her as she rides your already aching and spent length, your hips slightly numb from the constant impacts of her wildly swinging waist, pumping your twitching, oversensitive shaft with her vice tight pussy at a rapid, milking tempo.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Devious",
+                "She looms over you slightly like a predator toying with her prey, her clawed hands bracing her on your chest while she lewdly bounces on your throbbing erection like her personal sex toy, purring dangerously at the sight of you writhing with pleasure underneath her.",
+                "Speaks",
+                "You're all mine.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Predatory",
+                "Speaks",
+                "Now give me {i}more!♥{/i}",
+                "A cry of ecstasy escapes you as she swings her hips with even more force, sending resonating shocks of pleasure shooting through your waist every time you're hilted deep inside her, leaving your dick spasming and leaking as you're brought closer and closer to the brink of climax.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "She sighs with excitement as she continues to ride you into the ground, and the constant slamming of her hips eventually overwhelms your endurance entirely, leaving you moaning out in defeat as your dick pours semen into her, each womb kissing downward swing drawing a fresh spurt from you.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Devious",
+                "But even as your entire body is left twitching and shaking in overstimulated ecstasy she keeps bouncing on your aching dick, the post orgasmic stimulation sending hot jolts of pleasure shooting through your hips as she works you towards the next climax while your cock stays fully, and eagerly erect for her primal desires.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Predatory",
+                "She lets out a slightly manic giggle, her grin widening as she watches you shudder and squirm, your face contorting with pleasure with every downward slam of her hips, thrumming instinctive fear coursing through you intermixing with hot melty bliss as she roughly fucks you like an animal in heat, lightly dragging her claws over your chest.",
+                "Speaks",
+                "More!♥ I still need more-♥ Not enough-♥",
+                "She lets out a delighted growl and leans back, leaving you gasping from the shift in stimulation, and then she grabs your ankles in her claws, setting her feet firmly on the ground as she lifts your legs and waist off the ground to leverage her dominant position even more while changing up the already intense pleasure as she continues wildly swinging her hips.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Horny",
+                "Your mind is left blanking out with pleasure every time your tip kisses her womb, her frantic, fast pace sending a constant jolting rhythm through your entire erection, her pussy squeezing it tighter as it tries to draw out another load, and Venefica lets out short pleasured gasps as she roughly bounces on your twitching length.",
+                "Speaks",
+                "Come on-♥ More-♥ More-♥ More-♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Orgasm",
+                "Your dick twitches in delight as you're left to her feral whims and slamming hips, and your aching balls start to tighten again in preparation for your oncoming climax, your brain only thinking of cumming again amid the constant jackhammering of her waist, until you both throw your heads back in unified climax, your spasming dick spurting like a broken faucet as it floods her womb with your seed.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Horny",
+                "But you're not given much rest after she tenses a few moments in whimpering climax, proceeding to press herself down on you with a horny purr, lowering your body flat to the ground as she traps your legs under hers and rubs her heavy bust against your chest, her desire ridden face only a few inches from yours as she starts to bounce her hips again.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "She purrs with excitement as she starts to increase her tempo back to a wild rhythm, your throbbing erection never fully leaving her vice tight pussy as she ravenously mates with you, leaving your sore hips weakly jerking up as best they can from the electrifying impacts of your hips lewdly meeting.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Devious",
+                "Speaks",
+                "Mine.♥",
+                "You gasp as she leans in and starts to nibble and lick possessively along your neck while still riding your twitching length, filling your body with a tingly submissive bliss from her dominating you completely, and your aching balls obediently spurt out another load into her as your brain turns to horny mush from the molten pleasure radiating through your waist.",
+                "She sighs with excitement while you whimper with pleasure under her, lightly squirming from her light biting and warm breath, her clawed hands gently interlocking with your fingers while she continues to swing her hips in an endless tempo, her pussy greedily squeezing your overstimulated length with every swing of her waist.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LongTongue",
+                "With your entire body pinned under her, and thrumming the hot pleasure of sex, you can barely think straight, lightly squeezing her hands as you tense with pleasure, and she purrs happily, leaning back to catch your lips in a domineering kiss, using her long tongue to toy with your mouth while you thoughtlessly submit to her, murmuring with bliss as another load of cum is wrung from your aching balls.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Devious",
+                "Only the primal need for sex is left in your head, everything else has been completely fucked out of you, and Venefica purrs while breaking the kiss, licking along your other shoulder before she starts to possesively nibble and bite it as well, her roughly slamming hips making your defeated cock throb and pulse with delight while you're overstimulated to mind-blanking heights.",
+                "Until every few downwards swings of her waist seems to draw a spurt of cum from your spasming dick, the feeling of your tip striking her womb triggering something deep inside your pleasure drunk and submissive body, her heavy breathing on your lightly bitten shoulder and neck making you grin blissfully as you're wrung dry and sexually devoured...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Sigh",
+                "Eventually Venefica slowly slides off of your completely spent, twitching form, giving your shoulder one last kiss as she gets up with a blissful sigh, stretching languidly, before glancing to you with a rather hungry pout as you start to fade away, but she's clearly calmed down to a degree from her sexual frenzy.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pout",
+                "Speaks",
+                "I still want more...",
+                "ChangeFetish",
+                "Sex",
+                "20",
+                "ChangeSensitivity",
+                "Sex",
+                "20",
+                "JumpToEventThenScene",
+                "ConfrontingVenefica",
+                "PostLoseToVenefica"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "EndOfRound",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|VeneficaCombatEvents|/|EndOfRound|n|"
+            ]
+        },
+        {
+            "lineTrigger": "SetMusicTo",
+            "move": "",
+            "theText": [
+                "music/Unknown/Es-STAGE4.mp3"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Spank",
+                "Whip"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Stern|n|'...?'",
+                "|f|ChangeImageLayer|/|Expression|/|Stern|n|'Tch.'",
+                "|f|ChangeImageLayer|/|Expression|/|Stern|n|'Voy a follarte en el suelo ahora.",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Ghhhh...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Demon Layer",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Eso es todo! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Vamos onnn- ♥ ¿Eso es todo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mmmmm! ♥ jejehehe- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Quiero más- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Te ves tan sabroso- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Jeje- ♥ solo necesito fijarte- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|\"Vamos, ♥ Vamos, ♥ Puedes seguir así, ¿verdad?",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Que lindo- ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Holy Headpat",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|VeneficaWildCombatEvents|/|Pats|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Bondage Net",
+                "Magical Binding"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|Venefa salta salvajemente contra las restricciones ...",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Esto no me detendrá! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'No tengas miedo-! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pin",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Oh?♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Jejeje- ♥ ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡.",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Qué emocionante- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|Venefa ya te está haciendo tensarte para mantenerla baja ..."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Lewd Bottle",
+                "Cloying Mist",
+                "Placebo Pheromone"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|Venefa olfate el aire con emoción antes de gritarle con deseo.",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|Venefica se escapa ligeramente del afrodisíaco, pero de lo contrario le presta poco atención.",
+                "|f|ChangeImageLayer|/|Expression|/|Cold|n|Venefa deja escapar un suspiro excitado, pero los efectos ya están comenzando a disminuir ..."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Grope Ass",
+                "Squeeze Ass",
+                "Massage Ass",
+                "Fondle Ass"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Curious|n|Venefa ronronean ligeramente a su toque, pero de lo contrario solo te mira con curiosidad.",
+                "|f|ChangeImageLayer|/|Expression|/|Sigh|n|'Hmm?'",
+                "|f|ChangeImageLayer|/|Expression|/|Sigh|n|'Mnn-?'",
+                "|f|ChangeImageLayer|/|Expression|/|Sigh|n|'Hahhh...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Breast Caress",
+                "Breast Massage",
+                "Breast Knead",
+                "Breast Fondle"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|Venefica ronronean con emoción y se inclina en su toque.",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Tócame más- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'No te detengas- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mmmmm-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'More-♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pinch Nipples",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Grhhh-'",
+                "|f|ChangeImageLayer|/|Expression|/|Stern|n|'Don't.'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Finger",
+                "Dildo"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Fóllame ya- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Hahhh-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Necesito- ♥ más- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'No te detengas- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Vamos a aparearse. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'No más juegos previos. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'More-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|'Bésame más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Cute-♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Make Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|'Déjame probarte. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|'Yes.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|'Mmmm-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|'Hehehe-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Estás delicioso. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Deep Kiss",
+                "Lovingly Rough Kiss",
+                "Skillfully Passionate Kiss",
+                "Misty Kiss",
+                "Sensually Seductive Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Estás delicioso. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|'Vamos, ♥ más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|'Jeje, ¿está tu cabeza en blanco? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Tasty.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|'Mmmm-♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Arouse",
+                "Arousara",
+                "Arousero"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Ah ... ♥ Ven- ♥ más- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mi cabeza está girando- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Todo se siente tan caliente- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'No te detengas- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mmmmm-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'More-♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Electrify",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Stern|n|'Grhhh...'",
+                "|f|ChangeImageLayer|/|Expression|/|Stern|n|'Voy a romper tu pelvis'."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Seduce",
+                "Enamor",
+                "Smoldering Seduction",
+                "Smoldering Flaunt",
+                "Massaging Seduction",
+                "Mass Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Hmmm...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'Cute...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Te voy a follar sin sentido ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Te voy a delirar ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Ear Tease",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Hmmm...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Voy a romper tu pelvis ... ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Charm",
+                "Charm Wave"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Hahhh-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Eres mio ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Voy a romper tu pelvis. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Te voy a delirar. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Enfeeble",
+                "Sensitize"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Curious|n|'...?'",
+                "|f|ChangeImageLayer|/|Expression|/|Sigh|n|'Qué extraño-'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Disarming Appeal"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Sparkling|n|'Adorable!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Mine!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Intentaré reducir la velocidad- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Jeje- ♥ Lindo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Tu pánico es tan delicioso. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Sleep",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Curious|n|'...?'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|Ella parece estar llena de energía ..."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Sigh|n|'Hmph...'",
+                "|f|ChangeImageLayer|/|Expression|/|Sigh|n|'Holte equivocado ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Hehehe...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Espero que tu pelvis esté lista. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Harder!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Vamos! ♥ ¡No te detengas! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¿Es eso? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Te voy a montar al suelo! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Vamos, ♥ más duro! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Fóllame como lo quieres decir! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'No te atrevas a volverse suave ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Empuja todo lo que quieras. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck",
+                "Anal Piston"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mnnnn- ♥ ¡Eso es todo! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'¡Vamos! ♥ más! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Hahhh- ♥ sí- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Harder!-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|{i}'More!♥'{/i}",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Será mejor que puedas seguir esto! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Te estás ahogando en tus deseos: ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'La cabeza spinning- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'No nos estamos deteniendo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mnnn-♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mnnn-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Hahhh- ♥ sí- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'La cabeza spinning- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'No nos estamos deteniendo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mine-♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Ven- ♥ empuje más- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Jajaja- ♥ te voy a delirar- ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Penetrate",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¡Date prisa! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mmmmh- ♥ maravilloso- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Hehehe...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Espero que tu pelvis esté lista. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Harder!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Vamos! ♥ ¡No te detengas! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¿Es eso? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Te voy a montar al suelo! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Vamos, ♥ más duro! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Fóllame como lo quieres decir! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'No te atrevas a volverse suave ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Empuja todo lo que quieras. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mnnnn- ♥ ¡Eso es todo! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'¡Vamos! ♥ más! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Hahhh- ♥ sí- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Harder!-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|{i}'More!♥'{/i}",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Será mejor que puedas seguir esto! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Te estás ahogando en tus deseos: ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'La cabeza spinning- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'No nos estamos deteniendo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mnnn-♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mnnn-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Hahhh- ♥ sí- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'La cabeza spinning- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'No nos estamos deteniendo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mine-♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Ven- ♥ empuje más- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Jajaja- ♥ te voy a delirar- ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Analyze",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Curious|n|'...?'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|Es bastante fácil decir que quiere follarte en el suelo ..."
+            ]
+        },
+        {
+            "lineTrigger": "Escape",
+            "move": [
+                "Distract",
+                "Teleport"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Stern|n|'Vuelve aquí, ahora'.",
+                "|f|ChangeImageLayer|/|Expression|/|Stern|n|'Ghhhh...'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'No puedes mantenerte alejado para siempre. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|¿Realmente crees que puedes escapar?"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Umbral Rending",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Hehehehe!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Vamos! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Eres mio ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Más, ♥ más! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Te ves tan sabroso ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Gemir para mí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡No puedes correr! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Sweet Hunger",
+                "Ravenous Passion"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|'Mmmm, ♥ delicioso.'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Eres tan sabroso ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mnnnn- ♥ más- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|'No estén en negro- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|'Ven- ♥ bésame más! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|'Jejeje- ♥ mía- ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Binding Braid",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Eres mío! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Tan deliciosamente lindo ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Jejeje- ♥ Te voy a comer. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Hehehe-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Vamos ♥ todavía no estás cansado ¿verdad? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mnn- ♥ finalmente. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Bunny Blitz",
+                "Frenzied Bunny",
+                "Bunny Press"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Vamos! ♥ más! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Vamos a:! ♥ Intenta mantener al alza- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Hehehehe!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Puedo sentir tu polla mendigando por más- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡No te atrevas a ir suave conmigo! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Necesito {i} más! ♥ {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'More!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Harder!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Te voy a montar hasta que te rompas! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Vamos! ♥ Empuja tus caderas! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'¡Retorcía todo lo que quieras! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Ese pánico es adorable! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|VeneficaWildCombatEvents|/|HighArousal|n|"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Continúa, semen! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'¡Dame tu semen! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'No te detengas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Jajhhh- ♥ vas a correr- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Délelo- ♥ ¡Entonces dame más y más! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Vas a correrse-! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": [
+                "Anal"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|A medida que su cuerpo comienza a ir a fragmentar el constante golpe de las poderosas caderas de Venefa, ella sonríe con emoción y aumenta su ritmo ya frenético, dejándote llorando de placer mientras se retuerce debajo de ella, una ola tras ola de placer caliente a través de tu cintura y tumba y tu cintura y tumba.erección palpitante.|n||f|ChangeImageLayer|/|Expression|/|Horny|n|Luego, con una última reunión húmeda de tus caderas, lloras en éxtasis mientras vierte una carga gruesa en Venefa, tu dolor de polla dolorosa con alegría por su apretón de culo ordeñando su longitud, y ambos tiemblan brevemente y jadean de placer.|n||f|ChangeImageLayer|/|Expression|/|Predatory|n|Pero antes de que puedas llegar a recuperar el aliento, ya ha vuelto a montarte salvajemente en el suelo, deseo lujurioso ardiendo en sus ojos.",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|Venefica ronronean con emoción mientras tu polla con fugas se contrae dentro de ella, y se presiona cerca de ti, bloqueando las piernas debajo de las suyas mientras continúa golpeando las caderas en un ritmo frenético y adormecedor.debajo de ella.|n||f|ChangeImageLayer|/|Expression|/|Devious|n|Ella le sonríe con una alegría voraz cuando tu cara gira con placer, cada ritmo de su cintura te derrite cada vez más, hasta que arrojas la cabeza hacia atrás con un grito de dicha y tu dolorCume en su trasero apretado, pero incluso cuando te corres, ella sigue rebotando en tu erección sensible, obteniendo la mayor cantidad de semillas posible.",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|No se puede tomar mucho más de las caderas de Venefa golpeando salvajemente su polla dolorida, dejando su cuerpo tensado con choques de placer entumecedor, pero al ver su debilidad se agarra los tobillos y levanta las piernas y la cintura en el aire para aprovechar cada ritmo deSu cintura para ser impactos alucinantes mientras se inclina su longitud dentro de ella una y otra vez.|n|Your spasming length can't endure against her increasingly forceful movements, and starts to spurt inside her while she continues to ride your throbbing cock senseless, every wet meeting of your hips lewdly resonating in the air while she wrings every drop of cum from your body tensing climax.|n|But her seemingly bottomless sexual hunger isn't satisfied and she's already bouncing on your oversensitive length with renewed vigor once more.",
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|Mientras se retuerce y se retuerce debajo de Venefa desde el éxtasis que irradia a través de sus caderas mientras rebota en su extensión de contracción a un ritmo rápido, deja escapar un gruñido bajo y emocionado de mirarte, y se inclina, mordisqueando, besándose y lamiendo tuhombro y cuello agresivamente.|n|The sudden jolting stimulation of her light biting and licking, breaks down the last bit of resistance, leaving your body going loose under her while your hips weakly jerk up into slamming hips, and you spurt thick ropes of seed into her greedy rear, your thoughts spacing out as she dominates you all through your pulsing climax.|f|ChangeImageLayer|/|Expression|/|Predatory|n|Luego te tiemblas en un deleite sumiso mientras ella suspira con entusiasmo y sigue viajando a un ritmo salvaje antes de que puedas comenzar a recuperarte, y tu polla con fugas se contrae con emoción."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": [
+                "Sex"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|A medida que su cuerpo comienza a ir a fragmentar el constante golpe de las poderosas caderas de Venefa, ella sonríe con emoción y aumenta su ritmo ya frenético, dejándote llorando de placer mientras se retuerce debajo de ella, una ola tras ola de placer caliente a través de tu cintura y tumba y tu cintura y tumba.erección palpitante.|n||f|ChangeImageLayer|/|Expression|/|Horny|n|Luego, con una última reunión húmeda de sus caderas, lloras en éxtasis mientras vierte una carga gruesa en Venefa, tu dolor de polla dolorosa con alegría por su coño apretado ordeñando su longitud, y ambos temblaron brevemente y jadean de placer.|n||f|ChangeImageLayer|/|Expression|/|Predatory|n|Pero antes de que puedas llegar a recuperar el aliento, ya ha vuelto a montarte salvajemente en el suelo, deseo lujurioso ardiendo en sus ojos.",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|Venefica ronronean con emoción mientras tu polla con fugas se contrae dentro de ella, y se presiona cerca de ti, bloqueando las piernas debajo de las suyas mientras continúa golpeando las caderas en un ritmo frenético y adormecedor.debajo de ella.|n||f|ChangeImageLayer|/|Expression|/|Devious|n|Ella le sonríe con una alegría voraz cuando tu cara gira con placer, cada ritmo de su cintura te derrite cada vez más, hasta que arrojas la cabeza hacia atrás con un grito de dicha y tu dolorCume en su coño apretado, pero incluso cuando te corres, ella sigue rebotando en tu erección sensible, obteniendo la mayor cantidad de semillas posible.",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|No se puede tomar mucho más de las caderas de Venefa golpeando salvajemente su polla dolorida, dejando su cuerpo tensado con choques de placer entumecedor, pero al ver su debilidad se agarra los tobillos y levanta las piernas y la cintura en el aire para aprovechar cada ritmo deSu cintura para ser impactos alucinantes mientras se inclina su longitud dentro de ella una y otra vez.|n|Your spasming length can't endure against her increasingly forceful movements, and starts to spurt inside her while she continues to ride your throbbing cock senseless, every wet meeting of your hips lewdly resonating in the air while she wrings every drop of cum from your body tensing climax.|n|But her seemingly bottomless sexual hunger isn't satisfied and she's already bouncing on your oversensitive length with renewed vigor once more.",
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|Mientras se retuerce y se retuerce debajo de Venefa desde el éxtasis que irradia a través de sus caderas mientras rebota en su extensión de contracción a un ritmo rápido, deja escapar un gruñido bajo y emocionado de mirarte, y se inclina, mordisqueando, besándose y lamiendo tuhombro y cuello agresivamente.|n|The sudden jolting stimulation of her light biting and licking, breaks down the last bit of resistance, leaving your body going loose under her while your hips weakly jerk up into slamming hips, and you spurt thick ropes of seed into her greedy pussy, your thoughts spacing out as she dominates you all through your pulsing climax.|f|ChangeImageLayer|/|Expression|/|Predatory|n|Luego te tiemblas en un deleite sumiso mientras ella suspira con entusiasmo y sigue viajando a un ritmo salvaje antes de que puedas comenzar a recuperarte, y tu polla con fugas se contrae con emoción."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": [
+                "Making Out"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|A medida que la lengua larga de Venefa domina tu boca, ella instintivamente envía pulsos de magia resonantes a ti que se arrastran desde tu cabeza como una melaza dulce dulce, dejándote temblar y gemir de placer a medida que tu vista se apaga mientras su mirada predatoria aburre en ti.|n|Until with a few last teasing swirls of her dexterous tongue, and another mind-blanking wave of dark magic, you cry out in climax, your aching dick throbbing as it shoots long ropes of seed onto her legs that are rapidly absorbed by her magic as she continues to kiss you senseless.",
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|Te estás haciendo cada vez más aturdido a medida que Venefa mantiene con fuerza el beso profundo y apasionado contigo, su lengua larga enreda dominante con la tuya, y su dulce saliva hace que tu cuerpo duele con el calor pulsante, ya que apenas te da un momento para pensar o respirar.|n|Until finally the gnawing pleasure is too much, and your eyes roll up slightly as your aching dick spurts its seed onto Venefica's smooth legs to be quickly absorbed by her magic, but her loving kiss only intensifies at your moment of weakness as she hungrily works to wring out more."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|Mientras te dejan asombrosa y jadeando por el placer, Venefa se ríe y se ríe, enviando cortes mágicos de placer induciendo magia de sus manos garras deslizando el aire una y otra vez.|n|You cry out in ecstasy while your body trembles from the crackling jolts of arcane induced bliss shooting through you, until your hips are left jerking helplessly as your spasming cock spurts into the open air, but Venefica doesn't show any signs of stopping her lewd attacks...",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|Jadea y tembla de los avances implacables y depredadores de Venefa, y antes de que puedas recuperarte, ella te lanza nuevamente, presionando sus suaves curvas contra ti mientras sus garras se rastrean sobre tu piel, todo mientras ella apaga el hombro y el cuello.|n|Her aggressive stimulation quickly starts to overwhelm you completely, and as one of her clawed hands starts to pump your throbbing dick you're left moaning out in climax as just a few pumps of her hand wring out a thick load from your aching balls.|n||f|ChangeImageLayer|/|Expression|/|LongTongue|n|Ella se ríe inquietantemente y salta lejos de ti, lamiendo tu semilla en su mano usando su lengua larga y sinuosa, saborea tu gusto antes de dejar escapar un suspiro emocionado.",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|La magia de Venefa gira y pulsa a su alrededor peligrosamente mientras te tambaleas del palpitante de excitación en cascada a través de ti, ¡y con poca advertencia, se lanza hacia adelante!|n|Both her claws are wreathed in twisting dark magic that explodes into you as they lightly dig into your skin, sending a white hot electrifying wave of ecstasy through your entire body, leaving your dick spasming as it spurts long ropes of cum into the air, some splattering onto the witch's legs to be rapidly absorbed in the magical vortex that surrounds her as she jumps backwards with a hungry giggle."
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n||f|ChangeImageLayer|/|HatAndFaceEffects|/|NoHatBlushSevere|n|'Yesss!♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n||f|ChangeImageLayer|/|HatAndFaceEffects|/|NoHatBlushSevere|n|'¡Ahhh! ♥ S-So Good- ♥ But- ¡Quiero {i} más! ♥ {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n||f|ChangeImageLayer|/|HatAndFaceEffects|/|NoHatBlushSevere|n|'¡Ohhhhh! ♥♥♥ jahhh- ♥ sigue adelante! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n||f|ChangeImageLayer|/|HatAndFaceEffects|/|NoHatBlushSevere|n|'Mnnnnnn! ♥ n-ahora date prisa y hazlo de nuevo! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n||f|ChangeImageLayer|/|HatAndFaceEffects|/|NoHatBlushSevere|n|'Amazinnggg- ♥♥♥ ghhh- ♥ ¡Sigue adelante! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n||f|ChangeImageLayer|/|HatAndFaceEffects|/|NoHatBlushSevere|n|'¡HAHHH! ♥ MN-! ♥ M-MORE! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n||f|ChangeImageLayer|/|HatAndFaceEffects|/|NoHatBlushSevere|n|'¡Ahhh!-♥ Ven- ♥ ¡No pares! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|VeneficaWildCombatEvents|/|Surrender|n|"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Sex",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del coño pecaminosamente apretado de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Sex",
+            "theText": [
+                "Pero ella bloquea firmemente sus largas y poderosas piernas alrededor de la cintura mientras intentas alejarte de ella, manteniendo tu longitud dentro de ella con un ronroneo de emoción.",
+                "Pero ella te domina con sus manos con garras y continúa montando tu polla dolorida a un ritmo frenético, haciendo que tus caderas se sientan más débiles por el momento.",
+                "Pero con una fuerza intensa, ella atrae los brazos hacia el suelo mientras conduce salvajemente su longitud, dejándote luchando por recuperar tu compostura en medio del placer áspero e intoxicante.",
+                "Pero ella bloquea firmemente las piernas debajo de las suyas mientras te monta, golpeando frenéticamente sus caderas sobre tu polla sacudida, dejándote retorciéndote y jadeando en lugar de escapar.",
+                "Pero sientes que la fuerza deja tu cuerpo con cada reunión de la cintura de tus caderas, y los movimientos salvajes de Venefica no muestran signos de desaceleración mientras te manchas para mudarte de debajo de ella, dejándote temblor de placer.",
+                "Pero Venefa está envuelto en un aura negra retorcida por un momento, dejándote impotente al suelo desde una ola aplastante de magia de gravedad, dejándote indefenso mientras rebota en tu dolor de polla.",
+                "Pero tu polla palpitante te traiciona con su dolor de dolor, dejándote follando ansiosamente su apretado agujero persiguiendo después del burbujeante urgente de correrse dentro de ella.",
+                "Pero desde el ritmo frenético de sus caderas oscilantes, solo puedes acostarte allí y gemir felizmente, tu ingle se derrite en el placer y el placer eufórico de cada impacto entumecedor."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Eres mio ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'No, te quedas aquí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Hehehe-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Mmmm- ♥ No. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'No te dejo ir a ningún lado. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Deja de retorcerse y dame más. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Sex",
+            "theText": [
+                "¡Y elige sacar tu polla de su poderosa hendidura!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Vuelve aquí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Ja jahhh- ♥ ven- ♥ ¡aún no he terminado! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¿A dónde crees que vas? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Quiero probarte más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Dame más ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'¿Qué crees que estás haciendo? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Anal",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del culo pecaminosamente apretado de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Anal",
+            "theText": [
+                "Pero ella bloquea firmemente sus largas y poderosas piernas alrededor de la cintura mientras intentas alejarte de ella, manteniendo tu longitud dentro de ella con un ronroneo de emoción.",
+                "Pero ella te domina con sus manos con garras y continúa montando tu polla dolorida a un ritmo frenético, haciendo que tus caderas se sientan más débiles por el momento.",
+                "Pero con una fuerza intensa, ella atrae los brazos hacia el suelo mientras conduce salvajemente su longitud, dejándote luchando por recuperar tu compostura en medio del placer áspero e intoxicante.",
+                "Pero ella bloquea firmemente las piernas debajo de las suyas mientras te monta, golpeando frenéticamente sus caderas sobre tu polla sacudida, dejándote retorciéndote y jadeando en lugar de escapar.",
+                "Pero sientes que la fuerza deja tu cuerpo con cada reunión de la cintura de tus caderas, y los movimientos salvajes de Venefica no muestran signos de desaceleración mientras te manchas para mudarte de debajo de ella, dejándote temblor de placer.",
+                "Pero Venefa está envuelto en un aura negra retorcida por un momento, dejándote impotente al suelo desde una ola aplastante de magia de gravedad, dejándote indefenso mientras rebota en tu dolor de polla.",
+                "Pero tu polla palpitante te traiciona con su dolor de dolor, dejándote follando ansiosamente su apretado agujero persiguiendo después del burbujeante urgente de correrse dentro de ella.",
+                "Pero desde el ritmo frenético de sus caderas oscilantes, solo puedes acostarte allí y gemir felizmente, tu ingle se derrite en el placer y el placer eufórico de cada impacto entumecedor."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Eres mio ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'No, te quedas aquí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Hehehe-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Mmmm- ♥ No. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'No te dejo ir a ningún lado. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Deja de retorcerse y dame más. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Anal",
+            "theText": [
+                "¡Y logra sacar tu polla de su poderoso trasero!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Vuelve aquí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Ja jahhh- ♥ ven- ♥ ¡aún no he terminado! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¿A dónde crees que vas? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Quiero probarte más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Dame más ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'¿Qué crees que estás haciendo? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Making Out",
+            "theText": [
+                "[ThePlayerName] intenta liberarse de la apasionada sesión de besos de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Making Out",
+            "theText": [
+                "Pero ella bloquea firmemente sus brazos de obsidiana alrededor de tu cuello, encerrándote en su lugar mientras enreda intensamente su lengua con la tuya, haciendo que te bese cada vez más borracho.",
+                "Pero su lengua larga y sinuosa permanece firmemente enrollada alrededor de la tuya, dejándote presa fácil para que ella vuelva a presionar sus labios mientras cambia la saliva contigo.",
+                "Pero una de sus manos con garras se envuelve alrededor de la parte posterior de tu cabeza y te obliga a profundizar el beso con ella, dejando tus pensamientos volviendo a una papilla agradable.",
+                "Pero un aura retorcida envuelve el cuerpo de Venefa, congelándote en su lugar mientras continúa besándote sin sentido con su larga lengua sinuosa."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|'Eres mio ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'No, te quedas aquí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Hehehe-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mmmm- ♥ No. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'No te dejo ir a ningún lado. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LongTongue|n|'Deja de retorcerse y dame más. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Making Out",
+            "theText": [
+                "¡Y logra liberar su beso agresivo!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Vuelve aquí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'Ja jahhh- ♥ ven- ♥ ¡aún no he terminado! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¿A dónde crees que vas? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Quiero probarte más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Dame más ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Devious|n|'¿Qué crees que estás haciendo? ♥'"
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Tattoos",
+            "Set": [
+                {
+                    "Name": "HatAndFaceEffects",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.05",
+                    "Images": [
+                        {
+                            "Name": "NoHatBase",
+                            "File": "Monsters/Venefica/Venefica_Core_NoHatWTattoos.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "NoHatBlush",
+                            "File": "Monsters/Venefica/Venefica_Core_NoHatWTattoos.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "NoHatBlushSevere",
+                            "File": "Monsters/Venefica/Venefica_Core_NoHatWTattoos.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "NoHatEvilShade",
+                            "File": "Monsters/Venefica/Venefica_Core_NoHatWTattoos.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HatBase",
+                            "File": "Monsters/Venefica/Venefica_Core_HatWTattoos.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HatBlush",
+                            "File": "Monsters/Venefica/Venefica_Core_HatWTattoos.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HatBlushSevere",
+                            "File": "Monsters/Venefica/Venefica_Core_HatWTattoos.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HatEvilShade",
+                            "File": "Monsters/Venefica/Venefica_Core_HatWTattoos.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Nude",
+                            "File": "Monsters/Venefica/Venefica_Body_NudeTattoos.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Venefica/Venefica_Body_ClothedTattoos.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Topless",
+                            "File": "Monsters/Venefica/Venefica_Body_ClothedTopFree.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Lactation",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "ToplessMilk",
+                            "File": "Monsters/Venefica/Venefica_Lactation_Topless.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ToplessChocolateMilk",
+                            "File": "Monsters/Venefica/Venefica_Lactation_ToplessChocolate.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ToplessRasbperryMilk",
+                            "File": "Monsters/Venefica/Venefica_Lactation_ToplessRasbperry.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "NotRealFaceButItIsCauseOverlay",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "HatAndFaceEffects",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "NoHatBase",
+                            "File": "Monsters/Venefica/Venefica_Face_BaseTattoo.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "NoHatBlush",
+                            "File": "Monsters/Venefica/Venefica_Face_BlushTattoo.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "NoHatBlushSevere",
+                            "File": "Monsters/Venefica/Venefica_Face_BlushSevereTattoo.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "NoHatEvilShade",
+                            "File": "Monsters/Venefica/Venefica_Face_ShadedTattoo.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HatBase",
+                            "File": "Monsters/Venefica/Venefica_Face_BaseHatTattoo.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HatBlush",
+                            "File": "Monsters/Venefica/Venefica_Face_BlushHatTattoo.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HatBlushSevere",
+                            "File": "Monsters/Venefica/Venefica_Face_BlushSevereHatTattoo.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HatEvilShade",
+                            "File": "Monsters/Venefica/Venefica_Face_ShadedHatTattoo.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Predatory",
+                            "File": "Monsters/Venefica/Venefica_Expression_Predatory.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Venefica/Venefica_Expression_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Bashful",
+                            "File": "Monsters/Venefica/Venefica_Expression_Bashful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Chiding",
+                            "File": "Monsters/Venefica/Venefica_Expression_Chiding.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cold",
+                            "File": "Monsters/Venefica/Venefica_Expression_Cold.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Curious",
+                            "File": "Monsters/Venefica/Venefica_Expression_Curious.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Devious",
+                            "File": "Monsters/Venefica/Venefica_Expression_Devious.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Disgust",
+                            "File": "Monsters/Venefica/Venefica_Expression_Disgust.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmileEvil",
+                            "File": "Monsters/Venefica/Venefica_Expression_EvilSmile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Horny",
+                            "File": "Monsters/Venefica/Venefica_Expression_Horny.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Venefica/Venefica_Expression_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LongTongue",
+                            "File": "Monsters/Venefica/Venefica_Expression_LongTongue.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmileLoving",
+                            "File": "Monsters/Venefica/Venefica_Expression_Loving.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Loving",
+                            "File": "Monsters/Venefica/Venefica_Expression_Loving.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/Venefica/Venefica_Expression_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pout",
+                            "File": "Monsters/Venefica/Venefica_Expression_Pout.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sigh",
+                            "File": "Monsters/Venefica/Venefica_Expression_Sighing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/Venefica/Venefica_Expression_Smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Venefica/Venefica_Expression_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sparkling",
+                            "File": "Monsters/Venefica/Venefica_Expression_Sparkling.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Stern",
+                            "File": "Monsters/Venefica/Venefica_Expression_Stern.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Tch",
+                            "File": "Monsters/Venefica/Venefica_Expression_Tch.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmileYandere",
+                            "File": "Monsters/Venefica/Venefica_Expression_Yandere.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ExpressionCoverThing",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "HatAndFaceEffects",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "NoHatBase",
+                            "File": "Monsters/Venefica/HairExpressionCover.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "NoHatBlush",
+                            "File": "Monsters/Venefica/HairExpressionCover.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "NoHatBlushSevere",
+                            "File": "Monsters/Venefica/HairExpressionCover.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "NoHatEvilShade",
+                            "File": "Monsters/Venefica/HairExpressionCover.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HatBase",
+                            "File": "Monsters/Venefica/HairExpressionCoverHat.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HatBlush",
+                            "File": "Monsters/Venefica/HairExpressionCoverHat.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HatBlushSevere",
+                            "File": "Monsters/Venefica/HairExpressionCoverHat.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HatEvilShade",
+                            "File": "Monsters/Venefica/HairExpressionCoverHat.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "TitsCloseUp",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Titty",
+                            "File": "Monsters/Venefica/Venefica_TittyVista.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "FaceCloseUp",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Face",
+                            "File": "Monsters/Venefica/Venefica_FaceVista.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Venefica/Venefica_FaceVista_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Devious",
+                            "File": "Monsters/Venefica/Venefica_FaceVista_Devious.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Venefica/Venefica_FaceVista_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

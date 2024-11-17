@@ -1,0 +1,1182 @@
+{
+    "name": "Tabitha",
+    "IDname": "Tabitha",
+    "species": "Beast",
+    "gender": "female",
+    "description": "Una mujer de tamaño promedio con orejas grandes, puntiagudas y esponjosas con forma de murciélago sobre su cabeza y el largo cabello negro desagradable que cubre la mayor parte de su cara, ocultándolo, excepto por el vistazo ocasional que puedes revelar sus ojos plateados grandes e inocentes,Su sonrisa tímida y acentuada, y su lengua sorprendentemente larga.\n\nEn lugar de los brazos, tiene grandes alas negras con forma de murciélago que terminan en largas manos con garras con algunas grandes mechones de pelusa que cierra la brecha entre ellos y sus hombros, que se vuelven más prominentes cada vez que dobla sus alas para sostener sus brazos más cercasu cuerpo.\n\nSus tetas de copa C suaves están escondidas detrás de una tela negra increíblemente ajustada que no hace nada para ocultar su maletero, e incluso logra enfatizar sus curvas en lugar de esconderlas.A lo largo de los lados de su torso hasta su cintura, la cinta de sus alas brota de su piel, y termina justo antes de sus caderas sorprendentemente anchas y femeninas que balancean su culo regordete tentador con cada paso que da.Lleva una falda negra apretada que es apenas lo suficiente como para cubrir su ingle, pero no logra ocultar su amplia trasera y caderas anchas a los lados y la espalda, lo que le permite ver fácilmente la parte inferior de su mancha regordeta y chule.su tanga sedosa rosa desde todos los ángulos, excepto directamente frente a ella.\n\nSus muslos están desnudos en la parte superior de ellos, pero casi inmediatamente después están cubiertos de pelaje con forma de murciélago que se arrastran desde su parte superior de los muslos hasta sus pies de garra grandes y hábiles, dando la impresión de que lleva negroAlta del muslo a pesar de que no hay ropa allí en absoluto.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "True",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        ""
+    ],
+    "perks": [
+        ""
+    ],
+    "stats": {
+        "lvl": "20",
+        "Exp": "10",
+        "max_hp": "200",
+        "max_ep": "10",
+        "max_sp": "1",
+        "Power": "5",
+        "Technique": "15",
+        "Intelligence": "15",
+        "Allure": "20",
+        "Willpower": "10",
+        "Luck": "25"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "100",
+        "Ass": "100",
+        "Breasts": "100",
+        "Mouth": "100",
+        "Seduction": "100",
+        "Magic": "100",
+        "Pain": "100",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0",
+        "Debuff": "0"
+    },
+    "moneyDropped": "0",
+    "ItemDropList": [
+        {
+            "name": "Anaph Herb",
+            "dropChance": "75"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "SetMusicTo",
+            "move": "",
+            "theText": [
+                "music/Caverns/Purple Planet Music - Tense - Melancholia (1_24) 96bpm.mp3"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Spank",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Normal",
+            "Set": [
+                {
+                    "Name": "ArmsBacking",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "Arms",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Tabitha/Arms_Tabitha_OpenStanceBacking.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shy",
+                            "File": "Monsters/Tabitha/Face_Tabitha_Covered.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Body",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.195",
+                    "Images": [
+                        {
+                            "Name": "Clothed",
+                            "File": "Monsters/Tabitha/Body_Tabitha_Clothed.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Nude",
+                            "File": "Monsters/Tabitha/Body_Tabitha_Nude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Arms",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Tabitha/Arms_Tabitha_OpenStanceFront.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shy",
+                            "File": "Monsters/Tabitha/Arms_Tabitha_ClosedStance.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ArmsClothed",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "Arms",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Tabitha/Arms_Tabitha_OpenStanceClothing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shy",
+                            "File": "Monsters/Tabitha/Arms_Tabitha_ClosedStanceClothed.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Tabitha/Face_Tabitha_Covered.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Tabitha/Face_Tabitha_CoveredBlush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BaseParted",
+                            "File": "Monsters/Tabitha/Face_Tabitha_Full.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushParted",
+                            "File": "Monsters/Tabitha/Face_Tabitha_FullBlush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Obscured",
+                            "File": "Monsters/Tabitha/Face_Tabitha_FullyObscured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_NervousMild.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Anxious",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Anxious.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Awe",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Awe.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Caring",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Caring.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Confident",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Confident.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ConfidentSmug",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_ConfidentSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Content",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Content.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Flustered",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Flustered.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlusteredComical",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_FlusteredComical.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlusteredComicalDazed",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_FlusteredComicalDazed.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlusteredPanic",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_FlusteredPanic.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Frozen",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Frozen.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FuckedSilly",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_FuckedSilly.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Happy",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Happy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KissOral",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_KissOral.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "NervousPerked",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_NervousPerked.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pleasured",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PleasuredGasping",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_PleasuredGasping.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shameful",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Shameful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shriek",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Shriek.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ShyFlustered",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_ShyFlustered.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ShySmile",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_ShySmile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sparkling",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Sparkling.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Uguu",
+                            "File": "Monsters/Tabitha/Expressions_Tabitha_Uguu.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Hair",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "Face",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Tabitha/Hair_Tabitha_Cover.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Tabitha/Hair_Tabitha_Cover.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BaseParted",
+                            "File": "Monsters/Tabitha/Hair_Tabitha_Parted.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushParted",
+                            "File": "Monsters/Tabitha/Hair_Tabitha_Parted.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Obscured",
+                            "File": "Monsters/Tabitha/Hair_Tabitha_CoveredFull.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Silhouette",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "ShyStance",
+                            "File": "Monsters/Tabitha/Silhouette_Tabitha_Shy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OpenStance",
+                            "File": "Monsters/Tabitha/Silhouette_Tabitha_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Silhouette",
+            "Set": [
+                {
+                    "Name": "Silhouette",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.195",
+                    "Images": [
+                        {
+                            "Name": "ShyStance",
+                            "File": "Monsters/Tabitha/Silhouette_Tabitha_Shy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OpenStance",
+                            "File": "Monsters/Tabitha/Silhouette_Tabitha_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Sex",
+            "Set": [
+                {
+                    "Name": "BG",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "No",
+                    "Images": [
+                        {
+                            "Name": "BG",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_BG.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Body",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "No",
+                    "Images": [
+                        {
+                            "Name": "Body",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Body.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "No",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Face.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_FaceBlush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "No",
+                    "Images": [
+                        {
+                            "Name": "PainDaze",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Expression_PainDaze.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Flustered",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Expression_Flustered.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlusteredComical",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Expression_FlusteredComical.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Expression_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Panic",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Expression_Panic.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PleasuredGasp",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Expression_PleasuredGasp.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Seductive",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Expression_Seductive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Expression_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "StopThinking",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Expression_StopThinking.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PleasureStruck",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_PleasureStruck.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Quiver",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "No",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_PleasureQuiver.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Ass",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "No",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_ButtContained.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Exposed",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_ButtExplosed.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Underwear",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "No",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Underwear.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Pussy",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "No",
+                    "Images": [
+                        {
+                            "Name": "Thrusting",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Lewd_Thrusting.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Prepenetration",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Lewd_Prepenetration.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PostFuck",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Lewd_PostFuck.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Penetration",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Lewd_Penetration.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Resting",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Lewd_Resting.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cumming",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Lewd_Thrusting.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Humping",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Lewd_Humping.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PussyCutin",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "No",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_EmptyPussy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PussyInnerWall",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "Pussy",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "No",
+                    "Images": [
+                        {
+                            "Name": "Thrusting",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_Thrust.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Penetration",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Lewd_Penetration.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cumming",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_Cum.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerPenisInside",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "Pussy",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Thrusting",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_ThrustDick2.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Penetration",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_PenetrateDick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cumming",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_CumDick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerPenisInsideSilhouette",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "Pussy",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Thrusting",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_ThrustDick2Silhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Penetration",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_PenetrateDickSilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cumming",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_CumDickSilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerPenisOutside",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "Pussy",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Thrusting",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Dick_Thrusting.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Prepenetration",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Dick_Prepenetration.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PostFuck",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Dick_PostFuck.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Penetration",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Dick_Penetration.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Resting",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Dick_Resting.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cumming",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Dick_Thrusting.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Humping",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Dick_Humping.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerPenisOutsideSilhouette",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "Pussy",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Thrusting",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Dick_ThrustingSilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Prepenetration",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Dick_PrepenetrationSilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PostFuck",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Dick_Silhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Penetration",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Dick_PenetrationSilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Resting",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Dick_RestingSilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cumming",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Dick_ThrustingSilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Humping",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_Dick_HumpingSilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "OuterPussyWall",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "Pussy",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "No",
+                    "Images": [
+                        {
+                            "Name": "Thrusting",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_Thrust2.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Penetration",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_PenetrateTop.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cumming",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_CumTop.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ThrustingPlayerDick",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "Pussy",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Thrusting",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_ThrustDick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ThrustingPlayerDickSilhouette",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "Pussy",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Thrusting",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_ThrustDickSilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ThrustingOuterPussyWall",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "Pussy",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "No",
+                    "Images": [
+                        {
+                            "Name": "Thrusting",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_Thrust1.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Semen",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "No",
+                    "Images": [
+                        {
+                            "Name": "In",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_SemenIn.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Out",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_SemenOut.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Total",
+                            "File": "Monsters/Tabitha/Sex/cg_tabitha_SemenTotal.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PussyCutinBorder",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "No",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Tabitha/Sex/cg_cutIn_Border.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

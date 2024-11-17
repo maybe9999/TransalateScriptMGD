@@ -1,0 +1,2128 @@
+{
+    "name": "Gren",
+    "IDname": "Gren",
+    "species": "Amphibian",
+    "gender": "female",
+    "description": "Una chica de aspecto desgarrado con grandes y expresivos ojos glaucos y una amplia sonrisa alegre.Su cabeza luce un trapeador desordenado de cabello color musgo, pero su cuerpo verde claro es suave y reluciente, cubierto con una película resbaladiza.\n\nElla está completamente desnuda y sin vergüenza, con un vientre pálido y senos casi imperdibles.\n\nTanto sus manos como sus pies son websed, sus brazos son ágiles y nerviosos, pero sus piernas se destacan en particular.Increíblemente largo y musculoso, con fuertes nalgas para que coincidan, sus poderosas capacidades son evidentes.\n\nTodo el tiempo, una lengua impresionantemente larga se dirige dentro y fuera de su boca, señalando hacia usted de una manera que solo puede describirse como depredador.",
+    "encyclopedia": "As their name indicates, frog girls show traits heavily reminiscent of batrachians. Fully amphibious and possessed of webbed limbs and smooth skin, they are natural swimmers, at ease within any body of water, though they heavily prefer ponds that they commonly inhabit or gather at to relax and socialize. \n\nThough probably among the least civilized monster girls, they are nonetheless semi-gregarious, readily willing to mingle with both fellow monster girls and human beings. They are seldom seen in towns where their unabashed nudity and ingenuousness tend to draw notice, preferring to stick to the marshy areas they favor. Playful and open, they are said to come second only to the harpies in terms of carefree cheerfulness... or airheadedness, as some might less generously put it. \n\nWith their wiry bodies and muscular legs, Frog Girls are swift and fast, and their fighting style focuses heavily on quick maneuvers, speed, and dodging. They can run fast, jump high, and perform acrobatic feats of dazzling agility. Their powerful thighs and firm rear are not to be underestimated! And naturally, their favored means of offense is their long, near-prehensile tongue, capable of impressive feats of dexterity. Their body exudes an unctuous, slightly sweet-smelling liquid that both helps their evasive abilities, acts as a natural lubricant, and affects others as a muscle relaxant on contact. \n\nThough occasionally mischievous or teasing, Frog Girls haven't been known to engage in anything more severe than pranks or the occasional petty theft. Rumors abound about them being able to steal a man's soul through its anus, but they have always been hotly denied. It is true, however, that most have a penchant for anal, eager to both give and receive in that regard.",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        "Frog's Clenched Pounding",
+        "Frog's Frenzied Pounding",
+        "Frog's Reckless Pounding",
+        "Slimy Dexterous Footjob",
+        "Slimy Footjob Massage",
+        "Slimy Frog Footjob",
+        "Mouth Invasion",
+        "Slimy Kiss",
+        "Slimy Kisses",
+        "Slimy Smooch",
+        "Swirly Kiss Flurry",
+        "Swirly Kiss Slather",
+        "Swirly Tongue Assault",
+        "Tongue Invasion",
+        "Slimy Thigh Capture",
+        "Slimy Thighjob",
+        "Slimy Thighjob Pump",
+        "Slimy Thighjob Squeeze",
+        "Slimy Thigh Lock",
+        "Nimble Frog Capture",
+        "Slimy Blowjob Squeeze",
+        "Slimy Frog Tongue Capture",
+        "Slimy Pumping Blowjob",
+        "Slimy Vacuum Blowjob",
+        "Swirly Blowjob Assault",
+        "Swirly Blowjob Kisses",
+        "Swirly Blowjob Slurp",
+        "Frog's Bouncing Mating",
+        "Frog's Mating Squeeze",
+        "Frog's Slimy Grind",
+        "Jumping Assault",
+        "Leaping Assault"
+    ],
+    "perks": [
+        "Semen Frenzy"
+    ],
+    "stats": {
+        "lvl": "8",
+        "Exp": "75",
+        "max_hp": "250",
+        "max_ep": "50",
+        "max_sp": "1",
+        "Power": "8",
+        "Technique": "15",
+        "Intelligence": "4",
+        "Allure": "3",
+        "Willpower": "4",
+        "Luck": "6"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "70",
+        "Ass": "175",
+        "Breasts": "125",
+        "Mouth": "100",
+        "Seduction": "50",
+        "Magic": "100",
+        "Pain": "100",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "20",
+        "Charm": "25",
+        "Aphrodisiac": "0",
+        "Restraints": "50",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0",
+        "Debuff": "10"
+    },
+    "moneyDropped": "175",
+    "ItemDropList": [
+        {
+            "name": "Energy Potion",
+            "dropChance": "40"
+        },
+        {
+            "name": "Insomnia Potion",
+            "dropChance": "30"
+        },
+        {
+            "name": "Frog Rune",
+            "dropChance": "25"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "BJLoss",
+            "move": "",
+            "stance": "Blowjob",
+            "includes": [
+                "Gren"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "BaseBlush",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Despite your defeat, Gren keeps powerfully sucking on your dick, prolonging your final orgasm for all it's worth. Your legs wobble but she catches you in time and, with surprisingly strong arms despite their spindly look, she guides you to the ground where you can only lay docilely. Then she kneels besides you and carries on with her post-orgasm blowjob.",
+                "You shiver and whimper from the powerful suction, feeling your cum being drawn out of your penis, until finally, she lets go of it, having no more leftover spunk to drain.",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "Base",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "Raising her head, she takes a thoughtful expression as she swirls your semen around in her mouth, apparently intent on savoring its taste.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Ahegao",
+                "Once she's done, she gulps it all down and opens her mouth, proudly showing off her thoroughness.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Fantasizing",
+                "Speaks",
+                "Aaah, {i}trop bon{/i}! I really love your cum! I wouldn't mind having lots more!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Her face then splits in a predatory grin as she slowly leans back toward you, fear, anticipation, and excitation growing in your chest as she takes her time and lets you stew, clearly enjoying herself.",
+                "Speaks",
+                "And the good thing is… I have plenty more right here.♪",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "She lays her webbed hands flat against your thighs, rubbing and massaging your muscles sore from all the walking and 'fighting' as she makes her way toward your crotch. The feeling of her long, smooth, powerful fingers is both comforting and erotic, making your flaccid member twitch with renewed energy.",
+                "Playfully, she circles your cock then goes on to lay caress the rest of your body, taking care to avoid your dick and licking her lips as she admires your prone shape. In short notice, your torso is covered by the unctuous liquid secreted by Gren, its sweet smell making you slightly and pleasurably drowsy.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "{i}Th-thump. Th-thump.{/i} Your heart beats faster against her right palm as she expertly rubs and flicks your nipples, stimulating your libido. Your penis becomes engorged again, the monster girl's ministrations filling you with desire for her. Her smile becomes softer, almost maternal, as she looks down at your now semi-erect mast.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "Speaks",
+                "Ah, down but not out, hm?",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Her dexterous, teasing hands languidly inch closer to your cock, and you start wondering if she's expecting you to beg, before her left hand goes to your underside, delicately rubbing your frenulum with her index. Your renewed erection keeps growing as she teases it with the back of her fingers, lightly touching and taking it in.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pout",
+                "Speaks",
+                "If only you didn't move as much, we could take our time to enjoy each other...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Speaks",
+                "But then again, it's more fun to 'fight', {i}n'est-ce pas{/i}?",
+                "You weakly nod in assent as she gently grabs hold of your shaft and starts slowly pumping it, apparently prepping you without haste.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Tongue",
+                "Both your heart and your dick jump when she opens her mouth and shows off her long, {i}long{/i} tongue, the appendage slithering out bit by bit like it has a will of its own. The slick, dripping organ snakes in front of you, slowly coming down, like a twirling ribbon.",
+                "Speaks",
+                "You know I'm {i}very{/i} good with my tongue… There's not a single girl who can come close...",
+                "Mischievously, she rests the end of her tongue against your cock's tip, carefully polishing your glans. Meanwhile, she doesn't stop her handjob, keeping you nice and stimulated. You start breathing faster, and gasp when she collects a bit of precum with a flick of her tongue, to which she croaks amusedly.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "Bending down toward your face, she kisses you on the forehead then on the lips with no impediment from her outstretched tongue. Then, she brings herself close to your ear and whispers:",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "Speaks",
+                "{i}Sois tranquille{/i}, I'll take really good care of you.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Tongue",
+                "Again in an impressive display of prehensility, her tongue wraps around your penis, forming a slick, soft, slimy cocoon around it, the alien sensation catching you off-guard and making you yearn for more. It's like having a yielding length of living rope woven around your cock, oozing with lubricating saliva.",
+                "With no apparent effort, Gren starts bringing her encircling tongue up and down, easily mustering enough strength to apply pressure all through your shaft. Within moments, you are rock-hard again and get to fully enjoy the experience of the unique organ coiling around your dick.",
+                "You twitch, rock your hips, and moan as pleasure assaults you, the monster girl varying the pressure and movements to keep you fully entertained, her tongue endlessly running against your cock like thread around a spool. Wet noises fill the air, adding to the naughtiness and perversion of the situation, your victor in complete control of your defeated and now completely compliant body.",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "BaseBlush",
+                "Gradually, Gren speeds up her lingual fapping, the slimy, living fleshlight keeping its impeccable grasp on your member and slobbering all over it, bathing you in ecstasy. Your mouth agape, you immerse yourself in the tonguejob, staring at the forest sky with Gren smiling and croaking with delight in the corner of your vision.",
+                "Expertly, she guides you toward a delectable, gooey orgasm, stroking faster and faster, her tongue rubbing and embracing you in ways that no other body part could achieve.",
+                "Finally, with a powerful squeeze followed by a series of rapid-fire, vibration-like tugs, she leads you to climax. You buck powerfully, panting and groaning as your semen fires off, ejaculating right into the confines of her cocooning tongue.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "It takes you a few moments to recover from your high and for the pleasure in your groin to recede. When you focus on your surroundings again, you see Gren is reaping the fruits of her labor and again wolfing down every bit of your semen, croaking happily at the treat.",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "Base",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pout",
+                "When she speaks, though, her words are preceded with a sigh, and she puffs up her cheeks slightly.",
+                "Speaks",
+                "Bleh, I know I make it look easy, but so much effort really does a number on your tongue!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "You muster a smile and a chuckle, and start gathering the strength to get up, but the hopping monster girl is quick to react, bringing your back flat against the ground with a firm pressure of her finger on your chest.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Speaks",
+                "Tut-tut-tut! {i}On a pas fini{/i}! You think you can just enjoy my tricks and get away with just a measly spurt or two?",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "That hungry smile of hers shows itself again and you feel your heart sink and your libido soar, knowing full well what awaits you.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Grin",
+                "Speaks",
+                "Not a chance!♪",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Ahegao",
+                "This time, she brings her whole face to your crotch and, opening her mouth, puts on a fresh coat of her mucous saliva on your cock. More for show than anything, since your whole lower body is already bathed in a veritable puddle of the stuff, but the pleasant sensation nonetheless fills your dick all over again.",
+                "… at which point you notice that your erection has barely gone down.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Grin",
+                "Speaks",
+                "He he he, surprised? You should see your expression!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Love",
+                "With one of her large, cool hands, she strokes your face as she goes on to explain.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Our saliva makes people more sensitive, which makes hanky-panky with us all the greater, and also makes our partners' bodies more eager and inclined to go on… Sure, the crash at the end is a doozy, but oh well...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Playfully, she pats your shoulder and laughs.",
+                "Speaks",
+                "Anyway, I'm rambling. Less talking, more cocksucking, right?",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Sparkling",
+                "Speaks",
+                "{i}Bon appétit{/i}!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "And with that, with serpentine speed, she engulfs your member with barely a pose, slimy coolness embracing your groin all around. Almost fearful of the pleasure, you whimper, and as if to reassure you, Gren goes all the way to your root and plants a big slobbery kiss there, which seems to radiate all through your body.",
+                "At the same time, deftly, she takes your hands in hers, and gives you a look of affection before getting to work, her head bobbing up and down on your cock. She is not using her tongue this time, and yet, the coolness and gooeyness of her pliable mouth makes the blowjob feel distinctly different from a normal one.",
+                "Your partner initially takes it easy, letting you get accustomed to the sensations and your hard-on regain its full strength. Then she starts sucking in earnest, her lips forming a ring against your shaft, creating a vacuum that applies delightful pressure to your organ.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "Reflexively, you grasp Gren's hands tighter, which she seems to appreciate, squeezing yours in return and shooting you a supportive glance.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "All the while, she never stops what she's doing and her movements actually intensify, her mouth and throat still as yielding as ever despite the increased pace.",
+                "Soon, you find yourself squirming and moaning again, the sensitizing mucus making the experience damnably good and bringing you back to the edge in a moment. It's like having your dick inside a slime girl, if the slime also assaulted you with merciless pressure and frayed your nerves with ever-increased pleasure.",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "BaseBlush",
+                "You know that you can't resist for long, and your friend is well aware: as happily playful as she may be, she's obviously taken a shine to the taste of your semen, and is intent of draining as much of it as she can.",
+                "Feeling your resistance crumble, she sucks even harder, and your eyes roll back. You grasp her hands like a lifeline, fingers interlocked.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Ahegao",
+                "Again, you cum buckets, and this time, not a single drop escapes, Gren treating your overstimulated cock like a straw, drinking and gulping greedily, spurt after spurt, to the rhythm of your gasping and bucking. Eyes closed, she enjoys the serving with an almost beatific expression, still not releasing the pressure even for an instant.",
+                "Speaks",
+                "Mmh♥ Mmmmh! Mmmmphhmm!♥",
+                "You cry out when you feel her tongue wrap around your shaft again, this time not even letting your penis breathe before resuming her buccal assault. Since you're now on the home stretch, she goes to town on your still-erect member, combining both her prehensile tongue and gobbling mouth in a dual attack of renewed intensity.",
+                "Very quickly, your senses melt together in a maelstrom of pleasure, your world restricted to the sight of Gren's head bobbing up and down, the sounds of cocksucking and facefucking, the smell of mucus and sex, and the feeling of her hands against yours, as well as that of her tireless maw working your girth and radiating through your groin.",
+                "Each instance of cumming becomes less distinct, until one orgasm becomes indistinguishable from the next, your dick feeling like it's ejaculating uninterruptedly within the indefatigable confines of your amphibian fellatrix. Spray after spray, she feasts upon your semen, letting you spend yourself with all your resistance thoroughly shattered.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "Eventually, even your sensations grow dull, and the last thing you register is Gren's lips against yours and her ribbitty laugh as you lose consciousness.",
+                "ChangeSensitivity",
+                "Sex",
+                "3",
+                "ChangeFetish",
+                "Oral",
+                "5",
+                "ChangeFetish",
+                "Monstrous",
+                "5"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "ThighjobLoss",
+            "move": "",
+            "stance": "Thighjob",
+            "includes": [
+                "Gren"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "ChangeBGM",
+                "music/Loss/reason.mp3",
+                "As the last of your resistance melts, Gren cheerfully prolongs your defeat orgasm with delightfully firm squeezing and pumping, the athletic frog girl thrusting her body back and forth to milk out a few more dribbles of cum out of your still hard cock, your eyes rolling as her smooth goo-and-semen-slicked thighs rub against your manhood, assaulting your already tamed dick with even greater post-climactic bliss...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Your body going slack from the unrelenting pleasure and the battle's fatigue, you can't hold back a moan of surrender as you slump against the slender monster girl who happily catches you in her arms with a merry giggle. Your head landing on her shoulder, your cheek nestles against hers, and in a shuddering breath, your nose fills with her hair's not unpleasant aroma of fresh plantlife and slightly sweet frog girl mucus.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Grin",
+                "Speaks",
+                "I win~! ... But don't worry, {i}chéri{/i}, you did your best!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "In your dazed afterglow, you can't help but relax at the comforting sound of her honest, happy voice, a low sigh escaping your throat when she gives your head some affectionate pats... but that sigh turns into a gasp of surprise when she assertively grabs your shoulders to gently but firmly pull you away from her, her beaming smile shifting into a predatorily lewd one!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "Speaks",
+                "And now, I get to enjoy you!♪",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Before you can react or even utter a noise, she wraps her arms around your back and pulls you into a hungry makeout, your surprised mouth immediately assaulted by Gren's nimble tongue which swiftly entangles yours as the frog girl's soft, squishy mouth glues itself to yours.",
+                "Effortlessly taking control of the ravenous lip-locking, she eagerly pushes into you, one hand moving to the back of your head while the other dominantly grabs your butt, the unexpected groping mixed with the slobbering smooches further fogging up your mind with oozing lust, Gren's unctuous saliva making you feel looser and more sensitive by the second, unable to do anything but stand there and meekly return her kisses.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "Once she's made sure that you're docile, she draws back with a surprisingly innocent-sounding trill of laughter, then switches to peppering your face with quick gliding pecks, each fluttering touch making a small burst of warmth blossom over your face and enticing you to remain passively slack-jawed, indulgently basking in the doting kissathon...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "... Until you again let out a sharp breath when Gren gives your still comfortably nestled cock a quick squeeze, the enveloping feeling of her toned thighs capturing your senses all over again and coaxing your flagging erection back into hardness, the dizzying pleasure making you woozily sway in place while the frog girl's arms keep you from falling.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Fantasizing",
+                "Readily taking advantage of your intimate proximity, the touchy-feely monster girl keeps greedily tousling your hair and squishing your ass, seeming to very much enjoy groping and caressing you, reveling in your close contact and in getting to lavish your body as much as she wants now that you're nice and compliant, like putty in her hands.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Speaks",
+                "I hope you didn't think I'd let you off the hook after just one cumshot, {i}mon chou{/i}! I'll make you enjoy my legs plenty!",
+                "Giggling enthusiastically, she moves her legs up and down, the simple motion rolling your engorged manhood between her muscular mucus-slicked thighs, leaving it awash in their ooey-gooey, warm, all-encompassing embrace, decisively melting down any resistance you may have had left in you as you helplessly give in to their roiling massaging hold.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "All the while, her mouth doesn't let up for a moment, continuing to rapid-kiss you while stroking and groping you, fully relishing having you at her mercy, gently drowning you in her pleasurable presence, keeping you nicely immersed in a constant soft barrage.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Meanwhile, her strong legs switch from moving up and down to rocking back and forth at a steady pace, their still unrelenting vice applying a nicely constant pressure, keeping your twitching dick hopelessly captive while Gren's smooth mucus ensures the grip never gets painful or aching, quickly carrying you toward another indulgent orgasm.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "Speaks",
+                "Mmh, looks like you're nice and ripe now! Aaaaaand... fire!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Tightly wrapping her arms around you, she again claims your mouth for another unctuous sloppy makeout while she presses herself against you, the sensory assault carrying you over the edge for good, making you let out a series of muffled submissive moans as you yield to the thighjob's grasp and cum, your hot semen erupting between Gren's legs, the frog girl letting out an enthusiastic squeal when a few errant spurts splash her legs.",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "BaseBlush",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Speaks",
+                "Oooh, hot!",
+                "All you can do in response is struggle to remain standing as your whole waist melts in gooey ecstasy, much like your kiss-conquered face, your entire body feeling like it's turning into a happy slurry as bubbly orgasmic pleasure washes through you again and again to the rhythm of your squirting dick expertly teased by the cheerful monster girl, Gren continuing to stimulate you until your climax abates and your manhood flags again.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Turning away from you, she lets her tongue slither out of your mouth, leaving you swaying there in a post-ejaculation daze, still floating in fuzzy bliss as Gren looks behind her shoulder and whistles.",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "Base",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Grin",
+                "Speaks",
+                "{i}Eh ben !{/i} That's some distance!♪",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "Caught off-guard by her happy-go-lucky comment, you utter a vague mutter in lieu of reaction as she turns back toward you, her innocent expression once more shifting to a mischievous lewd one.",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "BaseBlush",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Speaks",
+                "How about we try to beat that record? Let's do it as many times as it takes!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "A shiver of slightly trepidant arousal goes through your spine at the prospect, but as if your body had already decided for you, you find yourself reflexively leaning against Gren again, going for her kissable mouth while indulgently thrusting your hips between her still tightly squeezed legs, eliciting a happy ribbitting laugh from her.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "With just as much enthusiasm as before, she again squishes her body against yours, letting you enjoy every curve and contour of her athletic frame, her hardened nipples rubbing pleasantly against your torso while your mouth and mind once again surrender to her soft lips, dextrous tongue, and sweet saliva, all the while Gren rocks her pelvis in time with yours, all the better to again sweep you away into gooey delight.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Again and again, she makes you orgasm, the frog girl's mucus and her own unrelenting sticky-sweet attentions ensuring that you remain hard and keep cumming without interruption. Each time you ejaculate, she quickly checks the result and praises you for your energetic cumshot before mercilessly going back to lavishing you with her tongue, thighs, and whole body.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Ahegao",
+                "Gradually, Gren herself gets more and more into the lewd body-to-body quasi-sex, until she forgets about records and just delights in having you melt against her, your vigor rapidly waning as she uninterruptedly devours you, until your whole body feels like jelly and you can barely feel yourself cumming anymore, your vision darkening as you remain the helpless recipient of the lovey-dovey ministrations of the frog girl gone overboard.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Shock",
+                "Until eventually, your strength fades for good and you completely crumple against Gren, her expression switching in a moment from wanton enjoyment to panic as she watches you lose consciousness.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Panic",
+                "Speaks",
+                "Aaaah! {i}Oh non !{/i} D-Did I overdo it!?",
+                "You faintly hear a stream of 'Sorry!' as everything goes black, feeling like you're sinking in a delightfully unctuous pool of frog girl goo, the lingering tantric sensations sticking to your senses, a part of you somehow still craving more of the embrace of deliciously toned legs and the swirling kiss of a dominant tongue...",
+                "ChangeFetish",
+                "Legs",
+                "5",
+                "ChangeSensitivity",
+                "Mouth",
+                "5",
+                "ChangeFetish",
+                "Monstrous",
+                "3"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Default",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Gren"
+            ],
+            "theScene": [
+                "Unable to take more of the overwhelming stimulation, you reel, overcome by Gren's constant barrage of erotic assaults.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Grin",
+                "Speaks",
+                "Ah-ha! You're mine now!♪",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "Overflowing with enthusiasm, joy, and no small measure of battle-fueled lust, she unceremoniously pushes you down. You go down like a ton of bricks, thumping on the not-too-unpleasant marshy ground, your unflagging erection still proudly standing.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Sparkling",
+                "Taking a second to relish her victory, Gren dances on the spot, jumping and croaking excitedly.",
+                "Speaks",
+                "Ooooh, I'm gonna have so much fun with you!",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "BaseBlush",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Shock",
+                "Speaks",
+                "Uh, I mean, {i}we{/i} are gonna have so much fun.",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "Base",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Speaks",
+                "I bet you'll love this.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pout",
+                "Sensing an opportunity in the middle of her gloating, you move to stand back up. Like a bird of prey, her face immediately turns toward you and one of her powerful legs shoots down. Gently but firmly, her dexterous foot rests on your aching hard-on.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "Speaks",
+                "Whoa hey, where do you think you're going, {i}chéri{/i}?",
+                "You gasp at the sensation of her cool sole over your painfully rigid cock, and relax irresistibly as she gets to work, slowly rocking her heel back and forth along your sensitive shaft.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Speaks",
+                "Don't worry, we're just going to have a nice time, you and I.♪",
+                "The oily film her skin is covered with makes the experience all the more pleasant, and you can feel the battle tension drain out of your body, the hotness replaced with a calming wave of delicate warmth. Under Gren's ministrations, a tingling feeling of slight numbness pervades your dick and lower abdomen, as if they were covered in a soothing lotion.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "Speaks",
+                "Like that... Back and forth... Back and forth... Breathe slowly and deeply… Let yourself go.♪",
+                "She coos softly while her dexterous foot keeps working its magic.",
+                "Immersed in the massage-like stroking, post-defeat submissiveness, and Gren's surprisingly tender attention,  you follow her instructions. Your muscles go slack, your mind starts getting fuzzy, and a blissful smile spreads on your face while a wholly content sigh escapes your lips.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Gren is visibly containing her excitement, sporting a grin of triumph and satisfaction in front of your complacence and obvious enjoyment. Trading her dominant pose for a more comfortable one now that you are suitably placated, she sits down between your spread legs.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Grin",
+                "Speaks",
+                "Let's kick this into gear!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "She shift her posture and instead of caressing and coating your shaft, she wraps both her feet around your abundantly lubricated length. You moan from the change of pace, her webbed toes feeling wonderful, the slick surface and irregularities giving you the impression of being enveloped in a living cocksleeve.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Humming and croaking to herself, she gives you a moment to bask into the sensation, then she gets to work, rubbing to and fro, first languidly, then faster and faster, sandwiching your cock in a slimy heaven.",
+                "Despite the amount of enthusiasm she is putting into it, her slippery body's peculiarities mean that you don't feel any discomfort and can wholly enjoy the experience, your dick throbbing happily as you bask in the unique texture of Gren's appendages. Not even trying to control yourself, you let out a variety of pleasured sounds, much to her delight.",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "BaseBlush",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "Speaks",
+                "Oh my, you're really enjoying this.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "Speaks",
+                "Are you gonna be able to go back to normal sex after that? Or will you only be able to get hard to feet?",
+                "She croaks mischievously.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "Speaks",
+                "Don't worry, {i}mon cœur{/i}, you can always come back to me.♥",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "Base",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "You feel your cheeks grow redder at the notion, and she bursts into a series of good-natured ribbits of mirth. All the while, she hasn't stopped moving. Expertly, she leaves no part of your dick unattended, switching her focus at a moment's notice.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "One second, both her feet are stroking your shaft from the sides. The other, she is covering the whole length of your penis as her toes probe, encircle, and caress your crown… and an instant later, she is back to dragging her sole against your glans in small circles while her other foot fondles your sack.",
+                "The unceasing attack on all parts of your genitals results in constant stimulation that immerses you in a veritable pool of footjobby delight. Relaxed as you are, you make no effort to hold back the rising wave of ecstasy, and you can quickly feel yourself nearing the edge under Gren's unrelenting assault.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "The frog girl is quick to catch notice of your sharper breaths and feverishly twitching member, and she shifts again, her usually simple-minded expression turning into a mask of concentration and celebration.",
+                "Speaks",
+                "Next step now! I love this part.♥",
+                "True to her word, she grabs your cock firmly despite the unctuous coating thanks to her webbed toes, and presses more strongly than before. Then she slowly, teasingly grinds both her feet from your dick's head to its base, sending bolts of pleasure racing through your whole body as you cry out from the impending but elusive orgasm.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "Speaks",
+                "{i}Là, là…{/i}",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "She reverses her movement, until your tip is cozily nestled inside her dexterous toes, which lightly rub, dance, and pat your glans. With almost childlike playfulness, she continues edging you while she lays back, humming contentedly.",
+                "Frustration quickly builds up within you as, for a few endless minutes, the tide rises and falls under her control. Desperately eager to come, you move to grab her legs to get yourself off, but once again, Gren is quick to react with a tsk and a sudden squeeze that sends you back into your submissive posture.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Speaks",
+                "{i}Allons{/i}, don't worry, blueballing isn't my stuff.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "She stares at you with her large eyes and larger smile, and breathes out.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "Speaks",
+                "Ready?",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Grin",
+                "Without even thinking about it, you nod vigorously and she laughs again before lust and eagerness return to her face.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "Without warning, she reasserts her grip on your penis and masturbates you with her heavenly feet in earnest. Throwing away all restraint, she pumps and pumps and pumps your dick energetically. Immediately, all her previous handiwork bears fruit: the ecstasy returns in full force, and you feel the beginnings of an orgasm electrify your body.",
+                "While your rock-hard cock is being worked, your body tenses powerfully and your face goes slack, your tongue lolling out of your mouth and your eyes growing unfocused. Rapidly, your world is reduced to the impossibly high pleasure and to the unending {i}schlick, shlick, shlick{/i} of Gren's slippery deluxe footjob.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Ahegao",
+                "Speaks",
+                "Cum! Cum! Give it all to me!",
+                "Spurred by her enthusiasm and by the now unstoppable rush, you cry out and release it all. You climax hard, shooting several feet into the air to the gleeful encouragement of your partner. Even as you are coming, she doesn't let go for one second. If anything, her movements have intensified, her tireless legs, smooth feet, and dexterous toes giving it their all to reduce you to a slobbering mess.",
+                "A second orgasm rocks your frame, then a third, and you blank out from the overwhelming stimulation, your entire being wracked by the masterful massage. For a time, all you can do is give yourself up to the bliss, floating on a cloud of pleasure.",
+                "...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Tongue",
+                "When you regain consciousness, you are surprised to find your head slightly elevated, resting on a cool, supple cushion made of Gren's lap. As feeling returns to you, you see that the amphibian womans long and deft tongue is scooping up the semen all over your body, not leaving out a drop of the liquid that has splashed all over you.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Seeing that you have come to, she returns her lingual appendage to her mouth and appreciatively sloshes your seed before gulping it all down with a sigh of delight.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Embarrassed",
+                "Speaks",
+                "Aaaaaaah, {i}j'adore{/i}.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "She smiles down at you with a mixture of proud satisfaction and loving tenderness.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "Speaks",
+                "I don't need to ask if it was good for you too, right?",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Too tired to articulate words, you groan your assent, which elicits low chuckling ribbit from her. Running a fresh hand over your forehead and easily cupping the whole side of your head, she leans over you, her expressive, eager face filling your whole vision.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Grin",
+                "Speaks",
+                "Come back anytime you want to have some fun together, {i}d'accord{/i}?",
+                "Again, you mutter something half-indiscernible and weakly nod. Then you close your eyes and give in to the exhaustion, feeling yourself drift away for good.",
+                "ChangeSensitivity",
+                "Sex",
+                "3",
+                "ChangeFetish",
+                "Feet",
+                "5",
+                "ChangeFetish",
+                "Monstrous",
+                "5"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "StartOfCombat",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|GrenCombatEvents|/|Intro|n|"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Slimy Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Pout|n|La estimulación de los besos vigorosos de Gren es demasiado para ti, y sientes que tu miembro erecto cede, estimulando el semen antes de que Gren jadea en sorpresa y consternación.\"¡Qué pérdida!¡Podría haber bebido eso! \"",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Sparkling|n|Ya sea debido al placer traído por el ataque de besos o la emoción de mantenerse al día con ella, su cuerpo se siente electrificado, al borde de la liberación.¡Con un beso más, ya no puedes contener y eyacular!Gren aplaude sus manos en celebración, mirándote con ojos traviesos y ansiosos."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Slimy Smooch",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Pout|n|La estimulación de los besos vigorosos de Gren es demasiado para ti, y sientes que tu miembro erecto cede, estimulando el semen antes de que Gren jadea en sorpresa y consternación.\"¡Qué pérdida!¡Podría haber bebido eso! \"",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Sparkling|n|Ya sea debido al placer traído por el ataque de besos o la emoción de mantenerse al día con ella, su cuerpo se siente electrificado, al borde de la liberación.¡Con un beso más, ya no puedes contener y eyacular!Gren aplaude sus manos en celebración, mirándote con ojos traviesos y ansiosos."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Slimy Kisses",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Pout|n|La estimulación de los besos vigorosos de Gren es demasiado para ti, y sientes que tu miembro erecto cede, estimulando el semen antes de que Gren jadea en sorpresa y consternación.\"¡Qué pérdida!¡Podría haber bebido eso! \"",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Sparkling|n|Ya sea debido al placer traído por el ataque de besos o la emoción de mantenerse al día con ella, su cuerpo se siente electrificado, al borde de la liberación.¡Con un beso más, ya no puedes contener y eyacular!Gren aplaude sus manos en celebración, mirándote con ojos traviesos y ansiosos."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|Incapaz de resistir el asalto inhumano de la besos diabólicamente rápidos de Gren, te rompes y eyaculas en medio de su constante lamer, que solo parece estimularla a probar y devorarte con un fervor renovado.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Happy|n|Gren no te deja descansar por un instante, su boca y lengua aparentemente infatigables desmoronan tus defensas bajo sus ataques.No puedes soportar más y dejarlo salir, cubriendo los muslos de Gren con tu semilla para su considerable deleite.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Loving|n|Las atenciones bucales de Gren se vuelven sorprendentemente gentiles, convirtiéndose en un desfile amoroso de besos y vueltas.Ella toma el más breve de los descansos para susurrar un acogedor 'Continúa ahora, Cum. ♥' En tu oído con una rápida lamida.Como si estuvieras en el mando, tu orgasmo, haciendo su croak contento contra tu cuerpo tembloroso."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Slimy Frog Footjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Grin|n|Casi a pesar de ti mismo, te dejas hundir en el placer proporcionado por el trabajo de pie resbaladizo de Gren y volar tu carga, salpicando semen contra su suela, para su alegría y satisfacción.Como finalista, lo frota contra su glande aún sensible, provocando un jadeo de usted antes de que se retire.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|'¿Cómo te gusta eso, {i} Chéri {/i}?No obtendrás eso de ninguna chica. ♥ '' Sintiendo que estás al límite, Gren envuelve completamente sus dedos de los pies web alrededor de tu polla, proporcionando una experiencia similar a la luz de la carne que te envía a la alegría en erupción dentro de los confines de autocreno desu pie en espiral."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Slimy Footjob Massage",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Grin|n|Casi a pesar de ti mismo, te dejas hundir en el placer proporcionado por el trabajo de pie resbaladizo de Gren y volar tu carga, salpicando semen contra su suela, para su alegría y satisfacción.Como finalista, lo frota contra su glande aún sensible, provocando un jadeo de usted antes de que se retire.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|'¿Cómo te gusta eso, {i} Chéri {/i}?No obtendrás eso de ninguna chica. ♥ '' Sintiendo que estás al límite, Gren envuelve completamente sus dedos de los pies web alrededor de tu polla, proporcionando una experiencia similar a la luz de la carne que te envía a la alegría en erupción dentro de los confines de autocreno desu pie en espiral."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Slimy Dexterous Footjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Grin|n|Casi a pesar de ti mismo, te dejas hundir en el placer proporcionado por el trabajo de pie resbaladizo de Gren y volar tu carga, salpicando semen contra su suela, para su alegría y satisfacción.Como finalista, lo frota contra su glande aún sensible, provocando un jadeo de usted antes de que se retire.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|'¿Cómo te gusta eso, {i} Chéri {/i}?No obtendrás eso de ninguna chica. ♥ '' Sintiendo que estás al límite, Gren envuelve completamente sus dedos de los pies web alrededor de tu polla, proporcionando una experiencia similar a la luz de la carne que te envía a la alegría en erupción dentro de los confines de autocreno desu pie en espiral."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Thighjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|'Vamos, {i} Jouis {/i}.Cum para mí ♫. 'El prisionero indefenso de su delgada jaula de placer, no se puede resistir a ella más y estallar, disparando entre las piernas de Gren.Todo el tiempo, se asegura de seguir frotando y apretando tu virilidad, prolongando tu orgasmo el mayor tiempo posible.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Incapaz de escapar del exquisito Job de Gren, te pierdes en un momento de debilidad y eyaculan en largos y felices chorros.Te dejas ir en contra de Gren, quien suspira en contenido y te abraza, acurrucando su cabeza contra tu hombro.El gesto inesperadamente romántico se prolonga durante unos segundos antes de que ella se separe torpemente de ti."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Blowjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|La sensación de la boca deliciosamente pegajosa, fresca y cómoda te envía al borde y instantáneamente eyaculas.Sus ojos se abren de sorpresa y algunos de sus fugas de semen entre sus labios, pero se puede recuperar rápidamente y tragarlo todo, complacido con un resultado tan rápido y ansiosa por más.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|La novela e inimitable sensación de las fauces de Gren Diablogiosamente hospitalarias es demasiado para usted, y casi por su propia cuenta, se agarra de la cabeza y se apaga dentro de ella.Ella ni siquiera se estremece, sino que va perfectamente con el flujo, chupando y lamiendo con un ardor renovado.|n|You gasp, your hips buck, and you orgasm powerfully, your mouth going slack and your brain turning mushy for a moment as you cum long and hard into Gren who gladly accepts your semen.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|Jadeando y gruñendo, sientes que estás atrapado en un vicio de placer diseñado únicamente para ordeñarte de tu semen.Con una succión más poderosa de su torturador anfibio, su resistencia se rompe e inunda su boca hambrienta con semen, que traza con avidez, dejando escapar un grito de alegría amortiguado.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|El torrente implacable de las dulces sensaciones resbaladizas no te da tiempo para refrescarse, y en medio de otra combinación de lamidas y besos, te vas al límite.Gren inmediatamente responde y lo guía a una eyaculación cómoda y prolongada que deja su polla sintiéndose relajada y energizada.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|Jadeando, tu polla se sacude y tus ojos rodando hacia atrás, aprietas los dientes en un esfuerzo desesperado por contener la marea ascendente.Mirándote con una diversión traviesa, ella envuelve hábilmente su lengua alrededor de tu miembro y bombea rápidamente, casi vibrando.Con un gemido prolongado, te desmoronas y eyaculas en chorros, cada uno disparó más extasiado que el menos."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Abrumado por la atención entusiasta y untuosa de su amante, no puede resistirse más y dejarlo ir.Para lo que se siente como minutos completos de felicidad, todo su cuerpo se relaja mientras su polla dispara directamente a su pareja.Gren está muy feliz de recibir tu semilla, suspirando con contenido ella misma mientras pintas su interior blanco.|n|For a moment, she gives you a surprisingly loving glance for someone so happy-go-lucky, then she seems to recover and goes back to pounding your dick.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Loving|n|Sintiendo que te acercas a la liberación, Gren salta contra ti y envuelve todo su cuerpo alrededor del tuyo, dándote un beso agradable y grande de sorbo, que te domina con la boca.Incapaz de resistir la prisión de placer, agarras sus nalgas y te dejas entrar dentro de ella, eyaculando poderosamente en su sexo sin servicio.|n|All the while, she seems more than happy to let you enjoy yourself, looking at you with almost motherly affection while she softly strokes your head and whispers sweet nothings into your ear, filling you with the desire to just lie there and take it."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n|¡Yeees!{b} sí! {/b} 'Gren grita en la parte superior de sus pulmones cuando no puedes soportarlo más y tu semen se vierte en ella.Volvoriamente, te abraza y te mantiene contra ella mientras te pasas dentro de su culo, jadeando, gimiendo e instándolo hasta que le hayas dado todo lo que podrías ... luego, sin omitir un ritmo, ¡ella comienza a rebotar contigo de nuevo!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|Los ojos de Gren se iluminan cuando te ve que te acercas al orgasmo, y sus golpes se reducen en potencia e intensidad, hasta que no puedes soportarlo más y llenarla a tu alegría mutua e innegable, tu polla presionada y apretada con fuerza casi dolorosa a través de todo esto.."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Spank",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Grin|n|¡Eso es un buen ejercicio para mi trasero!¡Hazlo de nuevo!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Grin|n|'He he, how do you like my ass? Pretty nice, right?'",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Happy|n|¡Ese fue un buen sonido!Como \"¡Slap!\" '",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Eso es un poco inteligente!... ¡Pero me gusta un poco!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Whip",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Eso es un poco inteligente!¡Pero me gusta un poco!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|'¡Oof, eso realmente hace que la sangre fluya!'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Sparkling|n|¡Ooh, eso se ve elegante!¿Puedo probarlo a continuación?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Analyze",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Shock|n|¿Eh?¿Por qué me miras así?¿Hay algo en mi cara?",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Frozen|n|Gren parece confundido ante sus encantamientos, casi olvidando atacar a su vez ... casi.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Loving|n|'¿Me estás admirando?'Ella golpea una simulada pose de Coquettish, bateando las pestañas y haciendo pucheros cómicamente."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Demon Layer",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|'{i} la vache! {/i} ¿Qué es ese látigo?",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|'¡Oooooh!¡Eso no es algo a lo que estoy acostumbrado!... ¡Hazlo de nuevo!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Base|n|'¡Ja, ja, ja!¡Esta cosa es una locura!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Sparkling|n|'¿Eres algún tipo de amante sagrado?¡Alabado Venere!… ¿Creo?'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|Ella corre con sorpresa y placer bajo el efecto de la energía sagrada."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|'¿Él él, él, también te gustan las cosas de la boca?",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Cheerful|n|'Hmm, ¡me gusta eso!Es {i} Romantique! {/i} '",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|Con mucho gusto te besa, tratando de deslizarse en una lengua."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Face Fuck",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|'Hmmph!HMSCHLP!Mmphh !!! ♥ '",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|Ella te mira con los ojos con fogia mientras empujas dentro y fuera de su suave boca pegajosa, su lengua ágil larga girando alrededor de tu polla dura para lugar con un placer más lingual.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|Sus ojos brillan con un entusiasmo atractivo mientras usas indulgentemente su boca, como si te atregues a follarla aún más fuerte mientras ella sigue lamiendo y besando tu polla, la mamada descuidada resultó en un desastre deliciosamente lascivo de ruidos vulgares húmedos."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Make Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|'¿Él él, él, también te gustan las cosas de la boca?",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Cheerful|n|'Hmm, ¡me gusta eso!Es {i} Romantique! {/i} '",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Sparkling|n|¡Estaba a punto de hacerlo!Me encanta besar!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|Con mucho gusto te besa, dejando que tus lenguas se entrelazen."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Deep Kiss",
+                "Lovingly Rough Kiss",
+                "Skillfully Passionate Kiss",
+                "Misty Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|'Aaah ... mmh ... yeshh ...'",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella envuelve tu lengua en la suya y recíproca con el gusto.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|'Mmh ... mwah ... sho agradable ...'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|El aire está lleno de los sonidos de ti y los descuidados besos de Gren."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Sensually Seductive Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Shock|n|'Er ... ¿No estás siendo extrañamente tímido?'",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Hair|/|Sweat|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'... Puedes ir un poco más duro que eso, ¿sabes?|f|ChangeImageLayer|/|Hair|/|Base|n|",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Pout|n|A pesar de sus hábilmente besos lánguidos, parece insatisfecha con sus esfuerzos y parece listo para corresponder a un ritmo más para su gusto."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Penetrate",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Happy|n|'No es mi favorito, pero me gusta {i} aussi! {/i}'",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Loving|n|'MMH ... me estás llenando bien. ♥'",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Base|n|'Oh, ¿así es como quieres hacerlo?Bien para mi! '",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|Ella deja escapar un pequeño jadeo de sorpresa al entrar en ella, pero se apresura a lucir una sonrisa astuta mientras te mira a los ojos, sin inmutarse.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Base|n|Ella opina con su penetración, se adhiere a usted y comenzó a moverse a su vez mientras su interior aprieta y acaricia su virilidad."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|'¡Esperar!¡No aquí, soy sensibilidad!¡Oh sí!{b} sí! {/b} ♥ '",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|Tu polla encuentra su camino notablemente fácilmente en el culo de la chica de rana que se tensa y escasa con deleite.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|Sus ojos se paren y su mandíbula se floja por un momento, luego se vuelve hacia ti, sus ojos llenos de codicia y pasión en un grado casi preocupante.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|'¡Oooooh!¡Volteaste mi interruptor! ♥ '",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'{i} t'aurais pas dû faire ça… {/i} Ahora no podré contener ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Hazlo!¡Fóllame como lo dices en serio!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|Ella se acerca a ti, su pegajosa mucosidad que se adhiere a tu piel.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Un pequeño gemido la escapa.Parece estar divirtiéndose, a pesar de su falta de sensibilidad.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Hair|/|Sweat|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Lo siento, no soy muy sensible allí ... ¡pero todavía me gusta!'|f|ChangeImageLayer|/|Hair|/|Base|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|¿A-ah?¿Por qué te estás desacelerando?",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Eso es agradable, pero ...'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pout|n|A pesar del placer, ella te da una cara de lacitosa, claramente esperando más."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Pound",
+                "Carrying Fuck"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Hazlo!¡Fóllame como lo dices en serio!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Happy|n|'¡Oh!Entonces {i} Ennergique! {/i} Sigue así!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Hair|/|Sweat|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Lo siento, no soy muy sensible allí ... ¡pero todavía me gusta!'|f|ChangeImageLayer|/|Hair|/|Base|n|",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Varios gemidos escapan de su boca mientras la golpeas."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Arouse",
+                "Arousara"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|Ella se estremece, inhala bruscamente y retira una respiración larga y gimiendo bajo el efecto de tu magia.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Happy|n|¡Aah!... oh wow, eso fue ... {i} sorprendente {/i}. ♥ '",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'MMH ... Prefiero ser más físico, pero eso también es bueno ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Arousero",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|Ella se estremece, inhala bruscamente y retira una respiración larga y gimiendo bajo el efecto de tu magia.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Cheerful|n|'¡Ooooh! ♥ ¡Eso fue fuerte!'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'MMH ... Prefiero ser más físico, pero eso también es bueno ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Multi Thrust",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Hazlo!¡Fóllame como lo dices en serio!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Happy|n|'¡Oh!Entonces {i} Ennergique! {/i} Sigue así!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Hair|/|Sweat|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Lo siento, no soy muy sensible allí ... ¡pero todavía me gusta!'|f|ChangeImageLayer|/|Hair|/|Base|n|",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Happy|n|'¡Tan rápido!¡Estoy impresionado!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Ella gime en sintonía con tu rápido empuje."
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|¿A-ah?¿Por qué te estás desacelerando?",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Eso es agradable, pero ...'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Ella gime y se retuerde placentamente, aunque con un toque de frustración.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pout|n|A pesar del placer, ella te da una cara de lacitosa, claramente esperando más.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pout|n|'N-no así ... ¡Ve más duro!{i} Défonce Mon Cul! {/i}. '"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|'¡Oh sí!¡Sí, sí, sí!¡Sigue adelante!'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|'Aaaaah!¡Amo esto! ♥ '",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Mmm!¡Tu polla se siente tan bien en mi culo!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|Ella felizmente gemir y gime cuando reclamas su pegajoso trasero."
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": "Multi Thrust",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Una serie de pequeños gemidos la escapan mientras jadea y temblan bajo su empuje de fuego rápido.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|'¡Oh! ♥ K-k-manteniendo!{i} C'est Trop Bon! {/i} ♥ '",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|Ella balbucea incoherentemente, momentáneamente se convirtió en un desastre por su implacable asalto.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Happy|n|'¡Más!¡Dame más!¡Haz que mi trasero esté embarazada!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Happy|n|'¡No te detengas!¡Déme! ♥ '"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Pound",
+                "Anal Piston",
+                "Carrying Fuck"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|'¡Oh!¡OH!{i} Mon Cul!Oui! {/i} '",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|'Aaaaah!¡Amo esto! ♥ '",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|Ella llora con felicidad bajo tus poderosos empujes, su culo flexible no hace ningún esfuerzo para mantenerte alejado.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Su trasero se mueve ligeramente bajo el poderoso impacto de sus caderas, y casi le resulta difícil retirarse de su interior muscular por más.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Happy|n|'¡No te detengas!¡Déme! ♥ '"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": "Empowered Thrust",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Cheerful|n|Ella corre felizmente mientras el calor de tu magia se extiende a través de ella.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|'Aaaaah ... Amo tus trucos de magia ... ♥'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Avanza!{i} baise-moi {/i} con todo lo que tienes!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|'Aaaaah!¡Amo esto! ♥ '",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Ella deja escapar un gemido largo, prolongado y maravilloso."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Breast Caress",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ooh, eso es bueno ... seguro que eres práctico. ♥'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'O-oh ... la gente no suele prestar atención a mis senos ...'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'¿HOW te gustan?Sé que no son grandes, pero son, ¡mmh!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Se sonroja ligeramente mientras te ve jugar suavemente con sus alegres tetas.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Ella se cubre las manos con las de ella y exhala, claramente disfrutando de la sensación de sus manos sobre sus senos."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Breast Massage",
+                "Breast Knead",
+                "Breast Fondle"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Base|n|'Oh wow, estás bien ... podría acostumbrarme a esto. ♥'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'O-oh ... la gente no suele prestar atención a mis senos ...'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'¿HOW te gustan?Sé que no son grandes, pero son, ¡mmh!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Se sonroja ligeramente mientras te ve jugar suavemente con sus alegres tetas.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Cheerful|n|Ella cierra los ojos y deja escapar un suspiro feliz y agradable."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Suckle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Base|n|'Él él ... ¿te gusta hacer eso también? ♪'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Se sonroja debajo de tus bocados ministerios, sus ojos fijos en ti y su respiración más pesada.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'{i} b-bon garçon {/i}, él ...' Ella no puede evitar decir tímidamente.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|'... es mejor que no me despierte en mí.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'O-oh wow, eso es definitivamente pervertido ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pinch Nipples",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|¡Aah!¡Eso me tomó por sorpresa!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'O-oh ... la gente no suele prestar atención a mis senos ...'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'¿HOW te gustan?Sé que no son grandes, pero son, ¡mmh!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Ella deja escapar un jadeo de sorpresa, dolor y placer entremezclados.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Ella se estremece y se muerde el labio bajo el dolor ligero, pero no parece desanimado."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Grope Ass",
+                "Squeeze Ass",
+                "Massage Ass",
+                "Fondle Ass"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Grin|n|'¿Por qué {i} merci {/i}, me mantengo en forma! ♪'",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Happy|n|'Él, él, ¿cómo te gusta mi trasero?Bastante bonito, ¿verdad?",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Cheerful|n|'¡No dudes en seguir así! ♪'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Ella parece disfrutarte acariciando su trasero.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|Ella deja escapar un pequeño croak de sorpresa, pero sonríe y te saca la lengua."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Finger",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|'Él, él, me gusta un chico que es bueno con sus manos. ♥'",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Shock|n|'No es mi lugar favorito, ¿sabes?¡N-no que no aprecio el esfuerzo!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Base|n|Ella te ve estimular su coño con más curiosidad que excitación.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Cheerful|n|Ella presiona juguetonamente tu mano a sus privados, tus dedos se cubren con sus jugos."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Dildo",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|¿E-eh?¿Qué es esa cosa?¡Me gustaría tu polla mucho mejor!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Shock|n|'No es mi lugar favorito, ¿sabes?¡N-no que no aprecio el esfuerzo!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Base|n|Ella te ve estimular su coño con más curiosidad que excitación."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Seduce",
+                "Enamor",
+                "Smoldering Seduction",
+                "Mass Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Grin|n|'¡Él él, gracias!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Hair|/|Sweat|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|Ella te muestra una sonrisa confusa mientras coloca la cabeza.Ni siquiera estás seguro de que ella tenga exactamente tu significado.|f|ChangeImageLayer|/|Hair|/|Base|n|",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|'¡Fresco!... Entonces, ¿vamos a hacer estas cosas, o qué?",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Happy|n|'Bueno, ¡es amable de tu parte decir!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Smoldering Flaunt",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Grin|n|'¡Él él, gracias!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Sparkling|n|Ella aplaude con entusiasmo en su atractiva exhibición, parece más impresionada que excitada ..."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Massaging Seduction",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Hair|/|Sweat|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Hmm ... eso es bueno, pero ¿podemos llegar a la buena parte?|f|ChangeImageLayer|/|Hair|/|Base|n|",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|'Él, él, me gusta un chico que es bueno con sus manos. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Ear Tease",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|'¿Por qué me estás lamiendo allí?'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¿Son mis orejas tan eróticas?Tienes algunos problemas bastante específicos ... '",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Miffed|n|Ella mueve su oído experimentalmente, como si se preguntaba qué acaba de pasar.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Miffed|n|Una vez que hayas terminado, ella se vuelve hacia ti, frunciendo el ceño en desconcierto."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Bondage Net",
+                "Magical Binding"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|'¡H-hey!¡No soy un pez para quedar atrapado en una red!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Pout|n|¡Maldita sea!¡Ustedes aventureros y sus trucos!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|Ella está en apuros mientras lucha por liberarse.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Pout|n|Ella te mira con indignación impotente."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pin",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|'{i} F-Flûte {/i}, ¡eres más fuerte de lo que pensaba!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|¡Ooh, impresionante!¡Pero veamos cuánto tiempo puedes mantenerme así!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|\"Realmente querías pelear, ¿eh?\""
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Lewd Bottle",
+                "Cloying Mist",
+                "Erotic Mist",
+                "Placebo Pheromone"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Fantasizing|n|'¿Qué es eso?Que huele ... ja ... agradable ... ♥ '",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|En vano, trata de agitar el rocío afrodisíaco mientras sus mejillas sonrojadas de excitación.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pout|n|'¡Oye, ven y ponme caliente y molestado a ti mismo!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Charm",
+                "Charm Wave"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Happy|n|'Wow, realmente te ves ... {i} mignon {/i} ahora mismo ...'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Loving|n|'{i} Voulz-Vous Coucher Avec Moi Ce Soir? {/i}'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pout|n|'¡Oye, ya pensé que eres lindo, ya sabes!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Sparkling|n|Ella se sonroja y te mira con renovado entusiasmo."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Sensitize",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|¡EEEH!Que cosquillas!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|'¡Oh!Eso fue ... inesperado ... '",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'{i} oh la la {/i}, ¡ese es un buen truco!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Enfeeble",
+                "Favor's Misfortune"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Panic|n|¿W-Weh?¿Qué pasó?¿¡Qué hiciste!?'",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Pout|n|'{i} qu'est-ce que ... {/i} apuesto a que me hiciste algo extraño!{i} Cochon! {/i} '",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Shock|n|'¿No es eso trampa?¡Eso se siente como hacer trampa!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Disarming Appeal"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Shock|n|¿Eh?¿Quieres tomar un descanso?W-Well, ¡está bien!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Hair|/|Sweat|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Oh, ¿era demasiado duro contigo?{i} Désolée! {/i} '|f|ChangeImageLayer|/|Hair|/|Base|n|",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Cheerful|n|'¡Claro, no me importa tomarlo un poco más fácil!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Sleep",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Fantasizing|n|¿Qué? ¿Qué?Ahora no es el momento de una ... siesta ... '",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Shock|n|¿Eh?¿Eres del tipo al que le gusta hacer cosas a la otra persona cuando duermen?",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|Bosteza con fuerza, sin saberlo, mostrando cuán ancho puede abrir la boca."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Empowered Thrust",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Hazlo!¡Fóllame como lo dices en serio!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Hair|/|Sweat|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Lo siento, no soy muy sensible allí ... ¡pero todavía me gusta!'|f|ChangeImageLayer|/|Hair|/|Base|n|",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|'¡Oh!¿Qué fue eso?¡Todo fue cálido y hormigueante!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Un jadeo la escapa bajo el placer traído por tu polla empoderada."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Holy Headpat",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|GrenCombatEvents|/|Headpat|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Penetrate",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|GrenCombatEvents|/|NoThighjobSexOrAnal|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|GrenCombatEvents|/|NoThighjobSexOrAnal|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Electrify",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Eso es un poco inteligente!... ¡Pero me gusta un poco!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|¡ACK!¿Creías que funcionaría mejor porque estoy todo mojado?",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'¡Esa es una magia peryente elegante!'",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ow-ow-ow-ow!Que se siente raro!¡Pero bien también!"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Frog's Bouncing Mating",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'MMH ... MMMH!'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Frog's Clenched Pounding",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Frog's Frenzied Pounding",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Frog's Mating Squeeze",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|'Oye, {i} Chéri {/i}, ¿estás tratando de impregnarme?"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Frog's Reckless Pounding",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Frog's Slimy Grind",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Loving|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Jumping Assault",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Sparkling|n|'¡Vuela como una libélula, salta como un sapo!'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Leaping Assault",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Sparkling|n|'Hiiiiyaaaa!'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Mouth Invasion",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Nimble Frog Capture",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|'{i} Bon appétit! {/i} ♪'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Slimy Blowjob Squeeze",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Slimy Dexterous Footjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Grin|n|¡No hay manos!Impresionante, {i} pas vrai? {/i} '"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Slimy Footjob Massage",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Cheerful|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Slimy Frog Footjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Slimy Frog Tongue Capture",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Tongue|n|'¡Listo, objetivo, fuego!'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Slimy Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Slimy Kisses",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Loving|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Slimy Pumping Blowjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Slimy Smooch",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Loving|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Slimy Thigh Capture",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|'{i} et hop-là! {/i}'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Slimy Thighjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Cheerful|n|'¡Es mi especialidad!¡Disfrutar!'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Slimy Thighjob Pump",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Cómo te gusta eso? ♪'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Slimy Thighjob Squeeze",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Cheerful|n|'Sobrequeo compresión exprime ~ ♪'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Slimy Thigh Lock",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Cheerful|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Slimy Vacuum Blowjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Swirly Blowjob Assault",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Swirly Blowjob Kisses",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Loving|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Swirly Blowjob Slurp",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Swirly Kiss Flurry",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Loving|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Swirly Kiss Slather",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Swirly Tongue Assault",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Tongue Invasion",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Tongue|n|"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Making Out",
+            "theText": [
+                "[ThePlayerName] intenta alejar la cara de Gren de él y detener su implacable asalto lingual ...",
+                "[ThePlayerName] intenta detener la sesión de besos de Gren antes de que ella sea todo lo que pueda probar y oler ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Making Out",
+            "theText": [
+                "... ¡y logra despegarse la boca de la suya!",
+                "... ¡y libra con éxito su boca de su lengua invasiva!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Pout|n|Su lengua vuelve a su boca con un chasquido mientras te mira con un puchero y venganza en los ojos.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Pout|n|'Ganas esta ronda, {i} rabat-joie! {/i}'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Making Out",
+            "theText": [
+                "... ¡Pero su lengua viscosa está enganchada dentro de su boca, lo que hace imposible alejarla de él!",
+                "... ¡Pero no puedo dejar de dejar que la fusión del cerebro lamida!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|BaseBlush|/|Base|n||f|ChangeImageLayer|/|Expression|/|Sparkling|n|Sus ojos se iluminan con una emoción renovada y se mueve hacia atrás para besar [ThePlayerName] con gusto.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|Ella se ríe por dentro de la boca de [ThePlayerName] y se aferra más fuerte contra él."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Thighjob",
+            "theText": [
+                "[ThePlayerName] reúne su fuerza e intenta alejar a Gren para quitarle la polla de los confines de sus piernas ...",
+                "Usando el lubricante natural de Gren contra ella, [ThePlayerName] intenta alejarse del agarre de sus muslos ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Thighjob",
+            "theText": [
+                "… ¡Y logra liberarte!",
+                "... y se separa con éxito de ella!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Thighjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Sad|n|'¡Aww, me encantó sentir la calidez de tu polla contra mí!'",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Miffed|n|\"Ella gime abatida y mira hambrienta hambrienta al pene de [ThePlayerName] rebotando del movimiento\"."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Thighjob",
+            "theText": [
+                "... ¡Pero su agarre de acero en su eje es implacable!",
+                "... ¡Pero no puedo negar el placer de sus resbaladizos muslos lubricados!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Thighjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Grin|n|'¡Él, estoy bastante orgulloso de la fuerza de mis muslos!' '",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Grin|n|Sonriendo orgullosamente, ella mueve su trasero, provocando un jadeo de [ThePlayerName]."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Blowjob",
+            "theText": [
+                "[ThePlayerName] aprieta los dientes y agarra un puñado del cabello de Gren Mussy, tirando de su entrepierna ...",
+                "Con un movimiento de sus caderas, un paso de distancia y un impulso, [ThePlayerName] intenta alejarse de la mamada de Gren ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Blowjob",
+            "theText": [
+                "… ¡Y con un pop húmedo y un ruido de sorbo, se las arregla para liberar su polla de los límites pegajosos de su boca!",
+                "... Lo cual claramente no esperaba: la confusión muestra en su rostro cuando la polla de [ThePlayerName] se desliza hacia afuera y de sus labios y lengua enrollada!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Blowjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Pout|n|¡Nooo!¡Me encanta cómo sabes!T'es Trop Méchant ... 'Hacde hace un vistazo mientras sobresale la lengua, claramente con la intención de vengarse de la leve.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Miffed|n|Ella gira mientras trae su órgano lingual a su boca, mirando la polla de [ThePlayerName] con anhelo."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Blowjob",
+            "theText": [
+                "... Pero sus labios están literalmente pegados a su ingle y ella no se moverá!",
+                "... que inicialmente parece tener éxito, pero su lengua permanece firmemente unida a su polla."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Blowjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|Completa de tener la ventaja, ella 'recompensa' [ThePlayerName] con una succión estimulante que lo hace renunciar a su intento por el bien.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|Como un enrollamiento de primavera en sí, Gren reafirma el control de su lengua sobre el miembro masculino de [ThePlayerName] con una sonrisa triunfal."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Sex",
+            "theText": [
+                "Cambiando de opinión sobre el apareamiento con Green, [ThePlayerName] va a deslizarse su polla de ella ...",
+                "[ThePlayerName] agarra los hombros de Gren e intenta separarlos ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Sex",
+            "theText": [
+                "... ¡y libera con éxito su polla de su sexo!",
+                "... y triunfa!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Pout|n|'{i} tu sais pas ce que tu veux ... {/i}' Ella hace pucheros mientras te distancias.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Cheerful|n|'¿Oh?¿Tuviste suficiente apareamiento?¡Bien por mi!No me importa, aunque su tono burlón se complementa con su risa de ribetes mientras se prepara para su próximo movimiento."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Sex",
+            "theText": [
+                "... ¡Pero ella parece haber decidido que su polla está aquí para quedarse!",
+                "... ¡Pero su coño simplemente no soltará su polla!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|'Oye, lo empezaste, ¡así que es mejor que lo termines!'Ella tutora provocativamente",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|'Ven oooon, no seas {i} girouette {/i}.Me aseguraré de que no te arrepientas."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Anal",
+            "theText": [
+                "A pesar de la falta de voluntad de Gren para dejarlo ir, [ThePlayerName] agarra su hombro y lucha por alejarle el culo de su polla ...",
+                "Apretarse los dientes, [ThePlayerName] intenta interrumpir el implacable rebote de Gren ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Anal",
+            "theText": [
+                "... ¡y logra liberar su polla!",
+                "... y triunfa, Gren se desprende con un sincero e indignado Croak."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|De alguna manera, recupera instantáneamente sus sentidos y se sonroja furiosamente, incapaz de mirarte a los ojos durante unos segundos.",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Panic|n|¡Nooooo!¿Por qué eres tan cruel?"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Anal",
+            "theText": [
+                "... Pero ella golpea su trasero de regreso contra [ThePlayerName]!",
+                "... Pero ella se niega a dejarlo ir, con firmeza la polla de [ThePlayerName] con su trasero!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Ahegao|n|Huffing and Giming, te mira en un delirio de placer.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'No-no-no-no!¡Sigue adelante!¡Sigue adelante!''"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Shock|n|¡Daaamn, estás bien!¡Vamos Gren, no te rindas!",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Base|n|Gren está jadeando fuertemente en la excitación, pero no se centra menos en la pelea.",
+                "|f|ChangeImageLayer|/|Base|/|BaseBlush|n||f|ChangeImageLayer|/|Expression|/|Happy|n|'Me estás dando un entrenamiento real, ¿sabes?'Ella bromea juguetonamente, sus mejillas sonrojadas y su postura vacilante."
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|'Él, él, parece que realmente lo estás sintiendo. ♪ ¿Por qué no dejas de resistirme y me dejas cuidar de ti? ♥'",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Grin|n|Al notar tu excitación, te dispara una sonrisa triunfante, preparando su próximo ataque."
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n|¡T-Too mucho!¡Yeeeeeeeess!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n|'¡Oh, no!¡Me siento iiiiiiiiit!",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n|Con un croak rotundo y prolongado que resuena en el bosque,"
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Qué?¿¡Eso es todo!?Phooey ... ¡Oh, bueno, es hora de cavar! ♪ '",
+                "|f|ChangeImageLayer|/|Base|/|Base|n||f|ChangeImageLayer|/|Expression|/|Grin|n|'Ho Ho, ¿viniste aquí solo para darme tu semen?Bueno, ¡no te importe si lo hago!"
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "AnalVictory",
+            "move": "",
+            "stance": "Anal",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                "ChangeBGM",
+                "music/Loss/BGM03_Uncanny light.mp3",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "BaseBlush",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Ahegao",
+                "But despite her defeat, she is still hanging on, facing you to firmly grasp you with both her arms and legs, an uncharacteristic look of unbridled lust in her usually playful eyes.",
+                "Speaks",
+                "OoOOh! AAaAAAh! Don't stop! Keep plowing me!",
+                "It's like she's in a trance, her spasming butt still squeezing on your erect cock while she gazes at you feverishly.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "All too happy to oblige, you grab her well-defined hips with both of your hands, eliciting a happy gasp from her, and start bouncing her on your shaft.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Ahegao",
+                "Unresistingly, she moans raptorously, subjecting herself to you and clenching you all the tighter while her ass makes no effort to keep your dick away. On the contrary, it's like her rear is gluttonously seeking to claim more and more of your member, drawing you as deep as possible with each thrust, its self-lubricated, gooey confines welcoming you more readily than ever.",
+                "Her muscular anus combined with her natural mucus and thorough willingness making the experience thoroughly enjoyable, and you redouble the intensity of your plowing.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Orgasm",
+                "Speaks",
+                "{i}Oui ! Ouiii ! J'adore ! Continue !{/i} Keep goii{b}ii{/b}ing!",
+                "Grabbing her tighter and ramming her harder, you intensify your movements, your hips slamming against her buttocks, adding to the goopy sounds your cock makes as it slides in and out of her confines.",
+                "With how light and pliable she is, you're treating her like a living sex toy, and she couldn't be happier about it, gasping and moaning her heart out.",
+                "Her ecstatic words of encouragement have devolved into a half-incomprehensible litany of foreign expletives, her head thrown back in pleasure. You aren't doing much better on your end, grunting and huffing almost animalistically as you feel the pleasure quickly build up from the enthusiastic receptiveness of your partner.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "Shivering with bliss, she still has retained enough sanity to raise her head toward you. Her mouth agape, her large eyes clouded with delight, she articulates almost desperately.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Ahegao",
+                "Speaks",
+                "K-Kiss me...",
+                "You grant her wish with ravenous gusto, claiming her lips and aggressively invading her mouth and tongue, getting light-headed from the nectar-like substance she has been secreting in increased amounts.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Fantasizing",
+                "Closing her eyes, she opens herself to your assaults, answering them in kind, the slimy makeout session proceeding uninterruptedly while you unflinchingly carry out your plowing.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Ahegao",
+                "Speaks",
+                "{i}Oh oui ! Oui ! {b}Ouiiiii !{/b}{/i}",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Orgasm",
+                "While she squeals and moans, her jaw goes slack, her eyes roll back, and she squeezes your whole body with almost painful intensity, in the throes of an anal orgasm.",
+                "Getting closer and closer to release yourself, you redouble your thrusts, getting yourself off of Gren's welcoming rear with more abandon than ever.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Ahegao",
+                "The frog girl herself seems to be in another world of anal ecstasy, entirely lost to the pleasure brought by your relentless cock and tight embrace. All that comes out of her mouth are now throaty gasps and squeaks, though she is kissing you as fiercely as ever, and her clenching butt clearly hasn't had enough of your dick.",
+                "Knowing that you're on the home stretch, you gather your strength and, struggling to keep a good grip on your slippery lover's slick body, you ram her more fiercely than ever, making the most of the unctuous frog mucus that seems to make your sensations both smoother and last-longingly enjoyable.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Orgasm",
+                "Finally, with one last, powerful meeting of your hips and Gren's buttocks, you let yourself go. Letting the pleasure submerge you, you come inside your partner's hungry butt, your cry of release matched by a mighty ribbit from her as she feels your seed flood her confines.",
+                "PlayerOrgasmNoSpiritLoss",
+                "For a long, delightful moment, you both remain frozen in climactic glee, riding your mutual orgasm for as long as you can. Gren's vice-like ass milks you for all you're worth, coaxing spurt after spurt from you until you have nothing more to give, your groans of primal mating giving way to panting breaths.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Ahegao",
+                "In short notice, your aching legs and hips assert themselves and you come down from the mucus-induced mini-high with a spinning head, almost falling over.",
+                "You save face rather nicely, however, managing instead to gently lower yourself to the grassy ground with Gren still glued to you, the frog girl starting to recover from her successive orgasms.",
+                "You lay on your side, face to face with her loving, thoroughly pleasured grin. Almost shyly, she brings her face forward to plant an affectionate, grateful smooch on your lips.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "Speaks",
+                "Aaah... Aaah... That was... {i}merveilleux{/i}.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Fantasizing",
+                "Depleted of her usually boundless energy, the frog girl closes her eyes and starts fading for good, leaving you with an almost sad feeling as you share one last hug.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cheerful",
+                "Speaks",
+                "Come see me again whenever you want. It's always a pleasure.♥",
+                "DisplayCharacters",
+                "EndLoop",
+                "With those parting words, you are left to recover in the tranquility of the forest, and after a few minutes of lying down and a quick clean-up, you resume your adventure."
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Base",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "0.04",
+            "setYalign": "0.165",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Gren/Gren_Body_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "BaseBlush",
+                    "File": "Monsters/Gren/Gren_Body_Blush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Hair",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Gren/Gren_Hair_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Sweat",
+                    "File": "Monsters/Gren/Gren_Hair_Sweat.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Ahegao",
+                    "File": "Monsters/Gren/Gren_Expression_Ahegao.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Gren/Gren_Expression_Smiling.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Cheerful",
+                    "File": "Monsters/Gren/Gren_Expression_Cheerful.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Embarrassed",
+                    "File": "Monsters/Gren/Gren_Expression_Embarrassed.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Fantasizing",
+                    "File": "Monsters/Gren/Gren_Expression_Fantasizing.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Frozen",
+                    "File": "Monsters/Gren/Gren_Expression_Frozen.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Grin",
+                    "File": "Monsters/Gren/Gren_Expression_Grin.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Happy",
+                    "File": "Monsters/Gren/Gren_Expression_Happy.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Loving",
+                    "File": "Monsters/Gren/Gren_Expression_Loving.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Miffed",
+                    "File": "Monsters/Gren/Gren_Expression_Miffed.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Orgasm",
+                    "File": "Monsters/Gren/Gren_Expression_Orgasm.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Panic",
+                    "File": "Monsters/Gren/Gren_Expression_Panic.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pleasured",
+                    "File": "Monsters/Gren/Gren_Expression_Pleasured.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pout",
+                    "File": "Monsters/Gren/Gren_Expression_Pout.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Sad",
+                    "File": "Monsters/Gren/Gren_Expression_Sad.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Seductive",
+                    "File": "Monsters/Gren/Gren_Expression_Seductive.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Shock",
+                    "File": "Monsters/Gren/Gren_Expression_Shock.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Sparkling",
+                    "File": "Monsters/Gren/Gren_Expression_Sparkling.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Teasing",
+                    "File": "Monsters/Gren/Gren_Expression_Teasing.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Tongue",
+                    "File": "Monsters/Gren/Gren_Expression_Tongue.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}

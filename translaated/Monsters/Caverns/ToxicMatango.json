@@ -1,0 +1,1020 @@
+{
+    "name": "Toxic Matango",
+    "IDname": "Toxic Matango",
+    "species": "Plant",
+    "gender": "female",
+    "description": "Una mujer desnuda con piel blanca pálida pálida, ojos púrpuras esquemas con esclera negra, cabello negro que cae en la cintura y una robusta gorra de hongo morado con grandes manchas negras sobre su cabeza, que a una mirada se ve casi idéntica a unasombrero.Su amplia sonrisa es a la vez lasciva y siniestra, ya que habitualmente levanta una de sus manos para rastrear sus dedos sobre sus labios.Sus senos de la taza B son completamente suaves y aparentemente sin pezones.Ambas muñecas están rodeando por la cabeza de un hongo que apunta hacia su mano como un brazalete o el puño de un atuendo, dejando las branquias de la parte inferior apuntando hacia su brazo blanco de hueso.Su trasero considerable es perfectamente suave, y sus piernas terminan en un tallo fibroso justo debajo del nivel de la rodilla, donde los champiñones más pequeños les gusta el que sale de la cabeza.",
+    "encyclopedia": "Solitary mushroom women that prefer to live in dark and damp caves that utilize a variety of different spores to entice and incapacitate their prey. This variety of matango is significantly more dangerous and predatory than their calmer and kinder red capped sisters, leaving them eager to draw in any and all prey they find with a fake loving smile and mind melting aphrodisiacs before they paralyze their victims and wring them dry of all their sexual fluids.\n\nLuckily, due to their stationary nature, if a toxic matango has been found previously it is easy to remember where they are, and as such many signs have been posted within the mountain to warn where many of them lay, but some may be unmarked, and they are intelligent enough to occasionally remove the signs themselves with the help of other monster girls, so caution is advised at all times when exploring areas where they may live.\n\nIt is uncommon for this species of matango to find, or have interest in a dedicated mate due to their amoral nature, but some have been known to become overly attached and clingy to certain individuals, becoming possessive and appearing to fall in love, but given their nature, it is hard to tell the difference between a toxic matango in love and one faking it to receive nutrients easily. Another important thing to note is that while their spores are not addictive in nature, certain individuals have been known to become addicted to the pleasure these varieties of matangos can give, so caution is advised if you encounter them.\n\nWARNING to any women: EXTREME care should be taken if this kind of matango is encountered, as repeated exposure to their spores and multiple orgasms can eventually lead to your transformation into a matango yourself. Be sure to visit the church regularly for purification to help prevent this. It is important to note that while this variety of matango is regarded as malicious in nature, there has been no substantiated evidence to show that they have ever intentionally turned women into matangos, but repeated unprotected exposure will still lead to transformation.",
+    "tags": "none",
+    "generic": "True",
+    "requires": [
+        "Labyrinth Checkpoint Gem"
+    ],
+    "skillList": [
+        "Lecherous Spores",
+        "Toxic Temptation",
+        "Paralysis Spores",
+        "Tighten",
+        "Sensual Gyration",
+        "Lecherous Kiss"
+    ],
+    "perks": [
+        "Alluring",
+        "Sex Adept",
+        "Sex Expert",
+        "Schemer",
+        "Monster Pacing",
+        "Honey Trap",
+        "Clingy",
+        "Undeniable Pleasure"
+    ],
+    "stats": {
+        "lvl": "25",
+        "Exp": "200",
+        "max_hp": "500",
+        "max_ep": "10",
+        "max_sp": "1",
+        "Power": "10",
+        "Technique": "5",
+        "Intelligence": "15",
+        "Allure": "25",
+        "Willpower": "10",
+        "Luck": "6"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "50",
+        "Ass": "50",
+        "Breasts": "100",
+        "Mouth": "100",
+        "Seduction": "25",
+        "Magic": "150",
+        "Pain": "50",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "25",
+        "Charm": "50",
+        "Aphrodisiac": "150",
+        "Restraints": "0",
+        "Sleep": "150",
+        "Trance": "0",
+        "Paralysis": "0",
+        "Debuff": "0"
+    },
+    "moneyDropped": "900",
+    "ItemDropList": [
+        {
+            "name": "Toxic Matango Mushroom",
+            "dropChance": "75"
+        },
+        {
+            "name": "Toxic Matango Mushroom",
+            "dropChance": "50"
+        },
+        {
+            "name": "Toxic Matango Mushroom",
+            "dropChance": "25"
+        },
+        {
+            "name": "Fae Moon Rune",
+            "dropChance": "10"
+        },
+        {
+            "name": "Tiny Fungal Lantern",
+            "dropChance": "1"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "Loss",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Toxic Matango"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "You're left in a helpless daze from the matango and her lust-inducing spores, sex is the only thing left in your thoughts, and in an instant you're in her sinister embrace, your cock firmly hilted in her tight pussy.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LewdDevious",
+                "Speaks",
+                "Hehehe,♥ can't fight anymore?♥ That's okay.♥ Just empty your balls inside me.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewd",
+                "You gasp as your entire body tenses in pleasure from her hips gently swaying and grinding against you, her pussy tightly clamped around your raging erection, giving every inch of it a delightful massage.",
+                "Amidst the purple haze of spores you're breathing in, you faintly notice yellow ones intermixed, and your body becomes increasingly numb and hard to move, keeping your arms firmly locked around her slim body.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "DominantHappy",
+                "Speaks",
+                "Soon you won't be able to move.♥ So relax,♥ let me wring out a nice,♥ thick,♥ load.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewd",
+                "PlayerOrgasm",
+                "1",
+                "With a sudden wiggle of her curved hips you're left crying out in bliss, your cock erupting thick ropes of cum directly into her womb, her aphrodisiac spores keeping you unbelievably aroused and eager to cum, the melty orgasm letting them gain even more control over your pleasure drunk body and your arms and legs go completely numb.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LewdDevious",
+                "Speaks",
+                "Hehe,♥ with each orgasm the paralysis is going to set in more and more.♥ Until the only thing you can feel is your dick getting milked dry.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "She nuzzles the side of your neck with an evil giggle, still gyrating her hips around your stiff erection, endlessly stimulating your aching oversensitive manhood, sending sweet jolts of bliss through your entire cock as her cervix delightfully grinds against your spasming tip.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "DominantHappy",
+                "Speaks",
+                "So don't hold back,♥ fill me to the brim with your seed.♥ Just cum until it's all you can do.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewd",
+                "With a powerful gulping motion, her pussy milks out another thick load from your spasming cock, making your brain blank out in a daze of aching need, most of your body going completely numb from the orgasm, leaving every caress of her snug pussy even more heavenly.",
+                "Her gently swaying hips make your aching dick twitch and throb in bliss as her pussy delightfully squeezes your full length in time with her movements, keeping your balls tensed and ready to unload again, the feeling in your face and neck quickly vanishing.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LewdDevious",
+                "Speaks",
+                "Hahhh,♥ it's so warm inside me.♥ But I know you're not out yet.♥ Come on,♥ empty your aching balls again.♥",
+                "PlayerOrgasm",
+                "1",
+                "You whimper in pleasure as your cock spurts another load into her insatiable womb, a chill running through you as the only sensitive skin you have left is your rigid manhood, her twisting and gyrating hips overloading your brain with bliss as you take shakey desperate breathes of air filled with aphrodisiacs.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "DominantHappy",
+                "The matango purrs sweetly as she works to milk out the next load, keeping your throbbing cock constantly stimulated with her squeezing pussy, keeping your mind focused on the orgasmic ecstasy she's giving you while she starts to whisper in your ear.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "Speaks",
+                "It feels so good, doesn't it?♥ Getting milked completely dry.♥ You won't think twice about fucking a matango after this.♥",
+                "Her pussy ripples around your spasming shaft, milking out another spurt of semen from your churning balls, you can practically feel them working to make more cum for her due to her aphrodisiacs.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewd",
+                "Speaks",
+                "You just won't be able to resist that urge will you?♥ The urge to pound our tight pussies,♥ and dump load after load of cum into us.♥",
+                "Your mind is completely lost in sexual bliss and pure instinctive desire as you pour another load of your seed into her womb, and you can't help but find her suggestions so agreeable while completely fuck drunk from her tight slit.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LewdDevious",
+                "Speaks",
+                "You just want to fuck and cum over and over.♥ Breeding our naughty pussies.♥ And we'll take in every drop your heavy balls will offer.♥",
+                "PlayerOrgasm",
+                "1",
+                "A quiver of bliss cascades through you as you unload a particularly thick stream of cum into her churning pussy, her hips gentle sway coaxing out every drop even as your vision starts to darken.",
+                "PlayerOrgasm",
+                "1",
+                "Her sinful whispers fade into the background as you drown in pleasure, lost in the feeling of filling her tight pussy over and over again, until you finally blackout completely, your dreams filled with sexy mushroom women who you thoughtlessly fuck over and over...",
+                "ChangeFetish",
+                "Sex",
+                "5",
+                "ChangeSensitivity",
+                "Sex",
+                "10"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "SetMusicTo",
+            "move": "",
+            "theText": [
+                "music/Forest Dungeon/chain.mp3"
+            ]
+        },
+        {
+            "lineTrigger": "StartOfCombat",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|MatangoCombatEvents|/|IntroToxic|n|"
+            ]
+        },
+        {
+            "lineTrigger": "EndOfRound",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|MatangoCombatEvents|/|AutoFuck"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Arouse",
+                "Arousara",
+                "Arousero"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'Mnnnn ... ♥ Eso está jugando sucio. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'¡Ahhh! ♥ Y-yo me hará que me corra sin siquiera tocarme. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'Ohhh ... ♥ mn- ♥ por favor, ♥ al menos fóllame. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'Jajhhhh ... ♥ esto se siente tan maravilloso. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Electrify",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Concern|n|'Tch...'",
+                "|f|ChangeImageLayer|/|Expression|/|Concern|n|Ella sisea en una mezcla de dolor y placer."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Spank",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Jeje, ¿estás tratando de castigarme?",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿Te gusta tanto mi trasero? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Mnnn ... ♥ no te detengas. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Whip",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Concern|n|'Tch...'",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'Solo espera hasta que estés todos los míos, te devolveré por eso. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Demon Layer",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'Mnnnn ... ♥ Eso está jugando sucio. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'Ohhh ... ♥ mn- ♥ por favor, ♥ al menos fóllame. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Jeje, ¿estás tratando de castigarme?",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'Solo espera hasta que estés todos los míos, te devolveré por eso. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Holy Headpat",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'No seas tímido, date la cabeza tanto como quieras. ♥' Sus esporas se desplazan en mayor intensidad ...",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Awww, eres tan dulce. ♥ Así que quédate allí. ♥' Sus esporas se desplazan con mayor intensidad ..."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Bondage Net",
+                "Magical Binding"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Jeje, ♥ me vas a follar ahora? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Oh mi ♥ no estás rizado ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pin",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Jeje, ♥ me vas a follar ahora? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Oh mi, ♥ que contundente. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Grope Ass",
+                "Squeeze Ass",
+                "Massage Ass",
+                "Fondle Ass"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Juega con mi trasero tanto como quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'¿No es tan maravillosamente suave? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Jajaja ... ♥ tus manos se sienten tan bien. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Giggle|n|'Hehehe.♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Breast Caress",
+                "Breast Massage",
+                "Breast Knead",
+                "Breast Fondle"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Sé tan duro con mis tetas como quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'¿No son tan maravillosamente suaves? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Jajaja ... ♥ tus manos se sienten tan bien. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Giggle|n|'Hehehe.♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Suckle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Ni siquiera tengo pezones, ♥ pervertido ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Sé tan duro con mis tetas como quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿No son tan maravillosamente suaves? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Es una pena que mis tetas no liberen esporas ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pinch Nipples",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Giggle|n|'Hehehe.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Ni siquiera tengo pezones, ♥ pervertido ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Sé tan duro con mis tetas como quieras. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Finger",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Continúa, ♥ Peguelo ya. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Deja de burlarse de mí y fóllame. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Eres una burla. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Dildo",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Oh, ♥ apuesto a que no es nada comparado con tu polla. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Deja de burlarse de mí y fóllame. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Vamos, ♥ quiero que me follas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Eres una burla. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Giggle|n|'Hehehe.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Eres tan dulce. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Make Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Giggle|n|'Hehehe.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Si insistes. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Bueno, ¿no eres romántico? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Deep Kiss",
+                "Lovingly Rough Kiss",
+                "Skillfully Passionate Kiss",
+                "Misty Kiss",
+                "Sensually Seductive Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Estás haciendo que mi corazón sea corriendo. ♥' Su sonrisa malvada dice lo contrario.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'No dejes de besarme, solo olvídate de todo lo demás. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Jeje, ♥ nuestras mentes van a quedar en blanco. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Ah ... ♥ No te detengas ... ♥' Parece bastante no afectada ..."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Penetrate",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|MatangoCombatEvents|/|Penetrate|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Thrust",
+                "Pound",
+                "Multi Thrust",
+                "Carrying Fuck",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|MatangoCombatEvents|/|Thrust|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Empowered Thrust",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|MatangoCombatEvents|/|Empowered Thrust|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Tantric Thrust",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|MatangoCombatEvents|/|Tantric Thrust|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Si estás jodiendo mi trasero, puedes ser tan duro como quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Asegúrate de respirar profundamente mientras me follas. ♥' Puedes ver más de sus esporas que ya flotan ...",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Vas a romper mi trasero si lo follas con eso. ♥' Su expresión es una burla bastante malvada.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Oh no, no sé si puedo tomar esa gran polla. ♥' Su sonrisa lasciva dice lo contrario ..."
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Thrust",
+                "Channeling Thrust",
+                "Pound",
+                "Multi Thrust",
+                "Carrying Fuck"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Eres tan grande. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡Fóllame todo el día! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡Nunca te topes! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'M-my Heart está corriendo ... ♥' Su sonrisa malvada dice Otro sabio.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Vamos, ♥ más duro! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": "Empowered Thrust",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'A-ahh- ♥ th-que está jugando sucio! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'¡Ohhh! ♥ F-Fuck Me todo el día! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'Y tú estás haciendo mi cerebro mellllt! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'A-ah!F-Feels tan bien! ♥♥♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'¡H-Harder! ♥ Break Me! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": "Tantric Thrust",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Jeje, yo también te amo ... ♥' Su sonrisa malvada dice lo contrario.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Ah ... ♥ No te detengas ... ♥' Parece bastante no afectada ...",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'M-my Heart está acelerando ... ♥' Su sonrisa malvada dice lo contrario.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Eres tan grande. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Seduce",
+                "Enamor",
+                "Smoldering Seduction",
+                "Smoldering Flaunt",
+                "Massaging Seduction",
+                "Mass Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Oh, bueno, ¿no eres el halagador? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Mmm, ♥ ya estoy mojado, así que vete a la mierda ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Jejeje, ♥ podríamos follar durante días si realmente quieres. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Tan romántico. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Ear Tease",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Worried|n|Ella te da una mirada confusa y desconcertada."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Charm",
+                "Charm Wave"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Oh, ♥ probablemente no deberías haber hecho eso. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Ahora te quiero aún más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¿No me llenarás con cada gota que tengas?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Enfeeble",
+                "Sensitize"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Worried|n|'Oh, no juegas justo, ¿tú?",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Oh, eres un pervertido, ¿verdad? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Jejeje, juega con mi cuerpo todo lo que quieras. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Disarming Appeal"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Jeje, qué lindo, ♥ Jugué contigo mucho. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'No tengas miedo, solo ven aquí y fóllame todo lo que quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Es como si me pidieras que te atormienta. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Jejeje, ♥ te mostraré mucho de {i} amor {/i}. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Paralysis Spores",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'Pronto serás todo mío. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Solo relájate, ♥ No quiero intentar escapar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LewdDevious|n|'Una vez que estés amable y paralizado, te ordeñaré completamente seco. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Sigue empujando mientras cuido todo lo demás. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Si comienzas a sentirte un poco entumecido, no te preocupes por eso. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Tighten",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'¡Eres tan grande! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡Vamos a follar todo el día! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Voy a ordeñarte seco. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¿Están mis esporas que te conducen salvajes? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Jejeje, puedo sentir tu polla palpitante y titulando. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'No te detengas, ♥ Empuja tus caderas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'Ahhh, ♥ No puedo esperar a que tu semilla me llene. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Vamos, ♥ vuelve salvaje. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "usesMoveA",
+            "move": "Tighten",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'¡Eres tan grande! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡Vamos a follar todo el día! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Voy a ordeñarte seco. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¿Están mis esporas que te conducen salvajes? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Jejeje, puedo sentir tu polla palpitante y titulando. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'No te detengas, ♥ Empuja tus caderas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'Ahhh, ♥ No puedo esperar a que tu semilla me llene. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Vamos, ♥ vuelve salvaje. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Sensual Gyration",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'¡Eres tan grande! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡Vamos a follar todo el día! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Voy a ordeñarte seco. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¿Están mis esporas que te conducen salvajes? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Jejeje, puedo sentir tu polla palpitante y titulando. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'No te detengas, ♥ Empuja tus caderas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'Ahhh, ♥ No puedo esperar a que tu semilla me llene. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Vamos, ♥ vuelve salvaje. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "usesMoveA",
+            "move": "Sensual Gyration",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'¡Eres tan grande! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡Vamos a follar todo el día! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Voy a ordeñarte seco. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¿Están mis esporas que te conducen salvajes? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Jejeje, puedo sentir tu polla palpitante y titulando. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'No te detengas, ♥ Empuja tus caderas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'Ahhh, ♥ No puedo esperar a que tu semilla me llene. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Vamos, ♥ vuelve salvaje. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Lecherous Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|DominantHappy|n|'Jejeje, ♥ ¿Están tus bolas llenas y doloridas? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Si estás empezando a sentirte cachondo ... siéntete libre de follarme tanto como quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Te amo, ♥ jejeje. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Tus besos saben maravillosos. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Jeje, {i} que romántico. {/i} ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Worried|n||f|ChangeImageLayer|/|Face|/|Blush|n|'A-Am Voy a perder ..? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Y tú me estás haciendo sentir tan bien! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Ahhh ... ♥ No puedo tomar mucho más ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n||f|ChangeImageLayer|/|Face|/|Blush|n|'I-si esto sigue así, me convertiré en tu manga de polla personal ... ♥' Parece ligeramente perdida en una fantasía ..."
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'Continúa, semen! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Deja escapar todos tus deseos acumulados. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|¡Vamos, brota tu semen!",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Todo mi cuerpo está doliendo por tu semilla. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Cum tanto como quieras, ♥ Tan a menudo como quieras. ♥♥♥'"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'¡Lléname! ♥ ¡créeme! ♥' Sus palabras bromeadas te terminan, dejando tu polla sobreestimulada que descarga gruesas chorros de semen en el coño suave pero apretado de Matango, su curtidor prácticamente tragando tu semilla mientras ella se desliza y la muele.caderas contra ti.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|Temblas de deseo, tu mente nadando en la lujuria, no puedes pensar en nada más que follar el matango.'Continúa, ♥ Trata mi coño como tu vertedero de semen personal. ♥' Sus palabras hacen que algo se mueva dentro de tu mente cachonda, dejándote golpeando implacablemente su coño húmedo hasta que tus bolas de contracción finalmente descarguen espurios gruesos de semen en su hendidura.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|Polgues sin pensar su coño babeante mientras la lujuria impregna su cerebro, sus esporas te dejan con una dolor de dolor de llenarla con tu semen, y cada vez que tu punta te golpea una votante, una sacudida de rebote de éxtasis a través de tus caderas.'Eso es todo, ♥ Fuck Me. ♥ Break Me. ♥ créeme. ♥' Su voz obscena convence a tu empuje final para dejarte brotando cuerdas gruesas de semen en ella, tu alucinancia completamente con la necesidad de follar.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|El Matango se balancea y muele las caderas en un círculo burlón, dejando todo tu cuerpo paralizado en la dicha mientras ella acerca suavemente tu polla y más cerca del olvido climático.'Vamos, ♥ lléname con tu semen. ♥' Su voz lasciva que susurrando en tu oído es la gota que colmó el vaso que deja tu dolor de virilidad en erupción por dentro, cubriendo su matriz en tu semen caliente.'Jeje, no nos detenemos hasta que tus bolas estén completamente secas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|El Matango te rodea con los brazos mientras te empuja en un beso profundo y gira sus caderas en pequeños círculos contra tu eje mientras obliga a sus esporas a ti.El placer de hormiguear a través de todo su cuerpo mientras sus esporas inundan su sistema, y ​​pronto está vertiendo su semilla caliente directamente en su útero mientras su coño chupando mantiene su punta firmemente besando su cuello uterino.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|Te apretan los dientes, tratando de retrasar su inevitable orgasmo, pero una explosión de esporas moradas se dispara desde la tapa del hongo del Matango directamente en la cara.'Jeje, ♥ no te detengas. ♥ Vierte tu semen en mí. ♥' La lujuria rápidamente alcanza tu cerebro y te golpeas sin pensar su coño babeante hasta que cada onza de tu resistencia se descarga en ella como una ola de gritos orgásmicos te abruman,Y llenas su matriz con tu semilla."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'¡Lléname con semen! ♥' Sus palabras burlonas te terminan, dejando tu polla sobreestimulada que descarga espuraciones gruesas de semen en el culo apretado del Matango, su girando orificio prácticamente tragando tu semilla mientras se balancea en broma y muele las caderas contra ti.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|Temblas de deseo, tu mente nadando en la lujuria, no puedes pensar en nada más que follar el matango.'Continúa, ♥ Trata mi trasero como tu vertedero de semen personal. ♥' Sus palabras hacen que algo se mueva dentro de tu mente cachonda, dejándote sin descanso golpeando su trasero apretado hasta que tus bolas de contracción finalmente descargan espurios gruesos de semen en su trasero apretado.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|El Matango se balancea y muele las caderas en un círculo burlón, dejando todo tu cuerpo paralizado en la dicha mientras ella acerca suavemente tu polla y más cerca del olvido climático.'Vamos, ♥ lléname con tu semen. ♥' Su voz lasciva que susurrando en tu oído es la gota que colmó el vaso que deja tu dolor de virilidad en erupción en el interior, cubriendo su orificio en tu semen caliente.'Jeje, no nos detenemos hasta que tus bolas estén completamente secas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|Te apretan los dientes, tratando de retrasar su inevitable orgasmo, pero una explosión de esporas moradas se dispara desde la tapa del hongo del Matango directamente en la cara.'Jeje, ♥ no te detengas. ♥ Vierte tu semen en mí. ♥' La lujuria rápidamente supera tu cerebro y te golpeas el culo apretado hasta que cada onza de tu resistencia se descarga en ella como una ola de dicha orgásmica te abruman,Y llenas su trasero con tu semilla."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|MatangoCombatEvents|/|ToxicOrgasm|n||c|"
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|PleasureStruck|n||f|ChangeImageLayer|/|Face|/|BlushSevere|n|'¡C-Cumming! ♥ Cumming! ♥ Hiiii !!! ♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|PleasureStruck|n||f|ChangeImageLayer|/|Face|/|BlushSevere|n|'Ouuhhhh!? ♥ a-ahhh! ♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|PleasureStruck|n||f|ChangeImageLayer|/|Face|/|BlushSevere|n|'¡Ahhh! ♥ I-¡No puedo dejar de correrse?"
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'Ehehe, ♥ Voy a vaciar tus bolas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LewdDevious|n|'Oooh, ♥ tan dispuesto. ♥ entonces ven aquí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|DominantHappy|n|'Oh, Dios mío, eres un pervertido. ♥ Eso significa que somos perfectos el uno para el otro. ♥♥♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Sex",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del coño suave pero apretado de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Sex",
+            "theText": [
+                "¡Pero [AttackerName] se aferra firmemente a tu cuello con los brazos mientras muele las caderas en tu eje en círculos de burlas lentas!",
+                "Pero mientras agarras sus caderas para sacarte, ella te mira con ojos amorosos mientras respiras accidentalmente algunas de sus esporas, y estás abrumado por la necesidad de continuar follándola.",
+                "¡Pero ella mantiene sus brazos firmemente envueltos [ThePlayerName], manteniendo el eje [TargetHisOrHer] atrapado cómodamente en ella!",
+                "Pero a medida que te escapas, [AttackerName] te lleva a un breve beso, ¡y una explosión de esporas asalta tus sentidos, lo que te obliga a empujarla sin pensar!",
+                "Pero gemirá cuando sus suaves paredes vaginales se aprieta alrededor de su virilidad y con leche rítmicamente su eje, ¡y no puede encontrar la fuerza para retirarse!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Sex",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|LewdDevious|n|'Ahh, ♥ ¿Por qué estás tratando de escapar? ♥ ¡Podríamos follar todo el día! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'¿Por qué querrías que terminara tal dicha? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Vamos, ♥ solo empujé hacia mí, ♥ y pierde en éxtasis. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'No te salgas, ♥ Quiero que tu gran polla se rompa mi coño. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Sex",
+            "theText": [
+                "¡Y elige sacar tu polla de su hendidura apretada!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Aww, ♥ pero ¿no quieres más? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Sé que quieres golpear mi coño más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LewdPredatory|n|'Vamos, ♥ ¡Ponlo de nuevo! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¿No quieres tirar tu semen a mí? ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Solo quiero ordeñar tu polla. ♥'",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Anal",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del culo apretado de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Anal",
+            "theText": [
+                "¡Pero [AttackerName] se aferra firmemente a tu cuello con los brazos mientras muele las caderas en tu eje en círculos de burlas lentas!",
+                "Pero mientras agarras sus caderas para sacarte, ella te mira con ojos amorosos mientras respiras accidentalmente algunas de sus esporas, y estás abrumado por la necesidad de continuar follándola.",
+                "¡Pero ella mantiene sus brazos firmemente envueltos [ThePlayerName], manteniendo el eje [TargetHisOrHer] atrapado cómodamente en ella!",
+                "Pero a medida que te escapas, [AttackerName] te lleva a un breve beso, ¡y una explosión de esporas asalta tus sentidos, lo que te obliga a empujarla sin pensar!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Anal",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|LewdDevious|n|'Ahh, ♥ ¿Por qué estás tratando de escapar? ♥ ¡Podríamos follar todo el día! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'¿Por qué querrías que terminara tal dicha? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Vamos, ♥ solo empujé hacia mí, ♥ y pierde en éxtasis. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Lewder|n|'No te retires, ♥ Quiero que tu gran polla me rompa el culo. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Anal",
+            "theText": [
+                "¡Y logra sacar su polla de su apretada trasera!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Aww, ♥ pero ¿no quieres más? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Sé que quieres golpear mi trasero más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LewdPredatory|n|'Vamos, ♥ ¡Ponlo de nuevo! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¿No quieres tirar tu semen a mí? ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Solo quiero ordeñar tu polla. ♥'",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Making Out",
+            "theText": [
+                "[ThePlayerName] intenta romper el beso profundo con [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Making Out",
+            "theText": [
+                "Pero ella mantiene un ajuste apretado [ThePlayerName], ¡y él permanece encerrado en un beso profundo y amoroso!",
+                "¡Pero cuando alejas sus esporas, asalta tu mente y no puedes evitar volver a seguir besándose con ella!",
+                "Pero cuando comienzas a alejarla, ella envuelve un brazo alrededor de la parte posterior de tu cabeza, profundizando el beso mientras mira lascivas en tus ojos."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Making Out",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Mnnnn, ♥ No intentes escapar, ♥ Muéstrame tu amor. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'¿Por qué querrías que esto terminara? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Vamos, ♥ bésame un poco más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'No tengas miedo, ♥ mis esporas te harán sentir maravilloso ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Making Out",
+            "theText": [
+                "¡Y logra empujar el descuidado beso de [AttackerName] lejos!",
+                "¡Y libera tu boca de los labios suaves de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'Aww, ♥ pero ¿no quieres más? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Vamos, ♥ bésame de nuevo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿Ya está todo el cerebro nublado con lujuria? ♥'"
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Body",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.275",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/MatangoToxic/Body_ToxicMatango.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Face",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/MatangoToxic/Face_ToxicMatango_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Blush",
+                    "File": "Monsters/MatangoToxic/Face_ToxicMatango_Blush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "BlushSevere",
+                    "File": "Monsters/MatangoToxic/Face_ToxicMatango_BlushSevere.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Scary",
+                    "File": "Monsters/MatangoToxic/Face_ToxicMatango_Threat.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Concern",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_Concern.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Dominant",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_Dominant.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "DominantHappy",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_DominantHappy.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Giggle",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_Giggle.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Laugh",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_Laugh.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Lewd",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_Lewd.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "LewdDevious",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_LewdDevious.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "LewdPredatory",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_LewdPredatory.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Lewder",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_Lewder.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Loving",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_Loving.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Mocking",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_Mocking.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "OrgasmIntense",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_OrgasmIntense.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Panic",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_Panic.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "PleasureStruck",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_PleasureStruck.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Smug",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_Smug.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Smugger",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_Smuger.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Worried",
+                    "File": "Monsters/MatangoToxic/Expression_ToxicMatango_Worried.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}

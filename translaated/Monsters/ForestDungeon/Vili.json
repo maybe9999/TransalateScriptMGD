@@ -1,0 +1,2515 @@
+{
+    "name": "Vili",
+    "IDname": "Vili",
+    "species": "Demon",
+    "gender": "female",
+    "description": "Una mujer joven con cuernos demoníacos considerables brotando desde la cabeza y el cabello verde azulado de la cabeza y los hombros con arcos morados en los lados debajo de sus cuernos, justo sobre sus largas orejas puntiagudas.Lleva un collar de cuero negro con tachuelas alrededor de su cuello, y sus enormes senos están apenas contenidos por su parte superior, y su parte superior solo está restringida por cuerdas que cruzan el centro, donde puedes ver su escote profundo y cautivador en toda su gloria.\nSus brazos están adornados en guantes negros hasta los hombros.Y detrás de su cintura, puedes ver pequeñas alas con forma de murciélago que se extienden hacia afuera.Sus caderas usan una verde azulado y una falda a cuadros negras con un cinturón de cuero adornado en un pequeño cráneo de dibujos animados y una cadena en un lado.Puedes ver su ropa interior V-string envuelta alrededor de sus caderas sobre su falda.Una larga cola de espicolamiento se balancea detrás de ella, y ella usa largas altibajos negros en el muslo en sus piernas.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        "Titillating Temptation",
+        "Sensitize",
+        "Fascinate",
+        "Vili's Bewitching Bounce",
+        "Vili's Grinding Titillation",
+        "Vili's Vexatious Love Making",
+        "Vili's Perfect Puff Puff",
+        "Vili's Smothering Puff Puff",
+        "Vili's Puff Puff Massage",
+        "Vili's Mind-Enslaving Puff Puff",
+        "Vili's Puff Puff Temptation",
+        "Vili's Puff Puff Surprise",
+        "Vili's Overwhelming Puff Puff Massage",
+        "Vili's Mind Melting Puff Puff",
+        "Vili's Mind-Breaking Puff Puff",
+        "Vili's Overflowing Tittyfucking",
+        "Vili's Titfuck Temptation",
+        "Vili's Playful Tittyfuck",
+        "Vili's Enchanting Tittyfuck",
+        "Vili's Vexing Paizuri",
+        "Vili's Dick-Enslaving Tittyfuck",
+        "Vili's Double Trouble",
+        "Vili's Vexatious Paizuri",
+        "Vili's Enthralling Tittyfuck",
+        "Vili's Dick-Breaking Tittyfuck",
+        "Vili's Seductive Switch Up"
+    ],
+    "perks": [
+        "Semen Eater",
+        "Energy Drainer",
+        "Alluring",
+        "Loving",
+        "Pinpoint Pleasure",
+        "Sex Adept",
+        "Arcane Adept",
+        "Clingy",
+        "Honey Trap",
+        "Great Tits",
+        "Schemer",
+        "Thoughtful Schemer",
+        "Lovers Passion",
+        "Monster Pacing",
+        "Tittilating Terror",
+        "DelayedStunned"
+    ],
+    "stats": {
+        "lvl": "40",
+        "Exp": "600",
+        "max_hp": "666",
+        "max_ep": "150",
+        "max_sp": "1",
+        "Power": "7",
+        "Technique": "10",
+        "Intelligence": "20",
+        "Allure": "35",
+        "Willpower": "15",
+        "Luck": "15"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "90",
+        "Ass": "90",
+        "Breasts": "50",
+        "Mouth": "100",
+        "Seduction": "150",
+        "Magic": "100",
+        "Pain": "75",
+        "Holy": "150",
+        "Unholy": "50"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "20",
+        "Aphrodisiac": "50",
+        "Restraints": "0",
+        "Sleep": "50",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "moneyDropped": "2000",
+    "ItemDropList": [
+        {
+            "name": "Heart Rune",
+            "dropChance": "25"
+        },
+        {
+            "name": "Mini Elixir",
+            "dropChance": "25"
+        },
+        {
+            "name": "Silver Rune",
+            "dropChance": "10"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "LossScene",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Vili"
+            ],
+            "theScene": [
+                "JumpToEventThenScene",
+                "Vili the Titillating Terror",
+                "LostToViliAndEnslaved"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "SetMusicTo",
+            "move": "",
+            "theText": [
+                "music/Unknown/Causing pain.mp3"
+            ]
+        },
+        {
+            "lineTrigger": "StartOfCombat",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ViliCombatEvents|/|Intro|n|"
+            ]
+        },
+        {
+            "lineTrigger": "EndOfRound",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ViliCombatEvents|/|EndOfRound"
+            ]
+        },
+        {
+            "lineTrigger": "StartOfRound",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ViliCombatEvents|/|PhantasmalSpawn"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Spank",
+                "Whip"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Tonto, he crecido más allá de un imps masoquismo normal!'",
+                "|f|ChangeImageLayer|/|Expression|/|LaughHappy|n|'¡Estoy más allá del castigo! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|LaughHysterical|n|'Kyahaha! ♪ ¿Eso es todo lo que tienes?'"
+            ]
+        },
+        {
+            "lineTrigger": "AutoCounter",
+            "move": "Demon Layer",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ViliCombatEvents|/|DemonLayerResponse|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Holy Headpat",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'¡Este no es el momento para dar palmaditas en la cabeza!'",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'¡Corte!¡Estoy tratando de ser seductor!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Bondage Net",
+                "Magical Binding"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Condescending|n|'¿En serio crees que esto funcionará en un arco de imp?'",
+                "|f|ChangeImageLayer|/|Expression|/|Mocking|n|¿Realmente crees que puedes contenerme?Que patético. ♪ '",
+                "|f|ChangeImageLayer|/|Expression|/|Condescending|n|'Tonto, no puedes contener mi maldad ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Mocking|n|'¿Qué triste, tienes que atar a una chica para ganar?Algunos {i} héroe {/i}. ♪ '"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pin",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Condescending|n|'¿En serio crees que esto funcionará en un arco de imp?'",
+                "|f|ChangeImageLayer|/|Expression|/|Mocking|n|¿Realmente crees que puedes contenerme?Que patético. ♪ '",
+                "|f|ChangeImageLayer|/|Expression|/|Condescending|n|'Tonto, no puedes contener mi maldad ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Mocking|n|'¿Qué triste, tienes que precisar a una chica para ganar?Algunos {i} héroe {/i}. ♪ '"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Lewd Bottle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'D-Did, ¿solo me rocías con agua?Oh, espera, eso fue un afrodisíaco, jeje, sabe a uvas.",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'H-Hey cortó con el afrodisíaco!'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Hmph, ¡tendré que romperte con mis tetas rápidamente!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Cloying Mist",
+                "Placebo Pheromone"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'H-Hey cortó con el afrodisíaco!'",
+                "|f|ChangeImageLayer|/|Expression|/|Mocking|n|¡No esperes que eso me desacelere!",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Hmph, ¡tendré que romperte con mis tetas rápidamente!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Grope Ass",
+                "Squeeze Ass",
+                "Massage Ass",
+                "Fondle Ass"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Mnnn, oye, mis tetas están aquí arriba, a la mueca {i} ellos {/i}. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pout|n|'Hmmm ... deberías estar jugando con mis tetas, no con mi trasero.",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'Sé que tengo un gran trasero y todo, pero mis tetas son mejor. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|¿Un hombre de culo, ¿eh?Apuesto a que puedo hacerte un amante de los senos. ♥ '"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Breast Caress",
+                "Breast Massage",
+                "Breast Knead",
+                "Breast Fondle"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿No son perfectamente suaves? ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'Kehehe, tus manos se están hundiendo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'Jejeje, ♥ juega con mis tetas mientras yo te cuido. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|BaseSmug|n|'Mnnn, a tacha mis tetas tanto como quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Jeje, ♥ ¿Recuerdas lo que estás aquí para hacer? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Mnnn, masajee mis tetas mientras quieras, no me importa. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Suckle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Awww...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Jeje, ♥ asigna mis tetas mientras quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Eres tan lindo así. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|BaseSmug|n|'Kehehe, ♥ ¿Estás completamente obsesionado con mis tetas? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Breast Nuzzle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Awww...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Eres tan lindo así. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Ahí, ♥ allí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Solo relájate. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Esto está haciendo que mi corazón revolotee un poco ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|BaseSmug|n|'Kehehe, ♥ ¿Estás completamente obsesionado con mis tetas? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Tit Fucking",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Eso es todo. ♥ ráfage con mis tetas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|PlayfulSmug|n|'Estás ansioso por perder. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|PlayfulSmug|n|'Simplemente no puedes detenerte. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, te estás rompiendo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Eso es todo, conviértete en mi juguete. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"Te vas a volver adicto a mis tetas si no paras. ♥\""
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pinch Nipples",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bored|n|'¿Puedes ser más suave?'",
+                "|f|ChangeImageLayer|/|Expression|/|Bored|n|\"Ate de mis tetas y molesta mis pezones todo lo que quieras, solo usa un toque más suave\"."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Finger",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'¿Vas a follarme? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Mmmmmm.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Ya estoy mojado, muñeco. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Dildo",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mnnn, vamos y fóllame. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|\"Los juguetes sexuales nunca son tan buenos como lo real\".",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Ya estoy mojado, muñeco. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|¡B-Bleh, S-Stop tratando de obtener todo romántico y basura!",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'St-stop siendo todo blando!'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Mmmmmmnnnn...♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Make Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'D-Dummy...",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'No te beses tan intensamente ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Mmmmmmnnnn...♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Deep Kiss",
+                "Lovingly Rough Kiss",
+                "Skillfully Passionate Kiss",
+                "Misty Kiss",
+                "Sensually Seductive Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|\"Hrmph, me frotaré mis tetas contra ti hasta que dejes de besarme\".",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|\"D-no creo que esto te dará una ventaja\".",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Estás siendo demasiado dulce ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Mmmmmmnnnn...♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Arouse",
+                "Arousara",
+                "Arousero"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Kyaaa!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ohhhh!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'I-lo mostraré {i} you {/i} magia erótica. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'EEK!♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Electrify",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|¿Kaaa?¡H-HEY!¡Corta eso!¡Se supone que esto es una batalla sexual!",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|¡D-no electrificando mis tetas!¡Eso es grosero!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Seduce",
+                "Enamor",
+                "Smoldering Seduction",
+                "Smoldering Flaunt",
+                "Massaging Seduction",
+                "Mass Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'W-well th-that-!Sh-shut Up tu muñeco! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'St-stop siendo tan dulce!'",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'¡H-ja!¡Definitivamente no me enamoraré de tus seducciones! ♥ 'Ella se sonroja bastante ...",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'¿R-realmente?¿Crees que sí? ♥ W-Wait!¡Deja de tratar de distraerme!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Ear Tease",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'A-ahhhh- w-wait- eso no es- ahhnnn! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Orejas d-dumb, sensibles a SE- eek! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Kyaaaa- ♥ la cabeza sigue yendo a Blankkk. ♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'W-Whyyyyy...♥♥♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Charm",
+                "Charm Wave"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Realmente no necesitaba estar más caliente. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Ohhhh!¡Te voy a titfuck {i} así {/i} mucho! '"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Enfeeble",
+                "Sensitize"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'Wha- {i} hey! {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Ja, eso no será suficiente para detenerme!",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|\"Tendré que devolverle eso por eso\".",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'¡Oye, soy el que se supone que debes hacerte ese tipo de cosas!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Disarming Appeal"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|\"Bueno, supongo que podría monólogo un poco\".",
+                "|f|ChangeImageLayer|/|Expression|/|BaseSmug|n|'¿Oh?¿Hice esto demasiado difícil?",
+                "|f|ChangeImageLayer|/|Expression|/|BaseSmug|n|\"Realmente necesitas un respiro, supongo que puedo burlarte de ti un poco\"."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Sleep",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Wat|n|'Ah ... ¿Por qué tengo tanto ... Somnoliento ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'¡Wh- oye!¡Ese es el agujero equivocado!",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|¡Ese no es mi coño!",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'¡¿Qué tipo de héroe va para la puerta trasera?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Mmmm, eres tan grande. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Relájate y déjame hacer todo el trabajo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Estoy realmente apretado, ¿verdad? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|BaseSmug|n|'Mira mis tetas rebotar mientras me jodas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|BaseSmug|n|'Sigo siendo un demonio, ¿lo sabes, ¿verdad? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿No puedes follarme más duro? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Voy a ordeñarte seco a este ritmo, ♥ Kehehe. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck",
+                "Anal Piston"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Ah! ♥ W-Wait! ♥ I-i no {i} en realidad {/i} significa que jótame más duro! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'S-so gooooodddd! ♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|'Ahhhhnnnn- ♥ I-¡No puedo pensar! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡No te detengas! ♥ lléname con tu semen! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|¡Kyaaa! ♥ y-yo me estás deslumbrando! ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ahhh- y-you're siendo {i} también {/i} gentil-c-corta! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'S-Deja de burlarme de mí por completo- ¡Se siente demasiado pegajoso! ♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|¡D-no creo que esto haya terminado pero tu d-dummy! \"",
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|'¡No perderé a tu polla así! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Si sigues esto, te voy a sofocar con mis tetas!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Penetrate",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|BaseSmug|n|'Soy un demonio, ¿lo sabes? ♥'|f|CallCombatEventAndScene|/|ViliCombatEvents|/|TooShort|n|",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Quiero decir, si quieres que te drene. ♥'|f|CallCombatEventAndScene|/|ViliCombatEvents|/|TooShort|n|",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Asegúrate de ver mis tetas rebotar mientras me follas. ♥'|f|CallCombatEventAndScene|/|ViliCombatEvents|/|TooShort|n|",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Mmmm ... ♥ puedo sentir que estiras mi coño. ♥'|f|CallCombatEventAndScene|/|ViliCombatEvents|/|TooShort|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Mmmm, eres tan grande. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Relájate y déjame hacer todo el trabajo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Estoy realmente apretado, ¿verdad? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|BaseSmug|n|'Mira mis tetas rebotar mientras me jodas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿No puedes follarme más duro? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Voy a ordeñarte seco a este ritmo, ♥ Kehehe. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Ah! ♥ W-Wait! ♥ I-i no {i} en realidad {/i} significa que jótame más duro! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'S-so gooooodddd! ♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|'Ahhhhnnnn- ♥ I-¡No puedo pensar! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡No te detengas! ♥ lléname con tu semen! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|¡Kyaaa! ♥ y-yo me estás deslumbrando! ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ahhh- y-you're siendo {i} también {/i} gentil-c-corta! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'S-Deja de burlarme de mí por completo- ¡Se siente demasiado pegajoso! ♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|¡D-no creo que esto haya terminado pero tu d-dummy! \"",
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|'¡No perderé a tu polla así! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Si sigues esto, te voy a sofocar con mis tetas!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Analyze",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|¡Kyahaha!Tonto, no tengo debilidades.Ese hechizo no vale nada contra mí."
+            ]
+        },
+        {
+            "lineTrigger": "Escape",
+            "move": [
+                "Distract",
+                "Teleport"
+            ],
+            "theText": [
+                "|f|CallEventAndSceneThenReturn|/|Visit Vili|/|GoToBreastSizeCombat|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'¡Cómo te atreves a escapar de mí!'",
+                "|f|CallEventAndSceneThenReturn|/|Visit Vili|/|GoToBreastSizeCombat|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'¡Qué regresa aquí!'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Titillating Temptation",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Solo mira mis tetas, no me importa. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Kehehe, ¿ya te estás enamorando de mis tetas? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿No puedes imaginar estos envueltos alrededor de tu polla? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿No son mis tetas solo {i} así que {/i} cautivador? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Apuesto a que quieres enterrar tu cara en mi escote. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Solo rinde. ♥ y los usaré para ordeñarte. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Si no miras hacia otro lado, te convertiré en un adicto a la tía. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Fascinate",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Vas a enamorarte de mí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mi magia te va a derretir. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'Fascinate!♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'Fascinate!♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Fascinate!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'Love Beam! ♥ ♪'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Sensitize",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'Kehehe, ♥ te sentirás increíble ahora. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Tal vez pueda conseguir que te corra sin parar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Voy a ordeñarte seco. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'Sensitize!♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'Sensitize!♪'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMovePre",
+            "move": "Vili's Overflowing Tittyfucking",
+            "theText": [
+                "|f|CallEventAndSceneThenReturn|/|Visit Vili|/|GoToTitfuckCombat|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Vili's Overflowing Tittyfucking",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'¡Te tengo ahora! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Tu polla es bastante grande. ♪ Pero mis tetas son más grandes. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Tu polla quedó completamente enterrada. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'No te voy a dejar escapar. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Voy a esclavizar tu polla con mis tetas! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Te vas a volver adicto a mis tetas si no puedes escapar. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Vili's Double Trouble",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'¡Te tengo ahora! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Vas a amar esto. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'No te voy a dejar escapar. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Voy a derretir tu cerebro con mis tetas! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Te vas a volver adicto a mis tetas si no puedes escapar. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Vili's Playful Tittyfuck",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Kehehe.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'Continúa, dime cuánto amas mis tetas. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿No se siente esto increíble? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Mis tetas se están apoderando de tu cerebro? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Tu polla no dejará de tirar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Te vas a volver adicto a mis tetas si no puedes escapar. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Vili's Enchanting Tittyfuck",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Kehehe.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'Dime cuánto amas a mis tetas. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Simplemente no puedes detenerte. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, te estás rompiendo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Eso es todo, conviértete en mi juguete. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"Te vas a volver adicto a mis tetas si no paras. ♥\""
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Vili's Vexing Paizuri",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Kehehe.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿No se siente esto increíble? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mis tetas te están tomando por alto. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Mis tetas te están convirtiendo en mi esclavo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Mis tetas te van a romper la polla. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Te vas a volver adicto a mis tetas si no puedes escapar. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Vili's Bewitching Bounce",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mira mis tetas mientras yo te conduco. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'Solo relájate. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmmm, eres tan grande. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Déjame cuidar el movimiento. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿La vista de mis tetas rebotantes ya está derritiendo tu cerebro? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Te vas a enganchar mis tetas {i} y {/i} mi coño así. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Vili's Grinding Titillation",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mira mis tetas batir. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'Solo relájate. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmmm, eres tan grande. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Déjame cuidar el movimiento. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿La visión de mis tetas mordaces ya está derritiendo tu cerebro? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Te vas a enganchar mis tetas {i} y {/i} mi coño así. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Vili's Vexatious Love Making",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Voy a hacerte enamorarme de mí. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|'Solo rindo.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmmm, eres tan grande. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Déjame cuidar el movimiento. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿La visión de mis tetas mordaces ya está derritiendo tu cerebro? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Te vas a enganchar mis tetas {i} y {/i} mi coño así. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¡No he perdido todavía!'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|¡D-no creo que esto haya terminado todavía! \"",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Ahhhh ... ♥ d-dang it! ♥ ahora mi cabeza está flotante! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¿Por qué no has perdido todavía? ♥♥♥'"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Kehehe, te vas a correr, puedo decir. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No te detengas, dame tu semen. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Vamos. ♪ Sopla tu carga y te enamora de mis tetas.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Vas a brotar. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Vili rebota rápidamente en tu polla rígida, riendo malvada mientras la magia fluye en ti en los pulsos que se mueven con cada reunión de tus caderas, dejándote gemir de manera incoherente mientras te folla tonta en tu creciente momento de debilidad mientras te acaricias en un abismo orgásmico.|n|With every slam of her hips you fell yourself drifting further and further away into blissful ecstasy, until your twitching cock can't take anymore, and your pump thick loads of your semen into Vili's exquisite pussy, its interior squeezing you delightfully.|n||f|PlayerOrgasm|/|1|n|Pero solo puedes gemir a medida que la magia continúa pulsando mientras ella te monta con lasis placas, manteniendo tu clímax masculinidad brotando cada vez más en su coño perfecto, y todo lo que puedes hacer es atacar en el éxtasis de fusión mental, anhelando más su placer diabólico.",
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|Vili rebota en tu polla palpitante con una sonrisa, su ritmo constante haciendo que tu virilidad se contrae con cada reunión de tus caderas, pero son sus tetas rebotantes las que llenan tu mente con dolor de lujuria, rebotando hacia arriba y hacia abajo a un ritmo casi hipnótico, y tú soloNo puedo apartar la mirada de su encanto de fusión mental mientras su orgasmo lentamente brota dentro de usted.|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ella te da una sonrisa petulante apenas vista mientras monta tu longitud de contracción un poco más rápido, haciendo que la erección palpara con éxtasis mientras miras a sus pechos perfectos rebotar, sus curvas mudosas cautivan por completo tu placer borracho, su coño apretado ordeña una carga gruesa.de semen mientras miras impotente su abundante cofre, dejándote tirar en el orgasmo.|f|ChangeImageLayer|/|Expression|/|Smug|n||f|PlayerOrgasm|/|1|n|Jadeas con placer delirante mientras el orgasmo de chorrear comienza a desaparecer, pero Vili se inclina con una sonrisa malvada y sacude sus tetas de fusión mental frente a tus ojos, haciéndote temblar en un éxtasis renovado mientras la inundas con más de tu gruesa gruesa.Semilla, dándole cada gota que quiere, dejando que su mente se llene con sus tetas suaves malvaviscales hasta que se queden lo único que queda.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Vili gira sus caderas en un círculo burlón alrededor de su palpitante polla, haciendo que sus enormes tetas se agiten de un lado a otro, y simplemente no puedes mantener tus ojos fuera de su perfección mordaz, perdiéndote en la cautivadora vista mientras ella elimina la resistencia de tu virilidad.|n|You sigh blissfully as your twitching dick nears orgasm, her swaying hips letting her exquisitely tight pussy squeeze and milk your length while her swaying tits entrance your eyes, until her mind-melting rhythm becomes unbearable and you pour her full of your semen, shivering in mind-numbing ecstasy.|f|ChangeImageLayer|/|Expression|/|Smug|n|Pero su sonrisa solo recibe Smugger mientras sopla tu carga dentro de ella, y comienza a rebotar en tu polla a un ritmo rápido, y tus ojos cautivados no pueden mirar hacia otro lado de sus abundantes tetas que rebotan hacia arriba y hacia abajo mientras monta tu virilidad sin sentido., derribando todos los pensamientos de tu mente, aparte de sus pechos perfectos, mientras que tu polla espasmo brota más y más se corren en ella."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Titfuck",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ViliCombatEvents|/|TitfuckingOrgasm|n||c|"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Breast Smother",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ViliCombatEvents|/|BreastSmotheringOrgasm|n||c|"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Playful|n|A medida que el placer se monta en tu ingle, Vili comienza a sacudir las tetas ante tus ojos, ¡y te pierdes impotente en el suspiro, y comienzas a masturbar frenéticamente!|f|ChangeImageLayer|/|Expression|/|Smug|n|Lentamente los acerca cada vez más a tu cara, y la dicha orgásmica burbujeando en tus caderas se hincha con cada segundo que pasa a medida que bombea tu polla espasmante en la adoración a sus tetas perfectas, hasta que con un gemido de la mente volta todos los que todoSobre el piso, temblando y contrapasando.|n|She giggles playfully and cleans up your seed with a single snap of her fingers, scheming how to milk out the next load from you.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Mientras tembla al borde del orgasmo, Vili sonríe malvadamente antes de golpear una pose sexy y hacer un corazón con los dedos centrados en sus abundantes tetas.|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Fascinate! ♥' Un rayo de luz rosa se dispara en forma de corazón, atravesando a través de ti y dejando el éxtasis de fusión mental a su paso.'¡Fascinate! ♥ Fascinate! ♥ Fascinate! ♥' Ella te golpea con el hechizo sobre y sobre la unidad que todo el cuerpo se queda temblando en éxtasis mientras tu polla brota largas cuerdas de semen en el piso.|f|ChangeImageLayer|/|Expression|/|Playful|n|Ella se ríe juguetonamente y le rompe los dedos, limpiando su semilla en un instante mientras todavía está tratando de recuperarse de su orgasmo mágico inducido por la mente, imágenes de sus tetas hinchables flotando en su mente.",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|Vili te acerca con una sonrisa inocente mientras te tallas en el borde del orgasmo, y presiona sus abundantes y hinchables tetas contra tu pecho, haciendo que tu polla estalle en un orgasmo de chorrear mientras ella frota sus suaves senos contra ti riendo.|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Estás corriendo tanto por tener mis tetas presionadas contra ti.|n|She floats away with a smug laugh, making your cum vanish with a snap of her fingers while you try to recover from your mind-melting orgasm.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Vili comienza a jugar con sus senos con una sonrisa malvada, masajeando y rebotando sus pesadas tetas mientras miras en un trance borracho, al borde del orgasmo.Simplemente no puedes apartar la mirada de sus senos perfectos, y el placer celestial inunda tu ingle en cada momento que miras sus tetas.|f|ChangeImageLayer|/|Expression|/|Tease|n|De repente los presiona con un guiño juguetón, y de repente estallas en éxtasis, chocando con gruesas cuerdas de semen en el piso mientras se ríe con diversión, tus ojos todavía están encerrados en su fascinante escote, hasta que tu orgasmo de Blaning Manking se aleja y ella se aleja y ella se aleja,Hace que su semen desaparezca con un chasquido de sus dedos."
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                "|f|CallEventAndSceneThenReturn|/|Visit Vili|/|GoToBreastSizeCombat|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n||f|ChangeImageLayer|/|Face|/|BlushExtra|n|'¡Kya! ♥♥♥ Ahh! ♥ AT-¡El placer no se detendrá! ♥♥♥'|f|CallCombatEventAndScene|/|ViliCombatEvents|/|Victory|n|",
+                "|f|CallEventAndSceneThenReturn|/|Visit Vili|/|GoToBreastSizeCombat|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n||f|ChangeImageLayer|/|Face|/|BlushExtra|n|'¡Ahhh !!! ♥♥♥ se siente muuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuá|f|CallCombatEventAndScene|/|ViliCombatEvents|/|Victory|n|",
+                "|f|CallEventAndSceneThenReturn|/|Visit Vili|/|GoToBreastSizeCombat|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n||f|ChangeImageLayer|/|Face|/|BlushExtra|n|'¡EEEK! ♥ I-I'm Va a perder? ♥♥♥♥ Nhoooo! ♥♥♥'|f|CallCombatEventAndScene|/|ViliCombatEvents|/|Victory|n|",
+                "|f|CallEventAndSceneThenReturn|/|Visit Vili|/|GoToBreastSizeCombat|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n||f|ChangeImageLayer|/|Face|/|BlushExtra|n|'W-wai- i-yo no puedo- aaaaahh !!!!!! ♥♥♥'|f|CallCombatEventAndScene|/|ViliCombatEvents|/|Victory|n|",
+                "|f|CallEventAndSceneThenReturn|/|Visit Vili|/|GoToBreastSizeCombat|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n||f|ChangeImageLayer|/|Face|/|BlushExtra|n|'{i} ¡Estoy corriendo! ♥ ¡Estoy corriendo! ♥ ¡Estoy Cummingggg! ♥♥♥ {/i}'|f|CallCombatEventAndScene|/|ViliCombatEvents|/|Victory|n|"
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LaughHysterical|n|'Kyahaha! ♪ Sabía que no podías resistirme. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Bueno, si quieres convertirte en mi esclavo. ♪ ¿Quién soy yo para rechazar? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Mocking|n|¿En serio? ♥ ¿Te estás rindiendo?Pervertido. ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, tomaré {i} bueno {/i} cuidar de ti. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Sex",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del exquisito coño de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Sex",
+            "theText": [
+                "Pero mientras ella monta tu eje, no puedes mirar hacia otro lado de sus senos rebotando y espaciar por un momento, apreciando sus voluptuosas tetas que se sacuden con cada reunión de tus caderas.",
+                "Pero te quedas gimiendo cuando su coño celestial se aprieta firmemente alrededor de tu longitud, es un interior suave y antinatural masajeando cada pulgada de tu polla.",
+                "Pero mientras rebota en tu polla, te encuentras perdido en el ritmo intoxicantemente placentero, tus ojos a la deriva de sus abundantes tetas mientras se sacuden deliciosamente con cada movimiento.",
+                "Pero a medida que ella sacude tentadoras sus pesadas tetas de un lado a otro, no puedes mirar hacia otro lado, estableciéndose en la sensación placentera de su rebote en tu polla.",
+                "Pero la vista de sus tetas celestiales te mantiene encerrado en su lugar, mirándolas ansiosamente rebotar hacia arriba y hacia abajo mientras ella te monta sin sentido.",
+                "Pero antes de que puedas escapar de una ola de magia sobre ti de tu conexión íntima, dejándote gemir y aturdir, empujando irreflexivamente a su maravilloso coño."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'No vas a ir a ningún lado. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿De verdad crees que podrías escapar de mí? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿Mi coño se siente tan bien que da miedo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Solo quiero retirar hasta la última gota de semen de tus bolas, ¿es tan malo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Solo recuéstese y mira mis grandes tetas rebotar. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Sex",
+            "theText": [
+                "¡Y liberarse de la hendidura celestial de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pout|n|'Awww...'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Kehehe, ¿se sintió demasiado bien? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Oh, apuesto a que solo quieres que envuelva tu polla en mis tetas. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Titfuck",
+            "theText": [
+                "[ThePlayerName] intenta empujar las tetas pesadas de [AttackerName] lejos de [TargetHisOrHer] Dick ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Titfuck",
+            "theText": [
+                "|f|PlayMotionEffect|/|ScreenBounce|n|Pero con una fuerza sorprendente, ella envuelve sus brazos alrededor de la cintura, y obliga a su polla más profundamente en su suave escote celestial, dejándote gemir mientras bombea aproximadamente tu longitud con sus senos intoxicantes.",
+                "|f|PlayMotionEffect|/|ScreenBounce|n||f|ChangeImageLayer|/|PlayerBodyPenisTip|/|None|n||f|ChangeImageLayer|/|PlayerBodyPenisTipSilhouette|/|None|n||f|ChangeImageLayer|/|ViliPaizuri|/|KneadingLeft|n||f|ChangeImageLayer|/|BoobString|/|KneadingLeft|n|Pero mientras roda suavemente sus senos celestiales alrededor de tu dolor de polla, solo te encuentras espaciándose, abrasando ansiosamente su designación abundante, haciéndola reír a deleite.",
+                "|f|PlayMotionEffect|/|ScreenBounce|n|Pero no puedes sacar tu polla entre sus senos exquisitamente perfectos, suspirando mientras acaricia tu virilidad contraproducente con su cálido escote.",
+                "|f|PlayMotionEffect|/|ScreenBounce|n|Pero sigues pensando \"un poco más\", y nuevamente, y nuevamente.Dejándole irreflexivamente que le ordeñe su polla sacudida con sus enormes senos, jurando que se detiene pronto.",
+                "|f|PlayMotionEffect|/|ScreenBounce|n|Pero tu cabeza está nublada con imágenes y fantasías de sus hermosos senos, y entierras ansiosamente tu polla en su escote acogedor, empujando con amor entre sus tetas de fusión mental.",
+                "|f|PlayMotionEffect|/|ScreenSway|n|Pero cuando sus manos se hunden en sus abundantes senos para alejarla, comienzas a atacarlos con un suspiro feliz, olvidando por completo lo que planeabas hacer.",
+                "|f|PlayMotionEffect|/|ScreenBounce|n|Pero con un destello de magia de Vili tu libido y amor por las tetas, dejándote follando ansiosamente sus abundantes senos, ansiando darle cada gota de tu semilla.",
+                "|f|PlayMotionEffect|/|ScreenSway|n|Pero antes de que puedas escapar de una ola de magia que te arrastra de los grandes senos de Vili, dejándote gemir y aturdir mientras aprieta sus suaves tetas alrededor de tu polla espasming.",
+                "|f|PlayMotionEffect|/|ScreenBounce|n|Pero ella rápidamente golpea sus pesadas tetas en su ingle, jodiendo más o menos tu dolor de virilidad con sus senos suaves de malvavisco, cada impacto mudoso dejando tus pensamientos girando con éxtasis hasta que te conformas con dejarla ordeñar tu polla sacudida con su maravillosa escote."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Titfuck",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'No vas a ir a ningún lado. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿De verdad crees que podrías escapar de mí? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Ahí tienes, ♥ Break por mis tetas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Solo quiero convertirte en un adicto a la tuta, ¿eso es tan malo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Solo relájate y déjame ordeñarte secar con mis grandes tetas. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Titfuck",
+            "theText": [
+                "|f|CallEventAndSceneThenReturn|/|Visit Vili|/|GoToBreastSizeCombat|n||f|PlayMotionEffect|/|Crash|n|¡Y empuja las tetas celestiales de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Titfuck",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pout|n|'Awww...'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Te estabas cerca, ¿no? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Kehehe. ♥ Te escapaste.Pero apuesto a que no querías. ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No puedes resistirme a mis tetas para siempre. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Asustado de que te estabas convirtiendo en mi esclavo adicto? ♥ No te trates bien. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Breast Smother",
+            "theText": [
+                "[ThePlayerName] intenta sacar las pesadas tetas de [AttackerName] de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Breast Smother",
+            "theText": [
+                "Pero con una fuerza sorprendente, ella envuelve sus brazos alrededor de la parte posterior de tu cabeza y obliga a tu rostro más profundamente a su suave escote celestial.",
+                "Pero mientras acuna suavemente tu cabeza entre sus senos celestiales, te encuentras espaciado, enterrando felizmente tu rostro en su escote abundante.",
+                "Pero no puedes alejarte de sus senos exquisitamente perfectos, y se acaricia en su cálido escote con un suspiro feliz.",
+                "Pero te frotas tu cara en su escote pensando \"solo una vez más\", y nuevamente, y nuevamente.Matándose irreflexivamente su suave escote jurando que te detendrás pronto.",
+                "Pero su cabeza está nublada con imágenes y fantasías de sus hermosos senos, y entierras tu rostro en su escote acogedor, frotando con amor tu rostro entre sus tetas de fusión mental.",
+                "Pero cuando sus manos se hunden en sus abundantes senos para alejarla, comienzas a atacarlos con un suspiro feliz, olvidando por completo lo que planeabas hacer.",
+                "Pero antes de que puedas escapar de una ola de magia a través de ti de la piel de Vili, dejándote gemir y aturdir, sin irreflexionly acariciando a sus suaves tetas."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Breast Smother",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'No vas a ir a ningún lado. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿De verdad crees que podrías escapar de mí? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Ahí tienes, ♥ cae por mis tetas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Solo quiero convertirte en un adicto a la tuta, ¿eso es tan malo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Solo relájate y déjame masajearte con mis grandes tetas. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Breast Smother",
+            "theText": [
+                "¡Y empuja las tetas celestiales de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Breast Smother",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pout|n|'Awww...'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Apuesto a que los quieres envueltos alrededor de tu polla. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Kehehe. ♥ Te escapaste.Pero apuesto a que no querías. ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Oh, apuesto a que solo quieres que envuelva tu polla en mis tetas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Asustado de que te estabas convirtiendo en mi esclavo adicto? ♥ No te trates bien. ♥"
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Normal",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.20",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/Vili_Body.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ArmsCrossed",
+                            "File": "Monsters/Vili/Vili_BodyArmCross.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Nude",
+                            "File": "Monsters/Vili/Vili_BodyNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ArmsCrossedNude",
+                            "File": "Monsters/Vili/Vili_BodyNudeArmCross.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.20",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/Vili_Face_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Vili/Vili_Face_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushExtra",
+                            "File": "Monsters/Vili/Vili_Face_BlushHeavy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/Vili_Expression_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BaseSmug",
+                            "File": "Monsters/Vili/Vili_Expression_BaseSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Caring",
+                            "File": "Monsters/Vili/Vili_Expression_Caring.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pleasured",
+                            "File": "Monsters/Vili/Vili_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/Vili/Vili_Expression_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Happy",
+                            "File": "Monsters/Vili/Vili_Expression_Happy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LaughHappy",
+                            "File": "Monsters/Vili/Vili_Expression_LaughHappy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LaughHysterical",
+                            "File": "Monsters/Vili/Vili_Expression_LaughHysterical.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Playful",
+                            "File": "Monsters/Vili/Vili_Expression_Playful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PlayfulSmug",
+                            "File": "Monsters/Vili/Vili_Expression_PlayfulSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Seductive",
+                            "File": "Monsters/Vili/Vili_Expression_Seductive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Tease",
+                            "File": "Monsters/Vili/Vili_Expression_Tease.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TeaseChildish",
+                            "File": "Monsters/Vili/Vili_Expression_TeaseChildish.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TeasePlayful",
+                            "File": "Monsters/Vili/Vili_Expression_TeasePlayful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Vili/Vili_Expression_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Mocking",
+                            "File": "Monsters/Vili/Vili_Expression_Mocking.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Bored",
+                            "File": "Monsters/Vili/Vili_Expression_Bored.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pout",
+                            "File": "Monsters/Vili/Vili_Expression_Pout.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PoutSevere",
+                            "File": "Monsters/Vili/Vili_Expression_PoutSevere.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sad",
+                            "File": "Monsters/Vili/Vili_Expression_Sad.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Condescending",
+                            "File": "Monsters/Vili/Vili_Expression_Condescending.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pride",
+                            "File": "Monsters/Vili/Vili_Expression_Pride.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Dominant",
+                            "File": "Monsters/Vili/Vili_Expression_Determined.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Wat",
+                            "File": "Monsters/Vili/Vili_Expression_Wat.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OhNo",
+                            "File": "Monsters/Vili/Vili_Expression_OhNo.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Panic",
+                            "File": "Monsters/Vili/Vili_Expression_Panic.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Angry",
+                            "File": "Monsters/Vili/Vili_Expression_Angry.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Crying",
+                            "File": "Monsters/Vili/Vili_Expression_Crying.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OrgasmIntense",
+                            "File": "Monsters/Vili/Vili_Expression_OrgasmIntense.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Scene",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "TitsCloseUp",
+                            "File": "Monsters/OppaiImpTitsCloseUp.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "HugeTits",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.20",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/Vili_BodyHugeBoobs.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ArmsCrossed",
+                            "File": "Monsters/Vili/Vili_BodyArmCrossHugeBoobs.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Nude",
+                            "File": "Monsters/Vili/Vili_BodyNudeHugeBoobs.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ArmsCrossedNude",
+                            "File": "Monsters/Vili/Vili_BodyNudeArmCrossHugeBoobs.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.20",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/Vili_Face_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Vili/Vili_Face_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushExtra",
+                            "File": "Monsters/Vili/Vili_Face_BlushHeavy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/Vili_Expression_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BaseSmug",
+                            "File": "Monsters/Vili/Vili_Expression_BaseSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Caring",
+                            "File": "Monsters/Vili/Vili_Expression_Caring.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pleasured",
+                            "File": "Monsters/Vili/Vili_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/Vili/Vili_Expression_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Happy",
+                            "File": "Monsters/Vili/Vili_Expression_Happy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LaughHappy",
+                            "File": "Monsters/Vili/Vili_Expression_LaughHappy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LaughHysterical",
+                            "File": "Monsters/Vili/Vili_Expression_LaughHysterical.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Playful",
+                            "File": "Monsters/Vili/Vili_Expression_Playful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PlayfulSmug",
+                            "File": "Monsters/Vili/Vili_Expression_PlayfulSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Seductive",
+                            "File": "Monsters/Vili/Vili_Expression_Seductive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Tease",
+                            "File": "Monsters/Vili/Vili_Expression_Tease.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TeaseChildish",
+                            "File": "Monsters/Vili/Vili_Expression_TeaseChildish.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TeasePlayful",
+                            "File": "Monsters/Vili/Vili_Expression_TeasePlayful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Vili/Vili_Expression_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Mocking",
+                            "File": "Monsters/Vili/Vili_Expression_Mocking.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Bored",
+                            "File": "Monsters/Vili/Vili_Expression_Bored.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pout",
+                            "File": "Monsters/Vili/Vili_Expression_Pout.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PoutSevere",
+                            "File": "Monsters/Vili/Vili_Expression_PoutSevere.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sad",
+                            "File": "Monsters/Vili/Vili_Expression_Sad.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Condescending",
+                            "File": "Monsters/Vili/Vili_Expression_Condescending.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pride",
+                            "File": "Monsters/Vili/Vili_Expression_Pride.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Dominant",
+                            "File": "Monsters/Vili/Vili_Expression_Determined.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Wat",
+                            "File": "Monsters/Vili/Vili_Expression_Wat.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OhNo",
+                            "File": "Monsters/Vili/Vili_Expression_OhNo.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Panic",
+                            "File": "Monsters/Vili/Vili_Expression_Panic.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Angry",
+                            "File": "Monsters/Vili/Vili_Expression_Angry.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Crying",
+                            "File": "Monsters/Vili/Vili_Expression_Crying.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OrgasmIntense",
+                            "File": "Monsters/Vili/Vili_Expression_OrgasmIntense.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Scene",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "TitsCloseUp",
+                            "File": "Monsters/OppaiImpHugeTitsCloseUp.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "TitfuckNormal",
+            "Set": [
+                {
+                    "Name": "Wings",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Wings.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ViliTorso",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_ViliTorsoFarBack.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBody",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Body",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Guy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBodySilhouette",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Body",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_GuySilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBodyShaft",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Body",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_GuyShaftShading.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBodyShaftSilhouette",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Body",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_GuyShaftShadingSilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ViliPaizuri",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Boobs_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingLeft",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Boobs_KneadingLeft.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingRight",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Boobs_KneadingRight.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Squeeze",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Boobs_Squeeze.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SqueezeAlt",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Boobs_SqueezeAlt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBodyPenisTip",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Boobs_PenisTip.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBodyPenisTipSilhouette",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Boobs_PenisTipSilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "BoobString",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsString_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingLeft",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsString_KneadingLeft.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingRight",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsString_KneadingRight.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Squeeze",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsString_Squeeze.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SqueezeAlt",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsString_SqueezeAlt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ViliNeck",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_NeckBase.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingLeft",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_NeckBase.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingRight",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_NeckBase.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "MotionBlur",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Boobs_MotionBlur.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Head.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HeadBlush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_BaseSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Caring",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Caring.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Condescending",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Condescending.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Laugh",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Laugh.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLickMock",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_LipLickMock.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Mocking",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Mocking.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Playful",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Playful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PlayfulSmug",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_PlayfulSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smuger",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Smuger.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Tease",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Tease.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Semen",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsSemen_BaseAndSqueezeAltCoated.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BaseThick",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsSemen_BaseAndSqueezeAltCoatedThick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Squeeze",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsSemen_SqueezeCoated.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SqueezeThick",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsSemen_SqueezeCoatedThick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingLeft",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsSemen_KneadLeftCoated.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingLeftThick",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsSemen_KneadLeftCoatedThick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingRight",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsSemen_KneadRightCoated.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingRightThick",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsSemen_KneadRightCoatedThick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "SemenSpurt",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsSemen_BaseAndSqueezeAltSpurt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Squeeze",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsSemen_SqueezeSpurt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingLeft",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsSemen_KneadLeftSpurt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingRight",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_BoobsSemen_KneadRightSpurt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "MotionLines",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_MotionLines.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "TitfuckHuge",
+            "Set": [
+                {
+                    "Name": "Wings",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Wings.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ViliTorso",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_ViliTorsoFarBack.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBody",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Body",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Guy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBodySilhouette",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Body",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_GuySilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBodyShaft",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Body",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_GuyShaftShading.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBodyShaftSilhouette",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Body",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_GuyShaftShadingSilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ViliPaizuri",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobs_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingLeft",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobs_KneadingLeft.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingRight",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobs_KneadingRight.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Squeeze",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobs_Squeeze.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SqueezeAlt",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobs_SqueezeAlt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBodyPenisTip",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Boobs_PenisTip.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBodyPenisTipSilhouette",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Boobs_PenisTipSilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "BoobString",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsString_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingLeft",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsString_KneadingLeft.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingRight",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsString_KneadingRight.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Squeeze",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsString_Squeeze.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SqueezeAlt",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsString_SqueezeAlt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ViliNeck",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_NeckBase.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingLeft",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_NeckHugeKneadLeft.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingRight",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_NeckHugeKneadRight.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "MotionBlur",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobs_MotionBlur.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Head.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HeadBlush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_BaseSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Caring",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Caring.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Condescending",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Condescending.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Laugh",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Laugh.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLickMock",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_LipLickMock.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Mocking",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Mocking.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Playful",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Playful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PlayfulSmug",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_PlayfulSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smuger",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Smuger.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Tease",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_Expressions_Tease.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Semen",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsSemen_BaseAndSqueezeAltCoated.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BaseThick",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsSemen_BaseAndSqueezeAltCoatedThick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Squeeze",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsSemen_SqueezeCoated.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SqueezeThick",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsSemen_SqueezeCoatedThick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingLeft",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsSemen_KneadLeftCoated.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingLeftThick",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsSemen_KneadLeftCoatedThick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingRight",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsSemen_KneadRightCoated.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingRightThick",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsSemen_KneadRightCoatedThick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "SemenSpurt",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsSemen_BaseAndSqueezeAltSpurt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Squeeze",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsSemen_SqueezeSpurt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingLeft",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsSemen_KneadLeftSpurt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KneadingRight",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_HugeBoobsSemen_KneadRightSpurt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "MotionLines",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Vili/ViliTitfuckParts/ViliPaizuri_MotionLines.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

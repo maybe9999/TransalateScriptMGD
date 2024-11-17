@@ -1,0 +1,313 @@
+{
+    "name": "Nova",
+    "IDname": "Nova",
+    "species": "Elemental",
+    "gender": "female",
+    "description": "Una mujer cuyo cuerpo parece estar hecho puramente de tierra licuada y fuego ardiente, con una piel de color naranja fundida que cambia perezosamente a los tonos de rojo oscurecidos antes de volver a cambiar su pigmentación naranja original.Su cabello es una melena ardiente de escarlata que parpadea como si estuviera hecho de fuego en sí, fluyendo por su espalda y hombros y separándose en su frente alrededor de sus dos cuernos hacia atrás que cambian de color desde la base, pasando rápidamente de la naranja de ella de ella.Piel a un rojo oscuro y que termina con puntas puntiagudas negras.\n\nSu rostro es cálido y relajado, con cejas ennegrecidas y rocosas colocadas sobre la esclera roja profunda y fundida y el iris amarillo brillante de sus ojos mientras llaman con una luz enérgica, una protuberancia de naranja más oscura y sin nariz para una nariz, yLabios negros de obsidiana de aspecto suave, que se abren para revelar su pegajosa lengua y boca fundidas cada vez que habla o sonríe.\n\nComenzando desde sus hombros, sus brazos están cubiertos de obsidiana negra solidificada con pequeñas venas de naranja fundida que se abren camino hasta sus manos que pulsan con un calor interno.\n\nSus voluptuosos senos DD están en exhibición completa, ocasionalmente goteos pequeños zarcillos de lava que se arrastran por su cuerpo sensual como el sudor, hasta su cintura de reloj de arena y sus caderas anchas y femeninas que están cubiertas de varios parches de roca roja fundida, peroNo haga nada para cubrir su coño de naranja fundida que gotee los jugos de su hendidura amarilla expuesta.La roca que cubre sus caderas se oscurece lentamente de color a medida que avanza más y más abajo en sus piernas bien formadas hasta que se convierte en un negro profundo, ocasionalmente roto por vetas cálidas de naranja ardiente alrededor de sus muslos y rodillas, y debajo de sus rodillas se reducen aDos puntos irregulares de obsidiana negra oscura, que flotan en el suelo.",
+    "encyclopedia": "Magmommy",
+    "tags": "none",
+    "generic": "True",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        ""
+    ],
+    "perks": [
+        ""
+    ],
+    "stats": {
+        "lvl": "1",
+        "Exp": "10",
+        "max_hp": "100",
+        "max_ep": "10",
+        "max_sp": "1",
+        "Power": "5",
+        "Technique": "5",
+        "Intelligence": "5",
+        "Allure": "5",
+        "Willpower": "5",
+        "Luck": "5"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "100",
+        "Ass": "100",
+        "Breasts": "100",
+        "Mouth": "100",
+        "Seduction": "100",
+        "Magic": "100",
+        "Pain": "100",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0",
+        "Debuff": "0"
+    },
+    "moneyDropped": "0",
+    "ItemDropList": [
+        {
+            "name": "Anaph Herb",
+            "dropChance": "75"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "SetMusicTo",
+            "move": "",
+            "theText": [
+                "music/Caverns/Purple Planet Music - Tense - Melancholia (1_24) 96bpm.mp3"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Spank",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Base",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.05",
+            "Images": [
+                {
+                    "Name": "Body",
+                    "File": "Monsters/Nova/body_nova.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Face",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Nova/face_nova_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Blush",
+                    "File": "Monsters/Nova/face_nova_Blush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Nova/expression_nova_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "ClosedEyeHappy",
+                    "File": "Monsters/Nova/expression_nova_ClosedEyeHappy.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Horny",
+                    "File": "Monsters/Nova/expression_nova_Horny.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Orgasm",
+                    "File": "Monsters/Nova/expression_nova_Orgasm.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pleasured",
+                    "File": "Monsters/Nova/expression_nova_Pleasured.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "PleasuredIntense",
+                    "File": "Monsters/Nova/expression_nova_PleasuredIntense.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Seductive",
+                    "File": "Monsters/Nova/expression_nova_Seductive.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Serious",
+                    "File": "Monsters/Nova/expression_nova_Serious.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Sigh",
+                    "File": "Monsters/Nova/expression_nova_Sigh.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "SmileOneEye",
+                    "File": "Monsters/Nova/expression_nova_SmileOneEye.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "SmileRelaxed",
+                    "File": "Monsters/Nova/expression_nova_SmileRelaxed.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "WinkSmile",
+                    "File": "Monsters/Nova/expression_nova_WinkSmile.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Smirk",
+                    "File": "Monsters/Nova/expression_nova_Smirk.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Thinking",
+                    "File": "Monsters/Nova/expression_nova_Thinking.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "WinkKiss",
+                    "File": "Monsters/Nova/expression_nova_WinkKiss.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "FaceCover",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "FaceCover",
+                    "File": "Monsters/Nova/FaceCover_nova.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,450 @@
+{
+    "name": "Catherine",
+    "IDname": "Catherine",
+    "species": "Demon",
+    "gender": "female",
+    "description": "Una mujer joven ligeramente pequeña con cabello azul de longitud media, ojos verdes brillantes y piel suave de color melocotón.Dos cuernos brotan desde los lados de su cabeza y apuntan hacia arriba.\n\nLleva un suéter de azul oscuro bastante grande hecho de una tela suave que se ajusta firmemente alrededor de su pecho y la cintura de antemano, mostrando sus senos de la taza B y las caderas delgadas mientras oculta sus privados de la vista, pero de vez en cuando tiene que enrollar elmangas largas mientras cubren sus delicadas manos de aspecto.\n\nSu culo de aspecto flexible presiona fácilmente contra el suéter, y una larga cola que termina en un bulboso corazón azul oscuro se asoma desde justo debajo de su dobladillo.Sus piernas firmes están adornadas en el muslo negro que terminan en un par de zapatos negros simples.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        ""
+    ],
+    "perks": [
+        "Semen Eater",
+        "Energy Drainer"
+    ],
+    "stats": {
+        "lvl": "10",
+        "Exp": "100",
+        "max_hp": "300",
+        "max_ep": "10",
+        "max_sp": "1",
+        "Power": "2",
+        "Technique": "8",
+        "Intelligence": "25",
+        "Allure": "10",
+        "Willpower": "10",
+        "Luck": "5"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "100",
+        "Ass": "150",
+        "Breasts": "100",
+        "Mouth": "25",
+        "Seduction": "50",
+        "Magic": "50",
+        "Pain": "50",
+        "Holy": "150",
+        "Unholy": "50"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "50",
+        "Aphrodisiac": "0",
+        "Restraints": "-25",
+        "Sleep": "50",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "moneyDropped": "0",
+    "ItemDropList": [
+        {
+            "name": "Anaph Herb",
+            "dropChance": "75"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "HitWith",
+            "move": "Spank",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Wings",
+            "StartOn": "0",
+            "AlwaysOn": "0",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "WingsOn",
+                    "File": "Monsters/Catherine/DemonParts_Catherine_Wings.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "DemonicTail",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "DemonForm",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "DemonOn",
+                    "File": "Monsters/Catherine/DemonParts_Catherine_Tail.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Base",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.28",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Catherine/Body_Catherine_Nude.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "DemonForm",
+            "StartOn": "1",
+            "AlwaysOn": "0",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "WingsOn",
+                    "File": "Monsters/Catherine/DemonParts_Catherine_Horns.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Aura",
+            "StartOn": "0",
+            "AlwaysOn": "0",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "AuraBody",
+                    "File": "Monsters/Catherine/Aura_Catherine_Body.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "AruaDemonForm",
+                    "File": "Monsters/Catherine/Aura_Catherine_Demon.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "AruaTailOnly",
+                    "File": "Monsters/Catherine/Aura_Catherine_Demon.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Sweater",
+            "StartOn": "1",
+            "AlwaysOn": "0",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Catherine/Clothes_Catherine_Top.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Socks",
+            "StartOn": "1",
+            "AlwaysOn": "0",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Catherine/Clothes_Catherine_Socks.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Face",
+            "StartOn": "0",
+            "AlwaysOn": "0",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Blush",
+                    "File": "Monsters/Catherine/Face_Catherine_Blush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "SmileSmall",
+                    "File": "Monsters/Catherine/Expressions_Catherine_SmallSmile.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Aroused",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Aroused.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Concern",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Concern.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Crying",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Crying.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Dazed",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Dazed.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Deadpan",
+                    "File": "Monsters/Catherine/Expressions_Catherine_DeadpanStare.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Disgust",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Disgust.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Fear",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Fear.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Flustered",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Flustered.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Frustrated",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Frustrated.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Happy",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Happy.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Kiss",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Kiss.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "KissDrain",
+                    "File": "Monsters/Catherine/Expressions_Catherine_KissDrain.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "KissShy",
+                    "File": "Monsters/Catherine/Expressions_Catherine_KissShy.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Loving",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Loving.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Nervous",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Nervous.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Orgasm",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Orgasm.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Sad",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Sad.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Satisfied",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Satisfied.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Scoff",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Scoff.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Shy",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Shy.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Smug",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Smug.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Yelling",
+                    "File": "Monsters/Catherine/Expressions_Catherine_Yelling.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}
