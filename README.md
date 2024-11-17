@@ -70,7 +70,7 @@ for b in a:
 c = translate(temp_text).split(" .-|----|- ")
 
 for g in range(len(c)):
-    a[g][-2] = c[a]
+    a[g][-2] = c[g]
 
 json[a[0]] = a[0][-2]
 ```
