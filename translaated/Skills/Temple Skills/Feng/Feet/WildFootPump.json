@@ -1,0 +1,53 @@
+{
+    "name": "Wild Foot Pump",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Power",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Feet"
+    ],
+    "startsStance": "",
+    "requiresStance": "Footjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Los pies de [AttackerName] de la erección de [TargetHisOrHer] de [TargetHisOrHer] entre sus suelas con movimientos no sincronizados, dando a [TargetName] la cabeza de la polla que no tiene descanso de sus dedos burlones mientras bailan sobre el cúspide de cada movimiento gracioso, dejando [dejando [dejando [[dejando [dejando [a la cabeza [que dejan [.TargetName] jadeando y gimiendo de las olas de placer.",
+    "miss": "Los pies de [AttackerName] de la erección sacudida de [TargetHisOrHer] de [TargetHisOrHer] entre sus suelas con movimientos no sincronizados, dando a [TargetName] la cabeza de la polla que no tiene descanso de sus dedos burlones mientras bailan sobre él en el cúspide de cada movimiento elegante, pero [[[TargetHisOrHer] Grits [TargetName] dientes e ignora el placer.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

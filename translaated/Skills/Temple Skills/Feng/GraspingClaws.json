@@ -1,0 +1,53 @@
+{
+    "name": "Grasping Claws",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Pain"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "60",
+    "maxRange": "115",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "50",
+    "statusDuration": "10",
+    "statusPotency": "10",
+    "statusResistedBy": "Technique",
+    "statusText": "aphrodisiac",
+    "descrip": "",
+    "outcome": "OrgasmCheck",
+    "miss": "",
+    "statusOutcome": "[AttackerName] repentinamente salta hacia [TargetName] con sorprendente rapidez, extendiendo y rascando [TargetHimOrHer] con [AttackerHisOrHer] de las uñas con forma de garra, haciendo que [TargetHimOrHer] jadee en placer como un potente afrodisíaco comienza a aparecer en [TargetHisOrHer]!",
+    "statusMiss": "[AttackerName] suddenly hops towards [TargetName] with surprising quickness, but [TargetName] easily manages to avoid [AttackerHisOrHer] claw-like fingernails and grasping hands due to [AttackerHisOrHer] stiff limbs.",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

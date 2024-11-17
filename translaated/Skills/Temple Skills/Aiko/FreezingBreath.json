@@ -1,0 +1,54 @@
+{
+    "name": "Freezing Breath",
+    "cost": "25",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "statusEffectScaling": "0",
+    "requiredStat": "0",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "None",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Defence",
+    "statusChance": "75",
+    "statusDuration": "15",
+    "statusPotency": "-25",
+    "statusResistedBy": "",
+    "statusText": "Freezing Breath",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] carteras [AttackerHisOrHer] labios regordetes y sopla un torrente de aire congelado hacia [TargetName], enfriando [TargetHimOrHer] al hueso como la energía [TargetHisOrHer] se agita!",
+    "statusMiss": "[AttackerName] purses [AttackerHisOrHer] plump lips and blows a torrent of freezing air towards [TargetName], but [TargetHeOrShe] manages to avoid the frigid wind!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

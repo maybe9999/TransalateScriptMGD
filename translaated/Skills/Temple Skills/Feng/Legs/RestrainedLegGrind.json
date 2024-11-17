@@ -1,0 +1,58 @@
+{
+    "name": "Restrained Leg Grind",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "100",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "4",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Legs"
+    ],
+    "startsStance": "",
+    "requiresStance": "Thigh Grinding",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Blowjob",
+        "Titfuck",
+        "Footjob",
+        "Tailjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] acaricia con fuerza la polla palpitante de [TargetName] con [AttackerHisOrHer] suave y acogedor muslo, e incapaz de escapar, la resistencia [TargetName] se está quitando lentamente por el placer del placer de [AttackerHisOrHer].] Longitud dolorida.",
+    "miss": "[AttackerName] acaricia con fuerza [TargetName] Dick palpitando con [AttackerHisOrHer] suave y acogedor muslo, ¡pero [TargetName] logra soportar el placer burlón!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

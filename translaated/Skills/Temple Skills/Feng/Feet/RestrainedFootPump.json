@@ -1,0 +1,53 @@
+{
+    "name": "Restrained Foot Pump",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Feet"
+    ],
+    "startsStance": "",
+    "requiresStance": "Footjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Los pies de [AttackerName] sandwich de [TargetName] de la virilidad entre sus suelas mientras acarician hábilmente [TargetHisOrHer] de longitud al unísono perfecto, dejando [TargetName] temblando cada vez que alcanzan la punta sensible [TargetHisOrHer].",
+    "miss": "Los pies de [AttackerName] sandwich de [TargetName] de la variedad rígida entre sus suelas mientras acarician hábilmente [TargetHisOrHer] a la longitud al unísono de burlas perfectas, pero [TargetName] se pone en arena [TargetHisOrHer] e ignora el placer.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

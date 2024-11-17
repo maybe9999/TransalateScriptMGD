@@ -1,0 +1,54 @@
+{
+    "name": "Clinging Feral Sex",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Pain"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "100",
+    "statusDuration": "10",
+    "statusPotency": "25",
+    "statusResistedBy": "",
+    "statusText": "aphrodisiac",
+    "descrip": "",
+    "outcome": "[AttackerName] tightly clings to [TargetName]'s body as [AttackerHeOrShe] gently digs [AttackerHisOrHer] aphrodisiac coated nails into [TargetHisOrHer] back, playfully nibbling on [TargetHisOrHer] shoulder while [AttackerHeOrShe] sensually slams [AttackerHisOrHer] hips onto [TargetName] la polla.",
+    "miss": "[AttackerName] tightly clings to [TargetName]'s body as [AttackerHeOrShe] gently digs [AttackerHisOrHer] aphrodisiac coated nails into [TargetHisOrHer] back, playfully nibbling on [TargetHisOrHer] shoulder while [AttackerHeOrShe] sensually slams [AttackerHisOrHer] hips onto [TargetName] La polla, ¡pero [TargetName] logra soportar la placentera creación del amor!",
+    "statusOutcome": "¡El afrodisíaco de las uñas y los dientes de [AttackerName], comienzan a volver a generar [TargetName] con lujuria!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

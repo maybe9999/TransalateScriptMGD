@@ -1,0 +1,55 @@
+{
+    "name": "Thigh Trapped Footjob",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Feet"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Footjob",
+        "Thigh Grinding",
+        "Thighjob"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Mientras que [AttackerName] tiene la cabeza de [TargetName] atrapada entre sus muslos, [AttackerHeOrShe] usa uno de sus pies para acariciar firmemente la rígida virilidad de [TargetName], obligando a [TargetName] a dejar escapar un gemido de placer estrangulado como [TargetHisOrHer] dolores de polla.",
+    "miss": "Mientras que [AttackerName] tiene la cabeza de [TargetName] atrapada entre sus muslos, [AttackerHeOrShe] usa uno de sus pies para acariciar firmemente la hombre de virilidad de [TargetName], pero [TargetName] se agrupa [TargetHisOrHer] dientes y logra ignorar el placer.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

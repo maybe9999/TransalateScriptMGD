@@ -1,0 +1,57 @@
+{
+    "name": "Cold Sheltering Paizuri",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "Titfuck",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Making Out",
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Tailjob",
+        "Blowjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "|f|[AttackerName] frees [AttackerHisOrHer] large breasts from [AttackerHisOrHer] tight kimono and wraps [AttackerHisOrHer] warm, soft flesh around [TargetName]'s cock, burying it in the depths of [AttackerHisOrHer] cleavage as [AttackerHisOrHer] huge tits roll and squeeze around [TargetName]'s shaft!|n||f|ChangeEnergyQuietly|/|10|n||f|ChangeImageLayer|/|Blanket|/|BlanketBlue|n|Sus tetas cálidas se sienten mucho mejor que el escalofrío de la tormenta de nieve aullando a tu alrededor, y se siente abiertamente más cómoda mientras coloca su kimono alrededor de ustedes dos como un capullo suave, dejándote no poder suprimir un escalofríosus senos.",
+    "miss": "[AttackerName] libera [AttackerHisOrHer] grandes senos del kimono apretado [AttackerHisOrHer] e intenta envolver [AttackerHisOrHer] carne cálida y suave alrededor de la polla de [TargetName], pero [TargetName] logra alejarse de ella en el último momento, manejando, manejando¡Mantenerse libre de [AttackerHisOrHer] de almohada!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}
