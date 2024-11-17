@@ -1,0 +1,69 @@
+{
+    "name": "Approach the Capital...",
+    "Description": "Venture into the enigmatic capital of monsters...",
+    "requires": [
+        "Lucidian Passport"
+    ],
+    "MusicList": [
+        "music/Caverns/Stalwick_-_Dreaming.mp3"
+    ],
+    "Deck": [
+        "Event",
+        "Approach the Capital..."
+    ],
+    "RandomEvents": [
+        ""
+    ],
+    "RandomMonsters": [
+        "Salaris"
+    ],
+    "MonsterGroups": [
+        {
+            "Group": [
+                "Salaris"
+            ]
+        }
+    ],
+    "Treasure": [
+        {
+            "Common": [
+                "Harmony Jelly",
+                "Energy Potion",
+                "Arouse Orb",
+                "Flash Bomb"
+            ]
+        },
+        {
+            "Uncommon": [
+                "Harmony Jelly",
+                "Ardor Potion",
+                "Arousero Orb",
+                "Fairy Dust",
+                "Chained Rune"
+            ]
+        },
+        {
+            "Rare": [
+                "Inferno Rune",
+                "Tranquility Jelly",
+                "Sinister Eye Bangle",
+                "Umbral Chain Necklace",
+                "Forbidden Tome",
+                "Hellfire Hat",
+                "Stylish Jacket",
+                "Cock Ring of Satisfaction"
+            ]
+        }
+    ],
+    "Eros": [
+        {
+            "Common": "100"
+        },
+        {
+            "Uncommon": "250"
+        },
+        {
+            "Rare": "500"
+        }
+    ]
+}

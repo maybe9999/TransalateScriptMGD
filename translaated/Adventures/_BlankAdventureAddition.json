@@ -1,0 +1,35 @@
+{
+    "name": "",
+    "Addition": "Yes",
+    "Deck": [],
+    "RandomEvents": [
+        ""
+    ],
+    "RandomMonsters": [
+        ""
+    ],
+    "MonsterGroups": [
+        {
+            "Group": [
+                ""
+            ]
+        }
+    ],
+    "Treasure": [
+        {
+            "Common": [
+                ""
+            ]
+        },
+        {
+            "Uncommon": [
+                ""
+            ]
+        },
+        {
+            "Rare": [
+                ""
+            ]
+        }
+    ]
+}

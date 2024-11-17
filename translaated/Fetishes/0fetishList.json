@@ -1,0 +1,244 @@
+{
+    "FetishList": [
+        {
+            "Name": "Sex",
+            "BaseLevel": "0",
+            "Type": "Fetish",
+            "CreationOn": "¿Te gusta tanto las relaciones sexuales?",
+            "CreationOff": "Oh, entonces eres normal sobre el sexo.",
+            "ToolTip": "How much you love sex and your sexual fascination with pussies.\n\nVerdict: ",
+            "LevelText": [
+                [
+                    "0",
+                    "You have yet to acquire a fetish for pussies and sex."
+                ],
+                [
+                    "25",
+                    "You have a fetish for pussies and sex."
+                ],
+                [
+                    "50",
+                    "You have a strong fetish for pussies and sex. Just thinking about it gets you a little aroused..."
+                ],
+                [
+                    "75",
+                    "You have a very strong fetish for pussies and sex. Your thoughts are often drifting towards them, leaving you achingly horny..."
+                ],
+                [
+                    "100",
+                    "You are completely obsessed with pussies and sex. You have a hard time focusing on anything else, and can't even think of resisting temptations of fucking..."
+                ]
+            ]
+        },
+        {
+            "Name": "Oral",
+            "BaseLevel": "0",
+            "Type": "Fetish",
+            "CreationOn": "¿Te encantan tanto las mamadas?",
+            "CreationOff": "Parece un poco de debilidad arriesgada, ¿verdad?",
+            "ToolTip": "How much you love getting blowjobs.\n\nVerdict: ",
+            "LevelText": [
+                [
+                    "0",
+                    "You have yet to acquire a fetish for oral."
+                ],
+                [
+                    "25",
+                    "You have a fetish for blowjobs."
+                ],
+                [
+                    "50",
+                    "You have a strong fetish for women giving you blowjobs. Just thinking about a warm mouth wrapped around your cock gets you hard..."
+                ],
+                [
+                    "75",
+                    "You have a very strong fetish for women giving you blowjobs. Your thoughts often fantasizing about a warm pair of lips teasing your cock, leaving you eager to get sucked dry..."
+                ],
+                [
+                    "100",
+                    "You are completely obsessed with blowjobs. You're having a hard time not fantasizing about a woman sucking you off right now, and couldn't possibly resist the temptation if the temptation were to arise..."
+                ]
+            ]
+        },
+        {
+            "Name": "Breasts",
+            "BaseLevel": "0",
+            "Type": "Fetish",
+            "CreationOn": "Los grandes senos blandos son tu debilidad?",
+            "CreationOff": "¿Quizás no?Titfucks probablemente te habría arruinado ...",
+            "ToolTip": "How much you love breasts. Big or small!\n\nVerdict: ",
+            "LevelText": [
+                [
+                    "0",
+                    "You have yet to acquire a fetish for tits."
+                ],
+                [
+                    "25",
+                    "You have a fetish for tits."
+                ],
+                [
+                    "50",
+                    "You have a strong fetish for women's soft tits. Just thinking about a girl's bouncy chest, or looking at a woman's deep cleavage gets you hard..."
+                ],
+                [
+                    "75",
+                    "You have a very strong fetish for women's soft tits. You have a hard time not thinking about swaying breasts, bouncing and jiggling, their deep cleavage tempting you to give in..."
+                ],
+                [
+                    "100",
+                    "You are completely obsessed with tits. You can't help but fantasize about women shaking their breasts for you, seducing you into a horny mess, and you definitely can't stop yourself from staring at a woman's cleavage..."
+                ]
+            ]
+        },
+        {
+            "Name": "Ass",
+            "BaseLevel": "0",
+            "Type": "Fetish",
+            "CreationOn": "¿Te gustan los grandes traseros?",
+            "CreationOff": "¿Entonces no eres un hombre de culo?",
+            "ToolTip": "How much you love butts!\n\nVerdict: ",
+            "LevelText": [
+                [
+                    "0",
+                    "You have yet to acquire a fetish for butts."
+                ],
+                [
+                    "25",
+                    "You have an ass fetish."
+                ],
+                [
+                    "50",
+                    "You have a strong fetish for curvy asses. Just thinking about a nice ass, or watching a woman's hips swing as she walks gets you hard..."
+                ],
+                [
+                    "75",
+                    "You have a very strong fetish for curvy asses. You have a hard time stopping yourself from thinking about a nice ass, and pulling your eyes away from a woman's swaying hips as she walks, each swing making your cock twitch..."
+                ],
+                [
+                    "100",
+                    "You are completely obsessed with curvy asses. You can't help but fantasize on occasion about women shaking their ass for you, and you definitely can't stop yourself from watching a woman walk while her hips sway with her step, your thoughts and resistance draining down into your cock..."
+                ]
+            ]
+        },
+        {
+            "Name": "Kissing",
+            "BaseLevel": "0",
+            "Type": "Fetish",
+            "CreationOn": "¿Eres tan romántico?",
+            "CreationOff": "Casi cualquiera podría besarte sin sentido, así que no te culpo.",
+            "ToolTip": "How much you love to make out! Probably lipstick too...\n\nVerdict: ",
+            "LevelText": [
+                [
+                    "0",
+                    "You have yet to acquire a fetish for kissing."
+                ],
+                [
+                    "25",
+                    "You have a kissing fetish."
+                ],
+                [
+                    "50",
+                    "You have a strong fetish for kissing and plump lips. Just thinking about kissing, or just looking a woman's soft lips gets you hard..."
+                ],
+                [
+                    "75",
+                    "You have a very strong fetish for kissing and plump lips. Fantasies of making out and getting coated in lipstick marks flit through your thoughts, and a single smooch could probably get you wrapped around a womans finger, even just looking at her soft lips would make your cock ache..."
+                ],
+                [
+                    "100",
+                    "You are completely obsessed with kissing and plump lips. You can't help but fantasize about getting covered in lipstick marks, thoughtlessly making out, letting a woman kiss you into pleasure drunk stupor. Even just getting a kiss blown your way could make you fall to temptation..."
+                ]
+            ]
+        },
+        {
+            "Name": "Legs",
+            "BaseLevel": "0",
+            "Type": "Fetish",
+            "CreationOn": "¿Las piernas largas largas te vuelven locas?Medias tal vez?¿O simplemente te encantan los muslos?",
+            "CreationOff": "Supongo que te distraigan las mujeres que simplemente caminan o cruzan las piernas sería un gran problema para ti.",
+            "ToolTip": "How much you love legs and thighs!\n\nVerdict: ",
+            "LevelText": [
+                [
+                    "0",
+                    "You have yet to acquire a fetish for legs or thighs."
+                ],
+                [
+                    "25",
+                    "You have a fetish for legs and thighs."
+                ],
+                [
+                    "50",
+                    "You have a strong fetish for legs and thighs. Just thinking about a womens long legs and firm thighs makes your cock twitch, tempting you to let your eyes linger on their smooth skin..."
+                ],
+                [
+                    "75",
+                    "You have a very strong fetish for legs and thighs. Your thoughts drift to fantasizing about women's long, seductive legs, leaving you aching to rub your cock against them, tempting you to let your eyes linger on their smooth skin..."
+                ],
+                [
+                    "100",
+                    "You are completely obsessed with legs and thighs. You can't help but fantasize on occasion about humping women's soft legs, thinking about teasing thigh highs and sexy stockings, leaving you staring at their tempting thighs unconsciously, making you space out and wonderfully vulnerable..."
+                ]
+            ]
+        },
+        {
+            "Name": "Feet",
+            "BaseLevel": "0",
+            "Type": "Fetish",
+            "CreationOn": "¿Eh?¿En realidad?¿Te gusta que te pises o adoren más los pies?",
+            "CreationOff": "Bueno, supongo que ser dominado por los pies no es muy héroe como ...",
+            "ToolTip": "How much you love feet!\n\nVerdict: ",
+            "LevelText": [
+                [
+                    "0",
+                    "You have yet to acquire a fetish for feet."
+                ],
+                [
+                    "25",
+                    "You have a foot fetish."
+                ],
+                [
+                    "50",
+                    "You have a strong fetish for feet. Just thinking about worshipping a woman's foot gets you hard, and your eyes dart down to women's feet unconsciously..."
+                ],
+                [
+                    "75",
+                    "You have a very strong fetish for feet. Your thoughts drift to worshipping women feet on occasion, aching for them to tease your cock, and your eyes linger on women's feet unconsciously..."
+                ],
+                [
+                    "100",
+                    "You are completely obsessed with feet. You can't help but fantasize on occasion about getting stepped on by a woman, worshipping her foot, just hearing a woman walk in heels makes your cock twitch, and you staring at women's feet unconsciously, leaving you spacing out and vulnerable..."
+                ]
+            ]
+        },
+        {
+            "Name": "Monstrous",
+            "BaseLevel": "0",
+            "Type": "Fetish",
+            "CreationOn": "¿Te gustan las partes más monstruosas de Monster Girl?Colas, alas, colmillos, tentáculos, cuerpos viscosos, coños de cola y todo eso?Oh mi ... eres un pervertido, ¿no?",
+            "CreationOff": "¡Oh, gracias a Dios!Me preocupaba que te fueras completamente desesperado tan pronto como viste un solo monstruo ...",
+            "ToolTip": "How much you love tails, wings, fangs, tentacles, slimy bodies, tail pussies, and more!\n\nVerdict: ",
+            "LevelText": [
+                [
+                    "0",
+                    "You have yet to acquire a fetish for monster girls more monstrous parts."
+                ],
+                [
+                    "25",
+                    "You have a fetish for monstrous body parts."
+                ],
+                [
+                    "50",
+                    "You have a strong fetish for monstrous body bits. Just thinking about a tail teasing your dick gets you hard, and your eyes linger on monster girls longer than they should..."
+                ],
+                [
+                    "75",
+                    "You have a very strong fetish the monstrous aspects of monster girls. Your thoughts often drifting to fantasies of monster girls teasing you with their tails, wings, and unique orifices. You often stare at monster girls spacing out with naughty thoughts, leaving your attraction rather apparent..."
+                ],
+                [
+                    "100",
+                    "You are completely obsessed with the monstrous aspects of monster girls. You can't help but fantasize about any and every kind of monster girl and the things they could do to you, and it's very noticeable when you stare at a girl's tail pussy or fluffy wings, leaving you wonderfully vulnerable..."
+                ]
+            ]
+        }
+    ]
+}

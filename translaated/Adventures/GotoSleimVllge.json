@@ -1,0 +1,63 @@
+{
+    "name": "Go to Sleim Vllge.",
+    "Description": "Go to the hidden village of slimes...",
+    "requires": [
+        "Slime Badge"
+    ],
+    "requiresEvent": [
+        {
+            "NameOfEvent": "GoToLakeIntro",
+            "Progress": "-99",
+            "ChoiceNumber": "1",
+            "Choice": "SlomeIntro"
+        }
+    ],
+    "MusicList": [
+        "music/Forest/Are-you-kidding.mp3"
+    ],
+    "Deck": [
+        "Event",
+        "SleimVllge"
+    ],
+    "RandomEvents": [
+        ""
+    ],
+    "RandomMonsters": [
+        "Blue Slime"
+    ],
+    "MonsterGroups": [
+        {
+            "Group": [
+                "Blue Slime"
+            ]
+        }
+    ],
+    "Treasure": [
+        {
+            "Common": [
+                ""
+            ]
+        },
+        {
+            "Uncommon": [
+                ""
+            ]
+        },
+        {
+            "Rare": [
+                ""
+            ]
+        }
+    ],
+    "Eros": [
+        {
+            "Common": "100"
+        },
+        {
+            "Uncommon": "250"
+        },
+        {
+            "Rare": "500"
+        }
+    ]
+}

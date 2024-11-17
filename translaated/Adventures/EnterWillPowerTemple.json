@@ -1,0 +1,67 @@
+{
+    "name": "Enter Will-Power Temple",
+    "Description": "Enter the Will-Power Temple dungeon.",
+    "requires": [
+        "Temple Checkpoint Gem"
+    ],
+    "MusicList": [
+        "music/Temple/far-east-kingdom.mp3"
+    ],
+    "Deck": [
+        "Event",
+        "WillPowerTempleEntrance"
+    ],
+    "RandomEvents": [
+        ""
+    ],
+    "RandomMonsters": [
+        ""
+    ],
+    "MonsterGroups": [
+        {
+            "Group": [
+                "Blue Slime"
+            ]
+        }
+    ],
+    "Treasure": [
+        {
+            "Common": [
+                "Calming Potion",
+                "Anaph Herb",
+                "Ugli Herb"
+            ]
+        },
+        {
+            "Uncommon": [
+                "Calming Potion",
+                "Energy Potion",
+                "Unbound Rune",
+                "Stoic Rune",
+                "Luck Rune",
+                "Soothing Potion"
+            ]
+        },
+        {
+            "Rare": [
+                "Panacea",
+                "Luck Rune",
+                "Stoic Rune",
+                "Gloves of Skill",
+                "Cock Ring of Justice",
+                "Power Belt"
+            ]
+        }
+    ],
+    "Eros": [
+        {
+            "Common": "25"
+        },
+        {
+            "Uncommon": "75"
+        },
+        {
+            "Rare": "150"
+        }
+    ]
+}
