@@ -1,0 +1,54 @@
+{
+    "name": "Frog's Frenzied Pounding",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "statusEffectScaling": "5",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Ass"
+    ],
+    "startsStance": "",
+    "requiresStance": "Anal",
+    "unusableIfStance": [
+        "Thighjob"
+    ],
+    "requiresTargetStance": [
+        "Anal"
+    ],
+    "unusableIfTarget": [
+        "Sex"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "140",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "Damage",
+    "statusChance": "60",
+    "statusDuration": "5",
+    "statusPotency": "-35",
+    "statusResistedBy": "Power",
+    "statusText": "Moco de rana",
+    "descrip": "Monta Dick.",
+    "outcome": "Perdido en un frenesí lujurioso, Gren rebota incansablemente sobre la polla de [ThePlayerName], su larga lengua se sale de su boca mientras se sumerge en el placer de que su polla se mueva y salga de su trasero bien lubricado.",
+    "miss": "[AttackerName] Hábilmente rebota y gira a las caderas [AttackerHisOrHer] sobre el gallo de [TargetName], ¡pero [TargetHeOrShe] se resiste al placer!",
+    "statusOutcome": "[ThePlayerName] jadea y se estremece cuando la mucos de Gren entra en efecto en su cuerpo, haciéndolo sentir calmado y pacífico.¡Tu ataque ha sido bajado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

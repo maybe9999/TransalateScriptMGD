@@ -1,0 +1,59 @@
+{
+    "name": "Intoxicating Pheromones",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Blowjob",
+        "Making Out",
+        "Titfuck",
+        "Sex",
+        "Breast Smother",
+        "Nursing"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Making Out",
+        "Breast Smother"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Aphrodisiac",
+    "requiresStatusPotency": "20",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "60",
+    "maxRange": "115",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "150",
+    "statusDuration": "11",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "OrgasmCheck",
+    "miss": "",
+    "statusOutcome": "¡Con una dulce sonrisa seductora, los masajes [AttackerName] [AttackerName] senos pesados ​​en movimientos de alargamiento mientras dejan salir una nube de feromonas florales tentadoras en el aire![TargetName], aún alto por los cálidos afrodisíacos de permeación, avanza en un aturdimiento encantado para respirar más de la fragancia intoxicante, ¡el fascinante aroma que envía un escalofrío encantador a través del cerebro [TargetHisOrHer]!",
+    "statusMiss": "With a sweet seductive smile, [AttackerName] massages her heavy breasts in pervertedly flaunting motions while letting out a concentrated cloud of tempting floral pheromones into the air, but [TargetName] manages to hold [TargetHisOrHer] breath and resist breathing in the enthralling scent!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,57 @@
+{
+    "name": "Soft Amber Embrace",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Allure",
+    "requiredStat": "7",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "Titfuck",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Titfuck",
+        "Blowjob",
+        "Making Out",
+        "Breast Smother",
+        "Nursing"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "150",
+    "statusDuration": "10",
+    "statusPotency": "5",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "OrgasmCheck",
+    "miss": "",
+    "statusOutcome": "[AttackerName] usa [AttackerHisOrHer] restricciones de vides enlazando [TargetYouOrMonsterName] para atraer [TargetYouOrMonsterName] hacia [atacante)!Con [TargetYouOrMonsterName] lo suficientemente cerca de [TargetYouOrMonsterName], [AttackerHimOrHer] te tira de [TargetYouOrMonsterName] y envuelve tu polla rígida entre [AttackerHisOrHer] acres de escisión antes de verter néctar sobre [AttackerHisOrHer] senos con un purr de excitación.",
+    "statusMiss": "[AttackerName] uses [AttackerHisOrHer] restraining vines coiling [TargetYouOrMonsterName] up to pull [TargetYouOrMonsterName] towards [AttackerHisOrHer], but [TargetYouOrMonsterName] manage to resist the pull and hastily backs away!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,53 @@
+{
+    "name": "Elven Kissing",
+    "cost": "2",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "50",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth"
+    ],
+    "fetishTags": [
+        "Kissing"
+    ],
+    "startsStance": "",
+    "requiresStance": "Making Out",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Making Out"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "15",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "35",
+    "statusDuration": "3",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Besa profundamente a tu oponente.Puede encantarlos.",
+    "outcome": "La lengua de [AttackerName] invade con amor [TargetName] la boca, burlándose agresivamente de la boca [TargetHisOrHer] mientras sus lenguas bailan!",
+    "miss": "[AttackerName] La lengua invade amorosamente la boca de [TargetName], burlándose agresivamente de la boca [TargetHisOrHer], ¡pero [TargetName] logra soportar el intenso beso!",
+    "statusOutcome": "¡La mente de [TargetName] se despliega de la intimidad![TargetName] está encantado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

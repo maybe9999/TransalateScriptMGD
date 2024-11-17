@@ -1,0 +1,55 @@
+{
+    "name": "Swirly Blowjob Kisses",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "statusEffectScaling": "5",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Oral"
+    ],
+    "startsStance": "",
+    "requiresStance": "Blowjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Blowjob"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "16",
+    "minRange": "75",
+    "maxRange": "125",
+    "recoil": "0",
+    "targetType": "3Hits",
+    "statusEffect": "Damage",
+    "statusChance": "30",
+    "statusDuration": "5",
+    "statusPotency": "-35",
+    "statusResistedBy": "Power",
+    "statusText": "Moco de rana",
+    "descrip": "Chupar Dick más profundo.",
+    "outcome": "Tiernienta y hábilmente, con una sorprendente gentileza dada su naturaleza enérgica, Gren chupa la polla de [ThePlayerName], todo el tiempo dando a su extensión una serie de besos.Cada pop de sus labios es una pequeña explosión de placer, acompañado por el juguetón de su lengua contra su glande.",
+    "miss": "[AttackerName] Deepthroats [TargetName] 's Cock, pero a pesar del placer suave y pegajoso que irradia de [TargetHisOrHer] entrepierna, [TargetHeOrShe] mantiene [TargetHisOrHer] fresco y permanece insensible al asalto.",
+    "statusOutcome": "El interior espacioso de la boca de Gren se siente tan agradable que por un momento, [TargetName] le gustaría nada más que pararse allí y tomarlo, disfrutando de los mimos viscosos.[TargetName] se reúne e intenta centrarse en la pelea, pero su corazón no está en ella.¡Tu ataque ha sido bajado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

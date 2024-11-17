@@ -1,0 +1,53 @@
+{
+    "name": "Nectar Grind",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Sex"
+    ],
+    "startsStance": "",
+    "requiresStance": "Sex",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Sex"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "100",
+    "statusDuration": "10",
+    "statusPotency": "5",
+    "statusResistedBy": "",
+    "statusText": "aphrodisiac",
+    "descrip": "",
+    "outcome": "[AttackerName] GRANDA Y GIRATOS [AttackerHisOrHer] BUERRAS ANTERIOR CONTRAS la cintura de [TargetName], [AttackerHisOrHer] apretando coño que empapa [TargetHisOrHer] CODH con [AttackerHisOrHer] Nectar pervertido mientras [AttackerHeOrShe] Rubs [AttackerHisOrHer] cuerpo voluptuoso contra [TargetHimOrHer].",
+    "miss": "[AttackerName] GRANDA Y GIRATOS [AttackerHisOrHer] caderas de ancho contra la cintura de [TargetName], [AttackerHisOrHer] apretando el coño que empapeando [TargetHisOrHer] con el néctar pervertido [AttackerHisOrHer], pero [TargetName] resiste el placer!",
+    "statusOutcome": "El néctar pegajoso y almibarado se filtra en la piel de [TargetName], llenando gradualmente la polla [TargetHisOrHer] dolorosamente rígida y los testículos agitados con necesidad cálida y lujuriosa.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

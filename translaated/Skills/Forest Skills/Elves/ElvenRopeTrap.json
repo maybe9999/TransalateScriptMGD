@@ -1,0 +1,54 @@
+{
+    "name": "Elven Rope Trap",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Restrain",
+    "statusChance": "50",
+    "statusDuration": "0",
+    "statusPotency": "20",
+    "statusResistedBy": "Power",
+    "statusText": "bound",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "[TargetName] struggles against the tightly bound ropes...",
+    "restraintStruggleCharmed": "[TargetName] squirms against the tightly bound ropes...",
+    "restraintEscaped": "And breaks free, shredding the ropes in the process!",
+    "restraintEscapedFail": "But stays snug in the pleasant bondage of the ropes!"
+}

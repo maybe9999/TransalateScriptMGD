@@ -1,0 +1,57 @@
+{
+    "name": "Nicci's Enticing Invitation",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Allure",
+    "requiredStat": "7",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "Titfuck",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Titfuck",
+        "Sex",
+        "Breast Smother",
+        "Nursing"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Charm",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "150",
+    "statusDuration": "10",
+    "statusPotency": "5",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "OrgasmCheck",
+    "miss": "",
+    "statusOutcome": "[AttackerName] tentadoramente a tientas y rebota en el cofre [AttackerHisOrHer] con las manos [AttackerHisOrHer], ¡invitándote más cerca con una mirada seductora!Demasiado encantado de [AttackerHimOrHer] para pensar con claridad, caminas hacia adelante y dejas que [AttackerHimOrHer] envuelva [AttackerHisOrHer] abundante seno alrededor de tu eje rígido mientras ella lentamente vierte néctar en tu virilidad para actuar como un dulce lubricante.",
+    "statusMiss": "[AttackerName] temptingly gropes and bounces [AttackerHisOrHer] chest with [AttackerHisOrHer] hands, inviting you closer with a seductive gaze, but even charmed as you are, you somehow manage to resist the temptation to approach!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}
