@@ -1,0 +1,56 @@
+{
+    "name": "Breast Suffocation",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "statusEffectScaling": "25",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "7",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "",
+    "requiresStance": "Breast Smother",
+    "unusableIfStance": [
+        "Titfuck",
+        "Blowjob",
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Defence",
+    "statusChance": "40",
+    "statusDuration": "5",
+    "statusPotency": "-25",
+    "statusResistedBy": "Willpower",
+    "statusText": "Breast Suffocation",
+    "descrip": "",
+    "outcome": "[AttackerName] aprieta [AttackerHisOrHer] agarre la cabeza de [TargetName], tirando [TargetHisOrHer] cara más profunda entre los senos [AttackerHisOrHer] amplios mientras los aprieta, lo que hace que lo único que [TargetName] pueda respirar es el olorde su suave escote!",
+    "miss": "[AttackerName] aprieta [AttackerHisOrHer] agarre la cabeza de [TargetName], tirando [TargetHisOrHer] cara más profunda entre los senos [AttackerHisOrHer] amplios mientras los aprieta, ¡pero [TargetName] logra resistir a resistirnos!",
+    "statusOutcome": "[TargetName] está teniendo dificultades para respirar, volviéndose la luz cuando [AttackerName] obliga a su rostro a su escote!A medida que [TargetName] comienza a quedarse sin aire, [TargetHeOrShe] se vuelve menos capaz de resistir [AttackerName]!¡La defensa de [TargetName] ha sido reducida!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

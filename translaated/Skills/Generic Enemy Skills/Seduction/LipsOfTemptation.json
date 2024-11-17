@@ -1,0 +1,54 @@
+{
+    "name": "Lips of Temptation",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "6",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Kissing",
+        "Oral"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "15",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "95",
+    "statusDuration": "5",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] Sways [AttackerHisOrHer] caderas para música inaudita, [AttackerHisOrHer] movimientos cautivadores complementados por [AttackerHisOrHer] manos elegantes.La pantalla es irresistiblemente excitante, lo que hace que [TargetName] se descargue.",
+    "miss": "[AttackerName] Sways [AttackerHisOrHer] caderas para música inaudita, [AttackerHisOrHer] movimientos cautivadores complementados por [AttackerHisOrHer] manos elegantes, pero [TargetName] logra ignorar [AttackerHisOrHer] exhibición sexy.",
+    "statusOutcome": "[AttackerName] está lleno de deseo de bailar![AttackerName] está encantado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,54 @@
+{
+    "name": "Vacuum Blowjob",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Oral"
+    ],
+    "startsStance": "",
+    "requiresStance": "Blowjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Blowjob"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Chupar la polla.",
+    "outcome": "[AttackerName] forma un sello apretado alrededor de la polla de [TargetName] con sus labios y apesta lo más fuerte que pueda.",
+    "miss": "[TargetName] aprieta los dientes para resistir el placer de la boca de [AttackerName] tratando de chupar su semen!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}
