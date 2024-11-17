@@ -1,0 +1,54 @@
+{
+    "name": "Elven Herb",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "statusEffectScaling": "0",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "60",
+    "maxRange": "115",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "100",
+    "statusDuration": "10",
+    "statusPotency": "10",
+    "statusResistedBy": "Willpower",
+    "statusText": "aphrodisiac",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

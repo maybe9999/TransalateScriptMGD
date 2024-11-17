@@ -1,0 +1,53 @@
+{
+    "name": "StaticRush",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "15",
+    "learningCost": "0",
+    "skillType": "HealingEP",
+    "statType": "PercentMaxEnergy",
+    "requiredStat": "0",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "50",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Limpie su lujuria para disminuir en gran medida la excitación.",
+    "outcome": "[AttackerName] Bebe la lata de apuro estático y está lleno de emoción hormigueante.",
+    "miss": "",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

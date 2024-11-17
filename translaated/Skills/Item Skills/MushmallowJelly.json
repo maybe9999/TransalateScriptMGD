@@ -1,0 +1,53 @@
+{
+    "name": "MushmallowJelly",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "15",
+    "learningCost": "0",
+    "skillType": "HealingEP",
+    "statType": "PercentMaxEnergy",
+    "requiredStat": "0",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "50",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "|f|RemoveStatusEffect|/|Sleep|n|[AttackerName] Gulpes por la gelatina de mushmallow de purga de dolencias, azucarado, y siente una oleada de estimular el curso de energía a través de su cerebro y cuerpo.",
+    "miss": "",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

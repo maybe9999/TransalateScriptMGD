@@ -1,0 +1,53 @@
+{
+    "name": "Tengu Feather",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "requiredStat": "8",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        ""
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Stun",
+    "statusChance": "80",
+    "statusDuration": "2",
+    "statusPotency": "0",
+    "statusResistedBy": "Power",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "Con un movimiento de la pluma Tengut [AttackerName] envía una intensa ráfaga de viento que se echa a [TargetName], golpeando [TargetHimOrHer] plano a [TargetHisOrHer] de regreso y [TargetHimOrHer] jadeando por aire.",
+    "statusMiss": "With an flick of the tengu feather [AttackerName] sends an intense gust of wind billowing towards [TargetName], but [TargetHeOrShe] manages to brace [TargetHimOrHer]self in the face of the gale and stands [TargetHisOrHer] ground!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

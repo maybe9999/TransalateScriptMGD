@@ -1,0 +1,54 @@
+{
+    "name": "Manticore Spike",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Pain"
+    ],
+    "fetishTags": [
+        "Monstrous",
+        "Sex Toy"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "5",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "100",
+    "statusDuration": "10",
+    "statusPotency": "20",
+    "statusResistedBy": "Willpower",
+    "statusText": "venom",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] cuidadosamente se encadena [TargetName] con una espiga de Manticore, inyectando [TargetHimOrHer] con el potente afrodisíaco que deja [TargetHimOrHer] jadeando con la lujuria.",
+    "statusMiss": "[AttackerName] carefully jabs [TargetName] with a manticore spike, but [TargetHeOrShe] seems unaffected by it!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

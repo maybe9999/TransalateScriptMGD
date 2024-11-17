@@ -1,0 +1,54 @@
+{
+    "name": "Flash Bomb",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "500",
+    "skillType": "statusEffect",
+    "statType": "None",
+    "statusEffectScaling": "0",
+    "requiredStat": "15",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "all",
+    "statusEffect": "Stun",
+    "statusChance": "75",
+    "statusDuration": "2",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "¡Aumenta cuánta excitación infliges a tus enemigos!",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] activa una bomba flash, enviando un brote de luz vinculante que aturde [TargetName].",
+    "statusMiss": "[AttackerName] activates a Flash Bomb, sending out a binding flare of light, but [TargetName] closes their eyes and ignores it.",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,53 @@
+{
+    "name": "Alraune Nectar Item",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "Afflict",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        ""
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "150",
+    "statusDuration": "10",
+    "statusPotency": "20",
+    "statusResistedBy": "Technique",
+    "statusText": "aphrodisiac",
+    "descrip": "Forzar a un afrodisíaco intoxicante en su presa.",
+    "outcome": "Bebes el néctar dulce y pegajoso, sintiendo que tu cuerpo comienza rápidamente a enjuague con la excitación.",
+    "miss": "",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

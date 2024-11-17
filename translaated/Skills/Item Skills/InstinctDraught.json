@@ -1,0 +1,54 @@
+{
+    "name": "Instinct Draught",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "500",
+    "skillType": "statusEffect",
+    "statType": "None",
+    "statusEffectScaling": "0",
+    "requiredStat": "15",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Crit",
+    "statusChance": "100",
+    "statusDuration": "11",
+    "statusPotency": "15",
+    "statusResistedBy": "",
+    "statusText": "Instinct Draught",
+    "descrip": "¡Aumenta cuánta excitación infliges a tus enemigos!",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "Bebes por el tiro al instinto y puedes sentir que tus sentidos aumentan.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}
