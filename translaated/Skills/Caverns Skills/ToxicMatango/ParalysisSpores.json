@@ -1,0 +1,55 @@
+{
+    "name": "Paralysis Spores",
+    "cost": "25",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "statusEffectScaling": "0",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction",
+        "RestrainUsable"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Paralysis",
+    "statusChance": "100",
+    "statusDuration": "99",
+    "statusPotency": "2",
+    "statusResistedBy": "",
+    "statusText": "Paralysis Spores",
+    "descrip": "",
+    "outcome": "OrgasmCheck",
+    "miss": "",
+    "statusOutcome": "[AttackerName] deja escapar una nube de esporas amarillas de su gran gorra de hongos, y [TargetName] está tan íntimamente entrelazado con ella que [TargetHeOrShe] no puede evitarlas, y cada parte del cuerpo [TargetHisOrHer] comienza a girar rápidamenteentumecido e insensible.",
+    "statusMiss": "[AttackerName] lets out a cloud of yellow spores from her large mushroom cap, but [TargetName] manages to be unaffected by their paralytic touch!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Numbing Ride",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Cock"
+    ],
+    "fetishTags": [
+        "Penetration",
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "Paralysis",
+    "statusChance": "100",
+    "statusDuration": "99",
+    "statusPotency": "1",
+    "statusResistedBy": "Power",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Mientras [AttackerName] monta la longitud rígida de [TargetName], deja que su lengua increíblemente larga lame expertos arriba y abajo del cofre y el estómago [TargetHisOrHer], ocasionalmente rodando la lengua en un círculo burlón mientras cubre [TargetName] en su saliva paralítica.",
+    "miss": "Mientras [AttackerName] monta la longitud rígida de [TargetName], deja que su lengua increíblemente larga lame por expertos arriba y abajo [TargetHisOrHer] Cofre y estómago, ¡pero [TargetYouOrMonsterName] resiste el placer!",
+    "statusOutcome": "El cuerpo [TargetName] comienza a sentirse cada vez más entumecido e insensible como el veneno paralítico de [AttackerName] se filtra en la piel [TargetHisOrHer] ...",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

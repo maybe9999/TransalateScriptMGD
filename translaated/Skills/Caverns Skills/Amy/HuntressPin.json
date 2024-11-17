@@ -1,0 +1,54 @@
+{
+    "name": "Huntress' Pin",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Power",
+    "statusEffectScaling": "35",
+    "requiredStat": "7",
+    "skillTags": [
+        ""
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Restrain",
+    "statusChance": "75",
+    "statusDuration": "0",
+    "statusPotency": "15",
+    "statusResistedBy": "Power",
+    "statusText": "pinned",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] se lanza hacia adelante en [TargetName] y Pins [TargetHimOrHer] ¡Down!",
+    "statusMiss": "[AttackerName] tries to pin down [TargetName], but they resist!",
+    "restraintStruggle": "[TargetName] struggles against [AttackerName]'s grip...",
+    "restraintStruggleCharmed": "[TargetName] weakly struggles against [AttackerName]'s grip...",
+    "restraintEscaped": "[TargetName] manages get free of [AttackerName]'s pin!",
+    "restraintEscapedFail": "But [TargetName] can't get free of [AttackerName]'s tight hold!"
+}

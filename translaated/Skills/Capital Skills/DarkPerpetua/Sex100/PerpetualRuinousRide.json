@@ -1,0 +1,54 @@
+{
+    "name": "Perpetual Ruinous Ride",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Penetration",
+        "Slimed 100%"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "60",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "5",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "150",
+    "statusDuration": "11",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "CON APATRADO SENTADO EN EL MIRO PULLO, dos de los perpetuas se acurrucan hasta los costados, lasciva arrullándose y frotándose contra ti, susurrando dulces palabras de fusión mental directamente en tus oídos en medio de caricias sensuales y masas de masaje.Red Perpetua se aleja de ti, mientras sus confines viscosos chupan y aprietan tu erección, tratándote como una mezcla de juguete de trono y sexo, cada impacto mordoso que resuena a través de ti como una ola melúdsonidos agradables, claramente saboreando su posición dominante.",
+    "miss": "Con tú atrapado sentado en el pegajoso lodo, dos de los perpetuas se acurrucan hasta los costados, lasciva arrullándose y frotándose contra ti, susurrando palabras dulces y derretidas directamente en tus oídos en medio de caricias sensuales y masas de masajeadas.Mientras tanto, la perpetua roja se aleja de manera presumida mientras sus confines viscosos siguen chupando y apretando la erección, ¡pero logras soportar el viaje obsceno!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|DarkPerpetuaCombatEvent|/|RuinousRideCharm|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

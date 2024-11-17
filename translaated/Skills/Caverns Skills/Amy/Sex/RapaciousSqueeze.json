@@ -1,0 +1,55 @@
+{
+    "name": "Rapacious Squeeze",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Oral",
+        "Sex",
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Sex",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Sex"
+    ],
+    "unusableIfTarget": [
+        "Blowjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "100",
+    "statusDuration": "10",
+    "statusPotency": "25",
+    "statusResistedBy": "Power",
+    "statusText": "",
+    "descrip": "Chupar la polla.",
+    "outcome": "[AttackerName] keeps [TargetName]'s stiff erection firmly lodged inside her tight pussy, letting her squirming cilia massage every inch of [TargetHisOrHer] dick while her two vaginal tongues slowly circle it, licking up and down the twitching length, leaving [TargetName] jadeando en la dicha incoherente de la ordeña anormal de placer [TargetHisOrHer] dolor virgen.",
+    "miss": "[AttackerName] mantiene la rígida erección de [TargetName] firmemente alojada dentro de su apretado coño, dejando que su masaje de cilios retorciéndose cada centímetro de polla [TargetHisOrHer] mientras sus dos lenguas vaginales lo rodean lentamente, lamiendo la longitud de la contracción, pero [TargetName] se las arregla para soportar las sensaciones de flexión de la mente!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Insatiable Tease",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Oral",
+        "Sex",
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Sex",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Sex"
+    ],
+    "unusableIfTarget": [
+        "Blowjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "100",
+    "statusDuration": "10",
+    "statusPotency": "25",
+    "statusResistedBy": "Power",
+    "statusText": "",
+    "descrip": "Chupar la polla.",
+    "outcome": "Una de las lenguas vaginales largas de [AttackerName] se desliza y masajea cariñosamente las bolas de [TargetName], mientras que la segunda lengua rodea la punta de espasmo [TargetHisOrHer], y las paredes vaginales cubiertas de retorcerse cilias caresas cada pulgadas disponibles, la parte inferior de la parte inferior deLa polla de [TargetName] cubierta por el saco de la lengua acunada [TargetHisOrHer], ondulada suavemente en un movimiento de trago, y [TargetName] difícilmente puede mantener abajo el impulso necesitado de correrse.",
+    "miss": "Una de las lenguas vaginales largas de [AttackerName] se desliza y masajea cariñosamente las bolas de [TargetName], mientras que la segunda lengua rodea la punta de espasmo [TargetHisOrHer], y las paredes vaginales cubiertas de retorcerse cilias caresas cada pulgadas disponibles, pero [TargetName] se las arregla para soportar las sensaciones de flexión de la mente!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

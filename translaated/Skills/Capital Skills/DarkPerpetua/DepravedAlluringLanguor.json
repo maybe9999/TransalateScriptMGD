@@ -1,0 +1,53 @@
+{
+    "name": "Depraved Alluring Languor",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "6",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "15",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "40",
+    "statusDuration": "11",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "El trío de mujeres de limo voluptuosas se acaricia perezosamente entre sí con una sincronización perfecta, dejando escapar tentadores suspiros cuando sus cuerpos pegajosos brillantes se deslizan entre sí al aplastar las exhibiciones curvilíneas.Bustas, hasta sus caderas acogedoramente balanceadas y espesos culos pegajosos, una mano deslizante finalmente atrapa la mirada mientras se desliza sobre su piel seductora y suave hasta sus lujurias sonrisas.",
+    "miss": "El trío de mujeres de limo voluptuosas se toca y se frota ociosamente entre sí con una sincronización perfecta, ¡pero logran ignorar la exhibición atractiva!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|DarkPerpetuaCombatEvent|/|TemptGeneral|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

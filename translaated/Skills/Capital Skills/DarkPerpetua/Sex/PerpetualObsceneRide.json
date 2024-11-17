@@ -1,0 +1,53 @@
+{
+    "name": "Perpetual Obscene Ride",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Slimed 100%"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "100",
+    "statusDuration": "11",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "La perpetua roja domina con avidez tu polla, rebotando lánguidamente en tu regazo una y otra vez con impactos húmedos y mías con una posesión obsesiva y amorosa.En sus oídos mientras adoran su cuerpo, enviando hormigueos de placer en cascada a través de usted de la cabeza a los pies.",
+    "miss": "El perpetúa rojo domina con avidez tu polla, rebotando lánguidamente en tu regazo una y otra vez con impactos húmedos mientras te miras con una posesión obsesiva y amorosa, ¡pero te las arreglas para soportar el viaje obsceno!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|DarkPerpetuaCombatEvent|/|SexRideCharm|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

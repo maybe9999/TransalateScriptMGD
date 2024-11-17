@@ -1,0 +1,56 @@
+{
+    "name": "Spectral Double-Team",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Cock"
+    ],
+    "fetishTags": [
+        "Sex",
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Sex",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Sex",
+        "Sex"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "45",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] muele suavemente y gira sus caderas bien formadas mientras mantiene la polla rígida de [TargetName] firmemente alojada dentro de su apretado coño, y [AttackerName2] rebota en la longitud [TargetHisOrHer] enérgicamente mientras fase a través de su aliado, dejando [TargetHisOrHer] Dick Spoting Strosch.En sus coños espectrales combinados, ya que se ordeña y apretan constantemente mientras giran y masajean la polla dolorosa de [TargetName] al unísono perfecto.",
+    "miss": "[AttackerName] muele suavemente y gira sus caderas bien formadas mientras mantiene la polla rígida de [TargetName] firmemente alojada dentro de su apretado coño, y [AttackerName2] rebota en la longitud [TargetHisOrHer] enérgicamente mientras fasa a través de su aliado, pero [TargetHeOrShe] logra hastaIgnora la estimulación imposible.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

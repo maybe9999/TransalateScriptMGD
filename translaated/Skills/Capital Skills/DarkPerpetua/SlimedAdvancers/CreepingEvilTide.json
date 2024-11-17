@@ -1,0 +1,54 @@
+{
+    "name": "Creeping Evil Tide",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Power",
+    "requiredStat": "7",
+    "skillTags": [
+        ""
+    ],
+    "fetishTags": [
+        "Monstrous"
+    ],
+    "startsStance": "Slimed 25%",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "accuracy": "-45",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "60",
+    "statusDuration": "0",
+    "statusPotency": "10",
+    "statusResistedBy": "Technique",
+    "statusText": "gooed",
+    "descrip": "Lidiar con Goo",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "El limo oscuro aumenta hacia adelante en una ola que rezume, acercando a las villanas con curvas más cerca de la agarre y chupa hacia ti, enredando las piernas hasta las rodillas en una Goo viscosa que te aferra con codicia, dejándote al alcance de las tres lujuriosas damas que¡Lamen sus labios en el hambre!",
+    "statusMiss": "The dark slime surges forward in an oozing wave, bringing the curvy villainesses closer as it grabs and sucks at you, but you manage to dodge the syrupy entanglement!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

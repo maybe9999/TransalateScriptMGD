@@ -1,0 +1,54 @@
+{
+    "name": "Paralytic Lick",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction",
+        "RestrainUsable"
+    ],
+    "fetishTags": [
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Penetration"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        ""
+    ],
+    "power": "10",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Paralysis",
+    "statusChance": "100",
+    "statusDuration": "1",
+    "statusPotency": "1",
+    "statusResistedBy": "Power",
+    "statusText": "venom",
+    "descrip": "",
+    "outcome": "[AttackerName] se extiende con [AttackerHisOrHer] lengua larga y sinuosa, lamiendo la longitud del cuerpo de [TargetName], haciendo que [TargetHimOrHer] se estremezca ante la sensación agradable antes de que la lengua retroceda a la boca de [AttackerName].",
+    "miss": "[AttackerName] sale con la lengua larga y sinuosa [AttackerHisOrHer], pero [TargetName] logra salir del camino de la elimada lamer [AttackerHisOrHer], dejando que la lengua retroceda a la boca [AttackerHisOrHer].",
+    "statusOutcome": "El cuerpo [TargetName] comienza a sentirse cada vez más entumecido e insensible como el veneno paralítico de [AttackerName] se filtra en la piel [TargetHisOrHer] ...",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

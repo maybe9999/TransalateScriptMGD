@@ -1,0 +1,53 @@
+{
+    "name": "Ectoplasmic Caress",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "10",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Paralysis",
+    "statusChance": "100",
+    "statusDuration": "1",
+    "statusPotency": "1",
+    "statusResistedBy": "Power",
+    "statusText": "ectoplasm",
+    "descrip": "",
+    "outcome": "[AttackerName] acaricia suavemente el cuerpo de [TargetName] con una risita, cubriendo en forma de piel [TargetHisOrHer] en una sustancia de loción y pegajosa, que se enfría seductoramente donde sea que toque.",
+    "miss": "[AttackerName] acaricia suavemente el cuerpo de [TargetName] con una risita, cubriendo en forma de piel [TargetHisOrHer] en una sustancia de loción, pegajosa, pero [TargetHeOrShe] resiste el gentil placer.",
+    "statusOutcome": "El cuerpo [TargetName] comienza a sentirse cada vez más entumecido e insensible como el ectoplasma de [AttackerName] hormiguea en [TargetHisOrHer] Skin ...",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

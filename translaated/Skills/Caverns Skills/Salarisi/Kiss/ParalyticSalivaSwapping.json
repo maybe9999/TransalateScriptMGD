@@ -1,0 +1,54 @@
+{
+    "name": "Paralytic Saliva Swapping",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "50",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth"
+    ],
+    "fetishTags": [
+        "Kissing",
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Making Out",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Making Out"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "Paralysis",
+    "statusChance": "100",
+    "statusDuration": "99",
+    "statusPotency": "1",
+    "statusResistedBy": "Power",
+    "statusText": "",
+    "descrip": "Besa profundamente a tu oponente.Puede encantarlos.",
+    "outcome": "La lengua larga de [AttackerName] gira suavemente alrededor de la boca de [TargetName] mientras [AttackerHeOrShe] intercambia bocados de saliva con [TargetHimOrHer], sorbiendo y sucio [TargetHisOrHer] Lengua, obligando a [TargetHimOrHer] a beber [AttackerHisOrHer] Sweetly SweetlylySaliva agria.",
+    "miss": "La lengua larga de [AttackerName] gira suavemente alrededor de la boca de [TargetName] mientras [AttackerHeOrShe] intercambia bocados de saliva con [TargetHimOrHer], ¡pero [TargetName] logra soportar el intenso beso!",
+    "statusOutcome": "A medida que el beso se arrastra, la parálisis adormecedora se filtra lentamente en [TargetName] de la boca de saliva empapada de veneno de [AttackerName] de [TargetHisOrHer] que puede hacer sonar más de la toxina entumecedora.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

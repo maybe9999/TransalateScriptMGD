@@ -1,0 +1,54 @@
+{
+    "name": "Coiling Evil Tide",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Power",
+    "requiredStat": "7",
+    "skillTags": [
+        ""
+    ],
+    "fetishTags": [
+        "Monstrous"
+    ],
+    "startsStance": "Slimed 50%",
+    "requiresStance": "Slimed 25%",
+    "unusableIfStance": [
+        "Slimed 50%"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "Slimed 25%",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "accuracy": "-40",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "60",
+    "statusDuration": "0",
+    "statusPotency": "10",
+    "statusResistedBy": "Power",
+    "statusText": "gooed",
+    "descrip": "Lidiar con Goo",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "Alcianza de la rodilla en la oscuridad y viscosa sustancia espinosa, encuentras el líquido amorfo vivo que tira hambrienta de tus extremidades y cuerpo, tirando de ti hacia el centro de la pegajosa amalgamación mientras te envuelve hasta la cintura, dejándote rodeada de las tres mujeres pegajosas que se ríen que se ríenEn deleite por su creciente situación.",
+    "statusMiss": "Knee-high in the dark slimy goo, you find the living amorphous liquid hungrily tugging at your limbs and body, but you manage to shake off the syrupy entanglement!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

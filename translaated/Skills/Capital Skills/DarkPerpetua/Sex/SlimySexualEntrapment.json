@@ -1,0 +1,57 @@
+{
+    "name": "Slimy Sexual Entrapment",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "Sex",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Sex",
+        "Anal",
+        "Slimed 25%",
+        "Slimed 50%",
+        "None"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "11",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Ahora que estás desesperadamente profundo en su pegajoso lago Slime, el trío de voluptuosas villanas que te empuja fácilmente hacia su cama de maldición pecaminosamente cómoda, una de ellas montando con avidez tu polla mientras los otros dos besan tus orejas, los lujuriosos limos oscuros jades y jadesEsflave con el espeluznante afán mientras se preparan para turnarse de jodidos sin sentido.",
+    "miss": "Ahora en lo profundo de su pegajoso limo del lago, el trío de voluptuosas villanas que lo rodean intentan empujarte hacia la cama mordaz que te rodea, ¡pero te las arreglas para mantenerlas a raya!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

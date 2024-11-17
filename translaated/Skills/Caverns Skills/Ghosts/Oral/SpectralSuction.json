@@ -1,0 +1,56 @@
+{
+    "name": "Spectral Suction",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Cock"
+    ],
+    "fetishTags": [
+        "Oral",
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Blowjob",
+    "unusableIfStance": [
+        "Sex"
+    ],
+    "requiresTargetStance": [
+        "Blowjob",
+        "Blowjob"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] y [AttackerName2] apestan intensamente la polla rígida de [TargetName] mientras aceleran su longitud completa con sus labios bien sellados y las lenguas burlándose, disminuyendo sin problemas el uno al otro a medida que se mueven hacia arriba y hacia abajo en alternancia, asíLa rígida virilidad de [TargetName] por su apretada garganta, la otra está chupando con amor en la punta, prodigando afecto con su lengua.",
+    "miss": "[AttackerName] y [AttackerName2] apestan intensamente la polla rígida de [TargetName] mientras acarician su longitud completa con sus labios bien sellados y las lenguas burlonas, pero [TargetHeOrShe] logra ignorar la estimulación imposible.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}
