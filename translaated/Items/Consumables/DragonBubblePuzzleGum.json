@@ -1,0 +1,50 @@
+{
+    "name": "Dragon Bubble Puzzle Gum",
+    "itemType": "NotCombatConsumable",
+    "cost": "1500",
+    "requires": [
+        ""
+    ],
+    "perks": [
+        ""
+    ],
+    "skills": [
+        "UseableItem"
+    ],
+    "hp": "0",
+    "ep": "0",
+    "sp": "0",
+    "Exp": "250",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "0",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "descrip": "'Dragon Bubble Puzzle Gum' es un tipo especial de chicle originalmente desarrollado y consumido por los dragones.Masticarlo estimula la mente, abriendo el destinatario a nuevas vías de superación personal.Históricamente, un regalo de dulces muy raro, los métodos de producción más nuevos han permitido fabricarlo en una escala mucho mayor, aunque en menor calidad.Otorga 250 exp cuando se consume.",
+    "useOutcome": "Masticando con calma el 'goma de rompecabezas de burbujas de dragón', [AttackerName] puede sentir su mente expandirse y crecer a medida que sus pensamientos se desplazan de una nueva consideración esclarecedora a otra, hasta que finalmente, el regalo bastante sabroso se ha disuelto por completo.Una sensación extraña en comparación con la chicle de burbujas normal ...",
+    "useMiss": ""
+}

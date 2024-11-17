@@ -1,0 +1,50 @@
+{
+    "name": "Alraune Nectar",
+    "itemType": "NotCombatConsumable",
+    "cost": "50",
+    "requires": [
+        ""
+    ],
+    "perks": [
+        ""
+    ],
+    "skills": [
+        "Alraune Nectar Item"
+    ],
+    "hp": "0",
+    "ep": "0",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "0",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "descrip": "Un dulce néctar almibarado producido por Alraunes.Es un afrodisíaco bastante potente, que se usa comúnmente en la cocina y la bebida lucidiana.También podrías comerlo ahora si quisieras ...",
+    "useOutcome": "|f|ApplyStatusEffect|/|Alraune Nectar|n|Bebes el néctar dulce y pegajoso, sintiendo que tu cuerpo comienza rápidamente a enjuague con la excitación.",
+    "useMiss": ""
+}

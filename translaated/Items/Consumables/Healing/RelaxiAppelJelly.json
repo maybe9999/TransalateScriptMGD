@@ -1,0 +1,61 @@
+{
+    "name": "Relaxi Appel Jelly",
+    "itemType": "Consumable",
+    "cost": "750",
+    "tags": [
+        "Healing"
+    ],
+    "requires": [
+        ""
+    ],
+    "requiresEvent": [
+        {
+            "NameOfEvent": "BubbleSlimeAdventure",
+            "Progress": "0",
+            "ChoiceNumber": "1",
+            "Choice": "BubbleGet"
+        }
+    ],
+    "perks": [
+        ""
+    ],
+    "skills": [
+        "Relaxi Appel Jelly"
+    ],
+    "hp": "0",
+    "ep": "0",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "0",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "descrip": "Una gelatina dulce y jugosa con sabor a Appel que despeja el 50% de su excitación máxima al tiempo que elimina el afrodisíaco y el encanto.",
+    "useOutcome": "|f|RemoveStatusEffect|/|Charm|n||f|RemoveStatusEffect|/|Aphrodisiac|n|[AttackerName] se come una gelatina relajante de relaxi y siente que podrían ir a una siesta mientras también experimentan una ventaja de energía excitable.",
+    "useMiss": ""
+}

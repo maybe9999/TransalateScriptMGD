@@ -1,0 +1,67 @@
+{
+    "name": "Mushmallow Jelly",
+    "itemType": "Consumable",
+    "tags": [
+        "Healing"
+    ],
+    "cost": "750",
+    "requires": [
+        ""
+    ],
+    "requiresEvent": [
+        {
+            "NameOfEvent": "BubbleSlimeAdventure",
+            "Progress": "0",
+            "ChoiceNumber": "1",
+            "Choice": "BubbleGet"
+        },
+        {
+            "NameOfEvent": "GhostSlimeAdventure",
+            "Progress": "0",
+            "ChoiceNumber": "3",
+            "Choice": "GhostsGet"
+        }
+    ],
+    "perks": [
+        ""
+    ],
+    "skills": [
+        "MushmallowJelly"
+    ],
+    "hp": "0",
+    "ep": "0",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "0",
+    "statusEffect": "Paralysis",
+    "statusChance": "0",
+    "statusPotency": "5",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "descrip": "Una gelatina de malvavisco llena de nutrientes afrutados que no contienen hongos ... entonces, ¿por qué se llama mushmallow?¡Restaura el 50% de su energía máxima al tiempo que elimina el sueño y 5 pilas de parálisis!",
+    "useOutcome": "|f|RemoveStatusEffect|/|Sleep|n|[AttackerName] Gulpes por la gelatina de mushmallow de purga de dolencias, azucarado, y siente una oleada de estimular el curso de energía a través de su cerebro y cuerpo.",
+    "useMiss": ""
+}
