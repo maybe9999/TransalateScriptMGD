@@ -1,0 +1,1056 @@
+{
+    "name": "GhostCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ghost",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Intro",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "1",
+                "",
+                "SetChoice",
+                "3",
+                "",
+                "EncounterSizeLessOrEqualTo",
+                "2",
+                "DuoGhostIntro",
+                "¡Un trío de fantasmas flotan de repente fuera de la oscuridad con risas juguetones!",
+                "ChangeImageLayer",
+                "Expression",
+                "Spooky",
+                "FocusedSpeaks",
+                "Ooooooooooo, ♥ vamos a perseguir tu polla hasta que te desmayes. ♥"
+            ]
+        },
+        {
+            "NameOfScene": "DuoGhostIntro",
+            "theScene": [
+                "EncounterSizeLessOrEqualTo",
+                "1",
+                "SoloGhostIntro",
+                "¡Un par de fantasmas de repente flotan de la oscuridad con risas lúdicas!",
+                "ChangeImageLayer",
+                "Expression",
+                "Spooky",
+                "FocusedSpeaks",
+                "Ooooooooooo, vamos a drenar tus bolas Drryyyyyy. ♥"
+            ]
+        },
+        {
+            "NameOfScene": "SoloGhostIntro",
+            "theScene": [
+                "¡Un fantasma de repente flota de la oscuridad con una risita juguetona!"
+            ]
+        },
+        {
+            "NameOfScene": "StartOfRound",
+            "theScene": [
+                "SetChoice",
+                "2",
+                "",
+                "SetProgress",
+                "0"
+            ]
+        },
+        {
+            "NameOfScene": "Nothing",
+            "theScene": []
+        },
+        {
+            "NameOfScene": "EndOfRound",
+            "theScene": [
+                "SetChoice",
+                "1",
+                "",
+                "IfMonsterHasStance",
+                "Besarse",
+                "EscapesMakeOut",
+                "IfMonsterHasStance",
+                "Anal",
+                "SwapToSex",
+                "JumpToScene",
+                "TeamCheck"
+            ]
+        },
+        {
+            "NameOfScene": "EscapesMakeOut",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smile",
+                "ClearStanceFromMonsterAndPlayer",
+                "Besarse",
+                "¡El fantasma se ríe y rompe fácilmente el beso, disminuyendo cualquier intento de detenerla!",
+                "JumpToScene",
+                "TeamCheck"
+            ]
+        },
+        {
+            "NameOfScene": "SwapToSex",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smile",
+                "ClearStanceFromMonsterAndPlayer",
+                "Anal",
+                "ApplyStance",
+                "Sex",
+                "¡El fantasma se ríe mientras su rígida polla fases desde su trasera apretada hasta el coño babeante!Sin embargo, no estás realmente seguro de si ella realmente tiene una puerta trasera anatómicamente mientras miras su cuerpo fantasmal ...",
+                "JumpToScene",
+                "TeamCheck"
+            ]
+        },
+        {
+            "NameOfScene": "TeamCheck",
+            "theScene": [
+                "IfChoice",
+                "2",
+                "teamChecked",
+                "Nothing",
+                "SetChoice",
+                "2",
+                "teamChecked",
+                "IfChoice",
+                "3",
+                "ChargeSex",
+                "ChargeViable",
+                "IfChoice",
+                "3",
+                "ChargeBJ",
+                "ChargeViable",
+                "IfPlayerHasStance",
+                "Sex",
+                "Nothing",
+                "IfPlayerHasStance",
+                "Anal",
+                "Nothing",
+                "IfPlayerHasStance",
+                "Blowjob",
+                "Nothing",
+                "JumpToRandomScene",
+                "SexChargePrepare",
+                "BJChargePrepare",
+                "Nothing",
+                "Nothing",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "SexChargePrepare",
+            "theScene": [
+                "SkipAllMonsterAttacks",
+                "SetChoice",
+                "3",
+                "ChargeSex",
+                "EncounterSizeLessOrEqualTo",
+                "1",
+                "SingleGhostChageLine",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Los fantasmas se ríen en un coro misterioso, claramente planeando algo con sonrisas bastante diabólicas ..."
+            ]
+        },
+        {
+            "NameOfScene": "BJChargePrepare",
+            "theScene": [
+                "SkipAllMonsterAttacks",
+                "SetChoice",
+                "3",
+                "ChargeBJ",
+                "EncounterSizeLessOrEqualTo",
+                "1",
+                "SingleGhostChageLine",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Los fantasmas se ríen en un coro misterioso, claramente planeando algo mientras se lamen los labios ..."
+            ]
+        },
+        {
+            "NameOfScene": "SingleGhostChageLine",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "El fantasma se ríe inquietantemente, claramente planeando algo con una sonrisa bastante diabólica ..."
+            ]
+        },
+        {
+            "NameOfScene": "ChargeViable",
+            "theScene": [
+                "IfPlayerHasStance",
+                "Sex",
+                "DitchCharge",
+                "IfPlayerHasStance",
+                "Anal",
+                "DitchCharge",
+                "IfPlayerHasStance",
+                "Blowjob",
+                "DitchCharge",
+                "JumpToScene",
+                "TeamAttackDecision"
+            ]
+        },
+        {
+            "NameOfScene": "DitchCharge",
+            "theScene": [
+                "Los fantasmas ya no necesitan su plan anterior, ¡así que simplemente hacen lo que quieran!",
+                "SetChoice",
+                "3",
+                "",
+                "ResumeAllMonsterAttacks",
+                "FocusOnMonster",
+                "1",
+                "CallMonsterAttack",
+                "EncounterSizeLessOrEqualTo",
+                "1",
+                "Nothing",
+                "FocusOnMonster",
+                "2",
+                "CallMonsterAttack",
+                "EncounterSizeLessOrEqualTo",
+                "2",
+                "Nothing",
+                "FocusOnMonster",
+                "3",
+                "CallMonsterAttack",
+                "EncounterSizeLessOrEqualTo",
+                "3",
+                "Nothing",
+                "FocusOnMonster",
+                "4",
+                "CallMonsterAttack",
+                "EncounterSizeLessOrEqualTo",
+                "4",
+                "Nothing",
+                "FocusOnMonster",
+                "5",
+                "CallMonsterAttack",
+                "EncounterSizeLessOrEqualTo",
+                "5",
+                "Nothing",
+                "FocusOnMonster",
+                "6",
+                "CallMonsterAttack",
+                "EncounterSizeLessOrEqualTo",
+                "6",
+                "Nothing",
+                "FocusOnMonster",
+                "7",
+                "CallMonsterAttack",
+                "EncounterSizeLessOrEqualTo",
+                "7",
+                "Nothing",
+                "FocusOnMonster",
+                "8",
+                "CallMonsterAttack",
+                "EncounterSizeLessOrEqualTo",
+                "8",
+                "Nothing",
+                "FocusOnMonster",
+                "9",
+                "CallMonsterAttack",
+                "EncounterSizeLessOrEqualTo",
+                "9",
+                "Nothing",
+                "FocusOnMonster",
+                "10",
+                "CallMonsterAttack",
+                "EncounterSizeLessOrEqualTo",
+                "10",
+                "Nothing",
+                "FocusOnMonster",
+                "11",
+                "CallMonsterAttack",
+                "EncounterSizeLessOrEqualTo",
+                "11",
+                "Nothing",
+                "FocusOnMonster",
+                "12",
+                "CallMonsterAttack"
+            ]
+        },
+        {
+            "NameOfScene": "TeamAttackDecision",
+            "theScene": [
+                "IfChoice",
+                "3",
+                "ChargeSex",
+                "GroupSex",
+                "IfChoice",
+                "3",
+                "ChargeBJ",
+                "GroupBJ"
+            ]
+        },
+        {
+            "NameOfScene": "GroupSex",
+            "theScene": [
+                "SetChoice",
+                "3",
+                "",
+                "ResumeAllMonsterAttacks",
+                "SetPostName",
+                "- ¡Amor etéreo!",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "EncounterSize",
+                "2",
+                "Los fantasmas se extienden hacia ti en una carrera espectral, doblando sus movimientos unos a otros, disminuyendo el uno al otro.",
+                "1",
+                "¡El fantasma aumenta hacia ti en una carrera etérea!",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "Menu",
+                "¡Repelerlos con magia!(Inteligencia) [StatCheckPost]",
+                "¡Esquivar!(Técnica) [StatCheckPost]",
+                "Accept the ghostly embrace.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Repel them with magic! (Intelligence) [StatCheckPost]",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfEncounterSizeGreaterOrEqualTo",
+                "2",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfEncounterSizeGreaterOrEqualTo",
+                "3",
+                "5",
+                "Intelligence",
+                "15",
+                "RepelledSex",
+                "Fail",
+                "FailedSex"
+            ]
+        },
+        {
+            "NameOfScene": "Dodge! (Technique) [StatCheckPost]",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfEncounterSizeGreaterOrEqualTo",
+                "2",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfEncounterSizeGreaterOrEqualTo",
+                "3",
+                "5",
+                "Technique",
+                "15",
+                "DodgedSex",
+                "Fail",
+                "FailedSex"
+            ]
+        },
+        {
+            "NameOfScene": "Accept the ghostly embrace.",
+            "theScene": [
+                "ResetStatCheckDifficultyModifer",
+                "Aceptas voluntariamente la carga fantasmal entrante ...",
+                "JumpToScene",
+                "ApplySexCharge"
+            ]
+        },
+        {
+            "NameOfScene": "RepelledSex",
+            "theScene": [
+                "¡Pero logras alejar la carga fantasmal!",
+                "ChangeImageLayer",
+                "Expression",
+                "Smile",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "EncounterSize",
+                "2",
+                "Estábamos {i} solo {/i} iba a perseguir tu polla con nuestros coños.¿Eso es realmente tan malo?",
+                "1",
+                "Aw, solo quería hacerte sentir bien.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "DodgedSex",
+            "theScene": [
+                "¡Pero logras evitar la carga fantasmal!",
+                "ChangeImageLayer",
+                "Expression",
+                "Smile",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "EncounterSize",
+                "2",
+                "Estábamos {i} solo {/i} iba a perseguir tu polla con nuestros coños.¿Eso es realmente tan malo?",
+                "1",
+                "Aw, solo quería hacerte sentir bien.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "FailedSex",
+            "theScene": [
+                "SwapLineIf",
+                "EncounterSize",
+                "2",
+                "¡Los fantasmas parecen completamente imparables ya que ignoran todos sus intentos de detener sus cuerpos etéreos!",
+                "1",
+                "¡El fantasma parece completamente imparable ya que ignora cada intento de detener su cuerpo etéreo!",
+                "EndLoop",
+                "JumpToScene",
+                "ApplySexCharge"
+            ]
+        },
+        {
+            "NameOfScene": "ApplySexCharge",
+            "theScene": [
+                "EncounterSizeGreaterOrEqualTo",
+                "2",
+                "ApplySexChargeGroup",
+                "ApplyStance",
+                "Sex",
+                "La mujer fantasmal flota a tu alrededor rápidamente antes de empujarte hacia abajo con una risita mientras comienza a montar tu polla rígida."
+            ]
+        },
+        {
+            "NameOfScene": "ApplySexChargeGroup",
+            "theScene": [
+                "FocusOnMonster",
+                "1",
+                "ApplyStance",
+                "Sex",
+                "FocusOnMonster",
+                "2",
+                "ApplyStance",
+                "Sex",
+                "EncounterSizeLessOrEqualTo",
+                "2",
+                "DuoSexLine",
+                "FocusOnMonster",
+                "3",
+                "ApplyStance",
+                "Sex",
+                "JumpToScene",
+                "TrioSexLine"
+            ]
+        },
+        {
+            "NameOfScene": "DuoSexLine",
+            "theScene": [
+                "Las dos mujeres fantasmadas flotan a su alrededor rápidamente, riendo antes de que lo empujen fácilmente hacia abajo, prácticamente fase juntas mientras comienzan a montar su polla rígida al mismo tiempo, enviando un frío feliz por la columna vertebral de las sensaciones imposibles de sus coños que se superponen con cada uno.otro."
+            ]
+        },
+        {
+            "NameOfScene": "TrioSexLine",
+            "theScene": [
+                "El trío de mujeres fantasmadas flotan a su alrededor rápidamente, riéndose antes de que lo empujen fácilmente, prácticamente agachándose a medida que comienzan a montar su polla rígida al mismo tiempo, enviando un escalofrío escalofrío por las sensaciones imposibles de sus coños superpuestos conentre sí."
+            ]
+        },
+        {
+            "NameOfScene": "GroupBJ",
+            "theScene": [
+                "SetChoice",
+                "3",
+                "",
+                "ResumeAllMonsterAttacks",
+                "SetPostName",
+                "- Osal fantasmal!",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "EncounterSize",
+                "2",
+                "Los fantasmas se extienden hacia ti en una carrera espectral, doblando sus movimientos unos a otros, disminuyendo el uno al otro.",
+                "1",
+                "¡El fantasma aumenta hacia ti en una carrera etérea!",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "Menu",
+                "¡Repelerlos con magia!(Inteligencia) [StatCheckPost]",
+                "¡Esquivar!(Técnica) [StatCheckPost]",
+                "Accept the ghostly embrace. ",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Repel them with magic! (Intelligence) [StatCheckPost] ",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfEncounterSizeGreaterOrEqualTo",
+                "2",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfEncounterSizeGreaterOrEqualTo",
+                "3",
+                "5",
+                "Intelligence",
+                "15",
+                "RepelledBJ",
+                "Fail",
+                "FailedBJ"
+            ]
+        },
+        {
+            "NameOfScene": "Dodge! (Technique) [StatCheckPost] ",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfEncounterSizeGreaterOrEqualTo",
+                "2",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfEncounterSizeGreaterOrEqualTo",
+                "3",
+                "5",
+                "Technique",
+                "15",
+                "DodgedBJ",
+                "Fail",
+                "FailedBJ"
+            ]
+        },
+        {
+            "NameOfScene": "Accept the ghostly embrace. ",
+            "theScene": [
+                "ResetStatCheckDifficultyModifer",
+                "Aceptas voluntariamente la carga fantasmal entrante ...",
+                "JumpToScene",
+                "ApplyBJCharge"
+            ]
+        },
+        {
+            "NameOfScene": "RepelledBJ",
+            "theScene": [
+                "¡Pero logras alejar la carga fantasmal!",
+                "ChangeImageLayer",
+                "Expression",
+                "Smile",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "EncounterSize",
+                "2",
+                "Estábamos {i} solo {/i} iba a perseguir tu polla con nuestros labios.¿Eso es realmente tan malo?",
+                "1",
+                "Aw, solo quería hacerte sentir bien.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "DodgedBJ",
+            "theScene": [
+                "¡Pero logras evitar la carga fantasmal!",
+                "ChangeImageLayer",
+                "Expression",
+                "Smile",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "EncounterSize",
+                "2",
+                "Estábamos {i} solo {/i} iba a perseguir tu polla con nuestros labios.¿Eso es realmente tan malo?",
+                "1",
+                "Aw, solo quería hacerte sentir bien.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "FailedBJ",
+            "theScene": [
+                "SwapLineIf",
+                "EncounterSize",
+                "2",
+                "¡Los fantasmas parecen completamente imparables ya que ignoran todos sus intentos de detener sus cuerpos etéreos!",
+                "1",
+                "¡El fantasma parece completamente imparable ya que ignora cada intento de detener su cuerpo etéreo!",
+                "EndLoop",
+                "JumpToScene",
+                "ApplyBJCharge"
+            ]
+        },
+        {
+            "NameOfScene": "ApplyBJCharge",
+            "theScene": [
+                "EncounterSizeGreaterOrEqualTo",
+                "2",
+                "ApplyBJChargeGroup",
+                "ApplyStance",
+                "Blowjob",
+                "La mujer fantasmal flota a tu alrededor rápidamente antes de empujarte hacia abajo con una risita mientras lleva tu polla a su boca espectral, chupando con amor tu longitud."
+            ]
+        },
+        {
+            "NameOfScene": "ApplyBJChargeGroup",
+            "theScene": [
+                "FocusOnMonster",
+                "1",
+                "ApplyStance",
+                "Blowjob",
+                "FocusOnMonster",
+                "2",
+                "ApplyStance",
+                "Blowjob",
+                "EncounterSizeLessOrEqualTo",
+                "2",
+                "DuoBJLine",
+                "FocusOnMonster",
+                "3",
+                "ApplyStance",
+                "Blowjob",
+                "JumpToScene",
+                "TrioBJLine"
+            ]
+        },
+        {
+            "NameOfScene": "TrioBJLine",
+            "theScene": [
+                "El trío de mujeres fantasmales flotan rápidamente a su alrededor, riendo antes de que lo empujen fácilmente, prácticamente agitando a la fase a medida que comienzan a hacer una polla rígida al mismo tiempo, enviando un escalofrío escalofrío por las sensaciones imposibles de sus bocas y lenguassuperpuesto entre sí."
+            ]
+        },
+        {
+            "NameOfScene": "DuoBJLine",
+            "theScene": [
+                "Las dos mujeres fantasmadas flotan a su alrededor rápidamente, riendo antes de que lo empujen fácilmente, prácticamente agachándose a medida que comienzan a profundizar su polla rígida al mismo tiempo, enviando un escalofrío escalofrío por las sensaciones imposibles de sus bocas y lenguas superpuestasentre sí."
+            ]
+        },
+        {
+            "NameOfScene": "Multihitter",
+            "theScene": [
+                "PlayerCurrentEnergyCost",
+                "SkipPlayerAttack",
+                "SetProgress",
+                "2",
+                "FocusOnMonster",
+                "1",
+                "JumpToScene",
+                "HitChecker"
+            ]
+        },
+        {
+            "NameOfScene": "HitSecondFighter",
+            "theScene": [
+                "EncounterSizeLessOrEqualTo",
+                "1",
+                "PostAttackCheck",
+                "ChangeProgress",
+                "-1",
+                "FocusOnMonster",
+                "2",
+                "JumpToScene",
+                "HitChecker"
+            ]
+        },
+        {
+            "NameOfScene": "HitThirdFighter",
+            "theScene": [
+                "EncounterSizeLessOrEqualTo",
+                "2",
+                "PostAttackCheck",
+                "ChangeProgress",
+                "-1",
+                "FocusOnMonster",
+                "3",
+                "JumpToScene",
+                "HitChecker"
+            ]
+        },
+        {
+            "NameOfScene": "HitChecker",
+            "theScene": [
+                "IfMonsterHasStance",
+                "Sex",
+                "CheckSkill",
+                "IfMonsterHasStance",
+                "Blowjob",
+                "CheckSkill",
+                "IfProgressEqualsOrGreater",
+                "2",
+                "HitSecondFighter",
+                "IfProgressEqualsOrGreater",
+                "1",
+                "HitThirdFighter",
+                "JumpToScene",
+                "PostAttackCheck"
+            ]
+        },
+        {
+            "NameOfScene": "CheckSkill",
+            "theScene": [
+                "IfPlayerIsUsingThisSkill",
+                "Thrust",
+                "Thrust",
+                "IfPlayerIsUsingThisSkill",
+                "Channeling Thrust",
+                "Channeling Thrust",
+                "IfPlayerIsUsingThisSkill",
+                "Pound",
+                "Pound",
+                "IfPlayerIsUsingThisSkill",
+                "Multi Thrust",
+                "Multi Thrust",
+                "IfPlayerIsUsingThisSkill",
+                "Empowered Thrust",
+                "Empowered Thrust",
+                "IfPlayerIsUsingThisSkill",
+                "Tantric Thrust",
+                "Tantric Thrust",
+                "IfPlayerIsUsingThisSkill",
+                "Passionate Lovemaking",
+                "Passionate Lovemaking",
+                "IfPlayerIsUsingThisSkill",
+                "Face Fuck",
+                "Face Fuck"
+            ]
+        },
+        {
+            "NameOfScene": "Face Fuck",
+            "theScene": [
+                "HitMonsterWith",
+                "Face Fuck",
+                "SetPostName",
+                "- FOLA DE CARA",
+                "PlayerSpeaksSkill",
+                "Agarras la cabeza de los fantasmas y empujas más o menos profundamente en su boca mojada, y ella deja escapar gemidos mientras dominas su garganta apretada. [DamageToEnemy]",
+                "SetPostName",
+                "",
+                "ChangeImageLayer",
+                "Expression",
+                "Horny",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "'Mmmph?!♥'",
+                "'Oooohhh ... ♥ m-more ... ♥'",
+                "'Sh-Sho áspero. ♥'",
+                "'M-my Garganta Feelsh Sho bueno ... ♥'",
+                "'D-no pare. ♥'",
+                "'Mmmm. ♥ No podré dejar de pensar en esto durante semanas. ♥'",
+                "Ella simplemente te mira con una expresión feliz mientras le golpeas la garganta.",
+                "'Voy a perseguir tu polla. ♥♥♥'",
+                "EndLoop",
+                "IfProgressEqualsOrGreater",
+                "2",
+                "HitSecondFighter",
+                "IfProgressEqualsOrGreater",
+                "1",
+                "HitThirdFighter",
+                "JumpToScene",
+                "PostAttackCheck"
+            ]
+        },
+        {
+            "NameOfScene": "Thrust",
+            "theScene": [
+                "HitMonsterWith",
+                "Thrust",
+                "SetPostName",
+                "- empuje",
+                "PlayerSpeaksSkill",
+                "Empujaste tu polla en el coño babeante del fantasma una y otra vez, haciéndola temblar con un placer maravilloso. [DamageToEnemy]",
+                "ChangeImageLayer",
+                "Expression",
+                "Horny",
+                "SetPostName",
+                "",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "'Ahhh ... ♥ Esto se siente tan bien. ♥'",
+                "'Ohhh ... ♥ no te detengas. ♥'",
+                "'Ooooh ... ♥ Nunca quiero que esto termine. ♥'",
+                "'Jeje, ♥ Creo que podría tener que perseguirte. ♥'",
+                "'Mmmm, ♥ esto es maravilloso. ♥'",
+                "EndLoop",
+                "IfProgressEqualsOrGreater",
+                "2",
+                "HitSecondFighter",
+                "IfProgressEqualsOrGreater",
+                "1",
+                "HitThirdFighter",
+                "JumpToScene",
+                "PostAttackCheck"
+            ]
+        },
+        {
+            "NameOfScene": "Channeling Thrust",
+            "theScene": [
+                "HitMonsterWith",
+                "Channeling Thrust",
+                "SetPostName",
+                "- Canalizando empuje",
+                "ChangeEnergyQuietly",
+                "10",
+                "PlayerSpeaksSkill",
+                "Lentamente empujaste tu polla en el coño babeante de Ghost mientras sacas gradualmente en maná de ella y el aire alrededor de ustedes dos. [DamageToEnemy]",
+                "ChangeImageLayer",
+                "Expression",
+                "Horny",
+                "SetPostName",
+                "",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "'Ahhh ... ♥ Esto se siente tan bien. ♥'",
+                "'Ohhh ... ♥ no te detengas. ♥'",
+                "'Ooooh ... ♥ Nunca quiero que esto termine. ♥'",
+                "'Jeje, ♥ Creo que podría tener que perseguirte. ♥'",
+                "'Mmmm, ♥ esto es maravilloso. ♥'",
+                "EndLoop",
+                "IfProgressEqualsOrGreater",
+                "2",
+                "HitSecondFighter",
+                "IfProgressEqualsOrGreater",
+                "1",
+                "HitThirdFighter",
+                "JumpToScene",
+                "PostAttackCheck"
+            ]
+        },
+        {
+            "NameOfScene": "Pound",
+            "theScene": [
+                "HitMonsterWith",
+                "Pound",
+                "SetPostName",
+                "- Libra",
+                "PlayerSpeaksSkill",
+                "Te follas más o menos el coño de espasmo del fantasma con tu rígida virilidad, y ella lucha por mantenerse coherente del placer golpeando en su hendidura sensible. [DamageToEnemy]",
+                "SetPostName",
+                "",
+                "JumpToScene",
+                "teir2Lines"
+            ]
+        },
+        {
+            "NameOfScene": "Multi Thrust",
+            "theScene": [
+                "HitMonsterWith",
+                "Multi Thrust",
+                "SetPostName",
+                "- Multi empuje",
+                "PlayerSpeaksSkill",
+                "Hábilmente empujas tu polla en el apretado coño de los fantasmas una y otra vez, haciéndola jadear rápidamente de la dicha constante que golpea en su cuerpo. [DamageToEnemy]",
+                "HitMonsterWith",
+                "Multi Thrust",
+                "PlayerSpeaksSkill",
+                "El fantasma te sonríe felizmente mientras sigues empujando, sin darle un momento para descansar o recuperarse del éxtasis que atraviesa su forma espectral. [DamageToEnemy]",
+                "HitMonsterWith",
+                "Multi Thrust",
+                "PlayerSpeaksSkill",
+                "Ella temblaba y gime con placer de cada uno de tus movimientos de tiegro, su orificio apretado aceptando en el interior, sus lindos jadeos que te convencen de que se joda con la babea. [DamageToEnemy]",
+                "SetPostName",
+                "",
+                "JumpToScene",
+                "teir2Lines"
+            ]
+        },
+        {
+            "NameOfScene": "Empowered Thrust",
+            "theScene": [
+                "HitMonsterWith",
+                "Empowered Thrust",
+                "SetPostName",
+                "- Empuje empoderado",
+                "PlayerSpeaksSkill",
+                "Empujaste tu polla mágicamente cargada en el coño de espasmo fantasmas, y ella gime en voz alta cuando ella es un mágico erótico con todos los empujes alucinantes. [DamageToEnemy]",
+                "SetPostName",
+                "",
+                "JumpToScene",
+                "teir2Lines"
+            ]
+        },
+        {
+            "NameOfScene": "Tantric Thrust",
+            "theScene": [
+                "HitMonsterWith",
+                "Tantric Thrust",
+                "SetPostName",
+                "- empuje tántrico",
+                "PlayerSpeaksSkill",
+                "Lentamente empujaste la virilidad en el apretado coño del fantasma con un cuidado suave, mientras acariciaba en broma su cuerpo rastreando sensualmente los dedos sobre su piel etérea, dejándola suavemente gimiendo del placer del edificio. [DamageToEnemy]",
+                "SetPostName",
+                "",
+                "JumpToScene",
+                "teir2Lines"
+            ]
+        },
+        {
+            "NameOfScene": "Passionate Lovemaking",
+            "theScene": [
+                "HitMonsterWith",
+                "Passionate Lovemaking",
+                "SetPostName",
+                "- El amor apasionado",
+                "ApplyStatusEffect",
+                "Charm",
+                "PlayerSpeaksSkill",
+                "Te folla amorosamente el coño apretado del fantasma con pasión enamorada, y ella se pierde en el momento mientras se entrelazan sus cuerpos, gimiendo de delicias felices mientras los dos miran los ojos de los demás. [DamageToEnemy]",
+                "SetPostName",
+                "",
+                "JumpToScene",
+                "teir2Lines"
+            ]
+        },
+        {
+            "NameOfScene": "teir2Lines",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Horny",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "'Ahhh! ♥ S-tan bueno ♥'",
+                "'D-no pare. ♥'",
+                "'¡Ooooh! ♥ ¡No creo que pueda tomar tanto más! ♥'",
+                "'Mmmm! ♥ voy a ti- ♥ haaahhhh! ♥'",
+                "'¡Ahhh! ♥ th-esto es increíble! ♥'",
+                "'¡Oh!M-More! ♥ '",
+                "'¡No quiero que esto haya ennnd! ♥♥♥",
+                "'¡Nunca nos dejaré separarnos! ♥♥♥",
+                "EndLoop",
+                "IfProgressEqualsOrGreater",
+                "2",
+                "HitSecondFighter",
+                "IfProgressEqualsOrGreater",
+                "1",
+                "HitThirdFighter",
+                "JumpToScene",
+                "PostAttackCheck"
+            ]
+        },
+        {
+            "NameOfScene": "PostAttackCheck",
+            "theScene": [
+                "CallMonsterEncounterOrgasmCheck"
+            ]
+        },
+        {
+            "NameOfScene": "SexOrgasmLines",
+            "theScene": [
+                "IfPlayerHasStances",
+                "Sex",
+                "Sex",
+                "Sex",
+                "EndLoop",
+                "TrioSexOrgasmLines",
+                "IfPlayerHasStances",
+                "Sex",
+                "Sex",
+                "EndLoop",
+                "DuoSexOrgasmLines",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "SwapLineIf",
+                "Random",
+                "La mujer fantasmal se tuerza y ​​balancea sus caderas sobre tu dolor de polla, cada movimiento masajea toda tu longitud, apretando con fuerza mientras se aferra con amor a tu erección espumosa, hasta que finalmente la feliz estimulación te envía sobre el borde, soplando una carga gruesa en su etéreocoño para ser empapado en su forma fantasmal. [PlayerOrgasmLine]",
+                "A medida que el fantasma rebota con entusiasmo en tu virilidad espumada, estás cada vez más cerca de un orgasmo alucinante, cada reunión húmeda de tus caderas envía una sacudida celestial a través de tus caderas, hasta que finalmente, el ritmo constante de sus caderas visteVete tu resistencia por completo, y te quedas brotando una carga caliente en su hendidura apretada para que ella empape. [PlayerOrgasmLine]",
+                "El fantasma monta tu dolor de dolor con una sonrisa, rompiendo sus movimientos burlones con un descanso ocasional para moler y balancearse las caderas, dejando tu virilidad enormemente con anticipación mientras te construye a un orgasmo alucinante, y con un rápido rápido rápido, golpes húmedos de su coño babeante, te envían gemidos sobre el borde, brotando espesas cuerdas de semen en su orificio espectral, dejándola remojar en cada gota. [PlayerOrgasmLine]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "DuoSexOrgasmLines",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "SwapLineIf",
+                "Random",
+                "El dúo de fantasmas influye suavemente en sus caderas en direcciones opuestas, su apretado entero, acariciando cada centímetro de tus rígidos, sacudiendo la polla mientras se asalta con sensaciones de superposición y se doblan suavemente en múltiples direcciones a la vez por sus orificios ondulantes, dejándolo apenas capaz de procesarLa dicha orgásmica de la dicha en sus lomos a medida que las sensaciones cambian constantemente, abrumando con una dicha enloquecedora.ambos con tu semilla.Tus bolas doloridas vaciando algunos chorros más en ambos mientras les dan a sus caderas un manejo sincronizado, sus coños superpuestos le dan a tu polla un placer tan maravilloso e imposible. [PlayerOrgasmLine]",
+                "Los dos fantasmas viajan extáticamente en su poca rígida en una rápida alternancia mientras se aprueban entre sí, mientras uno golpea sus caderas hacia abajo, llevando toda su longitud a la base, el otro está llegando al ápice de levantar sus caderas de nuevo a su punta, sobrey sobre lo repiten, follando lentamente más rápido, negándose a darte un momento de descanso., y continúe montando su dolidosa erección, trabajando para ordeñar la siguiente carga de sus bolas agitadas con la sensación de éxtasis inductora de follar a dos mujeres al mismo tiempo. [PlayerOrgasmLine]",
+                "Uno de los fantasmas muele suavemente y gira sus caderas bien formadas en un círculo sensual, manteniendo su polla rígida firmemente alojada dentro de su coño apretado, y el otro fantasma rebota en su longitud de contracción enérgicamente mientras fasa a través de su aliado, dejando a su polla como una locura como loca como loca.como está acariciado y apretado por el poder combinado de sus coños espectrales superpuestos. | N | Solo puedes jadear y retorcerse a la felicidad a medida que tu polla de espasmo está ordeñada y masajeada al mismo tiempo que está enormemente, hasta que finalmente todo el cuerpo tu cuerpose pierde en un orgasmo electrizante, y los inundas a ambos con tu semen caliente, e incluso cuando se abarrazan los coños y aprietas tu erección dolorida al unísono perfecto, agotando cada gota de tu semilla que pueden. [PlayerOrgasmLine]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "TrioSexOrgasmLines",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "SwapLineIf",
+                "Random",
+                "El trío de fantasmas se mueve como las imágenes de etéreos, todos montando su polla dolorosamente rígida en un ritmo lento y constante.Uno de los fantasmas lidera los movimientos, y los otros dos siguen un ligero retraso, dejando a tu polla sacudiendo la delicia mientras se acaricia una y otra vez por las maravillosas sensaciones superpuestas de tres coños exprimentes que acarician toda su longitud, una mentalidad constante y sensualritmo. | n | Los tres fantasmas funcionan al unísono perfecto, la sensación húmeda apretada del orificio está ligeramente detrás de la primera sensación como esta, dándote un extraño sentido misterioso de Deja-Vu como enloquecedoras sacudidas de éxtasis en tus caderas,abrumando con las sensaciones imposiblemente felices de su trío de apretar ranuras, todos montando su erección sacudida, dejando a todo su cuerpo temblando como un éxtasis orgásmico a través de usted.Los coños apretados del trío mientras continúan montando lentamente su dolor de virilidad a un ritmo constante, expulsando cada gota de semen que pueden de sus bolas de contracción, brotando su mente con un placer inquietante. [PlayerOrgasmLine]",
+                "El trío de fantasmas mantiene su polla rígida firmemente alojada dentro de sus tres coños espectrales apretados y superpuestos mientras giran, muelen y aprieta su polla dolorida de varias maneras y direcciones diferentes en un solo momento, superando la sensación de su rotación alrededor de su palpitante.eje, inundando tu cuerpo con un placer de otro mundo.Cuerpo, dejándote temblando en un éxtasis abrumador, incapaz de pensar con claridad, dejándote justo en el borde climático. | N | Entonces, mientras estás perdido en el placer de que te terminen con una influencia sensual unificada si sus caderas, realineánSu espasmo de regreso a la realidad después de ser doblado y apretado en múltiples direcciones, directamente en un orgasmo de Blanking, y sus bolas doloridas giran a medida que bombea cargas gruesas de su semilla en sus hendiduras apretadas. [PlayerOrgasmLine]",
+                "Difícilmente puedes comprender el éxtasis abrumando tu polla sacudida mientras un fantasma se balancea suavemente y gira sus caderas bien formadas en pequeños círculos burlones, ordeñando cada centímetro de tu erección sacudida con la acaricia apretada de su apretado coño, y el segundo fantasma mantiene tu polla firmemente acurrucado dentro dentro desu hendidura apretada, sin mover sus caderas una sola pulgada, dejando que su ondulante vaginal te convenciera más y más cerca de un orgasmo de fusión mental.induciendo el ritmo mientras sus aliados etéreos trabajan en conjunto con ella para ahogar su polla sobreestimulada en éxtasis imposible, dejando que su polla palpite como una locura en sus coños espectrales combinados asalto unificado y todo su cuerpo tensado en placer mientras un orgasmo anula todo su cuerpo. | n.| Las olas de la dicha enloquecedora que fluyen a través de su polla de espasmo finalmente rompen su resistencia con las sensaciones de superposición de sus coños etéreos apretando, ordeñando y acariciando su erección sacudida, y las verduras constantes lo superan mientras su polla descarga cuerdas gruesas de espesas en los trios apretados.Rangables, pero no ceden por un segundo, ansiosos por drenar cada caída que puedas ofrecerles. [PlayerOrgasmLine]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "BJOrgasmLines",
+            "theScene": [
+                "IfPlayerHasStances",
+                "Blowjob",
+                "Blowjob",
+                "Blowjob",
+                "EndLoop",
+                "TrioBJOrgasmLines",
+                "IfPlayerHasStances",
+                "Blowjob",
+                "Blowjob",
+                "EndLoop",
+                "DuoBJOrgasmLines",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "SwapLineIf",
+                "Random",
+                "El fantasma con amor profundo se acarea tu gruesa polla, deslizándola hasta la parte posterior de su apretada garganta una y otra vez, enviando maravillosas chispas de placer rebotando a través de tu dolor de virilidad mientras su lengua burla de todo tu eje, hasta que con un golpe de ruiduría final, estallas directamente por ella.garganta, vertiendo una carga fresca de tu semilla en su cuerpo espectral para ser absorbido. [PlayerOrgasmLine]",
+                "La mujer fantasmada chupa firmemente su dolor de polla dolorida, balanceando sus suaves labios hacia arriba y hacia abajo de tu longitud de contracción, dejando tus bolas espasmando de la intensa succión tratando de convencer tu semilla, y mientras amamanta con amor en tu punta no puedes aguantarteMás, inundando su boca hambrienta con tu semilla para que ella trague ansiosamente con una risita. [PlayerOrgasmLine]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "DuoBJOrgasmLines",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "SwapLineIf",
+                "Random",
+                "El dúo de fantasmas chupa con amor a tu polla rígida rígida mientras aceleran tu longitud completa con sus labios bien sellados, lamiendo la parte inferior y la punta con sus ágiles lenguas, flotando sin problemas mientras se mueven hacia arriba y hacia abajo en alternancia, así que justoMientras uno empuñja su dolor de erección por su apretada garganta, el otro está chupando intensamente la punta mientras la prodige con afecto con su lengua. | N | Continuamente intensifican la succión a medida que suben y bajan su furiosa erección, haciendo que sus bolas se contrajeranA medida que sus labios aceleran hacia arriba y hacia abajo de su eje de contracción, hasta que su succión al vacío y lenguas hábiles te abruman mientras empujan tu polla a su vez, dejándote chocando cuerdas gruesas de esperma en sus bocas hambrientas y bajando las gargantas mientras siguen oridando tu ordeñoLongitud con sus labios. [PlayerOrgasmLine]",
+                "Los dos fantasmas mantienen sus labios suaves firmemente sellados alrededor de su espada en la cabeza de la polla, rodando sus lenguas amorosas alrededor de la carne sensible en direcciones opuestas, deteniéndose en ocasiones para que ambas vueltas por su pre-cum, enviando un pulso de éxtasis maravilloso a través de su polla dolorosa tantoRompen el placer de sus lenguas arremolinándose, y tus bolas se contraen con una dolorosa necesidad, incapaz de tomar esta maravillosa dicha mucho más tiempo.Tus caderas de la sensación superpuesta y la succión combinada de sus gargantas apretadas, dejándote tambaleándose al borde del orgasmo, tus bolas doloridas agitándose en preparación a medida que se tensan. | N |El placer burbujea dentro de ti, y a medida que lentamente tiran de sus labios chupando hacia su punta de espasmo, bailando sus lenguas a lo largo de toda tu longitud, solo puedes gemir de manera incoherente, pisando espesas cuerdas de semilla en su boca hambrienta, vertiendo semen por sus gargantas por sus gargantasMientras de repente se empuñan de nuevo por la longitud de toda su polla, redoblando su placer orgásmico en una ola eléctrica de éxtasis derretido. [PlayerOrgasmLine]",
+                "Mientras que uno de los fantasmas acaricia suavemente tu polla rígida con sus suaves labios, lamiendo cada centímetro con su lengua hábil mientras se mueve hacia arriba y hacia abajo de tu longitud de contracción, el segundo fantasma está rápidamente profundo que le da una palmada en la polla, lo que lo golpea la espalda de ella apretadagarganta una y otra vez, cada vez que envía una sacudida a través de su virilidad que amenaza con hacerte brotar mientras el primer fantasma continúa ordeñando suavemente tu eje al mismo tiempo | n |Sus sensaciones enloquecedoras combinadas pulsan a través de su erección de espasmo a todo su cuerpo, dejándote gemir felizmente mientras su afecto oral burlón finalmente saca cuerdas gruesas de semillas de tus dolor de dolor que salen con avidez antes de cambiar los roles de succión suave y frenética profunda y frenética profunda.garganta entre ellos, y tu polla solo puede contratar anticipación. [PlayerOrgasmLine]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "TrioBJOrgasmLines",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "SwapLineIf",
+                "Random",
+                "El trío de fantasmas ordeñe tu polla dolorida con sus labios suaves a diferentes pasos, lamiendo en broma cada pulgada de contracción de tu longitud mientras abruman tu dolor de virilidad con los esfuerzos superpuestos combinados de sus bocas y gargantas apretadas, cada uno trabajando para darte un expertomamada al mismo tiempo, dejando tu polla palpitando y torciendo locamente en éxtasis desde el placer de otro mundo. | N | Un fantasma se balancea lentamente hacia arriba y hacia abajo, pasando suavemente la lengua a lo largo de la parte inferior de tu polla, el segundo fantasma ligeramentechupando la punta de su espasmo antes de golpear toda la polla por su garganta, luego chupando intensamente hacia la punta enviando sacudidas de placer con la mente a través de tu virilidad.Garganta a un ritmo rápido, estás indefenso a resistir el orgasmo que se aproxima inunda tu cuerpo. | N | La mezcla de mamadas del trío abruman por completo tus sentidos, dejando a todo tu cuerpo torciéndose desde la dicha de otro mundo a medida que comienzas a descargar en las bocas del tríoY gargantas, sintiendo que vas a perder la cabeza por el éxtasis fantasmal mientras siguen chupando y lamiendo todo tu intenso orgasmo, el recuerdo de este clímax firmemente en tus recuerdos. [PlayerOrgasmLine]",
+                "Un fantasma mantiene tu polla rígida firmemente arrugada por su apretada garganta mientras ella apesta intensamente, la segunda mantiene tu cabeza de polla sacudida atrapada entre sus suaves labios mientras lo chupa firmemente y la prodige con afecto con su ágil lengua y la terceraEl fantasma lentamente saca la cabeza hacia arriba y hacia abajo de toda su longitud con una succión intensa mientras ella profundiza tu longitud una y otra vez.De inmediato, dejándote llorar incoherentemente cuando comienzas a brotar cuerdas gruesas de semen de la enloquecedora dicha, vertiendo tu semilla caliente en sus gargantas y bocas para tragar con avidez, pero siguen chupando cada vez cada centímetro, tratando de sacar aún más. [PlayerOrgasmLine]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Event Broke",
+            "theScene": [
+                "Event Broke"
+            ]
+        }
+    ]
+}

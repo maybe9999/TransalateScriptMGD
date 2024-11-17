@@ -1,0 +1,3226 @@
+{
+    "name": "BerisCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Beris",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Intro",
+            "theScene": [
+                "SetChoice",
+                "6",
+                "",
+                "SetChoice",
+                "10",
+                "",
+                "GetEventAndSetProgress",
+                "Labyrinth Floor 2",
+                "0",
+                "CallSceneThenReturn",
+                "MoonlitRemove",
+                "CallEventAndSceneThenReturn",
+                "ShadowsTile",
+                "ShadowRibbonCheck",
+                "CallNextSceneJumpThenReturn",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "Hellhound Bondage",
+                "25",
+                "Weakness1",
+                "CallNextSceneJumpThenReturn",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "Hellhound Bondage",
+                "50",
+                "Weakness2",
+                "CallNextSceneJumpThenReturn",
+                "GetEventAndIfChoice",
+                "Hellhound Bondage",
+                "8",
+                "MilkSceneDone",
+                "WeaknessBoobs",
+                "CallNextSceneJumpThenReturn",
+                "GetEventAndIfChoice",
+                "Hellhound Bondage",
+                "9",
+                "Interrogation",
+                "WeaknessHoly",
+                "CallNextSceneJumpThenReturn",
+                "GetEventAndIfChoice",
+                "Hellhound Bondage",
+                "10",
+                "Hero",
+                "WeaknessHero",
+                "CallNextSceneJumpThenReturn",
+                "IfChoice",
+                "7",
+                "BeatBerisReversal",
+                "WeaknessReversal",
+                "CallNextSceneJumpThenReturn",
+                "IfChoice",
+                "9",
+                "BeatBerisOral",
+                "WeaknessOral",
+                "ChangeImageLayer",
+                "Expression",
+                "Grin",
+                "SwapLineIf",
+                "Choice",
+                "4",
+                "Weakness",
+                "Beris se detiene frente a ti, una sonrisa arrogante se extendió sobre su rostro después de un momento de duda de corta duración, pero revelando, el fuego parpadeando de sus ojos azules desaliñando mientras se prepara para cazarte.",
+                "4",
+                "",
+                "Beris se detiene frente a ti con una sonrisa arrogante, el fuego parpadeando de sus ojos azules hurgando mientras se prepara para cazarte.",
+                "EndLoop",
+                "CallNextSceneJumpThenReturn",
+                "IfChoice",
+                "4",
+                "Weakness",
+                "WeaknessDisplay",
+                "IfProgressEqualsOrGreater",
+                "1",
+                "RampUpFight"
+            ]
+        },
+        {
+            "NameOfScene": "MoonlitRemove",
+            "theScene": [
+                "IfInExploration",
+                "Nothing",
+                "RemovePerkFromMonster",
+                "Moonlit Allure",
+                "RemovePerkFromMonster",
+                "Moonlit Glamor",
+                "RemovePerkFromMonster",
+                "Moonlit Mystique"
+            ]
+        },
+        {
+            "NameOfScene": "RampUpFight",
+            "theScene": [
+                "LevelUpMonster",
+                "GoUpByProgress",
+                "IfMonsterLevelGreaterThan",
+                "50",
+                "IntroChargeSuper"
+            ]
+        },
+        {
+            "NameOfScene": "IntroChargeSuper",
+            "theScene": [
+                "GetEventAndChangeProgress",
+                "Labyrinth Floor 2",
+                "25",
+                "GivePerkToMonster",
+                "Escape Artist",
+                "GivePerkToMonster",
+                "Swift",
+                "ChangeMonsterStatusEffectResistances",
+                "Stun",
+                "5",
+                "ChangeMonsterStatusEffectResistances",
+                "Restrain",
+                "10",
+                "IfMonsterLevelGreaterThan",
+                "65",
+                "upgrade2"
+            ]
+        },
+        {
+            "NameOfScene": "upgrade2",
+            "theScene": [
+                "GivePerkToMonster",
+                "Evasive",
+                "GivePerkToMonster",
+                "Escape Artist",
+                "ChangeMonsterStatusEffectResistances",
+                "Stun",
+                "5",
+                "ChangeMonsterStatusEffectResistances",
+                "Restrain",
+                "10",
+                "IfMonsterLevelGreaterThan",
+                "80",
+                "upgrade3"
+            ]
+        },
+        {
+            "NameOfScene": "upgrade3",
+            "theScene": [
+                "GivePerkToMonster",
+                "Evasive",
+                "GivePerkToMonster",
+                "Escape Artist",
+                "GivePerkToMonster",
+                "Escape Artist",
+                "ChangeMonsterStatusEffectResistances",
+                "Stun",
+                "5",
+                "ChangeMonsterStatusEffectResistances",
+                "Restrain",
+                "10",
+                "GivePerkToMonster",
+                "Iron Will"
+            ]
+        },
+        {
+            "NameOfScene": "Weakness1",
+            "theScene": [
+                "SetChoice",
+                "4",
+                "Weakness",
+                "ChangeMonsterFetish",
+                "Cock",
+                "5",
+                "GivePerkToMonster",
+                "BondageKink",
+                "ChangeMonsterStatusEffectResistances",
+                "Restraints",
+                "-10",
+                "ChangeMonsterStatusEffectResistances",
+                "Stun",
+                "-5",
+                "ChangeMonsterStatusEffectResistances",
+                "Charm",
+                "-5"
+            ]
+        },
+        {
+            "NameOfScene": "Weakness2",
+            "theScene": [
+                "SetChoice",
+                "4",
+                "Weakness",
+                "ChangeMonsterFetish",
+                "Cock",
+                "10",
+                "GivePerkToMonster",
+                "BondageKink",
+                "ChangeMonsterStatusEffectResistances",
+                "Restraints",
+                "-15",
+                "ChangeMonsterStatusEffectResistances",
+                "Stun",
+                "-5",
+                "ChangeMonsterStatusEffectResistances",
+                "Charm",
+                "-5"
+            ]
+        },
+        {
+            "NameOfScene": "WeaknessReversal",
+            "theScene": [
+                "ChangeMonsterFetish",
+                "Cock",
+                "5",
+                "ChangeMonsterStatusEffectResistances",
+                "Charm",
+                "-5"
+            ]
+        },
+        {
+            "NameOfScene": "WeaknessOral",
+            "theScene": [
+                "GivePerkToMonster",
+                "Skilled Tongue",
+                "ChangeMonsterFetish",
+                "Cock",
+                "5",
+                "ChangeMonsterSensitivity",
+                "Mouth",
+                "5",
+                "ChangeMonsterStatusEffectResistances",
+                "Charm",
+                "-5"
+            ]
+        },
+        {
+            "NameOfScene": "WeaknessBoobs",
+            "theScene": [
+                "SetChoice",
+                "4",
+                "Weakness",
+                "ChangeMonsterFetish",
+                "Cock",
+                "2",
+                "ChangeMonsterSensitivity",
+                "Breasts",
+                "10"
+            ]
+        },
+        {
+            "NameOfScene": "WeaknessHoly",
+            "theScene": [
+                "SetChoice",
+                "4",
+                "Weakness",
+                "ChangeMonsterFetish",
+                "Cock",
+                "3",
+                "ChangeMonsterSensitivity",
+                "Holy",
+                "10",
+                "ChangeMonsterSensitivity",
+                "Pain",
+                "10"
+            ]
+        },
+        {
+            "NameOfScene": "WeaknessHero",
+            "theScene": [
+                "SetChoice",
+                "4",
+                "Weakness",
+                "ChangeMonsterFetish",
+                "Cock",
+                "5",
+                "ChangeMonsterStatusEffectResistances",
+                "Restraints",
+                "-5"
+            ]
+        },
+        {
+            "NameOfScene": "WeaknessDisplay",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Shy",
+                "SwapLineIf",
+                "OtherEventsProgress",
+                "Hellhound Bondage",
+                "50",
+                "Sus ojos se miran a un lado por un momento mientras deja escapar una lenta exhalación de excitación humeante, sus intenciones depredadoras se descarrilan por sus deseos sexuales sumisos avivados por el momento en que pasaron juntos ...",
+                "25",
+                "Sus ojos miran a un lado por un breve momento mientras deja escapar una lenta exhalación constante de excitación, sus intenciones depredador se vuelven un poco descarriladas por las necesidades sumisas que te han avivado ...",
+                "0",
+                "Sus ojos miran brevemente a un lado mientras deja escapar una rápida exhalación de excitación, claramente un poco distraída por algo ...",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "Grin"
+            ]
+        },
+        {
+            "NameOfScene": "UpdatePower",
+            "theScene": [
+                "IfChoice",
+                "6",
+                "",
+                "UpdatePower30",
+                "IfChoice",
+                "6",
+                "Turn2",
+                "UpdatePower25",
+                "IfChoice",
+                "6",
+                "Turn3",
+                "UpdatePower20",
+                "ChangeProgress",
+                "15"
+            ]
+        },
+        {
+            "NameOfScene": "UpdatePower30",
+            "theScene": [
+                "ChangeProgress",
+                "30"
+            ]
+        },
+        {
+            "NameOfScene": "UpdatePower25",
+            "theScene": [
+                "ChangeProgress",
+                "25"
+            ]
+        },
+        {
+            "NameOfScene": "UpdatePower20",
+            "theScene": [
+                "ChangeProgress",
+                "20"
+            ]
+        },
+        {
+            "NameOfScene": "CountPowerTurns",
+            "theScene": [
+                "IfChoice",
+                "6",
+                "Turn3",
+                "Turn3",
+                "IfChoice",
+                "6",
+                "Turn2",
+                "Turn2",
+                "IfChoice",
+                "6",
+                "",
+                "Turn1"
+            ]
+        },
+        {
+            "NameOfScene": "Turn1",
+            "theScene": [
+                "SetChoice",
+                "6",
+                "Turn2"
+            ]
+        },
+        {
+            "NameOfScene": "Turn2",
+            "theScene": [
+                "SetChoice",
+                "6",
+                "Turn3"
+            ]
+        },
+        {
+            "NameOfScene": "Turn3",
+            "theScene": [
+                "SetChoice",
+                "6",
+                "Turn4"
+            ]
+        },
+        {
+            "NameOfScene": "OverheatContactTimer",
+            "theScene": [
+                "CallSceneThenReturn",
+                "CountPowerTurns",
+                "CallSceneThenReturn",
+                "SuperMeterTracking",
+                "CallSceneThenReturn",
+                "Insightment",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "Tiemeupyoucoward",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "TiedUpTease",
+                "IfChoice",
+                "10",
+                "OralDefeat",
+                "OralLossBreakAvoider",
+                "IfMonsterHasStance",
+                "Any",
+                "OverheatContactTick",
+                "SetChoice",
+                "3",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "EndCG",
+            "theScene": [
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "Beris",
+                "ChangeImageLayer",
+                "Expression",
+                "Frown",
+                "ChangeImageLayer",
+                "Clothing",
+                "None"
+            ]
+        },
+        {
+            "NameOfScene": "SexInsert",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "SexInsertTrue"
+            ]
+        },
+        {
+            "NameOfScene": "SexInsertTrue",
+            "theScene": [
+                "ChangeImageLayer",
+                "DickSex",
+                "Insert"
+            ]
+        },
+        {
+            "NameOfScene": "AnalInsert",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "AnalInsertTrue"
+            ]
+        },
+        {
+            "NameOfScene": "AnalInsertTrue",
+            "theScene": [
+                "ChangeImageLayer",
+                "DickAnal",
+                "Insert"
+            ]
+        },
+        {
+            "NameOfScene": "Thrust",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "ThrustTrue"
+            ]
+        },
+        {
+            "NameOfScene": "ThrustTrue",
+            "theScene": [
+                "IfMonsterHasStance",
+                "Sex",
+                "SexThrustTrue",
+                "IfMonsterHasStance",
+                "Anal",
+                "AnalThrustTrue"
+            ]
+        },
+        {
+            "NameOfScene": "SexThrustTrue",
+            "theScene": [
+                "ChangeImageLayer",
+                "DickSex",
+                "Thrust"
+            ]
+        },
+        {
+            "NameOfScene": "AnalThrustTrue",
+            "theScene": [
+                "ChangeImageLayer",
+                "DickAnal",
+                "Thrust"
+            ]
+        },
+        {
+            "NameOfScene": "EndSex",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "EndSexTrue"
+            ]
+        },
+        {
+            "NameOfScene": "EndSexTrue",
+            "theScene": [
+                "ChangeImageLayer",
+                "DickSex",
+                "",
+                "ChangeImageLayer",
+                "DickAnal",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "ClothingCheck",
+            "theScene": [
+                "IfChoice",
+                "8",
+                "ClothingGone",
+                "Nothing",
+                "¡Mientras sujetas a Beris, su ropa, pero se cae de su cuerpo tonificado!",
+                "SetChoice",
+                "8",
+                "ClothingGone"
+            ]
+        },
+        {
+            "NameOfScene": "ClothingOn?",
+            "theScene": [
+                "IfChoice",
+                "8",
+                "ClothingGone",
+                "ClothingisOff"
+            ]
+        },
+        {
+            "NameOfScene": "ClothingisOff",
+            "theScene": [
+                "ChangeImageLayer",
+                "Clothing",
+                "1",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "SexCheck",
+            "theScene": [
+                "IfMonsterHasStance",
+                "Sex",
+                "SexCGApply",
+                "IfMonsterHasStance",
+                "Anal",
+                "AnalCGApply"
+            ]
+        },
+        {
+            "NameOfScene": "SexCGApply",
+            "theScene": [
+                "ChangeImageLayer",
+                "DickSex",
+                "Insert"
+            ]
+        },
+        {
+            "NameOfScene": "AnalCGApply",
+            "theScene": [
+                "ChangeImageLayer",
+                "DickAnal",
+                "Insert"
+            ]
+        },
+        {
+            "NameOfScene": "OverheatContactTick",
+            "theScene": [
+                "IfHasPerk",
+                "Overheat",
+                "OverheatWorsen",
+                "IfChoice",
+                "3",
+                "Five",
+                "ApplyAndReset",
+                "IfChoice",
+                "3",
+                "Four",
+                "Tick5",
+                "IfChoice",
+                "3",
+                "Three",
+                "Tick4",
+                "IfChoice",
+                "3",
+                "Two",
+                "Tick3",
+                "IfChoice",
+                "3",
+                "One",
+                "Tick2",
+                "SetChoice",
+                "3",
+                "One",
+                "Puedes sentir el calor pulsante del cuerpo de Hellhound de Beris que se filtra lentamente en el tuyo, llenándote de malos y necesitados deseo."
+            ]
+        },
+        {
+            "NameOfScene": "ApplyAndReset",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyOverheat",
+                "Te gimes en voz alta mientras el contacto cercano con el cuerpo cálido y tonificado de Beris te concierre, la necesidad caliente se arranca a través de tu cintura haciendo que tu polla latir con emoción.",
+                "SetChoice",
+                "3",
+                "One"
+            ]
+        },
+        {
+            "NameOfScene": "Tick5",
+            "theScene": [
+                "SetChoice",
+                "3",
+                "Five"
+            ]
+        },
+        {
+            "NameOfScene": "Tick4",
+            "theScene": [
+                "SetChoice",
+                "3",
+                "Four"
+            ]
+        },
+        {
+            "NameOfScene": "Tick3",
+            "theScene": [
+                "SetChoice",
+                "3",
+                "Three"
+            ]
+        },
+        {
+            "NameOfScene": "Tick2",
+            "theScene": [
+                "SetChoice",
+                "3",
+                "Two"
+            ]
+        },
+        {
+            "NameOfScene": "OverheatWorsen",
+            "theScene": [
+                "IfChoice",
+                "3",
+                "One",
+                "TickHeat",
+                "SetChoice",
+                "3",
+                "One",
+                "Cuanto más tiempo permanezca en contacto con el cuerpo caliente y delgado de Beris, peor será el calor palpitante en su ingle ..."
+            ]
+        },
+        {
+            "NameOfScene": "TickHeat",
+            "theScene": [
+                "ChangePerkDuration",
+                "Overheat",
+                "2"
+            ]
+        },
+        {
+            "NameOfScene": "SuperMeterTracking",
+            "theScene": [
+                "IfMonsterHasSkill",
+                "Blue Blaze Impulse Drive",
+                "Nothing",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterArousalGreaterThan",
+                "444",
+                "ExtraTurnSuperCharge",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "Labyrinth Floor 2",
+                "100",
+                "GiveSupers"
+            ]
+        },
+        {
+            "NameOfScene": "ExtraTurnSuperCharge",
+            "theScene": [
+                "GetEventAndChangeProgress",
+                "Labyrinth Floor 2",
+                "10"
+            ]
+        },
+        {
+            "NameOfScene": "GiveSupers",
+            "theScene": [
+                "GiveSkillToMonster",
+                "Blue Blaze Impulse Drive",
+                "GiveSkillToMonster",
+                "Blue Blaze Impulse Drive - SEX",
+                "¡El cuerpo de Beris se desborda con fuego azul y calor sofocante!Parece que está lista para desatar algo poderoso en cualquier momento ..."
+            ]
+        },
+        {
+            "NameOfScene": "Insightment",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "Insighted",
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "Insighted"
+            ]
+        },
+        {
+            "NameOfScene": "Insighted",
+            "theScene": [
+                "ChangeProgress",
+                "1",
+                "GetEventAndChangeProgress",
+                "Labyrinth Floor 2",
+                "5",
+                "IfHasPerk",
+                "Taunted",
+                "IncitePlayer"
+            ]
+        },
+        {
+            "NameOfScene": "IncitePlayer",
+            "theScene": [
+                "RemovePerkQuietly",
+                "Taunted",
+                "GivePerkQuietly",
+                "Incited",
+                "¡Ahora indefenso y vulnerable, Beris siente la reacción de sus palabras punzantes y burlonas!"
+            ]
+        },
+        {
+            "NameOfScene": "Tiemeupyoucoward",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "ChangeImageLayer",
+                "Expression",
+                "Frustrated",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "GHK-!A-Asshole-!No estoy jodidamente atado ni una mierda, así que vas a pagar {i}-! {/i}",
+                "B-BASTARD- Esto llevará la mierda y incluso {i} si {/i} me fijas, ¡me liberaré!",
+                "F-fucking- ¡Hell-!Mientras no esté atado, esto es {i} nada! {/i}",
+                "Mnngg-??Fucking- bastard- {i} gilipollas! {/i} mientras sea libre, me moveré nuevamente y te folla al suelo.",
+                "¡Solo estaré fuera de eso por un segundo, hijo de puta!¡Ni siquiera {i} cuerdas {/i} puede mantenerme deprimido!",
+                "{i} jaja! {/i} apuesto a que en realidad no puedes atravesarme, incluso mientras soy así- {i} bastardo! {/i}",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "TiedUpTease",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "Nothing",
+                "IfMonsterHasStance",
+                "Sex",
+                "TiedUpSexTease",
+                "IfMonsterHasStance",
+                "Anal",
+                "TiedUpSexTease",
+                "JumpToRandomScene",
+                "BasicBondageTease",
+                "BasicBondageTease",
+                "OralBondageTease",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "TiedUpSexTease",
+            "theScene": [
+                "JumpToRandomScene",
+                "BasicBondageTease",
+                "SexBondageTease",
+                "SexBondageTease",
+                "SexBondageTease",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "BasicBondageTease",
+            "theScene": [
+                "HitPlayerWith",
+                "BondagedTemptation",
+                "ChangeImageLayer",
+                "Expression",
+                "Shy",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "Todavía muy restringida, Beris se retuerde mansamente contra la esclavitud, evitando su mirada de ti mientras deja escapar respiraciones fuertes de aire caliente y vapor, mostrando inadvertidamente sus curvas flexibles y sus abdominales tonificados, enviando escalofríos cálidos de la emoción atrayente a través de ti.]",
+                "Todavía incapaz de liberarse, Beris solo puede retorcerse con una expresión tímida y enrojecida, inconscientemente empujando sus pechos perts mientras sus caderas se balancean inútilmente de un lado a otro contra las restricciones, dándote una muestra bastante húmeda de su cuerpo delgado. [DamageToPlayer]",
+                "Atrapado en el abrazo restrictivo, beris huffs y refunfujos, apuntando sus ojos mientras ella sigue intentando liberarse, su inútil retorcida mostrando cada bit de sus curvas y abdominales de sudor mientras sacude todo su cuerpo en un baile inintencionadamente seductor,Sus tetas suaves se balancean junto con sus caderas bien definidas. [DamageToPlayer]",
+                "Incapaz de liberarse de las restricciones apretadas, Beris mira desafiante por un momento antes de mirar tímidamente, sus curvas de ajuste en exhibición completa para ti mientras se retuerde tímidamente contra sus ataduras con jadeos y suspiros extrañamente sensuales. [DamageToPlayer]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "SexBondageTease",
+            "theScene": [
+                "IfMonsterHasStance",
+                "Anal",
+                "TiedUpAnalTease",
+                "HitPlayerWith",
+                "BondagedSexTemptation",
+                "ChangeImageLayer",
+                "Expression",
+                "Horny",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "Beris deja escapar un jadeo caliente y manso mientras lucha débilmente contra sus restricciones, girando sus caderas en pequeños círculos mientras su coño escaldado aprieta y masajea toda su longitud, sus movimientos nerviosos y nerviosos y un cuerpo antinaturalmente cálido hacen que su corazón sea una excitación dominante. [DamageToPlayer]",
+                "Beris evita tímidamente su mirada mientras no se libera y continúas follando su coño apretado, su cálido y musculoso entra apretando y masajeando tu longitud con cada empuje, el santo del infierno marimacho jade y retorciendo con placer cada vez que te empuñan dentro de ella.[DamageToPlayer]",
+                "Todavía sometido por su técnica, Beris jadea lascas y mansamente empuje sus caderas contra las suyas, inconscientemente balanceándose la cintura con el tiempo con sus empujes mientras trata de romperse, enviando pulsos calientes de placer a través de su cintura y en todo su cuerpo.]",
+                "Todavía incapaz de escapar de sus restricciones, Beris aprieta los dientes y desafía desafiante sus caderas para atraparte desprevenido, los impactos húmedos de su coño apretado y envolviendo ondas calientes de placer a través de tu polla sacudida, aunque es bastante trivial follarla hacia atrás.En un estado más sumiso, unos pocos empujes la dejan tocas mirando hacia otro lado y apretando su mandíbula con dicha reprimida. [DamageToPlayer]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "TiedUpAnalTease",
+            "theScene": [
+                "HitPlayerWith",
+                "BondagedAnalTemptation",
+                "ChangeImageLayer",
+                "Expression",
+                "Horny",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "Beris deja escapar un jadeo caliente y manso mientras lucha débilmente contra sus restricciones, girando sus caderas en pequeños círculos mientras su trasero caliente aprieta y masajea toda su longitud, sus movimientos nerviosos y nerviosos y un cuerpo no natural, lo que hace que su corazón sea una excitación dominante. [DamageToPlayer]",
+                "Beris evita tímidamente su mirada mientras no se libera y continúa follando su culo apretado, su cálido y musculoso entra apretando y masajeando su longitud con cada empuje, el santo del infierno marimacho jade y retorciéndose con placer cada vez que se empuñan dentro de ella.[DamageToPlayer]",
+                "Todavía sometido por su técnica, Beris jadea lascas y mansamente empuje sus caderas contra las suyas, inconscientemente balanceándose la cintura con el tiempo con sus empujes mientras trata de romperse, enviando pulsos calientes de placer a través de su cintura y en todo su cuerpo.]",
+                "Aún incapaz de escapar de sus restricciones, Beris aprieta los dientes y balancea desafiante sus caderas varias veces para atraparte desprevenido, los impactos húmedos de su trasero apretado enviando ondas de placer calientes a través de tu polla sacudida, aunque es bastante trivial paraFóllela de nuevo en un estado más sumiso, unos pocos empujes dejándola con toque mirando hacia otro lado y apretando su mandíbula con felicidad reprimida. [DamageToPlayer]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "OralBondageTease",
+            "theScene": [
+                "HitPlayerWith",
+                "BondagedOralTemptation",
+                "ChangeImageLayer",
+                "Expression",
+                "Horny",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "Beris jadea acaloradamente mientras se retuerde contra sus restricciones de una manera llamativa, sus curvas de ajuste se balancean de un lado a otro mientras sus suaves labios cuelgan muy abiertos, como una invitación depravada para usar su boca mientras mira su pollacon la excitación indefensa antes de que su mirada vuelva a tu cara con un aire de ira intencional. [DamageToPlayer]",
+                "La cautiva mujer del hogar del infierno se retorce contra sus ataduras mientras suelta gemidos de placer y resoplidos, su lengua casi le sale de la boca mientras sus ojos ardientes toman miradas necesitadas a su dolor de polla dolorida entre ferozmente mirando hacia ti, luchando por sofocar los gases cálidos y calientesde excitación indulgente. [DamageToPlayer]",
+                "Aún con fuerza, Beris lucha mansamente contra la esclavitud, sus ojos se empañan con excitación, fuertes respiraciones de aire caliente y vapor que se eleva de su desembocadura sin voz como una invitación erótica ... hasta que se apodera y te da un resplandor, como siAtrías a que lleve las cosas más allá. [DamageToPlayer]",
+                "Atrapado en el abrazo restrictivo, Beris solo puede resoplar y gritarse en una protesta indefensa, sus ojos de lujuria se persisten en tu polla mientras pantalones con excitación, su lucha infructuosa mostrando cada parte de sus curvas y abdominales mientras ella la sacudeCuerpo entero en un baile involuntariamente seductor, su boca caliente abierta invitada todo el tiempo. [DamageToPlayer]",
+                "EndLoop",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Hahhh ... B-Bastardo ... ♥",
+                "¿Qué crees que estás mirando ... ♥",
+                "Ghnn ... ♥ st-stupid ... maldito ...",
+                "Jodido ... idiota ... ♥",
+                "Una vez que estoy libre de esto ...",
+                "Ghnmmh...♥",
+                "EndLoop",
+                "Despotricando y gimiendo, deja de inquietarse solo por un momento, temblando en el placer culpable, enfrentando desafiante mientras sigue murmurando protestas e insultos, presentándole la oportunidad perfecta para poner esa boca grosera suya en buen uso ...",
+                "Menu",
+                "Use her mouth!",
+                "Ignore the temptation...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Ignore the temptation...",
+            "theScene": []
+        },
+        {
+            "NameOfScene": "Use her mouth!",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Flustered",
+                "ChangeImageLayer",
+                "DickOral",
+                "Float",
+                "Incapaz de ayudarte a ti mismo, te presentas con la emoción de la espuma y acerca a tu polla erecta más cerca de la cara de Beris, el sabuento del infierno endurecido dejando escapar un ruido de sorpresa cuando se encuentra de repente mirando tu polla, su cuerpo atado mientras intenta en vano que intentamover.",
+                "FocusedSpeaks",
+                "¿De qué mierda crees que eres-?",
+                "HitMonsterWith",
+                "Face Fuck",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "ChangeImageLayer",
+                "DickOral",
+                "Insert",
+                "ChangeImageLayer",
+                "Expression",
+                "OralPleasured",
+                "Cerrándola, presionas tu punta hacia sus labios actualmente en forma de O y empuja su polla en la boca, provocando un ruido de confusión complacido y desordenado de ella mientras te apresuras lentamente por la garganta. [DamageToEnemy]",
+                "ChangeImageLayer",
+                "DickOral",
+                "Hilt",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "FocusedSpeaks",
+                "{i}Mmmhpg-!?♥{/i}",
+                "IfMonsterOrgasm",
+                "BerisCumsFromOral",
+                "ChangeImageLayer",
+                "Expression",
+                "OralTch",
+                "ChangeImageLayer",
+                "DickOral",
+                "Insert",
+                "HitPlayerWith",
+                "Deepthroat",
+                "Por un momento, se queda allí con una mirada acristalada ... luego frunce el ceño y deja escapar un resoplido que empieza a chuparte en represalia, trabajando para aprovechar tu decisión indulgente de usar su boca con lamidas y apesta,Llenar la cintura con calefacción de hinchazón ... [DamageToPlayer]",
+                "IfPlayerOrgasm",
+                "PlayerCumsFromOral",
+                "JumpToScene",
+                "BerisOralMenu"
+            ]
+        },
+        {
+            "NameOfScene": "BerisOralMenu",
+            "theScene": [
+                "Menu",
+                "Indulge in her mouth.",
+                "Pull away from her dangerously tempting lips.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Pull away from her dangerously tempting lips.",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Shy",
+                "ChangeImageLayer",
+                "DickOral",
+                "",
+                "HitPlayerWith",
+                "Blowjob",
+                "Fácilmente alejas tu polla con un pop mojado, Beris le da una ruptura de represalia de separación que deja toda tu cintura llena de calor mientras pantalones con mucho pantalón, su respiración hirviente empañando el aire frente a ella. [DamageToPlayer]",
+                "FocusedSpeaks",
+                "¿Tenía suficiente todavía?... B-BASTARD ..."
+            ]
+        },
+        {
+            "NameOfScene": "Indulge in her mouth.",
+            "theScene": [
+                "JumpToRandomScene",
+                "PettingOral",
+                "FaceFucking",
+                "FightyOral",
+                "BobbingOral",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "PettingOral",
+            "theScene": [
+                "HitMonsterWith",
+                "Face Fuck",
+                "ChangeImageLayer",
+                "Expression",
+                "OralPleasured",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "ChangeImageLayer",
+                "DickOral",
+                "Hilt",
+                "Colocando una mano entre las orejas esponjosas de Beris, la rompes elogiosamente mientras empujas entre sus labios bien sellados, el hogar dominado que dejó salir amortiguado a tu polla mientras usas su boca como un juguete sexual, cada hilado de tu polla dejándola resoplandoy desmayarse de placer. [DamageToEnemy]",
+                "IfMonsterOrgasm",
+                "BerisCumsFromOral",
+                "HitPlayerWith",
+                "Deepthroat",
+                "ChangeImageLayer",
+                "Expression",
+                "OralHorny",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "ChangeImageLayer",
+                "DickOral",
+                "Insert",
+                "Pero a cambio, con un gruñido cachondo rencor, ella chupa y lame por su eje, mirando a un lado con placer culpable mientras se retira con una chupada de vapor caliente que resuena a través de su cintura, inundando con un dolor de urgencia por más de ella.boca cálida. [DamageToPlayer]",
+                "IfPlayerOrgasm",
+                "PlayerCumsFromOral",
+                "JumpToScene",
+                "BerisOralMenu"
+            ]
+        },
+        {
+            "NameOfScene": "FaceFucking",
+            "theScene": [
+                "HitMonsterWith",
+                "Face Fuck",
+                "ChangeImageLayer",
+                "Expression",
+                "OralPleasured",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "ChangeImageLayer",
+                "DickOral",
+                "Thrust",
+                "Agarrando de manera asertiva la cabeza de Beris, te folla la boca, sus suaves labios se aferran fuertemente a tu longitud mientras se apaga la reciprocidad, su garganta toma cada centímetro de tu polla una y otra vez mientras cae cada vez más en una polla mareada-drunk aturdir. [DamageToEnemy]",
+                "IfMonsterOrgasm",
+                "BerisCumsFromOral",
+                "HitPlayerWith",
+                "Deepthroat",
+                "ChangeImageLayer",
+                "Expression",
+                "OralPleasured",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "ChangeImageLayer",
+                "DickOral",
+                "HiltThrust",
+                "Recuperándose aturdidamente del tratamiento aproximado, ella sigue ansiosa y desordenada su polla incluso mientras disminuyes la velocidad, dejándote suspirando felizmente mientras el calor placentero se extiende a través de tus caderas, la cabeza febrilmente de Hellhound trabaja con avidez para llevarte al clímax. [DamageToPlayer]",
+                "IfPlayerOrgasm",
+                "PlayerCumsFromOral",
+                "ChangeImageLayer",
+                "Expression",
+                "Tch",
+                "ChangeImageLayer",
+                "DickOral",
+                "Thrust",
+                "Eventualmente, sin embargo, se da cuenta de lo que está haciendo y detiene su servicio sumiso con un ruido escondido descontento, la pausa te da un descanso para considerar qué hacer a continuación, ya que el calor que te ordena a través de ti te ordena que sigas balanceando las caderas y disfrutando de Beris.'boca con abandono ...",
+                "JumpToScene",
+                "BerisOralMenu"
+            ]
+        },
+        {
+            "NameOfScene": "FightyOral",
+            "theScene": [
+                "HitMonsterWith",
+                "Face Fuck",
+                "ChangeImageLayer",
+                "Expression",
+                "OralGlareBack",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "ChangeImageLayer",
+                "DickOral",
+                "HiltThrust",
+                "Tú y Beris Huff en una excitación unificada mientras te follas indulgentemente su rostro y ella se sacude ansiosamente la cabeza hacia atrás, atrapada en tu ritmo de empuje, sorbiendo y chupando con los juros amortiguados entre el placer cada vez que tu polla baja por su apretada garganta. [DamageToEnemy]",
+                "IfMonsterOrgasm",
+                "BerisCumsFromOral",
+                "HitPlayerWith",
+                "Deepthroat",
+                "ChangeImageLayer",
+                "Expression",
+                "OralTch",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "ChangeImageLayer",
+                "DickOral",
+                "Thrust",
+                "Sin embargo, tardíamente, te das cuenta de que The Hellhound te está atendiendo con una asertividad peligrosa, dándole firme a tu eje mientras su lengua bailando asalta tu punta cada vez que te alejas, la felicidad melúrgica caliente empapando toda la cintura mientras ella agresivamente te chupa a la que te quita el tiempo.cara dominante follando, haciéndote dudar de quién está a cargo a pesar de su estado encuadernado. [DamageToPlayer]",
+                "IfPlayerOrgasm",
+                "PlayerCumsFromOral",
+                "JumpToScene",
+                "BerisOralMenu"
+            ]
+        },
+        {
+            "NameOfScene": "BobbingOral",
+            "theScene": [
+                "HitPlayerWith",
+                "Deepthroat",
+                "ChangeImageLayer",
+                "Expression",
+                "OralGlareBack",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "ChangeImageLayer",
+                "DickOral",
+                "Hilt",
+                "Beris toma represalias con precauciones contra su control oral rizado de su cuerpo, balanceándose la cabeza hacia arriba y hacia abajo de su eje con chupa desordenada mientras se mira desafiante, logrando moverse lo suficiente como para darle servicio a su polla implacablemente con una aguja profunda, casi agresiva, agresiva, inclusoEn su estado límite. [DamageToPlayer]",
+                "IfPlayerOrgasm",
+                "PlayerCumsFromOral",
+                "HitMonsterWith",
+                "Face Fuck",
+                "ChangeImageLayer",
+                "Expression",
+                "OralPleasured",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "ChangeImageLayer",
+                "DickOral",
+                "Thrust",
+                "Sin embargo, todavía puedes reclamar la iniciativa y reanudar follando su rostro a un ritmo constante, dejándola amortiguamente gimiendo mientras te complaces asertivamente con sus labios y garganta firmemente sellados, su boca hábilmente cálida y humeante que te impulsa frenéticamente para que la saquea frenéticamenteDe vuelta a la sumisión. [DamageToEnemy]",
+                "IfMonsterOrgasm",
+                "BerisCumsFromOral",
+                "JumpToScene",
+                "BerisOralMenu"
+            ]
+        },
+        {
+            "NameOfScene": "PlayerCumsFromOral",
+            "theScene": [
+                "PlayerOrgasm",
+                "1",
+                "JumpToRandomScene",
+                "ClimaxFaceFuck",
+                "ClimaxRetaliation",
+                "ClimaxServicing",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "ClimaxFaceFuck",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "OralPleasured",
+                "ChangeImageLayer",
+                "DickOral",
+                "Thrust",
+                "PlayMotionEffect",
+                "Crash",
+                "A medida que el calor se extiende frenéticamente a través de la parte inferior del cuerpo y el placer, se hace cargo como una marea burbujeante, continúas frenéticamente follando la boca de Beris, dejándola amortiguando con un placer confundido de tus cambios de cadera repentinamente intensificadores mientras te pierdes ante la felicidad infernal de su flexiblelabios.",
+                "ChangeImageLayer",
+                "DickOral",
+                "Hilt",
+                "ChangeImageLayer",
+                "SemenOral",
+                "Hilt",
+                "PlayMotionEffect",
+                "Crash",
+                "Luego, cuando las sacudidas calientes de éxtasis melty te abruman y no tienes más remedio que ceder ante el ardor alto, empieces toda tu longitud por la garganta y descargas un grueso torrente de semen en ella, haciéndola temblar con un deleite amortiguado mientras elladevora su carga, su cuerpo tensado y su cabeza sintiéndose espacial y flotante con un placer pegajoso todo el tiempo.",
+                "ChangeImageLayer",
+                "SemenOral",
+                "",
+                "ChangeImageLayer",
+                "Expression",
+                "OralTch",
+                "A medida que su clímax se aleja, Beris toma un trago final de su semilla y luego mira a un lado sin dejar de lado su polla con un sonido brusco de molestia, dándole una succión tentativa para ver si todavía va.",
+                "IfPlayerSpiritGone",
+                "PlayerLossFromOral",
+                "JumpToScene",
+                "BerisOralMenu"
+            ]
+        },
+        {
+            "NameOfScene": "ClimaxRetaliation",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "OralGlareBack",
+                "ChangeImageLayer",
+                "DickOral",
+                "Hilt",
+                "PlayMotionEffect",
+                "Crash",
+                "A medida que el placer se hincha en su dolor de polla y tensiones tensas, pierde el control de la cara indulgente follando, encontrándose impotente para detener a la mujer ardiente mientras se sacude con avidez la cabeza hacia arriba y hacia abajo antes de su polla con una risa amortiguada..",
+                "ChangeImageLayer",
+                "DickOral",
+                "Insert",
+                "ChangeImageLayer",
+                "SemenOral",
+                "Insert",
+                "PlayMotionEffect",
+                "Crash",
+                "Triunfante, se retira con una suciedad larga y prolongada que envía un calor escaldado que reverbere sin piedad durante toda su erección palpitante, obteniendo espurios gruesos de semen para que ella se trague con una mezcla ahogada de gemelos felices y murmullos de protesta, su semilla, su semillaevaporando rápidamente de su calor abrasador incluso mientras se derrama de sus labios.",
+                "ChangeImageLayer",
+                "SemenOral",
+                "",
+                "ChangeImageLayer",
+                "Expression",
+                "OralTch",
+                "Con su orgasmo disminuyendo y luchas por tambalearse en la posición, el Hellhound simplemente chupa tu punta mientras dejas escapar un molesto molesto, como para preguntar '¿Ya has terminado, tonto?'.",
+                "IfPlayerSpiritGone",
+                "PlayerLossFromOral",
+                "JumpToScene",
+                "BerisOralMenu"
+            ]
+        },
+        {
+            "NameOfScene": "ClimaxServicing",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "OralPleasured",
+                "ChangeImageLayer",
+                "DickOral",
+                "HiltThrust",
+                "PlayMotionEffect",
+                "Crash",
+                "Disfrute completamente de la mamada melty, casi olvidan su intención original de derrotar a Beris, su jodido de sus suaves labios girando cada vez más al azar y no controlada mientras la mujer de la polla actualmente bebía adornada y te chupa de la raíz de tu polla a todosEl camino a tu consejo de contracción.",
+                "ChangeImageLayer",
+                "DickOral",
+                "Hilt",
+                "ChangeImageLayer",
+                "SemenOral",
+                "Hilt",
+                "PlayMotionEffect",
+                "Crash",
+                "Dejarte ser arrullado por su mamada aparentemente subordinada, ni siquiera tratas de contenerse más, y después de unos pocos más desordenados, estallas felizmente, descargando espesas cuerdas de esperma en la boca y garganta del hojas de infierno que bebe con avidezBajo su semilla con un gruñido, balanceando implacablemente su cabeza hacia arriba y hacia abajo para ordeñar cada gota que pueda.",
+                "ChangeImageLayer",
+                "SemenOral",
+                "",
+                "ChangeImageLayer",
+                "Expression",
+                "OralTch",
+                "A medida que bajas temblorosamente de tu acalorado orgasmo, te das cuenta de que se lo lleva a su propio ritmo, aunque finalmente se atrapa con un resbalón de molestia de molesta.boca.",
+                "IfPlayerSpiritGone",
+                "PlayerLossFromOral",
+                "JumpToScene",
+                "BerisOralMenu"
+            ]
+        },
+        {
+            "NameOfScene": "PlayerLossFromOral",
+            "theScene": [
+                "SkipPlayerAttack",
+                "A medida que te preparas para reanudar la cara, te das cuenta de que tus caderas ya no te obedecen, tu orgasmo final ha gastado toda la energía que te quedaba.Ahora completamente gastado, te desplomas ligeramente sobre la forma restringida de Beris, resoplando las respiraciones calentadas con sabuesos de agotamiento agradable.",
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "Beris",
+                "ChangeImageLayer",
+                "Expression",
+                "Flustered",
+                "PlayMotionEffect",
+                "Crash",
+                "ChangeImageLayer",
+                "Clothing",
+                "None",
+                "Con usted ya no está en ninguna condición para mantenerla bajo control, no tiene problemas para separarse de su agarre de ella, sacando su virilidad aún palpitante de sus labios desordenados y luego recuperándose de su estado aturdido con respiraciones jadeantes.",
+                "ChangeImageLayer",
+                "Expression",
+                "Predatory",
+                "Luego, una vez que puede estar segura de que estás casi indefenso, sus características cambian a una expresión peligrosa, el sabueso te muestra un resplandor depredador y una sonrisa malévola de excitación.",
+                "FocusedSpeaks",
+                "{i} está bien ... {/i} tiempo para devolverle eso por eso!"
+            ]
+        },
+        {
+            "NameOfScene": "BerisCumsFromOral",
+            "theScene": [
+                "ChangeImageLayer",
+                "Face",
+                "Blush",
+                "ChangeImageLayer",
+                "Expression",
+                "Shy",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "ChangeImageLayer",
+                "DickOral",
+                "Thrust",
+                "Mientras sigues follando su rostro, Beris se retorce contra sus ataduras en un desafío infructuoso, su coño brota con cada empuje hilado mientras su voz mordida de polla reverbera a lo largo de tu longitud, el santo del infierno perdiendo dejando fuera los gemidos cargados y cada vez más sumisos.",
+                "PlayMotionEffect",
+                "Crash",
+                "ChangeImageLayer",
+                "DickOral",
+                "HiltThrust",
+                "ChangeImageLayer",
+                "Expression",
+                "OralPleasured",
+                "Luego, mientras agarras bien la cabeza y empujas tu polla por su garganta para encasarla rápidamente en ella a un ritmo frenético, sus ojos retroceden ligeramente con un desmayo, todo su cuerpo temblando en éxtasis indefenso, sus labios inferiores se apretan de manera necesariaEn cerca de Climax mientras sus suaves labios en forma de O adoran y besan tu polla.",
+                "PlayMotionEffect",
+                "Crash",
+                "ChangeImageLayer",
+                "DickOral",
+                "Hilt",
+                "ChangeImageLayer",
+                "Expression",
+                "OralOrgasm",
+                "ChangeImageLayer",
+                "SemenOral",
+                "Hilt",
+                "PlayerOrgasmNoSpiritLoss",
+                "Listo para disfrutar de su posición dominante al máximo, le das un empuje final y vierte una espesa carga de semen por su garganta con un gemido de alivio satisfecho, dejando que Beris se queje de mareos climáticos mientras la cara áspera le hace orgasmo a tu lado,Todo su cuerpo temblando mientras su coño brota con un deleite agradable, su mente se aflige mientras traza con avidez tu semilla.",
+                "ChangeImageLayer",
+                "Expression",
+                "OralPleasured",
+                "ChangeImageLayer",
+                "DickOral",
+                "Insert",
+                "ChangeImageLayer",
+                "SemenOral",
+                "",
+                "Incluso cuando te recuperas de tu maravillosa eyaculación calentada con sabuesos y alejas lentamente tu eje de sus labios, ella me aturra, sorbiendo instintivamente y lamiendo tu polla para ordeñar cada caída posible de tu semen mientras baja de su derrota por la derrota.",
+                "ChangeImageLayer",
+                "DickOral",
+                "Float",
+                "ChangeImageLayer",
+                "Expression",
+                "Shy",
+                "Solo cuando su polla se libera de su boca comienza a recuperar sus sentidos, mirando hacia otro lado con nerviosidad al alza incluso mientras pantalones con cálida excitación y se muerde el labio con una culpa agradable.",
+                "ChangeImageLayer",
+                "Expression",
+                "Tch",
+                "FocusedSpeaks",
+                "Wh ... H-How -... B-Bastard- F-Fucker ...",
+                "ChangeProgress",
+                "20",
+                "Incluso cuando se desvanece, murmurando con ira y confusión, parece estar negando su pérdida, lanzando un último resplandor desafiante en su dirección antes de desaparecer para siempre, un gruñido bajo rencor que cuelga en el aire.Tienes la clara sensación de que ella {i} realmente {/i} lo tiene ahora para ti ahora ...",
+                "SetChoice",
+                "10",
+                "OralDefeat"
+            ]
+        },
+        {
+            "NameOfScene": "OralLossBreakAvoider",
+            "theScene": [
+                "IfChoice",
+                "9",
+                "BeatBerisOral",
+                "DefeatedBeris",
+                "SetChoice",
+                "9",
+                "BeatBerisOral",
+                "GetEventAndChangeProgress",
+                "Hellhound Bondage",
+                "5",
+                "JumpToScene",
+                "DefeatedBeris"
+            ]
+        },
+        {
+            "NameOfScene": "Penetrate",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "PenetrateRestrain",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿Eres estúpido?'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|¡Joder, si quieres hacer esto fácil para mí!",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Collado gilipollas huh, {i} te mostraré. {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|GrinSmirk|n|\"Eres valiente o realmente jodidamente estúpido\".",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'Quiero decir, si quieres que rompa tus malditas caderas. ♥'",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "PenetrateRestrain",
+            "theScene": [
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'W-Wait- Hold On- mientras estoy atado-?'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'B-Bastard...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'D-no creo que puedas justificar- hnf- te sales con mi camino conmigo ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'O-Once soy libre, voy a follar {b} tú {/b} estúpido-'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'D-no creo que estoy indefenso-'",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "FuckingBasic",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "FuckingBasicRestrain",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'¿Eso es todo?'",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|No me aburras.",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|¡Vamos, más duro!Puedes hacer todo, {i} ¿verdad? {/i} '",
+                "|f|ChangeImageLayer|/|Expression|/|GrinCocky|n|'Ja ja-!¡Deberías pasar más tiempo tratando de correr!",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"Sí, claro, como si perdiera con esto\".",
+                "|f|ChangeImageLayer|/|Expression|/|GrinSmirk|n|'Dumbass, necesitarás más que eso'.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Si no vas más duro, {i} lo haré! {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|Eres un poco patético en esto.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "FuckingBasicRestrain",
+            "theScene": [
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Puedes follarme más fuerte que eso, ¿no?'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'En serio, ¿es todo eso?'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Una vez que soy libre ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Tch...'",
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n|'¡Más difícil!... Imbécil...'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Maldita sea, eso es lo que no es bastante ... más ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Hahhhh...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|\"Sí, claro ... como si perdiera por ... esto\".",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "FuckingHard",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "FuckingHardRestrain",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'GHHH-! ♥ F-Fuck! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'Hmnggh-! ♥ i-es eso todo-? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'F-Fuck You-! ♥ No perderé-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Joder-! ♥ poniéndose tan caliente- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'¡Es mejor que no te canses,!'",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'¡Hola! ♥ B-Bashtard- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡.",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Joder- Este es un trabajo fuera- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Jaja-ha- ♥ a-al menos eres un mierda decente-!'",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'¡Eres solo-! ♥ un juguete de mierda-!'",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "FuckingHardRestrain",
+            "theScene": [
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasure|n|'GHHH-! ♥ F-Fuck! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasure|n|'Hmnggh-! ♥ i-es eso todo-? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Joder-! ♥ poniéndose tan caliente- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Jajhhhh- ♥ y-you-'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'B-Bastard- ♥ Ohhhhhh- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasure|n|'F-Fuck-! ♥ hnnmmmffhhh-? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'J-just- ♥ tengo que soportar- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'¿Crees que puedes domarme o algo así?",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'D-Dumbass-! ♥ no algún tipo de juguete sexual-! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'Cabeza ... ♥ Sigue en blanco ... ♥'",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "FuckingLoving",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "FuckingLovingRestrain",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "|f|ChangeImageLayer|/|Expression|/|TchAtYou|n|'Seriously?'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Estoy rompiendo tu polla ahora.",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Si no vas más duro, {i} lo haré! {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Jodido bastardo ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'¿Quizás intente ser más duro ...?'",
+                "|f|ChangeImageLayer|/|Expression|/|FrownAngry|n|'¡Vamos!¡Esto es aburrido!",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"Sí, claro, como si perdiera con esto\".",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "FuckingLovingRestrain",
+            "theScene": [
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|¿Quizás intente ser más duro?... i-idiot ... '",
+                "|f|ChangeImageLayer|/|Expression|/|TchAtYou|n|'Seriously?'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Una vez que soy libre ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Tch...'",
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n|'¡Más difícil!... Imbécil...'",
+                "|f|ChangeImageLayer|/|Expression|/|FrownAngry|n|'¡Vamos!¡Estás haciendo esto aburrido!",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'{i} qué-{/i} ¡No te pongas todo Sappy, Jackass!'",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "SexOrgasm",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "SexOrgasmRestrain",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Beris gruñe de emoción cuando siente que tu polla comienza a contraer la derrota dentro de su coño caliente y apretado y redobla la fuerza de sus caderas balanceándose, follando en el suelo con impactos rápidos y humillantes que envían una dicha caliente a toda su cintura.|f|ChangeImageLayer|/|Expression|/|Smugger|n|'SOLO CUMA TOMA FOLLO TOY. ♥'|f|ChangeImageLayer|/|Expression|/|GrinSmirk|n|Ella exhala acaloradamente mientras te sigue montando en la sumisión y solo puedes gemir descuento mientras te rebota de manera implacable en tu polla espasmante hasta que finalmente estallas dentro de ella llenándola con tu semilla, pero no te da descanso y sigue balanceando su tonelada.cintura, con la intención de usar tu polla como un mero juguete sexual. [PlayerOrgasmLine]",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|Beris deja escapar una exhalación de aire caliente mientras gira y se balancea sus caderas curvas en círculos lentos, mostrando su sección media tonificada mientras 'baila', sudorando sobre su piel oscura mientras las llamas parpadean y se quitan, lamiéndolas mientras tuEn toda la polla se masajea firmemente dentro de ella.|f|ChangeImageLayer|/|Expression|/|Horny|n|La hinchazón de calor pulsante en tu ingle solo crece y se hincha con cada movimiento sensual, tus ojos mirando mientras pasa sus dedos sobre sus tentadoras curvas, hasta que el placer y los movimientos de molienda finalmente te abruman por completo, y tu polla la inunda con tu semilla, The Hellhound dejando escapar un jadeo de excitación mientras la llenas, sus ojos brillan con un deseo depredador de {i} más. {/i} [PlayerOrgasmLine]",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Beris se riega en alivio mientras monta su longitud de contracción, sus perts tetas rebotando seductoramente con cada ritmo de sus caderas, mientras mira a su forma temblorosa que se derrite con placer, el santo del infierno claramente sintiendo su polla sometiéndose a ella mientras su clímax se acerca.|f|ChangeImageLayer|/|Expression|/|Smugger|n|'Eso es todo, jodidamente pervertido, solo cede y {i} cum! {/i}|f|ChangeImageLayer|/|Expression|/|Smug|n|Con una mente final que se desliza hacia abajo de su cintura, te quedan clímax mientras su coño con forma de vicio se aprieta acaloradamente en toda su longitud, extrayendo espurios gruesos de semen de tu miembro de espasmo, cálidas olas de placer a través de tiDirígete a los pies, solo redoblando mientras comienza a montarte de nuevo. [PlayerOrgasmLine]",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|Beris gruñe con una emoción primaria mientras balancea salvajemente sus caderas, dejando a toda su cintura felizmente adormecida mientras te folla al suelo, tu polla espasmando en euforia cálida mientras se derrite del placer masaje y bombeo, hasta que te dejan estirar de la izquierdaUn grueso desastre dentro de ella, pero apenas lo registra en su trance sexual, dándote cero descansar mientras te sigue viajando. [PlayerOrgasmLine]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "SexOrgasmRestrain",
+            "theScene": [
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasure|n||f|HitMonsterWith|/|PoundingFeng|n||f|HitMonsterWith|/|PoundingFeng|n||f|PlayMotionEffect|/|CrashSmol|n|Beris se pierde momentáneamente en una corriente de gemidos lujuriosos sin sentido mientras golpeas más o menos su coño brotante, su forma restringida se retorcía con un deleite visible, lo que te atrae a disfrutar de sus curvas tonificadas.|n||f|ChangeImageLayer|/|SemenSex|/|InsertClimax|n|Perdido en una cálida neblina, te golpeas el culo juguetonamente, haciendo que el temblar del hogar jadeante sea feliz mientras reduce tu empuje frenético, en última instancia, te estás metiendo profundamente y descargando un grueso torrente de semen en ella, dejando su voz atrapando por un momento.|f|ChangeImageLayer|/|SemenSex|/|Insert|n||f|ChangeImageLayer|/|Expression|/|Horny|n|Jadeando y resoplando, ella baja de su placer alto mientras disfruta de su propio clímax indulgente, ya reanudando su encantador empuje en su hendidura fundida mientras se aprieta a su alrededor mientras mira a ti necesariamente. [PlayerOrgasmLine]|n|'I-Is that all you've got...'",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasure|n||f|HitMonsterWith|/|PoundingFeng|n||f|PlayMotionEffect|/|CrashSmol|n|El calor apretado del coño de Hellhound Bound es demasiado para tu libido cada vez más irritable, llevándote a follarla cada vez más, ya que tu clímax se acerca más, dejando a la primera chica de monstruos que mawling y jadeando junto a ti, incapaz de hacer más que una mansina que la rocía mansamenteHIPS en el tuyo mientras la usas como un juguete sexual.|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'D-Dumbass- Hahhhh- S-Slow- D-Downnooohhh- ♥'|f|ChangeImageLayer|/|SemenSex|/|InsertClimax|n||f|HitMonsterWith|/|PoundingFeng|n||f|PlayMotionEffect|/|Crash|n|Pero pierde sus palabras mientras golpeas profundamente en ella una y otra vez antes de golpear tus caderas en ella en un empuje climático final, besando su matriz mientras vierte una espesa carga de semen en su acogedor coño cálido, ambas mentes en blanco conplacer pegajoso. [PlayerOrgasmLine]|n||f|ChangeImageLayer|/|SemenSex|/|Insert|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'Hahhhhh- ♥ Ghn- A-Asshole ... ¿Qué crees que estás haciendo?",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasure|n||f|HitMonsterWith|/|PoundingFeng|n||f|PlayMotionEffect|/|CrashSmol|n|Empeñado en jodidamente estúpido, incluso mientras intenta infructuosamente sofocar sus propios gemidos descuidados, no puedes evitar perderte en el momento, el placer de lavarte la cintura con cada impacto húmedo de tus caderas que te hace anhelar cada vez más de ella.Calor implacable, manteniéndote con avidez golpeando su coño en tus indulgentes esfuerzos para domar al Hellhound de mal humor.|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'Ghnnnhhh- th-the el infierno se ha convertido en ti- {i} ooohhhhh! ♥ {/i}'|f|ChangeImageLayer|/|SemenSex|/|InsertClimax|n||f|HitMonsterWith|/|PoundingFeng|n||f|PlayMotionEffect|/|Crash|n|Ella no puede contener su voz cuando su apareamiento frenético se intensifica, pasando a empujes rápidos incluso cuando cede a la dicha fundida y descarga espesas cuerdas de semen en ella, llenando a los dos con un éxtasis pegajoso que lo sigue instando aJoder más y más. [PlayerOrgasmLine]|n||f|ChangeImageLayer|/|SemenSex|/|Insert|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'Ohhh ... ♥ Ghhh- I- Yo- D-Did, ¿olvidaste que se supone que debemos estar peleando?... Battlefucking- {i} lo que sea! {/i} '",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "AnalOrgasm",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "AnalOrgasmRestrain",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Beris gruñe con entusiasmo cuando siente que tu polla comienza a contraer la derrota dentro de su trasero caliente y frunciendo y redobla la fuerza de sus caderas balanceándose, follando en el suelo con impactos rápidos y rotundantes que envían una dicha caliente a través de toda su cintura.|f|ChangeImageLayer|/|Expression|/|Smugger|n|'SOLO CUMA TOMA FOLLO TOY. ♥'|f|ChangeImageLayer|/|Expression|/|GrinSmirk|n|Ella exhala acaloradamente mientras te sigue montando en la sumisión y solo puedes gemir descuento mientras te rebota de manera implacable en tu polla espasmante hasta que finalmente estallas dentro de ella llenándola con tu semilla, pero no te da descanso y sigue balanceando su tonelada.cintura, con la intención de usar tu polla como un mero juguete sexual. [PlayerOrgasmLine]",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|Beris deja escapar una exhalación de aire caliente mientras gira y se balancea sus caderas curvas en círculos lentos, mostrando su sección media tonificada mientras 'baila', sudorando sobre su piel oscura mientras las llamas parpadean y se quitan, lamiéndolas mientras tuEn toda la polla se masajea firmemente dentro de ella.|f|ChangeImageLayer|/|Expression|/|Horny|n|La hinchazón de calor pulsante en tu ingle solo crece y se hincha con cada movimiento sensual, tus ojos mirando mientras pasa sus dedos sobre sus tentadoras curvas, hasta que el placer y los movimientos de molienda finalmente te abruman por completo, y tu polla la inunda con tu semilla, The Hellhound dejando escapar un jadeo de excitación mientras la llenas, sus ojos brillan con un deseo depredador de {i} más. {/i} [PlayerOrgasmLine]",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Beris se riega en alivio mientras monta su longitud de contracción, sus perts tetas rebotando seductoramente con cada ritmo de sus caderas, mientras mira a su forma temblorosa que se derrite con placer, el santo del infierno claramente sintiendo su polla sometiéndose a ella mientras su clímax se acerca.|f|ChangeImageLayer|/|Expression|/|Smugger|n|'Eso es todo, jodidamente pervertido, solo cede y {i} cum! {/i}|f|ChangeImageLayer|/|Expression|/|Smug|n|Con una mente final que se desliza hacia abajo de su cintura, te quedan clímax mientras su culo tipo viceo se aprieta por toda su longitud, extraída de espuraciones gruesas de semen de tu miembro de espasmo, cálidas olas de placer a través de tiDirígete a los pies, solo redoblando mientras comienza a montarte de nuevo. [PlayerOrgasmLine]",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|Beris gruñe con una emoción primaria mientras balancea salvajemente sus caderas, dejando a toda su cintura felizmente adormecida mientras te folla al suelo, tu polla espasmando en euforia cálida mientras se derrite del placer masaje y bombeo, hasta que te dejan estirar de la izquierdaUn grueso desastre dentro de ella, pero apenas lo registra en su trance sexual, dándote cero descansar mientras te sigue viajando. [PlayerOrgasmLine]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "AnalOrgasmRestrain",
+            "theScene": [
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasure|n||f|HitMonsterWith|/|PoundingFeng|n||f|HitMonsterWith|/|PoundingFeng|n||f|PlayMotionEffect|/|CrashSmol|n|Beris se pierde momentáneamente en una corriente de gemidos lujuriosos sin sentido mientras golpeas más o menos su trasero apretado, su forma restringida se retorcía en Visible Delight, atrayéndote a disfrutar de sus curvas tonificadas.|n||f|ChangeImageLayer|/|SemenAnal|/|InsertClimax|n|Perdido en una cálida neblina, te golpeas el culo juguetonamente, haciendo que el temblar del hogar jadeante sea feliz mientras reduce tu empuje frenético, en última instancia, te estás metiendo profundamente y descargando un grueso torrente de semen en ella, dejando su voz atrapando por un momento.|f|ChangeImageLayer|/|SemenAnal|/|Insert|n||f|ChangeImageLayer|/|Expression|/|Horny|n|Jadeando y resoplando, ella baja de su placer alto mientras disfruta de su propio clímax indulgente, ya reanudando su encantador empuje en su cálido trasero mientras se aprieta a su alrededor mientras lo mira con necesidad.|n|'I-Is that all you've got...'",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasure|n||f|HitMonsterWith|/|PoundingFeng|n||f|PlayMotionEffect|/|CrashSmol|n|El calor apretado del culo del Hellhound Bound es demasiado para tu libido cada vez más irritable, lo que lleva a follarla cada vez más fuerte a medida que tu clímax se acerca, dejando a la chica de monstruos indefensada que maullar y jadear junto a ti, incapaz de hacer más que una mansedia.Entrás en tus caderas mientras la usas como un juguete sexual.|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'D-Dumbass- Hahhhh- S-Slow- D-Downnooohhh- ♥'|f|ChangeImageLayer|/|SemenAnal|/|InsertClimax|n||f|HitMonsterWith|/|PoundingFeng|n||f|PlayMotionEffect|/|Crash|n|Pero ella pierde sus palabras mientras golpeas profundamente en ella una y otra vez antes de golpear a tus caderas en ella en un empuje climático final para verter una espesa carga de semen en su culo cálido y humeante, ambas mentes se quedan en blanco con placer.]|n||f|ChangeImageLayer|/|SemenAnal|/|Insert|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'Hahhhhh- ♥ Ghn- A-Asshole ... ¿Qué crees que estás haciendo?",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasure|n||f|HitMonsterWith|/|PoundingFeng|n||f|PlayMotionEffect|/|CrashSmol|n|Empeñado en jodidamente estúpido, incluso mientras ella intenta reprimir infructuosamente sus propios gemidos descuidados, no puedes evitar perderte en el momento, el placer que te mueve a través de tu cintura con cada impacto de tus caderas, lo que te hace anhelar cada vez más de ella implacableCalor, manteniéndote con avidez golpeando su trasero en tus indulgentes esfuerzos para domar el sabueso del infierno malhumorado.|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'Ghnnnhhh- th-the el infierno se ha convertido en ti- {i} ooohhhhh! ♥ {/i}'|f|ChangeImageLayer|/|SemenAnal|/|InsertClimax|n||f|HitMonsterWith|/|PoundingFeng|n||f|PlayMotionEffect|/|Crash|n|Ella no puede contener su voz cuando sus frenéticos golpes se intensifican, pasando a empujes rápidos incluso cuando cede a la dicha fundida y descargan cuerdas gruesas de semen en ella, llenando a los dos con un éxtasis pegajoso que lo sigue instando aJoder más y más. [PlayerOrgasmLine]|n||f|ChangeImageLayer|/|SemenAnal|/|Insert|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'Ohhh ... ♥ Ghhh- I- Yo- D-Did, ¿olvidaste que se supone que debemos estar peleando?... Battlefucking- {i} lo que sea! {/i} '",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Nothing",
+            "theScene": []
+        },
+        {
+            "NameOfScene": "ApplyOverheat",
+            "theScene": [
+                "IfHasPerk",
+                "Overheat",
+                "OverheatIncrease",
+                "GivePerkQuietly",
+                "Overheat"
+            ]
+        },
+        {
+            "NameOfScene": "OverheatIncrease",
+            "theScene": [
+                "ChangePerkDuration",
+                "Overheat",
+                "2"
+            ]
+        },
+        {
+            "NameOfScene": "HeadpatReact",
+            "theScene": [
+                "IfChoice",
+                "5",
+                "Patted",
+                "PatReactAlt",
+                "SetChoice",
+                "5",
+                "Patted",
+                "ChangeImageLayer",
+                "Expression",
+                "Surprise",
+                "Beris mira en total shock y confusión mientras la cálida energía sagrada se extiende a través de ella al toque, tu suave caricia la aturde por un momento antes de que ella salga de ella.",
+                "ChangeImageLayer",
+                "Expression",
+                "Shy",
+                "FocusedSpeaks",
+                "Th-the fuck is {i} incorrecto {/i} contigo?",
+                "ApplyStatusEffectToMonster",
+                "ThrownOff",
+                "¡Su muestra repentina e inesperada de afecto gentil ha sacado a Beris de su juego!"
+            ]
+        },
+        {
+            "NameOfScene": "PatReactAlt",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Scowl",
+                "ApplyStatusEffectToMonster",
+                "Righteous Fury",
+                "Beris gruñe agresivamente una vez que hayas terminado de volver a patearla, esto claramente no volverá a trabajar en ella tan pronto ..."
+            ]
+        },
+        {
+            "NameOfScene": "BlazingSurge",
+            "theScene": [
+                "SetPostName",
+                "- Surge de ardiente",
+                "ChangeImageLayer",
+                "Expression",
+                "Predatory",
+                "FocusedSpeaksSkill",
+                "Beris sonríe salvajemente cuando las llamas azules retorcidas de repente atraviesan todo su cuerpo y se agacha a la baja, una mano arrugada en el piso antes de que se lance hacia adelante, el ardor azul se quita las extremidades mientras se impulsa hacia adelante, rebotando en las paredes apretadas de las paredes de las¡Labyrinth hacia ti con intención depredadora!",
+                "ChangeImageLayer",
+                "Expression",
+                "PredatoryExcited",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "¡Eres mía ahora, dipshit!",
+                "¡Vamos, bastardo!",
+                "¡Vete a la mierda!",
+                "¡Prueba esto, hijo de puta!",
+                "¡No tienes una puta oportunidad!",
+                "¡Solo trate de mantener el ritmo!",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "IfPlayerHasStatusEffect",
+                "Stun",
+                "Be too stunned to act.",
+                "Menu",
+                "¡Desfléla!(Potencia) [StatCheckPost]",
+                "¡Esquivarla!(Técnica) [StatCheckPost]",
+                "Be too stunned to act.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Be too stunned to act.",
+            "theScene": [
+                "Te dejan completamente abierto mientras te quedas quieto ...",
+                "JumpToScene",
+                "BlazingSurgeFailed"
+            ]
+        },
+        {
+            "NameOfScene": "Deflect her! (Power) [StatCheckPost]",
+            "theScene": [
+                "¡Te preparas, preparándote para redirigir el lecho del infierno de ti!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Taunted",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Incited",
+                "-5",
+                "Power",
+                "20",
+                "BlazingSurgePass",
+                "Fail",
+                "BlazingSurgeFail"
+            ]
+        },
+        {
+            "NameOfScene": "BlazingSurgePass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Scowl",
+                "HitPlayerWith",
+                "Lust Blaze",
+                "GetEventAndChangeProgress",
+                "Labyrinth Floor 2",
+                "5",
+                "¡Cuando te alcanza, te agarras del brazo y el giro corporal!Desde este final, puede sentir brevemente una oleada de calidez mágica a través de usted antes de que logre cambiar su cuerpo y Beris lo suficiente como para enviarla volando a usted, el Helly Hoilada aterrizando de manera ágil en el piso de piedra donde se detiene conun gruñido. [DamageToPlayer]",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Bastardo afortunado ...",
+                "Tch...",
+                "Eventualmente te desgastarás, imbécil ...",
+                "Grrrrr...",
+                "Oh, joder ...",
+                "Eventualmente te quemarás ...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "BlazingSurgeFail",
+            "theScene": [
+                "HitPlayerWith",
+                "Lust Blaze",
+                "Pero cuando ella se estrella contra ti con un impacto en llamas que envía lamidas de placer en su piel, ¡te empujan fácilmente al piso de piedra con Beris en la parte superior! [DamageToPlayer]",
+                "JumpToScene",
+                "BlazingSurgeFailed"
+            ]
+        },
+        {
+            "NameOfScene": "Dodge her! (Technique) [StatCheckPost]",
+            "theScene": [
+                "Te preparas para evitar el hogar entrante cubierto de llamas, pero parece explicar tu evasiva maniobra mientras limita salvajemente entre las paredes y el piso con ardientes ráfagas de color azul, ¡lo que dificulta predecir su trayectoria!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Taunted",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Incited",
+                "-5",
+                "Technique",
+                "20",
+                "BlazingSurgeTechPass",
+                "Fail",
+                "BlazingSurgeTechFail"
+            ]
+        },
+        {
+            "NameOfScene": "BlazingSurgeTechPass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Sneer",
+                "GetEventAndChangeProgress",
+                "Labyrinth Floor 2",
+                "5",
+                "En el último segundo, te las arreglas para saltar a un lado cuando Beris sale a tu lado como una bola de fuego, luego gira su cuerpo atlético en el aire para un aterrizaje controlado, deslizándose por el suelo a cuatro patas con un gruñido de molestia antes de pararse rectocon una burla.",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Bastardo afortunado ...",
+                "Tch...",
+                "Eventualmente te desgastarás, imbécil ...",
+                "Grrrrr...",
+                "¡Estás empezando a molestarme al mierda ...!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "BlazingSurgeTechFail",
+            "theScene": [
+                "HitPlayerWith",
+                "Lust Blaze",
+                "¡Pero tus esfuerzos son en vano, el santo del infierno se estrelló contra ti con un impacto en llamas que envía un poco de placer en tu piel y te arroja al piso con Beris en la parte superior! [DamageToPlayer]",
+                "JumpToScene",
+                "BlazingSurgeFailed"
+            ]
+        },
+        {
+            "NameOfScene": "BlazingSurgeFailed",
+            "theScene": [
+                "ApplyStatusEffect",
+                "AmazonPin",
+                "ApplyStance",
+                "Sex",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Todavía tambaleándose del choque, es fácil para Beris para sujetar, la chica monstruosa irritada reclándose hacia atrás para agarrar los tobillos y levantarlos en el aire junto con la cintura.Luego, sin omitir un ritmo, ella atrapa firmemente sus brazos debajo de sus talones y cae sobre usted, obligando a su longitud rígida a su coño candente, dando la bienvenida al impacto húmedo con un gruñido excitado.",
+                "ChangeImageLayer",
+                "Expression",
+                "Smugger",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "¡Estás jodido ahora, bastardo!",
+                "Estas terminado",
+                "¡Esperemos que puedas al menos joder durar como consolador!",
+                "Esto no debería llevar mucho tiempo.",
+                "Jajaja- Te ves {i} tan {/i} patético en este momento.",
+                "Me pregunto qué tipo de meek suena un bastardo como tú va a hacer.",
+                "¡Je, tal vez no estés tan condenado como pensaba!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Inferno Pin",
+            "theScene": [
+                "SetPostName",
+                "- Pin de infierno",
+                "ChangeImageLayer",
+                "Expression",
+                "Predatory",
+                "FocusedSpeaksSkill",
+                "Beris grita con emoción y te empuja más o menos a tu espalda mientras ella continúa viajando.Aprovechando su posición vulnerable, se atrapa los tobillos en un poderoso agarre y comienza a levantar la parte inferior del cuerpo en el aire, ¡la intención de obligarlo a una posición muy desventajosa y sumisa!",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "¡Me pregunto qué tipo de meek suena un bastardo como tú va a hacer mientras te follo sin sentido!",
+                "¡Estás jodido ahora, bastardo!",
+                "¡Veamos cuánto tiempo dura como mi consolador!",
+                "¡Te voy a golpear en un desastre patéticamente gimido!",
+                "¡No te atrevas a ir a la luz!",
+                "Estoy realmente jodido trabajado!",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "IfPlayerHasStatusEffect",
+                "Stun",
+                "Be too stunned to resist.",
+                "Menu",
+                "¡Saca su espera amazónica!(Potencia) [StatCheckPost]",
+                "¡Sobre su alcance!(Técnica) [StatCheckPost]",
+                "¡Tómela de ella!(Allure) [StatCheckPost]",
+                "Be too stunned to resist.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Be too stunned to resist.",
+            "theScene": [
+                "JumpToScene",
+                "InfernoPinFailed"
+            ]
+        },
+        {
+            "NameOfScene": "Shake her amazonian hold off! (Power) [StatCheckPost]",
+            "theScene": [
+                "¡Reuniendo tu fuerza, intentas tirar de Beris fuera de balance!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Taunted",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Incited",
+                "-5",
+                "Power",
+                "20",
+                "InfernoPinPass",
+                "Fail",
+                "InfernoPinFail"
+            ]
+        },
+        {
+            "NameOfScene": "InfernoPinPass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Surprise",
+                "Usted logras liberar tus tobillos del apretón de Beris y obligar a los dos a volver a una posición sexual más neutral, ¡para su sorpresa!",
+                "ChangeImageLayer",
+                "Expression",
+                "Scowl",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Bitch!",
+                "Bastard!",
+                "Asshole!",
+                "Jackass!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "InfernoPinFail",
+            "theScene": [
+                "Pero a pesar de tus mejores esfuerzos, ¡ella te manipula fácilmente!",
+                "JumpToScene",
+                "InfernoPinFailed"
+            ]
+        },
+        {
+            "NameOfScene": "Squirm out of her grasp! (Technique) [StatCheckPost]",
+            "theScene": [
+                "¡Intentas escabullirte de la apretada bodega de Beris!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Taunted",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Incited",
+                "-5",
+                "Technique",
+                "20",
+                "InfernoPinPass2",
+                "Fail",
+                "InfernoPinFail2"
+            ]
+        },
+        {
+            "NameOfScene": "InfernoPinPass2",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Surprised",
+                "¡Logras liberarte de los tobillos y obligar a la mujer del santo del infierno a volver a una posición sexual más neutral, para su sorpresa!",
+                "ChangeImageLayer",
+                "Expression",
+                "Scowl",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Bitch!",
+                "Bastard!",
+                "Asshole!",
+                "Jackass!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "InfernoPinFail2",
+            "theScene": [
+                "Pero a pesar de tus mejores esfuerzos, ¡no puedes liberarte de su firme comprensión!",
+                "JumpToScene",
+                "InfernoPinFailed"
+            ]
+        },
+        {
+            "NameOfScene": "Tease her out of it! (Allure) [StatCheckPost]",
+            "theScene": [
+                "Mientras sus manos aún están libres y Beris está cerca, ¡se acerca e intenta romper su enfoque con caricias burlonas!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Taunted",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Incited",
+                "-5",
+                "Allure",
+                "20",
+                "InfernoPinPass3",
+                "Fail",
+                "InfernoPinFail3"
+            ]
+        },
+        {
+            "NameOfScene": "InfernoPinPass3",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "HornyBiteLip",
+                "Ella deja escapar un agradable ruido de sorpresa, lo que te permite liberarte de los tobillos y obligar a la mujer del sabueso volver a una posición sexual más neutral, ¡para su sorpresa nerviosa!",
+                "ChangeImageLayer",
+                "Expression",
+                "Scowl",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Bitch!",
+                "Bastard!",
+                "Asshole!",
+                "Jackass!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "InfernoPinFail3",
+            "theScene": [
+                "¡Pero tu cariñosa amorosa no tiene ningún efecto en la mujer dominante!",
+                "JumpToScene",
+                "InfernoPinFailed"
+            ]
+        },
+        {
+            "NameOfScene": "InfernoPinFailed",
+            "theScene": [
+                "ApplyStatusEffect",
+                "AmazonPin",
+                "ChangeImageLayer",
+                "Expression",
+                "PredatoryExcited",
+                "Tenerte justo donde te quiere, la mujer agresiva Hellhound termina fácilmente de levantar la cintura antes de golpear a sus poderosas caderas con un meneo burlón que envía un pulso cálido resonando a través de todo tu cuerpo mientras ella te atrapa firmemente los brazos debajo de los tacones con una risa..",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "¡Oh {i} esto {/i} va a ser divertido!",
+                "¿Qué pasa, bastardo?¿Miedo de ser follado en el suelo?",
+                "Grrr- jeje- no eres tan flojo como pensé.",
+                "¡Prepárate, imbécil, no voy a contener!",
+                "Es hora de ir jodidamente {i} Wild {/i} en ti.",
+                "Te ves tan jodidamente patético en este momento ... ¡Pero vas a ser un gran juguete sexual!",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "Predatory",
+                "Te dan un breve momento para apreciar la sumisión de la posición en la que te ha obligado, luego con poco más advertencia que un gruñido emocionado, Beris comienza a balancear salvajemente su cintura tonificada, enviando sacudidas reverberantes de placer dolorosamente caliente a través de todo tu cuerpo con cada uno.¡Frenética frenética de sus caderas, su apretada bodega amazónica te dejó incapaz de hacer nada más que retorcerse y jadear en el éxtasis tembloroso de Melty!"
+            ]
+        },
+        {
+            "NameOfScene": "BlueBlazeImpulseDriveSEX",
+            "theScene": [
+                "GetEventAndSetProgress",
+                "Labyrinth Floor 2",
+                "0",
+                "RemoveSkillFromMonster",
+                "Blue Blaze Impulse Drive",
+                "RemoveSkillFromMonster",
+                "Blue Blaze Impulse Drive - SEX",
+                "SetChoice",
+                "2",
+                "",
+                "SetChoice",
+                "3",
+                "",
+                "PlayVisualEffect2",
+                "BlindingFlash",
+                "blue.png",
+                "PlayMotionEffect",
+                "Crash",
+                "IfMonsterHasPerk",
+                "Overflowing Impulse",
+                "AltDriveSEXStart",
+                "RemoveSkillFromMonster",
+                "Lust Blaze",
+                "RemoveSkillFromMonster",
+                "Lust Blaze",
+                "GiveSkillToMonster",
+                "Lust Inferno",
+                "GiveSkillToMonster",
+                "Lust Inferno",
+                "GiveSkillToMonster",
+                "Inferno Blitz",
+                "GiveSkillToMonster",
+                "Wild Inferno",
+                "ChangeImageLayer",
+                "Expression",
+                "PredatoryExcited",
+                "GivePerkToMonster",
+                "Overflowing Impulse",
+                "ChangeImageLayer",
+                "Clothing",
+                "None",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Choice",
+                "8",
+                "ClothingGone",
+                "Mientras continúa montando tu polla rígida, las llamas azules de repente brotan del cuerpo desnudo de Beris en una torcida explosión de energía erótica, las llamas se lamen sobre su piel tonificada brillante mientras sonríe salvajemente, mirándolo con un brillo mortal en los ojos!",
+                "8",
+                "",
+                "Mientras continúa montando tu polla rígida, las llamas azules de repente brotan del cuerpo de Beris en una explosión retorcida que quema su ropa a Cinders, las llamas se lamen sobre su brillante piel tonificada mientras sonríe salvajemente, mirándote con una lujuria.¡Brilla en sus ojos!",
+                "EndLoop",
+                "JumpToScene",
+                "PostDriveSEXIntro"
+            ]
+        },
+        {
+            "NameOfScene": "AltDriveSEXStart",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "PredatoryExcited",
+                "FocusedSpeaksSkill",
+                "Mientras continúa montando tu polla rígida, las llamas azules de repente brotan del cuerpo desnudo de Beris en una torcida explosión de energía erótica, las llamas se lamen sobre su piel tonificada brillante mientras sonríe salvajemente, mirándolo con un brillo mortal en los ojos!",
+                "JumpToScene",
+                "PostDriveSEXIntro"
+            ]
+        },
+        {
+            "NameOfScene": "PostDriveSEXIntro",
+            "theScene": [
+                "ApplyStatusEffect",
+                "AmazonPin",
+                "ChangeImageLayer",
+                "Expression",
+                "PredatoryExcited",
+                "Con una repentina oleada de poder infernal y velocidad desorientadora que te golpea antes de que puedas procesarlo por completo, la agresiva mujer de sabuesos te agarra por los tobillos y omite toda tu cintura en el aire antes de golpear sus caderas con un impacto resonante en un impacto resonante¡Eso hace que toda tu cintura sienta que se está derritiendo!",
+                "Dejando escapar un gran gruñido de emoción, ella atrapa firmemente tus brazos debajo de sus talones mientras te mira de manera dominante con ojos locos.",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "¡Estás jodido ahora, bastardo!",
+                "Estas terminado",
+                "Eres {i} mio! {/i}",
+                "¡No te hagas suave conmigo, joder!",
+                "{i}More!{/i}",
+                "{i}More!{/i}",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "Predatory",
+                "Solo se le da un breve momento para comenzar a procesar la posición sexual en la que ha sido forzado, luego con poco más de advertencia que un gruñido emocionado, Beris comienza a balancearse salvajemente su cintura tonificada, enviando chupas reverberantes de placer dolorosamente caliente durante todo suCuerpo con cada frenético golpe de sus caderas, su apretada bodega amazónica, ¡dejándolo incapaz de hacer nada más que retorcerse y jadear en el éxtasis temblar meloso!"
+            ]
+        },
+        {
+            "NameOfScene": "BlueBlazeImpulseDrive",
+            "theScene": [
+                "GetEventAndSetProgress",
+                "Labyrinth Floor 2",
+                "0",
+                "RemoveSkillFromMonster",
+                "Blue Blaze Impulse Drive",
+                "RemoveSkillFromMonster",
+                "Blue Blaze Impulse Drive - SEX",
+                "SetChoice",
+                "2",
+                "",
+                "SetChoice",
+                "3",
+                "",
+                "SetPostName",
+                "- Blue Blaze Impulse Drive",
+                "PlayVisualEffect2",
+                "BlindingFlash",
+                "blue.png",
+                "PlayMotionEffect",
+                "Crash",
+                "IfMonsterHasPerk",
+                "Overflowing Impulse",
+                "AltDriveStart",
+                "ChangeImageLayer",
+                "Expression",
+                "PredatoryExcited",
+                "GivePerkToMonster",
+                "Overflowing Impulse",
+                "ChangeImageLayer",
+                "Clothing",
+                "None",
+                "RemoveSkillFromMonster",
+                "Lust Blaze",
+                "RemoveSkillFromMonster",
+                "Lust Blaze",
+                "GiveSkillToMonster",
+                "Lust Inferno",
+                "GiveSkillToMonster",
+                "Lust Inferno",
+                "GiveSkillToMonster",
+                "Inferno Blitz",
+                "GiveSkillToMonster",
+                "Wild Inferno",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Choice",
+                "8",
+                "ClothingGone",
+                "Las llamas azules de repente surgen del cuerpo desnudo de Beris en una explosión retorcida que envía una onda de choque a través del pasillo, las llamas lamen su piel tonificada y una sonrisa salvaje que le da la cara mientras te apresura con las uñas y los dientes descubiertos, aparentemente intencionados.¡Druce tu trasero!",
+                "8",
+                "",
+                "Las llamas azules de repente brotan del cuerpo de Beris en una explosión retorcida que quema su ropa a las cenizas, las llamas lamen su piel tonificada y una sonrisa salvaje que le da la cara mientras te apresura con las uñas y los dientes descubiertos, aparentemente intentamente en cuero.¡culo!",
+                "EndLoop",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "¡Estás jodido ahora, bastardo!",
+                "Estas terminado",
+                "¡Eso es suficiente calentamiento!",
+                "¡Se acabó ahora, hijo de puta!",
+                "¡No puedes seguir el ritmo de mí!",
+                "EndLoop",
+                "JumpToScene",
+                "ImpulseLoop"
+            ]
+        },
+        {
+            "NameOfScene": "AltDriveStart",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Predatory",
+                "FocusedSpeaksSkill",
+                "Las llamas azules de repente surgen del cuerpo desnudo de Beris en una explosión retorcida que envía una onda de choque a través del pasillo, las llamas lamen su piel tonificada y una sonrisa salvaje que le da la cara mientras te apresura con las uñas y los dientes descubiertos, aparentemente intencionados.¡Druce tu trasero!",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "¡Estás jodido ahora, bastardo!",
+                "Estas terminado",
+                "¡Vamos a intentarlo de nuevo!",
+                "¡Vas a follar {i} quemado conmigo! {/i}",
+                "¡Se acabó ahora, hijo de puta!",
+                "¡No puedes seguir el ritmo de mí!",
+                "EndLoop",
+                "JumpToScene",
+                "ImpulseLoopStart"
+            ]
+        },
+        {
+            "NameOfScene": "ImpulseLoopStart",
+            "theScene": [
+                "FocusedSpeaksSkill",
+                "A medida que se acerca a un borrón de velocidad, la esbelta mujer Hellhound libera una ráfaga de golpes y patadas, aunque claramente no tiene la intención de golpearte, sino que apuntan con las llamas mágicas llenas de lujuria que salen de sus extremidades.",
+                "JumpToScene",
+                "ImpulseLoop"
+            ]
+        },
+        {
+            "NameOfScene": "ImpulseLoop",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Stun",
+                "Let the barrage hit you.",
+                "Menu",
+                "¡Parta!(Potencia) [StatCheckPost]",
+                "¡Dodga el ataque!(Técnica) [StatCheckPost]",
+                "¡Bloquelo!(Inteligencia) [StatCheckPost]",
+                "Let the barrage hit you.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Let the barrage hit you.",
+            "theScene": [
+                "Ni siquiera te molestas en tratar de evadir el ardiente ataque ...",
+                "JumpToScene",
+                "GotHit"
+            ]
+        },
+        {
+            "NameOfScene": "Endure it! (Power) [StatCheckPost]",
+            "theScene": [
+                "Te preparas, preparándote para resistir las llamas retorcidas de la lujuria ...",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Taunted",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Incited",
+                "-5",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "2",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "3",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "4",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "5",
+                "10",
+                "Power",
+                "20",
+                "Endure!",
+                "Fail",
+                "NoEndure!"
+            ]
+        },
+        {
+            "NameOfScene": "Endure!",
+            "theScene": [
+                "¡Y logra poder a través de las llamas eróticas parpadeantes, su calidez apresurada fluye a través de ti en una corriente continua!",
+                "IfChoice",
+                "2",
+                "5",
+                "EndBarrage",
+                "JumpToScene",
+                "YetMore!"
+            ]
+        },
+        {
+            "NameOfScene": "NoEndure!",
+            "theScene": [
+                "¡Pero no puedes resistir el calor placentero del ardiente ataque de Beris!",
+                "JumpToScene",
+                "GotHit"
+            ]
+        },
+        {
+            "NameOfScene": "Dodge the onslaught! (Technique) [StatCheckPost]",
+            "theScene": [
+                "Bobinas y te tejes frenéticamente, tratando de evitar la incesante aluvión de llamas lujuriosas de Beris ...",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Taunted",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Incited",
+                "-5",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "2",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "3",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "4",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "5",
+                "10",
+                "Technique",
+                "15",
+                "Dodged!",
+                "Fail",
+                "NoDodge!"
+            ]
+        },
+        {
+            "NameOfScene": "Dodged!",
+            "theScene": [
+                "¡Y esquivas ágilmente las rugientes llamas excitantes!",
+                "IfChoice",
+                "2",
+                "5",
+                "EndBarrage",
+                "JumpToScene",
+                "YetMore!"
+            ]
+        },
+        {
+            "NameOfScene": "NoDodge!",
+            "theScene": [
+                "Pero a pesar de sus mejores esfuerzos, está siendo golpeado por las llamas placenteras una y otra vez, ¡!",
+                "JumpToScene",
+                "GotHit"
+            ]
+        },
+        {
+            "NameOfScene": "Block it! (Intelligence) [StatCheckPost]",
+            "theScene": [
+                "Concentas tu poder arcano para crear una barrera para repeler las llamas ...",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Taunted",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Incited",
+                "-5",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "2",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "3",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "4",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "5",
+                "10",
+                "Intelligence",
+                "15",
+                "Barrier!",
+                "Fail",
+                "NoBarrier!"
+            ]
+        },
+        {
+            "NameOfScene": "Barrier!",
+            "theScene": [
+                "¡Y tienes éxito en mantener a raya el ardiente asalto, Beris gruñe de frustración mientras sus puños y piernas solo logran romperse en el escudo mágicamente conjurado!",
+                "IfChoice",
+                "2",
+                "5",
+                "EndBarrage",
+                "JumpToScene",
+                "YetMore!"
+            ]
+        },
+        {
+            "NameOfScene": "NoBarrier!",
+            "theScene": [
+                "Pero con un golpe sólido, Beris destruye su muro mágico, su mueca de esfuerzo se convierte en una sonrisa arrogante cuando el infierno cargado de lujuria se lava.",
+                "JumpToScene",
+                "GotHit"
+            ]
+        },
+        {
+            "NameOfScene": "GotHit",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smugger",
+                "HitPlayerWith",
+                "Lust Inferno",
+                "CallSceneThenReturn",
+                "HitTick",
+                "SwapLineIf",
+                "Random",
+                "Dejas escapar un gemido mientras las llamas mágicas de los ataques acrobáticos de Beris lamen tu piel en una caricia etérea, inundando todo tu cuerpo con un deseo palpitante que deja tu mente girando con una maravillosa excitación. [DamageToPlayer]",
+                "Las retorcidas llamas azules envían una oleada de dicha sexual caliente donde sea que te toquen, la mujer de los sabuesos apenas te da un momento para recuperarte como una explosión después de una explosión de fuego erótico sobre ti, dejando a tu polla como un desastre de fugas y fugas. [DamageToPlayer]",
+                "Las ondas interminables de fuego te golpean una y otra vez, enviando lavados de placer calientes a través de cada parte de tu cuerpo, dejándote jadeando y gimiendo mientras las llamas con carga erótica lamen inofensivamente tu piel como una caricia burlona. [DamageToPlayer]",
+                "Solo puedes llorar con felicidad mientras las placenteras llamas mágicas te lavan en ondas rítmicas, tu cabeza se en blanco por el placer de tu cabeza a través de tu cabeza a los pies, dejando tu polla palpitando y contrajándose en deleite. [DamageToPlayer]",
+                "EndLoop",
+                "IfChoice",
+                "2",
+                "5",
+                "EndBarrage",
+                "JumpToScene",
+                "YetMore!"
+            ]
+        },
+        {
+            "NameOfScene": "YetMore!",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "GrinCocky",
+                "CallSceneThenReturn",
+                "BarrageCounter",
+                "SetPostName",
+                "- Blue Blaze Impulse Drive",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'¡Vamos!'Beris suelta una ráfaga de golpes y patadas, enviando un aluvión en cascada de torcidas llamas azules hacia la frenética de su rápido asalto, ¡el cálido calor mágico al ras con la potencia lujuriosa!",
+                "'¡Prueba esto!'Beris suelta una ráfaga de golpes y patadas, enviando un aluvión en cascada de torcidas llamas azules hacia la frenética de su rápido asalto, ¡el cálido calor mágico al ras con la potencia lujuriosa!",
+                "'¡Ja!¡Es como si te estuvieras moviendo en cámara lenta!Beris suelta una ráfaga de golpes y patadas, enviando un aluvión en cascada de torcidas llamas azules hacia la frenética de su rápido asalto, ¡el cálido calor mágico al ras con la potencia lujuriosa!",
+                "'¿Qué pasa, hijo de puta?'Beris suelta una ráfaga de golpes y patadas, enviando un aluvión en cascada de torcidas llamas azules hacia la frenética de su rápido asalto, ¡el cálido calor mágico al ras con la potencia lujuriosa!",
+                "'¡¿No puedes tomar el calor?¡Demasiado maldito!Beris suelta una ráfaga de golpes y patadas, enviando un aluvión en cascada de torcidas llamas azules hacia la frenética de su rápido asalto, ¡el cálido calor mágico al ras con la potencia lujuriosa!",
+                "Beris suelta una ráfaga de golpes y patadas, enviando un aluvión en cascada de torcidas llamas azules hacia la frenética de su rápido asalto, ¡el cálido calor mágico al ras con la potencia lujuriosa!",
+                "Beris suelta una ráfaga de golpes y patadas, enviando un aluvión en cascada de torcidas llamas azules hacia la frenética de su rápido asalto, ¡el cálido calor mágico al ras con la potencia lujuriosa!",
+                "'¡¿No puedes tomar el calor?¡Demasiado maldito!Beris desata un bombardeo implacable de golpes recubiertos de llamas, la ráfaga de golpes ardientes que conjurando un fuego continuo y torcedor, las llamas azul¡Envía una oleada de fuego excitante!",
+                "'¿Qué pasa, hijo de puta?'Beris desata un bombardeo implacable de golpes recubiertos de llamas, la ráfaga de golpes ardientes que conjurando un fuego continuo y torcedor, las llamas azul¡Envía una oleada de fuego excitante!",
+                "'¡Ja!¡Es como si te estuvieras moviendo en cámara lenta!Beris desata un bombardeo implacable de golpes recubiertos de llamas, la ráfaga de golpes ardientes que conjurando un fuego continuo y torcedor, las llamas azul¡Envía una oleada de fuego excitante!",
+                "'¡Solo estoy empezando!'Beris desata un bombardeo implacable de golpes recubiertos de llamas, la ráfaga de golpes ardientes que conjurando un fuego continuo y torcedor, las llamas azul¡Envía una oleada de fuego excitante!",
+                "'¡Estás tostado!'Beris desata un bombardeo implacable de golpes recubiertos de llamas, la ráfaga de golpes ardientes que conjurando un fuego continuo y torcedor, las llamas azul¡Envía una oleada de fuego excitante!",
+                "Beris desata un bombardeo implacable de golpes recubiertos de llamas, la ráfaga de golpes ardientes que conjurando un fuego continuo y torcedor, las llamas azul¡Envía una oleada de fuego excitante!",
+                "Beris desata un bombardeo implacable de golpes recubiertos de llamas, la ráfaga de golpes ardientes que conjurando un fuego continuo y torcedor, las llamas azul¡Envía una oleada de fuego excitante!",
+                "'¡Prueba esto!'Beris salta al aire, sus piernas se mueven en una borracha de patadas aéreas que envían una volea de llamas azules brillantes hacia ti, la maniobra acrobática del Hellhound concluye con una patada hacia abajo que se rompe la piedra debajo de su talón como un resbalón rugiente de erótico de erótico de erótico.¡El fuego se apresura hacia ti!",
+                "'Dodge {i} this! {/i}' Beris salta al aire, sus piernas se mueven en un borrón de patadas aéreas que envían una volea de llamas azules vertiginales hacia ti, la maniobra acrobática del Hellhound concluyendo con una patada hacia abajo que se rompe que se rompe¡La piedra debajo de su talón como un resplandor final de fuego erótico se apresura hacia ti!",
+                "'¡Estás tostado!'Beris salta al aire, sus piernas se mueven en una borracha de patadas aéreas que envían una volea de llamas azules brillantes hacia ti, la maniobra acrobática del Hellhound concluye con una patada hacia abajo que se rompe la piedra debajo de su talón como un resbalón rugiente de erótico de erótico de erótico.¡El fuego se apresura hacia ti!",
+                "'¡Moldista, ya!'Beris salta al aire, sus piernas se mueven en una borracha de patadas aéreas que envían una volea de llamas azules brillantes hacia ti, la maniobra acrobática del Hellhound concluye con una patada hacia abajo que se rompe la piedra debajo de su talón como un resbalón rugiente de erótico de erótico de erótico.¡El fuego se apresura hacia ti!",
+                "'¡¿No puedes tomar el calor?¡Demasiado maldito!Beris salta al aire, sus piernas se mueven en una borracha de patadas aéreas que envían una volea de llamas azules brillantes hacia ti, la maniobra acrobática del Hellhound concluye con una patada hacia abajo que se rompe la piedra debajo de su talón como un resbalón rugiente de erótico de erótico de erótico.¡El fuego se apresura hacia ti!",
+                "Beris salta al aire, sus piernas se mueven en una borracha de patadas aéreas que envían una volea de llamas azules brillantes hacia ti, la maniobra acrobática del Hellhound concluye con una patada hacia abajo que se rompe la piedra debajo de su talón como un resbalón rugiente de erótico de erótico de erótico.¡El fuego se apresura hacia ti!",
+                "Beris salta al aire, sus piernas se mueven en una borracha de patadas aéreas que envían una volea de llamas azules brillantes hacia ti, la maniobra acrobática del Hellhound concluye con una patada hacia abajo que se rompe la piedra debajo de su talón como un resbalón rugiente de erótico de erótico de erótico.¡El fuego se apresura hacia ti!",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "JumpToScene",
+                "ImpulseLoop"
+            ]
+        },
+        {
+            "NameOfScene": "BarrageCounter",
+            "theScene": [
+                "IfChoice",
+                "2",
+                "4",
+                "setBarrage5",
+                "IfChoice",
+                "2",
+                "3",
+                "setBarrage4",
+                "IfChoice",
+                "2",
+                "2",
+                "setBarrage3",
+                "IfChoice",
+                "2",
+                "",
+                "setBarrage2"
+            ]
+        },
+        {
+            "NameOfScene": "setBarrage2",
+            "theScene": [
+                "SetChoice",
+                "2",
+                "2"
+            ]
+        },
+        {
+            "NameOfScene": "setBarrage3",
+            "theScene": [
+                "SetChoice",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "NameOfScene": "setBarrage4",
+            "theScene": [
+                "SetChoice",
+                "2",
+                "4"
+            ]
+        },
+        {
+            "NameOfScene": "setBarrage5",
+            "theScene": [
+                "SetChoice",
+                "2",
+                "5"
+            ]
+        },
+        {
+            "NameOfScene": "HitTick",
+            "theScene": [
+                "IfChoice",
+                "3",
+                "Hit4",
+                "setToHit5",
+                "IfChoice",
+                "3",
+                "Hit3",
+                "setToHit4",
+                "IfChoice",
+                "3",
+                "Hit2",
+                "setToHit3",
+                "IfChoice",
+                "3",
+                "Hit1",
+                "setToHit2",
+                "SetChoice",
+                "3",
+                "Hit1"
+            ]
+        },
+        {
+            "NameOfScene": "setToHit2",
+            "theScene": [
+                "SetChoice",
+                "3",
+                "Hit2"
+            ]
+        },
+        {
+            "NameOfScene": "setToHit3",
+            "theScene": [
+                "SetChoice",
+                "3",
+                "Hit3"
+            ]
+        },
+        {
+            "NameOfScene": "setToHit4",
+            "theScene": [
+                "SetChoice",
+                "3",
+                "Hit4"
+            ]
+        },
+        {
+            "NameOfScene": "setToHit5",
+            "theScene": [
+                "SetChoice",
+                "3",
+                "Hit5"
+            ]
+        },
+        {
+            "NameOfScene": "EndBarrage",
+            "theScene": [
+                "IfPlayerOrgasm",
+                "OrgasmicFinish",
+                "La implacable cascada de fuego finalmente se detiene, Beris haciendo una pausa para recuperar el aliento en pantalones emocionados y pesados.",
+                "JumpToScene",
+                "DodgeResults"
+            ]
+        },
+        {
+            "NameOfScene": "OrgasmicFinish",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "PlayerOrgasm",
+                "1",
+                "SwapLineIf",
+                "Random",
+                "El placer fundido que se hincha en el interior de tus burbujas y se desborda en tu núcleo mientras las llamas mágicas calientes lamen tu cuerpo en un bucle implacable, hasta que no puedes tomar más y romper con un grito grito, tu polla espasming y twitching enormemente mientrasBrotes cuerdas largas de semen en el aire que se disuelven rápidamente en el fuego azul insaciable.",
+                "Con un grito final y triunfante, Beris envía una última oleada unificada de fuego azul de sus puños y el torcedor infierno erótico de éxtasis te envuelve por completo, dejándote gimiendo de manera incoherente cuando tu polla estalla un grueso desorden pegajoso en el aire.Con un sonido chisporroteante, la magia se quema la semilla derramada, toda tu mente se atasca en una sola nota alta de dicha climática ardiente incluso cuando las llamas se lamen y se disipan.",
+                "Sintiendo que estás en el borde, Beris te arroja una última patada que evoca un torrente de fuego apresurado, el calor abrumador lo dejas temblando y gimiendo mientras lame sobre tu piel y se vuelve demasiado para soportar, tu polla espasmante descarga su espesa carga.En el aire donde se envuelve rápidamente por el intenso calor mágico, cada brote termina de manera similar absorbida de manera similar hasta que el fuego finalmente se aleja junto con su clímax.",
+                "El aluvión rítmico de fuego se lo cubre como un masaje caliente de lenguas parpadeantes que se extienden el calor hirviendo a través de cada parte de ustedes que tocan, construyen y florecen en su núcleo hasta que finalmente explotan en un clímax que deja una sonrisa descuidada en su cara comoDescarga su semilla en las llamas codiciosas.",
+                "EndLoop",
+                "IfPlayerSpiritGone",
+                "CrumpleFromBarrage",
+                "JumpToScene",
+                "DodgeResults"
+            ]
+        },
+        {
+            "NameOfScene": "CrumpleFromBarrage",
+            "theScene": [
+                "SkipPlayerAttack",
+                "Con el último de tu espíritu gastado, tus piernas finalmente ceden y te tallas en el piso en un desorden agradable y sacudido, las llamas mágicas que inducen el escalofrío de Beris continúan enfureciendo por tu cuerpo por un momento más antes de disminuir."
+            ]
+        },
+        {
+            "NameOfScene": "DodgeResults",
+            "theScene": [
+                "IfChoice",
+                "3",
+                "",
+                "Fullreversal",
+                "IfChoice",
+                "3",
+                "Hit1",
+                "ReversalChance",
+                "IfChoice",
+                "3",
+                "Hit5",
+                "CharmedAndStunnedFull",
+                "IfChoice",
+                "3",
+                "Hit4",
+                "CharmedAndStunned",
+                "IfChoice",
+                "3",
+                "Hit3",
+                "Charmed"
+            ]
+        },
+        {
+            "NameOfScene": "Charmed",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Charm",
+                "CallSceneThenReturn",
+                "ApplyOverheat",
+                "Las llamas eróticas calientes se han filtrado profundamente en ti, dejando un dolor pulsante y necesitado que palpita imperiosamente en tu núcleo ..."
+            ]
+        },
+        {
+            "NameOfScene": "CharmedAndStunned",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Spank",
+                "ApplyStatusEffect",
+                "Charm",
+                "CallSceneThenReturn",
+                "ApplyOverheat",
+                "Te quedas tambaleándose por la embestida de llamas eróticas de Beris, tu cabeza girando en un aturdimiento cachondo mientras tu polla palpita y pulsos con necesidad desesperada, cada parte de ti duele con un calor necesitado ..."
+            ]
+        },
+        {
+            "NameOfScene": "CharmedAndStunnedFull",
+            "theScene": [
+                "ApplyStatusEffect",
+                "OverdriveStun",
+                "ApplyStatusEffect",
+                "Charm",
+                "CallSceneThenReturn",
+                "ApplyOverheat",
+                "Después de haber sido golpeado con toda su fuerza por la abrumadora embestida de llamas eróticas de Beris, la cabeza queda girando en un aturdido aturdido mientras su polla palpita y pulsos con necesidad desesperada, cada parte de ustedes duele con un calor debilitante necesitado ..."
+            ]
+        },
+        {
+            "NameOfScene": "ReversalChance",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Scowl",
+                "Al ver que lograste superar la totalidad de su bombardeo en llamas ileso, Beris gruñe con frustración furiosa, recogiendo lo que queda del fuego cada vez menor que todavía lame su piel desnuda mientras te apresura en un descuidado intento de último zbulla para finalmente anotar finalmente¡Un éxito!",
+                "FocusedSpeaks",
+                "Jackass!",
+                "Menu",
+                "¡Trate de atrapar sus brazos y empujarla contra la pared para follarla!(¡Power, más duro!) [StatCheckPost]",
+                "Intenta aprovechar su ataque contra ella.(Potencia) (aturdimiento) [StatCheckPost]",
+                "Just evade her haphazard attack.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Try and leverage her attack against her. (Power)(Stuns) [StatCheckPost]",
+            "theScene": [
+                "StatCheck",
+                "Power",
+                "15",
+                "Leverage her attack against her. (Stuns)",
+                "Fail",
+                "GethitAgainMild"
+            ]
+        },
+        {
+            "NameOfScene": "GethitAgainMild",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Grin",
+                "HitPlayerWith",
+                "Lust Inferno",
+                "¡Pero fallas y obtienes una cara de llamas eróticas por tus esfuerzos, el placer de melodías calientes te envía tambaleándose mientras Beris se ve bastante satisfecho de sí misma! [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "Try to catch her arms and shove her against the wall to fuck her! (Power, Harder!) [StatCheckPost]",
+            "theScene": [
+                "StatCheck",
+                "Power",
+                "20",
+                "Catch her arms and shove her against the wall to fuck her!",
+                "Fail",
+                "GethitAgainHeavy"
+            ]
+        },
+        {
+            "NameOfScene": "GethitAgainHeavy",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "HitPlayerWith",
+                "Lust Inferno",
+                "ApplyStatusEffect",
+                "Spank",
+                "Pero su gambito se enfrenta y obtienes un intenso cara de llamas eróticas por tus esfuerzos, ¡el placer hirviendo que te hará aturdir mientras Beris te mira con una sonrisa engreída! [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "Fullreversal",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Scowl",
+                "Beris gruñe con una inmensa frustración mientras logras atravesar todo su aluvión en llamas completamente HIN DE EDICIÓN, disminuyendo el fuego aún lamiendo su piel desnuda mientras te apresura descuidado en un último intento de anotar finalmente.",
+                "FocusedSpeaks",
+                "{i}Baaastaaarrrd!{/i}",
+                "Pero a pesar de su furia, está claro que ha acostumbrado toda su energía por el momento, el asalto imprudente la dejó imprudentemente expuesta ...",
+                "Menu",
+                "Catch her arms and shove her against the wall to fuck her!",
+                "Leverage her attack against her. (Stuns)",
+                "Just evade her feeble attack.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Leverage her attack against her. (Stuns)",
+            "theScene": [
+                "ApplyStatusEffectToMonster",
+                "Spank",
+                "ChangeImageLayer",
+                "Expression",
+                "Surprise",
+                "Atrapas hábilmente su brazo a mitad de la altura y usas su impulso contra ella para arrojarla detrás de ti con un choque rotundo mientras cae al suelo con un ruido conmocionado.Dazed, murmura jura mientras lucha por volver a subir ...",
+                "ChangeImageLayer",
+                "Expression",
+                "Shy"
+            ]
+        },
+        {
+            "NameOfScene": "Just evade her haphazard attack.",
+            "theScene": [
+                "JumpToScene",
+                "Just evade her feeble attack."
+            ]
+        },
+        {
+            "NameOfScene": "Just evade her feeble attack.",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Frustrated",
+                "Pasas fácilmente el asalto de Beris y ella te toca con un gruñido enfurecido, girando sobre sus talones para enfrentarte con un fuerte resplandor de furia.",
+                "ChangeImageLayer",
+                "Expression",
+                "Scowl",
+                "FocusedSpeaks",
+                "¡Acabas de tener {i} afortunado! {/i}"
+            ]
+        },
+        {
+            "NameOfScene": "Catch her arms and shove her against the wall to fuck her!",
+            "theScene": [
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "BerisLewds",
+                "ChangeImageLayer",
+                "Arm",
+                "Arm",
+                "PlayMotionEffect",
+                "Crash",
+                "ChangeImageLayer",
+                "Expression",
+                "Surprise",
+                "Aprovechas al máximo el desordenado ataque de Beris y la atrapas por la muñeca, sus llamas corporales se mueren rápidamente mientras torces su mano detrás de ella y agarras su otro brazo para bloquearlos a ambos contra su espalda con un puño apretado, manteniendo unSolts firmes sobre ellos mientras fijas su forma de tropezar contra una pared cercana.",
+                "FocusedSpeaks",
+                "{i} wh-¿Qué mierda? {/i}",
+                "CallNextSceneJumpThenReturn",
+                "IfHasPerk",
+                "Taunted",
+                "IncitePlayer",
+                "ChangeImageLayer",
+                "Expression",
+                "Flustered",
+                "ChangeImageLayer",
+                "DickSex",
+                "Float",
+                "Ahora que la tienes en una posición comprometedora, sus tetas cálidas y desnudas y sus abdominales firmes frotando tentador contra la pared, puedes alinear fácilmente tu polla rígida con su coño babeante, un chillido de excitación que escapa de la vida del infierno como tu vida como tuLa punta se frota contra su apertura bien cálida.",
+                "FocusedSpeaks",
+                "U-uh- w-wait- h-hold en un segundo!",
+                "ChangeImageLayer",
+                "DickSex",
+                "Thrust",
+                "HitMonsterWith",
+                "PoundingFeng",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "ChangeImageLayer",
+                "Expression",
+                "ResistPleasureGrit",
+                "ChangeImageLayer",
+                "Face",
+                "Blush",
+                "Al haber sido tomado completamente sin preparación por su contraataque, Beris es completamente impotente para resistirte y deja escapar un ruido amortiguado de excitación cuando tu polla se estrella en ella mientras se aprieta desesperadamente los dientes para tratar de soportar el placer de dispararla de inmediato.Comience a empujar. [DamageToEnemy]",
+                "FocusedSpeaks",
+                "Ghhfphh-! ♥ ba-bashtard- ♥",
+                "HitMonsterWith",
+                "PoundingFeng",
+                "HitMonsterWith",
+                "PoundingFeng",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "ChangeImageLayer",
+                "Expression",
+                "ResistPleasure",
+                "El santo del infierno clavado solo puede retorcerse ligeramente y temblar mientras la follas contra la pared, todas las fuerzas en sus brazos aparentemente desaparecieron por el momento mientras los mantienes en un agarre firme, tu mano libre jugando con su culo tonificado mientras luchaPara contener los gemidos calientes y descuidados de sus intensos empujes en su coño apretado. [DamageToEnemy]",
+                "ChangeImageLayer",
+                "Expression",
+                "Orgasm",
+                "PlayMotionEffect",
+                "Crash",
+                "Parece que no puede reunir la energía para resistir su dominio dominante, su voz reprimida se vuelve cada vez más desordenada mientras golpeas su forma indefensa en sumisión, su coño temblando y brotando con todos tus empujes, la jodida de la lengua saliendo mientras ellagime en la felicidad del placer, su mejilla frotando en la pared contra la que está clavada. [DamageToEnemy]",
+                "IfMonsterOrgasm",
+                "BerisCumsFromReversal",
+                "ChangeImageLayer",
+                "Expression",
+                "Horny",
+                "Finalmente, parece atrapar a sí misma con un escalofrío, y te mira con un aturdimiento cachondo y cachondo.",
+                "FocusedSpeaks",
+                "F-Fuck You- i-i'M {i} no {/i} disfrutando de esto!",
+                "ChangeImageLayer",
+                "Expression",
+                "HornyBiteLip",
+                "A pesar de sus palabras, ella no parece hacer un esfuerzo real para resistirte todavía ...",
+                "JumpToScene",
+                "CounteredBerisSexMenu"
+            ]
+        },
+        {
+            "NameOfScene": "CounteredBerisSexMenu",
+            "theScene": [
+                "Menu",
+                "RequiresEnergy",
+                "20",
+                "Keep fucking her! (20 Energy)",
+                "Let her go.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Keep fucking her! (20 Energy)",
+            "theScene": [
+                "ChangeEnergyQuietly",
+                "-20",
+                "JumpToRandomScene",
+                "FuckAgainstWall",
+                "LikeABitch",
+                "MessyKiss",
+                "ResistantFuck",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "FuckAgainstWall",
+            "theScene": [
+                "HitMonsterWith",
+                "PoundingFeng",
+                "ChangeImageLayer",
+                "Expression",
+                "ResistPleasureGrit",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "Mantienes a Beris firmemente presionado contra la pared mientras continúas follándola, sus caderas fijadas contra la piedra mientras la levanta unos centímetros del suelo, dejando sus piernas colgando impotentes mientras termina atrapada entre ti arando la sin sentido y la cálida.La pared empapada en el calor de su cuerpo mientras se frota con los gemidos suprimidos. [DamageToEnemy]",
+                "HitMonsterWith",
+                "PoundingFeng",
+                "ChangeImageLayer",
+                "Expression",
+                "Horny",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "Pero no puede mantener su voz amortiguada por mucho tiempo, tus empujes profundos golpean constantemente el placer en su cuerpo indefenso, el santo del infierno dejando fuera jadeos de dicha de dicha y vapor mientras gime con un aturdimiento de mierda, mansamente, manejando sus caderas de regreso a ti.Empusados ​​intensos, dejándolo que la ataques en su lugar contra la pared mientras ella se desliza en éxtasis. [DamageToEnemy]",
+                "IfMonsterOrgasm",
+                "BerisCumsFromReversal",
+                "ChangeImageLayer",
+                "Expression",
+                "Shy",
+                "Sin embargo, después de unos momentos más de rendimiento indulgente, se las arregla para volver a sus sentidos y retorcerse contra ti, trayendo sus pies de vuelta al suelo mientras se prepara para defenderse.",
+                "JumpToScene",
+                "BerisFuckedComment"
+            ]
+        },
+        {
+            "NameOfScene": "LikeABitch",
+            "theScene": [
+                "HitMonsterWith",
+                "PoundingFeng",
+                "ChangeImageLayer",
+                "Expression",
+                "ResistPleasure",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "Con un firme agarre en su cintura tonificada, tiras ligeramente a Beris, obligándola a una posición doblada con su mejilla todavía frotando contra la pared, su cola esponjosa moviéndose con entusiasmo mientras la llevas por detrás como un animal, el Hellhound mordiendoSu labio en un intento desesperado de reprimir sus gemidos putituosos a pesar de todos sus empujes que envían ondas calientes de éxtasis a través de su cuerpo agradablemente musculoso. [DamageToEnemy]",
+                "HitMonsterWith",
+                "PoundingFeng",
+                "ChangeImageLayer",
+                "Expression",
+                "Orgasm",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "Poco a poco, su resistencia se desliza hasta que jadea y gime como una perra en calor, gimiendo felizmente mientras acaricia la pared con cada reunión impactante de tus caderas, su espalda arqueándose ligeramente desde la euforia sumisa continuamente sobre su forma delgada con cada huelga.de tu consejo a su matriz. [DamageToEnemy]",
+                "IfMonsterOrgasm",
+                "BerisCumsFromReversal",
+                "ChangeImageLayer",
+                "Expression",
+                "Frustrated",
+                "Sin embargo, en última instancia, se las arregla para volver a sus sentidos y retorcerse contra ti, obligándolos a los dos a regresar a tu posición inicial mientras te mira con un pesado descaro y reúne la energía para defenderse.",
+                "JumpToScene",
+                "BerisFuckedComment"
+            ]
+        },
+        {
+            "NameOfScene": "MessyKiss",
+            "theScene": [
+                "HitMonsterWith",
+                "PoundingFeng",
+                "ChangeImageLayer",
+                "Expression",
+                "Horny",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "Aseguamente, Beris jadea y gacha mucho mientras te mira necesariamente, su boca caliente ligeramente abierta mientras follas su coño brotando en un desastre agitado.Inclinándose hacia adelante, cumples su deseo ruido, besándola profundamente mientras mantenías tu apretada agarre, dominando la boca con la lengua mientras ella se escapa y gime en la dicha, sus ojos malhundidos, sensuales y tímidos mendigando por más. [DamageToEnemy]",
+                "HitMonsterWith",
+                "PoundingFeng",
+                "ChangeImageLayer",
+                "Expression",
+                "Orgasm",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "Ella te devuelve de forma mansamente, sus pensamientos se sacudieron y mancharon de placer mientras continúas golpeando su coño espasmando en una sumisión aún más profunda, el santo del infierno gimió en tu boca mientras sus ojos rodan en éxtasis, dándote todo el tiempo que quieras disfrutar deEn sus suaves labios y su cuerpo delgado mientras se pierde en el momento. [DamageToEnemy]",
+                "IfMonsterOrgasm",
+                "BerisCumsFromReversal",
+                "ChangeImageLayer",
+                "Expression",
+                "Shy",
+                "Sin embargo, eventualmente logra volver a sus sentidos y nerviosamente retorcidos contra usted, rompiendo la sesión de besos y preparándose para luchar contra su control dominante.",
+                "JumpToScene",
+                "BerisFuckedComment"
+            ]
+        },
+        {
+            "NameOfScene": "ResistantFuck",
+            "theScene": [
+                "HitMonsterWith",
+                "PoundingFeng",
+                "ChangeImageLayer",
+                "Expression",
+                "ResistPleasureGrit",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "La mujer de Hell Houndhund se queja felizmente mientras golpea contra ti en un esfuerzo por alejarte, pero rápidamente la follas a la vez en su lugar, la marimacho clavada se aprieta los dientes mientras intenta infructuosamente soportar tus poderosos empujes, su coño se aferró sumisivamente a tuLongitud a pesar de sus mejores esfuerzos, cada huelga de hilos la pone tensa y gemirá. [DamageToEnemy]",
+                "HitMonsterWith",
+                "PoundingFeng",
+                "ChangeImageLayer",
+                "Expression",
+                "ResistPleasure",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "Sus tetas pertistas se aplastan bruscamente y se frotan en la pared en la que se ha clavado mientras la follas cada vez más tonta, su expresión desafiante se desliza lentamente en medio del placer meloso que la lavaba en olas calientes, sus extremidades se aflojan mientras monta las ondas calientes de éxtasis tú ''volver a golpearla. [DamageToEnemy]",
+                "IfMonsterOrgasm",
+                "BerisCumsFromReversal",
+                "ChangeImageLayer",
+                "Expression",
+                "Shy",
+                "Pero después de algunos empujes más, se las arregla para volver a sus sentidos y nerviosamente retorcidos contra ti, ¡decidido a no dejarte salirse con ella!",
+                "JumpToScene",
+                "BerisFuckedComment"
+            ]
+        },
+        {
+            "NameOfScene": "BerisFuckedComment",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "HornyBiteLip",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'¡F-Fuck You, esto no ha terminado!'",
+                "'¡No voy a perder-!'",
+                "'B-Bastard- No soy- ♥ no voy a-'",
+                "'GHHH- ♥ F-Fuck- {i} You! {/i}'",
+                "EndLoop",
+                "JumpToScene",
+                "BerisStruggles"
+            ]
+        },
+        {
+            "NameOfScene": "BerisStruggles",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Shy",
+                "En medio de jadeos y escalofríos, Beris lucha contra su firme.",
+                "Menu",
+                "¡Sostenla en su lugar!(Potencia) [StatCheckPost]",
+                "¡Hábilmente juguete con ella!(Tecnología) [StatCheckPost]",
+                "¡Mira la de vuelta en su lugar!(Allure) [StatCheckPost]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Hold her in place! (Power) [StatCheckPost]",
+            "theScene": [
+                "Intentas reafirmar tu apretada agarre de ella ...",
+                "StatCheck",
+                "Power",
+                "20",
+                "HeldInPlace",
+                "Fail",
+                "BerisEscapes"
+            ]
+        },
+        {
+            "NameOfScene": "HeldInPlace",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Frustrated",
+                "¡Y ella no puede liberarse!",
+                "JumpToScene",
+                "CounteredBerisSexMenu"
+            ]
+        },
+        {
+            "NameOfScene": "Skillfully toy with her! (Tech) [StatCheckPost]",
+            "theScene": [
+                "Pasas tu mano libre a lo largo de su piel suave en una caricia burlona antes de jugar con su clítoris, tratando de someterla con placer ...",
+                "StatCheck",
+                "Technique",
+                "20",
+                "ToyedWith",
+                "Fail",
+                "BerisEscapes"
+            ]
+        },
+        {
+            "NameOfScene": "ToyedWith",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Horny",
+                "¡Y pronto se quedó jadeando y gimiendo en la felicidad impotente!",
+                "JumpToScene",
+                "CounteredBerisSexMenu"
+            ]
+        },
+        {
+            "NameOfScene": "Tease her back into place! (Allure) [StatCheckPost]",
+            "theScene": [
+                "Acaricias suavemente y masajea su cuerpo sensible con tu mano libre mientras empujas suavemente su cálido y apretador coño, tratando de que se relaje de nuevo en tu agarre ...",
+                "StatCheck",
+                "Allure",
+                "20",
+                "Coaxed",
+                "Fail",
+                "BerisEscapes"
+            ]
+        },
+        {
+            "NameOfScene": "Coaxed",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "HornyBiteLip",
+                "¡Y la tensión en el cuerpo de Beris se derrite mientras se pierde momentáneamente ante el placer que le estás dando!",
+                "JumpToScene",
+                "CounteredBerisSexMenu"
+            ]
+        },
+        {
+            "NameOfScene": "BerisEscapes",
+            "theScene": [
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "Beris",
+                "ChangeImageLayer",
+                "Expression",
+                "Tch",
+                "PlayMotionEffect",
+                "Crash",
+                "ChangeImageLayer",
+                "Clothing",
+                "None",
+                "Pero a pesar de sus esfuerzos, eventualmente se las arregla para liberarse de su apretada agarre y escapar de usted con un salto, su rostro aún está muy al ras de excitación mientras se detiene y se detiene para mirar a ti.",
+                "ChangeImageLayer",
+                "Expression",
+                "HornyBiteLip",
+                "FocusedSpeaks",
+                "B-Bastard..."
+            ]
+        },
+        {
+            "NameOfScene": "Let her go.",
+            "theScene": [
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "Beris",
+                "ChangeImageLayer",
+                "Expression",
+                "Shy",
+                "ChangeImageLayer",
+                "Clothing",
+                "None",
+                "Beris se tambalea con lo que suena como un gruñido de decepción, muy jadeando con excitación por unos momentos antes de finalmente arreglar su postura y mirarte.",
+                "ChangeImageLayer",
+                "Expression",
+                "HornyBiteLip",
+                "FocusedSpeaks",
+                "B-Bastard..."
+            ]
+        },
+        {
+            "NameOfScene": "BerisCumsFromReversal",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Orgasm",
+                "ChangeImageLayer",
+                "Face",
+                "BlushHeavy",
+                "PlayMotionEffect",
+                "Crash",
+                "Todo el cuerpo de Beris tembla y tensos en éxtasis calientes mientras la follas implacablemente contra la pared, su intenso clímax se derrite cualquier desafío en su mirada mientras gime desordenadamente con una derrota felices, su mandíbula se afloja y su lengua se extiende por las zorras de.",
+                "FocusedSpeaks",
+                "Ohhhhhoohh !!! ♥♥♥ f-fucckkk- ♥ a-amazhing- ♥ i-it fheels sho gooood- ♥♥♥",
+                "ChangeImageLayer",
+                "Expression",
+                "Horny",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "La mujer de Hell Hound mewls en Euphoria mientras sigues golpeando su coño apretado, el maldito jodido de su cuerpo infernamente caliente que quita una lujuria ardiente en tu núcleo, tu polla palpitando con necesidad dentro de ella cada vez que tu punta se pone en su matriz, su desorden, Slutty gemen que te lleva a ararla cada vez más duro, levantando su cola en la parte trasera, haciéndola chillar en un éxtasis conmocionado.",
+                "ChangeImageLayer",
+                "Expression",
+                "ResistPleasure",
+                "FocusedSpeaks",
+                "Eeek! ♥♥♥ W-Wait, B-Bastard- ♥ HAAAHHH-! ♥ TH-ESE T-TOO- ♥",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "Los pies de Beris flotan a unas pocas pulgadas sobre el suelo mientras la levanta por la cola y la presionan completamente contra la pared, su busto suave y su firme abdominales frotándose contra él, manchándolo con una condensación humeante mientras la usas como tu propia personal.Joder juguete, el calor de su cuerpo te lleva salvaje con lujuria.",
+                "ChangeImageLayer",
+                "Expression",
+                "Orgasm",
+                "PlayMotionEffect",
+                "Crash",
+                "Pronto, su autocontrol se rompe nuevamente, ya que el tratamiento áspero la deja descuidado como una perra necesitada, su boca formando inarticuladamente es un balbuceo mientras la follas implacablemente en un estupor de placer, tus bolas tensas como calientes necesitan pulsos en tu groinDe cada poderoso empuje hacia su coño acogedor, dejándote jadeando y gimiendo junto con ella mientras su agujero apretado funciona con avidez para ordeñar tu longitud.",
+                "FocusedSpeaks",
+                "Ahhhh!-♥ n-no más-! ♥ mnggg- ♥ g-gonna cum de nuevonn-! ♥ ohhhhhhh! ♥",
+                "PlayerOrgasmNoSpiritLoss",
+                "PlayMotionEffect",
+                "Crash",
+                "PlayVisualEffect",
+                "OrgasmPulse",
+                "white.png",
+                "ChangeImageLayer",
+                "SemenSex",
+                "InsertClimax",
+                "El coño brotante de Beris se aprieta con fuerza en su longitud rígida mientras golpeas profundamente en ella nuevamente y vierte indulgentemente una carga gruesa en el infierno que ya llegaba, el interior caliente y masajea de su coño saca más de tu semilla con cada momento que pasa, dejandoAmbos gimen como animales en calor mientras se corren juntos, Beris ahora en su tercer orgasmo consecutivo mientras la llena de semen.",
+                "ChangeImageLayer",
+                "Expression",
+                "Horny",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "ChangeImageLayer",
+                "SemenSex",
+                "Insert",
+                "No hay palabras, ya que ambos caen lentamente al piso jadeando por el aire, los suaves senos de Beris se deslizan por la pared en un espectáculo atractivo antes de que se junten por completo, dejando de lado sus muñecas a favor de aferrarse a los demás por un momento comoustedes se recogen ...",
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "Beris",
+                "ChangeImageLayer",
+                "Expression",
+                "Tch",
+                "ChangeImageLayer",
+                "Clothing",
+                "None",
+                "Una vez que ambos hayan recuperado la respiración, se retiran temblorosamente y se repite mientras Beris mira hacia un lado y resuelve un desafío nervioso.",
+                "ChangeImageLayer",
+                "Expression",
+                "Shy",
+                "ChangeImageLayer",
+                "Face",
+                "BlushHeavy",
+                "FocusedSpeaks",
+                "F-For que- ne-next time- i-i''d voy a patear tu {i} follando {/i} culo ...",
+                "ChangeProgress",
+                "25",
+                "Parece que a pesar de tu victoria y cuánto disfrutó claramente, ella realmente se ha entusiasmado por venganza ...",
+                "IfChoice",
+                "7",
+                "BeatBerisReversal",
+                "DefeatedBeris",
+                "SetChoice",
+                "7",
+                "BeatBerisReversal",
+                "GetEventAndChangeProgress",
+                "Hellhound Bondage",
+                "5",
+                "JumpToScene",
+                "DefeatedBeris"
+            ]
+        },
+        {
+            "NameOfScene": "DefeatedBeris",
+            "theScene": [
+                "DefeatMonster"
+            ]
+        },
+        {
+            "NameOfScene": "EventBroke",
+            "theScene": [
+                "El evento de combate de Beris se rompió."
+            ]
+        }
+    ]
+}

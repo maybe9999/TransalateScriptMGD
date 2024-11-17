@@ -1,0 +1,34 @@
+{
+    "name": "TollLizardsCombat",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Lizard Girl Thug",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Intro",
+            "theScene": [
+                "FocusOnMonster",
+                "1",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusOnMonster",
+                "2",
+                "ChangeImageLayer",
+                "Expression",
+                "LewdDominant",
+                "El dúo de las mujeres lagarto se acerca a ti con una intención lujuriosa ..."
+            ]
+        }
+    ]
+}

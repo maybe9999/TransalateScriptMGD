@@ -1,0 +1,117 @@
+{
+    "name": "GaurdGridAIWhimsy",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ceris",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "WhimsyTimer",
+            "theScene": [
+                "IfGridNPCSeesPlayer",
+                "Range",
+                "2",
+                "EnsuredChase",
+                "IfChoice",
+                "1",
+                "Go",
+                "TimerWhimsy2",
+                "ChangeProgress",
+                "1",
+                "IfProgressEqualsOrGreater",
+                "45",
+                "TimerUp"
+            ]
+        },
+        {
+            "NameOfScene": "TimerUp",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "1",
+                "Go"
+            ]
+        },
+        {
+            "NameOfScene": "TimerWhimsy2",
+            "theScene": [
+                "IfGridNPCSeesPlayer",
+                "Range",
+                "1",
+                "EnsuredChase",
+                "ChangeProgress",
+                "1",
+                "IfProgressEqualsOrGreater",
+                "10",
+                "TimerUpWhimsy"
+            ]
+        },
+        {
+            "NameOfScene": "TimerUpWhimsy",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "JumpToRandomScene",
+                "LooseBounds",
+                "TightenBounds",
+                "TightestBounds",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "LooseBounds",
+            "theScene": [
+                "ChangeGridNPCMovement",
+                "Whimsical",
+                "Player",
+                "15"
+            ]
+        },
+        {
+            "NameOfScene": "TightenBounds",
+            "theScene": [
+                "ChangeGridNPCMovement",
+                "Whimsical",
+                "Player",
+                "10"
+            ]
+        },
+        {
+            "NameOfScene": "TightestBounds",
+            "theScene": [
+                "ChangeGridNPCMovement",
+                "Whimsical",
+                "Player",
+                "5"
+            ]
+        },
+        {
+            "NameOfScene": "EnsuredChase",
+            "theScene": [
+                "ChangeGridNPCMovement",
+                "Chase",
+                "Player"
+            ]
+        },
+        {
+            "NameOfScene": "_Nothing",
+            "theScene": []
+        },
+        {
+            "NameOfScene": "EventBreak",
+            "theScene": [
+                "Evento Broko Whimsy"
+            ]
+        }
+    ]
+}

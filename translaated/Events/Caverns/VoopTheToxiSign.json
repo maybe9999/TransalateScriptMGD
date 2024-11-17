@@ -1,0 +1,24 @@
+{
+    "name": "VoopTheToxiSign",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Toxic Matango",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "¡Este evento solo existe para potencialmente recibir el golpe para el letrero tóxico que desaparece!¡Puede o no funcionar dada la rareza del problema!"
+            ]
+        }
+    ]
+}

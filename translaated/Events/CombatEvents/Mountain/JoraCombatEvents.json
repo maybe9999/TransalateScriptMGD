@@ -1,0 +1,138 @@
+{
+    "name": "JorasCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Jora",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "No Anal",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "No Anal Still",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "No Anal Still",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "No Anal Still",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "SkipPlayerAttack",
+                "Intentas penetrar en la parte trasera del Wurm, pero puede ser fácilmente capaz de superarte con su gran cuerpo serpentino, ¡evita que te respalde!",
+                "E incluso si logras apoyarla, puedes decir que su trasero está cubierto de placas gruesas a escala que casi serían imposibles de pasar ...",
+                "ChangeImageLayer",
+                "Expression",
+                "Joy",
+                "FocusedSpeaks",
+                "'¡Ja!¡Como si dejaría que mi oponente me respalde!"
+            ]
+        },
+        {
+            "NameOfScene": "No Anal Still",
+            "theScene": [
+                "SkipPlayerAttack",
+                "A pesar de la inmovilización de Wurm, no puede meter su eje en su trasero, ya que las placas de escala gruesa están bloqueando el acceso sin forma de alejarlos."
+            ]
+        },
+        {
+            "NameOfScene": "No Penetrate",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "No Penetrate Still",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "No Penetrate Still",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "No Penetrate Still",
+                "SkipPlayerAttack",
+                "Intentas penetrar en el coño de Wurm, pero una placa a escala gruesa lo cubre, ¡y parece que no puedes sacarlo del camino!",
+                "ChangeImageLayer",
+                "Expression",
+                "Joy",
+                "FocusedSpeaks",
+                "'¡Ja!¡Como si fuera lo suficientemente digno como para follar a un dragón poderoso!"
+            ]
+        },
+        {
+            "NameOfScene": "No Penetrate Still",
+            "theScene": [
+                "SkipPlayerAttack",
+                "A pesar de la inmovilización de Wurm, no puede meter su eje en su coño, ya que una placa a escala gruesa está bloqueando el acceso sin una forma obvia de empujarlo a un lado."
+            ]
+        },
+        {
+            "NameOfScene": "No Dildo",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "No Dildo Still",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "No Dildo Still",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "No Dildo Still",
+                "SkipPlayerAttack",
+                "Intentas empujar el consolador al coño de Wurm, pero una placa a escala gruesa lo cubre, ¡y parece que no puedes superarlo!",
+                "FocusedSpeaks",
+                "\"No sé qué tipo de espada es, ¡pero manténgala alejada de allí!\""
+            ]
+        },
+        {
+            "NameOfScene": "No Dildo Still",
+            "theScene": [
+                "SkipPlayerAttack",
+                "A pesar de la inmovilización de Wurm, no puedes llevar el consolador a su coño, ya que una placa a escala gruesa está bloqueando el acceso sin una forma obvia de empujarlo a un lado."
+            ]
+        },
+        {
+            "NameOfScene": "No Suckle",
+            "theScene": [
+                "SkipPlayerAttack",
+                "Te mueves para amamantar sus senos, pero miras las escamas que cubren sus pezones, inseguro de cómo hacerlo realmente."
+            ]
+        },
+        {
+            "NameOfScene": "No Fingering",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "No Fingering Still",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "No Fingering Still",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "No Fingering Still",
+                "SkipPlayerAttack",
+                "Intentas presionar tus dedos en el coño de Wurm, pero una placa a escala gruesa lo cubre, ¡y ni siquiera puedes tratar de burlarte de su clítoris!",
+                "ChangeImageLayer",
+                "Expression",
+                "Tsundere",
+                "FocusedSpeaks",
+                "¡Deja de intentar tocarme allí!"
+            ]
+        },
+        {
+            "NameOfScene": "No Fingering Still",
+            "theScene": [
+                "SkipPlayerAttack",
+                "A pesar de la inmovilización de Wurm, no puedes meter tus dedos en su coño, ya que una placa a escala gruesa está bloqueando el acceso sin una forma obvia de empujarlo a un lado."
+            ]
+        }
+    ]
+}

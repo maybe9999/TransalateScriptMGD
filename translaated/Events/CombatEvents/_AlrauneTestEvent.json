@@ -1,0 +1,248 @@
+{
+    "name": "AlrauneTestEvent",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Alraune",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "AllowInventory",
+                "ClearPlayerStatusEffects",
+                "Menutest no se ha probado.Inventario permitido, estados aclarados.",
+                "Menu",
+                "MenuTest",
+                "Doesn't Have Status Effect - Player",
+                "Has Status Effect - Player",
+                "Status Effect - Monster And OtherMonster",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Has Status Effect - Player",
+            "theScene": [
+                "Salvo rápido aquí, recuerde recargar Jsons si cambia la escena.Aplicar efectos de estado.",
+                "SwapLineIf",
+                "Random",
+                "|f|ApplyStatusEffect|/|Charm|n|",
+                "|f|ApplyStatusEffect|/|Cloying Mist|n||f|ApplyStatusEffect|/|Charm|n|",
+                "EndLoop",
+                "Verificar si tienen un afrodisíaco o encanto",
+                "IfPlayerHasStatusEffect",
+                "RequireAll",
+                "Aphrodisiac",
+                "Charm",
+                "Has Suceed",
+                "No tiene afrodisíaco y encanto.Verificar por afrodisíaco o encanto",
+                "IfPlayerHasStatusEffect",
+                "Aphrodisiac",
+                "Charm",
+                "Has Suceed",
+                "Todos los cheques fallaron."
+            ]
+        },
+        {
+            "NameOfScene": "Has Suceed",
+            "theScene": [
+                "Ha tenido éxito.Volviendo a EventStart.",
+                "JumpToScene",
+                "EventStart"
+            ]
+        },
+        {
+            "NameOfScene": "Doesn't Have Status Effect - Player",
+            "theScene": [
+                "Salvo rápido aquí, recuerde recargar Jsons si cambia la escena.Aplicar efectos de estado.",
+                "SwapLineIf",
+                "Random",
+                "|f|ApplyStatusEffect|/|Charm|n|",
+                "|f|ApplyStatusEffect|/|Cloying Mist|n||f|ApplyStatusEffect|/|Charm|n|",
+                "EndLoop",
+                "Verificar si el jugador no tiene nada de los siguientes: aturdimiento o encanto",
+                "IfPlayerDoesntHaveStatusEffect",
+                "Stun",
+                "Charm",
+                "DoesntHave Succeed",
+                "Fallido.Verificar si el jugador no tiene todo lo siguiente: verificar por aturdimiento y encanto",
+                "IfPlayerDoesntHaveStatusEffect",
+                "RequireAll",
+                "Stun",
+                "Charm",
+                "DoesntHave Succeed",
+                "Todos los cheques fallaron."
+            ]
+        },
+        {
+            "NameOfScene": "DoesntHave Succeed",
+            "theScene": [
+                "No ha tenido éxito.Volviendo al inicio del evento.",
+                "JumpToScene",
+                "EventStart"
+            ]
+        },
+        {
+            "NameOfScene": "Status Effect - Monster And OtherMonster",
+            "theScene": [
+                "IfMonster = Test Imp |Ifothermonster = prueba imp y limo azul",
+                "Menu",
+                "IfMonster Test",
+                "IfOtherMonster Test",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "IfMonster Test",
+            "theScene": [
+                "CombatEncounter",
+                "ImpTest",
+                "StartCombat"
+            ]
+        },
+        {
+            "NameOfScene": "IfOtherMonster Test",
+            "theScene": [
+                "CombatEncounter",
+                "ImpTest",
+                "Blue Slime",
+                "StartCombat"
+            ]
+        },
+        {
+            "NameOfScene": "IsImpingOut",
+            "theScene": [
+                "IfThisMonsterIsInEncounter",
+                "Blue Slime",
+                "IfOtherMonster Begin",
+                "JumpToScene",
+                "IfMonster Begin"
+            ]
+        },
+        {
+            "NameOfScene": "IfMonster Begin",
+            "theScene": [
+                "Cheques por aphro o encanto",
+                "IfMonsterHasStatusEffect",
+                "Charm",
+                "Aphrodisiac",
+                "IfMonster Pass",
+                "Fallido.Cheques solo por encanto",
+                "IfMonsterHasStatusEffect",
+                "Charm",
+                "IfMonster Pass",
+                "El diablillo no tiene encanto."
+            ]
+        },
+        {
+            "NameOfScene": "IfOtherMonster Begin",
+            "theScene": [
+                "Prueba de limo azul por tener afrodisíaco y encanto.",
+                "IfOtherMonsterHasStatusEffect",
+                "Blue Slime",
+                "RequireAll",
+                "Aphrodisiac",
+                "Charm",
+                "OtherMonster Pass",
+                "Fallido.Prueba de Afrodisíaco y encanto",
+                "IfOtherMonsterHasStatusEffect",
+                "Blue Slime",
+                "Aphrodisiac",
+                "Charm",
+                "OtherMonster Pass",
+                "Blue Slime no tiene encanto ni afrodisíaco."
+            ]
+        },
+        {
+            "NameOfScene": "IfMonster Pass",
+            "theScene": [
+                "Ifmonster pasó"
+            ]
+        },
+        {
+            "NameOfScene": "OtherMonster Pass",
+            "theScene": [
+                "Otro Monster pasó"
+            ]
+        },
+        {
+            "NameOfScene": "MenuTest",
+            "theScene": [
+                "DamagePlayerFromMonster",
+                "Imp",
+                "Caress",
+                "FocusedSpeaks",
+                "¡Sorber!¡Debería ser el Imp enfocado!¡Tomaste [FinalDamage] excitación, tonto!",
+                "GiveSkillToMonster",
+                "Caress",
+                "IfMonsterHasSkill",
+                "Caress",
+                "Learned Caress",
+                "EncounterSizeGreaterOrEqualTo",
+                "2",
+                "More than one imp.",
+                "La sola impacto te mira nerviosamente."
+            ]
+        },
+        {
+            "NameOfScene": "Learned Caress",
+            "theScene": [
+                "¡Ja!¡Aprendí caricia!... espera ... eso me hará más débil ..."
+            ]
+        },
+        {
+            "NameOfScene": "More than one imp.",
+            "theScene": [
+                "SkipPlayerAttack",
+                "SetPostName",
+                "- Counter Rape <3",
+                "IfThisMonsterIsInEncounter",
+                "Imp",
+                "Giggling imps.",
+                "La función, maldita sea, falló."
+            ]
+        },
+        {
+            "NameOfScene": "Giggling imps.",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Charm",
+                "NervousImps",
+                "ApplyStance",
+                "Sex",
+                "FocusedSpeaks",
+                "Los Imps te enfrentan rápidamente a la risa del suelo, y uno de ellos monta tu polla.",
+                "IfMonsterHasStance",
+                "Sex",
+                "Riding Imp.",
+                "No detectó otra postura."
+            ]
+        },
+        {
+            "NameOfScene": "NervousImps",
+            "theScene": [
+                "Los otros diablillos miran nerviosos a su compañero enamorado."
+            ]
+        },
+        {
+            "NameOfScene": "Riding Imp.",
+            "theScene": [
+                "El que imprende que te monta alegremente.",
+                "RefocusOnInitialMonster",
+                "ApplyStance",
+                "Besarse",
+                "FocusOnRandomMonster",
+                "ApplyStance",
+                "Anal"
+            ]
+        }
+    ]
+}

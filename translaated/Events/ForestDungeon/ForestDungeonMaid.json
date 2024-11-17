@@ -1,0 +1,63 @@
+{
+    "name": "Forest Dungeon's Maid",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ancilla",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "Después de viajar a través de los caminos retorcidos de la mazmorra, finalmente llegas a una gran puerta de metal recortada de oro.",
+                "También hay una conveniente placa de metal en la puerta que dice 'sala de jefes'.",
+                "ChangeBGM",
+                "music/Caverns/Purple Planet Music - Tense - Melancholia (1_24) 96bpm.mp3",
+                "A medida que comienzas a moverte hacia la puerta, un escalofrío repentino te cae por la columna vertebral cuando una voz monótona resuena en el pasillo.",
+                "IfProgressEqualsOrGreater",
+                "1",
+                "Second Meeting",
+                "ChangeProgress",
+                "1",
+                "Speaks",
+                "Soy Ancilla, la criada de la amante, y nadie debe perturbar su sueño.",
+                "Te das la vuelta para ver la fuente de la voz y, en cambio, ves ... ¿un colchón volando hacia ti?",
+                "Te torces, evitando por poco el ataque con amortiguación por el pánico puro y confundido.",
+                "Jadeando por el esfuerzo, recurres a ver a tu asaltante misterioso.",
+                "DisplayCharacters",
+                "1",
+                "EndLoop",
+                "Su comportamiento está tranquilo y recolectado, y cuando comienza a acercarse, te das cuenta de que no hablarás de esto.",
+                "CombatEncounter",
+                "NoRunning",
+                "Ancilla",
+                "StartCombat"
+            ]
+        },
+        {
+            "NameOfScene": "Second Meeting",
+            "theScene": [
+                "Speaks",
+                "Eres bastante persistente.",
+                "Te das la vuelta para obtener una visual de Ancilla y, en cambio, ves ... ¡un colchón volando hacia ti!",
+                "¡Guerte, evitando por poco el ataque con amortiguación!Mirando a su alrededor, logra localizar su asaltante.",
+                "DisplayCharacters",
+                "1",
+                "EndLoop",
+                "Su comportamiento está tranquilo y recolectado, y cuando comienza a acercarse, te das cuenta de que no hablarás de esto.",
+                "CombatEncounter",
+                "NoRunning",
+                "Ancilla",
+                "StartCombat"
+            ]
+        }
+    ]
+}

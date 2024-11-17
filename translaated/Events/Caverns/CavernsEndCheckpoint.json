@@ -1,0 +1,37 @@
+{
+    "name": "Caverns End Checkpoint",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Perpetua",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "ChangeBGM",
+                "music/Caverns/Stalwick_-_Dreaming.mp3",
+                "ChangeBG",
+                "dungeon.png",
+                "Mientras te diriges por el túnel, te das cuenta de que no es como las cavernas antes que él, todo esto es perfectamente suave, claramente artificial, pero envejecido y agrietado, y los ladrillos están hechos de una piedra negra casi titular, pero todo parece poco iluminado a pesar de que nofuente de luz notable.",
+                "A pesar de escuchar la risa de Perpetua, aún resonando desde adelante, se detiene mientras ve un alcoba considerable en la pared, efectivamente un camino lateral con un extremo muerto de inmediato, donde una gran joya azul está flotando suavemente en el aire.Y tocas ansiosamente la gran gema, no queriendo tener que viajar a través de las cavernas para volver aquí.",
+                "Tocas la gema flotante y sientes una oleada de flujo mágico a través de ti cuando una pequeña piedra preciosa azul se materializa en tu otra mano, y dejas escapar un suspiro de alivio de la manera fácil aquí y de regreso.",
+                "GiveItem",
+                "1",
+                "Labyrinth Checkpoint Gem",
+                "Sacas tu grimoire, decidiendo regresar a la ciudad para preparar antes de lo que sea después, colocando la gema del punto de control en una toma de la cubierta delantera primero, una luz mágica suave emana del grimoire mientras hace clic en ella.",
+                "Luego regresas a la ciudad, bastante seguro de que Perpetua te estará esperando antes cuando regreses, y notas de forma inactualizada de su risa se ha detenido, ya sea debido a la distancia o alguna otra razón ...",
+                "AdventureComplete",
+                "Delve the Caverns"
+            ]
+        }
+    ]
+}

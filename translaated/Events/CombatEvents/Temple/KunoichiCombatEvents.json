@@ -1,0 +1,1145 @@
+{
+    "name": "KunoichiCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Kunoichi",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Intro",
+            "theScene": [
+                "SetChoice",
+                "1",
+                "",
+                "SetChoice",
+                "2",
+                "",
+                "ChoiceToDisplayMonster",
+                "4",
+                "IfHasFetish",
+                "Feet",
+                "GiveFootSkill",
+                "IfChoice",
+                "3",
+                "AmbushFight",
+                "GiveSexSkill",
+                "JumpToScene",
+                "TempleClones"
+            ]
+        },
+        {
+            "NameOfScene": "GiveFootSkill",
+            "theScene": [
+                "GiveSkillToMonster",
+                "Ninja Art: Bowing the Mountain",
+                "GiveSkillToMonster",
+                "Ninja Art: Bowing the Mountain",
+                "IfChoice",
+                "3",
+                "AmbushFight",
+                "GiveSexSkill",
+                "JumpToScene",
+                "TempleClones"
+            ]
+        },
+        {
+            "NameOfScene": "GiveSexSkill",
+            "theScene": [
+                "GiveSkillToMonster",
+                "Ninja Art: Eternal Love Kick",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "[DisplayMonsterChoice] se mete en una postura de combate exótica con una sonrisa finamente velada.",
+                "IfPlayerHasStance",
+                "Sex",
+                "GiveSexSkillContinued"
+            ]
+        },
+        {
+            "NameOfScene": "GiveSexSkillContinued",
+            "theScene": [
+                "ChangeArousalQuietly",
+                "25",
+                "El coño de [DisplayMonsterChoice] aprieta ligeramente su eje a medida que se mueve, y estás obligado a sofocar un gemido mientras te preparas para combatirte."
+            ]
+        },
+        {
+            "NameOfScene": "TempleClones",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "Sin embargo, antes de que pueda tomarse un momento para prepararse para el combate, ¡Shizu de repente salta hacia atrás antes de levantar las manos en una oleada de letreros de mano rápidos y extraños!",
+                "FocusedSpeaks",
+                "Arte ninja prohibido: ¡Sombra Harem!",
+                "Una gran explosión de humo explota repentinamente, envuelve a Shizu y bloqueándola de su vista, y como se aclara ...",
+                "AddMonsterToEncounter",
+                "ShizuClone",
+                "AddMonsterToEncounter",
+                "ShizuClone",
+                "ShuffleMonsterEncounter",
+                "FocusOnMonster",
+                "1",
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "FocusOnMonster",
+                "2",
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "FocusOnMonster",
+                "3",
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "¡Tres shizus perfectamente idénticos se encuentran ante ti, todos los llamativos combates eróticos se posan mientras se reían oscuramente de su expresión estupefitada antes de comenzar a hablar al unísono!",
+                "FocusedSpeaks",
+                "Ahora ... ¿puedes decir cuál es el verdadero yo?Hmhmhm ...",
+                "FocusOnMonster",
+                "1",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "FocusOnMonster",
+                "2",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "FocusOnMonster",
+                "3",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "Todas sus acciones son tan similares que ni siquiera puede comenzar a distinguirlas, pero no se le da un momento más para pensar, ya que todos se pavonalan hacia usted con sonrisas poco veladas ..."
+            ]
+        },
+        {
+            "NameOfScene": "CloneDefeated",
+            "theScene": [
+                "IfChoice",
+                "3",
+                "TempleFight",
+                "AddClone",
+                "JumpToScene",
+                "DoRestOfEndOfRoundCounterChecks"
+            ]
+        },
+        {
+            "NameOfScene": "AddClone",
+            "theScene": [
+                "EncounterSizeLessOrEqualTo",
+                "1",
+                "AddCloneSolo",
+                "SetChoice",
+                "1",
+                "",
+                "SetChoice",
+                "2",
+                "",
+                "ResumeMonsterAttack",
+                "Con uno de los clones de Shizu desaparecidos, los dos restantes Shizu comparten una mirada antes de levantar las manos para hacer una oleada idéntica de signos de mano rápidos y extraños, y en un momento están envueltos por una repentina explosión de humo.",
+                "AddMonsterToEncounter",
+                "ShizuClone",
+                "ShuffleMonsterEncounter",
+                "FocusOnMonster",
+                "1",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "FocusOnMonster",
+                "2",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "FocusOnMonster",
+                "3",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "Una vez que el humo se limpia, hay tres shizu una vez más, y todos simultáneamente te muestran tres sonrisas idénticas finamente veladas ...",
+                "RefocusOnInitialMonster",
+                "JumpToScene",
+                "DoRestOfEndOfRoundCounterChecks"
+            ]
+        },
+        {
+            "NameOfScene": "AddCloneSolo",
+            "theScene": [
+                "SetChoice",
+                "1",
+                "",
+                "SetChoice",
+                "2",
+                "",
+                "ResumeMonsterAttack",
+                "ChangeImageLayer",
+                "Expression",
+                "Caring",
+                "A medida que los dos clones de Shizu desaparecen, el shizu indudablemente real te muestra una sonrisa engreída, pero ligeramente impresionada.",
+                "FocusedSpeaks",
+                "HMHMHM ... te las arreglaste para soltarme.Buen trabajo.¡Pero todavía no he terminado!",
+                "Shizu levanta las manos en una ráfaga de señales de mano extrañas y rápidas antes de que puedas hacer algo, y en unos momentos está envuelto por una repentina explosión de humo.",
+                "AddMonsterToEncounter",
+                "ShizuClone",
+                "AddMonsterToEncounter",
+                "ShizuClone",
+                "ShuffleMonsterEncounter",
+                "FocusOnMonster",
+                "1",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "FocusOnMonster",
+                "2",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "FocusOnMonster",
+                "3",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "Una vez que el humo se limpia, hay tres shizu una vez más, y todos simultáneamente te muestran tres sonrisas idénticas finamente veladas ..."
+            ]
+        },
+        {
+            "NameOfScene": "ShizuLost",
+            "theScene": [
+                "IfChoice",
+                "3",
+                "TempleFight",
+                "RemoveClones"
+            ]
+        },
+        {
+            "NameOfScene": "RemoveClones",
+            "theScene": [
+                "DefeatMonster",
+                "Mientras Shizu grita en la dicha orgásmica, ¡sus clones desaparecen en una bocanada de humo!",
+                "ClearFightForVictory",
+                "EndCombat"
+            ]
+        },
+        {
+            "NameOfScene": "Titty Counter Call",
+            "theScene": [
+                "IfChoice",
+                "3",
+                "TempleFight",
+                "Titty Temptation",
+                "SetChoice",
+                "1",
+                "CounterCheckEndTurn"
+            ]
+        },
+        {
+            "NameOfScene": "EndOfRoundCounterCheck",
+            "theScene": [
+                "EncounterSizeLessOrEqualTo",
+                "2",
+                "CloneDefeated",
+                "JumpToScene",
+                "DoRestOfEndOfRoundCounterChecks"
+            ]
+        },
+        {
+            "NameOfScene": "DoRestOfEndOfRoundCounterChecks",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "Remove Counter Checks",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "Remove Counter Checks",
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "Remove Counter Checks",
+                "IfChoice",
+                "2",
+                "set de mostrador",
+                "CounterEnd",
+                "IfChoice",
+                "2",
+                "Countered!",
+                "ResumeFight",
+                "IfChoice",
+                "1",
+                "CounterCheckEndTurn",
+                "CounterSetCheck"
+            ]
+        },
+        {
+            "NameOfScene": "Remove Counter Checks",
+            "theScene": [
+                "SetChoice",
+                "1",
+                "",
+                "SetChoice",
+                "2",
+                "",
+                "ResumeMonsterAttack"
+            ]
+        },
+        {
+            "NameOfScene": "CounterSetCheck",
+            "theScene": [
+                "SetChoice",
+                "1",
+                "",
+                "IfMonsterHasStance",
+                "Any",
+                "DoAttack",
+                "SetChoice",
+                "2",
+                "set de mostrador",
+                "SkipMonsterAttack",
+                "ChangeImageLayer",
+                "Base",
+                "Aura",
+                "ChangeImageLayer",
+                "Expression",
+                "SinisterGlow",
+                "Los ojos de [DisplayMonsterChoice] de repente brillaron un púrpura siniestro mientras se encierran en el tuyo, y ella se queda misteriosamente en una pose combativa rígida mientras te mira ..."
+            ]
+        },
+        {
+            "NameOfScene": "DoAttack",
+            "theScene": [
+                "CallMonsterAttack"
+            ]
+        },
+        {
+            "NameOfScene": "CounterEnd",
+            "theScene": [
+                "SetChoice",
+                "2",
+                "",
+                "ResumeMonsterAttack",
+                "ChangeImageLayer",
+                "Base",
+                "Base",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "[DisplayMonsterChoice] Deja escapar una risa cuando comienza a moverse una vez más, cambiando su peso de pie a pie mientras se prepara para el combate nuevamente, y no puedes evitar notar que el brillo siniestro ha dejado sus ojos."
+            ]
+        },
+        {
+            "NameOfScene": "ResumeFight",
+            "theScene": [
+                "SetChoice",
+                "2",
+                "",
+                "ResumeMonsterAttack"
+            ]
+        },
+        {
+            "NameOfScene": "CallCounterAttack",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "Remove Counter Checks",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "Remove Counter Checks",
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "Remove Counter Checks",
+                "IfChoice",
+                "2",
+                "set de mostrador",
+                "Counter attack paizuri!"
+            ]
+        },
+        {
+            "NameOfScene": "Counter attack paizuri!",
+            "theScene": [
+                "SetChoice",
+                "2",
+                "Countered!",
+                "SkipPlayerAttack",
+                "ChangeImageLayer",
+                "Base",
+                "Base",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "Sin embargo, tan pronto como intentas moverte, [DisplayMonsterChoice] de repente desaparece en una bocanada de humo, cegándote momentáneamente mientras intentas averiguar a dónde acaba de ir.",
+                "ApplyStance",
+                "Titfuck",
+                "SetAttack",
+                "Ninja Art: Draining Waves",
+                "HitPlayerWith",
+                "Ninja Art: Draining Waves",
+                "¡Jadeas mientras sientes abruptamente la sensación de carne cálida envuelta alrededor de tu polla, y miras hacia abajo para verla apretar y masajear tu eje con sus senos con movimientos lentos y circulares! [DamageToPlayer]",
+                "ChangeEnergyQuietly",
+                "-25",
+                "HitPlayerWith",
+                "Ninja Art: Draining Waves",
+                "ChangeImageLayer",
+                "Base",
+                "Aura",
+                "ChangeImageLayer",
+                "Expression",
+                "SinisterGlow",
+                "Mueves tus manos e instintivamente tratas de alejarla, pero antes de que puedas hacer algo, presiona su pecho juntos mientras un brillo púrpura pulsa de su cuerpo, y gime cuando tu energía te deja en un instante, dejándola empujar fácilmenteEstás en tu espalda mientras acaricia tu palidez de la paliza con sus suaves tetas cubiertas de seda, drenando 25 energía. [DamageToPlayer]",
+                "ChangeImageLayer",
+                "Base",
+                "Base"
+            ]
+        },
+        {
+            "NameOfScene": "Titty Temptation",
+            "theScene": [
+                "EncounterSizeLessOrEqualTo",
+                "2",
+                "AbortBoobaTemple",
+                "FocusOnMonster",
+                "1",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "FocusOnMonster",
+                "2",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "FocusOnMonster",
+                "3",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "Shizu y sus clones comienzan a acariciar lenta y sensualmente sus propios cuerpos, enfocándose principalmente en sus senos ya que su carne suave apenas permanece escondida detrás de sus atuendos herméticos mientras los miras, completamente paralizados por su excitante exhibición.",
+                "RefocusOnInitialMonster",
+                "ChangeImageLayer",
+                "Expression",
+                "Caring",
+                "Mientras miras, uno de los Shizus se pone de rodillas y te da una mirada sensual, jugando en broma con sus tetas curvas mientras te sonríe seductoramente a través de su FaceMask.",
+                "FocusedSpeaks",
+                "Ven aquí [ThePlayerName], ♥ Déjame cuidar esa erección palpitante tuya con un sensual, amoroso, Paizuri. ♥",
+                "HitPlayerWith",
+                "Ninja Art: Sensual Tease",
+                "Ella aprieta y sacude su delicioso cofre ante tus propios ojos, haciendo que tu polla palpara poderosamente en respuesta a su atractiva oferta. [DamageToPlayer]",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "100",
+                "MaxFetishTemptationBreasts",
+                "Menu",
+                "Approach.",
+                "Ignore.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "AbortBoobaTemple",
+            "theScene": [
+                "CallMonsterAttack"
+            ]
+        },
+        {
+            "NameOfScene": "Approach.",
+            "theScene": [
+                "SkipPlayerAttack",
+                "ApplyStance",
+                "Titfuck",
+                "HitPlayerWith",
+                "Ninja Art: Draining Waves",
+                "ChangeImageLayer",
+                "Expression",
+                "Sinister",
+                "Caminas ansiosamente hacia adelante y sumerges tu virilidad entre el escote de la espera de Shizu, y ella no pierde el tiempo mientras comienza a frotar tu polla con los senos con movimientos lentos y circulares mientras se ríe lasci. [DamageToPlayer]",
+                "ChangeEnergyQuietly",
+                "-25",
+                "HitPlayerWith",
+                "Ninja Art: Draining Waves",
+                "ChangeImageLayer",
+                "Expression",
+                "DominantGlow",
+                "ChangeImageLayer",
+                "Base",
+                "Aura",
+                "Un jadeo escapa de tus labios mientras presiona su pecho juntos mientras un brillo morado sale de su cuerpo, y gime mientras tu energía te deja en un instante, dejándola empujarte fácilmente sobre tu espalda mientras acaricia tu virilidad palpitante con ella suave,Tetas cubiertas de seda.",
+                "ChangeImageLayer",
+                "Base",
+                "Base",
+                "Te tiemblas en el suelo mientras el primer shizu continúa apretando y acariciando tu eje, y por el aspecto de los otros caras de Shizu, no van a perder ningún tiempo uniéndose a la diversión ..."
+            ]
+        },
+        {
+            "NameOfScene": "Ignore.",
+            "theScene": [
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "75",
+                "HardestBreastCheck",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "50",
+                "HarderBreastCheck",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "25",
+                "BreastCheck",
+                "JumpToScene",
+                "Ignored."
+            ]
+        },
+        {
+            "NameOfScene": "BreastCheck",
+            "theScene": [
+                "Intentas ignorar su oferta, pero tu lujuria por los senos está dificultando rechazarla ...",
+                "StatCheck",
+                "Temptation",
+                "15",
+                "Ignored.",
+                "Fail",
+                "Approach."
+            ]
+        },
+        {
+            "NameOfScene": "HarderBreastCheck",
+            "theScene": [
+                "Intentas ignorar su tentadora oferta, pero tu amor por los senos es hacer que tu cuerpo duele por el suave abrazo de su escote alrededor de tu virilidad ...",
+                "StatCheck",
+                "Temptation",
+                "20",
+                "Ignored.",
+                "Fail",
+                "Approach."
+            ]
+        },
+        {
+            "NameOfScene": "HardestBreastCheck",
+            "theScene": [
+                "Incluso cuando decides ignorar su oferta, descubres que ya has dado un paso hacia ella, apenas logrando detenerte mientras intentas luchar contra tu obsesión con los senos ...",
+                "StatCheck",
+                "Temptation",
+                "25",
+                "Ignored.",
+                "Fail",
+                "Approach."
+            ]
+        },
+        {
+            "NameOfScene": "MaxFetishTemptationBreasts",
+            "theScene": [
+                "Menu",
+                "Titfuck.♥ Titfuck.♥ Titfuck.♥ Titfuck.♥ Titfuck.♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Titfuck.♥ Titfuck.♥ Titfuck.♥ Titfuck.♥ Titfuck.♥",
+            "theScene": [
+                "SkipPlayerAttack",
+                "ApplyStance",
+                "Titfuck",
+                "HitPlayerWith",
+                "Ninja Art: Draining Waves",
+                "ChangeImageLayer",
+                "Expression",
+                "Sinister",
+                "Incapaz de arrancarle la mirada de sus tetas inmensamente atractivas o pensar en otra cosa que no sea el intenso deseo de sentir que presionan contra su polla, caminas ansiosamente hacia adelante y sumerges tu dolor de virilidad entre su suave escote, y gemirás mientras no pierde tiempoAl frotar tu polla con los senos en movimientos lentos y circulares. [DamageToPlayer]",
+                "ChangeEnergyQuietly",
+                "-25",
+                "HitPlayerWith",
+                "Ninja Art: Draining Waves",
+                "ChangeImageLayer",
+                "Expression",
+                "DominantGlow",
+                "ChangeImageLayer",
+                "Base",
+                "Aura",
+                "Ni siquiera intentas suprimir tu jadeo feliz mientras presiona su pecho juntos mientras un brillo púrpura pulsa de su cuerpo, y felizmente gemirte mientras tu energía te deja en un instante, dejándola empujarte fácilmente mientras acareaTu palidez palpitante con sus suaves tetas cubiertas de seda, drenando 25 energía. [DamageToPlayer]",
+                "ChangeImageLayer",
+                "Base",
+                "Base",
+                "Estás babeando felizmente en el suelo del delicioso placer de los primeros senos del shizu alrededor de tu polla, y sientes un escalofrío de deleite anticipatorio ya que los otros Shizu parecen que no van a perder ningún tiempo uniéndote en la diversión..."
+            ]
+        },
+        {
+            "NameOfScene": "Ignored.",
+            "theScene": [
+                "Se las arregla con seguridad para arrancar su mirada del tentador cofre de Shizu, y ella vuelve a sus pies con una risa siniestra."
+            ]
+        },
+        {
+            "NameOfScene": "FaceStepTemptation",
+            "theScene": [
+                "IfFetishLevelEqualOrGreater",
+                "Feet",
+                "100",
+                "MaxFetishTemptation",
+                "Te dejan aturdido mientras el aroma intoxicante extiende lentamente una bruma feliz en tu mente, tu boca de agua con la necesidad de saborear la fuente de la fragancia exótica ...",
+                "Menu",
+                "Worship...",
+                "Get away!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Get away!",
+            "theScene": [
+                "IfFetishLevelEqualOrGreater",
+                "Feet",
+                "75",
+                "HardestFootCheck",
+                "Intentas alejarte de su talón dominante, pero te resulta difícil motivarse como una voz persistente en el fondo de tu mente es susurrar que debes quedarte aquí y adorar su maravilloso pie ...",
+                "IfFetishLevelEqualOrGreater",
+                "Feet",
+                "50",
+                "HarderFootCheck",
+                "StatCheck",
+                "Temptation",
+                "15",
+                "Got away!",
+                "Fail",
+                "Worship..."
+            ]
+        },
+        {
+            "NameOfScene": "HarderFootCheck",
+            "theScene": [
+                "StatCheck",
+                "Temptation",
+                "20",
+                "Got away!",
+                "Fail",
+                "Worship..."
+            ]
+        },
+        {
+            "NameOfScene": "HardestFootCheck",
+            "theScene": [
+                "¡Contemplas débilmente tratar de alejarse de su tacón dominante, pero la necesidad de quedarte donde estás y simplemente adorar su maravilloso pie te domina por completo!",
+                "StatCheck",
+                "Temptation",
+                "25",
+                "Got away!",
+                "Fail",
+                "Worship..."
+            ]
+        },
+        {
+            "NameOfScene": "MaxFetishTemptation",
+            "theScene": [
+                "Te dejan aturdido cuando el aroma intoxicante extiende lentamente una bruma feliz por tu cerebro, tu boca de agua con la necesidad de saborear la fuente de la fragancia exótica, tu mente adicta al pie dejó hueco, excepto por la necesidad de adorarla ...",
+                "Menu",
+                "Worship!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Worship!",
+            "theScene": [
+                "HitPlayerWith",
+                "Ninja Art: Bowing the Mountain",
+                "Estás tan completamente tomado por tu fetiche para los pies, ya que el maravilloso aroma picante de sus calcetines de seda infecta tu cerebro que comienzas a besar y lamer felizmente en las plantas de [DisplayMonsterChoice] sin pensarlo, para su diversión mientras se ríe mientras se ríe mientras se ríeA ti. [DamageToPlayer]",
+                "JumpToScene",
+                "Toppling the mountain."
+            ]
+        },
+        {
+            "NameOfScene": "Got away!",
+            "theScene": [
+                "Logras retroceder lejos de su pie agradablemente perfumado, y [DisplayMonsterChoice] te da una risa misteriosa cuando ella levanta la pierna y vuelve a deslizar sus tumbas de metal con facilidad practicada."
+            ]
+        },
+        {
+            "NameOfScene": "Worship...",
+            "theScene": [
+                "HitPlayerWith",
+                "Ninja Art: Bowing the Mountain",
+                "Empiezas a lamer y besar a la suela de seda del pie de [DisplayMonsterChoice] con intensidad sin sentido mientras su aroma picante invade y abruma sin esfuerzo tu cerebro ... [DamageToPlayer]",
+                "JumpToScene",
+                "Toppling the mountain."
+            ]
+        },
+        {
+            "NameOfScene": "Toppling the mountain.",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "SkipPlayerAttack",
+                "HitPlayerWith",
+                "Ninja Art: Bowing the Mountain",
+                "Te tiemblas con un deleite irreflexivo mientras presiona su pie sobre tu cara, y tus rodillas comienzan a debilitarse mientras respiras más profundamente su fragancia cada vez más potente. [DamageToPlayer]",
+                "HitPlayerWith",
+                "Ninja Art: Bowing the Mountain",
+                "Ella empuja su pie más hacia su cara con movimientos suaves y molidos, y fácilmente caes de rodillas con un suspiro feliz mientras tiemblas de placer. [DamageToPlayer]",
+                "HitPlayerWith",
+                "Ninja Art: Grinding Step",
+                "[DisplayMonsterChoice] permite que su talón descanse en tu rostro por unos momentos más tiempo antes de seguirlo sensualmente por tu cuerpo hasta que alcanza tu ingle, y dejas escapar un jadeo de placer sin sentido mientras comienza a acariciar firmemente tu rígida virilidad con su pie almacenado. [DamageToPlayer]",
+                "Menu",
+                "Feels so good...",
+                "Need to... Get away!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Need to... Get away!",
+            "theScene": [
+                "IfFetishLevelEqualOrGreater",
+                "Feet",
+                "75",
+                "HardestFootCheck2",
+                "Intentas alejarte de sus pies burlones, pero una voz persistente en la parte posterior de tu mente te dice que simplemente te relajes y disfruten de su hábil trabajo de pies ...",
+                "IfFetishLevelEqualOrGreater",
+                "Feet",
+                "50",
+                "HarderFootCheck2",
+                "StatCheck",
+                "Temptation",
+                "15",
+                "Escaped!",
+                "Fail",
+                "Feels so good..."
+            ]
+        },
+        {
+            "NameOfScene": "HarderFootCheck2",
+            "theScene": [
+                "StatCheck",
+                "Temptation",
+                "20",
+                "Escaped!",
+                "Fail",
+                "Feels so good..."
+            ]
+        },
+        {
+            "NameOfScene": "HardestFootCheck2",
+            "theScene": [
+                "¡Contemplas débilmente tratar de alejarse de su pie burlón, pero el gran placer que le está dando a Footjob de fusión mental está haciendo que tu cabeza se quede en blanco, ya que casi domina tus pensamientos!",
+                "StatCheck",
+                "Temptation",
+                "25",
+                "Escaped!",
+                "Fail",
+                "Feels so good..."
+            ]
+        },
+        {
+            "NameOfScene": "Escaped!",
+            "theScene": [
+                "Logras que te juntas el tiempo suficiente para empujar su pie exquisitamente hábil de tu eje y tirarte a tus pies, y [DisplayMonsterChoice] suelta una risa misteriosa mientras levanta la pierna y vuelve a poner las tumbas de metal con facilidad practicada,absorbiendo el precum que dejaste en su pie con un brillo morado."
+            ]
+        },
+        {
+            "NameOfScene": "Feels so good...",
+            "theScene": [
+                "JumpToRandomScene",
+                "FootStroking",
+                "CockHeadTease",
+                "GentleStepping",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "FootStroking",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Sinister",
+                "HitPlayerWith",
+                "Ninja Art: Grinding Step",
+                "Ella acaricia firmemente tu dolor de polla con la suela de su pie sedoso, enviando cálidas felices corriendo a través de tus caderas. [DamageToPlayer]",
+                "HitPlayerWith",
+                "Ninja Art: Grinding Step",
+                "Su movimiento de burlas hace que se sienta como si tu cerebro esté goteando directamente de tu palidez virgen, y solo puedes temblar en el suelo con un placer con una sonrisa tonta mientras se mueve. [DamageToPlayer]",
+                "IfChoice",
+                "3",
+                "TempleFight",
+                "FootStrokingWithClones",
+                "IfPlayerOrgasm",
+                "FootStroking Orgasm",
+                "JumpToScene",
+                "RandomFootTease"
+            ]
+        },
+        {
+            "NameOfScene": "FootStrokingWithClones",
+            "theScene": [
+                "EncounterSizeLessOrEqualTo",
+                "2",
+                "FootStrokingWithClone",
+                "HitPlayerWith",
+                "Ninja Art: Bowing the Mountain",
+                "El otro shizus se ríe mientras aprovechan su distracción para presionar sus propios pies en su cara, frotando suavemente y presionando hacia abajo sobre él mientras el aroma intensamente picante de sus suelas combinado con el maravillosamente agradable trabajo de pie hace que su mente parpadee y se quede en blanco por unPocos momentos. [DamageToPlayer]",
+                "IfPlayerOrgasm",
+                "FootStroking Orgasm",
+                "JumpToScene",
+                "RandomFootTease"
+            ]
+        },
+        {
+            "NameOfScene": "FootStrokingWithClone",
+            "theScene": [
+                "EncounterSizeLessOrEqualTo",
+                "1",
+                "FootStrokingOrgasmCheck",
+                "HitPlayerWith",
+                "Ninja Art: Bowing the Mountain",
+                "El otro Shizu se ríe mientras aprovecha su distracción para presionar sus propios pies en su cara, frotando suavemente y presionando hacia abajo sobre él mientras el aroma intensamente picante de sus suelas combinados con el maravillosamente agradable trabajo de pie hace que su mentalidad parpadee y se quede en blanco por unPocos momentos. [DamageToPlayer]",
+                "IfPlayerOrgasm",
+                "FootStroking Orgasm",
+                "JumpToScene",
+                "RandomFootTease"
+            ]
+        },
+        {
+            "NameOfScene": "FootStrokingOrgasmCheck",
+            "theScene": [
+                "IfPlayerOrgasm",
+                "FootStroking Orgasm",
+                "JumpToScene",
+                "RandomFootTease"
+            ]
+        },
+        {
+            "NameOfScene": "FootStroking Orgasm",
+            "theScene": [
+                "PlayerOrgasm",
+                "1",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "[DisplayMonsterChoice] acelera su acariciamiento con una hábil gracia mientras sientes que te empujan sobre el borde o el orgasmo hasta que finalmente lloras cuando el placer electrizante aumenta a través de ti, estremeciéndote mientras tu polla sacrificada se calienta en todo el pie y la pierna.",
+                "Ella deja escapar una risa baja mientras detiene sus movimientos burlones para un breve momento para absorber tu semen con un brillo de magia morada antes de hacerte temblar mientras comienza a burlarse de tu sensible virilidad con su pie una vez más.",
+                "JumpToScene",
+                "RandomFootOrgasmTease"
+            ]
+        },
+        {
+            "NameOfScene": "CockHeadTease",
+            "theScene": [
+                "HitPlayerWith",
+                "Ninja Art: Grinding Step",
+                "ChangeImageLayer",
+                "Expression",
+                "Caring",
+                "Los dedos ágiles de [DisplayMonsterChoice] comienzan a bailar alrededor de la cabeza de tu polla, enviando tornillos de placer temblorosos a través de tus caderas como la suave sensación de sus calcetines de seda hace que los círculos suaves que hace alrededor de tu punta se sienta infinitamente más placentero. [DamageToPlayer]",
+                "HitPlayerWith",
+                "Ninja Art: Grinding Step",
+                "Ella golpea suavemente la punta sensible y sacudida de tu polla con los dedos de los pies, forzando un jadeo de tus labios, tu polla comienza a filtrarse con el calcetín a tiempo con sus burlas. [DamageToPlayer]",
+                "IfChoice",
+                "3",
+                "TempleFight",
+                "CockHeadTeaseWithClones",
+                "IfPlayerOrgasm",
+                "CockHeadTease Orgasm",
+                "JumpToScene",
+                "RandomFootTease"
+            ]
+        },
+        {
+            "NameOfScene": "CockHeadTeaseWithClones",
+            "theScene": [
+                "EncounterSizeLessOrEqualTo",
+                "2",
+                "RandomFootTease",
+                "HitPlayerWith",
+                "Ninja Art: Bowing the Mountain",
+                "Uno de los otros shizu presiona sus dedos de los pies contra los labios, y estás demasiado tomado para disfrutar incluso de pensar en resistirla a medida que comienzas a lamerlos y chuparlos sin pensar, saboreando su sabor picante mientras el Shizu restante presiona su pie directamentesobre tu nariz, forzándote a respirar la fragancia alucinante de su suela. [DamageToPlayer]",
+                "IfPlayerOrgasm",
+                "CockHeadTease Orgasm",
+                "JumpToScene",
+                "RandomFootTease"
+            ]
+        },
+        {
+            "NameOfScene": "CockHeadTease Orgasm",
+            "theScene": [
+                "PlayerOrgasm",
+                "1",
+                "ChangeImageLayer",
+                "Expression",
+                "Sinister",
+                "La intensa estimulación a la cabeza de su virilidad resulta demasiado para soportar como los dedos de los dedos de [DisplayMonsterChoice] bailan a su alrededor con precisión hábil, y lloras con felicidad mientras cubres su pie con tu semilla.",
+                "Ella deja escapar una risa baja mientras cambia el pie hacia abajo para acariciar suavemente tu polla sacudida, obteniendo algunos chorros finales de tu semen antes de absorberlo todo con un brillo de magia púrpura y continúa burlándose de tu eje sensible una vez una vezmás.",
+                "JumpToScene",
+                "RandomFootOrgasmTease"
+            ]
+        },
+        {
+            "NameOfScene": "GentleStepping",
+            "theScene": [
+                "HitPlayerWith",
+                "Ninja Art: Grinding Step",
+                "ChangeImageLayer",
+                "Expression",
+                "Caring",
+                "[DisplayMonsterChoice] cuidadosamente pone más peso en su pierna mientras se muele el pie mediante la polla palpitante, y la textura de la tela presionando contra usted solo se suma a las sensaciones maravillosamente burlona que su talón dominante está enviando a través de usted. [DamageToPlayer]",
+                "HitPlayerWith",
+                "Ninja Art: Grinding Step",
+                "Ella cuidadosamente mira tu cara para ver tus reacciones mientras pisa tu polla con más fuerza con más fuerza, haciéndote gemir para deleite del calor pulsante que irradia desde tu eje. [DamageToPlayer]",
+                "IfChoice",
+                "3",
+                "TempleFight",
+                "GentleSteppingWithClones",
+                "IfPlayerOrgasm",
+                "GentleStepping Orgasm",
+                "JumpToScene",
+                "RandomFootTease"
+            ]
+        },
+        {
+            "NameOfScene": "GentleSteppingWithClones",
+            "theScene": [
+                "EncounterSizeLessOrEqualTo",
+                "2",
+                "RandomFootTease",
+                "HitPlayerWith",
+                "Ninja Art: Bowing the Mountain",
+                "Pero tus gemidos se cortan inmediatamente cuando los otros dos Shizu pisan enérgicamente tu cara al unísono, amortiguando tu voz mientras te ves obligado a respirar en la fragancia picante y mental de sus pies de seda. [DamageToPlayer]",
+                "IfPlayerOrgasm",
+                "GentleStepping Orgasm",
+                "JumpToScene",
+                "RandomFootTease"
+            ]
+        },
+        {
+            "NameOfScene": "GentleStepping Orgasm",
+            "theScene": [
+                "PlayerOrgasm",
+                "1",
+                "ChangeImageLayer",
+                "Expression",
+                "Sinister",
+                "[DisplayMonsterChoice] aumenta lentamente el peso detrás de su talón a medida que la dicha ligeramente dolorosa se vuelve más fuerte y más fuerte hasta que te encuentres temblando en el borde del orgasmo, y con el más mínimo y suave batido de su pie, [DisplayMonsterChoice] te envía a una caída en unClimax alucinante, intensamente poderoso.",
+                "Jadeando y gimiendo en éxtasis, brotas cuerdas gruesas de semen por todo el pie y la pierna, que [DisplayMonsterChoice] absorbe fácilmente con un brillo de magia púrpura, dejando fuera una risa sensual mientras ella te sonríe.",
+                "HitPlayerWith",
+                "Ninja Art: Grinding Step",
+                "Incluso antes de que se le dé un momento para tratar de recuperarse, [DisplayMonsterChoice] muele su pie hacia abajo sobre su polla aún más agitada una vez más, lo que te hace espasmo en el suelo mientras se sacuden el placer postorgásmico a través de tu cuerpo sensible. [DamageToPlayer]",
+                "JumpToScene",
+                "RandomFootOrgasmTease"
+            ]
+        },
+        {
+            "NameOfScene": "RandomFootTease",
+            "theScene": [
+                "JumpToRandomScene",
+                "SubmitTease",
+                "MasochistTease",
+                "FetishTease",
+                "MeltTease",
+                "AddictTease",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "SubmitTease",
+            "theScene": [
+                "FocusedSpeaks",
+                "Cuanto más tiempo suceda esto, más ansioso estará de someterme a mí y a los placeres que ofrezco.",
+                "JumpToScene",
+                "jumptoPostHit"
+            ]
+        },
+        {
+            "NameOfScene": "MasochistTease",
+            "theScene": [
+                "FocusedSpeaks",
+                "Eres bastante sumiso masoquista, ¿no?Te están excitando tanto por estar dominado solo por mi pie.",
+                "JumpToScene",
+                "jumptoPostHit"
+            ]
+        },
+        {
+            "NameOfScene": "FetishTease",
+            "theScene": [
+                "FocusedSpeaks",
+                "HMHMHM ... eres un fetichista de pie, ¿no?",
+                "JumpToScene",
+                "jumptoPostHit"
+            ]
+        },
+        {
+            "NameOfScene": "MeltTease",
+            "theScene": [
+                "FocusedSpeaks",
+                "Hmhmhm, por la expresión de tu cara, tus pensamientos se están derritiendo.",
+                "JumpToScene",
+                "jumptoPostHit"
+            ]
+        },
+        {
+            "NameOfScene": "AddictTease",
+            "theScene": [
+                "FocusedSpeaks",
+                "A este ritmo, te volverás adicto a mis pies.",
+                "JumpToScene",
+                "jumptoPostHit"
+            ]
+        },
+        {
+            "NameOfScene": "RandomFootOrgasmTease",
+            "theScene": [
+                "JumpToRandomScene",
+                "SubmitTeaseOrg",
+                "MasochistTeaseOrg",
+                "FetishTeaseOrg",
+                "DrainTease",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "SubmitTeaseOrg",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Hunger",
+                "FocusedSpeaks",
+                "Eso es todo, simplemente corríjase y déjate someterte a este placer.",
+                "JumpToScene",
+                "jumptoPostHit"
+            ]
+        },
+        {
+            "NameOfScene": "MasochistTeaseOrg",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Hunger",
+                "FocusedSpeaks",
+                "Con cada orgasmo que tenga, me demuestra cada vez más que sea un masoquista sumiso.O ... tal vez simplemente amas los pies, pero ¿cuál es la diferencia?Hmhmhm ...",
+                "JumpToScene",
+                "jumptoPostHit"
+            ]
+        },
+        {
+            "NameOfScene": "FetishTeaseOrg",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Hunger",
+                "FocusedSpeaks",
+                "Te estás cediendo tan fácilmente ... eres un adicto al pie pervertido.",
+                "JumpToScene",
+                "jumptoPostHit"
+            ]
+        },
+        {
+            "NameOfScene": "DrainTease",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Hunger",
+                "FocusedSpeaks",
+                "Así es ... sigue corriendo ... Dame toda tu energía, tira tus posibilidades de ganar y simplemente súbete al placer ...",
+                "JumpToScene",
+                "jumptoPostHit"
+            ]
+        },
+        {
+            "NameOfScene": "jumptoPostHit",
+            "theScene": [
+                "IfPlayerSpiritGone",
+                "LosesFightFootjob",
+                "Menu",
+                "Feels so good...",
+                "Need to... Get away!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "LosesFightFootjob",
+            "theScene": [
+                "IfChoice",
+                "3",
+                "TempleFight",
+                "Temple Loss",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "Jadea delirantemente mientras su mente gira de su último poderoso orgasmo, incapaz de pensar en resistirse a [DisplayMonsterChoice] mientras se siente a ceder ante el maravilloso placer que su pie le está dando.",
+                "Ella deja escapar una risita baja mientras finalmente aparta su pie de tu dolor de polla, y dejas escapar un gemido ligeramente desesperado mientras tu cuerpo pulsa con necesidad.",
+                "ChangeImageLayer",
+                "Expression",
+                "Caring",
+                "FocusedSpeaks",
+                "Ahora, entonces ... mejoremos ese fetiche de pie tuyo.",
+                "Sientes que un rayo de entusiasmo te desglosa ante sus palabras mientras ella hábilmente escapa de su pie de metal y lo planta firmemente sobre tu cara sonriente.",
+                "La sensación sedosa de sus calcetines que se cepillan a través de su piel envía escalofríos de placer acelerando por su columna vertebral mientras respira profundamente el aroma maravillosamente picante de su pie, gimiendo de dicha mientras su mente está nublada por su intensa fragancia.",
+                "ChangeImageLayer",
+                "Expression",
+                "Sinister",
+                "FocusedSpeaks",
+                "Continúa, masturba mientras adoras mi pie.",
+                "Sus manos inmediatamente obedecen su orden mientras comienzas desesperadamente a acariciar tu erección palpitante, jadeando de placer entre plantar besos necesitados y lamiendo el ansioso en la planta de su pie, complaciéndote a medida que cada vez más de tus pensamientos se queman por su potente sabor.",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "Ella deja escapar una risa baja de su masturbación casi frenética mientras prodige su pie con afecto, y le pide suavemente la cara más fuerte, enviando un poderoso pico de placer sumiso directamente a su cerebro ya adegado al sentirse acercándose a un orgasmo masivo.",
+                "FocusedSpeaks",
+                "Todavía no puedes correrse.Manténgase justo al límite, quema esta sensación en su cerebro, y si logra hacer esto, lo recompensaré.",
+                "El éxtasis sumiso de sus palabras lo llena incluso mientras gime de necesidad, pero obedece su comando a pesar del creciente dolor que llena su ingle, caminando cuidadosamente los movimientos de su mano mientras continúa soportando respiraciones más profundas de la mente de su pie derretiendo el aroma entre la mueca entre salpicarloMás besos de adoración.",
+                "ChangeImageLayer",
+                "Expression",
+                "Sinister",
+                "Te sientes tan abrumadoramente débil después de tu derrota que cada obediente lamer y golpes suaves que haces envía hormigueos felices corriendo por tu piel, llenándote con tanto placer tembloroso que nunca quieres que deje de presionar su pie en tu cara, deleitando, deleitandoEn su maravilloso sabor femenino mientras empalme la boca.",
+                "Con cada respiración de su aroma picante en el que atraes, tu mente se siente como si estuviera flotando más y más alto en las nubes como olas de placer borrachos te asaltan por todos lados, y mientras te molesta el pie hacia ti más intensamente dejas escapar un débil débilGlomer y tenso en éxtasis, apenas capaz de contener su orgasmo de contracción mientras su mano continúa acariciando su eje palpitante.",
+                "ChangeImageLayer",
+                "Expression",
+                "Caring",
+                "FocusedSpeaks",
+                "Eso es todo, saborea el placer.",
+                "Ella cuidadosamente te mantiene tambaleándose tan cerca de la maravillosa liberación orgásmica que ni siquiera puedes comenzar a pensar en otra cosa que no sea tu intenso placer que sus maravillosos pies te están dando, y puedes sentir tu amor por ellos floreciendo como su delicioso sabor yaroma se entrelazan en su mente.",
+                "Jadeando, gemidos y quejándose de cada momento pasajero feliz, luchas por soportar contra su asalto sensorial mientras luchas para mantenerte del orgasmo, incluso cuando su pie acaricia en la cara mientras tu mano continúa bombeando poderosamente el espasmo, peroLogras esperar a pesar de todo.",
+                "ChangeImageLayer",
+                "Expression",
+                "Sinister",
+                "FocusedSpeaks",
+                "HMHMHM ... Has hecho bien en esperar tanto tiempo.Ahora es el momento de tu recompensa.Muéstrame la prueba de tu presentación.{i} cum! {/i}",
+                "Sus palabras envían un rayo de éxtasis orgásmico al alucinamente intenso intenso a través de su eje dolorosamente erecto que lo envía a un clímax devastadoramente poderoso al instante, y apenas puede recordar respirar mientras dejas escapar un aullido de placer, lo que empuran un aparentemente un aparentemente.Carga interminable de semen en el suelo y el otro pie de [DisplayMonsterChoice].",
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "Jadeas y se estremece en el intenso resplandor de la dicha postorgasmica cuando tu mano finalmente deja de acariciar tu polla aún espasmante, y suspiras feliz mientras jadeando te hace disfrutar aún más del aroma intensamente maravilloso de su pie mientras [DisplayMonsterChoice] sonríe hacia abajotú.",
+                "ChangeImageLayer",
+                "Base",
+                "Aura",
+                "Un brillo púrpura emana de su cuerpo mientras absorbe el semen que le disparaste, y un trino de placer atraviesa tu cuerpo exhausto mientras lames sumisamente su tacón de seda.",
+                "ChangeImageLayer",
+                "Expression",
+                "Sinister",
+                "FocusedSpeaks",
+                "Bien.Ahora, comience de nuevo.",
+                "No dudas por un solo momento mientras obedeces sin pensar su orden, completamente perdido con el maravilloso placer por el que te está guiando cuando comienzas a acariciar tu ansiosa polla una vez más.",
+                "FocusedSpeaks",
+                "Pero esta vez ...",
+                "Otro pulso de magia púrpura reverbera de su cuerpo, pero esta vez se lava sobre usted en una onda de drenaje de energía y le quita el cuerpo con otro orgasmo casi de inmediato, lo que lo obliga a llorar incoherentemente en placer mientras se siente casi obligado a continuar mientras continúa masturbándose mientrasStruple más semen para ella.",
+                "ChangeImageLayer",
+                "Expression",
+                "Hunger",
+                "FocusedSpeaks",
+                "Vas a correrme y darme hasta la última gota de tu energía.",
+                "Los bordes de su visión comienzan a oscurecerse incluso mientras sonríes felizmente y lames y besas sumisamente su pie mientras descansa sobre tu rostro, continuando con la polla dolorosa mientras envía más pulsos de magia que se mueve la energía casi en la mente, cada otro.Momento, obligándolo a una serie de orgasmos cada vez más poderosos.",
+                "Te corres y te corres en un ciclo interminable de éxtasis orgásmico, ya que felizmente le das hasta la última gota de tu energía hasta que incluso su magia no puede mantenerte más tiempo, y te anotes completamente con un suspiro feliz como las últimas sensaciones que sientes¿Son los potentes aroma y el sabor de los pies almacenados de [DisplayMonsterChoice] y la sensación de que lo presionan en tu rostro mientras te lleva la oscuridad, y puedes sentir que su pie está impreso en tu mente ...",
+                "...",
+                "ChangeFetish",
+                "Feet",
+                "10",
+                "GameOver"
+            ]
+        },
+        {
+            "NameOfScene": "Temple Loss",
+            "theScene": [
+                "Shizu deja escapar una risa baja mientras se quita el pie intoxicante de su polla débilmente espasmante, permitiéndole colapsar en el piso completamente gastado y drenado."
+            ]
+        }
+    ]
+}

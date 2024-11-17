@@ -1,0 +1,189 @@
+{
+    "name": "AphroGridTimersFertillia",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ceris",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "AphroTimer",
+            "theScene": [
+                "IfChoice",
+                "1",
+                "",
+                "DormantGridTimer",
+                "IfChoice",
+                "1",
+                "Warning",
+                "WarningGridTimer",
+                "IfChoice",
+                "1",
+                "Active",
+                "ActiveGridTimer",
+                "IfChoice",
+                "1",
+                "Calming",
+                "CalmingGridTimer"
+            ]
+        },
+        {
+            "NameOfScene": "DormantGridTimer",
+            "theScene": [
+                "ChangeProgress",
+                "1",
+                "IfProgressEqualsOrGreater",
+                "5",
+                "DormantGridTimeUp"
+            ]
+        },
+        {
+            "NameOfScene": "DormantGridTimeUp",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "1",
+                "Warning"
+            ]
+        },
+        {
+            "NameOfScene": "SwapToWarning",
+            "theScene": [
+                "SpawnGridNPC",
+                "AphroGridWarning",
+                "Here",
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "WarningGridTimer",
+            "theScene": [
+                "ChangeProgress",
+                "1",
+                "IfProgressEqualsOrGreater",
+                "2",
+                "WarningTimerUp"
+            ]
+        },
+        {
+            "NameOfScene": "WarningTimerUp",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "1",
+                "Active"
+            ]
+        },
+        {
+            "NameOfScene": "SwapToActive",
+            "theScene": [
+                "SpawnGridNPC",
+                "AphroGridActive",
+                "Here",
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "ActiveGridTimer",
+            "theScene": [
+                "ChangeProgress",
+                "1",
+                "IfProgressEqualsOrGreater",
+                "5",
+                "ActiveTimerUp"
+            ]
+        },
+        {
+            "NameOfScene": "ActiveTimerUp",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "1",
+                "Calming"
+            ]
+        },
+        {
+            "NameOfScene": "SwapToCalm",
+            "theScene": [
+                "SpawnGridNPC",
+                "AphroGridCalming",
+                "Here",
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "CalmingGridTimer",
+            "theScene": [
+                "ChangeProgress",
+                "1",
+                "IfProgressEqualsOrGreater",
+                "3",
+                "CalmTimerUp"
+            ]
+        },
+        {
+            "NameOfScene": "CalmTimerUp",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "1",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "SwapToDormant",
+            "theScene": [
+                "SpawnGridNPC",
+                "AphroGridDormant",
+                "Here",
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "StepOnAphroGrid",
+            "theScene": [
+                "IfGridPlayerStunned",
+                "Nothing",
+                "PlaySoundEffect",
+                "sfx/Magic/steam01.mp3",
+                "GetEventAndChangeProgress",
+                "Ars Delusia Arcade",
+                "5",
+                "Al entrar en el flujo activo de gas no quitado, el Kunoichi se derrumba con un gemido aturdido, ¡al instante, lo que es bajo por la sustancia incapacitante!",
+                "PlayBlackOut",
+                "La pantalla del gabinete se oscurece, señalando la desventurada derrota de Kunoichi y el final de tu sesión ...\n\n¡Juego terminado!- Pero al menos, ¡la máquina te excluye un premio de consolación de 5 boletos!",
+                "ExitGridmap",
+                "EndBlackOut",
+                "JumpToEventThenScene",
+                "FertiliaFertilia",
+                "FertiliaMenu"
+            ]
+        },
+        {
+            "NameOfScene": "Nothing",
+            "theScene": []
+        },
+        {
+            "NameOfScene": "EventBreak",
+            "theScene": [
+                "Temporizadores de Evento Broko"
+            ]
+        }
+    ]
+}

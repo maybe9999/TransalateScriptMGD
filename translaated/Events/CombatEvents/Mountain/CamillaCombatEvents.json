@@ -1,0 +1,51 @@
+{
+    "name": "CamillaCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Camilla",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Intro",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "PredatoryLust",
+                "Camilla se desliza hacia ti con un hambre depredador que brilla en sus ojos ..."
+            ]
+        },
+        {
+            "NameOfScene": "No Anal",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "No Anal Still",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "No Anal Still",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "No Anal Still",
+                "SkipPlayerAttack",
+                "¡Intentas penetrar en el trasero de Camilla, pero puede ser fácilmente superarte con su cuerpo arácnido, evitando que te respalde detrás de ella!",
+                "E incluso si lograste respaldarla, no estás completamente seguro de dónde se encuentra su puerta trasera, y por los vislumbres que tienes no parece estar entre sus nalgas ..."
+            ]
+        },
+        {
+            "NameOfScene": "No Anal Still",
+            "theScene": [
+                "SkipPlayerAttack",
+                "A pesar de la inmovilización de Camilla, no puedes entender dónde se encuentra su puerta trasera, ya que no está entre sus nalgas, y no puedes evitar mirar nerviosamente la mitad de su cuerpo mientras tu imaginación deambula ..."
+            ]
+        }
+    ]
+}

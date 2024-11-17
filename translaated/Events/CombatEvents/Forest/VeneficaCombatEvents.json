@@ -1,0 +1,4177 @@
+{
+    "name": "VeneficaCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Venefica",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Intro",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "6",
+                "",
+                "SetChoice",
+                "4",
+                "",
+                "GetEventAndSetChoice",
+                "VeneficaWildCombatEvents",
+                "1",
+                "",
+                "ChangeImageLayer",
+                "ImageSet",
+                "Tattoos",
+                "RemovePerkFromMonster",
+                "Moonlit Allure",
+                "RemovePerkFromMonster",
+                "Moonlit Glamor",
+                "RemovePerkFromMonster",
+                "Moonlit Mystique",
+                "SetChoice",
+                "3",
+                "",
+                "IfChoice",
+                "1",
+                "Wild",
+                "WildIntro",
+                "IfChoice",
+                "1",
+                "NotHoldingback",
+                "SkipNerfing",
+                "IfChoice",
+                "1",
+                "ForFun",
+                "AltLine",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "Venefa se tambalea a mitad de paso y agarra su rostro por un momento, como si se esforzara contra algo, antes de soltar un suspiro extático, arrojando los brazos mientras la energía mágica gira a su alrededor.",
+                "JumpToScene",
+                "NerfedFight"
+            ]
+        },
+        {
+            "NameOfScene": "SkipNerfing",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Venefica se lame los labios, cayendo en una postura arcana mientras la magia gira a su alrededor con ondas intensas.",
+                "IfChoice",
+                "2",
+                "EllyAid",
+                "EllyDefence",
+                "IfChoice",
+                "2",
+                "",
+                "ClearEllySkill",
+                "JumpToScene",
+                "ExtraSkills"
+            ]
+        },
+        {
+            "NameOfScene": "ClearEllySkill",
+            "theScene": [
+                "RemoveSkillFromMonster",
+                "Anti-Elly Dark Matter Burst",
+                "JumpToScene",
+                "ExtraSkills"
+            ]
+        },
+        {
+            "NameOfScene": "Nothing",
+            "theScene": []
+        },
+        {
+            "NameOfScene": "AltLine",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Venefa se lame los labios, cayendo en una postura arcana mientras la magia gira a su alrededor, pero está claro que está conteniendo un poco para esta divertida 'pelea'.",
+                "IfChoice",
+                "2",
+                "",
+                "ClearEllySkillSolo",
+                "JumpToScene",
+                "NerfedFight"
+            ]
+        },
+        {
+            "NameOfScene": "ClearEllySkillSolo",
+            "theScene": [
+                "RemoveSkillFromMonster",
+                "Anti-Elly Dark Matter Burst",
+                "JumpToScene",
+                "NerfedFight"
+            ]
+        },
+        {
+            "NameOfScene": "NerfedFight",
+            "theScene": [
+                "ChangeMonsterPower",
+                "-10",
+                "ChangeMonsterAllure",
+                "-30",
+                "ChangeMonsterWill",
+                "-40",
+                "ChangeMonsterInt",
+                "-40",
+                "ChangeMonsterTech",
+                "-25",
+                "ChangeMonsterLuck",
+                "-22",
+                "ChangeMonsterMaxArousal",
+                "-2777",
+                "ChangeMonsterMaxEnergy",
+                "-100",
+                "ChangeMonsterLevel",
+                "-50",
+                "ChangeMonsterErosDrop",
+                "-2222",
+                "ChangeMonsterExpDrop",
+                "-500",
+                "IfChoice",
+                "2",
+                "",
+                "AffectionNerf",
+                "JumpToScene",
+                "EllyDefence"
+            ]
+        },
+        {
+            "NameOfScene": "EllyDefence",
+            "theScene": [
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "Urgent 'Mushroom' Investigation",
+                "100",
+                "Rank4Defence",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "Urgent 'Mushroom' Investigation",
+                "75",
+                "Rank3Defence",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "Urgent 'Mushroom' Investigation",
+                "50",
+                "Rank2Defence",
+                "ApplyStatusEffect",
+                "Anti-Vene-Ward-Mk1",
+                "JumpToScene",
+                "PostEllyDefence"
+            ]
+        },
+        {
+            "NameOfScene": "Rank2Defence",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Anti-Vene-Ward-Mk2",
+                "JumpToScene",
+                "PostEllyDefence"
+            ]
+        },
+        {
+            "NameOfScene": "Rank3Defence",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Anti-Vene-Ward-Mk3",
+                "JumpToScene",
+                "PostEllyDefence"
+            ]
+        },
+        {
+            "NameOfScene": "Rank4Defence",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Anti-Vene-Ward-Mk4",
+                "JumpToScene",
+                "PostEllyDefence"
+            ]
+        },
+        {
+            "NameOfScene": "PostEllyDefence",
+            "theScene": [
+                "Hay un brillo de magia detrás de ti mientras Elly capas defensivas sobre ti.",
+                "Speak",
+                "Elly",
+                "Dejaré la 'batalla' uh para ti.¡Te apoyaré con magia, gracias a nuestra investigación, mis contramedidas deberían ayudar sustancialmente!",
+                "IfChoice",
+                "1",
+                "NotHoldingback",
+                "ExtraSkills",
+                "JumpToScene",
+                "AffectionNerf"
+            ]
+        },
+        {
+            "NameOfScene": "AffectionNerf",
+            "theScene": [
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "'Bon Bon Bun'",
+                "100",
+                "Rank4Weakness",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "'Bon Bon Bun'",
+                "75",
+                "Rank3Weakness",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "'Bon Bon Bun'",
+                "50",
+                "Rank2Weakness",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "'Bon Bon Bun'",
+                "25",
+                "Rank1Weakness",
+                "JumpToScene",
+                "ExtraSkills"
+            ]
+        },
+        {
+            "NameOfScene": "Rank1Weakness",
+            "theScene": [
+                "ApplyStatusEffectToMonster",
+                "Venefica's Fancy",
+                "JumpToScene",
+                "ExtraSkills"
+            ]
+        },
+        {
+            "NameOfScene": "Rank2Weakness",
+            "theScene": [
+                "ApplyStatusEffectToMonster",
+                "Venefica's Affection",
+                "JumpToScene",
+                "ExtraSkills"
+            ]
+        },
+        {
+            "NameOfScene": "Rank3Weakness",
+            "theScene": [
+                "ApplyStatusEffectToMonster",
+                "Venefica's Desire",
+                "JumpToScene",
+                "ExtraSkills"
+            ]
+        },
+        {
+            "NameOfScene": "Rank4Weakness",
+            "theScene": [
+                "ApplyStatusEffectToMonster",
+                "Venefica's Love",
+                "JumpToScene",
+                "ExtraSkills"
+            ]
+        },
+        {
+            "NameOfScene": "ExtraSkills",
+            "theScene": []
+        },
+        {
+            "NameOfScene": "Surrender",
+            "theScene": [
+                "IfChoice",
+                "2",
+                "EllyAid",
+                "SurrenderElly",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Bueno, al menos conoces tu lugar.",
+                "Una mascota tan obediente que eres. ♥",
+                "Buen chico. ♥ ahora cómo recompensarte. ♥",
+                "¿Oh?¿Solo te rindes?Estaba esperando una pelea ... Supongo que me desahogaré esa frustración. ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "SurrenderElly",
+            "theScene": [
+                "Speak",
+                "Elly",
+                "SwapLineIf",
+                "Random",
+                "¿Qué?No puedes simplemente dar-",
+                "¿Qué no te atreves?",
+                "¿Estás bromeando?Porque esto es",
+                "H-Hold On!No puedes simplemente-",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "Antes de que Elly pueda terminar su oración, una placentera placentera de magia de Venefa se estrella contra el mago ahora muy distraído y sin apoyo, luego otro, y otro, hasta que está arrugada en el suelo que llena de placer.",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Bueno, al menos uno de ustedes conoce tu lugar. ♥",
+                "Desde que te di por vencido. ♥ Jugaré contigo bien primero. ♥",
+                "Buen chico. ♥ ahora cómo recompensarte. ♥",
+                "Bueno, esperaba una pelea más ... pero esto debería ser igual de agradable. ♥",
+                "EndLoop",
+                "RemoveSkillFromMonster",
+                "Anti-Elly Dark Matter Burst"
+            ]
+        },
+        {
+            "NameOfScene": "EndOfRound",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Nothing",
+                "CallNextSceneJumpThenReturn",
+                "IfPlayerHasStance",
+                "Breast Smother",
+                "ConstantCharm",
+                "CallNextSceneJumpThenReturn",
+                "IfPlayerHasStance",
+                "Nursing",
+                "ConstantMilkCharm",
+                "CallSceneThenReturn",
+                "CurseRemoveCheckDefending",
+                "CallNextSceneJumpThenReturn",
+                "IfChoice",
+                "2",
+                "EllyAid",
+                "EllyTurn",
+                "CallSceneThenReturn",
+                "CurseRemoveCheck",
+                "CallSceneThenReturn",
+                "UmbralSuckerEndEffectCheck",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterHasPerk",
+                "Umbral Sucker",
+                "UmbralSuckerEndTurn",
+                "CallMonsterEncounterOrgasmCheck"
+            ]
+        },
+        {
+            "NameOfScene": "ConstantCharm",
+            "theScene": [
+                "IfPlayerDoesntHaveStatusEffect",
+                "Charm",
+                "ReapplyCharm"
+            ]
+        },
+        {
+            "NameOfScene": "ReapplyCharm",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Charm",
+                "A pesar de haber sacado el encanto inicial, con la cabeza atrapada entre el escote de malvaviscos de Venefa, su cerebro se deja derritiéndose nuevamente mientras se frota la cara con su suavidad intoxicante, su dulce aroma azucarado llena sus sentidos a la ala con cada aliento feliz que tomas, hasta que te dejes anular con ansias su pecho una vez más."
+            ]
+        },
+        {
+            "NameOfScene": "ConstantMilkCharm",
+            "theScene": [
+                "IfPlayerDoesntHaveStatusEffect",
+                "Charm",
+                "ReapplyMilkCharm"
+            ]
+        },
+        {
+            "NameOfScene": "ReapplyMilkCharm",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Charm",
+                "Sientes que tu cerebro se está derritiendo mientras bebes la leche de Venefa, dejándote anhelando más y más de la leche y la sensación de sus senos suaves, y casi instantáneamente te quedas completamente enamorado de ella, felizmente chupando su pezón en busca deMás, completamente encantado."
+            ]
+        },
+        {
+            "NameOfScene": "CurseRemoveCheck",
+            "theScene": [
+                "IfHasPerk",
+                "Curse of Exhaustion",
+                "HasCurseRemovalCheck",
+                "IfHasPerk",
+                "Curse of Shadows",
+                "HasCurseRemovalCheck",
+                "IfHasPerk",
+                "Curse of Weakness",
+                "HasCurseRemovalCheck"
+            ]
+        },
+        {
+            "NameOfScene": "HasCurseRemovalCheck",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "VeneficaDropsCurse",
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "VeneficaDropsCurse",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "VeneficaDropsCurse"
+            ]
+        },
+        {
+            "NameOfScene": "VeneficaDropsCurse",
+            "theScene": [
+                "RemovePerkQuietly",
+                "Curse of Exhaustion",
+                "RemovePerkQuietly",
+                "Curse of Shadows",
+                "RemovePerkQuietly",
+                "Curse of Weakness",
+                "Con Venefica incapaz de actuar, ya no puede mantener el control de su magia de tejido, y la maldición que te afecta se disipa"
+            ]
+        },
+        {
+            "NameOfScene": "BreakCurse",
+            "theScene": [
+                "RemovePerkQuietly",
+                "Curse of Exhaustion",
+                "RemovePerkQuietly",
+                "Curse of Shadows",
+                "RemovePerkQuietly",
+                "Curse of Weakness",
+                "¡Y el control de la maldición de ti se disipa!"
+            ]
+        },
+        {
+            "NameOfScene": "CurseRemoveCheckDefending",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Defend",
+                "HasCurseRemovalDefendingCheck"
+            ]
+        },
+        {
+            "NameOfScene": "HasCurseRemovalDefendingCheck",
+            "theScene": [
+                "IfHasPerk",
+                "Curse of Exhaustion",
+                "CurseRemovalCheck",
+                "IfHasPerk",
+                "Curse of Shadows",
+                "CurseRemovalCheck",
+                "IfHasPerk",
+                "Curse of Weakness",
+                "CurseRemovalCheck"
+            ]
+        },
+        {
+            "NameOfScene": "CurseRemovalCheck",
+            "theScene": [
+                "Con tus defensas reunidas, ¡intentas sacudirte la maldición que te atraviesa!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "5",
+                "Willpower",
+                "15",
+                "BreakCurse",
+                "Fail",
+                "Nothing"
+            ]
+        },
+        {
+            "NameOfScene": "EllyTurn",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "IfPlayerHasStatusEffect",
+                "Defence",
+                "EllySkill",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "Urgent 'Mushroom' Investigation",
+                "100",
+                "Rank4Barrier",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "Urgent 'Mushroom' Investigation",
+                "75",
+                "Rank3Barrier",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "Urgent 'Mushroom' Investigation",
+                "50",
+                "Rank2Barrier",
+                "ApplyStatusEffect",
+                "Anti-Vene-Ward-Mk1",
+                "JumpToScene",
+                "PostEllyBarrier"
+            ]
+        },
+        {
+            "NameOfScene": "Rank2Barrier",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Anti-Vene-Ward-Mk2",
+                "JumpToScene",
+                "PostEllyBarrier"
+            ]
+        },
+        {
+            "NameOfScene": "Rank3Barrier",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Anti-Vene-Ward-Mk3",
+                "JumpToScene",
+                "PostEllyBarrier"
+            ]
+        },
+        {
+            "NameOfScene": "Rank4Barrier",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Anti-Vene-Ward-Mk4",
+                "JumpToScene",
+                "PostEllyBarrier"
+            ]
+        },
+        {
+            "NameOfScene": "PostEllyBarrier",
+            "theScene": [
+                "¡Hay un brillo de magia detrás de ti mientras Elly capas defensivas sobre ti una vez más!",
+                "Speak",
+                "Elly",
+                "SwapLineIf",
+                "Random",
+                "¡Aguanta [ThePlayerName]!",
+                "¡He vuelto a aplicar las salas!¡Vuelve a la ofensiva!",
+                "Espero que puedas seguir así ...",
+                "¡Realmente desearía haber hecho que este hechizo sea indefinido-!",
+                "Me alegro de haber venido preparado-!",
+                "¡No podemos ceder ahora!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "EllySkill",
+            "theScene": [
+                "JumpToRandomScene",
+                "EllySpell",
+                "EllySpell",
+                "EllySpell",
+                "EllyMana",
+                "EllyMana",
+                "EllyBoost",
+                "EllyBoost",
+                "EllyStun",
+                "EllyStun",
+                "EllyCleanse",
+                "RequiresPerk",
+                "Curse of Exhaustion",
+                "EllyCleanse",
+                "RequiresPerk",
+                "Curse of Weakness",
+                "EllyCleanse",
+                "RequiresPerk",
+                "Curse of Shadows",
+                "EllyCleanse",
+                "RequiresPerk",
+                "Curse of Oblivion",
+                "EllyCleanse",
+                "RequiresPerk",
+                "Curse of Oblivion",
+                "EllyCleanse",
+                "RequiresPerk",
+                "Curse of Oblivion",
+                "EllyCleanse",
+                "RequiresPerk",
+                "Curse of Oblivion",
+                "EllyCleanse",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "EllySpell",
+            "theScene": [
+                "SetPostName",
+                "- Arousero",
+                "DamageMonsterFromMonster",
+                "Elly",
+                "Arousero",
+                "Speak",
+                "Elly",
+                "SwapLineIf",
+                "Random",
+                "'¡Acousero!'Elly dispara un rayo de magia rosa que busca en Venefa, llenando el cuerpo de la bruja con una dicha cálida y radiadora que la hace deleite. [DamageToEnemy]",
+                "'¡Acousero!'Elly dispara un rayo de magia rosa que busca en Venefa, llenando el cuerpo de la bruja con una dicha cálida y radiadora que la hace deleite. [DamageToEnemy]",
+                "'¡Mantente enfocado-!'Elly dispara un rayo de magia rosa que busca en Venefa, llenando el cuerpo de la bruja con una dicha cálida y radiadora que la hace deleite. [DamageToEnemy]",
+                "'Vamos-!'Elly dispara un rayo de magia rosa que busca en Venefa, llenando el cuerpo de la bruja con una dicha cálida y radiadora que la hace deleite. [DamageToEnemy]",
+                "'Ella no puede mantener esto para siempre:' Elly dispara un rayo de magia rosa que busca en Venefa, llenando el cuerpo de la bruja con una dicha cálida y radiante que la hace temblar. [DamageToEnemy]",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "IfChoice",
+                "6",
+                "Wild",
+                "EllySpellWild",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "MNN, ♥ ¿Eso es todo lo que tienes? ♥",
+                "Que delicioso. ♥",
+                "Jeje, ¿es todo eso? ♥",
+                "Hahhh, ♥ solo me estoy poniendo más emocionado. ♥",
+                "Te voy a pagar por eso. ♥",
+                "No puedo esperar a verte retorciéndote en dicha. ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "EllySpellWild",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Jejeje- ♥ ¿Eso es todo? ♥",
+                "Vamos, ♥ quiero más. ♥",
+                "Eso no es suficiente- ♥",
+                "More!♥",
+                "Hmmmm-?♥",
+                "Ya estoy tan emocionado- ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "EllyMana",
+            "theScene": [
+                "IfPlayerEnergyLessThanPercent",
+                "51",
+                "GiveMana",
+                "JumpToScene",
+                "EllySkill"
+            ]
+        },
+        {
+            "NameOfScene": "GiveMana",
+            "theScene": [
+                "SetPostName",
+                "- Transferencia de maná",
+                "ChangeEnergyQuietly",
+                "50",
+                "Speak",
+                "Elly",
+                "SwapLineIf",
+                "Random",
+                "'¡Aquí!'Elly envía una oleada de maná directamente a través de tu cuerpo para seguir adelante, ¡dándote 50 maná!",
+                "'¡Avanza!'Elly envía una oleada de maná directamente a través de tu cuerpo para seguir adelante, ¡dándote 50 maná!",
+                "'Transferencia de maná!'Elly envía una oleada de maná directamente a través de tu cuerpo para seguir adelante, ¡dándote 50 maná!",
+                "'¡Energizante!'Elly envía una oleada de maná directamente a través de tu cuerpo para seguir adelante, ¡dándote 50 maná!",
+                "EndLoop",
+                "SetPostName",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "EllyBoost",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Damage",
+                "EllySkill",
+                "JumpToScene",
+                "GiveBoost"
+            ]
+        },
+        {
+            "NameOfScene": "GiveBoost",
+            "theScene": [
+                "SetPostName",
+                "- Magi Boost",
+                "ApplyStatusEffect",
+                "Magi Boost",
+                "Speak",
+                "Elly",
+                "SwapLineIf",
+                "Random",
+                "'¡Magi Boost!'¡Elly inunda su cuerpo con un beneficio de apoyo, aumentando la cantidad de excitación que puede lidiar!",
+                "'¡Magi Boost!'¡Elly inunda su cuerpo con un beneficio de apoyo, aumentando la cantidad de excitación que puede lidiar!",
+                "'¡Aquí!'¡Elly inunda su cuerpo con un beneficio de apoyo, aumentando la cantidad de excitación que puede lidiar!",
+                "'¡Esto debería ayudar!'¡Elly inunda su cuerpo con un beneficio de apoyo, aumentando la cantidad de excitación que puede lidiar!",
+                "'Esto le impedirá que me vuelvas suave:' Elly inunda tu cuerpo con un beneficio de apoyo, ¡aumentando la cantidad de excitación que puedes lidiar!",
+                "EndLoop",
+                "SetPostName",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "EllyStun",
+            "theScene": [
+                "IfMonsterHasPerk",
+                "Stun Immune",
+                "EllySkill",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "EllySkill",
+                "JumpToScene",
+                "AttemptStun"
+            ]
+        },
+        {
+            "NameOfScene": "AttemptStun",
+            "theScene": [
+                "SetPostName",
+                "- Rata de aturdimiento",
+                "Speak",
+                "Elly",
+                "SwapLineIf",
+                "Random",
+                "'¡Aturdir estallado!'¡Elly dispara un perno de magia amarilla en Venefa!",
+                "'¡Aturdir estallado!'¡Elly dispara un perno de magia amarilla en Venefa!",
+                "'¡Toma esto!'¡Elly dispara un perno de magia amarilla en Venefa!",
+                "'Vamos-!'¡Elly dispara un perno de magia amarilla en Venefa!",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "JumpToRandomScene",
+                "ApplyStun",
+                "ApplyStun",
+                "ApplyStun",
+                "FailStun",
+                "FailStun",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "ApplyStun",
+            "theScene": [
+                "ApplyStatusEffectToMonster",
+                "Spank",
+                "ChangeImageLayer",
+                "Expression",
+                "Tch",
+                "SwapLineIf",
+                "Random",
+                "Y el hechizo golpea a Venefa, impresionándola brevemente, para su agitación visible.",
+                "EndLoop",
+                "IfChoice",
+                "6",
+                "Wild",
+                "EllyStunWild",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Tch.",
+                "Pagarás por eso",
+                "Esto no me detendrá",
+                "Que molesto ...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "EllyStunWild",
+            "theScene": [
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Ghhhh-",
+                "Te molesta pequeño-",
+                "I- quiero mover",
+                "Pagarás-",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "FailStun",
+            "theScene": [
+                "SwapLineIf",
+                "Random",
+                "Pero Venefa desvía casualmente el hechizo con un movimiento simple, para molestia de Elly.",
+                "Pero Venefa disuelve el hechizo antes de que pueda alcanzarla, para molestia de Elly.",
+                "Pero Venefa evade la magia simplemente balanceándose hacia un lado, para la molestia de Elly.",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "IfChoice",
+                "6",
+                "Wild",
+                "EllyStunWildFail",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Jeje, que triste. ♥",
+                "¿Realmente pensaste que eso funcionaría en mí? ♥",
+                "Hm? ♥ que decepcionante.",
+                "¿Se suponía que eso era mágico?",
+                "Adorable.♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "EllyStunWildFail",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Curious",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Hmmmm?",
+                "Oh?",
+                "¿Ese era la magia?",
+                "Annoying...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "EllyCleanse",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "CleansePlayer",
+                "IfPlayerHasStatusEffect",
+                "Aphrodisiac",
+                "CleansePlayer",
+                "IfHasPerk",
+                "Curse of Exhaustion",
+                "CleansePlayer",
+                "IfHasPerk",
+                "Curse of Weakness",
+                "CleansePlayer",
+                "IfHasPerk",
+                "Curse of Shadows",
+                "CleansePlayer",
+                "IfHasPerk",
+                "Curse of Oblivion",
+                "CleansePlayer",
+                "JumpToScene",
+                "EllySkill"
+            ]
+        },
+        {
+            "NameOfScene": "CleansePlayer",
+            "theScene": [
+                "RemoveStatusEffect",
+                "Charm",
+                "RemoveStatusEffect",
+                "Aphrodisiac",
+                "RemoveStatusEffect",
+                "Stun",
+                "RemovePerkQuietly",
+                "Curse of Exhaustion",
+                "RemovePerkQuietly",
+                "Curse of Shadows",
+                "RemovePerkQuietly",
+                "Curse of Weakness",
+                "RemovePerkQuietly",
+                "Curse of Oblivion",
+                "SetPostName",
+                "- disipar la limpieza",
+                "Speak",
+                "Elly",
+                "SwapLineIf",
+                "Random",
+                "'¡Dispelliendo la limpieza!'¡Con una ola de magia, Elly disipa las aflicciones negativas que afectan a su cuerpo!",
+                "'¡Dispelliendo la limpieza!'¡Con una ola de magia, Elly disipa las aflicciones negativas que afectan a su cuerpo!",
+                "'¡Esto debería eliminar sus dolencias!'¡Con una ola de magia, Elly disipa las aflicciones negativas que afectan a su cuerpo!",
+                "'¡Concéntrese en la pelea!'¡Con una ola de magia, Elly disipa las aflicciones negativas que afectan a su cuerpo!",
+                "¡No dejes que su magia de debilitación te distraiga!¡Con una ola de magia, Elly disipa las aflicciones negativas que afectan a su cuerpo!",
+                "EndLoop",
+                "SetPostName",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "AntiEllyBlast",
+            "theScene": [
+                "SetPostName",
+                "- estallido de materia oscura anti-electricidad",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'Esto debería cuidar de ella. ♥' Venefa levanta una de sus obsidiana arañadas y con un crujido de magia violeta roja Una orbe ondulante de magia oscura, girando de púrpura se materializa antes de que salga a través del aire hacia Elly con desconcertanteexactitud.",
+                "'Veamos cómo lidias con esto. ♥' La venéfica levanta una de sus obsidiana arañadas y con un crujido de magia violeta roja y un orbe ondulante de magia oscura, arremolinándose de púrpura se materializa antes de que se lanza a través del aire hacia Elly con desconcertanteexactitud.",
+                "'Retorciéndose en éxtasis. ♥' Venefa levanta una de sus obsidiana arañadas y con un crujido de magia violeta roja y un orbe ondulante de magia oscura, girando de púrpura se materializa antes de que se lanza a través del aire hacia Elly con una precisión desconcertante.",
+                "'Vas a amar esto. ♥' Venefa levanta una de sus obsidiana con arañas y con un crujido de magia violeta roja y un orbe ondulado de magia oscura, girando de púrpura se materializa antes de que salga a través del aire hacia Elly con desconcertanteexactitud.",
+                "'Ya terminaste por ahora. ♥' Venefa levanta una de sus obsidiana arañadas y con un crujido de magia violeta roja Una orbe ondulante de magia oscura, girando con morado se materializa antes de que salga a través del aire hacia Elly con precisión desconcertante.",
+                "'Eso es suficiente de ti. ♥' Venefa levanta una de sus obsidiana arañadas y con un crujido de magia violeta roja, un orbe ondulante de magia oscura, girando de púrpura se materializa antes de que salga a través del aire hacia Elly con una precisión desconcertante.",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "Speak",
+                "Elly",
+                "SwapLineIf",
+                "Random",
+                "¡Oh- eso no puede ser bueno-!",
+                "D-Did, ¿ella también se preparó para mí?",
+                "¡No me gusta el nombre de ese hechizo!",
+                "Ah?!",
+                "¡No creo que pueda detener esa cosa!",
+                "EndLoop",
+                "IfPlayerHasStatusEffect",
+                "Restrain",
+                "HelplessElly",
+                "IfPlayerHasStance",
+                "Any",
+                "BlastEllyInStance",
+                "Menu",
+                "Shove Elly out of the way! (Technique)",
+                "Block it with magic! (Intelligence)",
+                "¡Interpete usted mismo!(Tomar daño, pero no fallará).",
+                "She can probably handle it herself...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Shove Elly out of the way! (Technique)",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "5",
+                "Technique",
+                "15",
+                "PushElly",
+                "Fail",
+                "FailedShove"
+            ]
+        },
+        {
+            "NameOfScene": "FailedShove",
+            "theScene": [
+                "¡Pero no puedes llegar a Elly a tiempo!",
+                "JumpToScene",
+                "EllyGetsBlasted"
+            ]
+        },
+        {
+            "NameOfScene": "PushElly",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Stern",
+                "¡Y te las arreglas para empujar al pánico Elly en el último segundo cuando la aterradora explosión oscura atraviesa su magia defensiva como la mantequilla!Ella te da un agradecimiento tranquilo mientras ambos te recompensan.",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Que molesto ...",
+                "Tch...",
+                "No puedes mantener esto para siempre ...",
+                "¿Cuándo llegarás a tu punto de ruptura ...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Block it with magic! (Intelligence)",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "5",
+                "Intelligence",
+                "15",
+                "magiBlock",
+                "Fail",
+                "FailedToBlock"
+            ]
+        },
+        {
+            "NameOfScene": "FailedToBlock",
+            "theScene": [
+                "Pero a pesar de sus mejores esfuerzos, el hechizo de Venefa se desliza más allá de su magia con movimientos erráticos, desgarrando sus defensas antes de que se dirige a Elly.",
+                "JumpToScene",
+                "EllyGetsBlasted"
+            ]
+        },
+        {
+            "NameOfScene": "magiBlock",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Stern",
+                "Y te las arreglas para repeler la explosión mágica oscura con una barrera, y Elly deja escapar un suspiro de alivio.El hechizo de Venefica claramente no tenía la intención de tratar contigo.",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Que molesto ...",
+                "Tch...",
+                "No puedes mantener esto para siempre ...",
+                "¿Cuándo llegarás a tu punto de ruptura ...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "HelplessElly",
+            "theScene": [
+                "¡Actualmente estás indefenso para ayudar a Elly!",
+                "JumpToScene",
+                "EllyGetsBlasted"
+            ]
+        },
+        {
+            "NameOfScene": "She can probably handle it herself...",
+            "theScene": [
+                "Decides no hacer nada para ayudar a Elly ...",
+                "JumpToScene",
+                "EllyGetsBlasted"
+            ]
+        },
+        {
+            "NameOfScene": "Interpose yourself! (Take damage, but won't fail.)",
+            "theScene": [
+                "HitPlayerWith",
+                "Arousero",
+                "Te vuelves en el camino del hechizo, dejándote jadeando y gimiendo mientras luchas por soportar el impacto pulsante de la magia oscura que atraviesa tu cuerpo. [DamageToPlayer]",
+                "Speak",
+                "Elly",
+                "SwapLineIf",
+                "Random",
+                "-[TPN]-[ThePlayerName]!",
+                "¿Ghk?¿Estás bien?",
+                "¡D-Don no lo hagas!",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Bueno, eso también funciona. ♥",
+                "Hehehe.♥",
+                "Que desesperado. ♥",
+                "Que lindo ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "BlastEllyInStance",
+            "theScene": [
+                "Menu",
+                "Distract Venefica! (Allure)",
+                "Throw off her aim! (Power)",
+                "She can probably handle it herself...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Distract Venefica! (Allure)",
+            "theScene": [
+                "Presiona contra Venefa y bromea suavemente su cuerpo con la mayor cantidad de cuidado sensual que pueda ...",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "5",
+                "Allure",
+                "15",
+                "Distract",
+                "Fail",
+                "FailedDistract"
+            ]
+        },
+        {
+            "NameOfScene": "FailedDistract",
+            "theScene": [
+                "¡Pero Venefa no se inmuta!",
+                "JumpToScene",
+                "EllyGetsBlasted"
+            ]
+        },
+        {
+            "NameOfScene": "Distract",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "Y te las arreglas para distraer a Venefa lo suficiente, ella vuelve a ti con una sonrisa, dejando que su hechizo se pare y se disipe antes de que golpee a Elly.",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Que necesitado ... ♥",
+                "Supongo que trataré contigo primero ... ♥",
+                "Jejeje, ¿no estás entrañando ... ♥",
+                "Tendré que castigarte por eso ... ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Throw off her aim! (Power)",
+            "theScene": [
+                "¡Justo antes de que Venefa dispare la explosión, intentas empujar su brazo para tirar su objetivo!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "5",
+                "Power",
+                "15",
+                "ThrowOff",
+                "Fail",
+                "FailedToThrowOff"
+            ]
+        },
+        {
+            "NameOfScene": "FailedToThrowOff",
+            "theScene": [
+                "Pero a pesar de sus mejores esfuerzos, ¡el hechizo de Venefa vuela inquieto a Elly!",
+                "JumpToScene",
+                "EllyGetsBlasted"
+            ]
+        },
+        {
+            "NameOfScene": "ThrowOff",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Stern",
+                "¡Y te las arreglas para desechar el objetivo de Venefa, y el hechizo golpea en una pared en lugar de Elly!",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Que molesto ...",
+                "Tch...",
+                "¿Cuándo llegarás a tu punto de ruptura ...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "EllyGetsBlasted",
+            "theScene": [
+                "IfChoice",
+                "3",
+                "Hit2",
+                "EllyDown",
+                "... y el hechizo de Venefa se arrastra a través de los intentos de Elly de detenerlo con facilidad, golpeando su pequeño marco con un pulso de magia resonante que la deja llorando en estado de shock y placer, casi cae al suelo ese instante, pero logra mantenerlapie.",
+                "Speak",
+                "Elly",
+                "SwapLineIf",
+                "Choice",
+                "3",
+                "Hit1",
+                "Mnnn-! ♥♥♥ i- ah- ♥ th-este es malo- ♥ i-si me golpean otro de esos, he terminado-",
+                "3",
+                "",
+                "Hahh- Hahh- o-okay-er- c-can, ¿intentas detener eso si lo hace de nuevo?No fue nada que pudiera hacer contra eso-",
+                "EndLoop",
+                "IfChoice",
+                "3",
+                "Hit1",
+                "MakeHit2",
+                "SetChoice",
+                "3",
+                "Hit1"
+            ]
+        },
+        {
+            "NameOfScene": "MakeHit2",
+            "theScene": [
+                "SetChoice",
+                "3",
+                "Hit2"
+            ]
+        },
+        {
+            "NameOfScene": "EllyDown",
+            "theScene": [
+                "SetChoice",
+                "2",
+                "EllyDown",
+                "RemoveSkillFromMonster",
+                "Anti-Elly Dark Matter Burst",
+                "... y el hechizo de Venefica se arrastra a través de los intentos de Elly de detenerlo con facilidad, golpeando su pequeño marco con un pulso de magia resonante que la deja gritando en éxtasis orgásmico, todo su cuerpo temblando de alegría mientras bulta sus jugos en el piso.Antes de que lentamente se fuera al suelo ...",
+                "Speak",
+                "Elly",
+                "SwapLineIf",
+                "Random",
+                "-[TPN]-[ThePlayerName]...",
+                "E-esto es ... malo ...",
+                "No puedo ... más ...",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "SmileEvil",
+                "FocusedSpeaks",
+                "Uno abajo, ♥ uno para ir. ♥"
+            ]
+        },
+        {
+            "NameOfScene": "ApplyCurse",
+            "theScene": [
+                "IfHasPerk",
+                "Curse of Weakness",
+                "GiveCurseOfExhaustion",
+                "IfHasPerk",
+                "Curse of Exhaustion",
+                "GiveCurseOfShadows",
+                "IfHasPerk",
+                "Curse of Shadows",
+                "GiveCurseOfOblivion",
+                "GivePerkQuietly",
+                "Curse of Weakness"
+            ]
+        },
+        {
+            "NameOfScene": "GiveCurseOfExhaustion",
+            "theScene": [
+                "RemovePerkQuietly",
+                "Curse of Weakness",
+                "GivePerkQuietly",
+                "Curse of Exhaustion"
+            ]
+        },
+        {
+            "NameOfScene": "GiveCurseOfShadows",
+            "theScene": [
+                "RemovePerkQuietly",
+                "Curse of Exhaustion",
+                "GivePerkQuietly",
+                "Curse of Shadows"
+            ]
+        },
+        {
+            "NameOfScene": "GiveCurseOfOblivion",
+            "theScene": [
+                "RemovePerkQuietly",
+                "Curse of Shadows",
+                "GivePerkQuietly",
+                "Curse of Oblivion"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralCurse",
+            "theScene": [
+                "A medida que el tacto burlón de Venefa se sacude la magia que cree a través de tu cuerpo, puedes sentir que tratando de asentarse más profundamente, tejiendo un hexagonal peligroso sobre ti ...",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "ApplyUmbralCurse",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "5",
+                "Willpower",
+                "15",
+                "ReistUmbralCurse",
+                "Fail",
+                "ApplyUmbralCurse"
+            ]
+        },
+        {
+            "NameOfScene": "ApplyUmbralCurse",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "Y tembla mientras la maldición solidifica dentro de ti, un pico burlón de magia que atraviesa tu polla dolorida mientras la venéfica mira con problemas con los ojos, frotando su abundante cofre contra ti un momento antes de alejarse con confianza."
+            ]
+        },
+        {
+            "NameOfScene": "ReistUmbralCurse",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "¡Pero logras resistir la maldición oscura y empuja a Venefa y su burla de ti!"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralArouseCurse",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "Cuando te dejan tambaleándose por los encantadores efectos del hechizo de Venefa, ella sonríe y envía otro pulso de dicha a través de tu cabeza, y puedes sentir cadenas de magia hechizantes envueltas a tu alrededor ...",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "ApplyUmbralArouseCurse",
+                "StatCheck",
+                "Intelligence",
+                "20",
+                "ReistUmbralArouseCurse",
+                "Fail",
+                "ApplyUmbralArouseCurse"
+            ]
+        },
+        {
+            "NameOfScene": "ApplyUmbralArouseCurse",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "Parpadea aturdido mientras la magia giratoria se solidifica dentro de ti, y Venefa le da a sus labios una lamida hambrienta a medida que te vuelves cada vez más vulnerable."
+            ]
+        },
+        {
+            "NameOfScene": "ReistUmbralArouseCurse",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "¡Pero logras resistir la maldición oscura y empuja a Venefa y su burla de ti!"
+            ]
+        },
+        {
+            "NameOfScene": "MeltingDarkMatterCascade",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Predatory",
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "4",
+                "",
+                "SetPostName",
+                "- Cascada de la materia oscura derretida",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'¡Veamos cómo lidias con esto! ♥' Venefa cruza los brazos sobre su pecho en una x, sus garras de mano abierta que generan un orbe ondulante de magia oscura cada uno, antes de moverlos en grandes arcos circulares, dejando múltiples orbes de magia retorcida flotandoEn el aire, justo antes de que ella te apunte con una sonrisa y todos te disparan en arcos.",
+                "'¿Cuánto tiempo puedes aguantar? ♥' Venefa cruza los brazos sobre su pecho en una X, sus garras de mano abierta que generan un orbe ondulado de magia oscura cada uno, antes de moverlos en grandes arcos circulares, dejando múltiples orbes de magia retorcida flotando enEl aire, justo antes de que ella te apunte con una sonrisa y todos te disparan en arcos de lanceo.",
+                "'¡No hay escapatoria! ♥' Venefa cruza los brazos sobre su pecho en una X, sus garras de mano abierta que generan un orbe ondulante de magia oscura cada uno, antes de moverlos en grandes arcos circulares, dejando múltiples orbes de magia retorcida flotando en el aire,Justo antes de que ella te apunte con una sonrisa y todos te disparan en arcos lances.",
+                "'¡Jejejeje! ♥' Venefa cruza los brazos sobre su pecho en una X, sus garras de mano abierta que generan un orbe ondulante de magia oscura cada uno, antes de moverlos en grandes arcos circulares, dejando múltiples orbes de magia retorcida flotando en el aire, justo antesElla te señala con una sonrisa y todos te disparan en arcos de lanceo.",
+                "'¡No puedo esperar para escucharte llorar por la misericordia! ♥' Venefa cruza los brazos sobre su pecho en una X, sus garras de mano abierta que generan un orbe ondulante de magia oscura cada uno, antes de moverlos en grandes arcos circulares, dejando múltiplesOrbes de magia retorcida flotando en el aire, justo antes de que ella te indique con una sonrisa y todos te disparan en arcos lances.",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "JumpToScene",
+                "DODGE"
+            ]
+        },
+        {
+            "NameOfScene": "DODGE",
+            "theScene": [
+                "ChangeProgress",
+                "1",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Let the barrage hit you.",
+                "Menu",
+                "Dodge! (Technique)",
+                "Block it! (Intelligence)",
+                "Let the barrage hit you.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Dodge! (Technique)",
+            "theScene": [
+                "SwapLineIf",
+                "Choice",
+                "2",
+                "EllyAid",
+                "Intentas desesperadamente evitar el aluvión aparentemente interminable de la magia oscura y Elly hace todo lo posible para desviar cualquier foto callejera que pueda con su propia magia ...",
+                "2",
+                "",
+                "Intentas desesperadamente evitar el aluvión aparentemente interminable de la magia oscura ...",
+                "EndLoop",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfProgressEqualsOrGreater",
+                "2",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfProgressEqualsOrGreater",
+                "3",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfProgressEqualsOrGreater",
+                "4",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfProgressEqualsOrGreater",
+                "5",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "EllyAid",
+                "-5",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Weakness",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Exhaustion",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Shadows",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Oblivion",
+                "5",
+                "Technique",
+                "15",
+                "Dodged!",
+                "Fail",
+                "NoDodge!"
+            ]
+        },
+        {
+            "NameOfScene": "Dodged!",
+            "theScene": [
+                "¡Evades ágilmente el aviso sombrío de placer induciendo magia!",
+                "IfProgressEqualsOrLess",
+                "4",
+                "YetMore!",
+                "IfPlayerOrgasm",
+                "OrgasmicFinish",
+                "Y dejas escapar un suspiro de alivio cuando el aluvión de la magia retorcida finalmente termina ...",
+                "JumpToScene",
+                "DodgeResults"
+            ]
+        },
+        {
+            "NameOfScene": "NoDodge!",
+            "theScene": [
+                "¡Pero no puedes seguir adelante con la magia oscura de rayas!",
+                "JumpToScene",
+                "GotHit"
+            ]
+        },
+        {
+            "NameOfScene": "Block it! (Intelligence)",
+            "theScene": [
+                "SwapLineIf",
+                "Choice",
+                "2",
+                "EllyAid",
+                "Intentas desesperadamente bloquear el aluvión de magia oscura aparentemente interminable con tu propia magia, y Elly brinda apoyo con sus propios escudos de magia ...",
+                "2",
+                "",
+                "Intentas desesperadamente bloquear el aluvión de magia oscura aparentemente interminable con tu propia magia ...",
+                "EndLoop",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfProgressEqualsOrGreater",
+                "2",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfProgressEqualsOrGreater",
+                "3",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfProgressEqualsOrGreater",
+                "4",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfProgressEqualsOrGreater",
+                "5",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "EllyAid",
+                "-5",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Weakness",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Exhaustion",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Shadows",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Oblivion",
+                "5",
+                "Intelligence",
+                "15",
+                "Blocked!",
+                "Fail",
+                "NoBlock!"
+            ]
+        },
+        {
+            "NameOfScene": "Blocked!",
+            "theScene": [
+                "¡Desflazas hábilmente el aviso sombrío de placer induciendo magia!",
+                "IfProgressEqualsOrLess",
+                "4",
+                "YetMore!",
+                "IfPlayerOrgasm",
+                "OrgasmicFinish",
+                "Y dejas escapar un suspiro de alivio cuando el aluvión de la magia retorcida finalmente termina ...",
+                "JumpToScene",
+                "DodgeResults"
+            ]
+        },
+        {
+            "NameOfScene": "NoBlock!",
+            "theScene": [
+                "¡Pero la magia oscura de rayas abruma tus defensas!",
+                "JumpToScene",
+                "GotHit"
+            ]
+        },
+        {
+            "NameOfScene": "Let the barrage hit you.",
+            "theScene": [
+                "Solo estás ahí- ¡No estás seguro de cómo lidiar con esto!",
+                "JumpToScene",
+                "GotHit"
+            ]
+        },
+        {
+            "NameOfScene": "GotHit",
+            "theScene": [
+                "HitPlayerWith",
+                "Arouse",
+                "CallSceneThenReturn",
+                "HitTick",
+                "SwapLineIf",
+                "Random",
+                "Múltiples explosiones de magia oscura golpean en tu cuerpo, haciéndote llorar de placer mientras inundan todo tu cuerpo con éxtasis cálido y pulsante, un calor necesitado que se asiente en tu ingle. [DamageToPlayer]",
+                "Los arcos de magia de Lancing golpean en ti, e inmediatamente se derriten por tus sentidos con la felicidad almibarada, haciéndote temblar y temblar con puro deleite mientras cada uno envía una maravillosa onda de placer a través de ti. [DamageToPlayer]",
+                "Los ondulantes orbes de magia se estrellan contra ti, inundando tu cuerpo con oleadas de deseo, inundando tu cintura con la contracción de la necesidad de correrse, solo intensificando con cada perno de magia. [DamageToPlayer]",
+                "Los oscuros tornillos de magia te golpean, y tu cabeza nada con un deseo cautivado, lo que te hace apreciar cada curva suave del cuerpo de Venefa mientras el éxtasis ondula en cada parte de tu forma temblorosa. [DamageToPlayer]",
+                "EndLoop",
+                "IfProgressEqualsOrLess",
+                "4",
+                "YetMore!",
+                "IfPlayerOrgasm",
+                "OrgasmicFinish",
+                "Pero mientras tembla con placer, el aluvión finalmente termina, y suspiras con alivio.",
+                "JumpToScene",
+                "DodgeResults"
+            ]
+        },
+        {
+            "NameOfScene": "YetMore!",
+            "theScene": [
+                "SetPostName",
+                "- Cascada de la materia oscura derretida",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'¡Vamos! ♥ ¡Vamos! ♥ ¡Vamos! ♥' Pero el aluvión de Venefica de la magia ondulante solo se intensifica mientras teje más de su placer induciendo magia, ¡te envía la magia oscura torcida en un torrente disperso!",
+                "'¿Qué pasa? ♥ ¿Puedes seguir el ritmo?",
+                "'¡Eres tan adorable cuando estás presionado! ♥' Pero el aluvión de Venefa de la magia ondulante solo se intensifica mientras teje más de su placer induciendo magia, ¡te envía la magia oscura torcida en un torrente disperso!",
+                "'¡Solo va a empeorar! ♥', pero el aluvión de Venefa de la magia ondulada solo se intensifica mientras teje más de su placer induciendo magia, ¡te envía la magia oscura torcida en un torrente disperso!",
+                "'¿Qué pasa? ♥ ¿Puedes seguir el ritmo?!",
+                "'¡Qué entretenido! ♥' Pero el aluvión de la magia oscura de Venefa solo se intensifica mientras envía otro retorcido oleada de explosiones que te buscan, ¡intentan volverte loco mientras se ríe con diversión!",
+                "'¡Vamos! ♥ ¡Vamos! ♥ ¡Vamos! ♥' Pero el aluvión de magia oscura de Venefa solo se intensifica mientras envía otro toque de explosión de lances que te buscan, con la intención de volverte loco mientras se ríe de diversión.",
+                "'¡Solo va a empeorar! ♥' Pero el aluvión de magia oscura de Venefa solo se intensifica mientras envía otro torcido aumento de explosiones de lances que te buscan, ¡intentan volverte loco mientras se ríe con diversión!",
+                "'¡No ha terminado todavía! ♥' Pero el aluvión de magia de placer de Venefa solo se intensifica a medida que genera más y más de esos orbes de magia oscura con sus garras, esparciéndolas en el aire antes de que disparen hacia ti una y otra vez!",
+                "'¡Vamos! ♥ ¡Vamos! ♥ ¡Vamos! ♥' Pero el aluvión de magia de placer de Venefa solo se intensifica mientras genera cada vez más de esos orbes retorciéndose de magia oscura con sus garras, esparciéndolas en el aire antes de que vuelvan a disparar hacia ti¡Y de nuevo!",
+                "'¡Eres tan adorable cuando estás presionado! ♥' Pero el aluvión de magia de placer de Venefa solo se intensifica mientras genera cada vez más de esas orbes de magia oscura con sus garras, esparciéndolas en el aire antes de que vuelvan a dispararte hacia ti de nuevo¡Y de nuevo!",
+                "'¡Solo va a empeorar! ♥' Pero el aluvión de magia de placer de Venefa solo se intensifica a medida que genera más y más de esos orbes de magia oscura con sus garras, esparciéndolas en el aire antes de que disparen hacia ti una y otra vez!",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "JumpToScene",
+                "DODGE"
+            ]
+        },
+        {
+            "NameOfScene": "HitTick",
+            "theScene": [
+                "IfChoice",
+                "4",
+                "Hit4",
+                "setToHit5",
+                "IfChoice",
+                "4",
+                "Hit3",
+                "setToHit4",
+                "IfChoice",
+                "4",
+                "Hit2",
+                "setToHit3",
+                "IfChoice",
+                "4",
+                "Hit1",
+                "setToHit2",
+                "SetChoice",
+                "4",
+                "Hit1"
+            ]
+        },
+        {
+            "NameOfScene": "setToHit2",
+            "theScene": [
+                "SetChoice",
+                "4",
+                "Hit2"
+            ]
+        },
+        {
+            "NameOfScene": "setToHit3",
+            "theScene": [
+                "SetChoice",
+                "4",
+                "Hit3"
+            ]
+        },
+        {
+            "NameOfScene": "setToHit4",
+            "theScene": [
+                "SetChoice",
+                "4",
+                "Hit4"
+            ]
+        },
+        {
+            "NameOfScene": "setToHit5",
+            "theScene": [
+                "SetChoice",
+                "4",
+                "Hit5"
+            ]
+        },
+        {
+            "NameOfScene": "OrgasmicFinish",
+            "theScene": [
+                "PlayerOrgasm",
+                "1",
+                "SwapLineIf",
+                "Random",
+                "Y a medida que te quedan asombroso del placer abrumador asaltando a todo tu ser, Venefica mantiene el constante bombardeo de la magia, golpeándote con una ola tras ola de dicha caliente, hasta que tu izquierda llora en un clímax arqueado de espalda, tu semilla se dispara haciaEl aire mientras tiembla en euforia pecaminosamente dulce.",
+                "Y a medida que alcanza su límite, una explosión después de una explosión de magia featty continúa golpeándose en usted, hasta que los pulsos de éxtasis que lo lavan llevan a un clímax de fusión mental, y sus espasmos de polla emocionados mientras derrama su semen al aire.Pero Venefa no dejó su asalto mágico por un momento, dejándote temblando a través de un orgasmo extendido e intenso.",
+                "Y te quedas tan aturdido y cachondo por el abrumador asalto mágico que no puedes evitar agarrar tu polla dolorida y acariciarla con entusiasmo al ver el voluptuoso cuerpo de Venefica, y ella muestra su profunda escisión hacia ti y elAmplia vista rápidamente te lleva a un clímax meltoso y estimulante.",
+                "Y la magia obscena deja todo tu cuerpo temblando y retorciéndose en la felicidad caliente, cada uno de los orbe ondulantes de magia que te golpea con una nueva ola de clímax eufórico a medida que comienzas a brotar al aire libre, tu cara se afloja mientras te pierdes en elmomento intoxicante.",
+                "EndLoop",
+                "IfPlayerSpiritGone",
+                "CrumpleFromBarrage",
+                "JumpToScene",
+                "DodgeResults"
+            ]
+        },
+        {
+            "NameOfScene": "CrumpleFromBarrage",
+            "theScene": [
+                "Menu",
+                "Let the barrage hit you.",
+                "This is too much... (Lose)",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "This is too much... (Lose)",
+            "theScene": [
+                "SkipPlayerAttack",
+                "Con tu último espíritu gastado, no puedes soportar más, y caer hacia atrás en un montón de contracción, temblando y jadeando mientras los tornillos de magia placentera continúan golpeándote por unos momentos más."
+            ]
+        },
+        {
+            "NameOfScene": "DodgeResults",
+            "theScene": [
+                "IfChoice",
+                "4",
+                "Hit5",
+                "CharmedAndCursed",
+                "IfChoice",
+                "4",
+                "Hit4",
+                "Charmed",
+                "IfChoice",
+                "4",
+                "Hit3",
+                "Charmed"
+            ]
+        },
+        {
+            "NameOfScene": "Charmed",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Charm",
+                "Te tambaleas después del placer inductor de bombardeo, todo tu cuerpo dolorido con un deseo enamorado de la venefa mientras tu polla se contrae de manera necesitada."
+            ]
+        },
+        {
+            "NameOfScene": "CharmedAndCursed",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "ApplyStatusEffect",
+                "Charm",
+                "Te tambaleas después del placer que induce aluvión, tu cabeza nadando con un deseo enamorado de la venéfica, tragando ligeramente a medida que sientes una maldición mágica que se asiente fácilmente en ti, tu polla palpitando en respuesta mientras se solidifica con un pulso cálido de magia oscura."
+            ]
+        },
+        {
+            "NameOfScene": "PowerWord",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Sigh",
+                "Hay un momento de quietud, ya que Venefa cierra los ojos, y levanta un brazo del costado, uniendo a dos de sus obsidiana juntas mientras la magia oscura torcida se une visiblemente alrededor de su cuerpo mientras el suelo y el aire temblan, y el encanto y la maldición se entrelazan sobre ustedPulse siniestramente ...",
+                "SetPostName",
+                "- Potencia: cum",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'Ahora ... ♥' luego sus ojos se abren con intención tortuosa mientras se ajusta los dedos, la magia recolectada explotando hacia afuera en un instante y una sensación abrumadora de dicha orgásmica florece en el fondo de ti mientras pronuncia una sola palabra.'{i} cum! ♥ {/i}'",
+                "Luego, sus ojos se abren con intención tortuosa mientras se ajusta los dedos, la magia recolectada explota hacia afuera en un instante y una sensación abrumadora de dicha orgásmica florece en el fondo de ti mientras pronuncia una sola palabra.'{i} cum! ♥ {/i}'",
+                "Luego, sus ojos se abren con alegría sádica mientras le rompe los dedos, la magia giratoria explota hacia afuera en un instante, y una sensación abrumadora de orgasmo fundido florece hacia afuera desde el fondo mientras pronuncia una sola palabra.'{i} cum! ♥ {/i}'",
+                "'Hmhmhm- ♥♥♥' luego sus ojos se abren con una alegría sádica mientras se ajusta los dedos, la magia giratoria explota hacia afuera en un instante, y una sensación abrumadora de orgasmo fundido florece hacia afuera desde lo profundo dentro de ti mientras pronuncia una sola palabra.'{i} cum! ♥ {/i}'",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "SwapLineIf",
+                "Choice",
+                "2",
+                "EllyAid",
+                "Puedes escuchar a Elly dejar escapar un ruido de pánico detrás de ti mientras se prepara para reunir su propia magia para tratar de desviar parte del intenso hechizo sobre ti.",
+                "2",
+                "",
+                "",
+                "EndLoop",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Give in to the command.",
+                "Menu",
+                "Brace yourself! (Willpower)",
+                "Give in to the command.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Brace yourself! (Willpower)",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "EllyAid",
+                "-10",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Exhaustion",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Shadows",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Oblivion",
+                "5",
+                "Willpower",
+                "20",
+                "ResistedPowerWord",
+                "Fail",
+                "SpurtOnCommand"
+            ]
+        },
+        {
+            "NameOfScene": "ResistedPowerWord",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "HitPlayerWith",
+                "Arouse",
+                "¡Y te sacudes la intensa compulsión que resuena a través de todo tu ser!Pero tu polla todavía se queda contrajándose y doliendo la necesidad, ya que Venefa te sonríe con problemas ... [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "Give in to the command.",
+            "theScene": [
+                "Te relajas con un suspiro necesitado y dejas que el comando te lave ...",
+                "JumpToScene",
+                "SpurtOnCommand"
+            ]
+        },
+        {
+            "NameOfScene": "SpurtOnCommand",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "PlayerOrgasm",
+                "1",
+                "SwapLineIf",
+                "Random",
+                "Y lloras con un fuerte gemido mientras tu polla palpita y espasmos con deleite, brotando cuerdas gruesas de semillas con cada éxtasis inductor de magia, el comando de Venefica resuena en tu mente ahora agitada y vapida al sentir ese orgasmo en un momento singularde intensidad. [PlayerOrgasmLine]",
+                "La dulce felicidad almibarada que se derrite a través de todo su cuerpo lo abruma en un instante, dejando sus caderas sacudiéndose mientras su polla descarga cuerdas de esperma en tambalearse mientras su mente gira en placer delirante e intoxicante. [PlayerOrgasmLine]",
+                "El comando que pulsando dentro de su cabeza lo supera por completo mientras su cuerpo estremece con la euforia de montaje y burbujeante, dejándote temblando y jadeando mientras tu polla obedientemente espasmos por Venefica, disparando tu semen en un orgasmo desordenado y alucinante.",
+                "El comando singular de Venefa ensucia todas tus pensamientos cuando un clímax te golpea en una ola repentina, haciendo que todo tu cuerpo se estremezca y se contrae mientras tu polla dolorosa brota largas cuerdas de semilla, tus bolas se tensan fuertemente mientras trabajan para descargar cada vez más, y túcasi puede sentir tu mente drenándose con cada carga. [PlayerOrgasmLine]",
+                "Y el éxtasis hinchado descarta todo lo demás, dejándote perdido en un mar de dicha meloso, tu polla se desplaza con entusiasmo a medida que descarga una y otra vez para Venefica, su orden de correrse lo único que puedes aferrarte a medida que el clímax sube cada vez másAntes de escapar. [PlayerOrgasmLine]",
+                "La voz de Venefica suena a través de tu cabeza como un rayo, y te superas al instante con una oleada de euforia que deja a todo tu cuerpo temblando mientras tu polla explota obedientemente su carga de la cascada aparentemente interminable de magia placentera.]",
+                "EndLoop",
+                "EmptySpiritCounter",
+                "IfPlayerSpiritGone",
+                "CrumpleFromPowerWord",
+                "JumpToScene",
+                "I want to cum more..."
+            ]
+        },
+        {
+            "NameOfScene": "I want to cum more...",
+            "theScene": [
+                "SetPostName",
+                "- Potencia: cum",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "Pero justo cuando piensas que se acabó, te pones en tus sentidos mientras escuchas la voz de Venefa nuevamente mientras ella le rompe los dedos con garras una vez más.'Cum, {i} de nuevo! ♥ {/i}'",
+                "'Jejeje. ♥ ¿Cuántos puedes tomar? ♥' Las palabras de Venefa te dejan de tu estupor justo a tiempo para que sientas el aumento de la magia oscura de nuevo mientras ella vuelve a tomar sus dedos.'{i} cum! ♥ {/i}'",
+                "'Si no puede resistirlo, no se detendrá. ♥' Antes de que pueda obtener su aliento, Venefa, vuelva a tomar sus garras, enviando una cascada de magia completamente nueva a su transformación.'Ahora, {i} cum! ♥ {/i}'",
+                "'No has terminado todavía, ¿verdad? ♥' Puedes sentir el chasquido de sus dedos antes de escucharlos mientras la magia oscura giratoria se apresura a tu cuerpo nuevamente en una mentalidad de fusión.'{i} cum! ♥ {/i}'",
+                "'¿Quieres resistirte? ♥' Ella le rompe los dedos una vez más y puedes sentir que tu cuerpo comienza a temblar a medida que el placer mágico aumenta a través de ti mientras da otra orden.'{i} cum! ♥ {/i}'",
+                "'¿Qué pasa? ♥ ¿No vas a defenderse? ♥' Venefa se ríe de deleite mientras vuelve a tomar sus dedos, pronunciando el comando resonante una vez más mientras la torcida euforia induce magia se apresura a ti.'{i} cum, de nuevo! ♥ {/i}'",
+                "'Una cara tan adorable. ♥' Con un suspiro extasiado, ella te golpea los dedos una vez más, enviándole otra torsión de magia.'Quiero verlo más. ♥ {i} cum! ♥ {/i}'",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "IfPlayerSpiritGone",
+                "SpurtOnCommand",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Give in to the command.",
+                "Menu",
+                "Brace yourself! (Willpower)",
+                "Give in to the command.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "CrumpleFromPowerWord",
+            "theScene": [
+                "Menu",
+                "I want to cum more...",
+                "I can't take anymore... (Lose)",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "I can't take anymore... (Lose)",
+            "theScene": [
+                "SkipPlayerAttack",
+                "Tu cuerpo tiembla mientras disparas tu último espíritu, y te destrozas en el suelo en un montón sacudido y borracho de los orgasmos forzados que sacudieron tu cuerpo, y con una risa burlona te da algunos más, ruidosamente chasqueando los dedos yPocas veces más, enviando sobras de magia alucinantes una y otra vez ..."
+            ]
+        },
+        {
+            "NameOfScene": "UmbralSucker",
+            "theScene": [
+                "GivePerkToMonster",
+                "Umbral Sucker",
+                "HitPlayerWith",
+                "Umbral Sucker",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "SetPostName",
+                "- Umbral Sucker",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'Podría usar un bocadillo. ♥' En un movimiento suave de sus garras de obsidiana, Venefa gira una piruleta de su atuendo y arranca su envoltura antes de presionarla en su boca, rodando su lengua larga sobre él, haciendo que sus caderas sean tiradas¡Delicia a medida que la sensación se redirige directamente a tu dolidosa polla! [DamageToPlayer]",
+                "'Hmhmhm. ♥♥♥' En un movimiento suave de sus garras de obsidiana, Venefa gira una piruleta de su atuendo y arranca su envoltura antes de presionarla en su boca, rodando su lengua larga sobre ella, haciendo que sus caderas sean jerk de deleite como¡La sensación se redirige directamente a tu polla dolorida! [DamageToPlayer]",
+                "'Me pregunto, ¿cómo lidiarás con esto? ♥' En un movimiento suave de sus garras de obsidiana, Venefica gira una piruleta de su atuendo y arranca su envoltura antes de presionarla en su boca, rodando su lengua larga sobre ella, convirtiendo¡Tus caderas se deleitan cuando la sensación se redirige directamente a tu dolidosa polla! [DamageToPlayer]",
+                "'Lentamente, ♥ dulcemente, ♥ Te derretiré. ♥' En un movimiento suave de sus garras de obsidiana, Venefica gira una piruleta de su atuendo y arranca su envoltura antes de presionarla en su boca, rodando su larga lengua sobre¡Haciendo que tus caderas se deleiten mientras la sensación se redirige directamente a tu dolor de polla! [DamageToPlayer]",
+                "'Ni siquiera necesito tocarte. ♥' En un movimiento suave de sus garras de obsidiana, Venefica gira una piruleta de su atuendo y arranca su envoltura antes de presionarla en su boca, rodando su lengua larga sobre ella, convirtiéndolo, convirtiéndolo, convirtiéndose en¡Tus caderas se deleitan cuando la sensación se redirige directamente a tu dolidosa polla! [DamageToPlayer]",
+                "'¿Cuánto más puedes tomar? ♥' En un movimiento suave de sus garras de obsidiana, Venefa gira una piruleta de su atuendo y arranca su envoltorio antes de presionarlo en su boca, rodando su lengua larga sobre él, haciendo que las caderas sean tiradas de las caderas¡Deleite a medida que la sensación se redirige directamente a tu dolidosa polla! [DamageToPlayer]",
+                "EndLoop",
+                "SetPostName",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "UmbralSuckerEndTurn",
+            "theScene": [
+                "HitPlayerWith",
+                "Umbral Sucker",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "SetPostName",
+                "- Umbral Sucker Continua burla",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "Venefa se ríe ligeramente mientras rueda lentamente su lengua alrededor de la piruleta en su boca con facilidad practicada, apenas necesita ningún esfuerzo para burlarse de su erección mágicamente que conecta, la sensación fantasmal que se lleva a cabo en bucles interminables alrededor de su punta de contracción. [DamageToPlayer]",
+                "Todo su cuerpo hormiguea con oleadas de placer mientras Venefa continúa burlándose del tonto que ha perseguido entre sus labios, cada tentador lamer y chupar haciendo que su polla se deleite mientras la sensación se transfiere mientras se burla de ti con facilidad informal. [DamageToPlayer]",
+                "Su erección se contrae con entusiasmo cuando Venefa tira de la piruleta más profundamente en su boca con su larga lengua enrollada, la sensación de ella balanceando sus suaves labios hacia arriba y hacia abajo de su eje enviando maravillosas olas de placer a través de su cintura, ya que las sensaciones se transfieren perfectamente a usted. [DamageToPlayer]",
+                "Venefica chupa intensamente la piruleta en su boca con una sonrisa, y la sensación de los labios y la lengua burlándose y jugando tu longitud resuena una y otra vez, dejando tu polla palpitando y doliendo con necesidad mientras saca el dulce de la boca de su boca.Por un breve momento, lamiéndose los labios. [DamageToPlayer]",
+                "Mientras la venéfica rueda la piruleta alrededor de su boca con facilidad practicada, solo puede jadear de las sensaciones etéreas que se mueven hacia arriba y hacia abajo de su eje, su lengua larga jugando con usted constantemente lamiendo y apretando por todas partes, dejando que su dolor de eje duele se tibia con twitchesDelicia. [DamageToPlayer]",
+                "EndLoop",
+                "SetPostName",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "UmbralSuckerEndEffectCheck",
+            "theScene": [
+                "IfMonsterHasPerk",
+                "Umbral Sucker",
+                "UmbralSuckerRemovalCheck"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralSuckerRemovalCheck",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "VeneficaDropsSucker",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "VeneficaDropsSucker",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "VeneficaDropsSucker"
+            ]
+        },
+        {
+            "NameOfScene": "VeneficaDropsSucker",
+            "theScene": [
+                "RemovePerkFromMonster",
+                "Umbral Sucker",
+                "Con Venefa incapaz de actuar completamente, la piruleta termina cayendo de su boca al suelo, cortando su conexión con usted y termina su asalto sensorial."
+            ]
+        },
+        {
+            "NameOfScene": "EndSuckerMakeOut",
+            "theScene": [
+                "IfMonsterHasPerk",
+                "Umbral Sucker",
+                "EndSuckerMakeOut2"
+            ]
+        },
+        {
+            "NameOfScene": "EndSuckerMakeOut2",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "RemovePerkFromMonster",
+                "Umbral Sucker",
+                "A medida que te mueves para besarse con Venefica, ella sonríe y saca la piruleta en su boca con un pop húmedo antes de tirarlo casualmente hacia un lado, terminando la conexión sensorial arcana."
+            ]
+        },
+        {
+            "NameOfScene": "EndSuckerKiss",
+            "theScene": [
+                "IfMonsterHasPerk",
+                "Umbral Sucker",
+                "EndSuckerKiss2"
+            ]
+        },
+        {
+            "NameOfScene": "EndSuckerKiss2",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "RemovePerkFromMonster",
+                "Umbral Sucker",
+                "ApplyStance",
+                "Besarse",
+                "A medida que te mueves para besar ligeramente a Venefica, ella sonríe, sacando la piruleta en su boca con un pop húmedo antes de tirarlo casualmente hacia un lado, terminando la conexión sensorial arcana.¡Pero luego se sumerge para encontrarse con su casto beso, abrazándote en una sesión de besos húmedos!"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralSuckerCurse",
+            "theScene": [
+                "La magia del beso de Venefica al tonto continúa pulsando y se extiende a través de su erección contracción, trabajando para tejer una maldición a través de su ser ...",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "ApplyUmbralSuckerCurse",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "5",
+                "Willpower",
+                "15",
+                "ReistUmbralSuckerCurse",
+                "Fail",
+                "ApplyUmbralSuckerCurse"
+            ]
+        },
+        {
+            "NameOfScene": "ApplyUmbralSuckerCurse",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "Y te tembla mientras la maldición solidifica dentro de ti y Venefa le da al dulce una succión gratificante y tentadora, la sensación aún más fuerte que antes ..."
+            ]
+        },
+        {
+            "NameOfScene": "ReistUmbralSuckerCurse",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "¡Pero manejas resistir la maldición oscura invadiendo tus sentidos!"
+            ]
+        },
+        {
+            "NameOfScene": "OblivionSucker",
+            "theScene": [
+                "ChangeArousalByPercent",
+                "50",
+                "ChangeImageLayer",
+                "Expression",
+                "LongTongue",
+                "Pero a medida que te tambaleas por el placer de lo que se siente como múltiples lenguas largas burlándose a lo largo de tu eje, puedes sentir que los dulces se derriten en su boca por ella lamiendo y chupando, y sentir el espasmo de tu polla con entusiasmo cuando el placer orgásmico comienza a hincharse en el tiempo con elLollipop de desaparición.",
+                "ChangeArousalByPercent",
+                "50",
+                "Intentas luchar por los dulces, pero ya es demasiado tarde, una sola chupa de la boca hábil de Venefa deja todo tu cuerpo tensándose en éxtasis, tu polla felizmente palpitando de la sobrecarga sensorial, goteando más y más precum mientras el dulce se desvanece más rápido comoUn conteo alucinante.",
+                "PlayerOrgasm",
+                "1",
+                "Luego comienza a sacar lentamente la piruleta de sus labios fruncidos, el único que el único piense que puedes ver de él mientras chupa firmemente tu punta, hasta que el dulce terminado aparece de su boca como un palo en una exhibición lasciva, pero estás demasiado ocupado llorando en el clímax mientras tus espasmos de polla en la derrota, un orgasmo meloso que lo atraviesa una y otra vez mientras te quitaste la mente.",
+                "RemovePerkQuietly",
+                "Curse of Oblivion",
+                "GivePerkQuietly",
+                "Curse of Shadows",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Mientras jadeas e intentas recordarte, ves que la miras con la mano con pizca el palo a un lado con la lengua antes de deslizarla hacia atrás en la boca, lamiéndose los labios mientras mira tu placer, pero por cómo esa magia te terminóTan fácilmente, la maldición parece haber gastado parte de su poder."
+            ]
+        },
+        {
+            "NameOfScene": "UmbralKiss",
+            "theScene": [
+                "ChangeEnergyQuietly",
+                "-30",
+                "30 Energía se agota del beso encantador de Venefa, y a cambio puedes sentir que se vierte la magia oscura en un intento de enrollar una maldición en torno a tu propio ser.",
+                "IfPlayerEnergyGone",
+                "ApplyUmbralKissCurseAutoFail",
+                "IfFetishLevelEqualOrGreater",
+                "Kissing",
+                "100",
+                "AutoFailKiss",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "ApplyUmbralKissCurse",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Kissing",
+                "25",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Kissing",
+                "50",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Kissing",
+                "75",
+                "5",
+                "Intelligence",
+                "15",
+                "ReistUmbralKissCurse",
+                "Fail",
+                "ApplyUmbralKissCurse"
+            ]
+        },
+        {
+            "NameOfScene": "ApplyUmbralKissCurse",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Y tiestras mientras la maldición se solidifica dentro de ti, Venefa rompe el beso con una risa ligera, lamiéndose los labios antes de sumergirte para besarte aún más ..."
+            ]
+        },
+        {
+            "NameOfScene": "AutoFailKiss",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Y con un fetiche de besos tan pesado, ni siquiera se puede pensar en resistir la magia invasora, dejándote temblando mientras la maldición se solidifica dentro de ti.Venefica rompe el beso con una risa ligera, lamiéndose los labios antes de sumergirte para besarte aún más ..."
+            ]
+        },
+        {
+            "NameOfScene": "ApplyUmbralKissCurseAutoFail",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Y sin que no quede energía para darle imposible liberarte de la magia invasora, dejándote temblando mientras la maldición se solidifica dentro de ti.Venefica rompe el beso con una risa ligera, lamiéndose los labios antes de sumergirte para besarte aún más ..."
+            ]
+        },
+        {
+            "NameOfScene": "ReistUmbralKissCurse",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "¡Pero manejas resistir la maldición oscura invadiendo tus sentidos!"
+            ]
+        },
+        {
+            "NameOfScene": "OblivionKiss",
+            "theScene": [
+                "IfPlayerEnergyGone",
+                "OblivionKissNoEnergy",
+                "ChangeEnergyQuietly",
+                "-9999",
+                "El beso largo, mental y desordenado no se detiene hasta que cada parte de tu energía se ha agotado de ti, dejándote sintiéndote débil y dolorosamente cachondo, queriendo darle aún más de tu maná, y los dos enredan las lenguasSolo un poco más a medida que tu mente se desvanece y sale.",
+                "ClearStanceFromMonsterAndPlayer",
+                "Besarse",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Entonces Venefa rompe la sesión de besos con un suspiro húmedo y satisfecho, lamiendo sus suaves labios mientras mira tu aturdida forma borracha."
+            ]
+        },
+        {
+            "NameOfScene": "OblivionKissNoEnergy",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LongTongue",
+                "ChangeSpiritQuietly",
+                "-1",
+                "Sin energía para dar a Venefica, ella comienza a dibujar en tus reservas más profundas, a través de la lengua descuidada enredando la sesión de besos, el mero beso te inunda con la sensación de orgasmo meloso mientras te domina por completo con su lengua, dejándote tan ligero que puedesApenas piensa mientras ella drena más y más de ti.Pierdes 1 espíritu.",
+                "RemovePerkQuietly",
+                "Curse of Oblivion",
+                "GivePerkQuietly",
+                "Curse of Shadows",
+                "Entonces Venefa rompe la sesión de besos con un suspiro húmedo y satisfecho, lamiendo sus suaves labios mientras mira tu aturdida forma borracha.Afortunadamente, puede sentir la maldición que afloja su control gracias a cuánto te drenó."
+            ]
+        },
+        {
+            "NameOfScene": "UmbralMarshmallows",
+            "theScene": [
+                "Y a medida que te pierdes para frotar tu cara en los suaves senos de Venefa, una poderosa maldición se está tejiendo lentamente sobre ti, cada apretón seductor y caricia lo empodera mientras sus pechos te abruman.",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "100",
+                "AutoFailSmother",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "ApplyUmbralMarshmallowsCurse",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "25",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "50",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "75",
+                "5",
+                "Willpower",
+                "20",
+                "ReistUmbralMarshmallowsCurse",
+                "Fail",
+                "ApplyUmbralMarshmallowsCurse"
+            ]
+        },
+        {
+            "NameOfScene": "ApplyUmbralMarshmallowsCurse",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "Y te tembla mientras la maldición solidifica dentro de ti, Venefa te recompensa con la sensación inductora de sus senos celestiales masajeando tu cara de placer durante todo el tiempo ..."
+            ]
+        },
+        {
+            "NameOfScene": "AutoFailSmother",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "Y con un fetiche de senos tan pesado, ni siquiera se puede pensar en resistir la magia invasora, dejándote temblando mientras la maldición se solidifica dentro de ti.Venefica sonríe dulcemente y recompensa su afán rodando sus suaves senos contra su rostro, lo que lo lleva aún más a la debilidad ..."
+            ]
+        },
+        {
+            "NameOfScene": "ReistUmbralMarshmallowsCurse",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "¡Pero manejas resistir la maldición oscura invadiendo tus sentidos!"
+            ]
+        },
+        {
+            "NameOfScene": "AddictiveSweetness",
+            "theScene": [
+                "SetPostName",
+                "- dulzura adictiva",
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "HitPlayerWith",
+                "Addictive Sweetness",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'No te detengas. ♥' Venefica pone una mano garra en la parte posterior de tu cabeza y empuja tu rostro más profundamente en su escote de almohada, y antes de que tu mente aturdida y encantada pueda pensar en ello, envía un pulso de magia encantadoraTu cerebro ya encantado, y comienzas a acariciar ansiosamente sus tetas con un afecto creciente mientras jorobas el muslo suave. [DamageToPlayer]",
+                "'Pérdate tú mismo. ♥' Venefica pone una mano garra en la parte posterior de tu cabeza y empuja tu cara más profundamente en su escote de almohada, y antes de que tu mente aturdida y encantada pueda pensar en ello, envía un pulso de magia encantadora a través de tu ya encantadaCerebro, y comienzas a acariciar ansiosamente sus tetas con un afecto creciente mientras jorobas su suave muslo. [DamageToPlayer]",
+                "'Sé una buena mascota. ♥' Venefa pone una mano garra en la parte posterior de tu cabeza y empuja tu rostro más profundamente en su escote de almohada, y antes de que tu mente aturdida y encantada pueda pensar en ello, envía un pulso de magia encantadora a través de tuYa encantado cerebro, y comienzas a acariciar ansiosamente sus tetas con un afecto creciente mientras jobvas su suave muslo. [DamageToPlayer]",
+                "'Se derrite. ♥' Venefa pone una mano con garras en la parte posterior de la cabeza y empuja su rostro más profundamente en su escote de almohada, y antes de que su mente aturdida y encantada pueda pensar en ello, envía un pulso de magia encantadora a través de su ya encantadoCerebro, y comienzas a acariciar ansiosamente sus tetas con un afecto creciente mientras jorobas su suave muslo. [DamageToPlayer]",
+                "'Tan adorable. ♥' Venefa pone una mano con garras en la parte posterior de la cabeza y empuja su rostro más profundamente en su escote de almohada, y antes de que su mente aturdida y encantada pueda pensar en ello, envía un pulso de magia encantadora a través de su ya encantadoCerebro, y comienzas a acariciar ansiosamente sus tetas con un afecto creciente mientras jorobas su suave muslo. [DamageToPlayer]",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "SwapLineIf",
+                "Choice",
+                "2",
+                "EllyAid",
+                "Se puede escuchar a Elly le gritarán a Elly a gritarle sobre la magia del encanto, y puedes sentir algo de su magia tratando de llevarte de regreso a tus sentidos.",
+                "2",
+                "",
+                "",
+                "EndLoop",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Relax and enjoy yourself.",
+                "Menu",
+                "Try and shake off the enchantment!",
+                "Relax and enjoy yourself.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Try and shake off the enchantment!",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "EllyAid",
+                "-5",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Exhaustion",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Shadows",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Oblivion",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "100",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Legs",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Legs",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Legs",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Legs",
+                "100",
+                "2",
+                "Temptation",
+                "15",
+                "ResistedAddictiveSweetness",
+                "Fail",
+                "EagerlyHump"
+            ]
+        },
+        {
+            "NameOfScene": "ResistedAddictiveSweetness",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "Y te las arreglas para evitar disfrutar del cuerpo pecaminosamente seductor de Venefa, sacudiendo su tentadora magia, pero todavía estás atrapado presionado cerca de ella, tu cara acurrucada en su escote mientras te mira con hambre ..."
+            ]
+        },
+        {
+            "NameOfScene": "Relax and enjoy yourself.",
+            "theScene": [
+                "Te relajas y te disfrutas de la tentación de Venefica ...",
+                "JumpToScene",
+                "EagerlyHump"
+            ]
+        },
+        {
+            "NameOfScene": "EagerlyHump",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "SetPostName",
+                "- dulzura adictiva",
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "HitPlayerWith",
+                "Addictive Sweetness",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "Empujaste con entusiasmo tus caderas contra el tentador muslo de Venefica, frotando contra su pierna dominante mientras tientas y acaricias sus tetas lujosamente suaves, dejando que tu mente neble la rosa mientras aceptas su tentación y su fragancia anula tus sentidos, como si tu cerebro esté lleno de dulces con algodón de azúcar. [DamageToPlayer]",
+                "Venefa levanta los brazos en un estiramiento lascivo mientras te jubillas irreflexivamente la pierna, dándote un reinado libre para estropearte con sus senos pesados ​​mientras suspira felizmente, y sus tetas pecaminosas y malvavisiales se derriten de lo que queda de tu cerebro mientras se llena su dulce aroma.Tu mente y su piel suave te intoxican. [DamageToPlayer]",
+                "Con una dulce risa, la venéfica presiona la cara ansiosa más profundamente en su abundante escote, enterrando la cabeza completamente entre sus tetas embriagadoras, lo que lo lleva a una adicción más profunda mientras te jorra la pierna necesariamente en busca de más estimulación. [DamageToPlayer]",
+                "Todo su cuerpo se tensa con la emoción cuando Venefa levanta la pierna un poco más alto, presionando su muslo dominante contra su espasmo, la polla amorosa, enviando sacudidas de felicidad a lo largo de su cuerpo mientras empujas tus caderas.En medio del éxtasis, acaricia más en sus tetas de almohada en busca de una suave comodidad, dejando que su mente se derrita aún más. [DamageToPlayer]",
+                "Venefa se desplaza suavemente por la parte posterior de tu cabeza mientras te entregas irreflexivamente a su cuerpo, empujando contra su poderosa pierna y frotando tu cara contra sus enormes senos, sientes que te alejas en un cielo suave y esponjoso, y nunca quieres irte.[DamageToPlayer]",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "No te detengas todavía. ♥ Pásate. ♥",
+                "Eso es todo, ♥ ráfage para mí. ♥",
+                "Tan lindo. ♥ ¿Quieres correrte, no? ♥",
+                "Tan necesitado y adorable. ♥",
+                "¿Todos tus pensamientos se han ido? ♥ ¿Son mis tetas todas las que puedes pensar? ♥",
+                "Una mascota tan linda te estás convirtiendo. ♥",
+                "Ah? ♥ ¿Qué pasa? ♥ ¿No puedes parar? ♥♥♥ Jehehe. ♥",
+                "Tu polla está pensando ahora. ♥",
+                "EndLoop",
+                "IfPlayerOrgasm",
+                "SpurtSpurt",
+                "IfPlayerSpiritGone",
+                "CrumpleFromSweetness",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Relax and enjoy yourself.",
+                "Menu",
+                "Try and shake off the enchantment!",
+                "Relax and enjoy yourself.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "SpurtSpurt",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "PlayerOrgasm",
+                "1",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "Llegas al punto de no retorno y no puedes dejar de jorobar la pierna tentador y suave y suave de Venefa, enterrando tu cara en sus abundantes tetas te pierdes por completo mientras te aferras desesperadamente a su cuerpo curvilíneo hasta que todo tu estado de clímax y estallesSobre su muslo, dejándote temblando contra ella, respirando fuertemente.",
+                "Tu respiración se vuelve más dura a medida que te frote la cara contra los encantadores senos de Venefa, tu cerebro se derrite de su suavidad y su aroma intoxicantemente dulce, hasta que con unos pocos empujes finales de tu polla frotando contra su muslo, volas tu carga por toda la pierna, dejándote, dejándoteTemblando contra ella mientras ella con amor acaricia la parte posterior de tu cabeza.",
+                "Solo puedes retorcerse por el momento mientras alcanzas tu límite, y Venefa se ríe dulcemente antes de frotar su muslo contra tu polla espasmante, llevándote instantáneamente a una eyaculación de estimulación y gimiendo de dicha te frote la cara contra sus tetas almohadas para mayor comodidad,Tu mente se desvanece dentro y fuera.",
+                "Te pierdes por completo en el momento, empujando contra la poderosa pierna de Venefa mientras entierras tu cara en su profundo escote, dejando que el valle suave y constante se conviertan en tu mundo por unos momentos nebulosos.Hasta que Venefica apriete con amor sus tetas contra tu rostro, tirando de tu estupor y desencadenando un orgasmo de chorrear.",
+                "Te empujas perezosamente contra el suave muslo de Venefa, murmurando aturdido mientras acolcan contra sus enormes senos, y ella se convierte mientras ella te rodea suavemente los brazos, dejándote disfrutar de la sensación lenta y melosa, hasta que finalmente alcanzas un pico temblorosoy descarga tu semilla sobre su pierna.",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "IfPlayerSpiritGone",
+                "CrumpleFromSweetness",
+                "JumpToScene",
+                "Keep humping Venefica's leg."
+            ]
+        },
+        {
+            "NameOfScene": "Keep humping Venefica's leg.",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "A medida que Venefa absorbe mágicamente su semen, ya te encuentras comenzando a jorobar ansiosamente la pierna y frotar tu cara en sus tetas como un adicto necesitado ...",
+                "'Buen chico. ♥' Mientras Venefa absorbe mágicamente tu semen, ya te encuentras empezando a jorobar ansiosamente la pierna y frotar tu cara en sus tetas como un adicto necesitado ...",
+                "'No te detengas hasta que te rompas. ♥' Mientras Venefa absorbe mágicamente tu semen, ya te encuentras comenzando a jorobar ansiosamente la pierna y frotar tu cara en sus tetas como un adicto necesitado ...",
+                "'Quieres más. ♥ Usted {i} necesito {/i} más. ♥' Como Venefa absorbe mágicamente tu semen, ya te encuentras comenzando a jorobar la pierna y frotar tu cara en sus tetas como un adicto necesitado ...",
+                "'Jejeje, qué lindo. ♥' Como Venefa absorbe mágicamente tu semen, ya te encuentras empezando a jorobar ansiosamente la pierna y frotar tu cara en sus tetas como un adicto necesitado ...",
+                "'¿Tu cerebro se filtró de tu polla? ♥' Mientras Venefa absorbe mágicamente tu semen, ya te encuentras empezando a jorobar la pierna y frotar tu cara en sus tetas como un adicto necesitado ...",
+                "EndLoop",
+                "IfPlayerSpiritGone",
+                "EagerlyHump",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Relax and enjoy yourself.",
+                "Menu",
+                "Try and shake off the enchantment!",
+                "Relax and enjoy yourself.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "CrumpleFromSweetness",
+            "theScene": [
+                "Menu",
+                "Keep humping Venefica's leg.",
+                "I can't... (Lose)",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "I can't... (Lose)",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "SkipPlayerAttack",
+                "Completamente gastado y fuera del espíritu, meekly acatan en el suave escote de Venefa, tu polla se agita felizmente mientras se filtra en su poderoso muslo, ella se ríe dulcemente y te pone suavemente en el suelo, tomando un momento para admirar tu placer borracho."
+            ]
+        },
+        {
+            "NameOfScene": "SuckleCounter",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "Cant SuckleCounter",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "Cant SuckleCounter",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "Cant SuckleCounter",
+                "IfMonsterHasStance",
+                "Nursing",
+                "AlreadyNursing",
+                "ApplyStatusEffect",
+                "Witches Intoxication",
+                "Mientras te chupas el pezón lechoso de Venefa, te encuentras con entusiasmo tragando el bocado de su dulce y cremosa leche, su naturaleza mágica llena lentamente tu cuerpo con calor necesitado.",
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Jejeje. ♥ ¿Ya estás enganchado al sabor? ♥",
+                "Simplemente pierde y beba toda la leche que quieras. ♥",
+                "Hmhmhm. ♥ mi leche te va a derretir si sigues bebiendo ... ♥ quieres eso, ♥ no tú. ♥",
+                "Tus pensamientos se ahogarán en mi leche. ♥",
+                "EndLoop",
+                "ApplyStance",
+                "Nursing",
+                "Venefa pone firmemente una de sus manos con garras en la parte posterior de su cabeza, presionando su rostro más profundamente en su suave pecho mientras amamaca su pecho, empañando su cabeza con una necesidad creciente mientras comienza a seguir los dedos de su otra mano hacia arriba y hacia abajo a lo largo de suLongitud de contracción ..."
+            ]
+        },
+        {
+            "NameOfScene": "Cant SuckleCounter",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Witches Intoxication",
+                "Mientras te chupas la tetina de fuga de Venefa, no puedes evitar tragar el bocado de su dulce y cremosa leche, y su naturaleza mágica llena lentamente tu cuerpo con calor necesitado."
+            ]
+        },
+        {
+            "NameOfScene": "AlreadyNursing",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Witches Intoxication",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'Mi, tan necesitado. ♥' Mientras continúas amamantando la tetina lechosa de Venefa, trapas ansiosamente más de su crema intoxicantemente dulce, tu cabeza cada vez más confuso y excitada ...",
+                "'Lindo. ♥' Mientras continúas chamuscando la tetina lechosa de Venefa, trapas ansiosamente más de su crema intoxicantemente dulce, tu cabeza se vuelve cada vez más nebulosa y excitada ...",
+                "'Jeje, ♥ Es como si fueras adicto. ♥' Mientras continúas amamantando la tetina láctea de Venefa, trapabas con entusiasmo más de ella de su crema intoxicantemente dulce, tu cabeza cada vez más confuso y excitada ...",
+                "'Bebe todo lo que quieras. ♥' Mientras continúas amamantando la tetina lechosa de Venefa, trapas ansiosamente más de su crema intoxicantemente dulce, tu cabeza cada vez más nebulosa y excitada ...",
+                "'Te estás derritiendo. ♥' Mientras continúas amamantando la tetina lechosa de Venefa, trapas ansiosamente más de su crema intoxicantemente dulce, tu cabeza cada vez más nebulosa y excitada ...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralMilkCurse",
+            "theScene": [
+                "Pero con más presión puedes sentir la crema de chocolate tejiendo una maldición oscura sobre ti con cada trago que tomas ...",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "100",
+                "AutoFailMilk",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "100",
+                "AutoFailNursing",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "ApplyUmbralMilkCurse",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "50",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "75",
+                "2",
+                "Willpower",
+                "15",
+                "ReistUmbralMilkCurse",
+                "Fail",
+                "ApplyUmbralMilkCurse"
+            ]
+        },
+        {
+            "NameOfScene": "ApplyUmbralMilkCurse",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Y tembla mientras la maldición se solidifica dentro de usted con un último trago de la leche de chocolate tibia, dejando la cabeza girando con enamoramiento mientras anhela cada vez más la crema embriagadora ..."
+            ]
+        },
+        {
+            "NameOfScene": "AutoFailMilk",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "Y con lo borracho de su leche, ni siquiera se puede pensar en resistir la magia invasora, dejándote temblando mientras la maldición se solidifica dentro de ti mientras bebes con entusiasmo más y más de la leche pecaminosamente dulce.Venefica sonríe dulcemente y recompensa su afán presionando su rostro más profundamente en su suave seno mientras lo amamantaba, acariciando ociosamente la parte posterior de su cabeza ..."
+            ]
+        },
+        {
+            "NameOfScene": "AutoFailNursing",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "Y con un fetiche de senos tan pesado, ni siquiera se puede pensar en resistir la magia invasora, dejándote temblar mientras la maldición se solidifica dentro de ti mientras bebes ansiosamente más y más de la leche pecaminosa.Venefica sonríe dulcemente y recompensa su afán presionando su rostro más profundamente en su suave seno mientras lo amamantaba, acariciando ociosamente la parte posterior de su cabeza ..."
+            ]
+        },
+        {
+            "NameOfScene": "ReistUmbralMilkCurse",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "¡Pero se las arreglas, resistir la maldición oscura que te invade!"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralMatingCurse",
+            "theScene": [
+                "Pero con cada ritmo de las caderas bien formadas de Venefa, puedes sentir una maldición oscura que se inculca en ti en medio del dulce placer ...",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "100",
+                "AutoFailMating",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "ApplyUmbralMatingCurse",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "50",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "75",
+                "2",
+                "Willpower",
+                "15",
+                "ReistUmbralMatingCurse",
+                "Fail",
+                "ApplyUmbralMatingCurse"
+            ]
+        },
+        {
+            "NameOfScene": "ApplyUmbralMatingCurse",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Y ti mismo cuando la maldición se solidifica dentro de ti como tus propias caderas empujadas voluntariamente hacia la bruja, tu alucinante es un momento mientras la magia gira dentro de ti, y Venefica se ríe mientras ella continúa rebotando en las caderas ..."
+            ]
+        },
+        {
+            "NameOfScene": "AutoFailMating",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "Y con un fetiche sexual tan pesado, ni siquiera se puede pensar en resistir la magia invasora, y temblar mientras la maldición se solidifica dentro de usted como sus propias caderas voluntariamente en la bruja, su alucinante por un momento como elLa magia gira dentro de ti, y Venefa se ríe mientras continúa rebotando sus caderas ..."
+            ]
+        },
+        {
+            "NameOfScene": "ReistUmbralMatingCurse",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "¡Pero se las arreglas, resistir la maldición oscura que te invade!"
+            ]
+        },
+        {
+            "NameOfScene": "WitchesTemptation",
+            "theScene": [
+                "SetPostName",
+                "- Witches Temptation",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "HitPlayerWith",
+                "Seduce",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'¿Quieres hacer algo más? ♥ mi adorable mascota. ♥' Venefa ronronee un poco mientras te abraza un poco más apretado, presionándote más cerca de su voluptuoso cuerpo, llenando tu cabeza ya encantada con neblina dulce y rosa, su voz se derrite enTus sentidos, las palabras llenas de magia oscura seductora. [DamageToPlayer]",
+                "'¿Hay algo que anhelas? ♥ mis pechos? ♥ ¿Quizás sexo? ♥' Venefa ronronee un poco mientras te abraza un poco más apretado, presionándote más cerca de su cuerpo voluptuoso, llenando tu cabeza ya encantada con neblina dulce y rosa, su voz se derriteEn tus sentidos, las palabras llenas de magia oscura seductora. [DamageToPlayer]",
+                "'Solo sé un buen chico y deja que tus deseos se hagan cargo. ♥' Venefa ronronee un poco mientras te abraza un poco más apretado, presionándote más cerca de su cuerpo voluptuoso, llenando tu cabeza ya encantada con neblina dulce y rosada, su voz se derrite en tuSenses, las palabras llenas de magia oscura seductora. [DamageToPlayer]",
+                "'No pienses, ♥ solo dime lo que quieres. ♥' Venefa ronrona un poco mientras ella te abraza un poco más apretado, presionándote más cerca de su cuerpo voluptuoso, llenando tu cabeza ya encantada con neblina dulce y rosa, su voz se derrite enTus sentidos, las palabras llenas de magia oscura seductora. [DamageToPlayer]",
+                "'Hmhm, ♥ te estás derritiendo positivamente. ♥ ¿Cómo quieres derretir aún más? ♥' Venefa ronronean ligeramente mientras te abraza un poco más apretado, presionándote más cerca de su cuerpo voluptuoso, llenando tu cabeza ya encantada con dulce y rosa rosaHaze, su voz se derrite en tus sentidos, las palabras llenas de magia oscura seductora. [DamageToPlayer]",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "LoseToTemptation",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Weakness",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Exhaustion",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Shadows",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Oblivion",
+                "5",
+                "Temptation",
+                "20",
+                "ResistTemptation",
+                "Fail",
+                "LoseToTemptation"
+            ]
+        },
+        {
+            "NameOfScene": "ResistTemptation",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "¡Logras mantener una cabeza clara a pesar del encanto de las seducciones de Venefa, lo que te permite decidir tus acciones racionalmente!",
+                "Menu",
+                "Bury your face in her cleavage!♥",
+                "Suckle her breasts!♥",
+                "Step on me!♥",
+                "Titfuck!♥",
+                "Fuck!♥",
+                "Try and push her away! (Power)",
+                "Try and slip away! (Technique)",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Try and push her away! (Power)",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Weakness",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Exhaustion",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Shadows",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Oblivion",
+                "5",
+                "Power",
+                "15",
+                "GetFreeOfStance",
+                "Fail",
+                "DontBreakFree"
+            ]
+        },
+        {
+            "NameOfScene": "GetFreeOfStance",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Stern",
+                "ClearStances",
+                "¡Y con tu claridad mental te las arreglas para liberarte de la posición empalagosa en la que estabas con Venefa!"
+            ]
+        },
+        {
+            "NameOfScene": "Try and slip away! (Technique)",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Weakness",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Exhaustion",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Shadows",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Oblivion",
+                "5",
+                "Technique",
+                "15",
+                "SlipFreeOfStance",
+                "Fail",
+                "DontBreakFree"
+            ]
+        },
+        {
+            "NameOfScene": "SlipFreeOfStance",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Stern",
+                "ClearStances",
+                "¡Y con su claridad mental, logras liberarte de la posición empalagosa en la que estabas con Venefa!"
+            ]
+        },
+        {
+            "NameOfScene": "DontBreakFree",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "¡Pero no puedes liberarte de ella!",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Ahora, ¿qué crees que estabas tratando de tirar allí?",
+                "Todavía no hemos terminado.",
+                "Jeje, no te vas a alejar tan fácilmente. ♥",
+                "¿Oh?Entonces aún puedes pensar, qué adorable. ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "LoseToTemptation",
+            "theScene": [
+                "HitPlayerWith",
+                "Seduce",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "Tu mente se queda completamente aturdida y cachonda por la tentadora magia y sugerencias de Venefa, tu polla palpita con emoción mientras tu mente se compara con fantasías de lo que quieres hacer ... [DamageToPlayer]",
+                "Menu",
+                "Bury your face in her cleavage!♥",
+                "Suckle her breasts!♥",
+                "Titfuck!♥",
+                "Step on me!♥",
+                "Fuck!♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Bury your face in her cleavage!♥",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "IfPlayerHasStance",
+                "Breast Smother",
+                "AlreadyNuzzling",
+                "ClearStances",
+                "ApplyStance",
+                "Breast Smother",
+                "HitPlayerWith",
+                "Umbral Marshmallows",
+                "Y cambias con entusiasmo las posiciones, presionando tu rostro entre los senos suaves celestiales de Venefica, inundando tus sentidos con su calidez y fragancia empalagosa, haciéndola reír suavemente mientras presiona suavemente su muslo contra tu ingle. [DamageToPlayer]",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Buen chico. ♥",
+                "Que ansioso ♥",
+                "Eso es todo, cede como el adorable pervertido que eres. ♥",
+                "Hmhmhm. ♥ Que mimado eres. ♥",
+                "Deja que tu mente se convierta en un desastre difuso y esponjoso. ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "AlreadyNuzzling",
+            "theScene": [
+                "HitPlayerWith",
+                "Umbral Marshmallows",
+                "Y continúas anulando acariciar las tetas suaves de malvavisco Venefa, perdiéndote cada vez más por su toque encantador, ligeramente jorobado contra su muslo todo el tiempo, y ella acaricia suavemente la parte posterior de tu cabeza con una mano garra. [DamageToPlayer]",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Ya feliz entonces? ♥",
+                "Que honesto ♥",
+                "Hmhmhm. ♥ Que mimado eres. ♥",
+                "Deja que tu mente se convierta en un desastre difuso y esponjoso. ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Suckle her breasts!♥",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "IfPlayerHasStance",
+                "Nursing",
+                "AlreadyNursing2",
+                "ClearStances",
+                "ApplyStance",
+                "Nursing",
+                "HitPlayerWith",
+                "Witches Intoxication",
+                "ApplyStatusEffect",
+                "Witches Intoxication",
+                "Y cambias con entusiasmo las posiciones, presionando tu boca a uno de los pezones perts de Venefa y chupas ansiosamente, bebiendo bocados de leche tibia mientras fluye en ti, inundando con una necesidad dulce y melosa con todos y cada uno de los tragos, y Venefa se ríe dulcemente, acercándote. [DamageToPlayer]",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Buen chico. ♥",
+                "Que ansioso ♥",
+                "Eso es todo, cede como el adorable pervertido que eres. ♥",
+                "Hmhmhm. ♥ Que mimado eres. ♥",
+                "Deja que tu mente se convierta en un desastre difuso y esponjoso. ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "AlreadyNursing2",
+            "theScene": [
+                "HitPlayerWith",
+                "Witches Intoxication",
+                "ApplyStatusEffect",
+                "Witches Intoxication",
+                "Y continúas con entusiasmo succionando la tetina lechosa de Venefa, perdiéndote cada vez más por la crema dulce que estás bebiendo, tu polla palpitando más y más, y ella acaricia suavemente la parte posterior de tu cabeza con una mano garra. [DamageToPlayer]",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Ya feliz entonces? ♥",
+                "Que honesto ♥",
+                "Hmhmhm. ♥ Que mimado eres. ♥",
+                "Deja que tu mente se convierta en un desastre difuso y esponjoso. ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Fuck!♥",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "ClearStances",
+                "ApplyStance",
+                "Sex",
+                "HitPlayerWith",
+                "Umbral Mating",
+                "Y con entusiasmo sumerges tu polla dolorosa en el coño cálido y acogedor de Venefa, enviando un escalofrío encantador a través de tu cuerpo mientras te empuja hacia abajo y comienza a montarte a un ritmo creciente, cada reunión de tus caderas puntuadas con una ola de magia oscura pecaminosamente dulce y dulce oscura. [DamageToPlayer]",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Hm? ♥ ¿No podría contener más? ♥",
+                "Je. ♥ Si eso es lo que quieres, ♥ te ordeñaré ♥ te ♥ seco. ♥",
+                "Eso es todo, deja que tu polla piense. ♥",
+                "¿Oh? ♥ No sabía que estabas tan ansioso por romperte. ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Step on me!♥",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "Bueno, si eso es lo que quieres. ♥",
+                "ClearStances",
+                "ApplyStatusEffect",
+                "Venefica's Magical Binding",
+                "Venefica se ríe dulcemente y se aleja de ti, chasqueando los dedos y aparecen múltiples círculos mágicos a tu alrededor, antes de disparar cadenas enrollables que se envuelven alrededor de tu cuerpo, extendiendo los brazos y las piernas mientras te atan en el aire.",
+                "ApplyStance",
+                "Footjob",
+                "HitPlayerWith",
+                "Umbral Heel",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "Luego, con un paso seguro, Venefica avanza hacia adelante y presiona uno de sus pies de tacón sobre tu polla con un placer inducir la magia antes de frotar suavemente su longitud de contracción con movimientos metódicos ... [DamageToPlayer]",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "No sabía que estabas tan ansioso por ser domado. ♥",
+                "Vas a ser perfectamente sumiso pronto. ♥",
+                "No te vas ahora. ♥",
+                "Jeje. ♥ eres tan lindo cuando estás indefenso. ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Titfuck!♥",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "Oh, supongo que puedo hacer eso. Eres pervertido.",
+                "ClearStances",
+                "JumpToScene",
+                "FailedTemptationMarshmellows"
+            ]
+        },
+        {
+            "NameOfScene": "OblivionVista",
+            "theScene": [
+                "SetPostName",
+                "- Oblivion Vista",
+                "ChangeImageLayer",
+                "Expression",
+                "Predatory",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'Se acabó ahora. ♥' con una sonrisa sádica Venefa evoca un orbe retorcido de vacío negro entre sus garras, salpicando con arcos rojos de magia, ¡y puedes sentir que tira de la oscura maldición sobre ti!Luego arroja ambos brazos a un lado en arcos radicales, y el orbe rápidamente se hincha de tamaño hasta que consume casi todo lo que le rodea, ¡incluido usted!",
+                "'Te abrumaré por completo. ♥' con una sonrisa sádica Venefa evoca un orbe retorcido de vacío negro entre sus garras, salpicando con arcos de magia rojos, ¡y puedes sentirlo tirando de la oscura maldición sobre ti!Luego arroja ambos brazos a un lado en arcos radicales, y el orbe rápidamente se hincha de tamaño hasta que consume casi todo lo que le rodea, ¡incluido usted!",
+                "'Jejehe- ♥ {i} jajajaja! ♥♥♥♥ {/i}' con una sonrisa sádica Venefa evoca un orbe retorcido de vacío negro entre sus garras, provocando arcos rojos de magia, y puedes sentir que tira de la oscuridad oscura¡Maldición sobre ti!Luego arroja ambos brazos a un lado en arcos radicales, y el orbe rápidamente se hincha de tamaño hasta que consume casi todo lo que le rodea, ¡incluido usted!",
+                "'¿Puedes soportar esto? ♥' con una sonrisa sádica Venefa evoca un orbe retorcido de vacío negro entre sus garras, salpicando con arcos rojos de magia, ¡y puedes sentir que tira de la oscura maldición sobre ti!Luego arroja ambos brazos a un lado en arcos radicales, y el orbe rápidamente se hincha de tamaño hasta que consume casi todo lo que le rodea, ¡incluido usted!",
+                "'Déjame mostrarte el dulce olvido. ♥' con una sonrisa sádica Venefa evoca un orbe retorcido de tono negro vacío entre sus garras, salpicando con arcos de magia rojos, ¡y puedes sentirlo tirando de la oscura maldición sobre ti!Luego arroja ambos brazos a un lado en arcos radicales, y el orbe rápidamente se hincha de tamaño hasta que consume casi todo lo que le rodea, ¡incluido usted!",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "PlayBlackOut",
+                "Parpadea e intentas orientarte mientras te encuentras flotando en un vacío de tinta sin fin, acompañado de solo un silencio ensordecedor ...",
+                "EndBlackOut",
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "FaceCloseUp",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Hasta que con un arcano retumbar, tu mirada se lleva a Venefa que se fusiona cerca de ti con una risa siniestra, ¡solo que ella es una gigante imponente en comparación contigo?¿O tal vez solo tienes el tamaño de una muñeca?",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "Intentas moverte en medio de este extraño espacio, pero la bruja te saca fácilmente de tu espacio en el vacío con sus dedos con garras, usando un cuidado metódico mientras te levanta a su cara sonriente.",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Te vas a perder. ♥ diviértete. ♥",
+                "Me pregunto qué tan rápido mis senos romperán tu voluntad para resistir. ♥",
+                "Bienvenido a un abismo de deleite pecaminoso. ♥ su pervertido desesperado. ♥",
+                "Te maldeciré una y otra vez. ♥ hasta que sea todo lo que quieras. ♥",
+                "Va a ser tan divertido verte derretir. ♥",
+                "EndLoop",
+                "HitPlayerWith",
+                "Umbral Marshmallows",
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "TitsCloseUp",
+                "Luego te deja caer rápidamente entre su profundo valle de escote, dejando solo tu cabeza sobresaliendo del abismo de malvavisco una vez que te has hundido entre la piel pecaminosamente suave, y presiona sus manos a los lados de sus tetas mientras comienza a masajear tu tu¡Cuerpo entero con sus abrumadores senos! [DamageToPlayer]",
+                "JumpToScene",
+                "OblivionVistaAttack"
+            ]
+        },
+        {
+            "NameOfScene": "PickVistaAttack",
+            "theScene": [
+                "JumpToRandomScene",
+                "Sweetness",
+                "Squeeze",
+                "Charm",
+                "Rub",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Squeeze",
+            "theScene": [
+                "SetChoice",
+                "5",
+                "Squeeze"
+            ]
+        },
+        {
+            "NameOfScene": "Charm",
+            "theScene": [
+                "SetChoice",
+                "5",
+                "Charm"
+            ]
+        },
+        {
+            "NameOfScene": "Sweetness",
+            "theScene": [
+                "SetChoice",
+                "5",
+                "Sweetness"
+            ]
+        },
+        {
+            "NameOfScene": "Rub",
+            "theScene": [
+                "SetChoice",
+                "5",
+                "Rub"
+            ]
+        },
+        {
+            "NameOfScene": "OblivionVistaAttack",
+            "theScene": [
+                "CallSceneThenReturn",
+                "PickVistaAttack",
+                "HitPlayerWith",
+                "Umbral Marshmallows",
+                "SwapLineIf",
+                "Choice",
+                "5",
+                "Rub",
+                "Venefa se ríe dulcemente, y se toma un momento para darle palmaditas en la cabeza con un solo dedo con garras, antes de poner sus manos en sus enormes tetas, y comienza a acariciarlas lentamente hacia arriba y hacia abajo de tu forma indefensa, dándote un titen de cuerpo suave y completo. [DamageToPlayer]",
+                "5",
+                "Sweetness",
+                "Te retorces entre el mar de escote de Venefa, su aroma femenino azucarado llena tus sentidos mientras el toque de su suave escote envuelve todo tu cuerpo, y simplemente no hace nada más que dejarte sentarse allí. [DamageToPlayer]",
+                "5",
+                "Charm",
+                "Venefica lenta y dulcemente sus senos cálidos a lo largo de su forma desafortunada en círculos relajantes que te hacen temblar y jadear, el pulso ocasional de magia seductora deja tu cerebro flotando mientras te pierdes en este paraíso de suavidad. [DamageToPlayer]",
+                "5",
+                "Squeeze",
+                "Jadeas con placer cuando Venefa aprieta sus enormes senos más apretados, creando una maravillosa presión de suavidad a tu alrededor, y tu polla palpita felizmente cuando te quedan totalmente atrapado en esta prisión de escisión. [DamageToPlayer]",
+                "EndLoop",
+                "HitPlayerWith",
+                "Umbral Marshmallows",
+                "SwapLineIf",
+                "Choice",
+                "5",
+                "Rub",
+                "Solo puedes jadear y gemir ante las extrañas sensaciones, tu polla felizmente palpitando cuando su piel suave se frota una y otra vez, y todo tu cuerpo se siente cálido y nebuloso por su toque de malvavisco, tu mente girando con un placer. [DamageToPlayer]",
+                "5",
+                "Sweetness",
+                "Pero a medida que la calidez y la necesidad comienzan a superar su mente giratoria, ya no puede ignorar su erección palpitante, y comenzar a empujar sus caderas lo mejor que pueda, gimiendo maravillosamente mientras follan sus senos en este extraño estado, cada movimiento de sus caderas completamenteabrazado por sus tetas de mudanza. [DamageToPlayer]",
+                "5",
+                "Charm",
+                "Te encuentras suspirando felizmente mientras te lujosas en su escote mimos, la suavidad de su piel que te acaricia por todas partes simplemente derrite todas tus preocupaciones y preocupaciones, y con otro pulso de magia eufórica dulce tienes una sonrisa borracha en tu rostro. [DamageToPlayer]",
+                "5",
+                "Squeeze",
+                "Poco a poco, rodea sus tetas en círculos, masajeando firmemente todo su cuerpo, la suavidad de la almohada te intoxica gradualmente mientras presiona sus senos pesados ​​de vez en cuando en un apretón de espalda antes de reanudar los círculos. [DamageToPlayer]",
+                "EndLoop",
+                "HitPlayerWith",
+                "Umbral Marshmallows",
+                "SwapLineIf",
+                "Choice",
+                "5",
+                "Rub",
+                "Pronto, todo su cuerpo se estremece y se arquea en la dicha mientras te acaricia hacia arriba y hacia abajo entre su océano de escote, incluso enterrando tu rostro felices de vez en cuando, derritiéndote con sus pechos de almohada y dejando a tu polla espasmando con entusiasmo. [DamageToPlayer]",
+                "5",
+                "Sweetness",
+                "Cada empuje siempre se encuentra con más de su suavidad intoxicante, sin importar cómo te muevas, incluso sacar las caderas no te da descanso, y atrapado como estás, no puedes dejar de follar su prisión de escote desbordante, perdiéndote completamentea su suavidad por el momento. [DamageToPlayer]",
+                "5",
+                "Charm",
+                "Venefa se ríe dulcemente mientras te hundes más y más profundamente en un estado enamorado, el masaje almohado gradualmente lleva todo tu cuerpo a un estado fundido de dicha, cada movimiento de rodadura enfatizado con un pulso de magia pecaminosa mientras babes tu mente por sus enormes tetas.[DamageToPlayer]",
+                "5",
+                "Squeeze",
+                "Puedes sentirte desgastando lentamente entre su escote celestial, todo tu cuerpo dolorosamente cálido, y tu polla se contrae con cada masaje de acaricia y aprieta sus tetas de malvaviscos, y mientras las presiona una vez más tu cerebro en blanco con choques de conmoción deMelty Ecstasy. [DamageToPlayer]",
+                "EndLoop",
+                "IfPlayerOrgasm",
+                "OblivionVistaOrgasm",
+                "JumpToScene",
+                "OblivionVistaMenu"
+            ]
+        },
+        {
+            "NameOfScene": "OblivionVistaOrgasm",
+            "theScene": [
+                "PlayerOrgasm",
+                "1",
+                "SwapLineIf",
+                "Choice",
+                "5",
+                "Rub",
+                "El ritmo lento y constante llena gradualmente todo su ser con calor fundido, cada uno simple hacia arriba y hacia abajo de su seno suave que te hace temblar y gemir en éxtasis, hasta que finalmente te rindes, y tus caderas se masturban ligeramente a medida que estallas en su valle interminable,Un pulso de magia oscura absorbiendo tu semilla en un instante.",
+                "5",
+                "Sweetness",
+                "Usted es más fuerte y más rápido a medida que alcanza su apogeo, su cerebro se empañó por completo con la felicidad esponjosa, el placer burbujeante eventualmente lo superó mientras estallas entre las enormes tetas de Venefa, manchando parte de su valle con tu semen mientras tus caderas siguen empujando en busca demás.",
+                "5",
+                "Charm",
+                "Dejas escapar un gemido bajo cuando Venefa invierte la dirección de sus movimientos circulares de rodadura, ese simple cambio lo suficientemente simple como para extraer un orgasmo espeluznante de ti, y jadeas con entusiasmo mientras la sensación enamorada del interior explota en una cascada de dicha.",
+                "5",
+                "Squeeze",
+                "Y alcanzas tu límite, llorando en la felicidad mientras sopla tu carga en su valle apretado, y ella solo los presiona más apretado, extrayendo la carga después de la carga de tu cuerpo de contracción mientras te derretes en su suave escote.",
+                "EndLoop",
+                "PlayerOrgasm",
+                "1",
+                "SwapLineIf",
+                "Choice",
+                "5",
+                "Rub",
+                "Y Venefa no te da un momento de descanso mientras te acaricia y te aprieta entre su escote, hasta que con un apretón firme y pulso de magia de placer vuelves a brotar, tu cerebro se derrite hasta que todo lo que puedas pensar se queda así para siempre.",
+                "5",
+                "Sweetness",
+                "Hay un pulso de magia que absorbe tu semen y te envía un pulso tembloroso a través de ti, y tu próximo empuje te hace chocar de nuevo entre sus tetas, y luego el pulso empape tu semilla nuevamente, y te corres una vez más, una y otra vez, una y otra vez.En un bucle de fusión mental.",
+                "5",
+                "Charm",
+                "Cada momento que pasa se siente como un clímax que Venefa te masajea ligeramente con sus tetas, su prisión de escote indulgente, todo lo que te importa en este momento, ya que te aprieta y te amase con su suavidad, ordeñe tu semilla en largos y largos.",
+                "5",
+                "Squeeze",
+                "Con cada chorro que dejas salir, absorbe tu semilla, aflojando la presión de sus tetas, solo para apretarlas nuevamente para llevarte de regreso a la altura del clímax para descargar aún más tu semen para ella, sofocando cada parte de ti.Empleo intoxicantemente dulce.",
+                "EndLoop",
+                "PlayerOrgasm",
+                "1",
+                "ApplyStatusEffect",
+                "Charm",
+                "SwapLineIf",
+                "Choice",
+                "5",
+                "Rub",
+                "El lento rebote de sus tetas se cargan después de la carga, hasta que todos sus pensamientos se reemplazan por la necesidad y el deseo de un paraíso de malvaviscos extraños, y con algunos golpes más de sus tetas pesadas, lloras un tiempo más.En el clímax de estimulación, completamente fascinado con los senos de Venefa.",
+                "5",
+                "Sweetness",
+                "Tu lengua se tira de éxtasis mientras te corres y te corres, tu cerebro se inundó con sus dulces feromonas y la magia empalagosa, follando su mar de escote abrumador hasta que no tienes nada más que un desastre entre sus tetas, tu punta aún goteando mientras temblaron y jadeaLas réplicas climáticas.",
+                "5",
+                "Charm",
+                "Luego finalmente envía un intenso pulso de magia de encanto, eso te deja llorando de nuevo incluso cuando deja de mover sus manos, la mera sensación de ser acunado entre sus tetas es suficiente para hacerte eyacular una y otra vez con una sonrisa felices hasta queEl placer se aleja.",
+                "5",
+                "Squeeze",
+                "Luego, con un apretón de la firma final de sus tetas desbordantes, brotas una vez más en medio de tu clímax aparentemente interminable, cada última gota se escabulló de ti que puede manejar, dejándote temblar y tirar entre sus suaves senos con una sonrisa borracha, tu racional, tu racionalLos pensamientos desde hace mucho tiempo se salpicaron.",
+                "EndLoop",
+                "IfPlayerSpiritGone",
+                "CrumpleFromVista",
+                "JumpToScene",
+                "OblivionVistaMenu"
+            ]
+        },
+        {
+            "NameOfScene": "CrumpleFromVista",
+            "theScene": [
+                "Menu",
+                "Relax and enjoy yourself...",
+                "I'm finished... (Lose)",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "I'm finished... (Lose)",
+            "theScene": [
+                "Con todo tu espíritu brotete, débilmente contrapasado entre el escote desbordante de Venefa, jadeando y gimiendo mientras tu polla dispara una cuerda de semen en ocasiones por la sensación de estar atrapado así, pero finalmente con una dulce risa, el vacío comienza adesvanecerse.",
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "Tattoos",
+                "ChangeImageLayer",
+                "Base",
+                "Base",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "SkipPlayerAttack",
+                "Esto te deja acostado en el suelo con un placer, la bruma borracha una vez que la magia oscura se disipa por completo, la venéfica se avecina sobre ti con una sonrisa victoriosa, su tentadora busca sosteniendo tu mirada mientras se inclina sobre ti pensativamente."
+            ]
+        },
+        {
+            "NameOfScene": "OblivionVistaMenu",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Relax and enjoy yourself...",
+                "Menu",
+                "Try to break free of this alluring abyss of magic! (Temptation)",
+                "Relax and enjoy yourself...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Relax and enjoy yourself...",
+            "theScene": [
+                "JumpToScene",
+                "OblivionVistaAttack"
+            ]
+        },
+        {
+            "NameOfScene": "Try to break free of this alluring abyss of magic! (Temptation)",
+            "theScene": [
+                "¡Reúnes toda tu voluntad de poder para intentar liberarte de la oscura bodega de Venefa!Pero puedes sentir la maldición oscura tentándote a ceder ...",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "100",
+                "2",
+                "Temptation",
+                "20",
+                "ResistVista",
+                "Fail",
+                "FailResistVista"
+            ]
+        },
+        {
+            "NameOfScene": "FailResistVista",
+            "theScene": [
+                "Pero te encuentras deslizándote más profundamente en este dulce vacío de placer ...",
+                "JumpToScene",
+                "OblivionVistaAttack"
+            ]
+        },
+        {
+            "NameOfScene": "ResistVista",
+            "theScene": [
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "Tattoos",
+                "ChangeImageLayer",
+                "Expression",
+                "Pout",
+                "RemovePerkQuietly",
+                "Curse of Oblivion",
+                "GivePerkQuietly",
+                "Curse of Shadows",
+                "Y la realidad de la realidad se disipa, liberándote de ese espacio de bolsillo de deleite, dejándote con una venéfica bastante pesada una vez que el abismo de tinta se disuelve por completo, ¡y puedes sentir la maldición que se debilita!",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Hpmh...",
+                "Puse esfuerzo en eso ...",
+                "Ahora necesito volver a ponerte allí ...",
+                "No creas que realmente has logrado mucho, puedo seguir haciendo eso.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralDomination",
+            "theScene": [
+                "SetPostName",
+                "- Dominación de la Umbral",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'Tu resistencia no durará. ♥' con un chasquido de su dedo con garras, los círculos mágicos de color rojo comienzan a aparecer en el aire a tu alrededor antes de disparar cadenas arcanas con la intención de restringir tu cuerpo.",
+                "'Creo que necesitas algo de entrenamiento. ♥' con un chasquido de su dedo con garras, los círculos mágicos de color rojo comienzan a aparecer en el aire a tu alrededor antes de disparar cadenas arcanas con la intención de restringir tu cuerpo.",
+                "'Dodge this. ♥' con un chasquido de su dedo con garras, los círculos mágicos de púrpura rojo comienzan a aparecer en el aire a su alrededor antes de disparar cadenas arcanas con la intención de restringir su cuerpo.",
+                "'¿Crees que puedes escapar? ♥' con un chasquido de su dedo con garras, los círculos mágicos de color rojo comienzan a aparecer en el aire a tu alrededor antes de disparar cadenas arcanas con la intención de restringir tu cuerpo!",
+                "'Jejeje. ♥' con un chasquido de su dedo con garras, los círculos mágicos de color rojo comienzan a aparecer en el aire a su alrededor antes de disparar cadenas arcanas con la intención de restringir su cuerpo.",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "SwapLineIf",
+                "Choice",
+                "2",
+                "EllyAid",
+                "¡Hay un destello de magia detrás de ti mientras Elly trabaja para desviar tantas cadenas como pueda!",
+                "2",
+                "",
+                "",
+                "EndLoop",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "There's nothing to be done about this...",
+                "Menu",
+                "Try to evade the chains! (Technique)",
+                "Repel the chains with magic! (Intelligence)",
+                "There's nothing to be done about this...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Try to evade the chains! (Technique)",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "EllyAid",
+                "-10",
+                "Technique",
+                "25",
+                "DodgeTheChains",
+                "Fail",
+                "FailDodgeChains"
+            ]
+        },
+        {
+            "NameOfScene": "DodgeTheChains",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Tch",
+                "¡Saltas hábilmente y gira por el aire, evadiendo cada cadena con la intención de restringirte!Venefa deja escapar una burla de leve molestia."
+            ]
+        },
+        {
+            "NameOfScene": "FailDodgeChains",
+            "theScene": [
+                "¡Pero estás hábilmente abrumado por las cadenas retorcidas y enrolladas!",
+                "JumpToScene",
+                "CaughtByChains"
+            ]
+        },
+        {
+            "NameOfScene": "Repel the chains with magic! (Intelligence)",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "EllyAid",
+                "-10",
+                "Intelligence",
+                "25",
+                "RepelTheChains",
+                "Fail",
+                "FailRepelChains"
+            ]
+        },
+        {
+            "NameOfScene": "RepelTheChains",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Tch",
+                "¡Tu barrera de magia logra reflejar y disipar cada una de las cadenas en espiral de Venefa!Ella deja escapar una burla de leve molestia."
+            ]
+        },
+        {
+            "NameOfScene": "FailRepelChains",
+            "theScene": [
+                "¡Pero las cadenas abruman y perforan sus intentos de desviarlas!",
+                "JumpToScene",
+                "CaughtByChains"
+            ]
+        },
+        {
+            "NameOfScene": "There's nothing to be done about this...",
+            "theScene": [
+                "¡Te quedas congelado en su lugar, presa fácil para las restricciones mágicas invasivas!",
+                "JumpToScene",
+                "CaughtByChains"
+            ]
+        },
+        {
+            "NameOfScene": "CaughtByChains",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "ApplyStatusEffect",
+                "Venefica's Magical Binding",
+                "SwapLineIf",
+                "Choice",
+                "2",
+                "EllyAid",
+                "Las cadenas arcanas se envuelven alrededor de su cuerpo, extendiendo los brazos y las piernas mientras lo atan en el aire, y muchas más cadenas lo rodean a usted y a Venefa como una cúpula, ¡cortando a Elly de la pelea por completo!",
+                "2",
+                "",
+                "Las cadenas arcanas se envuelven alrededor de su cuerpo, extendiendo sus brazos y piernas mientras lo atan en el aire.",
+                "EndLoop",
+                "ApplyStance",
+                "Footjob",
+                "Luego, con un paso seguro y una risita de Venefa, avanza y presiona uno de sus pies en la polla, frotando suavemente a lo largo de su longitud ..."
+            ]
+        },
+        {
+            "NameOfScene": "BreakFreeOfFeet",
+            "theScene": [
+                "ClearStances",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "Mientras finalmente rompes las cadenas arcanas que te unen y te liberas, Venefa da unos pasos hacia atrás con sus largas piernas, sonriéndote con intención tortuosa ...",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Jejeje ♥ ¿Se cansa todavía?",
+                "Admítelo, estabas disfrutando eso. ♥",
+                "Supongo que puedo jugar contigo un poco más. ♥",
+                "Te ves tan adorado. ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralHeel",
+            "theScene": [
+                "Y a medida que su pie de tacón domina tu eje, la magia oscura y torcida comienza a unirse en una maldición que te deja sintiéndote débil y necesitado ...",
+                "IfFetishLevelEqualOrGreater",
+                "Feet",
+                "100",
+                "AutoFailHeel",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "ApplyUmbralHeelCurse",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Feet",
+                "25",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Feet",
+                "50",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Feet",
+                "75",
+                "5",
+                "Willpower",
+                "20",
+                "ReistUmbralHeelCurse",
+                "Fail",
+                "ApplyUmbralHeelCurse"
+            ]
+        },
+        {
+            "NameOfScene": "ApplyUmbralHeelCurse",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "Y tembla mientras la maldición se solidifica dentro de usted con una última presentación firme del pie de tacón de Venefa, dejando su polla palpitando ansiosamente ..."
+            ]
+        },
+        {
+            "NameOfScene": "AutoFailHeel",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyCurse",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Y con un fetiche de pie tan pesado, ni siquiera se puede pensar en resistir la magia invasora, dejándote temblar mientras la maldición se solidifica dentro de ti con una última presentación firme del pie de la tacón de Venefica, dejando tu polla palpitante y goteando con excitación ..."
+            ]
+        },
+        {
+            "NameOfScene": "ReistUmbralHeelCurse",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "¡Pero manejas resistir la maldición oscura invadiendo tus sentidos!"
+            ]
+        },
+        {
+            "NameOfScene": "ChocolateMarshmallowTemptation",
+            "theScene": [
+                "SetPostName",
+                "- Temptación de malvavisco de chocolate",
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "HitPlayerWith",
+                "Melty Sweet Temptation",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "Un aura rosada giratoria de repente envuelve a Venefa mientras camina lentamente hacia ti, su impresionante cofre que rebota atractiva con cada paso medido, la magia de encanto te dejó cautivada por la vista encantadora, y solo logras salir de tu estupor mientras ella guía una suavemente una guía una suavemente guía una suavemente.de tus manos a un pecho lujoso, desbordando tu palma con suavidad. [DamageToPlayer]",
+                "Un aura rosada giratoria de repente envuelve a Venefa mientras camina lentamente hacia ti, su pesado pecho rebotando atractivamente con cada paso seguro, la intensa magia de encanto te dejó aturdida mientras presiona sus cautivadoras tetas contra tu pecho con un ronroneado erótico, frotando la suavidad indulgente contratú todo el tiempo. [DamageToPlayer]",
+                "Un aura rosa giratoria de repente envuelve a Venefa mientras camina lentamente hacia ti con una marcha balanceada, haciendo que sus abundantes tetas se agiten de un lado a otro tentador con cada paso seductor que da, luego se detiene frente a ti, rodando sus manos clavadas sobre sus tetasHeft y rebotan su pecho frente a su cara cautivada. [DamageToPlayer]",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "¿Quieres un titfuck? ♥",
+                "¿Qué tal si los uso para ordeñarte? ♥",
+                "¿Quieres que mis tetas te rompan? ♥",
+                "¿Te gustaría perderte en mi escote? ♥",
+                "¿Quieres que te convierta en un pervertido de seno? ♥",
+                "EndLoop",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "100",
+                "AutoFailTemptationMarshmellows",
+                "SwapLineIf",
+                "Choice",
+                "2",
+                "EllyAid",
+                "Escuchas a Elly decir algo, y un hechizo se lava sobre ti en un intento de traerte claridad mental.",
+                "2",
+                "",
+                "",
+                "EndLoop",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Yes...",
+                "Menu",
+                "Need to break free of this temptation! (Temptation)",
+                "Yes...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Need to break free of this temptation! (Temptation)",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "EllyAid",
+                "-5",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "50",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "75",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Weakness",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Exhaustion",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Shadows",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Oblivion",
+                "5",
+                "Temptation",
+                "15",
+                "ResistTemptationMarshmellows",
+                "Fail",
+                "FailTemptationMarshmellows"
+            ]
+        },
+        {
+            "NameOfScene": "FailTemptationMarshmellows",
+            "theScene": [
+                "Pero estás demasiado perdido y cautivado por los pesados ​​senos de Venefica para resistir ...",
+                "JumpToScene",
+                "FailedTemptationMarshmellows"
+            ]
+        },
+        {
+            "NameOfScene": "ResistTemptationMarshmellows",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Sigh",
+                "Te sacudes la atractiva magia del encanto y haces cierta distancia entre tú y Venefa, haciéndola suspiro con una leve molestia.",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Bien, sé así, te romperé más firmemente entonces. ♥",
+                "Hmph, las mascotas desobedientes necesitan castigo ... ♥",
+                "Me lo rogará pronto ... ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "AutoFailTemptationMarshmellows",
+            "theScene": [
+                "Con cuánto te encantan los senos, solo hay una cosa que puedes decir ...",
+                "Menu",
+                "Yes.♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Yes.♥",
+            "theScene": [
+                "JumpToScene",
+                "FailedTemptationMarshmellows"
+            ]
+        },
+        {
+            "NameOfScene": "Yes...",
+            "theScene": [
+                "JumpToScene",
+                "FailedTemptationMarshmellows"
+            ]
+        },
+        {
+            "NameOfScene": "FailedTemptationMarshmellows",
+            "theScene": [
+                "Con una suave risa, la venéfica se desliza hacia abajo entre las piernas, envuelve su longitud rígida completamente en su cálido escote, y sus manos se colocan sin pensar a los lados de sus peluches, para que ella coloque sus propias manos garras para ayudarlo a guiarlo en dulcedepravación...",
+                "JumpToScene",
+                "ChocolateMarshmallowAttack"
+            ]
+        },
+        {
+            "NameOfScene": "PickChocolateMarshmallowAttack",
+            "theScene": [
+                "JumpToRandomScene",
+                "Thrust",
+                "Rolling",
+                "Enchantment",
+                "Pump",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Thrust",
+            "theScene": [
+                "SetChoice",
+                "5",
+                "Thrust"
+            ]
+        },
+        {
+            "NameOfScene": "Rolling",
+            "theScene": [
+                "SetChoice",
+                "5",
+                "Rolling"
+            ]
+        },
+        {
+            "NameOfScene": "Enchantment",
+            "theScene": [
+                "SetChoice",
+                "5",
+                "Enchantment"
+            ]
+        },
+        {
+            "NameOfScene": "Pump",
+            "theScene": [
+                "SetChoice",
+                "5",
+                "Pump"
+            ]
+        },
+        {
+            "NameOfScene": "ChocolateMarshmallowAttack",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "CallSceneThenReturn",
+                "PickChocolateMarshmallowAttack",
+                "HitPlayerWith",
+                "MarshmallowTemptation",
+                "SwapLineIf",
+                "Choice",
+                "5",
+                "Pump",
+                "Jadeas mientras Venefa guía tus manos para ayudarla a rebotar sus pesadas tetas en un ritmo constante, la carne mordisca que acaricia tu polla palpitante arriba y abajo, y parece que no hay un solo momento en que tu polla no esté atrapada en su verdadera prisión deMarshmallowy Escote ordeña tus pensamientos con movimientos mely ascendentes hacia arriba y hacia abajo. [DamageToPlayer]",
+                "5",
+                "Enchantment",
+                "Con una dulce sonrisa, Venefa simplemente mantiene su dolor de erección atrapada profundamente en su suave escote, sin mover sus pechos indulgentemente suaves en lo más mínimo, y antes de comenzar a empujar por su cuenta, envía una oleada de magia en un cofre en un alucinante.Pulse, dejando tu espalda arqueando en éxtasis. [DamageToPlayer]",
+                "5",
+                "Rolling",
+                "Venefica enrolla lentamente sus abundantes tetas en círculos burlones que dejan tu respiración atrapándose en tu garganta, sus manos te guían dulcemente para que aprietas y sientan sus suaves tetas mientras la ayudas irreflexivamente a derretirte con placer, tu polla se mueve a la luz en su cálido escote en medioEl suave masaje. [DamageToPlayer]",
+                "5",
+                "Thrust",
+                "Te encuentras impulsando ansiosamente tus caderas para joder el escote suave de malvaviscos de Venefa, tu mente completamente encantada en la sumisión mientras te entregas a la cálida suavidad que rodea tu polla, cada ritmo inductivo de tus caderas brote tus pensamientos un poco más. [DamageToPlayer]",
+                "EndLoop",
+                "HitPlayerWith",
+                "MarshmallowTemptation",
+                "SwapLineIf",
+                "Choice",
+                "5",
+                "Pump",
+                "Cada bomba de sus tetas te hace temblar y jadear, y en tu estado desesperadamente encantado no puedes evitar hundir tus dedos en su suavidad, presionando sus senos más juntos, aumentando la presión intoxicante que rodea tu erección palpitante, dejando tu mente flotando lejosEn una nube de euforia de almohada. [DamageToPlayer]",
+                "5",
+                "Enchantment",
+                "Pulso tras pulso de cálida magia pegajosa que se lava a través de tus caderas, dejando la mera sensación de su escote que rodea tu longitud un cielo dulce, y tus ojos ni siquiera pueden comenzar a mirar hacia otroLa polla se siente mejor y mejor sin moverse una pulgada. [DamageToPlayer]",
+                "5",
+                "Rolling",
+                "Oscierte, amasabas sus suaves almohadillas mientras te guía las manos, cada movimiento rodante de sus tetas te encantaba más profundo, la dulce seducción envuelta alrededor de tu polla necesaria ahogando todo lo demás, llenando toda la cintura con un placer almibanado mientras aprieta ligeramente su escote.más apretado. [DamageToPlayer]",
+                "5",
+                "Thrust",
+                "Con una risa seductora, ella guía suavemente sus manos para apretar sus tetas más bien mientras jorobas su escote desbordante, lo que te hace jadear con una dicha por la mayor presión y la sensación de que tus manos se hunden en su piel suave, profundizando tu ya intensa enamoramiento. [DamageToPlayer]",
+                "EndLoop",
+                "IfPlayerOrgasm",
+                "ChocolateMarshmallowOrgasm",
+                "JumpToScene",
+                "ChocolateMarshmallowMenu"
+            ]
+        },
+        {
+            "NameOfScene": "ChocolateMarshmallowOrgasm",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "PlayerOrgasm",
+                "1",
+                "SwapLineIf",
+                "Choice",
+                "5",
+                "Pump",
+                "A medida que alcanza su límite, la venefa aumenta el ritmo de sus tetas ordeñando su longitud, dejándote llorar en éxtasis mientras su escote te abruma por completo, y cada golpe de sus senos pecaminosamente suave expulsa un nuevo chorro de espigoso de tu manzana palpitante, tu manzana, tuexpresión que se afloja de la felicidad borracha.",
+                "5",
+                "Enchantment",
+                "Las cálidas olas de la magia golpearon cada vez más, inundando con enamoramiento con un solo trazo mental de sus pesadas tetas que te quedan gritando con dicha, vertiendo tu semilla sobre sus tetas en cuerdas largas, el clímax resuena sin cesarEn su mente desventurada encantada mientras sus tetas te derriten poco a poco.",
+                "5",
+                "Rolling",
+                "Te gimes débilmente mientras el ritmo lento y sensual de las burlas de Venefa te lleva al borde, extrayendo un brote lento y alucinante de tu polla dolorida, y mientras tus manos se tensan y se hunden en su piel suave, sigue rodando suavemente su escote desbordanteEn círculos interminables, la carga de ordeño después de la carga de su erección de espasmo.",
+                "5",
+                "Thrust",
+                "Tu polla palpita con entusiasmo mientras follas sus tetas con una pasión creciente, las dulces sensaciones melosas disuelven cada racionalidad en tu cabeza, hasta que con un último empuje volas tu carga sobre sus tetas, dejándote jadeando por un breve momento mientras ellaUtiliza su magia para absorber tu semen.",
+                "EndLoop",
+                "IfPlayerSpiritGone",
+                "CrumpleFromTitfuck",
+                "JumpToScene",
+                "ChocolateMarshmallowMenu"
+            ]
+        },
+        {
+            "NameOfScene": "CrumpleFromTitfuck",
+            "theScene": [
+                "Menu",
+                "Keep fucking her wonderful tits...",
+                "I can't go on... (Lose)",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "I can't go on... (Lose)",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "SkipPlayerAttack",
+                "Venefica le da a su suave escote un apretón más apretado alrededor de su sacudida, gastada polla, haciendo que se estremezca en la felicidad mientras una cuerda de semen sale de su punta, antes de que libere su dolidosa erección de sus tetas de almohada, permitiéndole tambalearse y colapsar desdeAgotamiento, mientras ella con calma lame un poco de tu semilla con su lengua larga con una sonrisa petulante.",
+                "ChangeImageLayer",
+                "Expression",
+                "Devious",
+                "Luego se enfrenta a su altura completa y te acerca, chasqueando los dedos para empaparse en tu semilla restante, y luego se avecina sobre ti con una sonrisa dominante."
+            ]
+        },
+        {
+            "NameOfScene": "ChocolateMarshmallowMenu",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Keep fucking her wonderful tits...",
+                "Menu",
+                "Need to stop fucking her boobs! (Temptation)",
+                "Keep fucking her wonderful tits...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Keep fucking her wonderful tits...",
+            "theScene": [
+                "JumpToScene",
+                "ChocolateMarshmallowAttack"
+            ]
+        },
+        {
+            "NameOfScene": "Need to stop fucking her boobs! (Temptation)",
+            "theScene": [
+                "¡Intentas reunir tus pensamientos lo suficiente como para separarse!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfChoice",
+                "2",
+                "EllyAid",
+                "-5",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "50",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "75",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Weakness",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Exhaustion",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Shadows",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Curse of Oblivion",
+                "5",
+                "Temptation",
+                "15",
+                "ResistChocolateMarshmallow",
+                "Fail",
+                "FailResistChocolateMarshmallow"
+            ]
+        },
+        {
+            "NameOfScene": "FailResistChocolateMarshmallow",
+            "theScene": [
+                "Pero no puedo detenerte, su pecho completamente encantando tu mente ...",
+                "JumpToScene",
+                "ChocolateMarshmallowAttack"
+            ]
+        },
+        {
+            "NameOfScene": "ResistChocolateMarshmallow",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Pout",
+                "Y te las arreglas para ir a tus sentidos y empuja a Venefa, tambaleándose en un aturdimiento encantado mientras ella tranquila con calma con un puchero.",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Rude...",
+                "Hpmh...",
+                "Tendré que romperte más aparentemente ...",
+                "Las buenas mascotas deberían hacer lo que se les dice que sabes ...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "StartPhase2",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Orgasm",
+                "ChangeImageLayer",
+                "HatAndFaceEffects",
+                "HatBlushSevere",
+                "StopBGM",
+                "ClearStances",
+                "RemovePerkQuietly",
+                "Curse of Exhaustion",
+                "RemovePerkQuietly",
+                "Curse of Shadows",
+                "RemovePerkQuietly",
+                "Curse of Weakness",
+                "RemovePerkQuietly",
+                "Curse of Oblivion",
+                "Venefa grita en el maravilloso orgasmo, su cuerpo temblando de placer por unos momentos mientras comienza a caer, pero logra tropezar de ti.",
+                "ChangeImageLayer",
+                "Expression",
+                "Horny",
+                "Speak",
+                "Elly",
+                "SwapLineIf",
+                "Choice",
+                "2",
+                "EllyAid",
+                "¡Sí!¡La tenemos!Deberíamos poder",
+                "2",
+                "",
+                "",
+                "EndLoop",
+                "StopBGMHard",
+                "PlayMotionEffect",
+                "Quake",
+                "Luego, toda la cueva retumba mientras la energía ambiental demoníaca gira alrededor de la jadeadora venfica, sus propias crujientes mágicos y arcos a su alrededor.",
+                "PlayMotionEffect",
+                "Quake",
+                "Speak",
+                "Elly",
+                "SwapLineIf",
+                "Choice",
+                "2",
+                "EllyAid",
+                "Wha-",
+                "2",
+                "",
+                "",
+                "EndLoop",
+                "PlayMotionEffect",
+                "Quake",
+                "FocusedSpeaks",
+                "M-More-♥",
+                "ClearMonsterEncounterBossFight",
+                "AddMonsterToEncounter",
+                "VeneficaWild",
+                "RemovePerkFromMonster",
+                "Moonlit Allure",
+                "RemovePerkFromMonster",
+                "Moonlit Glamor",
+                "RemovePerkFromMonster",
+                "Moonlit Mystique",
+                "ChangeImageLayer",
+                "HatAndFaceEffects",
+                "NoHatBlush",
+                "PlayMotionEffect",
+                "LongExplosion",
+                "PlayVisualEffect2",
+                "BlindingFlash",
+                "Void.png",
+                "ChangeBGM",
+                "music/Unknown/Es-STAGE4.mp3",
+                "La magia que rodea a Venefica aumenta hacia afuera, su ropa se disipa en motas sombrías mientras su cuerpo adquiere una postura más agresiva y primitiva, sus manos garras colgadas suelto a sus dedos rizados y no cultivados mientras te mira con hambre vorazada.",
+                "FocusedSpeaks",
+                "Quiero {i} más! {/i} ♥",
+                "La energía alrededor de Venefa arremete en una explosión, enviando un corazón acelerando a través de ti mientras te mira, su largo cabello trenzado se apresura en el aire como como un ser vivo mientras comienza a acercarse.",
+                "Speak",
+                "Elly",
+                "SwapLineIf",
+                "Choice",
+                "2",
+                "EllyAid",
+                "¡Oh, vamos!",
+                "2",
+                "",
+                "",
+                "EndLoop",
+                "SwapLineIf",
+                "Choice",
+                "2",
+                "EllyAid",
+                "A pesar del claro pánico de Elly, puedes escuchar su voz mantener una sensación de compostura tranquila.",
+                "2",
+                "",
+                "",
+                "EndLoop",
+                "Speak",
+                "Elly",
+                "SwapLineIf",
+                "Choice",
+                "2",
+                "EllyAid",
+                "A-apresura, esto aún no ha terminado, ¡solo tenemos que hacer que venga a sus sentidos!",
+                "2",
+                "",
+                "",
+                "EndLoop",
+                "SetChoice",
+                "6",
+                "Wild",
+                "IfChoice",
+                "1",
+                "NotHoldingback",
+                "CheckEllySkillWild",
+                "ChangeMonsterPower",
+                "-40",
+                "ChangeMonsterAllure",
+                "-30",
+                "ChangeMonsterTech",
+                "-30",
+                "ChangeMonsterLuck",
+                "-22",
+                "ChangeMonsterMaxArousal",
+                "-322",
+                "ChangeMonsterMaxEnergy",
+                "-100",
+                "ChangeMonsterMaxSpirit",
+                "-6",
+                "ChangeMonsterLevel",
+                "-50",
+                "ChangeMonsterErosDrop",
+                "-2222",
+                "ChangeMonsterExpDrop",
+                "-500",
+                "IfChoice",
+                "2",
+                "",
+                "ClearEllySkillWild",
+                "IfChoice",
+                "2",
+                "EllyDown",
+                "ClearEllySkillWild"
+            ]
+        },
+        {
+            "NameOfScene": "CheckEllySkillWild",
+            "theScene": [
+                "IfChoice",
+                "2",
+                "",
+                "ClearEllySkillWild",
+                "IfChoice",
+                "2",
+                "EllyDown",
+                "ClearEllySkillWild"
+            ]
+        },
+        {
+            "NameOfScene": "ClearEllySkillWild",
+            "theScene": [
+                "RemoveSkillFromMonster",
+                "Umbral Devastation"
+            ]
+        },
+        {
+            "NameOfScene": "WildIntro",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Sigh",
+                "StopBGM",
+                "PlayMotionEffect",
+                "Quake",
+                "Venefa deja escapar un suspiro lento mientras la energía oscura se une rápidamente a su alrededor, inundando cada fibra de su cuerpo, dejando la habitación retumbando siniestramente cuando su magia crepitante se extiende a su alrededor.",
+                "ChangeBGM",
+                "music/Unknown/Es-STAGE4.mp3",
+                "ClearMonsterEncounterBossFight",
+                "AddMonsterToEncounter",
+                "VeneficaWild",
+                "RemovePerkFromMonster",
+                "Moonlit Allure",
+                "RemovePerkFromMonster",
+                "Moonlit Glamor",
+                "RemovePerkFromMonster",
+                "Moonlit Mystique",
+                "ChangeImageLayer",
+                "HatAndFaceEffects",
+                "NoHatBlush",
+                "PlayMotionEffect",
+                "LongExplosion",
+                "PlayVisualEffect2",
+                "BlindingFlash",
+                "Void.png",
+                "La magia que rodea a Venefica aumenta hacia afuera, su ropa se disipa en motas sombrías mientras su cuerpo adquiere una postura más agresiva y primitiva, sus manos arañadas colgando libremente mientras sus dedos se curvan y no lo miran con hambre voraz, tatuajes arcanos extendidos por todosu cuerpo.",
+                "FocusedSpeaks",
+                "Hehehehehe-{i}Hahahaha!♥{/i}",
+                "La energía alrededor de Venefa arremete en una explosión, enviando un corazón acelerando a través de ti mientras te mira, su largo cabello trenzado se apresura en el aire como como un ser vivo mientras comienza a acercarse.",
+                "SetChoice",
+                "6",
+                "Wild",
+                "ChangeMonsterMaxSpirit",
+                "5",
+                "IfChoice",
+                "2",
+                "",
+                "ClearEllySkillWild",
+                "IfChoice",
+                "2",
+                "EllyDown",
+                "ClearEllySkillWild"
+            ]
+        },
+        {
+            "NameOfScene": "Event Broke",
+            "theScene": [
+                "¡Los eventos de combate se rompieron!"
+            ]
+        }
+    ]
+}

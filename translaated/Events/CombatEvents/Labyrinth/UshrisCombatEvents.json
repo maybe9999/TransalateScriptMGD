@@ -1,0 +1,1901 @@
+{
+    "name": "UshrisCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ushris",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Intro",
+            "theScene": [
+                "SetChoice",
+                "6",
+                "",
+                "SetChoice",
+                "1",
+                "",
+                "CallSceneThenReturn",
+                "MoonlitRemove",
+                "CallEventAndSceneThenReturn",
+                "ShadowsTile",
+                "ShadowRibbonCheck",
+                "Ushris se ríe siniestramente mientras se acerca a usted, el clic de sus delicados zapatos acompañados por el desconcertante golpe de cadenas, mientras que la oscuridad en el pasillo parece torcerse y distorsionarse ante su presencia.",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Te encontré ~ ♪",
+                "Ahí estás. ♪ listo para jugar? ♪",
+                "Esto debería ser entretenido. ♪",
+                "Me pregunto si puedo hacerte ladrar. ♥",
+                "EndLoop",
+                "IfProgressEqualsOrGreater",
+                "1",
+                "RampUpFight"
+            ]
+        },
+        {
+            "NameOfScene": "MoonlitRemove",
+            "theScene": [
+                "IfInExploration",
+                "Nothing",
+                "RemovePerkFromMonster",
+                "Moonlit Allure",
+                "RemovePerkFromMonster",
+                "Moonlit Glamor",
+                "RemovePerkFromMonster",
+                "Moonlit Mystique"
+            ]
+        },
+        {
+            "NameOfScene": "RampUpFight",
+            "theScene": [
+                "LevelUpMonster",
+                "GoUpByProgress",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterLevelGreaterThan",
+                "50",
+                "EnergyUp",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterLevelGreaterThan",
+                "55",
+                "EnergyUp",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterLevelGreaterThan",
+                "60",
+                "EnergyUp",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterLevelGreaterThan",
+                "65",
+                "EnergyUp",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterLevelGreaterThan",
+                "70",
+                "EnergyUp",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterLevelGreaterThan",
+                "75",
+                "EnergyUp",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterLevelGreaterThan",
+                "80",
+                "EnergyUp",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterLevelGreaterThan",
+                "85",
+                "EnergyUp",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterLevelGreaterThan",
+                "90",
+                "EnergyUp",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterLevelGreaterThan",
+                "95",
+                "EnergyUp",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterLevelGreaterThan",
+                "100",
+                "EnergyUp"
+            ]
+        },
+        {
+            "NameOfScene": "EnergyUp",
+            "theScene": [
+                "ChangeMonsterMaxEnergy",
+                "15"
+            ]
+        },
+        {
+            "NameOfScene": "UpdatePower",
+            "theScene": [
+                "IfChoice",
+                "6",
+                "",
+                "UpdatePower30",
+                "IfChoice",
+                "6",
+                "Turn2",
+                "UpdatePower25",
+                "IfChoice",
+                "6",
+                "Turn3",
+                "UpdatePower20",
+                "ChangeProgress",
+                "10"
+            ]
+        },
+        {
+            "NameOfScene": "UpdatePower30",
+            "theScene": [
+                "ChangeProgress",
+                "25"
+            ]
+        },
+        {
+            "NameOfScene": "UpdatePower25",
+            "theScene": [
+                "ChangeProgress",
+                "20"
+            ]
+        },
+        {
+            "NameOfScene": "UpdatePower20",
+            "theScene": [
+                "ChangeProgress",
+                "15"
+            ]
+        },
+        {
+            "NameOfScene": "CountPowerTurns",
+            "theScene": [
+                "IfChoice",
+                "6",
+                "Turn3",
+                "Turn3",
+                "IfChoice",
+                "6",
+                "Turn2",
+                "Turn2",
+                "IfChoice",
+                "6",
+                "",
+                "Turn1"
+            ]
+        },
+        {
+            "NameOfScene": "Turn1",
+            "theScene": [
+                "SetChoice",
+                "6",
+                "Turn2"
+            ]
+        },
+        {
+            "NameOfScene": "Turn2",
+            "theScene": [
+                "SetChoice",
+                "6",
+                "Turn3"
+            ]
+        },
+        {
+            "NameOfScene": "Turn3",
+            "theScene": [
+                "SetChoice",
+                "6",
+                "Turn4"
+            ]
+        },
+        {
+            "NameOfScene": "Nothing",
+            "theScene": []
+        },
+        {
+            "NameOfScene": "FleeCheck",
+            "theScene": [
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "SnapAwake",
+                "IfPlayerHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Nothing",
+                "IfMonsterEnergyGone",
+                "UshrisRetreats"
+            ]
+        },
+        {
+            "NameOfScene": "OverheatContactTimer",
+            "theScene": [
+                "CallSceneThenReturn",
+                "CountPowerTurns",
+                "CallNextSceneJumpThenReturn",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "SnapAwake",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "EnergyConserve",
+                "IfPlayerHasStatusEffect",
+                "Restrain",
+                "EnergyConserve",
+                "ChangeMonsterEnergy",
+                "-10",
+                "IfMonsterEnergyGone",
+                "UshrisRetreats",
+                "JumpToScene",
+                "OverheatContactTimer2"
+            ]
+        },
+        {
+            "NameOfScene": "SnapAwake",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Tsundere",
+                "RemoveStatusEffectFromMonster",
+                "Sleep",
+                "ChangeMonsterEnergy",
+                "-200",
+                "Ushris sale de su sueño repentino con un murmullo aturdido y aturdido, mirándote con pucheros antes de suspirar en molestias."
+            ]
+        },
+        {
+            "NameOfScene": "EnergyConserve",
+            "theScene": [
+                "ChangeMonsterEnergy",
+                "-2",
+                "JumpToScene",
+                "OverheatContactTimer2"
+            ]
+        },
+        {
+            "NameOfScene": "OverheatContactTimer2",
+            "theScene": [
+                "IfMonsterHasStance",
+                "Any",
+                "OverheatContactTick",
+                "SetChoice",
+                "3",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "UshrisRetreats",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Sigh",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Hmph, por ahora supongo que es hora de despedirme ...",
+                "Hihi ... Voy a jugar contigo de nuevo pronto. ♪",
+                "Hmmm ... Creo que terminaré de jugar contigo más tarde ... ♪",
+                "Creo que es hora de un descanso ... ♪",
+                "Mnnn ... Creo que eso es suficiente por ahora.",
+                "Supongo que al menos debería darte una oportunidad {i} ... {/i}",
+                "Quiero verte retorcerse un poco más, así que haz tu mejor esfuerzo. ♪",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "Con una risita de eco, la forma de Ushris se derrite en las sombras bailando alrededor del pasillo, fusionándose en la piedra mientras se desvanece de la vista, dejándote solo una vez más en el laberinto ...",
+                "ChangeProgress",
+                "5",
+                "ClearMonsterEncounter",
+                "ChangeBGM",
+                "music/Unknown/Dungeon-Cave.mp3",
+                "IfInExploration",
+                "Nothing",
+                "JumpToScene",
+                "RepositionUshris"
+            ]
+        },
+        {
+            "NameOfScene": "RepositionUshris",
+            "theScene": [
+                "RemoveGridNPC",
+                "Current",
+                "GetEventAndSetProgress",
+                "UshrisGridAI",
+                "10",
+                "GetEventAndSetChoice",
+                "UshrisGridAI",
+                "2",
+                "TeleportCooldown",
+                "JumpToRandomScene",
+                "Teleport1",
+                "Teleport2",
+                "Teleport3",
+                "Teleport4",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Teleport1",
+            "theScene": [
+                "SpawnGridNPC",
+                "UshrisRespawnWarning",
+                "3",
+                "3",
+                "SetActiveGridNPC",
+                "UshrisRespawnWarning",
+                "IfGridNPCSeesPlayer",
+                "Range",
+                "2",
+                "RepositionUshris"
+            ]
+        },
+        {
+            "NameOfScene": "Teleport2",
+            "theScene": [
+                "SpawnGridNPC",
+                "UshrisRespawnWarning",
+                "3",
+                "9",
+                "SetActiveGridNPC",
+                "UshrisRespawnWarning",
+                "IfGridNPCSeesPlayer",
+                "Range",
+                "2",
+                "RepositionUshris"
+            ]
+        },
+        {
+            "NameOfScene": "Teleport3",
+            "theScene": [
+                "SpawnGridNPC",
+                "UshrisRespawnWarning",
+                "19",
+                "3",
+                "SetActiveGridNPC",
+                "UshrisRespawnWarning",
+                "IfGridNPCSeesPlayer",
+                "Range",
+                "2",
+                "RepositionUshris"
+            ]
+        },
+        {
+            "NameOfScene": "Teleport4",
+            "theScene": [
+                "SpawnGridNPC",
+                "UshrisRespawnWarning",
+                "19",
+                "9",
+                "SetActiveGridNPC",
+                "UshrisRespawnWarning",
+                "IfGridNPCSeesPlayer",
+                "Range",
+                "2",
+                "RepositionUshris"
+            ]
+        },
+        {
+            "NameOfScene": "OverheatContactTick",
+            "theScene": [
+                "IfHasPerk",
+                "Overheat",
+                "OverheatWorsen",
+                "IfChoice",
+                "3",
+                "Five",
+                "ApplyAndReset",
+                "IfChoice",
+                "3",
+                "Four",
+                "Tick5",
+                "IfChoice",
+                "3",
+                "Three",
+                "Tick4",
+                "IfChoice",
+                "3",
+                "Two",
+                "Tick3",
+                "IfChoice",
+                "3",
+                "One",
+                "Tick2",
+                "SetChoice",
+                "3",
+                "One",
+                "Puedes sentir el calor pulsante del pequeño cuerpo de Hellhound de Ushris filtrándose lentamente en el tuyo, llenándote de fusión y deseo necesitado."
+            ]
+        },
+        {
+            "NameOfScene": "ApplyAndReset",
+            "theScene": [
+                "CallSceneThenReturn",
+                "ApplyOverheat",
+                "Gemes en voz alta cuando el contacto cercano con el cuerpo cálido y ágil de Ushris finalmente te llega a ti, el calor necesitas alborotar toda la cintura que deja que tu polla palpite con emoción.",
+                "SetChoice",
+                "3",
+                "One"
+            ]
+        },
+        {
+            "NameOfScene": "ApplyOverheat",
+            "theScene": [
+                "IfHasPerk",
+                "Overheat",
+                "OverheatIncrease",
+                "GivePerkQuietly",
+                "Overheat"
+            ]
+        },
+        {
+            "NameOfScene": "OverheatIncrease",
+            "theScene": [
+                "ChangePerkDuration",
+                "Overheat",
+                "4"
+            ]
+        },
+        {
+            "NameOfScene": "Tick5",
+            "theScene": [
+                "SetChoice",
+                "3",
+                "Five"
+            ]
+        },
+        {
+            "NameOfScene": "Tick4",
+            "theScene": [
+                "SetChoice",
+                "3",
+                "Four"
+            ]
+        },
+        {
+            "NameOfScene": "Tick3",
+            "theScene": [
+                "SetChoice",
+                "3",
+                "Three"
+            ]
+        },
+        {
+            "NameOfScene": "Tick2",
+            "theScene": [
+                "SetChoice",
+                "3",
+                "Two"
+            ]
+        },
+        {
+            "NameOfScene": "OverheatWorsen",
+            "theScene": [
+                "IfChoice",
+                "3",
+                "One",
+                "TickHeat",
+                "SetChoice",
+                "3",
+                "One",
+                "Cuanto más tiempo esté en contacto con el cuerpo delgado y caluroso de Ushris, peor, el calor palpitante en su ingle ..."
+            ]
+        },
+        {
+            "NameOfScene": "TickHeat",
+            "theScene": [
+                "ChangePerkDuration",
+                "Overheat",
+                "2"
+            ]
+        },
+        {
+            "NameOfScene": "ShadowBitchCounterStance",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "A medida que intenta acercarse e íntimamente con Ushris, ella se desliza fácilmente con una risita, su cuerpo cambia a un estado sombrío e intangible que se desliza a través de sus dedos.Ushris pierde 5 energía.",
+                "SkipPlayerAttack",
+                "ChangeMonsterEnergy",
+                "-5",
+                "ChangeImageLayer",
+                "Expression",
+                "SmugToothy",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Kehehihi. ♪ No gracias. ♪",
+                "Hehihi ~ ♪ Seré el principal gracias. ♪",
+                "Oh, ¿quieres {i} touch {/i} me? ♪ ♥",
+                "Estamos dentro de mi territorio, ♪ mi {i} dominio, ♪ {/i} No puedes esperar tocarme. ♪ ♥",
+                "Tsshihi, ♪ sigue intentando. ♪",
+                "Mi mi, que brutal. ♪",
+                "Si quieres mi atención tan mala, podrías simplemente {i} rendirte. ♪ {/i}",
+                "Oh mi estas frustrado ♪",
+                "Siempre puedes {i} ejecutar. ♪ {/i}",
+                "Travieso travieso. ♪ ¿Ahora cómo castigarte? ♪",
+                "Hihi. ♪ Si decides ser mi cachorro obediente, ♪ te tocaré {i} mucho. ♥ {/i}",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "ShadowBitchCounterKiss",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Mientras tratas de aprovechar el bese de Ushris para besarla, ella separa rápidamente sus labios de los tuyos con una risita burlona, ​​dejándote atrapado en su agarre de confinamiento mientras lamenta sus labios y se frota lánguidamente su pequeño cuerpo dulce y de olor dulcecontra ti, dándole a sus suaves metros de medias un apretón alucinante mientras sofocan tu erección.Ushris pierde 5 energía.",
+                "SkipPlayerAttack",
+                "ChangeMonsterEnergy",
+                "-5",
+                "ChangeImageLayer",
+                "Expression",
+                "SmugToothy",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Kehehihi. ♪ ¿Estar necesitando? ♪",
+                "Jehihi ~ ♪ No olvides que estás bajo mi control ... ♪ ¿Te gusta? ♥",
+                "Tsshihi, ♪ Es lindo cómo quieres más. ♪",
+                "Si quieres mi atención tan mala, podrías simplemente {i} rendirte. ♪ {/i}",
+                "Oh mi, ¿te sientes frustrado? ♪",
+                "Travieso, travieso. ♪ No te pongas luchador, [ThePlayerName].Solo sé un buen chico y déjame besarte en un lindo desastre. ♪",
+                "Hihi. ♪ Si te conviertes en mi cachorro obediente, te tocaré {i} mucho. ♥ {/i}",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "ShadowBitchCounterRestrain",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "ChangeImageLayer",
+                "Expression",
+                "Mocking",
+                "A medida que logras contener a Ushris, ella se desliza fácilmente nuevamente con una risita engreída, su cuerpo se derrite etéricamente en el piso antes de volver a salir en otro lugar con un toque sombrío.Ushris pierde 10 energía.",
+                "SkipPlayerAttack",
+                "ChangeMonsterEnergy",
+                "-10",
+                "ChangeImageLayer",
+                "Expression",
+                "SmugToothy",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Kehehihi. ♪ No gracias. ♪",
+                "Estamos dentro de mi territorio, ♪ mi {i} dominio, ♪ {/i} No puedes esperar tocarme. ♪ ♥",
+                "Tsshihi, ♪ sigue intentando. ♪",
+                "Mi mi, que brutal. ♪",
+                "Oh mi estas frustrado ♪",
+                "Siempre puedes {i} ejecutar. ♪ {/i}",
+                "Travieso travieso. ♪ ¿Ahora cómo castigarte? ♪",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "ShadowBitchCounterStrike",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Mientras intentas golpear en el cuerpo de Ushris, tu 'ataque' fases a través de su forma flexible a medida que avanza en un estado sombrío e intangible por un momento.Ushris pierde 5 energía.",
+                "SkipPlayerAttack",
+                "ChangeMonsterEnergy",
+                "-5",
+                "ChangeImageLayer",
+                "Expression",
+                "SmugToothy",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Kehehihi. ♪ No gracias. ♪",
+                "Hehihi ~ ♪ Seré el principal gracias. ♪",
+                "Estamos dentro de mi territorio, ♪ mi {i} dominio, ♪ {/i} No puedes esperar tocarme. ♪ ♥",
+                "Tsshihi, ♪ sigue intentando. ♪",
+                "Si quieres mi atención tan mala, podrías simplemente {i} rendirte. ♪ {/i}",
+                "Oh mi estas frustrado ♪",
+                "Siempre puedes {i} ejecutar. ♪ {/i}",
+                "Travieso travieso. ♪ ¿Ahora cómo castigarte? ♪",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "ShadowBitchCounterT1",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Al intentar tocar y bromear a Ushris, ella se desliza fácilmente con una risita, su cuerpo se derrite a un estado sombrío e intangible que se desliza a través de los dedos.Ushris pierde 5 energía.",
+                "SkipPlayerAttack",
+                "ChangeMonsterEnergy",
+                "-5",
+                "ChangeImageLayer",
+                "Expression",
+                "SmugToothy",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Kehehihi. ♪ No gracias. ♪",
+                "Hehihi ~ ♪ Seré el principal gracias. ♪",
+                "Oh, ¿quieres {i} touch {/i} me? ♪ ♥",
+                "Estamos dentro de mi territorio, ♪ mi {i} dominio, ♪ {/i} No puedes esperar tocarme. ♪ ♥",
+                "Tsshihi, ♪ sigue intentando. ♪",
+                "Si quieres mi atención tan mala, podrías simplemente {i} rendirte. ♪ {/i}",
+                "Oh mi estas frustrado ♪",
+                "Siempre puedes {i} ejecutar. ♪ {/i}",
+                "Travieso travieso. ♪ ¿Ahora cómo castigarte? ♪",
+                "Hihi. ♪ Si decides ser mi cachorro obediente, ♪ te tocaré {i} mucho. ♥ {/i}",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "ShadowBitchCounterT2",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Mientras intentas a tientas y placer para el cuerpo de Ushris, ella se desliza con una risita, su cuerpo se derrite hacia un estado sombrío e intangible que se desliza a través de tus codiciosos dedos.Ushris pierde 10 energía.",
+                "SkipPlayerAttack",
+                "ChangeMonsterEnergy",
+                "-10",
+                "ChangeImageLayer",
+                "Expression",
+                "SmugToothy",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Hehihi ~ ♪ Seré el principal gracias. ♪",
+                "Oh, ¿quieres {i} touch {/i} me? ♪ ♥",
+                "Estamos dentro de mi territorio, ♪ mi {i} dominio, ♪ {/i} No puedes esperar tocarme. ♪ ♥",
+                "Tsshihi, ♪ sigue intentando. ♪",
+                "Si quieres mi atención tan mala, podrías simplemente {i} rendirte. ♪ {/i}",
+                "Oh mi estas frustrado ♪",
+                "Siempre puedes {i} ejecutar. ♪ {/i}",
+                "Travieso travieso. ♪ ¿Ahora cómo castigarte? ♪",
+                "Hihi. ♪ Si decides ser mi cachorro obediente, ♪ te tocaré {i} mucho. ♥ {/i}",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "ShadowBitchCounterDemonLayer",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "ChangeImageLayer",
+                "Expression",
+                "Mocking",
+                "Mientras atacas con la capa demoníaca, el cuerpo de Ushris se combina en sombras por un momento, ¡dejando que la reliquia sagrada la pase a través de ella sin ningún efecto!Ushris pierde 10 energía.",
+                "SkipPlayerAttack",
+                "ChangeMonsterEnergy",
+                "-10",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Oh, ¿pensaste {i} que {/i} funcionaría? ♪",
+                "Como si estuviera dejando que esa cosa me golpeara. ♪",
+                "Tsshihi, ♪ Ve a molestar a mi querida hermana Beris con ese juguete. ♪",
+                "Kehihi. ♪ No confías en esa cosa, ¿verdad? ♪",
+                "Estamos dentro de mi territorio, ♪ mi {i} dominio, ♪ {/i} No puedes esperar tocarme. ♪ ♥",
+                "Tsshihi, ♪ sigue intentando. ♪",
+                "Si quieres mi atención tan mala, podrías simplemente {i} rendirte. ♪ {/i}",
+                "Oh mi estas frustrado ♪",
+                "Siempre puedes {i} ejecutar. ♪ {/i}",
+                "Travieso travieso. ♪ ¿Ahora cómo castigarte? ♪",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "ShadowBitchCounterHolyHeadpat",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "SkipPlayerAttack",
+                "IfChoice",
+                "2",
+                "Patted",
+                "EvadePat",
+                "IfChoice",
+                "1",
+                "HatNabbed",
+                "PatReactNoHat",
+                "SetChoice",
+                "1",
+                "HatNabbed",
+                "ChangeImageLayer",
+                "Expression",
+                "Mocking",
+                "Te acompañas a la cabeza de Pat Ushris, ella simplemente te ríe ante tu intento de tocarla, ya comenzando a escapar de ti-",
+                "ChangeImageLayer",
+                "Expression",
+                "TsundereYell",
+                "ChangeImageLayer",
+                "Hat",
+                "",
+                "Y en su lugar te las arreglas para sacarle el sombrero de la cabeza por incidencia, la magia santa que rodea tu mano te permite tocar la prenda sombría el tiempo suficiente.",
+                "FocusedSpeaks",
+                "Wh- {i} hey! {/i}",
+                "ChangeImageLayer",
+                "Expression",
+                "Tsundere",
+                "FocusedSpeaks",
+                "Grrr ... ¿Cómo te atreves ...",
+                "Se ve un poco molesta por tu ofensiva a su precioso sombrero de bruja, ¡pero ahora su cabeza es completamente vulnerable!Para dar palmaditas.",
+                "ChangeProgress",
+                "5"
+            ]
+        },
+        {
+            "NameOfScene": "PatReactNoHat",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "SetChoice",
+                "2",
+                "Patted",
+                "ChangeImageLayer",
+                "Expression",
+                "Tsundere",
+                "Al alcanzar hacia adelante, su mano sagrada coronada maneja el cuidado de la forma oscura de Ushris, frotando su derecha entre las orejas completamente expuestas del Hellhound, lo que le hace dejar una miríada de ruidos confundidos e indignados.",
+                "FocusedSpeaks",
+                "Kehia-!?Tú- ¡Cómo- por qué-!",
+                "Con un resoplido agitado, te cepilla y agarra su sombrero en una enorme garra antes de fusionarse en el piso con un chapoteo sombrío para alejarse de ti.",
+                "ChangeImageLayer",
+                "Expression",
+                "TsundereYell",
+                "FocusedSpeaks",
+                "¡Volveré para ti {i} pronto! {/i}",
+                "ChangeProgress",
+                "5",
+                "ClearMonsterEncounter",
+                "ChangeBGM",
+                "music/Unknown/Dungeon-Cave.mp3",
+                "IfInExploration",
+                "Nothing",
+                "JumpToScene",
+                "RepositionUshris"
+            ]
+        },
+        {
+            "NameOfScene": "EvadePat",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "ChangeImageLayer",
+                "Expression",
+                "Cold",
+                "Alcanzar hacia adelante con su mano sagrada, Ushris lo evade suavemente a medida que se convierte en sombras etéreas, claramente adaptada a su mano de palmadita, solo le ofrece un resplandor frío para sus esfuerzos."
+            ]
+        },
+        {
+            "NameOfScene": "UmbralShadow",
+            "theScene": [
+                "SetPostName",
+                "- Sombra Umbral",
+                "ChangeImageLayer",
+                "Expression",
+                "SmugToothy",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Espero que estés teniendo {i} divertido, {/i} querido [ThePlayerName].Kehehihi. ♪",
+                "Kyahihihi.♪",
+                "Creo que te cazaré.Kshihi. ♪",
+                "{i}Kehehihihi.♪{/i}",
+                "EndLoop",
+                "FocusedSpeaksSkill",
+                "¡Con una risura ominosa y resonante, Ushris se hunde en las piedras de obsidiana, haciendo que las sombras se extiendan y salpican momentáneamente mientras se desvanece en una silueta oscura que se mueve salvajemente alrededor del piso y las paredes con ojos verdes que se enfrentan mientras se prepara para saltar!",
+                "SetPostName",
+                "",
+                "Menu",
+                "¡Prepárate para esquivarla!(Tecnología) [StatCheckPost]",
+                "¡Trate de predecir sus movimientos!(Int) [StatCheckPost]",
+                "{i} oh Diosa- ¡Oh, joder! {/i} (suerte) [StatCheckPost]",
+                "Be too surprised to act!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Be too surprised to act!",
+            "theScene": [
+                "HitPlayerWith",
+                "Thighjob",
+                "ApplyStatusEffect",
+                "UmbralShadowRestraint",
+                "ApplyStance",
+                "Thighjob",
+                "ChangeImageLayer",
+                "Expression",
+                "Predatory",
+                "Ushris se estrella contra su forma sorprendida, enrollando sus enormes garras alrededor de la espalda mientras sus cadenas sombrías se envuelven alrededor de ustedes dos, atando con fuerza los brazos alrededor de la cintura del Hellhound, sus palmas presionaban su culo regordete y su rígida polla encarcelada entre su almohadamuslos, mientras ella acaricia fuertemente contra tu pecho con una sonrisa salvaje. [DamageToPlayer]",
+                "JumpToScene",
+                "UmbralShadowFail2"
+            ]
+        },
+        {
+            "NameOfScene": "Get ready to dodge her! (Tech) [StatCheckPost]",
+            "theScene": [
+                "Mientras se lanza con un granizo de cadenas sombrías, ¡hacia ella, intentas evadir su agarre de restricción!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Paralysis",
+                "5",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Paralysis",
+                "10",
+                "5",
+                "Technique",
+                "20",
+                "UmbralShadowTechPass",
+                "Fail",
+                "UmbralShadowFail"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralShadowTechPass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "¡Y la evade hábilmente por completo!Dejando a Ushris deslizándose por el suelo con un chillido metálico de sus garras corriendo a lo largo de las piedras de obsidiana mientras sus cadenas sombrías se disipan inofensivamente.",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Kehe, sigue haciendo tu mejor esfuerzo. ♪",
+                "Hmhi, casi te tengo. ♪",
+                "Aww, ♪ No seas como {i} eso. {/i} Solo quería mimarte con mis muslos. ♪",
+                "Retorcía todo lo que quieras, te atraparé el evento ♪ ♪ ♪ ♪",
+                "Puppy no quiere {i} acos? ♪ {/i}",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Try to predict her movements! (Int) [StatCheckPost]",
+            "theScene": [
+                "Habiendo estado rastreando sus movimientos salvajes, haces todo lo posible para evadir sus garras de alcance y cadenas de sombra en espiral mientras Ushris estalló de la pared gruñendo con entusiasmo.",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Paralysis",
+                "5",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Paralysis",
+                "10",
+                "5",
+                "Intelligence",
+                "20",
+                "UmbralShadowIntPass",
+                "Fail",
+                "UmbralShadowFail"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralShadowIntPass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "¡Y lo evades por completo!Dejando a Ushris deslizándose por el suelo con un chillido metálico de sus garras corriendo a lo largo de las piedras de obsidiana mientras sus cadenas sombrías desaproban inofensivamente.",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Kehe, sigue haciendo tu mejor esfuerzo. ♪",
+                "Hmhi, casi te tengo. ♪",
+                "Aww, ♪ No seas como {i} eso. {/i} Solo quería mimarte con mis muslos. ♪",
+                "Retorcía todo lo que quieras, te atraparé el evento ♪ ♪ ♪ ♪",
+                "Puppy no quiere {i} acos? ♪ {/i}",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "{i}Oh goddess- oh fuck!{/i} (Luck) [StatCheckPost]",
+            "theScene": [
+                "Mientras explota de la pared en una erupción de la oscuridad arremolinada, las garras extendidas con una lluvia acompañada de largas cadenas de deslizamiento, ¡agla y pánico, luchando por esquivar!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Paralysis",
+                "5",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Paralysis",
+                "10",
+                "5",
+                "Luck",
+                "25",
+                "UmbralShadowLuckPass",
+                "Fail",
+                "UmbralShadowFail"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralShadowLuckPass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "¡Y tú {i} de alguna manera {/i} logras evadirla por completo!Dejando a Ushris deslizándose por el suelo con un chillido metálico de sus garras corriendo a lo largo de las piedras de obsidiana mientras sus cadenas sombrías desaproban inofensivamente.",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Kehe, sigue haciendo tu mejor esfuerzo. ♪",
+                "Hmhi, i {i} casi {/i} te tengo. ♪",
+                "Aww, ♪ No seas como {i} eso. {/i} Solo quería mimarte con mis muslos. ♪",
+                "Retorcía todo lo que quieras, te atraparé el evento ♪ ♪ ♪ ♪",
+                "Puppy no quiere {i} acos? ♪ {/i}",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralShadowFail",
+            "theScene": [
+                "HitPlayerWith",
+                "Thighjob",
+                "ApplyStatusEffect",
+                "UmbralShadowRestraint",
+                "ApplyStance",
+                "Thighjob",
+                "ChangeImageLayer",
+                "Expression",
+                "Predatory",
+                "Pero a pesar de sus mejores esfuerzos, Ushris se estrella contra usted, colocando sus enormes garras alrededor de su espalda mientras sus cadenas sombrías envuelven alrededor de ustedes dos, atando con fuerza sus brazos alrededor de la cintura del Hellhound, sus palmas presionadas en su culo regordete y su rígida pollaencarcelado entre sus muslos de almohada, mientras ella acaricia fuertemente contra su pecho con una sonrisa salvaje. [DamageToPlayer]",
+                "JumpToScene",
+                "UmbralShadowFail2"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralShadowFail2",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Te atrapó. ~ ♪",
+                "No se retire {i} también {/i} mucho.",
+                "Tiempo para besos. ♥",
+                "Acogedor y cálido? ♥ Kehi. ♪",
+                "Te ves lindo cuando estás atrapado. ♥",
+                "EndLoop",
+                "HitPlayerWith",
+                "Nightshade Smooch",
+                "ChangeImageLayer",
+                "Expression",
+                "Kiss",
+                "ApplyStance",
+                "Besarse",
+                "Luego presiona con risas sus suaves y brillantes labios contra los tuyos en un beso profundo y contundente, gruñendo ligeramente mientras ella dobla la lengua alrededor de la boca, todo mientras aprieta y se frota los muslos regordetes contra tu erección entrelazada y sacudida. [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "BreakFree!",
+            "theScene": [
+                "ClearStances",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "¡Luchando y retorciéndose contra Ushris y sus cadenas vinculantes finalmente logras liberarte!La mujer de Hellhound salta delicadamente con una risita juguetona, su cola serpentina dejando escapar un silbido bajo mientras te mira."
+            ]
+        },
+        {
+            "NameOfScene": "UmbralLeash",
+            "theScene": [
+                "SetPostName",
+                "- Correa de la Umbral",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "{i}Heel.♪{/i}",
+                "Ven aquí {i} cachorro. ♪ {/i}",
+                "Tiempo para {i} collar {/i} you. ♪",
+                "{i}Sit.♪{/i}",
+                "EndLoop",
+                "FocusedSpeaksSkill",
+                "Ushris levanta sus monstruosas garras hacia ti, y con un movimiento de muñecas y una risita, las cadenas sombrías salen de sus mangas para bobinar y girar a través del aire hacia ti.",
+                "SetPostName",
+                "",
+                "Menu",
+                "¡Dodícelos!(Tecnología) [StatCheckPost]",
+                "¡¿Barrera?!(Int) [StatCheckPost]",
+                "{i} Scramble por seguridad! {/i} (suerte) [StatCheckPost]",
+                "Don't resist!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Don't resist!",
+            "theScene": [
+                "ApplyStatusEffect",
+                "UmbralShadowRestraint2",
+                "ChangeImageLayer",
+                "Expression",
+                "GrinToothy",
+                "Las cadenas se rayan hacia adelante y se enrollan sobre usted en una cerradura mágica firme, envolviendo su cuello como una correa, atando los brazos detrás de la espalda y forzándole de rodillas al frente de Ushris.",
+                "JumpToScene",
+                "UmbralLeashFail2"
+            ]
+        },
+        {
+            "NameOfScene": "Dodge them! (Tech) [StatCheckPost]",
+            "theScene": [
+                "¡Intentas evadir las cadenas oscuras sinuosas mientras rayan hacia ti!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Paralysis",
+                "5",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Paralysis",
+                "10",
+                "5",
+                "Technique",
+                "20",
+                "UmbralLeashTechPass",
+                "Fail",
+                "UmbralLeashFail"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralLeashTechPass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "Y se estrellan y se enredan contra las paredes y el piso mientras los esquivas ágilmente, dejándolos disipar mientras Ushris te sonríe, dándote un aplauso suave con sus enormes garras.",
+                "ChangeImageLayer",
+                "Expression",
+                "Happy",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Kehe, sigue haciendo tu mejor esfuerzo. ♪",
+                "Hmhi, casi te tengo. ♪",
+                "Oh mi, ♪ bien hecho. ♪",
+                "Kehi. ♪ Me pregunto cuánto tiempo puedes mantener eso despierto. ♪",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Barrier?! (Int) [StatCheckPost]",
+            "theScene": [
+                "¡Intentas desesperadamente generar una pared de magia para contener las cadenas sinuosas de la oscuridad!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Paralysis",
+                "5",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Paralysis",
+                "10",
+                "5",
+                "Intelligence",
+                "20",
+                "UmbralLeashIntPass",
+                "Fail",
+                "UmbralLeashFail"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralLeashIntPass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "¡Y se reflejan y se dispersan contra su barrera, chocando contra el suelo y las paredes a su alrededor!Se disipan inofensivamente mientras Ushris sonríe y te da un aplauso suave con sus enormes garras.",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Kehe, sigue haciendo tu mejor esfuerzo. ♪",
+                "Hmhi, casi te tengo. ♪",
+                "Oh mi, ♪ bien hecho. ♪",
+                "Kehi. ♪ Me pregunto cuánto tiempo puedes mantener eso despierto. ♪",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "{i}Scramble for safety!{/i} (Luck) [StatCheckPost]",
+            "theScene": [
+                "¡Devesando, saltas y te das vueltas para tratar de esquivar las cadenas de atrapamiento mientras intentan bobinar a tu alrededor!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Paralysis",
+                "5",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Paralysis",
+                "10",
+                "5",
+                "Luck",
+                "25",
+                "UmbralLeashLuckPass",
+                "Fail",
+                "UmbralLeashFail"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralLeashLuckPass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "¡Y usted {i} de alguna manera {/i} logra evadirlos por completo, chocando por el piso y las paredes con rayos rotundos!Pronto se disipan inofensivamente mientras Ushris sonríe y te da un aplauso suave con sus enormes garras.",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Kehe, sigue haciendo tu mejor esfuerzo. ♪",
+                "Hmhi, casi te tengo. ♪",
+                "Oh mi, ♪ bien hecho. ♪",
+                "Kehi. ♪ Me pregunto cuánto tiempo puedes mantener eso despierto. ♪",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralLeashFail",
+            "theScene": [
+                "ApplyStatusEffect",
+                "UmbralShadowRestraint2",
+                "ChangeImageLayer",
+                "Expression",
+                "GrinToothy",
+                "Pero a pesar de sus mejores esfuerzos, las cadenas rompen sus intentos de defensa, enrollando sobre usted en una cerradura mágica firme, envolviendo su cuello como una correa, atando los brazos detrás de su espalda y obligándolo de rodillas al frente de Ushris.",
+                "JumpToScene",
+                "UmbralLeashFail2"
+            ]
+        },
+        {
+            "NameOfScene": "UmbralLeashFail2",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Te atrapó. ~ ♪",
+                "No se retire {i} también {/i} mucho.",
+                "Es hora de domar tu polla traviesa. ♥",
+                "Consigue cachorro acogedor. ♥ Kehi. ♪",
+                "Te ves lindo cuando estás atrapado. ♥",
+                "EndLoop",
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "Step",
+                "ChangeImageLayer",
+                "Feet",
+                "Toes",
+                "PlayVisualEffect2",
+                "ScreenPulse",
+                "pinkHaze.png",
+                "PlayMotionEffect",
+                "CrashSmol",
+                "Se ríe triunfalmente, chasqueando su mano con garras gratis, formando un asiento mágico sombrío para sí misma en la que coloca su abundante trasera, dejándola comenzar cómodamente sus delicados zapatos frente a ti, que sigue levantando sus pies almacenados hasta tu caracon una lamida de sus suaves labios.",
+                "HitPlayerWith",
+                "Leash of Darkness",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "ApplyStance",
+                "Footjob",
+                "ChangeImageLayer",
+                "Feet",
+                "Base",
+                "PlayVisualEffect2",
+                "ScreenPulse",
+                "pinkHaze.png",
+                "Luego los presiona con amor en su cara indefensa, frotándole y masajeándose con sus suelas perfumadas de caramelo, antes de arrastrar sensualmente un pie por su pecho, hasta que alcance su longitud rígida y sacudida, paseando los dedos ágiles a lo largo de la parte inferior de su eje.con una risita, todavía frotando tu cara con su otro pie. [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "BreakFree!2",
+            "theScene": [
+                "ClearStances",
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "Base",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "¡Luchando y retorciéndose contra Ushris y sus cadenas vinculantes finalmente logras liberarte!La mujer de Hellhound salta delicadamente con una risita juguetona, su cola serpentina dejando escapar un silbido bajo mientras te mira."
+            ]
+        },
+        {
+            "NameOfScene": "TamingTemptation",
+            "theScene": [
+                "HitPlayerWith",
+                "Absolute Umbral Territory",
+                "SetPostName",
+                "- Taming Temptation",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "FocusedSpeaksSkill",
+                "Ushris gira ligeramente a un lado con un florecimiento de encerrado en cadena, presentando una de sus largas y lujosas piernas con una lamida de sus suaves labios, tu mente encantada se detiene ante la tentadora vista mientras se tira en una larga garra a lo largo de su amplio muslo.[DamageToPlayer]",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "¿El cachorro quiere jorobar la pierna? ♥ Kehihi. ♪",
+                "Déjame mimarte, solo un poco. ♥",
+                "¿No te empujarás contra mi muslo suave? ♪",
+                "Kehihi, frote contra mi pierna todo lo que quieras. ♥",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "Menu",
+                "¡Ignora la tentación![StatCheckPost]",
+                "Hump her leg!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Hump her leg!",
+            "theScene": [
+                "JumpToScene",
+                "TamingTemptFail"
+            ]
+        },
+        {
+            "NameOfScene": "Ignore the temptation! [StatCheckPost]",
+            "theScene": [
+                "Intentas sacudir la inminente tentación de que se ofrece el muslo regordete de la bruja que se ofrece, a pesar de tu dolor de erección que se contrae con la emoción necesitada.",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Legs",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Legs",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Legs",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Legs",
+                "100",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Overheat",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Paralysis",
+                "5",
+                "5",
+                "Temptation",
+                "15",
+                "TamingTemptPass",
+                "Fail",
+                "TamingTemptFail"
+            ]
+        },
+        {
+            "NameOfScene": "TamingTemptPass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Cold",
+                "¡Y te las arreglas para no apresurarte y disfrutar de la suave carne del Hellhound!Ella te mira fríamente con un puchero por tu desobediencia."
+            ]
+        },
+        {
+            "NameOfScene": "TamingTemptFail",
+            "theScene": [
+                "HitPlayerWith",
+                "Leg Grind",
+                "ChangeImageLayer",
+                "Expression",
+                "Mocking",
+                "Ushris se ríe mientras tropiezas hacia adelante y presiona tu cuerpo contra su pequeña forma, desplomando para acariciarte contra su cofre pert. A medida que su suave pierna se mueve para frotar en la parte inferior de tu virilidad, persuadiéndote para comenzar a encender con un gemido feliz con un gemido feliz. [DamageToPlayer]",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "{i} gooood {/i} cachorro. ♥",
+                "Kshihi- ♥ Que lindo. ♥ ♪",
+                "¿Tu colapso de autocontrol? ♪ ruta ~ et ~ ic. ♪",
+                "Joroba ♪ joroba ♪ joroba. ♥ deja que tu cabeza se apague. ♥",
+                "EndLoop",
+                "HitPlayerWith",
+                "Leg Grind",
+                "ChangeImageLayer",
+                "Expression",
+                "Seductive",
+                "Ella deja escapar un gruñido de bajo aprecio mientras empuja su longitud contra su pierna de almacenamiento, que se extiende hacia abajo para correr cómodamente una garra metálica a lo largo del costado de su cara con cuidado delicada, acariciando el borde de la oreja antes de ahuecar la barbilla para que lo busqueen su cara sonriente para que pueda verte jadear y resoplarse con placer. [DamageToPlayer]",
+                "JumpToScene",
+                "TamingTemptLewd"
+            ]
+        },
+        {
+            "NameOfScene": "TamingTemptLewd",
+            "theScene": [
+                "HitPlayerWith",
+                "Leg Grind",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "SwapLineIf",
+                "Random",
+                "Enterraste tu rostro entre su modesto escote, suspirando felizmente ante la reconfortante suavidad acentuada por el borde con volantes de su vestido, todo el tiempo jorobando ansiosamente su lujoso muslo por instinto en busca de una felicidad más cálida.Ushris se ríe de su comportamiento mimado y lo muele aún más al acariciar cariñosamente la parte posterior de su cabeza con sus pesadas garras. [DamageToPlayer]",
+                "Levantando suavemente la barbilla al revolverse a lo largo de la parte inferior de la mandíbula con un cuidado inductor de hormigueCada empuje contra su pierna dominante hace que su expresión sea más desordenada y desordenada para que ella disfrute. [DamageToPlayer]",
+                "Husfes el perfume de caramelo a la deriva y empalagoso del cuerpo de Ushris entre cada joroba contra su muslo almohado, quejándose felizmente mientras la maravillosa autocomplacencia animal, derrite sus sentidos en un estado de placer cálido y pegajoso, su cuerpo infernal solo se suma alNecesidad instintiva de seguir frotando contra ella en busca de más oleadas de éxtasis caliente. [DamageToPlayer]",
+                "Ushris levanta el muslo en sus empujes con una risita, lo que lo mueve hacia arriba y hacia abajo con el tiempo descuidado, enviando choques de dicha cálida a través de sus caderas mientras satisface sus necesidades irreflexivas, usando sus enormes garras para sostenerlo cercacuidado cariñoso, tentador para ir flojo, jorobado y gimiendo contra ella todo lo que quieras. [DamageToPlayer]",
+                "EndLoop",
+                "IfPlayerOrgasm",
+                "TamingTemptOrgasm",
+                "ChangeImageLayer",
+                "Expression",
+                "Happy",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Sigue así, ♪ haz tu mejor esfuerzo. ♪ Kehehi. ♪",
+                "Buen chico. ♥ bueno {i} cachorro. ♥ ♪ {/i}",
+                "Empuje ♪ empuje ♥ empuje. ♥ ♪",
+                "Joroba ♪ joroba ♪ joroba. ♥",
+                "Kshiheh ~ ♪ tan adorable. ♥ ♪",
+                "EndLoop",
+                "JumpToScene",
+                "TamingTemptMenu"
+            ]
+        },
+        {
+            "NameOfScene": "TamingTemptOrgasm",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "PlayerOrgasm",
+                "1",
+                "SwapLineIf",
+                "Random",
+                "Nuzzling Ushris 'Pert Bust You frenéticamente jorobas su pierna regordeta con tu polla con fuga y espasmo, resoplando y jadeando con un aturdimiento manchadoUn último empuje alucinante contra su carne de almohada estalló en todo el muslo intoxicante, cubriéndolo en un desorden pegajoso de semen.",
+                "Te quejas y gemes mientras empujas contra la pierna de almohada de Ushris, sus dedos mordidos acariciando amorosamente la parte inferior de tu barbilla, dejando tu mirada aturdida a la deriva de su cara sonriente y arrullando, tu ansiosa y sobrecargado muslo dejando su juguete contigo en su corazón.Contenido, el hormigueo y el mimado se derriten en tu mente hasta que tu espasmo, la erección que se mueve en todo el muslo, dejando tu lengua en el clímax desordenado.",
+                "Ushris se ríe a medida que sus movimientos se vuelven cada vez más desesperados y descuidados a medida que aborda su pierna dominante, su suavidad empalagosa lo convence para seguir empujando contra ella con aturdimiento mientras resopla su aroma intoxicante y cremoso, hasta que levanta firmemente su pierna en las caderas de espasmo,Te abruman con una presión intensa y almohada que obliga a tu virilidad entrega a brotar cuerdas gruesas de semilla sobre su muslo mientras estás llorando incoherentemente en la dicha.",
+                "Ushris coos y frota su pierna de lujosa y cubierta de calcetín en sus ansiosos empujes, acariciando la parte posterior de su cabeza mientras resonan olas de felicidad caliente a través de toda su cintura una y otra vez hasta que su mente explota con ráfagas de éxtasis, dejándolo desordenadoAvesando mientras te corres, dejando un desastre grueso y pegajoso en su pierna mientras ella muele su suave muslo hacia ti, haciéndote temblar y sacudir como un títere a su toque exquisito.",
+                "EndLoop",
+                "IfPlayerSpiritGone",
+                "ThighEndLoss",
+                "CallSceneThenReturn",
+                "ApplyOverheat",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Bajando de su altura climática, se desploma contra la pequeña mujer, confiando completamente en ella por su apoyo mientras un espeluznante resplandor verde de magia absorbe su semen y ella frota su pierna contra su temblorosa variedad.",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Aún no has terminado, ♥ ¿estás? ♪",
+                "Buen cachorro. ♪ Ahora sigue adelante. ♥",
+                "Strurt aún más para mí. ♥ Kehehi. ♪",
+                "Puedo sentir tu polla mendigando por más. ♥",
+                "EndLoop",
+                "JumpToScene",
+                "TamingTemptMenu"
+            ]
+        },
+        {
+            "NameOfScene": "ThighEndLoss",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "SmugToothy",
+                "Te desplomas por completo de la forma de Petiette de Ushris en la derrota de la maullada, y ella gentilmente te permite deslizarte al suelo con una sonrisa triunfante en su cara engreída, riendo suavemente en el estado en el que estás.",
+                "FocusedSpeaks",
+                "{i} awww, {/i} ¿Se cansó mi cachorro con todo su maldito jorobado? ♥ Ksh jajaja! ~ ♥ ♪"
+            ]
+        },
+        {
+            "NameOfScene": "TamingTemptMenu",
+            "theScene": [
+                "Menu",
+                "Keep humping her leg!",
+                "¡Ven a tus sentidos![StatCheckPost]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Keep humping her leg!",
+            "theScene": [
+                "JumpToScene",
+                "TamingTemptLewd"
+            ]
+        },
+        {
+            "NameOfScene": "Come to your senses! [StatCheckPost]",
+            "theScene": [
+                "¡Intentas sacudirte la encantadora neblina encantadora llenando tu mente cachonda para alejarte de la bruja insidiosa!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Legs",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Legs",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Legs",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Legs",
+                "100",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Overheat",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Paralysis",
+                "5",
+                "5",
+                "Temptation",
+                "15",
+                "TamingTemptPass2",
+                "Fail",
+                "TamingTemptLewd"
+            ]
+        },
+        {
+            "NameOfScene": "TamingTemptPass2",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Mocking",
+                "Mientras busca y te alejas de Ushris para alejarte de su tentador muslo y recordar, ella se ríe brumando en tu lamentable estado.",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Aw, pero te viste tan feliz [ThePlayerName]. ~ ♪",
+                "{i} hmmm? ♥ {/i} ¿estás {i} seguro {/i} no quieres jorobar mi pierna {i} más {/i}, querido [ThePlayerName]? ♥",
+                "Tsshihihi, ♪ Jugaré contigo más que. ♥",
+                "¿No te estaban divirtiendo actuando como un animal cachondo? ♥ pero estabas siendo {i} tal {/i} un buen cachorro. ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "TamingLockdown",
+            "theScene": [
+                "SetPostName",
+                "- Taming Lockdown",
+                "ChangeImageLayer",
+                "Expression",
+                "Mocking",
+                "FocusedSpeaksSkill",
+                "Ushris se toma un momento para apreciar con suficientemente la vista de su forma de parálisis, luego se ríe siniestramente mientras se pavonea con calma con los clics audibles de sus zapatos delicados, balanceando sus anchas caderas de lado a lado, mientras sabría claramente la vista de su cuerpo temblar comoLaboradamente luchas contra la parálisis que te afecta.",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaksSkill",
+                "Detenerse justo en frente de ti con solo unos pocos pasos de espacio entre ti, ella gira sobre su talón con un elegante giro, arrojándote una mirada aturdida, dominante hacia atrás mientras se retrocede lentamente hacia ti con un batido seductor de su culo regordete debajo¡Su falda mientras sus cadenas sombrías serpentean en sus brazos y piernas, lo que lentamente lo tira de rodillas, el movimiento te permite ver más y más de su trasero eclipsante!",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Es {i} sobre. ~ ♪ {/i}",
+                "Kehehihi.~♪",
+                "Sea una buena silla para mí. ~ ♥",
+                "Creo que necesito un descanso. ♪ ♥",
+                "Bueno, si no te vas a mover. ♥",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "Menu",
+                "¡Reúne tu fuerza contra la parálisis!(Potencia) [StatCheckPost]",
+                "¡Saca la aflicción paralítica a través de la voluntad pura!(Willpower) [StatCheckPost]",
+                "Be a good chair...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Be a good chair...",
+            "theScene": [
+                "HitPlayerWith",
+                "UmbralFaceGrind",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Con una sonrisa excitada y cachonda en la cara, te mantienes voluntariamente flácido e indefenso, que se pone bajo frente a su culo curvilíneo, dejando escapar un ruido de dicha amortiguado mientras se sienta delicadamente sobre ti, enterrando tu cabeza en su desbordante y almohado., inundando tus sentidos con su dulce aroma cremoso. [DamageToPlayer]",
+                "JumpToScene",
+                "AssPrison"
+            ]
+        },
+        {
+            "NameOfScene": "Muster your strength against the paralysis! (Power) [StatCheckPost]",
+            "theScene": [
+                "A pesar de que el entumecimiento hormigueante dejó su cuerpo indefenso e inerte, ¡haces tu mejor esfuerzo para luchar contra él para separarte del culo entrante del Hellhound!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "100",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Overheat",
+                "5",
+                "Power",
+                "25",
+                "AssPrisonPass",
+                "Fail",
+                "AssPrisonFail"
+            ]
+        },
+        {
+            "NameOfScene": "AssPrisonPass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Sigh",
+                "Y logra luchar por la parálisis entumecedora el tiempo suficiente para empujar a Ushris y su regordete culo, haciéndola girar para mirarlo con un suspiro de maldito.",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "No hay necesidad de ser grosero ...",
+                "Sinceramente ... Deberías estar agradecido.",
+                "HMPH, ¿tal vez necesite jugar contigo aún más?",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Shake off the paralytic affliction through sheer will! (Willpower) [StatCheckPost]",
+            "theScene": [
+                "Centrando tu mente tratas de obligarte a moverte a pesar de que el entumecimiento paralítico destroza todo tu cuerpo, ¡tratando desesperadamente de alejarte del culo entrante del Hellhound!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "100",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Overheat",
+                "5",
+                "Willpower",
+                "25",
+                "AssPrisonPass",
+                "Fail",
+                "AssPrisonFail"
+            ]
+        },
+        {
+            "NameOfScene": "AssPrisonFail",
+            "theScene": [
+                "HitPlayerWith",
+                "UmbralFaceGrind",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "A pesar de sus mejores esfuerzos, te quedan bajos antes del culo regordete, cómoda e indefenso de Ushris para evitar que se sienta delicadamente en tu cara, enterrándote en su suavidad desbordante e inundando tus sentidos con su dulce fragancia cremosa, dejando salir unaamortiguó el gemido mientras te usa como una silla. [DamageToPlayer]",
+                "JumpToScene",
+                "AssPrison"
+            ]
+        },
+        {
+            "NameOfScene": "AssPrison",
+            "theScene": [
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Agradable, paralizado y {i} acogedor. ~ ♪ {/i}",
+                "Una silla tan buena y obediente. ♪ tshihi. ♪",
+                "No se retire {i} también {/i} mucho. ♪",
+                "Vas a correr, ♥ jusssst de {i} esto. ♪ ♥ {/i}",
+                "EndLoop",
+                "HitPlayerWith",
+                "UmbralFaceGrind",
+                "ChangeImageLayer",
+                "Expression",
+                "Seductive",
+                "Tu cuerpo entumecido y arrodillado pronto está completamente envuelto en sus cadenas sombrías, dejándote indefenso contra sus caprichos perversos, y Ushris le da a sus caderas bien formadas un meneo burlón, frotando su taller cálido y sofocante en tu cara, haciendo que tu polla se derrumbe con placer desdeLa sumisión dulce y atormentada. [DamageToPlayer]",
+                "JumpToScene",
+                "AssPrisonLewd"
+            ]
+        },
+        {
+            "NameOfScene": "AssPrisonLewd",
+            "theScene": [
+                "HitPlayerWith",
+                "UmbralFaceGrind",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "SwapLineIf",
+                "Random",
+                "Apenas registra las cadenas que se aprieta a su alrededor a través de la neblina de parálisis que gira la mente y el aroma femenino empalagoso que nubla sus sentidos, lamiendo débilmente las bragas de Ushris en un aturdimiento sin sentido, su culo regordete eclipsando gradualmente todo lo demás en su cabeza manchada de placer.[DamageToPlayer]",
+                "Ushris se balancea con amor y gira su cintura de adornos, usando sus caderas anchas para intimidar su rostro en una sumisión embriagadora con su lujoso trasero, sumergiendo su mente en las sensaciones de estar sofocados por su trasero desbordante, cada vez más que su polla se estremece,Twitch y fugas. [DamageToPlayer]",
+                "La vida del infierno levanta su abundante culo de tu rostro el tiempo suficiente para que tomes un escalofrío de su dulce e embriagador aroma antes de enterrar toda tu cara de nuevo en su culo regordete, dejándote maullando y retorciéndome con una maravillosa dicha eufórica como tu mente es tu menteempapado en un cálido placer pegajoso. [DamageToPlayer]",
+                "Tu polla palpita felizmente mientras Ushris presiona más de su peso dominante sobre ti, usando tu trono personal, la suave sofocante abrumaba tu cabeza con su calidez pecaminosa que irradia directamente en tu cerebro, cada momento que pasa te está ansioso por acariciar y acariciar y acariciarHuff su lujoso culo en adoración sumisa. [DamageToPlayer]",
+                "EndLoop",
+                "IfPlayerOrgasm",
+                "AssPrisonOrgasm",
+                "ChangeImageLayer",
+                "Expression",
+                "Seductive",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Buen {i} silla. ♪ {/i} Kehihi. ♪ ♥",
+                "Kehehi ~ ♪ ¿Estás disfrutando de ser marcado con mi aroma? ♥",
+                "Oh {i} my, ♪ {/i} estás haciendo los sonidos de resopling patéticos. ♥",
+                "Tsshihi, ♪ tu polla no dejará de filtrar. ♪",
+                "Bueno cachorro, ♪ no querrás escapar pronto. ♥",
+                "EndLoop",
+                "JumpToScene",
+                "AssPrisonMenu"
+            ]
+        },
+        {
+            "NameOfScene": "AssPrisonOrgasm",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "SmugToothy",
+                "PlayerOrgasm",
+                "1",
+                "SwapLineIf",
+                "Random",
+                "Con una risita, Ushris masajea su cara con su almohada, sacudiéndolo de un lado a otro, enviando ondas de éxtasis a través de su cabeza con cada movimiento roto, y los espasmos de su polla, palpats y se agitan salvajemente en euforia hasta que finalmente estalla largas cuerdas pegajosas pegajosasde semilla sobre sus piernas, tu cabeza se vuelve blanca pura mientras te orgasmo en el bucle para su culo intoxicante.",
+                "A medida que sus caderas de molienda y giratorios suavizan tu rostro con un afecto suave y flexible, tu polla se contrae y palpas en la dicha burbujeante, cada momento que pasa te acerca cada vez más a un clímax mental, hasta que justo antes de que establezcas, se levanta, se levanta,Obligándolo a inclinarte después de ella, jadeando y resoplando su embriaguez y dulce aroma, hasta que arrojas la cabeza hacia atrás con un gemido desordenado, tu polla se mueve con entusiasmo mientras sopla su carga en todas partes.",
+                "Ushris deja escapar un suspiro de contenido, manteniéndose quieto mientras te usa como una silla, tu estado casi orgasmico te dejas queján y te queda aturdido, cada respiración amortiguada y adoración de tu lengua se erosiona a tu racionalidad restante, hasta que tu erección agitada y emocionada finalmenteErupta como un grifo roto en todas las piernas, tus gritos de éxtasis amortiguados por su lujoso trasero.",
+                "Pleasure-Drunk y cachonda, no puedes evitar lamer y adorar el culo pecaminosamente grueso de Ushris, tu mente un desastre derretido de su aroma perfumado y calor infernal cálido, amplificando la dicha de cada suave batido de sus anchas caderas, tu virilidadMirándose sumisamente al babear la emoción hasta que ella le da un pie delicado, dejándote aullando incoherentemente cuando tu semilla brota en el piso.",
+                "EndLoop",
+                "IfPlayerSpiritGone",
+                "AssPrisonEndLoss",
+                "CallSceneThenReturn",
+                "ApplyOverheat",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Te dan un breve descanso mientras mantiene su lujosa maldita fuera de su cara de placer, jadeando y resoplando el aire, tomando pulmón de su cremoso aroma femenino antes de presionar sus caderas regordetas, dejándote feliz mientras usa mientras usaSu magia para absorber tu semilla.",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Buena silla. ♪ ♥ Sigue en eso. ♥",
+                "Kehihi ~ ♪ Tales sonidos que haces, querido [ThePlayerName]. ♪",
+                "Puedes salir aún más, ¿no?",
+                "Mi aroma se va a derretir profundamente en tu mente. ♪ ♥",
+                "EndLoop",
+                "JumpToScene",
+                "AssPrisonMenu"
+            ]
+        },
+        {
+            "NameOfScene": "AssPrisonEndLoss",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "SmugToothy",
+                "Con un ruido feliz, sigues lamiendo al coño de Ushris, aceptando ansiosamente la sensación de que su retaguardia regordeta te domina por completo, quejándose mientras se para antes de girar para mirar tu cara borracha y jadeando.",
+                "ChangeImageLayer",
+                "Expression",
+                "Mocking",
+                "FocusedSpeaks",
+                "Una silla tan buena que fuiste. ♥ ¡sí, lo fuiste! ~ ♪ ♥",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "Hmmm ... ahora que hacer contigo. ♪"
+            ]
+        },
+        {
+            "NameOfScene": "AssPrisonMenu",
+            "theScene": [
+                "Menu",
+                "¡Reúne tu fuerza y ​​resiste!(Potencia) [StatCheckPost]",
+                "¡Saca la parálisis y ella con pura fuerza de voluntad!(Willpower) [StatCheckPost]",
+                "Keep being a good chair...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Keep being a good chair...",
+            "theScene": [
+                "JumpToScene",
+                "AssPrisonLewd"
+            ]
+        },
+        {
+            "NameOfScene": "Muster your strength and resist! (Power) [StatCheckPost]",
+            "theScene": [
+                "¡Intentas sacudirte la encantadora neblina encantadora llenando tu mente cachonda para alejarte de la bruja insidiosa!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "100",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Overheat",
+                "5",
+                "Power",
+                "25",
+                "AssPrisonPass2",
+                "Fail",
+                "AssPrisonLewd"
+            ]
+        },
+        {
+            "NameOfScene": "Shake off the paralysis and her with sheer force of will! (Willpower) [StatCheckPost]",
+            "theScene": [
+                "¡Intentas sacudirte la encantadora neblina encantadora llenando tu mente cachonda para alejarte de la bruja insidiosa!",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "100",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Overheat",
+                "5",
+                "Willpower",
+                "25",
+                "AssPrisonPass2",
+                "Fail",
+                "AssPrisonLewd"
+            ]
+        },
+        {
+            "NameOfScene": "AssPrisonPass2",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Sigh",
+                "Logras recordar a ti mismo e ignorar la parálisis el tiempo suficiente para empujar a Ushris y sus cadenas estrechamente confinadas, y ella gira para enfrentarte con un suspiro decepcionado.",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Hmph ... pero estabas tan cómodo para sentarte ...",
+                "Pero te habrías corrido tú mismo estúpido si te relajas ...",
+                "Hmmm, tal vez se necesitaban algunas cadenas más ...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "EventBroke",
+            "theScene": [
+                "El evento de combate de Ushris se rompió."
+            ]
+        }
+    ]
+}

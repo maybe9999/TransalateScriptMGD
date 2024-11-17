@@ -1,0 +1,172 @@
+{
+    "name": "GaurdGridAIAmbush",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ceris",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "AmbushTimer",
+            "theScene": [
+                "IfChoice",
+                "1",
+                "Reposition",
+                "Repositioning",
+                "IfChoice",
+                "1",
+                "Chase",
+                "EnsuredChase",
+                "IfGridNPCSeesPlayer",
+                "Range",
+                "3",
+                "Spotted!",
+                "IfChoice",
+                "1",
+                "Go",
+                "TimerAmbush2",
+                "IfChoice",
+                "1",
+                "Scatter",
+                "TimerScatter",
+                "ChangeProgress",
+                "1",
+                "IfProgressEqualsOrGreater",
+                "50",
+                "TimerUp"
+            ]
+        },
+        {
+            "NameOfScene": "TimerUp",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "1",
+                "Go"
+            ]
+        },
+        {
+            "NameOfScene": "TimerAmbush2",
+            "theScene": [
+                "ChangeProgress",
+                "1",
+                "ChangeGridNPCMovement",
+                "Ambush",
+                "Player",
+                "IfProgressEqualsOrGreater",
+                "16",
+                "Scatter"
+            ]
+        },
+        {
+            "NameOfScene": "EnsuredChase",
+            "theScene": [
+                "ChangeProgress",
+                "1",
+                "IfProgressEqualsOrGreater",
+                "10",
+                "Reposition",
+                "ChangeGridNPCMovement",
+                "Chase",
+                "Player"
+            ]
+        },
+        {
+            "NameOfScene": "Spotted!",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "1",
+                "Chase",
+                "ChangeGridNPCMovement",
+                "Chase",
+                "Player"
+            ]
+        },
+        {
+            "NameOfScene": "Reposition",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "1",
+                "Reposition",
+                "ChangeGridNPCMovement",
+                "Whimsical",
+                "Player",
+                "15"
+            ]
+        },
+        {
+            "NameOfScene": "Repositioning",
+            "theScene": [
+                "ChangeProgress",
+                "1",
+                "IfProgressEqualsOrGreater",
+                "6",
+                "RenewHunt",
+                "ChangeGridNPCMovement",
+                "Whimsical",
+                "Player",
+                "15"
+            ]
+        },
+        {
+            "NameOfScene": "RenewHunt",
+            "theScene": [
+                "SetProgress",
+                "1",
+                "SetChoice",
+                "1",
+                "Go",
+                "ChangeGridNPCMovement",
+                "Ambush",
+                "Player"
+            ]
+        },
+        {
+            "NameOfScene": "Scatter",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "1",
+                "Scatter"
+            ]
+        },
+        {
+            "NameOfScene": "TimerScatter",
+            "theScene": [
+                "ChangeProgress",
+                "1",
+                "ChangeGridNPCMovement",
+                "Whimsical",
+                "Player",
+                "20",
+                "IfProgressEqualsOrGreater",
+                "9",
+                "TimerUp"
+            ]
+        },
+        {
+            "NameOfScene": "_Nothing",
+            "theScene": []
+        },
+        {
+            "NameOfScene": "EventBreak",
+            "theScene": [
+                "Emboscada de Evento Broko"
+            ]
+        }
+    ]
+}

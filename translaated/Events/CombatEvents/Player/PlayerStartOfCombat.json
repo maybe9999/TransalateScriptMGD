@@ -1,0 +1,32 @@
+{
+    "name": "PlayerStartOfCombat",
+    "CardType": "StartOfCombat",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "requiresEvent": [
+        {
+            "NameOfEvent": "",
+            "Progress": "-99",
+            "ChoiceNumber": "-1",
+            "Choice": ""
+        }
+    ],
+    "Speakers": [
+        {
+            "name": "character",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                ""
+            ]
+        }
+    ]
+}

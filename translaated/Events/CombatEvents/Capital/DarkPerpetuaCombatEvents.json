@@ -1,0 +1,1703 @@
+{
+    "name": "DarkPerpetuaCombatEvent",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Dark Perpetua",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EndOfTurn",
+            "theScene": [
+                "CallNextSceneJumpThenReturn",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "SetCharmed",
+                "CallNextSceneJumpThenReturn",
+                "IfChoice",
+                "1",
+                "Charmed",
+                "CheckCharmed",
+                "CallSceneThenReturn",
+                "SinkCheck",
+                "CallSceneThenReturn",
+                "TideRising",
+                "IfMonsterHasStatusEffect",
+                "Debuffs",
+                "CheckLaughRemoval",
+                "IfPlayerHasStatusEffect",
+                "Buffs",
+                "CheckLaughRemoval",
+                "JumpToScene",
+                "CallAttack"
+            ]
+        },
+        {
+            "NameOfScene": "CallAttack",
+            "theScene": [
+                "CallMonsterAttack"
+            ]
+        },
+        {
+            "NameOfScene": "SetCharmed",
+            "theScene": [
+                "SetChoice",
+                "1",
+                "Charmed"
+            ]
+        },
+        {
+            "NameOfScene": "CheckCharmed",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "Nothing",
+                "SetChoice",
+                "1",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "CheckLaughRemoval",
+            "theScene": [
+                "JumpToRandomScene",
+                "CallAttack",
+                "CallAttack",
+                "CallAttack",
+                "CallAttack",
+                "ClearDebuffs",
+                "ClearDebuffs",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "ClearDebuffs",
+            "theScene": [
+                "SetPostName",
+                "- Señora de desbordamiento del mal",
+                "ChangeImageLayer",
+                "Expression",
+                "Laugh",
+                "RemoveStatusEffectFromMonster",
+                "Debuffs",
+                "RemoveStatusEffect",
+                "Buffs",
+                "FocusedSpeaksSkill",
+                "El aire temblaba cuando el trío de mujeres límes dejó escapar un reposo rotundo de risas altéticas que resuenan ominosamente por el aire, dispersando sus dolencias y neutralizando sus empoderados en medio de un coro de tres veces de 'Ohohohohohoh!'",
+                "SetPostName",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "Nothing",
+            "theScene": []
+        },
+        {
+            "NameOfScene": "CheckCGStance",
+            "theScene": [
+                "IfPlayerHasStance",
+                "Sex",
+                "Nothing",
+                "IfPlayerHasStance",
+                "Anal",
+                "Nothing",
+                "PlayMotionEffect",
+                "Crash",
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "DarkPerpo"
+            ]
+        },
+        {
+            "NameOfScene": "SinkCheck",
+            "theScene": [
+                "IfPlayerHasStance",
+                "Besarse",
+                "SinkCheck2",
+                "IfPlayerHasStance",
+                "Sex",
+                "SinkCheck2",
+                "IfPlayerHasStance",
+                "Anal",
+                "SinkCheck2"
+            ]
+        },
+        {
+            "NameOfScene": "SinkCheck2",
+            "theScene": [
+                "IfPlayerHasStance",
+                "Slimed 25%",
+                "SinkFrom25%",
+                "IfPlayerHasStance",
+                "Slimed 50%",
+                "Nothing",
+                "IfPlayerHasStance",
+                "Slimed 75%",
+                "Nothing",
+                "IfPlayerHasStance",
+                "Slimed 100%",
+                "Nothing",
+                "ApplyStance",
+                "Slimed 50%",
+                "SetProgress",
+                "-1",
+                "Con usted, enredado profundamente e íntimamente enredado con Dark Perpetua, ella deja escapar un ronroneo lujurioso siniestro mientras su vasta forma pegajosa lo envuelve fácilmente hasta la cintura, mientras que las otras dos villanas curvas se deslizan a sus lados con risas malvadas."
+            ]
+        },
+        {
+            "NameOfScene": "SinkFrom25%",
+            "theScene": [
+                "ClearStanceFromMonsterAndPlayer",
+                "Slimed 25%",
+                "ApplyStance",
+                "Slimed 50%",
+                "SetProgress",
+                "-1",
+                "Con usted, enredado profundamente e íntimamente enredado con Dark Perpetua, ella deja escapar un ronroneo lujurioso siniestra mientras su espoje gigante se eleva de sus rodillas hasta la cintura, mientras que las otras dos villanas curvas se deslizan a sus lados con risas malvadas."
+            ]
+        },
+        {
+            "NameOfScene": "TideRising",
+            "theScene": [
+                "ChangeProgress",
+                "1",
+                "IfProgressEqualsOrGreater",
+                "4",
+                "AdvanceTide"
+            ]
+        },
+        {
+            "NameOfScene": "AdvanceTide",
+            "theScene": [
+                "GivePerkToMonster",
+                "Schemer",
+                "GivePerkToMonster",
+                "Schemer",
+                "GivePerkToMonster",
+                "Schemer",
+                "Cuanto más se acerque la batalla depravada, más pesada será la atmósfera giratoria, cada vez más denso con una dulce energía corruptiva tentadora.Los poderes insidiosos de Dark Perpetua siguen creciendo junto con su vorazada marea de aferrarse a la sustancia sustentativa, lo que hace que sus encantos peligrosamente atractivos y su influencia malévola sean aún más potentes.",
+                "IfPlayerHasStance",
+                "Slimed 25%",
+                "To50%",
+                "IfPlayerHasStance",
+                "Slimed 50%",
+                "To75%",
+                "IfPlayerHasStance",
+                "Slimed 75%",
+                "To100%",
+                "IfPlayerHasStance",
+                "Slimed 100%",
+                "Nothing",
+                "ApplyStance",
+                "Slimed 25%",
+                "SetProgress",
+                "0",
+                "Sutil y lentamente, la marea de limo demoníaca se arrastra y fluye sobre el área, una comprensión temblorosa que le dispara a través de usted mientras la forma gelatinosa de Perpetua se sumerge las piernas hasta las rodillas en una visas goo que se aferra a usted, atrayendo cada vez más cerca.¡Hasta que te pongan al alcance de las tres lujuriosas damas que se lamen los labios en el hambre!"
+            ]
+        },
+        {
+            "NameOfScene": "To50%",
+            "theScene": [
+                "ClearStanceFromMonsterAndPlayer",
+                "Slimed 25%",
+                "ApplyStance",
+                "Slimed 50%",
+                "SetProgress",
+                "0",
+                "Alcance de la rodilla en la oscuridad y viscosa sustancia pegajosa, encuentras el líquido amorfo vivo que tira hambrienta de tus extremidades y cuerpo, tirando de ti poco a poco hacia el centro de la pegajosa amalgamación mientras te envuelve hasta la cintura, dejándote rodeado de los tres pegajososMujeres que se ríen de deleite por su creciente situación."
+            ]
+        },
+        {
+            "NameOfScene": "To75%",
+            "theScene": [
+                "ClearStanceFromMonsterAndPlayer",
+                "Slimed 50%",
+                "ApplyStance",
+                "Slimed 75%",
+                "SetProgress",
+                "0",
+                "Con usted rodeado y hasta la cintura en limo rezumante, el trío de mujeres es fácilmente lujoso y cubierto con más de la estafa atrapada, el líquido vivo que tira y lo restringe a medida que se arrastra por su cuerpo, el gran mar de limones se eleva lentamenteY constantemente remodelando ..."
+            ]
+        },
+        {
+            "NameOfScene": "To100%",
+            "theScene": [
+                "ClearStanceFromMonsterAndPlayer",
+                "Slimed 75%",
+                "ApplyStance",
+                "Slimed 100%",
+                "SetProgress",
+                "0",
+                "Con la succión, en movimiento en movimiento que lo rodea desde todos los ángulos y subiendo más alto en el segundo, pronto te encuentras casi completamente atrapado en una verdadera cama de malvada comodidad pegajosa, las triple villanas ronronalos mientras tus brazos y piernas se hunden en ellos casi hasta ellas casi hasta elpunto de inmovilización total, su confinamiento completo se acerca más cerca de ..."
+            ]
+        },
+        {
+            "NameOfScene": "DistractCheck",
+            "theScene": [
+                "IfPlayerHasStance",
+                "Slimed 100%",
+                "TooStuckToDistract",
+                "IfPlayerHasStance",
+                "Slimed 75%",
+                "TooStuckToDistract",
+                "IfPlayerHasStance",
+                "Slimed 50%",
+                "TooStuckToDistract"
+            ]
+        },
+        {
+            "NameOfScene": "TooStuckToDistract",
+            "theScene": [
+                "SkipPlayerAttack",
+                "ChangeImageLayer",
+                "Expression",
+                "EvilGrin",
+                "Delevante hundido en la sustancia viscosa como usted, se da cuenta rápidamente de que distraer perpetua será sin uso, el trío se ríe siniestramente mientras se retuerce infructuosamente dentro del lago de limo de todo."
+            ]
+        },
+        {
+            "NameOfScene": "MiringPseudopodSurge",
+            "theScene": [
+                "SetPostName",
+                "- Miring Pseudopod Surge",
+                "ChangeImageLayer",
+                "Expression",
+                "EvilGrin",
+                "FocusedSpeaksSkill",
+                "Los enormes zarcillos retorcidos que rodean al trío de perpetuas que ríen con problemas, se estallen hacia ti con pestañas enredadas, tratando de agarrarte y arrastrarte mientras las chicas dominantes se burlan, te burlan y te atraen con sensuales promesas de placer, ¡sus voces se entremezcla óminamente!",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Ven aquí, mi esclavo de amor para ser. ♥",
+                "Tu lucha es inútil, [ThePlayerName].Me ahogaré toda esa lamentable resistencia en un mar de éxtasis.",
+                "En el momento en que te atrapemos, te apretaremos y {i} leche {/i} y {i} drenar {/i} en un instante.",
+                "Ser todos {i} mio {/i}.Todos {i} our! {/i}",
+                "¡Mira tu pegajosa ruina!",
+                "¡Lucha y baile contra lo inevitable!Hará que se seca aún más {i} entretenimiento {/i}, ohohoho! ~",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "Menu",
+                "Struggle! (Power)",
+                "Dodge! (Technique)",
+                "Barrier! (Intelligence)",
+                "Run towards them!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Run towards them!",
+            "theScene": [
+                "Te apresuras hacia los zarcillos pegajosos, preguntándonos brevemente por qué pensaste que era una buena idea cuando los ojos de los perpetuas brillaban con una liquidación malévola.",
+                "JumpToScene",
+                "PseudopodSurgeFailed"
+            ]
+        },
+        {
+            "NameOfScene": "Struggle! (Power)",
+            "theScene": [
+                "A medida que las extremidades viscosas se aferran a ti y amenazan con envolverte, ¡luchas apenas contra su pegajosa bodega, reuniendo tu fuerza para escapar de su alcance antes de que puedan tirarte!",
+                "StatCheck",
+                "Power",
+                "20",
+                "PseudopodSurgePass",
+                "Fail",
+                "PseudopodSurgeFail"
+            ]
+        },
+        {
+            "NameOfScene": "PseudopodSurgePass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Pout",
+                "Con suaves ruidos viscosos, los zarcillos se rompen y se deslizan sin poder sobre sus extremidades resistentes, los sobrantes piezas pegajosas que se arrastran hacia el trío dominante que resopla y hace pucheros de manera bastante infantil por lo oscuros y reina que se ven."
+            ]
+        },
+        {
+            "NameOfScene": "PseudopodSurgeFail",
+            "theScene": [
+                "Pero a pesar de sus mejores esfuerzos, ¡estás tirado impotente hacia la gota gigante viscosa y la espera de las villanas seducesas!",
+                "JumpToScene",
+                "PseudopodSurgeFailed"
+            ]
+        },
+        {
+            "NameOfScene": "Dodge! (Technique)",
+            "theScene": [
+                "¡Intentas tejer y saltar a través de los tentáculos barridos mientras se deslizan, azotan y te pones en sus esfuerzos por agarrarte!",
+                "StatCheck",
+                "Technique",
+                "20",
+                "PseudopodSurgeTechPass",
+                "Fail",
+                "PseudopodSurgeTechFail"
+            ]
+        },
+        {
+            "NameOfScene": "PseudopodSurgeTechPass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Pout",
+                "A pesar de sus números y rapidez, los pseudopodos están frustrados a cada paso por su velocidad y agilidad mientras salta, rueda elegantemente y se aleja de su agarre pegajoso.Surpando, terminas tus atrevidas acrobacias lejos del alcance de los muchos zarcillos con un floreciente elegante, el trío dominante te miró con fuerza con pucheros con alza antes de tu desafío."
+            ]
+        },
+        {
+            "NameOfScene": "PseudopodSurgeTechFail",
+            "theScene": [
+                "Pero justo cuando crees que estás a punto de hacerlo, uno ígrilo demasiados ciegos te enrolla, ¡enrollando a tu alrededor con una fuerza inflexible y tirando de ti hacia el viscoso villano!",
+                "JumpToScene",
+                "PseudopodSurgeFailed"
+            ]
+        },
+        {
+            "NameOfScene": "Barrier! (Intelligence)",
+            "theScene": [
+                "Pensando rápido, reúnes tu poder e intentas generar un escudo mágico para alejar los tentáculos que te tiran.",
+                "StatCheck",
+                "Intelligence",
+                "20",
+                "PseudopodSurgeIntPass",
+                "Fail",
+                "PseudopodSurgeIntFail"
+            ]
+        },
+        {
+            "NameOfScene": "PseudopodSurgeIntPass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Pout",
+                "A pesar de los apéndices viscosos que golpean su barrera con todas sus fuerzas, su protección improvisada los mantiene el tiempo suficiente para que te alejes de su alcance, dejando a los perpetuas que te pusieron de manera escondida de una manera ... bastante poco imponente e infantil."
+            ]
+        },
+        {
+            "NameOfScene": "PseudopodSurgeIntFail",
+            "theScene": [
+                "¡Los números y la fuerza abrumadores de los muchos tentáculos de limo rápidamente demuestran ser demasiado para ti!¡En poco tiempo, atraviesan tu barrera con facilidad y te envuelven con fuerza antes de desearte hacia el trío triunfante!",
+                "JumpToScene",
+                "PseudopodSurgeFailed"
+            ]
+        },
+        {
+            "NameOfScene": "PseudopodSurgeFailed",
+            "theScene": [
+                "ApplyStance",
+                "Slimed 75%",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Los perpetuas ronronizan y se lamen los labios mientras te arrastran con fuerza a su cálida piscina pegajosa, una irresistible oleada de placer y relajación que rezuma su columna verCuerpos de las tentadoras que deprimen depredadormente y se lamen los labios en su captura.",
+                "ChangeImageLayer",
+                "Expression",
+                "EvilGrin",
+                "SetProgress",
+                "-1",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Mi fanático némesis tonto, vas a hacer una maravillosa mascota sexual de mewling.",
+                "Mfuhu, qué delicioso verte luchar tan valientemente y {i} infructuosamente {/i} dentro de mí.",
+                "Ahogar y hundir en depravación, {i} héroe. {/i}",
+                "Te ordeñaremos de nuevo y {i} de nuevo {/i} hasta que estemos- {i} i {/i} am {i} todos {/i} en lo que puedes pensar.",
+                "Ohoho ~ ¿Qué debo hacer con este pobre {i} indefenso {/i} pequeño héroe? ♪",
+                "Disfruta tus últimos momentos de cordura antes de volverte loco de placer.Mffhuhuha {i} jaja! {/i}",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "RuinWaveCharmStun",
+            "theScene": [
+                "IfChoice",
+                "1",
+                "Charmed",
+                "RuinWaveStun",
+                "ApplyStatusEffect",
+                "Melting Depravity",
+                "Las ondas pegajosas mágicamente cargadas de euforia te avisan una y otra vez en un bucle pulsante ondulado que te deja constantemente gimiendo y maullando con una sonrisa floja de placer en tu cara sin sentido incapaz sin sentido ..."
+            ]
+        },
+        {
+            "NameOfScene": "RuinWaveStun",
+            "theScene": [
+                "IfHasPerk",
+                "Stun Immune",
+                "Nothing",
+                "ApplyStatusEffect",
+                "Spank",
+                "ApplyStatusEffect",
+                "Spank",
+                "Con usted ya cautivado en un desastre cachondo, las ondas pegajosas de euforia cargadas de euforia rápidamente lo hacen completamente incoherente mientras lo lavan una y otra vez en un bucle pulsante, ondulante y alucinante, dejándote hacer nada contra lo abrumadorTide of Bliss, aparte de seguir gimiendo y maullando con una expresión floja y desordenada de placer para el entretenimiento de las seductora viscosas ..."
+            ]
+        },
+        {
+            "NameOfScene": "TemptGeneral",
+            "theScene": [
+                "IfChoice",
+                "1",
+                "Charmed",
+                "TemptCloserGeneral",
+                "La visión infatuante de las visitantes villanas que hace alarde de sus cuerpos obscenos para que te mueva deja tu mente rosa, tus pensamientos se vuelven vertiginosamente girando con una excitación pegajosa que hace que tu polla palpite inquietantes."
+            ]
+        },
+        {
+            "NameOfScene": "TemptCloserGeneral",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Con usted ya encantado por las seductoras seductores pegajosas, algunos ronronones y algunas sensuales que vengan con los dedos es todo lo que se necesita para llenar su mente encantada con la tentación pecaminosamente hormigueante de acercarse a su dominio gelatinoso, para serEl receptor de voluntad y dócil de sus lujosas atenciones ...",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Ven aquí y déjanos derretirte.",
+                "Mira y hundir en mi belleza.",
+                "¿No quieres ordeñar seco e inundado de placer?",
+                "Acétrate más, amado némesis.",
+                "No hay necesidad de ser tímido.",
+                "EndLoop",
+                "Menu",
+                "Ignore the seductive invitation!",
+                "Yes...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Yes...",
+            "theScene": [
+                "JumpToScene",
+                "TemptCloserGeneralFail"
+            ]
+        },
+        {
+            "NameOfScene": "Ignore the seductive invitation!",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "15",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "30",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "50",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Trickling Corruption",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Seeping Corruption",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Sigil of Corruption",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Oozing Sigil of Corruption",
+                "4",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Queen's Sigil of Corruption",
+                "5",
+                "Temptation",
+                "20",
+                "TemptCloserGeneralPass",
+                "Fail",
+                "TemptCloserGeneralFail"
+            ]
+        },
+        {
+            "NameOfScene": "TemptCloserGeneralPass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "Dejaron escapar un suspiro de decepción sensual combinada mientras logras sacudir la tentación insidiosa, negándose sabiamente a acercarse a sus curvas peligrosamente resbaladizas, suaves, atractivas y acogedoras ..."
+            ]
+        },
+        {
+            "NameOfScene": "TemptCloserGeneralFail",
+            "theScene": [
+                "ApplyStance",
+                "Slimed 25%",
+                "ChangeImageLayer",
+                "Expression",
+                "EvilGrin",
+                "Con una sonrisa cautivada, te acercas cada vez más, directamente, directamente en su piscina pegajosa, dejándolo voluntariamente envuelto de rodillas, hundiéndose más profundamente en un deseo constante ..."
+            ]
+        },
+        {
+            "NameOfScene": "ButtTempt",
+            "theScene": [
+                "IfChoice",
+                "1",
+                "Charmed",
+                "TemptCloserButt",
+                "Con las caderas anchas de los perpetuas y los traseros seductoramente llenos que rebotan y se sacuden para ti, tu mirada rápidamente se convierte en una mirada con nubación con lujuria, tu polla palpitante y sacudidas con deseo necesitado ..."
+            ]
+        },
+        {
+            "NameOfScene": "TemptCloserButt",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Con tu mente ya girando con un deseo meloso encantado, algunas azotes tentadoras de los colmillos regordetes de los perpetuas y algunas ansias ansiosas de sus coños babeantes es todo lo que se necesita para que tus pensamientos amenazen con en blanco, los gemidos y las enteraciones del trío y las enteraciones sultramenteestás en su abrazo ...",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Ven aquí y déjanos derretirte.",
+                "Mira y hundir en mi belleza.",
+                "¿No quieres ordeñar seco e inundado de placer?",
+                "Acétrate más, amado némesis.",
+                "No hay necesidad de ser tímido.",
+                "EndLoop",
+                "Menu",
+                "Ignore their seductively swinging hips!",
+                "Yes... ",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Yes... ",
+            "theScene": [
+                "JumpToScene",
+                "TemptCloserButtFail"
+            ]
+        },
+        {
+            "NameOfScene": "Ignore their seductively swinging hips!",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "15",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "30",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "50",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Trickling Corruption",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Seeping Corruption",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Sigil of Corruption",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Oozing Sigil of Corruption",
+                "4",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Queen's Sigil of Corruption",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "100",
+                "2",
+                "Temptation",
+                "20",
+                "TemptCloserButtPass",
+                "Fail",
+                "TemptCloserButtFail"
+            ]
+        },
+        {
+            "NameOfScene": "TemptCloserButtPass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "Dejaron escapar un suspiro de decepción sensual combinada mientras logras sacudir la tentación insidiosa, negándose sabiamente a acercarse a sus curvas peligrosamente resbaladizas, suaves, atractivas y acogedoras ..."
+            ]
+        },
+        {
+            "NameOfScene": "TemptCloserButtFail",
+            "theScene": [
+                "IfPlayerHasStance",
+                "Slimed 25%",
+                "TemptedIntoSex",
+                "ApplyStance",
+                "Slimed 25%",
+                "ChangeImageLayer",
+                "Expression",
+                "EvilGrin",
+                "Con una sonrisa cautivada, te acercas cada vez más, directamente, directamente en su piscina pegajosa, dejándolo voluntariamente de rodillas mientras miras a la regordeta, rebotando los traseros atrayendo más y más profundamente en la rendición de los asa ..."
+            ]
+        },
+        {
+            "NameOfScene": "TemptedIntoSex",
+            "theScene": [
+                "ClearStanceFromMonsterAndPlayer",
+                "Slimed 25%",
+                "ApplyStance",
+                "Slimed 50%",
+                "ApplyStance",
+                "Sex",
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "DarkPerpoSexRed",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "ChangeImageLayer",
+                "Pussy",
+                "Pussy",
+                "ChangeImageLayer",
+                "Motion",
+                "",
+                "ChangeImageLayer",
+                "Climax",
+                "",
+                "PlayMotionEffect",
+                "Crash",
+                "Insentigido y estupefacto y cachondo, subes más y más profundamente en la piscina pegajosa hasta que te sube a tu cintura, buscando a ciegas uno de los traseros curvilíneos que te ofrecen atractivamente.Agarrando a tientamente el culo viscoso, ni siquiera se detiene para reconsiderar antes de sumergir ansiosamente su erección dolorida directamente en uno de los coños ofrecidos, los perpetuas ronroneando y arrullando malévola en respuesta a su empuje indulgente ..."
+            ]
+        },
+        {
+            "NameOfScene": "BoobaTempt",
+            "theScene": [
+                "IfChoice",
+                "1",
+                "Charmed",
+                "TemptCloserBoobs",
+                "La vista de los abundantes senos del trío pesa en gran medida en sus sentidos cautivados, cada uno de los que se balancea ondulando de manera fascinante a través de sus pensamientos, hasta que no puede evitar seguir mirando vapidemente, dejando que el espectáculo obsceno cautive su mente vulnerable ..."
+            ]
+        },
+        {
+            "NameOfScene": "TemptCloserBoobs",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Con usted ya encantado por los senos rebotantes del Curvy Trio, algunos batidos tentadores de sus pesadas tetas y algunas palabras sin tentador sin tentadores son todo lo que se necesita para atraerlo más cerca, la vista de sus suaves bustos que te invitan a ceder a su aburrimiento melosa...",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Ven aquí y déjanos derretirte.",
+                "Mira y hundir en mi belleza.",
+                "¿No quieres ordeñar seco e inundado de placer?",
+                "Acétrate más, amado némesis.",
+                "No hay necesidad de ser tímido.",
+                "EndLoop",
+                "Menu",
+                "Ignore their alluringly bouncing tits!",
+                "Yes...  ",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Yes...  ",
+            "theScene": [
+                "JumpToScene",
+                "TemptCloserBoobsFail"
+            ]
+        },
+        {
+            "NameOfScene": "Ignore their alluringly bouncing tits!",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "15",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "30",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "50",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Trickling Corruption",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Seeping Corruption",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Sigil of Corruption",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Oozing Sigil of Corruption",
+                "4",
+                "ChangeStatCheckDifficulty",
+                "IfHasPerk",
+                "Queen's Sigil of Corruption",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Breasts",
+                "100",
+                "2",
+                "Temptation",
+                "20",
+                "TemptCloserBoobsPass",
+                "Fail",
+                "TemptCloserBoobsFail"
+            ]
+        },
+        {
+            "NameOfScene": "TemptCloserBoobsPass",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "Dejaron escapar un suspiro de decepción sensual combinada mientras logras sacudir la tentación insidiosa, negándose sabiamente a acercarse a sus curvas peligrosamente resbaladizas, suaves, atractivas y acogedoras ..."
+            ]
+        },
+        {
+            "NameOfScene": "TemptCloserBoobsFail",
+            "theScene": [
+                "IfPlayerHasStance",
+                "Slimed 25%",
+                "Temptedto50byboobs",
+                "ApplyStance",
+                "Slimed 25%",
+                "ChangeImageLayer",
+                "Expression",
+                "EvilGrin",
+                "Con una expresión aturdida en tu cara, te vuelves ciegamente a su piscina pegajosa, dejando que su limo te envuelva de rodillas mientras miras a sus senos cautivadores, la fascinante balanceándose y rebotando que te acercas cada vez más ..."
+            ]
+        },
+        {
+            "NameOfScene": "Temptedto50byboobs",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "ClearStanceFromMonsterAndPlayer",
+                "Slimed 25%",
+                "ApplyStance",
+                "Slimed 50%",
+                "ApplyStatusEffect",
+                "Erosion Lotion Lathering",
+                "ApplyStatusEffect",
+                "Erosion Lotion Lathering",
+                "Insentigido y estupefacto y cachondo, subes más y más profundamente en la piscina pegajosa hasta que te sube a tu cintura, caminando directamente hacia sus brazos extendidos mientras te felicitan y te dan la bienvenida con las risitas.Con usted, cómodo, atascado entre ellos, frotan recompensamente sus senos resbaladizos contra usted con risitas malvadas, cubriendo dulce afrodisíaco en su piel mientras se entrega a su suavidad resbaladiza ..."
+            ]
+        },
+        {
+            "NameOfScene": "CorruptionStack",
+            "theScene": [
+                "IfHasPerk",
+                "Queen's Sigil of Corruption",
+                "Nothing",
+                "IfHasPerk",
+                "Oozing Sigil of Corruption",
+                "Queen's Sigil of Corruption",
+                "IfHasPerk",
+                "Sigil of Corruption",
+                "Oozing Sigil of Corruption",
+                "IfHasPerk",
+                "Seeping Corruption",
+                "Sigil of Corruption",
+                "IfHasPerk",
+                "Trickling Corruption",
+                "Seeping Corruption",
+                "GivePerkQuietly",
+                "Trickling Corruption"
+            ]
+        },
+        {
+            "NameOfScene": "Seeping Corruption",
+            "theScene": [
+                "RemovePerkQuietly",
+                "Trickling Corruption",
+                "GivePerkQuietly",
+                "Seeping Corruption"
+            ]
+        },
+        {
+            "NameOfScene": "Sigil of Corruption",
+            "theScene": [
+                "RemovePerkQuietly",
+                "Seeping Corruption",
+                "GivePerkQuietly",
+                "Sigil of Corruption"
+            ]
+        },
+        {
+            "NameOfScene": "Oozing Sigil of Corruption",
+            "theScene": [
+                "RemovePerkQuietly",
+                "Sigil of Corruption",
+                "GivePerkQuietly",
+                "Oozing Sigil of Corruption"
+            ]
+        },
+        {
+            "NameOfScene": "Queen's Sigil of Corruption",
+            "theScene": [
+                "RemovePerkQuietly",
+                "Oozing Sigil of Corruption",
+                "GivePerkQuietly",
+                "Queen's Sigil of Corruption"
+            ]
+        },
+        {
+            "NameOfScene": "QueensCorruption",
+            "theScene": [
+                "CallSceneThenReturn",
+                "CorruptionStack",
+                "ChangeImageLayer",
+                "Expression",
+                "Laugh",
+                "SwapLineIf",
+                "Perk",
+                "Queen's Sigil of Corruption",
+                "El trío de villanos ronronea y se ríe con deleite triunfante arrogante mientras canalizan los pulsos de energía corruptiva de su entorno de carga demoníaca, y la cresta de lujuria en su abdomen se destaca mientras toma una forma real mientras envía hormigueos que adornan la mente todoSobre tu cuerpo, tu virilidad se contrae con ansia y gotea mientras pide atención, tus pensamientos llenos de fantasías de sexo con perpetua ...",
+                "Oozing Sigil of Corruption",
+                "El trío de villanos ronrone y se ríe con deleite arrogante mientras canalizan los pulsos de energía corruptiva de su entorno desmónicamente cargado, y la cresta roja que adornan su piel pulsos de manera acelerada a medida que las hormiguejas de erosión se vuelven aún más intensas, empañando su cabeza con su cabeza conuna neblina vápida y dejándote ansioso por liberar ...",
+                "Sigil of Corruption",
+                "El trío de villanos ronronea y se ríe con deleite arrogante mientras canalizan los pulsos de energía corruptiva de su entorno de carga demoníaca, lo que te hace temblar y jadea mientras la hinchada corrupción es carbón en una cresta de lujuria dolorida en tu abdomen, tu polla está ansiosamente que le caigan ansiosamente a unflujo constante de precum mientras tus bolas giran dolorosamente, una sonrisa borracha se desliza sobre tu rostro ante las sensaciones de adormecedora de la mente ...",
+                "Seeping Corruption",
+                "El trío de villanos ronronea y se ríe con deleite arrogante mientras canalizan los pulsos de energía corruptiva de su entorno de carga demoníaca, su presencia de curvas pegajosas solo se suma a la sensación de fusión mental como la tentadora ruina se filtra más profundamente en usted, dejando sus pensamientos, dejando sus pensamientos.Haz y tu polla palpitando ansiosamente con la emoción de los edificios ...",
+                "Trickling Corruption",
+                "El trío de villanos ronronea y se ríe con deleite arrogante mientras canalizan los pulsos de energía corruptiva de su entorno de carga demoníaca, su presencia pegajosa con curvas solo se suma a la sensación de fusión de la mente como una sensación de ruina tentadora comienza a gotear en ti,haciéndote espaciar por un momento ...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "CorruptiveKissCharm",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "IfChoice",
+                "1",
+                "Charmed",
+                "KissCorruption",
+                "A medida que avanza el apasionado maquillaje y el dulce coro de susurros dulces pegajosos se derrite por sus sentidos, solo puedes temblar y besarte, una neblina encantadora que se asiente sobre tu mente de la incesante indulgente bumador ..."
+            ]
+        },
+        {
+            "NameOfScene": "KissCorruption",
+            "theScene": [
+                "IfHasPerk",
+                "Queen's Sigil of Corruption",
+                "Nothing",
+                "Ya te encantan y besarte, los dulces besos del trío y los espumosos de susurros en la bobina más apretada y ajustada alrededor de tu mente como un abrazo indulgentemente almohado, atrayendo más y más profundamente en el dulce pecado de beso pegajoso mientras más y más energía demoníaca te desgasta conCada toque, beso, frote y acaricia ...",
+                "Menu",
+                "Steel yourself!",
+                "Eagerly kiss back...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Eagerly kiss back...",
+            "theScene": [
+                "JumpToScene",
+                "KissCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "Steel yourself!",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "10",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "25",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "40",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Kissing",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Kissing",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Kissing",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Kissing",
+                "100",
+                "2",
+                "Temptation",
+                "20",
+                "KissCorruptionPass",
+                "Fail",
+                "KissCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "KissCorruptionPass",
+            "theScene": [
+                "¡Reuniendo su ingenio y su autocontrol, logra resistir la invasión de la energía dulcemente corruptiva tratando de convertirlo en un boytoy cachondo!"
+            ]
+        },
+        {
+            "NameOfScene": "KissCorruptionFail",
+            "theScene": [
+                "CallSceneThenReturn",
+                "CorruptionStack",
+                "RemoveStatusEffect",
+                "Charm",
+                "ChangeImageLayer",
+                "Expression",
+                "EvilGrin",
+                "¡Al final, todo lo que puede manejar es 'contraataque' besando ansiosamente a Perpetua de regreso!Aficionado por el bese cada vez más febril, la espinosa energía oscura que corroe que agrega tus sentidos se arremolina dentro de ti con una explosión de magia corruptiva mientras el encanto 'detona', haciéndote sentir desmayado y cachondo por el beso desordenado y apasionado, inclusoMientras el sentimiento encantador que nublan sus pensamientos se aclara ..."
+            ]
+        },
+        {
+            "NameOfScene": "DepravityAssjobCharm",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "EvilGrin",
+                "IfChoice",
+                "1",
+                "Charmed",
+                "AssjobCorruption",
+                "A medida que la magia encantadora se asienta cautivadora en su mente, su resistencia se tambalea y se relaja con un suspiro vápido, sus manos inconscientemente agarrando los deliciosos culos de las mujeres de limo rosadas y púrpuras mientras se hunde en indulgencia depravada, espuradas por su risueño aliento ..."
+            ]
+        },
+        {
+            "NameOfScene": "AssjobCorruption",
+            "theScene": [
+                "IfHasPerk",
+                "Queen's Sigil of Corruption",
+                "Nothing",
+                "Perdido en una neblina encantadora, a mitades atentos con los deliciosos culos de los dos perpetuas a los costados, el dúo susurrando una cadena constante de tentaciones mágicamente cargadas en sus oídos, la cartera auditiva que te mantiene dócil y flexible mientras el tercero sigue rebotando y rebotando enMoliendo su trasero de burbuja regordete a lo largo de su erección con fuga, una sensación corruptiva pecaminosa que se filtra poco a poco en su núcleo ...",
+                "Menu",
+                "Push back the haze!",
+                "Vapidly relax into the pleasure...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Vapidly relax into the pleasure...",
+            "theScene": [
+                "JumpToScene",
+                "AssCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "Push back the haze!",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "10",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "25",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "40",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "100",
+                "2",
+                "Temptation",
+                "20",
+                "AssCorruptionPass",
+                "Fail",
+                "AssCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "AssCorruptionPass",
+            "theScene": [
+                "¡Logras soportar los tintores de hormigueo que se enrollan alrededor de tus pensamientos y las sensaciones suaves y regordetas que asaltan tu polla y las manos a tientas, rechazando la marea invasora de la magia corruptiva!"
+            ]
+        },
+        {
+            "NameOfScene": "AssCorruptionFail",
+            "theScene": [
+                "CallSceneThenReturn",
+                "CorruptionStack",
+                "RemoveStatusEffect",
+                "Charm",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "A medida que la encantadora magia se fusiona con la energía oscura que gira profundamente dentro de ti, todo lo que puedes manejar es gemir vapidmente y mantener atentamente jorobado el trasero de burbujas de perpetúa de perpetua ... con cada empuje lujoso, sientes que tu sentido de racionalidad está goteando correctamenteFuera de tu polla, todo el tiempo, los otros dos perpetuas, los coos susurrados siguen derritiendo tu mente ..."
+            ]
+        },
+        {
+            "NameOfScene": "SexRideCharm",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "EvilGrin",
+                "IfChoice",
+                "1",
+                "Charmed",
+                "SexRideCorruption",
+                "Cada bofetada pegajosa de la regla real de la polla de Perpetua está acentuada por los susurros meltosos de las otras dos seductoras viscosas que se besan y arrullan en sus oídos, lo convierten rápidamente en un desastre sin mandos y sinceros ..."
+            ]
+        },
+        {
+            "NameOfScene": "SexRideCorruption",
+            "theScene": [
+                "IfHasPerk",
+                "Queen's Sigil of Corruption",
+                "Nothing",
+                "Encantado y con la cabeza vacía como eres, cada buena bofetada del culo regordete de Perpetua contra tu cintura en cascada corrupta a través de tus sentidos, mientras que la oreja del dúo es un biseo que susurra un brote de bobina seductiva y más apretada alrededor de tu mente, abriéndote ansiosamente a su magia dulce y debilitante....",
+                "Menu",
+                "Endure the mind-blanking sex!",
+                "Relax and melt...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Relax and melt...",
+            "theScene": [
+                "JumpToScene",
+                "SexRideCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "Endure the mind-blanking sex!",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "10",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "25",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "40",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "100",
+                "2",
+                "Temptation",
+                "20",
+                "SexRideCorruptionPass",
+                "Fail",
+                "SexRideCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "SexRideCorruptionPass",
+            "theScene": [
+                "Centrando su voluntad, logra soportar los pulsos constantes de la depravación pecaminosa tratando de llenar su cuerpo con un placer peligrosamente tentador e intoxicante, cada ritmo de las anchas caderas de Perpetua y cada beso de sus suaves labios aún amenazando con empujarlo al límite."
+            ]
+        },
+        {
+            "NameOfScene": "SexRideCorruptionFail",
+            "theScene": [
+                "CallSceneThenReturn",
+                "CorruptionStack",
+                "RemoveStatusEffect",
+                "Charm",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Derrotado por el desenfrenado de apareamiento de Perpetua, solo puedes montar las constantes oleadas de placer pecaminoso mientras continúas usándote como un consolador y un trono, tu sentido de la razón se escapan de ti mientras el encanto que agrega tus pensamientos supera tu resistencia y solidifica elLa corrupción te adelanta lentamente, un veneno más encantador que te rezuma con cada dulce susurro, los perpetuas se vierten en tus oídos como miel intoxicante."
+            ]
+        },
+        {
+            "NameOfScene": "SexEntanglingCharm",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "EvilGrin",
+                "IfChoice",
+                "1",
+                "Charmed",
+                "SexEntanglingCorruption",
+                "Mientras estás hecho para empujar al coño suave de la mujer de limo púrpura, palabras sensuales y besos de los otros dos perpetuas sigue asaltando tus oídos, haciendo que gemir y tientan indulgentemente su culo regordete mientras sigues balanceando las caderas con ansias cada vez más caras...."
+            ]
+        },
+        {
+            "NameOfScene": "SexEntanglingCorruption",
+            "theScene": [
+                "IfHasPerk",
+                "Queen's Sigil of Corruption",
+                "Nothing",
+                "Enredado con la perpetua púrpura y la tontería, no puedes evitar disfrutar de tantas mechas codiciosas y empujes de búsqueda de placer, las palabras de arranque de las villanas pegajosas solo te derriten cada vez más a medida que su aliento pecaminoso y las promesas a través de tus oídos, dulces,éxtasis corrupto amenazando con superarte y hacerte hundirte más en depravación ...",
+                "Menu",
+                "Resist the seductive entanglement!",
+                "Thrust Thrust Thrust...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Thrust Thrust Thrust...",
+            "theScene": [
+                "JumpToScene",
+                "SexEntanglingCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "Resist the seductive entanglement!",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "10",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "25",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "40",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "100",
+                "2",
+                "Temptation",
+                "20",
+                "SexEntanglingCorruptionPass",
+                "Fail",
+                "SexEntanglingCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "SexEntanglingCorruptionPass",
+            "theScene": [
+                "Con un esfuerzo heroico, te las arreglas para rechazar la magia corrupta y la invasión que mira tu mente y cuerpo con cascadas de euforia hormigueantes, ¡apenas empujando la tentación burlona de ceder y seguir empujando y derritiéndose!"
+            ]
+        },
+        {
+            "NameOfScene": "SexEntanglingCorruptionFail",
+            "theScene": [
+                "CallSceneThenReturn",
+                "CorruptionStack",
+                "RemoveStatusEffect",
+                "Charm",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Cualquier resistencia que haya tratado de reunir resulta infructuosa cuando, con una explosión placentera, el encanto fechado estalla en sus sentidos adejos, instándole a empujar más fuerte y más rápido, incluso cuando cada impacto que se mueve sigue erosionando su voluntad para resistir.Con una última ola de dicha, el sentimiento encantador se desvanece ... pero los dulces susurros y los besos de los oídos continúan, una vez más amenazando con poner sus pensamientos en blanco y vapid."
+            ]
+        },
+        {
+            "NameOfScene": "MeltyMatingCorruption",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Kiss",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "30",
+                "MeltyMatingCorruptionCheck",
+                "JumpToScene",
+                "MeltyMatingCorruptionAphro"
+            ]
+        },
+        {
+            "NameOfScene": "MeltyMatingCorruptionAphro",
+            "theScene": [
+                "Cuanto más tiempo estés dentro de la viscosa villana, más de su resbaladiza espoja pegajosa goo se filtra en tu polla dolorosamente dura, inundando con calor pecaminoso mientras la felicidad broma irradia toda la cintura ..."
+            ]
+        },
+        {
+            "NameOfScene": "MeltyMatingCorruptionCheck",
+            "theScene": [
+                "IfHasPerk",
+                "Queen's Sigil of Corruption",
+                "MeltyMatingCorruptionAphro",
+                "Cuanto más se empape en la dolidosa erección, más difícil se vuelve sacudir los dulces susurros seductor de arranque en sus oídos, su incontabilidad malévola que te tienta a relajarte y dejar que te produzcan con sus atentos agradablemente corruptivos a sus atentos a suContenido del corazón ...",
+                "Menu",
+                "Endure the intoxicating bliss!",
+                "Feels so good...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Feels so good...",
+            "theScene": [
+                "JumpToScene",
+                "MeltyMatingCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "Endure the intoxicating bliss!",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "100",
+                "2",
+                "Temptation",
+                "20",
+                "MeltyMatingCorruptionPass",
+                "Fail",
+                "MeltyMatingCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "MeltyMatingCorruptionPass",
+            "theScene": [
+                "¡Agradando los dientes, logra ignorar la constante palpitación de gotas en sus lomos y dispersar la influencia mágica que se arrastra seductoramente tratando de convertirlo en un boytoy con entusiasmo!"
+            ]
+        },
+        {
+            "NameOfScene": "MeltyMatingCorruptionFail",
+            "theScene": [
+                "CallSceneThenReturn",
+                "CorruptionStack",
+                "ChangeImageLayer",
+                "Expression",
+                "EarLick",
+                "A pesar de su mejor esfuerzo de autocontrol, todo lo que puede manejar en última instancia es gemir para gemir de manera descuidada y inquietante, empujando hacia el masaje de confines pegajoso y ordeñando su longitud.Cuanto más empujas, más la euforia corruptiva cargada de afrodisíaco solidifica dentro de ti, dulces besos susurrantes en tus oídos te instan a caer aún más en la depravación."
+            ]
+        },
+        {
+            "NameOfScene": "DestructiveMatingCorruption",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "EarLick",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "30",
+                "DestructiveMatingCorruptionCheck",
+                "JumpToScene",
+                "DestructiveMatingCorruptionAphro"
+            ]
+        },
+        {
+            "NameOfScene": "DestructiveMatingCorruptionAphro",
+            "theScene": [
+                "Cuanto más tiempo permanezca atrapado en este lujoso bucle de apareamiento viscoso indulgente, más de la insidiosa y resbaladizante espada de Perpetua se filtra en su erección dolorosamente dura y palpitante, inundando con calor pecaminoso mientras la felicidad se irradia a través de su curva ..."
+            ]
+        },
+        {
+            "NameOfScene": "DestructiveMatingCorruptionCheck",
+            "theScene": [
+                "IfHasPerk",
+                "Queen's Sigil of Corruption",
+                "DestructiveMatingCorruptionAphro",
+                "A medida que te quedas indulgentemente atrapado en el bucle de apareamiento pegajoso indulgente, tu mente sigue girando en un aturdimiento flotante, por lo que es fácil y resbaladizo.Apelando a simplemente hundirse y derretirse en los dulces susurros seductores que se cepillan enormemente contra sus oídos, tentándolo a relajarse y dejar que lo produzcan con sus atenciones plesurablemente corruptivas hacia el contenido de su corazón.",
+                "Menu",
+                "Endure the intoxicating bliss! ",
+                "Feels so good... ",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Feels so good... ",
+            "theScene": [
+                "JumpToScene",
+                "DestructiveMatingCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "Endure the intoxicating bliss! ",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "100",
+                "2",
+                "Temptation",
+                "25",
+                "DestructiveMatingCorruptionPass",
+                "Fail",
+                "DestructiveMatingCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "DestructiveMatingCorruptionPass",
+            "theScene": [
+                "Jadeando y retorciéndose con desesperación, te las arreglas para ignorar el palpitante constante de la fuga en tus lomos y dispersar la influencia mágica de la seductora y la seductora tratando de hacerte un boytoy con ansiedad, aferrándote a tu lucidez incluso cuando las mujeres pegajosas te colocan desde todos los ángulos con cada ángulo con¡Falta y suavidad resbaladiza!"
+            ]
+        },
+        {
+            "NameOfScene": "DestructiveMatingCorruptionFail",
+            "theScene": [
+                "CallSceneThenReturn",
+                "CorruptionStack",
+                "ChangeImageLayer",
+                "Expression",
+                "Kiss",
+                "Pero pronto descubres que tus pensamientos se están espaciando cada vez más con placer vertiginoso mientras te quedas con indulgencia encerrado en la verdadera prisión de apareamiento pegajoso, tu polla palpitando cada vez más, ya que la maldición depravada de las villanas se establece en tus lomos junto con la deliciosa sensación de aburrimiento deEl resbaladizo afrodisíaco que corroe su racionalidad, un beso a sus oídos, dejándote desmayo y temblando sumisamente."
+            ]
+        },
+        {
+            "NameOfScene": "DepravedEntanglingCharm",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "EarLick",
+                "IfChoice",
+                "1",
+                "Charmed",
+                "DepravedEntanglingCorruption",
+                "A medida que permanece inmerso en el enredado abrazo pegajoso del trío viscoso, se siente cada vez más desesperadamente encantado e infatuado, vapidmente tientando y apretando el culo regordete de la perpetua púrpura mientras ella monta su longitud en la sumisión total, sus pensamientos se vuelven melados con placerMientras los otros dos siguen susurrando y besándote en un desastre cada vez más dócil ..."
+            ]
+        },
+        {
+            "NameOfScene": "DepravedEntanglingCorruption",
+            "theScene": [
+                "IfHasPerk",
+                "Queen's Sigil of Corruption",
+                "Nothing",
+                "Enredado con el perpetua púrpura y el tono encantado, no puede evitar disfrutar de su cuerpo curvilíneo con tientas codiciosas y empujes de búsqueda de placer.Riendo malévola, levanta su cuerpo hacia arriba y hacia abajo con el tiempo con el balanceo de sus caderas, dejándote cada vez más sensible y sumiso, la constante cadena de palabras seductoras que llenan tus oídos enterrándote más y más profundamente en la depravación sin sentido ...",
+                "Menu",
+                "Resist the seductive entanglement! ",
+                "Thrust Thrust Thrust... ",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Thrust Thrust Thrust... ",
+            "theScene": [
+                "JumpToScene",
+                "DepravedEntanglingCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "Resist the seductive entanglement! ",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "10",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "25",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "40",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "100",
+                "2",
+                "Temptation",
+                "25",
+                "DepravedEntanglingCorruptionPass",
+                "Fail",
+                "DepravedEntanglingCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "DepravedEntanglingCorruptionPass",
+            "theScene": [
+                "Con un esfuerzo heroico desesperado, te las arreglas para rechazar la magia corruptiva invasiva que mira tu mente y cuerpo con cascadas de euforia hormigueantes, ¡apenas empujando la tentación burlona de ceder y seguir empujando y derritiéndose!"
+            ]
+        },
+        {
+            "NameOfScene": "DepravedEntanglingCorruptionFail",
+            "theScene": [
+                "CallSceneThenReturn",
+                "CorruptionStack",
+                "RemoveStatusEffect",
+                "Charm",
+                "ChangeImageLayer",
+                "Expression",
+                "Kiss",
+                "Tratar de pensar resulta inútil: cada impacto húmedo de las curvas de la perpetua púrpura que se estrella contra su cintura envía una ráfaga de placer pecaminosa irresistible a través de toda su cintura, dejándote empujando a tiempo con ella mientras un coro ascendente de besis y besos en tus oídosTe deja a la deriva sobre un paseo en blanco y vapid, la energía corruptiva que se solidifica más dentro de ti con cada segundo que pasa."
+            ]
+        },
+        {
+            "NameOfScene": "RuinousRideCharm",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "EvilGrin",
+                "IfChoice",
+                "1",
+                "Charmed",
+                "RuinousRideCorruption",
+                "Perpetua se ríe, se regodea y gime de manera feliz mientras ella continúa rebotando sobre ti con una expresión enloquecida de lujuria, cada poderosa bofetada de sus regalas acumuladas por los susurros meltosos de las otras dos seductoras viscosas que se besan y entran en tus oídos,Rompiendo rápidamente su autocontrol y convirtiéndolo en un desastre de adoración sin serescas y sincadas ..."
+            ]
+        },
+        {
+            "NameOfScene": "RuinousRideCorruption",
+            "theScene": [
+                "IfHasPerk",
+                "Queen's Sigil of Corruption",
+                "Nothing",
+                "Encantado y con la cabeza vacía como eres, cada buena bofetada de la espesa culo real de Perpetua contra tu cintura en cascada corrupta de manera corrupta a través de tus sentidos mientras su risa dominante y la oreja del dúo es un bisgón de orejas que se acomodan más fuerte alrededor de tu mente, abriéndote ansiosamente para suMagia dulce y debilitante y la idea cada vez más maravillosa de ser la ansiosa consorte devota de la gran perpetua ...",
+                "Menu",
+                "Endure the mind-blanking sex! ",
+                "Relax and melt... ",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Relax and melt... ",
+            "theScene": [
+                "JumpToScene",
+                "RuinousRideCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "Endure the mind-blanking sex! ",
+            "theScene": [
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "10",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "25",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Aphrodisiac",
+                "40",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "25",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "50",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "75",
+                "1",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "100",
+                "2",
+                "Temptation",
+                "25",
+                "RuinousRideCorruptionPass",
+                "Fail",
+                "RuinousRideCorruptionFail"
+            ]
+        },
+        {
+            "NameOfScene": "RuinousRideCorruptionPass",
+            "theScene": [
+                "Centrando su voluntad, logra soportar los pulsos constantes de la depravación pecaminosa tratando de llenar su cuerpo con un placer peligrosamente tentador e intoxicante, cada ritmo de las anchas caderas de Perpetua y cada beso de sus suaves labios aún amenazando con empujarlo al límite.Ella te mira malvadamente con ojos febriles, tu resistencia parece hacerla aún más decidida a romper dulcemente tu voluntad y hacerte la suya ..."
+            ]
+        },
+        {
+            "NameOfScene": "RuinousRideCorruptionFail",
+            "theScene": [
+                "CallSceneThenReturn",
+                "CorruptionStack",
+                "RemoveStatusEffect",
+                "Charm",
+                "ChangeImageLayer",
+                "Expression",
+                "LipLick",
+                "Abrumado por el acoplamiento desenfrenado de Perpetua, te ahogas en las constantes oleadas de placer pecaminoso a medida que abarca impotente tu papel como el esclavo de placer de tu amante, perdiendo tu sentido de la razón mientras el encanto que agrega tus pensamientos rompe tu reiliencia y solidifica la corrupción que te avesan lentamente, te atasca, te avenúa lentamente, lo que te atesora, te avenúa lentamente, te avenúas, lo que te atasca, lentamente, te avenúas, lentamente, te atrasan, lentamente, te atrasan, lentamente, te atrasan, lentamente, te atrasan, lentamente, te atrasan, lentamente, te atrasan, lentamente, te atrasan, lentamente, te atrasa, lentamente.El veneno más encantador que te rezuma con cada dulce susurro, las villanas se vierten en tus oídos como miel intoxicante."
+            ]
+        }
+    ]
+}
