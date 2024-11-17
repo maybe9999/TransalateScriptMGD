@@ -1,0 +1,23 @@
+{
+    "name": "VoltageCollar",
+    "description": "",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "RegenMaxEnergy",
+        "RegenMaxArousal"
+    ],
+    "EffectPower": [
+        "5",
+        "-1"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

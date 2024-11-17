@@ -1,0 +1,25 @@
+{
+    "name": "Treasure Magnet",
+    "description": "Aumenta la posibilidad de encontrar tesoros y que ese tesoro sea mayor rareza mientras explora, la oportunidad de caída de los monstruos de los monstruos y todos los EROS encontrados en un 25%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "ErosBoost",
+        "ItemDropChance",
+        "TreasureFindChance"
+    ],
+    "EffectPower": [
+        "25",
+        "25",
+        "25"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

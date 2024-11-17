@@ -1,0 +1,21 @@
+{
+    "name": "Arch-Magus Staff Perk",
+    "description": "El poder innato del personal que ejerce aumenta la excitación que lidia con los ataques mágicos en un 50%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "MagicBoost"
+    ],
+    "EffectPower": [
+        "50"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

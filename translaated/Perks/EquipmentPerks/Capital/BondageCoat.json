@@ -1,0 +1,21 @@
+{
+    "name": "BondageCoat",
+    "description": "",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "RemoveRestraints"
+    ],
+    "EffectPower": [
+        "-25"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

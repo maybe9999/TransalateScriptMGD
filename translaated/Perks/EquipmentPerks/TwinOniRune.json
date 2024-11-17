@@ -1,0 +1,23 @@
+{
+    "name": "TwinOniRune",
+    "description": "",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "AssBoost",
+        "BreastBoost"
+    ],
+    "EffectPower": [
+        "5",
+        "5"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

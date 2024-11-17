@@ -1,0 +1,21 @@
+{
+    "name": "Filter of Anaph",
+    "description": "Reduce el daño afrodisíaco tomado en un 25%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "AphrodisiacAmp"
+    ],
+    "EffectPower": [
+        "-25"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

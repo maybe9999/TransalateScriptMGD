@@ -1,0 +1,21 @@
+{
+    "name": "Dominant Hand",
+    "description": "¡Estos guantes te hacen sentir como si pudieras domar a un Hellhound!La excitación que lidia con las habilidades de dolor aumenta en un 25%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "PainBoost"
+    ],
+    "EffectPower": [
+        "25"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

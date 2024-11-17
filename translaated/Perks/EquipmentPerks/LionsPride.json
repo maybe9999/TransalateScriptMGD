@@ -1,0 +1,21 @@
+{
+    "name": "Lion's Pride",
+    "description": "¡Disminuye su oportunidad de escapar en un 25%!No eres un cobarde, ¿verdad?",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "RunChance"
+    ],
+    "EffectPower": [
+        "-25"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

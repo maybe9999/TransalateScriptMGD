@@ -1,0 +1,21 @@
+{
+    "name": "Feeble Resistance",
+    "description": "Reduce catastróficamente su capacidad para escapar de las posturas normalmente.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StanceStuck"
+    ],
+    "EffectPower": [
+        "65"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

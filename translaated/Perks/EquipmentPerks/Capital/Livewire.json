@@ -1,0 +1,21 @@
+{
+    "name": "Livewire",
+    "description": "",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "RegenMaxEnergy"
+    ],
+    "EffectPower": [
+        "4"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Sleep Eating Sheep",
+    "description": "¡Aumenta su capacidad de despertar del sueño en un 30% y reduce la energía perdida por el somnolencia en un 30%!",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "SleepAmp"
+    ],
+    "EffectPower": [
+        "-30"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Enchantment Brooch",
+    "description": "Aumenta la excitación que trata con las habilidades de seducción en un 25%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "SeductionBoost",
+        "StatusChanceBoost"
+    ],
+    "EffectPower": [
+        "25",
+        "10"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

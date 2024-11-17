@@ -1,0 +1,21 @@
+{
+    "name": "Divine Rosary",
+    "description": "Aumenta el rollo de dados mínimo en sus verificaciones de estadísticas por 4.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "FavorBoost"
+    ],
+    "EffectPower": [
+        "3"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

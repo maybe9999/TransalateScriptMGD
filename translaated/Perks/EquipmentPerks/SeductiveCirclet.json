@@ -1,0 +1,21 @@
+{
+    "name": "Seductive Circlet",
+    "description": "Aumenta la excitación que trata con las habilidades de seducción en un 25%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "SeductionBoost"
+    ],
+    "EffectPower": [
+        "25"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

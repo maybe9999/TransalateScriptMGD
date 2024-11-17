@@ -1,0 +1,21 @@
+{
+    "name": "Flickering Rune",
+    "description": "Desde la runa que usas obtienes una bonificación del 5% para evadir fuera de postura.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        "Technique"
+    ],
+    "StatReqAmount": [
+        "5"
+    ],
+    "PerkType": [
+        "OutOfStanceEvade"
+    ],
+    "EffectPower": [
+        "5"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

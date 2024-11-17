@@ -1,0 +1,23 @@
+{
+    "name": "Shimenawa",
+    "description": "",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "ExpBoost",
+        "CritChanceBoost"
+    ],
+    "EffectPower": [
+        "10",
+        "5"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

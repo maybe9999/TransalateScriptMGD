@@ -1,0 +1,27 @@
+{
+    "name": "SinfulSlimeRune",
+    "description": "",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "AphrodisiacAmp",
+        "SeductionBoost",
+        "RecoilDamageTaken",
+        "RecoilBoost"
+    ],
+    "EffectPower": [
+        "15",
+        "10",
+        "10",
+        "10"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

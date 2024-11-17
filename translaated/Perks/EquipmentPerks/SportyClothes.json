@@ -1,0 +1,21 @@
+{
+    "name": "Sporty Clothes",
+    "description": "¡Aumenta tu iniciativa por 5!",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "InitiativeBonus"
+    ],
+    "EffectPower": [
+        "5"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

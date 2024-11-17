@@ -1,0 +1,21 @@
+{
+    "name": "Minor Fertility Curse",
+    "description": "¡Usando una runa hecha por Succubi, ganas 10 virilidad!",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "VirilityBoost"
+    ],
+    "EffectPower": [
+        "10"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

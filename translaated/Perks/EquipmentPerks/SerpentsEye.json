@@ -1,0 +1,21 @@
+{
+    "name": "Serpents Deadly Gaze",
+    "description": "Aumenta la posibilidad de que sus efectos de estado se apliquen en un 25%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusChanceBoost"
+    ],
+    "EffectPower": [
+        "25"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "MysticConduit",
+    "description": "Aumenta el flujo de magia que te rodea, lo que aumenta la excitación que abordas las habilidades mágicas en un 5%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "MagicBoost"
+    ],
+    "EffectPower": [
+        "10"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

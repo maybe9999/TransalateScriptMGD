@@ -1,0 +1,21 @@
+{
+    "name": "Binding Breakers",
+    "description": "¡Usando guantes que aumentan su capacidad para salir de las restricciones en un 30%!",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Swift"
+    ],
+    "StatReq": [
+        "Technique"
+    ],
+    "StatReqAmount": [
+        "10"
+    ],
+    "PerkType": [
+        "RemoveRestraints"
+    ],
+    "EffectPower": [
+        "30"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

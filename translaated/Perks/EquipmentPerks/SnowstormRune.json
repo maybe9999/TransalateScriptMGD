@@ -1,0 +1,23 @@
+{
+    "name": "Snowstorm Rune",
+    "description": "Debido a la runa que lleva puesto, su excitación sigue aumentando, junto con su energía.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "RegenMaxArousal",
+        "RegenMaxEnergy"
+    ],
+    "EffectPower": [
+        "2",
+        "-5"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Megami Staff Perk",
+    "description": "",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "MagicBoost",
+        "InitiativeBonus"
+    ],
+    "EffectPower": [
+        "10",
+        "5"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}
