@@ -1,0 +1,49 @@
+{
+    "name": "Ate Strangely Sweet Feast",
+    "description": "Los maravillosos champiñones Matango bañados en el néctar de Alraune que comió está aumentando sus resistencias a los efectos de estado en un 10%, y reduciendo sus efectos cuando corresponda en un 10%.| Perkduration |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StunRes",
+        "CharmRes",
+        "AphrodisiacRes",
+        "RestraintsRes",
+        "SleepRes",
+        "TranceRes",
+        "ParalysisRes",
+        "DebuffRes",
+        "AphrodisiacAmp",
+        "ParalysisAmp",
+        "SleepAmp",
+        "RemoveRestraints",
+        "TranceStunChance",
+        "TimeDuration",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "-10",
+        "-10",
+        "-10",
+        "10",
+        "-10",
+        "6",
+        "The effects of your meal have worn off."
+    ],
+    "PlayerCanPurchase": "No"
+}

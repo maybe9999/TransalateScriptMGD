@@ -1,0 +1,29 @@
+{
+    "name": "Gilded Infatuation",
+    "description": "¡Estás enamorado de Iabel!Tomas +10% más de excitación, y tu oportunidad de ser golpeado críticamente aumentó un 5% ... pero no es tan malo, ¿verdad? ♥ | Perkduration |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "DamageReduction",
+        "CritChanceBoostSelf",
+        "RemovablePersistantEffect",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "StatusIcons/IabelInfatuated.png",
+        "-10",
+        "5",
+        "",
+        "The infatuating charm ends."
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

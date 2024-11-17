@@ -1,0 +1,25 @@
+{
+    "name": "Blessing of Safe Travels",
+    "description": "Has sido bendecido por la Diosa durante una semana, aumenta tu oportunidad en un 50%.| Perkduration |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "RunChance",
+        "TimeDuration",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "50",
+        "42",
+        "Your Blessing of Safe Travels has ended."
+    ],
+    "PlayerCanPurchase": "No"
+}

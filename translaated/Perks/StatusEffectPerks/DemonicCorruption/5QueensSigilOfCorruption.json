@@ -1,0 +1,27 @@
+{
+    "name": "Queen's Sigil of Corruption",
+    "description": "Una cresta demoníaca grande, roja brillante, intrincada y regia se ha formado en sus lomos, pulsando imperiosamente con un placer dulcemente corrupto, intoxicante, llenando su cabeza con una excitación vertiginosa vertiginosa, triplicando sus pérdidas espirituales y bajando su fuerza de voluntad por 40.No hay forma de aclarar esto más que la victoria ... pero ¿tal vez deberías rendirte en su lugar? ♥",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "Willpower",
+        "MultiplySpiritLoss",
+        "NonPersistentEffect"
+    ],
+    "EffectPower": [
+        "StatusIcons/QueenCrest5.png",
+        "-40",
+        "3",
+        "0"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

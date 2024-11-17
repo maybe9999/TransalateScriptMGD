@@ -1,0 +1,35 @@
+{
+    "name": "Curse of Oblivion",
+    "description": "Venefica ha inculcado un potente hexagonal en ti, y puedes sentirlo roer y tu cuerpo, mente y alma, que te tiran peligrosamente como cuerdas de títeres que agacha todas tus estadísticas centrales por 15. No se puede eliminar por los medios propios....",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "Power",
+        "Technique",
+        "Allure",
+        "Luck",
+        "Willpower",
+        "Intelligence",
+        "NonPersistentEffect"
+    ],
+    "EffectPower": [
+        "StatusIcons/Curse4.png",
+        "-15",
+        "-15",
+        "-15",
+        "-15",
+        "-15",
+        "-15",
+        "0"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

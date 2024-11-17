@@ -1,0 +1,25 @@
+{
+    "name": "Trickling Corruption",
+    "description": "La energía demoníaca está comenzando a afectar su cuerpo y mente, bajando su fuerza de voluntad a los 5. No hay forma de aclarar esto más que la victoria ...",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "Willpower",
+        "NonPersistentEffect"
+    ],
+    "EffectPower": [
+        "StatusIcons/QueenCrest1.png",
+        "-5",
+        "0"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

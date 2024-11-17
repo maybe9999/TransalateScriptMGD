@@ -1,0 +1,27 @@
+{
+    "name": "Blessing of Relaxation",
+    "description": "Has sido bendecido por la diosa durante una semana, aumentando la excitación eliminada cuando descansas y la energía que recuperas en un 25%.| Perkduration |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "RestEnergyRestored",
+        "RestArousalRestored",
+        "TimeDuration",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "25",
+        "25",
+        "42",
+        "Your Blessing of Relaxation has ended."
+    ],
+    "PlayerCanPurchase": "No"
+}

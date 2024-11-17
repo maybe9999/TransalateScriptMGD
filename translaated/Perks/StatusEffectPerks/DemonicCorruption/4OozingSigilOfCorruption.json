@@ -1,0 +1,27 @@
+{
+    "name": "Oozing Sigil of Corruption",
+    "description": "¡Se ha formado una cresta demoníaca grande y de color rojo brillante en sus lomos, pulsando acaloradamente con un placer intoxicante que aturde la mente y llenándolo de vertiginosa excitación vertiginosa, duplicando sus pérdidas de espíritu y bajando su fuerza de voluntad a los 30!No hay forma de aclarar esto más que la victoria ... ¿Puedes ganar más?",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "Willpower",
+        "MultiplySpiritLoss",
+        "NonPersistentEffect"
+    ],
+    "EffectPower": [
+        "StatusIcons/QueenCrest4.png",
+        "-30",
+        "2",
+        "0"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

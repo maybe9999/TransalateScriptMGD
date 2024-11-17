@@ -1,0 +1,31 @@
+{
+    "name": "Curse of Shadows",
+    "description": "Venefica casi ha terminado de tejer un hexadecimario complicado sobre ti, poniendo tu técnica, poder, encanto y suerte por 15. ¿No se puede eliminar por elementos, tal vez si te rompiste el enfoque o te reuniste tu resolución al defender que podrías borrar la magia?",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "Power",
+        "Technique",
+        "Allure",
+        "Luck",
+        "NonPersistentEffect"
+    ],
+    "EffectPower": [
+        "StatusIcons/Curse3.png",
+        "-15",
+        "-15",
+        "-15",
+        "-15",
+        "0"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

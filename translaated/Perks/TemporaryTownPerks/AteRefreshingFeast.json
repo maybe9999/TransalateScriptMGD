@@ -1,0 +1,27 @@
+{
+    "name": "Ate Refreshing Feast",
+    "description": "El maravilloso café o té de extracto de extracto de limo con un bagel élfica y su elección de coberturas.Comió está aumentando su fuerza de voluntad en 5 y su energía máxima en +10.| Perkduration |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "Willpower",
+        "GainEnergy",
+        "TimeDuration",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "5",
+        "10",
+        "6",
+        "The effects of your meal have worn off."
+    ],
+    "PlayerCanPurchase": "No"
+}

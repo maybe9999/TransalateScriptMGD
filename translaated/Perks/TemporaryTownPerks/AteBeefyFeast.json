@@ -1,0 +1,27 @@
+{
+    "name": "Ate Beefy Feast",
+    "description": "La maravillosa hamburguesa de 'monstruo' con un batido de Minotaur que comiste está aumentando tu excitación máxima y la energía máxima en +25.| Perkduration |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "GainArousal",
+        "GainEnergy",
+        "TimeDuration",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "25",
+        "25",
+        "6",
+        "The effects of your meal have worn off."
+    ],
+    "PlayerCanPurchase": "No"
+}

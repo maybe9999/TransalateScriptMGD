@@ -1,0 +1,29 @@
+{
+    "name": "Gilded Captivation",
+    "description": "¡Estás completamente cautivado con Iabel!Tomas +20% más de excitación, y tu oportunidad de ser golpeado críticamente aumentó un 10% ... pero está bien, ella es tan ... hermosa. ♥ | Perkduration |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "DamageReduction",
+        "CritChanceBoostSelf",
+        "RemovablePersistantEffect",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "StatusIcons/IabelCaptivated.png",
+        "-20",
+        "10",
+        "",
+        "The captivating charm ends."
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

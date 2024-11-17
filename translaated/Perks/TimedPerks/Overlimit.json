@@ -1,0 +1,29 @@
+{
+    "name": "Overlimit",
+    "description": "Estás empujando tu cuerpo a sus límites, aumentando tu vulnerabilidad a la excitación en un 25%.No se puede quitar con artículos o habilidades.| Perkduration |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "DamageReduction",
+        "NonPersistentEffect",
+        "TurnDuration",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "StatusIcons/DefenceDownIcon.png",
+        "-25",
+        "0",
+        "11",
+        "Body's overtaxed state has ended."
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}
