@@ -1,0 +1,54 @@
+{
+    "name": "Bubbling Gyration",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration",
+        "Slimed 100%"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "45",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] remolinos [AttackerHisOrHer] caderas en círculos lánguidos lentos, masajear y burlarse de la polla de [SexWord] de [SexWord] dentro de su pegajosa [TargetHisOrHer], todo mientras el líquido viscoso que rodea el cuerpo [TargetHisOrHer] burbujean suavemente, acaricia y se burla de [TargetHisOrHer]por todas partes como un masaje de primera clase.",
+    "miss": "[AttackerName] Remates [AttackerHisOrHer] caderas en círculos lánguidos lentos, masajear y burlarse de [TargetName] la polla contracción dentro de su pegajosa [SexWord], ¡pero [TargetYouOrMonsterName] resiste el placer del placer!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

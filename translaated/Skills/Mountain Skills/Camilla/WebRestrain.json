@@ -1,0 +1,54 @@
+{
+    "name": "Web Restrain",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        ""
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Restrain",
+    "statusChance": "85",
+    "statusDuration": "0",
+    "statusPotency": "20",
+    "statusResistedBy": "Technique",
+    "statusText": "bound",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] giros y [AttackerHisOrHer] Spider medio dispara con cintas de cinta!¡Huele [TargetName] y [TargetHeOrShe] pronto está envuelto en la cinta!",
+    "statusMiss": "[AttackerName] turns and [AttackerHisOrHer] spider half shoots out webbing, but [TargetName] deftly dodges the web!",
+    "restraintStruggle": "[TargetName] struggles against the web restraining [TargetHimOrHer]...",
+    "restraintStruggleCharmed": "[TargetName] squirms against the web restraining [TargetHimOrHer]...",
+    "restraintEscaped": "And tears free of the webbing!",
+    "restraintEscapedFail": "But the web holds, and [TargetHeOrShe] remains trapped in the spider silk!"
+}

@@ -1,0 +1,53 @@
+{
+    "name": "Fizzing Pool Entrapment",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Power",
+    "requiredStat": "7",
+    "skillTags": [
+        ""
+    ],
+    "fetishTags": [
+        "Monstrous"
+    ],
+    "startsStance": "Slimed 100%",
+    "requiresStance": "Slimed 50%",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "Slimed 50%",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "15",
+    "minRange": "100",
+    "maxRange": "150",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Restrain",
+    "statusChance": "150",
+    "statusDuration": "0",
+    "statusPotency": "20",
+    "statusResistedBy": "",
+    "statusText": "gooed",
+    "descrip": "Lidiar con Goo",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "Con [TargetName] tan profundo en el grupo de líquidos viscosos burbujeantes, [AttackerName] usa fácilmente su limo para aferrarse a las extremidades [TargetHisOrHer] y restringir el cuerpo [TargetHisOrHer] mientras lo cubre casi por completo en la gao, el rebaño de burbujas le da a [TargetName] unLa sonrisa cachonda mientras el líquido y el cuerpo se burla del cuerpo [TargetHisOrHer] por todas partes.",
+    "statusMiss": "[AttackerName] tries to completely cover [TargetYouOrMonsterName] in slime, but [TargetHeOrShe] struggles too much!",
+    "restraintStruggle": "[TargetName] struggles against [AttackerName]'s restraining pool of teasing green goo while the slime seductively presses down from above...",
+    "restraintStruggleCharmed": "[TargetName] squirms against [AttackerName]'s bubbly pool of slime restraining [TargetHimOrHer], barely resisting the urge to relax into the squeezing, seductive embrace embrace...",
+    "restraintEscaped": "|f|GetEventAndSetProgress|/|BubbleSlimeCombatEvent|/|0|n|[TargetName] manages to break free of the sticky slime restraining [TargetHisOrHer] limbs! But [TargetHeOrShe] is still very close to the Bubble Slime's plush body...",
+    "restraintEscapedFail": "But [TargetName] remains bound by the bubbling pool of ooze, leaving the bubble slime to continue to freely tease [TargetHisOrHer] body with melty pleasure!"
+}

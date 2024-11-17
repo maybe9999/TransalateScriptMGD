@@ -1,0 +1,57 @@
+{
+    "name": "Spider's Embrace",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Sex"
+    ],
+    "startsStance": "Sex",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Penetration",
+        "Titfuck",
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Penetration",
+        "Titfuck",
+        "Blowjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "15",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Aprovechando la forma encuadernada de [TargetName], [AttackerName] abarca bien [TargetHimOrHer] y empuja [TargetHisOrHer] eje rígido en su coño tipo viceal.",
+    "miss": "Aprovechando la forma vinculada de [TargetName], [AttackerName] trata de abrazar estrictamente [TargetHimOrHer], ¡pero [TargetHeOrShe] lucha demasiado para que [AttackerHimOrHer] tenga éxito!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

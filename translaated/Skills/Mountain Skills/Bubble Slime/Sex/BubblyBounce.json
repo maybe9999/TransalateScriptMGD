@@ -1,0 +1,53 @@
+{
+    "name": "Bubbly Bounce",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        "Slimed 100%"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] presiona gentilmente [TargetName] de espaldas contra el grupo de limo mientras [AttackerHeOrShe] balancea perezosamente sus caderas hacia arriba y hacia abajo, acariciando [TargetHisOrHer] Menitud rígida con [AttackerHisOrHer] apretando suavemente [SexWord], todo mientras el líquido debajo de ellasBubbles y fizzes, burlándose de [TargetName] está de vuelta como innumerables caricias.",
+    "miss": "[AttackerName] presiona gentilmente [TargetName] de espaldas contra el grupo de limo mientras [AttackerHeOrShe] perezosamente balancea sus caderas hacia arriba y hacia abajo, ¡pero [TargetYouOrMonsterName] resiste el placer!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

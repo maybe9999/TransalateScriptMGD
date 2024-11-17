@@ -1,0 +1,61 @@
+{
+    "name": "Tail Suck",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Sex",
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Tail Fuck",
+    "unusableIfStance": [
+        "Blowjob",
+        "Sex",
+        "Anal",
+        "Titfuck"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Blowjob",
+        "Sex",
+        "Anal",
+        "Tailjob",
+        "Footjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "La cola de [AttackerName] apesta poderosamente la polla de [TargetName] con succión imposiblemente intensa, todo mientras que la lengua como el interior lame [TargetHisOrHer] toda la longitud, enviando thivers de placer ondulando a través del cuerpo [TargetHisOrHer]!",
+    "miss": "La cola de [AttackerName] apesta poderosamente la polla de [TargetName], ¡pero [TargetHeOrShe] logra soportar el placer!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

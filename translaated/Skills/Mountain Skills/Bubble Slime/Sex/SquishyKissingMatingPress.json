@@ -1,0 +1,57 @@
+{
+    "name": "Squishy Kissing Mating Press",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Sex",
+        "Kissing",
+        "Breasts"
+    ],
+    "startsStance": "Making Out",
+    "requiresStance": "Slimed 100%",
+    "unusableIfStance": [
+        "Blowjob",
+        "Face Sit",
+        "Titfuck"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "20",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "250",
+    "statusDuration": "2",
+    "statusPotency": "10",
+    "statusResistedBy": "Willpower",
+    "statusText": "aphrodisiac",
+    "descrip": "¡Mierda!Simplemente no te dejes llevar.",
+    "outcome": "Mientras rebota lentamente en la erección [AttackerName] de [AttackerName] se inclina hacia adelante hasta que se pone completamente sobre [TargetHimOrHer], tirando [TargetHimOrHer] en un beso profundo mientras sesrawwiches [TargetHimOrHer] entre sus curvas de lujos y la cama blanqueada de burbujeante Slime,,Frotando sus tetas de almohada contra [TargetHimOrHer] mientras balancea sus amplias caderas, dejando [TargetHisOrHer] todo el cuerpo inmerso en un placer.",
+    "miss": "[AttackerName] trata de comenzar a besarse con [TargetName], ¡pero [TargetHeOrShe] lucha lo suficiente como para mantenerse libre!",
+    "statusOutcome": "[TargetName] puede sentir la bebida de la gao [TargetHeOrShe] llenando lentamente el cuerpo [TargetHisOrHer] con un aturdimiento cachondo mientras se esfuerza y ​​aparece dentro [TargetHimOrHer].",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

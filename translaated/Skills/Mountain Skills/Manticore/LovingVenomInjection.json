@@ -1,0 +1,58 @@
+{
+    "name": "Loving Venom Injection",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Pain"
+    ],
+    "fetishTags": [
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob",
+        "Tail Fuck",
+        "Titfuck"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Blowjob",
+        "Tail Fuck",
+        "Tailjob",
+        "Footjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "100",
+    "statusDuration": "10",
+    "statusPotency": "25",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] gives [TargetName] a sinister smile, tightly clinging to you while [AttackerHisOrHer] [SexWord] clamps down on [TargetHisOrHer] dick, [AttackerName] plucks one of [AttackerHisOrHer] aphrodisiac filled spikes off of [AttackerHisOrHer] tail in aMotaje liso único y lo inyecta gentilmente en el cuello de [TargetName], haciendo que [TargetHimOrHer] se jadea como el veneno inunda el cuerpo [TargetHisOrHer].",
+    "statusMiss": "[AttackerName] gives [TargetName] a sinister smile, and plucks one of [AttackerHisOrHer] aphrodisiac filled spikes off of [AttackerHisOrHer] tail in a single smooth motion, but [TargetName] thrashes too much, making [AttackerName] drop the venom filled needle.",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

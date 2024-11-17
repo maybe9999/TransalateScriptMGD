@@ -1,0 +1,56 @@
+{
+    "name": "Harpy Love Song",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Penetration",
+        "HypnosisAddict"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob",
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "Trance",
+    "statusChance": "110",
+    "statusDuration": "1",
+    "statusPotency": "1",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] canta una melodía encantadora y sin sentido mientras rebotan hábilmente y muele las caderas [AttackerHisOrHer] de la virilidad de [TargetName], enviando ondas amorosas de dicha y placer disparando a través de [TargetHisOrHer] Grea y mente simultáneamente.",
+    "miss": "[AttackerName] canta una melodía encantadora y sin sentido mientras rebotan hábilmente y muele las caderas [AttackerHisOrHer] de la virilidad de [TargetName], pero [TargetHeOrShe] logra soportar a ambos [AttackerHisOrHer] una canción placentera y un sexo sensual [AttackerHisOrHer] sensual.",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|TenguHarpyCombatEvents|/|SongCheck|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

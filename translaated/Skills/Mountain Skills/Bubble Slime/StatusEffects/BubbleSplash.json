@@ -1,0 +1,60 @@
+{
+    "name": "Bubble Splash",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Power",
+    "requiredStat": "7",
+    "skillTags": [
+        ""
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Sex",
+        "Titfuck",
+        "Anal",
+        "Nursing",
+        "Slimed",
+        "Slimed 50%",
+        "Slimed 100%",
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Restrain",
+    "statusChance": "75",
+    "statusDuration": "0",
+    "statusPotency": "20",
+    "statusResistedBy": "Technique",
+    "statusText": "bound",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] levanta una de sus manos con una sonrisa antes de señalar [TargetName], e innumerables burbujas flotantes se elevan hacia [TargetHimOrHer], explotando rápidamente en un desastre pegajoso y restringido, que se conecta con la piscina de burbujas de burbujas!",
+    "statusMiss": "[AttackerName] lifts one of her hands with a smile before pointing at [TargetName], and countless floating bubbles surges towards [TargetHimOrHer], but [TargetHeOrShe] manages to avoid the soon to explode gooey bubbles!",
+    "restraintStruggle": "[TargetName] struggles against [AttackerName]'s restraining green goo...",
+    "restraintStruggleCharmed": "[TargetName] squirms against [AttackerName]'s sticky and slick slime, barely resisting the urge to settle into their embrace...",
+    "restraintEscaped": "|f|GetEventAndSetProgress|/|BubbleSlimeCombatEvent|/|0|n|[TargetName] manages to break free of the sticky slime and makes some distance from the bubbling pool!",
+    "restraintEscapedFail": "But [TargetName] remains bound by the sticky ooze!"
+}
