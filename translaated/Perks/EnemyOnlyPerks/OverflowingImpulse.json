@@ -1,0 +1,31 @@
+{
+    "name": "Overflowing Impulse",
+    "description": "¡La llama interior de Beris se está volviendo loco!Aumentando su ataque en un 25%, su iniciativa por 10, su oportunidad crítica en un 10%y su oportunidad de evadir en un 10%.Pero su defensa se reduce en un 10%...",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "DamageBoost",
+        "DamageReduction",
+        "CritChanceBoost",
+        "OutOfStanceEvade",
+        "InitiativeBonus"
+    ],
+    "EffectPower": [
+        "StatusIcons/blazeIcon.png",
+        "25",
+        "-10",
+        "10",
+        "10",
+        "10"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

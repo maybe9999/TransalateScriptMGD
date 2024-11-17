@@ -1,0 +1,21 @@
+{
+    "name": "Aphrodisiac Vulnerable",
+    "description": "¡Aumenta el daño tomado por los afrodisíacos en un 20%!",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "AphrodisiacAmp"
+    ],
+    "EffectPower": [
+        "20"
+    ],
+    "PlayerCanPurchase": "No"
+}

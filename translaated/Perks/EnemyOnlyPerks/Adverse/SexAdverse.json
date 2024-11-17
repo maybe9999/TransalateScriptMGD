@@ -1,0 +1,21 @@
+{
+    "name": "Sex Adverse",
+    "description": "Ai Guider Perk, hace que el enemigo intente salir de la postura sexual.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "SexAdverse"
+    ],
+    "EffectPower": [
+        "0"
+    ],
+    "PlayerCanPurchase": ""
+}

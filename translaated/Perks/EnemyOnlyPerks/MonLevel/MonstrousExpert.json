@@ -1,0 +1,21 @@
+{
+    "name": "Monstrous Expert",
+    "description": "",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "MonstrousBoost"
+    ],
+    "EffectPower": [
+        "20"
+    ],
+    "PlayerCanPurchase": "No"
+}

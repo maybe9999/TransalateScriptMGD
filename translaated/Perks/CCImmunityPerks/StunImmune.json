@@ -1,0 +1,27 @@
+{
+    "name": "Stun Immune",
+    "description": "¡Actualmente inmune a los aturdimientos!| Perkduration |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "StunRes",
+        "TurnDuration",
+        "NonPersistentEffect"
+    ],
+    "EffectPower": [
+        "StatusIcons/stunImmuneIcon.png",
+        "9999",
+        "4",
+        "0"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

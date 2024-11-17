@@ -1,0 +1,21 @@
+{
+    "name": "Aphrodisiac Vulnerable Slime",
+    "description": "¡Aumenta el daño tomado por los afrodisíacos en un 100%!",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "AphrodisiacAmp"
+    ],
+    "EffectPower": [
+        "150"
+    ],
+    "PlayerCanPurchase": "No"
+}

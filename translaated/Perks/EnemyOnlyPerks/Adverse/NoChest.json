@@ -1,0 +1,21 @@
+{
+    "name": "NoChest",
+    "description": "No tiene la parte superior del cuerpo/senos.Más extraño del grupo.Los senos no pueden ser golpeados.No funciona si se le da al jugador, por cierto.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "NoChest"
+    ],
+    "EffectPower": [
+        "0"
+    ],
+    "PlayerCanPurchase": "No"
+}

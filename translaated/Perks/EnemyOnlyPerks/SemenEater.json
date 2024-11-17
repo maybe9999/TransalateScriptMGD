@@ -1,0 +1,21 @@
+{
+    "name": "Semen Eater",
+    "description": "Te cura cuando tu oponente orgasmos.Requiere sexo, anal, mamada o postura de titfuck.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "SemenHeal"
+    ],
+    "EffectPower": [
+        "50"
+    ],
+    "PlayerCanPurchase": "No"
+}
