@@ -1,7 +1,7 @@
 <h1> Translator MGD</h1>
 
 <h2> Description </h2>
-Translate the dialogues stored in Json. The script excludes and does not modify any other data stored in the .json other than dialogs (Not 100% tested).
+Translate the dialogues stored in Json. The script excludes and does not modify any other data stored in the .json other than dialogs (Functional as far as I tested it.).
 
 
 <h2> Installation and use:</h2>
@@ -10,6 +10,8 @@ Translate the dialogues stored in Json. The script excludes and does not modify 
 ```
 pip install googletrans==4.0.0rc1
 ```
+Read:*Solutions to problem with googletrans* </br>
+
 2) Windows: Open CMD and run "chcp 65001" in the console.
 ```
 chcp 65001
@@ -72,7 +74,7 @@ c = translate(temp_text).split(" .-|----|- ")
 for g in range(len(c)):
     a[g][-2] = c[g]
 
-json[a[0]] = a[0][-2]
+json[a[0]] = a[0][-2] #This line may not work, but the idea conveyed is correct.
 ```
 
 
