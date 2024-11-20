@@ -464,7 +464,7 @@ def init():
 	init_translation(files_path_adventures, get_text_adventures, "adventures")
 	init_translation(files_path_fetishes, get_text_fetishes, "fetishes")
 	init_translation(files_path_items, get_text_items, "items")
-	#init_translation(files_path_locations, get_text_locations)
+	init_translation(files_path_locations, get_text_locations)
 	init_translation(files_path_perks, get_text_perks, "perks")
 	
 
