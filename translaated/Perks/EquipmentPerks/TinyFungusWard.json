@@ -1,0 +1,25 @@
+{
+    "name": "Tiny Fungus Ward",
+    "description": "Esto reduce el daño afrodisíaco que recibe en un 10%, reduce la energía perdida por la somnolencia en un 20%y aumenta una reducción del 20%al costo de energía de la parálisis.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "AphrodisiacAmp",
+        "SleepAmp",
+        "ParalysisAmp"
+    ],
+    "EffectPower": [
+        "-10",
+        "-20",
+        "-20"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

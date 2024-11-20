@@ -1,0 +1,109 @@
+{
+    "name": "Caverns Intro",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Salaris",
+            "postName": " 1",
+            "SpeakerType": "Monster"
+        },
+        {
+            "name": "Salaris",
+            "postName": " 2",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "IfProgressEqualsOrGreater",
+                "1",
+                "Delve",
+                "ChangeProgress",
+                "1",
+                "ChangeBG",
+                "mountain.png",
+                "Alegándose por un camino de montaña desde el templo, eventualmente te encuentras frente a las fauces abiertas que es la entrada al sistema de cavernas de la montaña, el único pasillo para que los aventureros lleguen a la capital de la niña monstruosa.",
+                "ChangeBG",
+                "Caverns.png",
+                "ChangeBGM",
+                "music/Caverns/Stalwick_-_Dreaming.mp3",
+                "Entras cautelosamente en la cueva suavemente iluminada, y a medida que te profunditas más, pequeños hongos bioluminiscentes y piedras brillantes iluminan el camino, y pronto estás tomando rutas de ramificación a medida que avanza en la red húmeda de la caverna.Solo el sonido del agua de goteo para romper el tenso silencio.",
+                "Pero te congelas momentáneamente mientras escuchas voces que hablan por delante, y cuidadosamente avanzan para escuchar mejor, y mira a la vuelta de la esquina, viendo a dos mujeres de lagartos anfibios desnudos.",
+                "DisplayCharacters",
+                "1",
+                "2",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Confused",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "Excited",
+                "Speaks",
+                "¿En serio?¿Simplemente te dejan ir a la ciudad humana?",
+                "Speaks2",
+                "¡Sí!Solo tienes que usar ropa y no atacar a los hombres en las calles.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Thinking",
+                "Speaks",
+                "Eugh, pero la ropa se adhiere a tu piel, es tan incómodo: espera, ¿de dónde sacaste ropa?¿O llegar a la ciudad sin secarse?Dijiste que no estaba lloviendo ...",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "Happy",
+                "Speaks2",
+                "Los compré con algunos eros que guardé, y uh, hay algunos estanques y arroyos en los que puedes darte un chapuzón en el camino, y eh, también soborné un limo para ayudarme a mantenerme hidratado.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "SmugPredatory",
+                "Speaks",
+                "Pfffhaha, ¡eso es tan asqueroso!¿Y no es demasiado brillante durante el día?",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "Excited",
+                "Speaks2",
+                "Bueno, sí, pero no es insoportable, simplemente no mires el sol.Y en serio, ¡es básicamente todo el semen que puedes comer en el bar!¡Vale la pena el esfuerzo!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Ehhh, no sería lo mismo si no cazabas al chico, ¡eso es parte de la diversión!Aplicarlo mientras nuestro veneno lo deja incapaz de moverse, luego ordeñarlo por cada gota.",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "Thinking",
+                "Speaks2",
+                "Bueno, sí, pero",
+                "De repente pierdes el equilibrio en el piso de la cueva resbaladiza, se desliza momentáneamente y te escondes detrás de la pared mientras su conversación termina abruptamente.",
+                "DisplayCharacters",
+                "EndLoop",
+                "Mientras esperas un momento, escuchas dos salpicaduras de agua y, mirando hacia atrás en la habitación, puedes ver las piscinas de agua dentro todavía, todavía ondulantes ...",
+                "Con un encogimiento de hombros, te diriges por otro camino cercano para evitar la emboscada potencial, solo para notar piscinas similares de agua cerca de los lados del amplio pasillo."
+            ]
+        },
+        {
+            "NameOfScene": "Delve",
+            "theScene": [
+                "ChangeBG",
+                "Caverns.png",
+                "ChangeBGM",
+                "music/Caverns/Stalwick_-_Dreaming.mp3",
+                "Regresas a la entrada de la caverna y comienzas tu exploración de nuevo, y a medida que te profundizas más y pequeños hongos bioluminiscentes y piedras brillantes iluminan el camino de la caverna húmedo.Solo el sonido del agua de goteo y el espeluznante resuenan en los túneles para romper el tenso silencio ..."
+            ]
+        }
+    ]
+}

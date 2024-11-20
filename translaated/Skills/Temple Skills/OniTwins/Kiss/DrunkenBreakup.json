@@ -1,0 +1,53 @@
+{
+    "name": "Drunken Breakup",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Willpower",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth"
+    ],
+    "fetishTags": [
+        "Kissing"
+    ],
+    "startsStance": "",
+    "requiresStance": "Making Out",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Face Sit"
+    ],
+    "removesStance": "Making Out",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "Trance",
+    "statusChance": "100",
+    "statusDuration": "1",
+    "statusPotency": "2",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] profundiza brevemente el beso romántico con [TargetName], dominando la boca [TargetHisOrHer] con la lengua enredada agresiva [AttackerHisOrHer] agresiva.NUMBS [AttackerName] Garganta y mente con cada trago que se embriae antes de [TargetName] finalmente rompe la sesión de besos con un empuje difícil.",
+    "miss": "[AttackerName] trata de besar [TargetName], pero [TargetHeOrShe] logra mantenerse fuera del alcance.",
+    "statusOutcome": "La mente de [TargetName] se queda girando con una intoxicación hipnótica creciente a medida que la dicha hormigueante se propaga a través de [TargetHisOrHer] cuerpo ...",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

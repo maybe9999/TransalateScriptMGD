@@ -1,0 +1,37 @@
+{
+    "name": "Kinky Experience",
+    "description": "Aumente todas las ganancias de EXP en un 100%, pero también aumente todos sus fetiches en 100.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "ExpBoost",
+        "IncreaseFetish",
+        "IncreaseFetish",
+        "IncreaseFetish",
+        "IncreaseFetish",
+        "IncreaseFetish",
+        "IncreaseFetish",
+        "IncreaseFetish",
+        "IncreaseFetish"
+    ],
+    "EffectPower": [
+        "100",
+        "Kissing|/|100",
+        "Oral|/|100",
+        "Breasts|/|100",
+        "Sex|/|100",
+        "Ass|/|100",
+        "Legs|/|100",
+        "Feet|/|100",
+        "Monstrous|/|100"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

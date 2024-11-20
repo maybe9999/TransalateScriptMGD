@@ -1,0 +1,53 @@
+{
+    "name": "Dance Invitation",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "7",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Sex"
+    ],
+    "startsStance": "Sex",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Penetration"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Charm",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] sopla un beso a [TargetName], enviando un corazón rosa hacia [TargetHimOrHer].¡Puele cierto, encantador [TargetHimOrHer] aún más![AttackerName] gira y se inclina cuando [AttackerHeOrShe] comienza a influir en su tentadora trasera en [TargetName], ¡y [TargetHeOrShe] no puede evitar apresurarse para comenzar a joder [AttackerHimOrHer]!",
+    "miss": "[AttackerName] sopla un beso a [TargetName], enviando un corazón rosado hacia [TargetHimOrHer], pero [TargetHeOrShe] logra evitar el corazón tentador, haciendo que [AttackerName] se ponga en contacto como [AttackerHeOrShe] continúe [AttackerHisOrHer] baile.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

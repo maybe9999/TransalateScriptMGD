@@ -1,0 +1,53 @@
+{
+    "name": "Coil Crush",
+    "cost": "2",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "50",
+    "skillType": "attack",
+    "statType": "Power",
+    "requiredStat": "0",
+    "skillTags": [
+        "Pain"
+    ],
+    "fetishTags": [
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Stun",
+    "statusChance": "50",
+    "statusDuration": "2",
+    "statusPotency": "0",
+    "statusResistedBy": "Power",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Con la fuerza aplastante, la cola [AttackerName] repentinamente se tensa alrededor de [TargetName] y la presión de destrozamiento casi ósea se siente extrañamente agradable para [TargetHimOrHer] a medida que el aire se exprime del cuerpo [TargetHisOrHer].",
+    "miss": "Con la fuerza aplastante, la cola de [AttackerName] se aprieta repentinamente alrededor de [TargetName], ¡pero [TargetHeOrShe] logra resistir la presión casi rompida en el hueso!",
+    "statusOutcome": "¡La intensa presión de [AttackerHisOrHer] bobinas apretadas deja [TargetName] sin aliento y no puede luchar, impresionante [TargetHimOrHer]!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

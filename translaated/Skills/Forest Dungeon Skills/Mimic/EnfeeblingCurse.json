@@ -1,0 +1,54 @@
+{
+    "name": "Enfeebling Curse",
+    "cost": "20",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "statusEffectScaling": "35",
+    "requiredStat": "40",
+    "skillTags": [
+        "Afflictions"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Entrapping"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Power",
+    "statusChance": "75",
+    "statusDuration": "6",
+    "statusPotency": "-5",
+    "statusResistedBy": "",
+    "statusText": "Enfeebling Curse",
+    "descrip": "¡Debrianza a tu oponente con la magia, bajando su poder!",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] se ríe mientras la oscuridad giratoria fluye desde el cofre del tesoro con una luz de caída antes de correr hacia adelante y enrollarse alrededor de [TargetName], afligiendo [TargetHimOrHer] ¡con una maldición de la fuerza!",
+    "statusMiss": "[AttackerName] giggles as the swirling darkness flowing out from the treasure chest flares with a fell light before rushing forward and coiling around [TargetName], but [TargetHeOrShe] resists the spell!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

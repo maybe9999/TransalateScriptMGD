@@ -1,0 +1,53 @@
+{
+    "name": "Luxurious Sway",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "6",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "100",
+    "statusDuration": "11",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Iabel deja escapar de un ronroneo y balancea suavemente su cuerpo serpentino de un lado a otro en su lugar, sensualmente siguiendo sus largas uñas arriba y abajo de su piel suave y sus voluptuosas tetas, sus movimientos llaman la atención sobre la tira de sus adornos dorados y cargados de gemas como el jingleDe aquí mismo, dibujando los ojos hacia su cintura de reloj de arena y su caderas llenas y seductoras.",
+    "miss": "Iabel deja escapar un suspiro ronroneador y balancea suavemente su cuerpo serpentino de un lado a otro en su lugar, sensualmente arrastrando sus uñas largas arriba y abajo de su piel suave y sus tetas voluptuosas, pero [TargetName] logra ignorar [AttackerHisOrHer] exhibición sexy.",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|IabelCombatEvents|/|CharmStack|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

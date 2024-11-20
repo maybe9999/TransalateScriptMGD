@@ -1,0 +1,2416 @@
+{
+    "name": "Beris",
+    "IDname": "Beris",
+    "species": "Demonic Beast",
+    "gender": "female",
+    "description": "Una mujer de altura promedio con piel bronceada, una construcción tonificada y un cabello negro corto y salvaje con los aspectos más destacados de azul enmarcan su rostro bastante guapo, que combina perfectamente con la confianza de su sonrisa de dientes afilada.\n\nDos orejas de lobo negras grandes y esponjosos desde la parte superior de su cabeza, la pelusa interior es un azul profundo.Sus ojos son un azul brillante en medio de su esclera negra de tono, y las llamas azules profundas parpadean de los lados de sus ojos.\n\nSus brazos de adornos conducen a sus manos de humanos con garras, sus uñas son tan negras como su cabello.Sus pechos son una taza B, escondida detrás de un apretado sujetador deportivo negro y azul que se complementa con la gran chaqueta de color oscuro y de color oscuro de manga larga que también usa, desabrochada y abierta, mostrando su enano tonificado.\nSus caderas están adornadas en la piel, las arañas negras apretadas que hacen muy poco para esconder su cuerpo, y la chaqueta termina justo en sus caderas.Una gran cola de lobo esponjosa se balancea detrás de ella, brotando desde justo por encima de su firme trasera.\nSus delgadas piernas musculosas están completamente descubiertas, y usa calcetines simples y zapatos deportivos extraños en sus pies.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        "Scalding Taunt",
+        "Scalding Taunt",
+        "Scalding Taunt",
+        "Lust Blaze",
+        "Lust Blaze",
+        "Hostile Handjob",
+        "Hostile Handjob",
+        "Blazing Surge",
+        "Scalding Kiss",
+        "Heated Handjob",
+        "Blaze Impulse",
+        "Blazing Gyration",
+        "Scalding Sex",
+        "Inferno Pin",
+        "Melting Point",
+        "Scalding Domination"
+    ],
+    "perks": [
+        "Unshackled",
+        "Unbounded",
+        "Iron Will",
+        "Aphrodisiac Tolerant",
+        "Grappler",
+        "Monster Pacing",
+        "Swift",
+        "Swift",
+        "BondageLover",
+        "Slippery",
+        "Evasive",
+        "Sex Adept",
+        "Pinpoint Pleasure",
+        "Pleasure for Pleasure",
+        "Hellhounds Hunt"
+    ],
+    "stats": {
+        "lvl": "35",
+        "Exp": "550",
+        "max_hp": "666",
+        "max_ep": "250",
+        "max_sp": "1",
+        "Power": "30",
+        "Technique": "45",
+        "Intelligence": "10",
+        "Allure": "20",
+        "Willpower": "20",
+        "Luck": "15"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "80",
+        "Ass": "80",
+        "Breasts": "100",
+        "Mouth": "120",
+        "Seduction": "65",
+        "Magic": "100",
+        "Pain": "125",
+        "Holy": "125",
+        "Unholy": "75"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "25",
+        "Charm": "40",
+        "Aphrodisiac": "10",
+        "Restraints": "-25",
+        "Sleep": "999",
+        "Trance": "0",
+        "Paralysis": "0",
+        "Debuff": "10"
+    },
+    "moneyDropped": "1000",
+    "ItemDropList": [
+        {
+            "name": "Stylish Jacket",
+            "dropChance": "10"
+        },
+        {
+            "name": "Inferno Rune",
+            "dropChance": "15"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "InSexLoss",
+            "move": "",
+            "stance": "Sex",
+            "includes": [
+                "Beris"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "1",
+                "Beris",
+                "CallEventAndSceneThenReturn",
+                "BerisCombatEvents",
+                "ClothingOn?",
+                "IfPlayerHasStatusEffect",
+                "Restrain",
+                "InSexLossAmazon",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "While you twitch and spasm under Beris in defeat she slows down her bouncing hips before eventually stopping with a slow steamy exhale of heated air, smugly gazing down at her handiwork.",
+                "Speaks",
+                "Looks like you fucking hit your limit, bastard...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smugger",
+                "She lightly grinds and gyrates her toned waist in circles, massaging your aching dick with her powerfully muscled and hot pussy watching you twitch and tremble from the shocks of pleasure she's sending through you.",
+                "Speaks",
+                "{i}Shame{/i} I'm all worked the fuck up now and need to blow off some steam.",
+                "JumpToScene",
+                "SexLossScene"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "InSexLossAmazon",
+            "move": "",
+            "stance": "Sex",
+            "includes": [
+                "Beris"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "With your sore body left a twitching pleasure drunk mess in Beris' amazonian hold, she stops riding you for a moment, letting out a slow steamy exhale of heated air while smugly looking down at her handiwork.",
+                "Speaks",
+                "Looks like you fucking hit your limit, bastard...",
+                "ChangeImageLayer",
+                "Face",
+                "1",
+                "Blush",
+                "She lets go of your legs and your body is able to crumple back fully onto the ground while she stays straddling your waist, your achingly hard length still deep inside her melty hot pussy as it squeezes and massages your spent cock.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smugger",
+                "Speaks",
+                "{i}Shame{/i} I'm all worked the fuck up now and need to blow off some steam.",
+                "JumpToScene",
+                "SexLossScene"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "SexLoss",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Beris"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "1",
+                "Beris",
+                "CallEventAndSceneThenReturn",
+                "BerisCombatEvents",
+                "ClothingOn?",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "You crumple to the floor with a defeated whimper of pleasure, and Beris lets out a slow steamy exhale of heated air, letting the tension of combat drain from her slender body before striding over to look down at her handiwork smugly.",
+                "Speaks",
+                "Hehe, that all you got? Bastard...",
+                "ChangeImageLayer",
+                "Face",
+                "1",
+                "Blush",
+                "She bites her lips and sighs before smoothly straddling your waist, rubbing her warm, drooling pussy against your still semi-hard length, making it twitch and stiffen for her despite how spent it is, her hot arousal seeping into your hips.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smugger",
+                "Speaks",
+                "{i}Shame{/i} I'm all worked the fuck up now and need to blow off some steam.",
+                "She then guides your rigid erection inside her tight pussy, giving you a firm welcoming squeeze as she takes it inside with a low primal gasp, gyrating her hips in slow circles while a predatory gleam builds in her eyes.",
+                "JumpToScene",
+                "SexLossScene"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "SexLossScene",
+            "move": "theScene",
+            "stance": "NoEntry",
+            "includes": [
+                "Beris"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "PredatoryExcited",
+                "Speaks",
+                "Now you'll be a good fuck toy, whether you {i}want{/i} to or {i}not!{/i}",
+                "With a predatory growl of excitement Beris starts swinging her hips at a wild, mind-blanking pace, your already sore hips and cock pulsing with hot aching bliss that spreads out in rippling waves with each wet impact, and the hellhound lets out pleasured sighs as she begins to enjoy using her defeated prey.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Predatory",
+                "You can only twitch, shiver, and squirm under Beris as she makes use of your helpless form, riding your aching, oversensitive dick like her own personal sex toy with a carnivorous grin spread over her face as she pants out hot breaths of arousal. Shocks of ecstasy jolt all through your waist with each swing of her curvy hips.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Horny",
+                "As you let out a whimpering gasp of pleasure, your spasming cock fills her with a few spurts of cum that leave her arching her back slightly with an energetic, pleasured growl, her predatory gleam fading slightly as her satisfaction grows and her senses return. She still gives you zero down time despite just cumming again, riding you relentlessly and leaves your entire body melting with hot pleasure.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "Speaks",
+                "Mnng-!♥ Come on, fuck stick- I {i}know{/i} you can keep it up for me!♥",
+                "Your eyes roll up as the pleasure keeps rushing through you in a constant, primal rhythm, the hellhound letting out happy, pleasured moans as she uses you. Your cock throbs hotly inside her, eagerly spurting out another rope of cum as she continues frenetically fucking you into the ground.",
+                "As her satisfaction grows she gradually slows down, giving you the illusion of a breather as she bounces and grinds her hips back-and-forth and side-to-side while trailing her attractive long nails down your chest, sending hot tingly shocks of pleasure across your skin while she forces you to appreciate the warm, gooey heat seeping into you from your intimate connection, your dick achingly pulsing as it stays fully erect for her from the steamy warmth of her body.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smugger",
+                "Speaks",
+                "Hahhhh-♥ Fuck- I'm enjoying this more than I expected-!♥",
+                "Beris' domineering grin grows as she revels in the sight of you squirming and gasping in aching bliss, her nails lightly marking you as they teasingly run up and down your skin, her toned waist slowly ending its teasing gyrations in favor of swinging her curvy hips anew, bouncing on your twitching shaft until it lets out another leaking spurt of semen.",
+                "Speaks",
+                "Haha- and you look so fucking pathetic right now.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Predatory",
+                "She growls as she sets her hands firmly on your chest, supporting herself as she starts to ride you in full, slamming her hips up-and-down at a rapid pace that leaves you sloppily moaning in submission for her before you can form any kind of response to her barbs. Hot, aching bliss keeps you trembling with euphoric shocks from each wet impact of your hips meeting.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "PredatoryExcited",
+                "Speaks",
+                "But, {i}fuck-!{/i} You make for a goddess-damned {i}amazing{/i} dildo!",
+                "You groan in pleasure at her demeaning compliment, your hips jerking up as your spasming cock spurts inside her again in defeat, but the hellhound doesn’t care about how many climaxes you reach or how much semen you fill her with while she searches for her own enjoyment with your body. Your dick throbs and aches feeling like it could break from her rough riding, threatening to spurt with each swing of her hips as her hot arousal seeps into you more and more.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "HornyBiteLip",
+                "Speaks",
+                "Fucking hell- deeper-! I need {i}more-!{/i}",
+                "She deftly grabs your ankles and hoists your entire lower body into the air in a firm amazonian hold while she keeps slamming her hips down all through the position shift, your cock trembling with each melty impact sending a hot pulse shooting through your entire body right into your fucked-senseless brain, the ever-increasing hellish heat leaving you even more submissively drunk on pleasure.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Predatory",
+                "Speaks",
+                "{i}There-!{/i}",
+                "With the new position set, your legs and hips lifted high above you while you're ridden into the ground and treated like a living sex toy, Beris roughly leverages her tight hold on you to swing her toned waist harder and faster, growling with blissful pleasure as she hilts your aching erection deep inside her tightly squeezing pussy again and again, hot, blissful waves of soreness radiating all through your hips.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Horny",
+                "She pants and gasps with pleasure, letting out hot and heavy moans as she uses you and loses herself to her predatory instincts. Your dick feels like it's melting inside of her from the hot, squeezing pleasure, each impactful swing of her waist driving you further and further into a messy pleasure high, your tip leaking more and more until it unloads a thick rope of cum into her. She pays it no heed, her own heated desires swelling as she shivers in bliss.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Predatory",
+                "Beris excitedly and wordlessly rides you with growing intensity, your still leaking dick pulsing and trembling before it unloads inside her again with a hot throb, spurting out {i}another{/i} thick load as she swings her hips down- then {i}again{/i} and {i}again{/i} as she rides you, wringing out every drop of cum from you like a broken faucet, growling with excitement as you're left a whimpering, pleasure-drunk mess under her to use as she pleases.",
+                "Your vision slowly starts to darken and swim as Beris shows no sign of relenting, your dick eventually unable to let out any more semen, left to tremble in aching overstimulation as it can't find any more release despite the building, heated pleasure from the hellhound’s swinging hips as you're used like a mere sex toy for her pleasure, her hot, steamy gasps sending shivers all across your skin, until you finally black out completely...",
+                "...",
+                "ChangeSensitivity",
+                "Sex",
+                "10",
+                "ChangeSensitivity",
+                "Pain",
+                "10",
+                "ChangeFetish",
+                "Sex",
+                "10"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "SetMusicTo",
+            "move": "",
+            "theText": [
+                "music/Battle/Purple_Planet_Music_-_Punching_Bag_3_47_130bpm.mp3"
+            ]
+        },
+        {
+            "lineTrigger": "StartOfCombat",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|Intro|n|"
+            ]
+        },
+        {
+            "lineTrigger": "EndOfRound",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|OverheatContactTimer|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Holy Headpat",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|HeadpatReact|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Whip",
+                "Demon Layer"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'Ghhiee!♥'|f|ChangeImageLayer|/|Expression|/|Scowl|n|'A-Asshole!'",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'Ahhhh!♥'|f|ChangeImageLayer|/|Expression|/|Scowl|n|'B-Bastard!'",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'Ghhh-!♥'|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Y-You-!'",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'Hnn-!♥'|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Bitch!'",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n|'Hhgg-!♥'|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Whore!'",
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'Y-You-!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'B-Bastard!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'¡F-Fuck You!-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'A-Asshole!-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'J-Jerk!-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'¡No sentí eso!-'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'F-for- ♥ folla el bien-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'¡El infierno está mal contigo-!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithPre",
+            "move": [
+                "Bondage Net",
+                "Magical Binding"
+            ],
+            "theText": [
+                "|f|PlayMotionEffect|/|Crash|n||f|ChangeImageLayer|/|ImageSetDontCarryOver|/|BerisLewds|n||f|ChangeImageLayer|/|Bindings|/|Ropes|n||f|ChangeImageLayer|/|Expression|/|Flustered|n||f|CallCombatEventAndScene|/|BerisCombatEvents|/|SexCheck|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithPre",
+            "move": [
+                "Pin"
+            ],
+            "theText": [
+                "|f|PlayMotionEffect|/|Crash|n||f|ChangeImageLayer|/|ImageSetDontCarryOver|/|BerisLewds|n||f|ChangeImageLayer|/|Arm|/|Arm|n||f|ChangeImageLayer|/|Expression|/|Flustered|n||f|CallCombatEventAndScene|/|BerisCombatEvents|/|SexCheck|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Bondage Net",
+                "Magical Binding",
+                "Pin"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|ClothingCheck|n||f|ChangeImageLayer|/|Expression|/|Flustered|n|'Eh!?'",
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|ClothingCheck|n||f|ChangeImageLayer|/|Expression|/|Flustered|n|'¡H-Hold en un puto segundo!'",
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|ClothingCheck|n||f|ChangeImageLayer|/|Expression|/|Flustered|n|'¡Espera no-!'",
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|ClothingCheck|n||f|ChangeImageLayer|/|Expression|/|Flustered|n|'B-Bastard!'",
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|ClothingCheck|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'No voy a liberarme de esto, no hay problema ...'",
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|ClothingCheck|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'Esto no es nada ...'",
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|ClothingCheck|n||f|ChangeImageLayer|/|Expression|/|Shy|n|¡Fu-Fuck You!",
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|ClothingCheck|n||f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Oh joder ...'",
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|ClothingCheck|n||f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'I- uh-'",
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|ClothingCheck|n||f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Ahhn-! ♥'|f|ChangeImageLayer|/|Expression|/|Shy|n|'¡No gemí la jodida!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Lewd Bottle",
+                "Cloying Mist",
+                "Placebo Pheromone"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'¡¿Acabas de drogarme?'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|\"Solo estás rogando que te rompan tus malditas caderas\".",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Tu Dick te va a odiar por hacer eso'.",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmm? ♪ que huele bastante bien. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Spank"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'Eek-!♥'|f|ChangeImageLayer|/|Expression|/|Scowl|n|'B-Bastard!'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'Heeii-!?♥'|f|ChangeImageLayer|/|Expression|/|Shy|n|'A-Asshole!'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'Ahn-!? ♥'|f|ChangeImageLayer|/|Expression|/|Scowl|n|'¡F-Fuck You!'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Ghhh-!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Bastard...'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'B-Bastard-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Pervert-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'A-Asshole-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'¡Y vas a pagar por eso-!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Grope Ass",
+                "Squeeze Ass",
+                "Massage Ass",
+                "Fondle Ass",
+                "Breast Caress",
+                "Breast Massage",
+                "Breast Knead",
+                "Breast Fondle"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n|'¡Manos alejados!'",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Ghhh-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Esto no se siente bien, dipshit ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'B-Bastard-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'C-corta eso ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Mnnn...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Hmnnh...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'¡Maldito perv-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n|'Eso todo ...?'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'¡Joder-!Estúpido...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pinch Nipples",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'Eek-!♥'|f|ChangeImageLayer|/|Expression|/|Scowl|n|'B-Bastard!'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'Heeii-!?♥'|f|ChangeImageLayer|/|Expression|/|Shy|n|'A-Asshole!'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'Ahn-!? ♥'|f|ChangeImageLayer|/|Expression|/|Scowl|n|'¡F-Fuck You!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'B-Bastard-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Pervert-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'A-Asshole-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'¡Y vas a pagar por eso-!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Finger",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Ghhh...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Mnnn...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Quemaré tu estúpido dedo ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Bastard...'",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Tch-'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Dildo",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Coward...'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'No es {i} que {/i} grande ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Asshole...'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Pervert-!'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Ghhh...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Mnnn...♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|¡Wh- Kn-Knock it the Fuck Off!",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'B-Bastard...'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|Beris se ve un poco aturdido por el beso ...",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'¡C-corta la mierda!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Mnnnn ... ♥ J-Jerk!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Hhhnn ... ♥ F-Fuck You ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Make Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'D-Don, ¿no estás jodido Dar- mnngm!? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Mnmnnn- ♥ B-Bashtard- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'¿Mnng? ♥ ¡Te besaré sin sentido!",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Wh- mmm- ♥ f-fuckin-'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'TH-esto es mmmh- ♥ nada ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|Beris devuelve aproximadamente tu beso con un gruñido."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Deep Kiss",
+                "Lovingly Rough Kiss",
+                "Skillfully Passionate Kiss",
+                "Misty Kiss",
+                "Sensually Seductive Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Mnmnnn- ♥ B-Bashtard- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'TH-esto es mmmh- ♥ nada ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Mnn- ♥ no perderé-'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Mostraré mnnnhp- ♥ y-you-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'F-Fuck-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|Beris devuelve aproximadamente tu beso con un gruñido."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Arouse",
+                "Arousara",
+                "Arousero"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Ba-Bastard-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Ghhmmnn!-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'W-was todo joder- girando antes-?'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Y-you- ♥ ¡Te pagaré por eso!'",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Asshole-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Tch-!I-yo apenas lo sentí.",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Hhmmmmn-!♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Electrify",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'¡Heeiii! ♥ I- F-Fuck- ¡tú!¡No sentí eso!",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasure|n|'Ohhh!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasure|n|'Ghhhh!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'W-was todo joder- girando antes-?'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'GHMMNN-! ♥ I-¡No gemí, jódete!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|¡D-no jodidamente hacer eso de nuevo! '",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'¡Ahhhh! ♥ F-Fucking- B-Bastard!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Seduce",
+                "Enamor",
+                "Smoldering Seduction",
+                "Smoldering Flaunt",
+                "Massaging Seduction",
+                "Mass Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n|'Vete a la mierda.'",
+                "|f|ChangeImageLayer|/|Expression|/|FrownAngry|n|'Morderme gilipollas'.",
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n|'Empéjalo'.",
+                "|f|ChangeImageLayer|/|Expression|/|FrownAngry|n|'Hablar es barata'.",
+                "|f|ChangeImageLayer|/|Expression|/|Tch|n|'Guárdelo'.",
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n|'Bastardo.¿Realmente crees que eso funcionará?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Ear Tease",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'¡Wh- Guh- noquelo!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'F-fucking weirdo-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|¡Fuck ya!",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'¡¿Quieres que te mordiera?'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Jodido pervertido'."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Charm",
+                "Charm Wave"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'{i} genial! {/i} Ahora estoy {i} realmente {/i} jodidamente cachondo!'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|¡Voy a follar a tus estúpidos cerebros!",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Oh- deberías correr. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Estúpido- Magia ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Enfeeble",
+                "Sensitize"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'¡¿Qué diablos acabas de hacer?' '",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Estúpido- Magia ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'¿Por qué el {i} joder {/i} soy {i} complicado? {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|Vas a pagar por eso bastardo."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Disarming Appeal"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'I- uh ... joder, ¿he estado exagerando?",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Uhhh ... mierda ... no estés ... uh ... asustado?'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'Espera- mierda, no vas a llorar, {i} ¿verdad? {/i}'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithPre",
+            "move": [
+                "Penetrate"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|SexInsert|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Penetrate",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|Penetrate|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithPre",
+            "move": [
+                "Thrust",
+                "Channeling Thrust",
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck",
+                "Tantric Thrust",
+                "Passionate Lovemaking",
+                "Anal Piston"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|Thrust|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|FuckingBasic|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|FuckingHard|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|FuckingLoving|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithPre",
+            "move": [
+                "Anal Penetration"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|AnalInsert|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|Penetrate|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|FuckingBasic|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck",
+                "Anal Piston"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|FuckingHard|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|FuckingLoving|n|"
+            ]
+        },
+        {
+            "lineTrigger": "Escape",
+            "move": [
+                "Distract",
+                "Teleport"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Frustrated|n|'Bitch!'",
+                "|f|ChangeImageLayer|/|Expression|/|Frustrated|n|'Bastard!'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'¡No puedes correr para siempre!'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Por el amor de Dios ...'"
+            ]
+        },
+        {
+            "lineTrigger": "EscapedRestraint",
+            "move": [
+                ""
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|EndCG|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMovePre",
+            "move": [
+                "Scalding Taunt",
+                "Hostile Handjob",
+                "Blazing Surge",
+                "Scalding Kiss",
+                "Heated Handjob",
+                "Blaze Impulse",
+                "Blazing Gyration",
+                "Scalding Sex"
+            ],
+            "theText": [
+                "|f|GetEventAndChangeProgress|/|Labyrinth Floor 2|/|10|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMovePre",
+            "move": [
+                "Lust Blaze",
+                "Wild Inferno",
+                "Lust Inferno"
+            ],
+            "theText": [
+                "|f|GetEventAndChangeProgress|/|Labyrinth Floor 2|/|15|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Lust Blaze",
+                "Lust Inferno"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|GrinCocky|n|'¡Prueba esto!'",
+                "|f|ChangeImageLayer|/|Expression|/|GrinCocky|n|¡Te quemaré!",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"¡Vas a ponerte un poco más que caliente y molesto!",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Pronto serás un charco patéticamente maulloso en el piso!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿Qué pasa maldito?'",
+                "|f|ChangeImageLayer|/|Expression|/|GrinSmirk|n|¡Vamos bastardo!"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Hostile Handjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"No vas a durar mucho, así que apúrate y se joderan ya\".",
+                "|f|ChangeImageLayer|/|Expression|/|GrinSmirk|n|'¿En serio?Como si esta cosa me hiciera sentir bien.",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|\"No eres más que presa de mí, bastardo\".",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Maldito infierno eres patéticamente fácil de atrapar'.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Vas a estar jodidamente rogándome por más'.",
+                "|f|ChangeImageLayer|/|Expression|/|GrinSmirk|n|'Jaja- estás titulando con {i} cada trazo {/i}.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"Vas a jodidamente correrse si quieras o no\"."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Scalding Taunt",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|\"Joder, te ves patético\".",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|\"Vas a ser un maldito desastre una vez que haya terminado contigo\".",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'Como un bastardo polla cojeado como si pudieras placer {i} me {/i}'.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"Como si tenías una oportunidad contra mí, no eres más que un maldito juguete sexual\".",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"Será mejor que comiences a ejecutarle dipshit, o te voy a comer\".",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"Te haré gemir patéticamente por jodido misericordia en muy poco tiempo\"."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Scalding Kiss",
+                "Heated Handjob"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'Mnng- ♥ bastard- mmmph- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'Mnnph- ♥ Asshole- nmmp- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'Fuck- mmmmph- ♥ you-'",
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'Mmmmph- ♥ jackass- mnng- ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Blaze Impulse"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'¡Ahora más atornillándose!'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'¡Bastardo!¡No más juegos previos!",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'¡Suficiente besos!¡Estamos jodiendo!{i} ahora! {/i} '"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Blazing Gyration"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Joder- ♥ ¡Es mejor que no te vayas suave-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Hahhhh-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Los dos vamos a sobrecalentarse a este ritmo- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'Simplemente se pondrá más caliente- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'Si envías, {i} tal vez {/i} seré gentil- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Voy a hacer que tu polla se derrita- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Voy a hacer que tu polla se derrita- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Mnnn-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'TH-esto no es un rompe ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Scalding Sex"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Jajaja, estás titulando por todas partes de {i} esto? {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"Vamos bastardo, eres mejor que un juguete sexual, ¿verdad?",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Estás jodidamente temblando y jadeando {i} así {/i} patéticamente'.",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'No vas a superarme, solo se rinde'.",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|¡Déjame escuchar más de tus patéticos gemidos!",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|\"Como si perdiera ante una polla como la tuya."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Wild Inferno"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|GrinCocky|n|'¡Vamos, vamos!",
+                "|f|ChangeImageLayer|/|Expression|/|GrinCocky|n|'More!♥",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'¡Al menos mueve las caderas dipshit!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'¡Qué jodidamente patético!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Jajaja!Qué ocurre-?!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|¡Al menos eres un consolador decente!",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Fuck-!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Hahhh!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Ghhh!♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Inferno Blitz"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Vamos, vamos!",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Jajaja!Qué ocurre-?!'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Sí! ♥ retorcerse más! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Hahaha!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¡Sin descansos! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|PredatoryExcited|n|'More!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|PredatoryExcited|n|'Eres {i} yendo {/i} para perder! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|PredatoryExcited|n|'Vamos {i} lucha! ♥ {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|PredatoryExcited|n|'¡Eres todos míos!'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Melting Point"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Joder- ♥!Necesito {i} más! {/i} '",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Hahhhh-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Hahhhh-♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Ven en la pelea- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'Simplemente va a obtener {i} Hotter- ♥ {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'Si envías, {i} tal vez {/i} seré gentil- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Voy a hacer que tu polla se derrita- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|'Voy a hacer que tu polla se derrita- ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Scalding Domination"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'Eres jodidamente patético! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Vamos bastardo, ♥ eres mejor que un juguete sexual, ¿verdad? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Estás jodidamente temblando y jadeando {i} Entonces {/i} patéticamente. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'No me vas a más allá, solo se rinde. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'¡Déjame escuchar más de tus patéticos gemidos! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡' ¡♥ '♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Voy a hacerte correrte hasta que tu polla se rompa! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'¿Es esto todo lo que puedes hacer? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n||f|ChangeImageLayer|/|Face|/|Blush|n|'F-Fuck You, no estoy cerca ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n||f|ChangeImageLayer|/|Face|/|Blush|n|'F-Fuck...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Ghh ... ♥ I-I''d Voy a correrme!"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'Estás obteniendo {i} Cerrar! {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'Vas a perder {i}. {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'Vas a derretir con un maldito placer'.",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|\"Voy a hacerte retorcerse y mewl mientras te corres de tus jodidos cerebros\".",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|\"No puedes contener mucho más\"."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": [
+                "Melting Point",
+                "Inferno Blitz",
+                "Scalding Domination"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|Beris sonríe brutalmente mientras monta su longitud de espasmo de forma rápida y dura, la reunión húmeda de ustedes, las caderas, resonando en el aire mientras está atrapado atrapado en el piso, su cintura elevada para su uso gratuito gracias a su apretada agarre de sus piernas, impotente ver su cuerpo en forma rebotar hacia arriba y hacia abajo en su polla espasmante mientras sientes que la rendición feliz comienza a subir bien en tu núcleo.|f|ChangeImageLayer|/|Expression|/|PredatoryExcited|n|Dejas escapar un llanto de éxtasis mientras tu polla estalla dentro de ella con otro ritmo hacia abajo de su cintura, tu cabeza se en blanco mientras no deja de rebotar, tu polla goteando desordenadamente y brotando la constante sobreestimulación mientras la mujer del Hellhound gruñe ySe ríe en el disfrute de la patética vista debajo de ella.",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|Con una exhalación calurosa y pesada, las llamas azules de Beris parpadean eróticamente sobre su sudor brillante para ti, lamiendo y burlándose a medida que calientan tu núcleo con lujuria, mientras ella lentamente gira y balancea sus caderas curvas, mostrando cada parte de ella sensualmenteForma forma con cada movimiento, su polla palpitaba y se sacudía dentro de ella ansiosa por ceder ante el calor pulsante.|f|ChangeImageLayer|/|Expression|/|Smug|n|Luego deja escapar una risa baja y seductora mientras te ve que te retira y gime debajo de ella a cambio de morarse, antes de levantar las caderas un breve momento antes de golpearlas en tu tontería, escurriendo una espesa carga de semen deSu forma indefensa, el calor sumiso cálido en sus lomos solo ardiendo más brillantes a medida que te ordeñas, tu polla más fuerte que nunca y lista para más a pesar de tu agotamiento.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Beris se burla de ti con su voz burlona, ​​sus palabras se borraron y retorciendo mientras te monta más o menos como un mero juguete sexual, ni siquiera puedes distinguir lo que está diciendo, pero cada una burla acuática todavía te deja temblar con el edificio felices, felicidad, sumisión,Sus caderas oscilantes conducen a casa su lugar debajo de ella mientras estallas por dentro en un clímax mental, temblando y jadeando en euforia borracha.|f|ChangeImageLayer|/|Expression|/|Smugger|n|Finalmente puedes distinguir sus palabras mientras ella te mira con problemas mientras te ríes con la tierra, todavía rebotando en tu polla espasmante.'Joder, te ves patético. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|Beris gruñe con alegría depredadora mientras ella te hace uso en la prensa amazónica que te tiene atrapado, tu cuerpo duele felizmente a medida que se entumece con un cálido placer, cada ritmo salvaje de sus caderas curvas te rompe cada vez más hasta que finalmente estallasDentro de ella, gimiendo y temblando mientras apenas registra tu clímax y sigue viajando más fuerte y más rápido."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Anal",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|AnalOrgasm|n||c|"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Sex",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|SexOrgasm|n||c|"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|Mientras agitan agresivamente la boca con la lengua y mira a los ojos, Beris bombea rápidamente su polla y espasmo hasta que te dejan gemir en la boca mientras las piernas casi ceden debajo de ti mientras brotas una carga espesa en el aire yLa mujer de Hell Hound Hounds sigue acariciándote en la sumisión.",
+                "|f|ChangeImageLayer|/|Expression|/|HornyBiteLip|n|A medida que su cabeza se queda girando y pulsando con placer por el beso cada vez más intenso de Beris, su lengua ataca sin cesar la tuya, enredando y presionándolo para que se sometiera, se frota ligeramente la pierna contra su ingle, la dicha montada y construyendo hasta que finalmente estalles a todosSobre su muslo y tu semilla empapada en ella en un instante."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Cuando te queda al borde del clímax, Beris avanza con una confianza engreída pintada sobre su rostro, levanta suavemente una mano frente a tu cara y le rompe ligeramente los dedos de forma larga, enviando una explosión de llamas azules retorcidas queLame a través de ti en una ola de derretir la mente, dejándote gemir y temblando mientras tu polla brota en el aire.|n||f|ChangeImageLayer|/|Expression|/|Smugger|n|Mientras jadeas y gimias, Beris deja escapar una risa y se aleja con calma de ti, dándote un breve momento para recuperarte de la oleada de placer.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Mientras que el placer deja tu cuerpo temblando de debilidad, Beris deja escapar una risa arrogante mientras da unos pasos más cerca de ti, presionando su cuerpo tonificado contra ti con una exhalación caliente mientras su dedo de forma larga se arrastra muy ligeramente a lo largo de la parte inferior de tu contracciónLa polla derritiendo tus pensamientos con una cálida ola de dicha caliente.|n||f|ChangeImageLayer|/|Expression|/|Smugger|n|'Se trata de tu bastardo, solo corre. ♥ deja que salga- ♥ No puedes detenerlo más, así que solo envía y {i} spurt. ♥ {/i}'|f|ChangeImageLayer|/|Expression|/|Smug|n|El aliento caliente de Beris y las palabras susurrantes en blanco por completo mientras te mantiene suavemente acercándote más cerca del clímax con sus dedos, dejándote gemir patéticamente, desplomando en su poderoso cuerpo mientras tu polla cede a su voz resonando dentro de ti.|n|Until you're finally left spasming and spurting out ropes of seed from just her light touch and warm domineering voice, and the hellhound woman steps back from your slumping form with a chuckle.",
+                "|f|ChangeImageLayer|/|Expression|/|GrinSmirk|n|Al alcanzar su límite, es una presa fácil para que Beris se encienda y agarre firmemente su polla y permeable con sus dedos suaves para comenzar a bombearlo salvajemente a la sumisión total mientras se frota sus suaves tetas contra su costado y respiran con ruta en la oreja.|f|ChangeImageLayer|/|Expression|/|Smug|n|'Te tengo. ♥ Ahora sopla tu estúpida carga. ♥ Vamos, es demasiado tarde para intentar resistir. ♥'|f|ChangeImageLayer|/|Expression|/|Smugger|n|Ella deja escapar una risa susurrante en la oreja mientras te estremece y jadea con el clímax, su mano bombeando más o menos que te termina fácilmente, acariciando fuertemente y ordeñando tu polla hojas hasta que tu carga se gaste por completo.Luego se aleja, sacudiendo su semilla de su mano hacia un lado mientras aprecia su cuerpo tembloroso."
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n||f|ChangeImageLayer|/|Face|/|BlushHeavy|n|'F-fu- mnngggg-! ♥'|f|ChangeImageLayer|/|Expression|/|Orgasm|n|{i} 'ohhhhhh!-♥' {/i}",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n||f|ChangeImageLayer|/|Face|/|BlushHeavy|n|'No voy a ir-! ♥'|f|ChangeImageLayer|/|Expression|/|Orgasm|n|{i} 'hahhhhhh!-♥' {/i}",
+                "|f|ChangeImageLayer|/|Expression|/|ResistPleasureGrit|n||f|ChangeImageLayer|/|Face|/|BlushHeavy|n|'F-Fuck yo-! ♥'|f|ChangeImageLayer|/|Expression|/|Orgasm|n|{i} 'ouuuuhhhhooo!-♥' {/i}"
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'{i} en serio? {/i} ... bueno, también podría soplar jodidamente un poco de vapor ...'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Anal",
+            "theText": [
+                "[ThePlayerName] intenta liberarse de [AttackerName] apretando la parte trasera ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Anal",
+            "theText": [
+                "Pero antes de que puedas, ella bloquea firmemente sus poderosas piernas tonificadas alrededor de la cintura, manteniéndote firmemente alojado en el fondo de ella, dejándote jadeando con el abrazo Melty.",
+                "Pero hay una llamarada de llamas agradables que se lave sobre tus cuerpos mientras ella te sonríe arrojando mientras te dejan temblar con un cálido placer.",
+                "Pero prácticamente te golpea al suelo con su cuerpo tonificado en una oleada de movimiento, saltando salvajemente y con entusiasmo en su longitud rígida para mantenerlo en su lugar.",
+                "Pero ella te agarra más o menos las muñecas y te atrapa brevemente con una sonrisa de dientes, asegurándose de que no puedas escapar de sus caderas salvajemente balanceándose por el momento.",
+                "Pero cada reunión áspera y rítmica de sus caderas envía una felicidad cálida a través de su cintura entera, dejando la fuerza filtrándose de sus extremidades en medio del sexo salvaje."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Anal",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'¡Jódete,!'",
+                "|f|ChangeImageLayer|/|Expression|/|GrinCocky|n|'No You-Mn-! ♥ Joder no-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'¡El infierno mmmph-! ♥ te estás escapando-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡No te muevas, juguete sexual-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'¡Actúe ya!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|Eres patético"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Anal",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|EndSex|n|¡Y aléjate de la sesión de mierda salvaje y dominante!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Bitch!'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Bastard!'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Asshole!'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Jackass!'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Coward!'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Sex",
+            "theText": [
+                "[ThePlayerName] intenta liberarme de [AttackerName] Pussy muy apretado ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Sex",
+            "theText": [
+                "Pero antes de que puedas, ella bloquea firmemente sus poderosas piernas tonificadas alrededor de la cintura, manteniéndote firmemente alojado en el fondo de ella, dejándote jadeando con el abrazo Melty.",
+                "Pero hay una llamarada de llamas agradables que se lave sobre tus cuerpos mientras ella te sonríe arrojando mientras te dejan temblar con un cálido placer.",
+                "Pero prácticamente te golpea al suelo con su cuerpo tonificado en una oleada de movimiento, saltando salvajemente y con entusiasmo en su longitud rígida para mantenerlo en su lugar.",
+                "Pero ella te agarra más o menos las muñecas y te atrapa brevemente con una sonrisa de dientes, asegurándose de que no puedas escapar de sus caderas salvajemente balanceándose por el momento.",
+                "Pero cada reunión áspera y rítmica de sus caderas envía una felicidad cálida a través de su cintura entera, dejando la fuerza filtrándose de sus extremidades en medio del sexo salvaje."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Sex",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'¡Jódete,!'",
+                "|f|ChangeImageLayer|/|Expression|/|GrinCocky|n|'No You-Mn-! ♥ Joder no-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'¡El infierno mmmph-! ♥ te estás escapando-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡No te muevas, juguete sexual-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'¡Actúe ya!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|Eres patético"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Sex",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|BerisCombatEvents|/|EndSex|n|¡Y aléjate de la sesión de mierda salvaje y dominante!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Bitch!'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Bastard!'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Asshole!'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Jackass!'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Coward!'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Making Out",
+            "theText": [
+                "[ThePlayerName] intenta romper el beso áspero con [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Making Out",
+            "theText": [
+                "Pero Beris bloquea firmemente los brazos alrededor de la parte posterior de su cuello, dándole ninguna forma de alejarse de ella mientras ella mira a los ojos mientras mantiene el intenso beso.",
+                "Pero la lengua agresiva de Beris deja tu cabeza espaciándose mientras ella domina tu boca un momento, dándole tiempo suficiente para frotar contra ti y burlarse de ti en su lugar.",
+                "Pero los hábiles dedos de Beris se apoderan firmemente de tu polla rígida y te acarician salvajemente para que vuelvas a la felicidad agradable mientras ella se escapa contigo, su mirada con un buen ceño fruncido."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Making Out",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'Joder mnn- ♥ tú-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'No You-Mn-! ♥ Joder no-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'¡El infierno mmmph-! ♥ te estás escapando-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Sneer|n|'Como si-!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'¡Actúe ya!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smugger|n|'Pathetic.'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Making Out",
+            "theText": [
+                "¡Y libera tu boca de la sesión de Makeout agravada de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Bitch!'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Bastard!'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Asshole!'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Jackass!'",
+                "|f|ChangeImageLayer|/|Expression|/|Scowl|n|'Coward!'"
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Beris",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.18",
+                    "Images": [
+                        {
+                            "Name": "Body",
+                            "File": "Monsters/Beris/Body_Beris.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Collar",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Collar",
+                            "File": "Monsters/Beris/Extra_Beris_Collar.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Clothing",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Clothed",
+                            "File": "Monsters/Beris/Clothing_Beris.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Bondage",
+                            "File": "Monsters/Beris/Clothing_Beris_Bondage.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Beris/Face_Beris_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Beris/Face_Beris_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushLight",
+                            "File": "Monsters/Beris/Face_Beris_BlushLight.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushHeavy",
+                            "File": "Monsters/Beris/Face_Beris_BlushHeavy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Frown",
+                            "File": "Monsters/Beris/Expression_Beris_Frown.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FrownAngry",
+                            "File": "Monsters/Beris/Expression_Beris_FrownAngry.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Flustered",
+                            "File": "Monsters/Beris/Expression_Beris_Flustered.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shy",
+                            "File": "Monsters/Beris/Expression_Beris_Shy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Frustrated",
+                            "File": "Monsters/Beris/Expression_Beris_Frustrated.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Grin",
+                            "File": "Monsters/Beris/Expression_Beris_Grin.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "GrinCocky",
+                            "File": "Monsters/Beris/Expression_Beris_GrinCocky.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "GrinSmirk",
+                            "File": "Monsters/Beris/Expression_Beris_GrinSmirk.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Happy",
+                            "File": "Monsters/Beris/Expression_Beris_Happy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HappyToothy",
+                            "File": "Monsters/Beris/Expression_Beris_HappyToothy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Horny",
+                            "File": "Monsters/Beris/Expression_Beris_Horny.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HornyBiteLip",
+                            "File": "Monsters/Beris/Expression_Beris_HornyBiteLip.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Predatory",
+                            "File": "Monsters/Beris/Expression_Beris_Predatory.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PredatoryExcited",
+                            "File": "Monsters/Beris/Expression_Beris_PredatoryExcited.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ResistPleasure",
+                            "File": "Monsters/Beris/Expression_Beris_ResistPleasure.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ResistPleasureGrit",
+                            "File": "Monsters/Beris/Expression_Beris_ResistPleasureGrit.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Scowl",
+                            "File": "Monsters/Beris/Expression_Beris_Scowl.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Beris/Expression_Beris_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smugger",
+                            "File": "Monsters/Beris/Expression_Beris_Smugger.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sneer",
+                            "File": "Monsters/Beris/Expression_Beris_Sneer.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Surprise",
+                            "File": "Monsters/Beris/Expression_Beris_Surprise.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Tch",
+                            "File": "Monsters/Beris/Expression_Beris_Tch.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TchAtYou",
+                            "File": "Monsters/Beris/Expression_Beris_Tch.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Adoration",
+                            "File": "Monsters/Beris/Expression_Beris_Adoration.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Bliss",
+                            "File": "Monsters/Beris/Expression_Beris_Bliss.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/Beris/Expression_Beris_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "GrinStrained",
+                            "File": "Monsters/Beris/Expression_Beris_GrinStrained.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Flames",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Flames",
+                            "File": "Monsters/Beris/Extra_Beris_Flames.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "BerisLewds",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Body.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Bindings",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Ropes",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Ropes.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Arm",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Arm",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ArmBody",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "Arm",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Arm",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Arm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ArmSilhouette",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "Arm",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Arm",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Arm_Silhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "DickSex",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thrust",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Pussy",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "DickSex",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PussyInsert.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PussyInsert.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "DickSexBody",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "DickSex",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_PussyFloat.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_PussyInsert.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_PussyThrust.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "DickSexSilhouette",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "DickSex",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_PussyFloat_Silhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_PussyInsert_Silhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_PussyThrust_Silhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "DickSexMotionLines",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "DickSex",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_PussyThrust_MotionLines.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "SemenSex",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_PussyFloat_Semen.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_PussyInsert_Semen.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "InsertClimax",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_PussyInsert_SemenClimax.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "DickAnal",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thrust",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Ass",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "DickAnal",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_AssInsert.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_AssInsert.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "DickAnalBody",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "DickAnal",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_AssFloat.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_AssInsert.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_AssThrust.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "DickAnalSilhouette",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "DickAnal",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_AssFloat_Silhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_AssInsert_Silhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_AssThrust_Silhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "DickAnalMotionLines",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "DickAnal",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_AssThrust_MotionLines.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "SemenAnal",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_AssFloat_Semen.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_AssInsert_Semen.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "InsertClimax",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_AssInsert_SemenClimax.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Frown",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Frown.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Adoration",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Adoration.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Bliss",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Bliss.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Flustered",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Flustered.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Horny",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Horny.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HornyBiteLip",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_HornyLipBite.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ResistPleasure",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_ResistPleasure.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ResistPleasureGrit",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_ResistPleasureGrit.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Scowl",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Scowl.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shy",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Shy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Surprise",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Surprise.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Tch",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Tch.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TchAtYou",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_TchAtYou.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OralFlustered",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_ExpressionOral_Flustered.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OralGlareBack",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_ExpressionOral_GlareBack.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OralHorny",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_ExpressionOral_Horny.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OralOrgasm",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_ExpressionOral_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OralPleasured",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_ExpressionOral_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OralTch",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_ExpressionOral_Tch.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FrownAngry",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Scowl.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Frustrated",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Frown.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Grin",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_HornyLipBite.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "GrinCocky",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_HornyLipBite.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "GrinSmirk",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_TchAtYou.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Happy",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Adoration.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HappyToothy",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Adoration.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Predatory",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Frown.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PredatoryExcited",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Frown.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_TchAtYou.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smugger",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Frown.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sneer",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Scowl.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "GrinStrained",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Expression_Adoration.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Oral",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "DickOral",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_OralInsert.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_OralInsert.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Hilt",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_OralInsert.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HiltThrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_OralInsert.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "DickOral",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thrust",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Hilt",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HiltThrust",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "DickOralBody",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "DickOral",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_OralFloat.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_OralInsert.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_OralThrust.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Hilt",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_OralHilt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HiltThrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_OralHilt_Thrust.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "DickOralSilhouette",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "DickOral",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_OralFloat_Silhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_OralInsert_Silhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_OralThrust_Silhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Hilt",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_OralHilt_Silhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HiltThrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_OralHilt_Thrust_Silhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "DickOralMotionLines",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "DickOral",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_OralThrust_MotionLines.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Hilt",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HiltThrust",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_OralHilt_Thrust_MotionLines.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "SemenOral",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Float",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_OralFloat_Semen.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Insert",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_OralInsert_Semen_Climax.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Hilt",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_PP_OralHilt_Semen.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushHeavy",
+                            "File": "Monsters/Beris/Beris lewd CG/BerisLewd_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

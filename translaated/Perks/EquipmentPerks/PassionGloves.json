@@ -1,0 +1,21 @@
+{
+    "name": "Passion Gloves",
+    "description": "Aumente su oportunidad crítica de golpes en un 10%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "CritChanceBoost"
+    ],
+    "EffectPower": [
+        "10"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

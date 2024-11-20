@@ -1,0 +1,54 @@
+{
+    "name": "Bondage Net",
+    "cost": "20",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "500",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "statusEffectScaling": "30",
+    "requiredStat": "10",
+    "skillTags": [
+        "Afflictions"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Restrain",
+    "statusChance": "75",
+    "statusDuration": "0",
+    "statusPotency": "15",
+    "statusResistedBy": "Technique",
+    "statusText": "bound",
+    "descrip": "¡Atrapan a tu enemigo con una gran red de cuerdas mágicas para atarme!No debe estar en una postura.",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] arroja una gran red a [TargetYouOrMonsterName] que rápidamente los ata de manera pervertida, ¡dejándolos inmovilizados!",
+    "statusMiss": "[AttackerName] throws a large net at [TargetYouOrMonsterName], but [TargetHeOrShe] deftly avoids it.",
+    "restraintStruggle": "[TargetName] struggles against the tightly binding ropes...",
+    "restraintStruggleCharmed": "[TargetName] squirms against the tightly binding ropes...",
+    "restraintEscaped": "And breaks free, shredding the ropes in the process!",
+    "restraintEscapedFail": "But stays snug in the pleasant bondage of the ropes!"
+}

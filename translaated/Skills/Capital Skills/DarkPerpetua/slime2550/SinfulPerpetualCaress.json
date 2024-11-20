@@ -1,0 +1,61 @@
+{
+    "name": "Sinful Perpetual Caress",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "20",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Foreplay",
+        "Unholy"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Slimed 25%",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Titfuck",
+        "Footjob",
+        "Cuddle",
+        "Thighjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Sleep"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Damage",
+    "statusChance": "60",
+    "statusDuration": "11",
+    "statusPotency": "-5",
+    "statusResistedBy": "Willpower",
+    "statusText": "Debilitante",
+    "descrip": "Acariciar la polla de tus oponentes.",
+    "outcome": "Con sonrisas lujuriosas, los perpetuas oscuras colectivamente se mete y acarician con sus manos codiciosas y zarcillos agarrantes, los masajes viscosos que llenan todo su cuerpo con una calidez engañosamente relajante. | N | Las hormiguees corroídas permanecen a raíz de cada apretón de frotamiento que le dan,Sus atenciones depredadoras se enfocan hacia abajo a medida que sus dedos se deslizan ligeramente sobre su erección rígida y su punta de fuga, las constantes caricias de pastoreo mantienen pulsos de necesidad en cascada a través de su cintura.",
+    "miss": "Con sonrisas lujuriosas, los perpetuas oscuras te alemidan colectivamente y te acarician con sus manos codiciosas y zarcillos agarrando, los toques viscosos de masaje que llenan todo tu cuerpo con una calidez engañosamente relajante, ¡pero logras soportar el masaje unificado de acaricia!",
+    "statusOutcome": "Tu cabeza se queda girando y tu cuerpo se afloja, ya que te sientes cada vez más como relajarse y disfrutar de las dulces sensaciones que temblan en tu piel ...",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,54 @@
+{
+    "name": "Frenzied Bunny",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Power",
+    "statusEffectScaling": "0",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "75",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "40",
+    "targetType": "single",
+    "statusEffect": "Defence",
+    "statusChance": "50",
+    "statusDuration": "3",
+    "statusPotency": "-20",
+    "statusResistedBy": "Power",
+    "statusText": "Caderas debilitadas",
+    "descrip": "",
+    "outcome": "[AttackerName] agarra los tobillos de [TargetName] con sus manos garras y las levanta, junto con la cintura [TargetHisOrHer] en el aire mientras ella rápidamente golpea sus caderas curvas en la polla [TargetHisOrHer] rígida con poderosos impactos inductores, tratando [TargetHimOrHer] como un juguete sexual indefenso por unos momentos.",
+    "miss": "[AttackerName] agarra los tobillos de [TargetName] con sus manos garras y las levanta, junto con la cintura [TargetHisOrHer] en el aire mientras ella rápidamente golpea sus caderas curvas en la polla [TargetHisOrHer] rígida con poderosos impactos inductores, pero [TargetYouOrMonsterName] ¡Resiste el placer!",
+    "statusOutcome": "La cintura de [TargetName] comienza a dolor agradablemente del tratamiento áspero, y [TargetHisOrHer] Dick latirá sumisamente dentro de [AttackerName], ansioso por darle su carga.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Oni Mating Press",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Power",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Pain"
+    ],
+    "fetishTags": [
+        "Sex"
+    ],
+    "startsStance": "Sex",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Blowjob",
+        "Penetration",
+        "Face Sit",
+        "Titfuck"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Penetration",
+        "Tailjob",
+        "Footjob",
+        "Titfuck",
+        "Face Sit"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Con sorprendente rapidez, [AttackerName] se lanza hacia adelante, agarra y levanta [TargetName], luego arroja [TargetHimOrHer] al suelo, y con un solo movimiento, [AttackerName] golpea su poderoso y apretado coño hacia abajo en [TargetName] 's [TargetName]' s¡polla!",
+    "miss": "Con sorprendente rapidez, [AttackerName] se lanza hacia adelante, agarra y levanta [TargetName], luego arroja a [TargetHimOrHer] al suelo, pero [TargetHeOrShe] logra salir del camino antes de [AttackerName] puede golpear [AttackerHisOrHer] hacia abajo donde [TargetHisOrHer] ¡Guora lo era!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,58 @@
+{
+    "name": "Feng's Alternating Thighjob",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "100",
+    "skillType": "attack",
+    "statType": "Power",
+    "requiredStat": "4",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Legs"
+    ],
+    "startsStance": "",
+    "requiresStance": "Thighjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Blowjob",
+        "Titfuck",
+        "Footjob",
+        "Tailjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "La poderosa virilidad de los muslos [AttackerName] de [AttackerName] de [AttackerName] fuera de sincronización, manteniendo un escalofrío constante de placer corriendo a través de [AttackerHisOrHer] Groin como [TargetName] invitando a los muslos aprietas y frotar [AttackerName] 's Longitud, nuncadejando la punta sensible sin estimular.",
+    "miss": "La poderosa virilidad de los muslos de [AttackerName] de [TargetName] fuera de sincronización, exprimiendo y roce la longitud de [AttackerName], pero [TargetHeOrShe] logra soportar el placer que rodea [TargetHisOrHer] Menitud.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

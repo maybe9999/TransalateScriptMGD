@@ -1,0 +1,57 @@
+{
+    "name": "Grasp Of The Oni",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Power",
+    "statusEffectScaling": "25",
+    "requiredStat": "7",
+    "skillTags": [
+        "Pain"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Titfuck",
+        "Face Sit"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Restrain",
+    "statusChance": "85",
+    "statusDuration": "0",
+    "statusPotency": "20",
+    "statusResistedBy": "Technique",
+    "statusText": "held",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] logra agarrar una de las muñecas de [TargetName] en un poderoso agarre, y antes de [TargetHeOrShe] puede reaccionar [TargetHisOrHer] Arm se ve obligado a [TargetHisOrHer] a retroceder, mientras [AttackerHeOrShe] se mueve detrás de [TargetHimOrHer]!| N | [AttackerName] se maneja fácilmente para atrapar la otra muñeca de [TargetName] y obliga a ambas muñecas [TargetHisOrHer] a una comprensión ajustada, y usa [AttackerHeOrShe] brazo libre para comenzar a burlarse del cuerpo de [TargetName], todo mientras presiona[AttackerHisOrHer] senos considerables contra la espalda de [TargetName]!",
+    "statusMiss": "[AttackerName] reaches forward to grab ahold of one of [TargetName]'s wrists, but [TargetHeOrShe] manage to avoid the oni's grasping hand!",
+    "restraintStruggle": "[TargetName] struggles against [AttackerName]'s powerful grip...",
+    "restraintStruggleCharmed": "[TargetName] weakly struggles against [AttackerName]'s powerful grip...",
+    "restraintEscaped": "[TargetName] manages get free of [AttackerName]'s rough hold!",
+    "restraintEscapedFail": "But [TargetName] can't get free of [AttackerName]'s rough  hold!"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Blessing Of Rest",
+    "description": "Has sido bendecido de tener descansos maravillosos mientras se aventura, aumentando el espíritu recuperado por 1, la energía recuperada en un 10%y la excitación eliminada en un 10%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "RestSpiritRestored",
+        "RestEnergyRestored",
+        "RestArousalRestored"
+    ],
+    "EffectPower": [
+        "1",
+        "10",
+        "10"
+    ],
+    "PlayerCanPurchase": "No"
+}

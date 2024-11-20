@@ -1,0 +1,58 @@
+{
+    "name": "Umbral Kiss",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "50",
+    "skillType": "attack",
+    "statType": "Intelligence",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth",
+        "Magic"
+    ],
+    "fetishTags": [
+        "Kissing"
+    ],
+    "startsStance": "",
+    "requiresStance": "Making Out",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Making Out"
+    ],
+    "unusableIfTarget": [
+        "Blowjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "unusableIfPerk": [
+        "Curse of Oblivion"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "10",
+    "critChance": "20",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "999",
+    "statusDuration": "6",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "La lengua larga de [AttackerName] domina bruscamente a la boca de [TargetName] mientras deja escapar una risa engreída, y un aura mágica pecaminosa envuelve a los dos brevemente mientras si ella se desvanece por sí misma, su dulce saliva y su beso seductor.La luz se dirigió todo el tiempo.",
+    "miss": "La larga lengua de [AttackerName] domina bruscamente a la boca de [TargetName] mientras deja escapar una risa engreída, y un aura mágica pecaminosa envuelve brevemente a los dos, pero logras romper el beso el tiempo suficiente para interrumpir el hechizo.",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|VeneficaCombatEvents|/|UmbralKiss|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

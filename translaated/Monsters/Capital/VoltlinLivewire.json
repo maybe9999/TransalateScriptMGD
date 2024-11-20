@@ -1,0 +1,299 @@
+{
+    "name": "Voltlin Livewire",
+    "IDname": "Voltlin Livewire",
+    "species": "Demon",
+    "gender": "female",
+    "description": ".",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "True",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        ""
+    ],
+    "perks": [
+        "Grappler",
+        "Escape Artist",
+        "Quick Witted",
+        "Schemer",
+        "Thoughtful Schemer",
+        "Alluring",
+        "Seductive",
+        "Loving",
+        "Sex Adept",
+        "Sex Expert",
+        "Arcane Adept",
+        "Arcane Expert",
+        "Great Tits",
+        "Amazing Tits",
+        "Great Ass",
+        "Semen Frenzy"
+    ],
+    "stats": {
+        "lvl": "35",
+        "Exp": "550",
+        "max_hp": "300",
+        "max_ep": "200",
+        "max_sp": "2",
+        "Power": "25",
+        "Technique": "30",
+        "Intelligence": "35",
+        "Allure": "30",
+        "Willpower": "5",
+        "Luck": "10"
+    },
+    "Fetishes": [
+        "Cock|/|10"
+    ],
+    "BodySensitivity": {
+        "Sex": "90",
+        "Ass": "90",
+        "Breasts": "110",
+        "Mouth": "100",
+        "Seduction": "100",
+        "Magic": "70",
+        "Pain": "100",
+        "Holy": "110",
+        "Unholy": "90"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "-10",
+        "Aphrodisiac": "0",
+        "Restraints": "10",
+        "Sleep": "10",
+        "Trance": "0",
+        "Paralysis": "0",
+        "Debuff": "0"
+    },
+    "moneyDropped": "750",
+    "ItemDropList": [
+        {
+            "name": "Static Rush",
+            "dropChance": "15"
+        },
+        {
+            "name": "Night Bane",
+            "dropChance": "1"
+        },
+        {
+            "name": "Livewire Rune",
+            "dropChance": "5"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "HitWith",
+            "move": "Spank",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Base",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.275",
+            "Images": [
+                {
+                    "Name": "Body",
+                    "File": "Monsters/VoltlinLivewire/VoltlinLivewire_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Clothing",
+            "StartOn": "1",
+            "AlwaysOn": "0",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Clothed",
+                    "File": "Monsters/VoltlinLivewire/VoltlinLivewire_Clothing.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/VoltlinLivewire/VoltlinLivewire_Expression_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Annoyed",
+                    "File": "Monsters/VoltlinLivewire/VoltlinLivewire_Expression_Annoyed.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "AvertingGaze",
+                    "File": "Monsters/VoltlinLivewire/VoltlinLivewire_Expression_AvertingGaze.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "LickLips",
+                    "File": "Monsters/VoltlinLivewire/VoltlinLivewire_Expression_LickLips.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Mocking",
+                    "File": "Monsters/VoltlinLivewire/VoltlinLivewire_Expression_Mocking.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "OralOffer",
+                    "File": "Monsters/VoltlinLivewire/VoltlinLivewire_Expression_OralOffer.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Orgasm",
+                    "File": "Monsters/VoltlinLivewire/VoltlinLivewire_Expression_Orgasm.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "PanicComical",
+                    "File": "Monsters/VoltlinLivewire/VoltlinLivewire_Expression_PanicComical.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pleasured",
+                    "File": "Monsters/VoltlinLivewire/VoltlinLivewire_Expression_Pleasured.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Smug",
+                    "File": "Monsters/VoltlinLivewire/VoltlinLivewire_Expression_Smug.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Sparkling",
+                    "File": "Monsters/VoltlinLivewire/VoltlinLivewire_Expression_Sparkling.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Mask",
+            "StartOn": "1",
+            "AlwaysOn": "0",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Mask",
+                    "File": "Monsters/VoltlinLivewire/VoltlinLivewire_Mask.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "name": "Nectar Soaking Deepthroat",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Oral"
+    ],
+    "startsStance": "",
+    "requiresStance": "Blowjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Blowjob"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "100",
+    "statusDuration": "5",
+    "statusPotency": "5",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Chupar Dick más profundo.",
+    "outcome": "[AttackerName] se balancea la cabeza hacia arriba y hacia abajo a lo largo del eje [TargetName], que lo hilando por su apretada garganta una y otra vez, sus suaves labios firmemente sellados alrededor[TargetHisOrHer] Longitud.",
+    "miss": "[AttackerName] se mueve la cabeza hacia arriba y hacia abajo a lo largo del eje de [TargetName], que lo hilando por su apretada garganta una y otra vez, ¡pero [TargetHeOrShe] logra soportar el placer!",
+    "statusOutcome": "Cuanto más largo [AttackerName] mantiene a su miembro rígido en su boca cálida, más su afrodisíaco se remoja directamente a su polla sacudida, llenándolo lentamente de una mentalidad de lujuria.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

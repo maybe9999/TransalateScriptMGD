@@ -1,0 +1,27 @@
+{
+    "name": "Pent Up",
+    "description": "Te duelen las bolas para descargar.Hasta que se cumpla, su virilidad aumenta en un 10% y toma un 10% más de excitación.Eliminado en el orgasmo.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "VirilityBoost",
+        "DamageReduction",
+        "RemovedOnOrgasm"
+    ],
+    "EffectPower": [
+        "StatusIcons/blueballs.png",
+        "10",
+        "-10",
+        "0"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Unbound Rune Ward",
+    "description": "¡Aumenta su capacidad para escapar de las restricciones en un 10%!",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "RemoveRestraints"
+    ],
+    "EffectPower": [
+        "10"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

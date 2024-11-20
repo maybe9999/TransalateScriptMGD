@@ -1,0 +1,21 @@
+{
+    "name": "Expert Caresses",
+    "description": "Su mero toque es inductor de escalofrío, aumentando la excitación del juego previo que se trata en un 20%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Seductive Touch"
+    ],
+    "StatReq": [
+        "Allure"
+    ],
+    "StatReqAmount": [
+        "20"
+    ],
+    "PerkType": [
+        "ForeplayBoost"
+    ],
+    "EffectPower": [
+        "20"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

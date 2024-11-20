@@ -1,0 +1,61 @@
+{
+    "name": "Power Word: Cum",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "statusEffect",
+    "statType": "Allure",
+    "requiredStat": "6",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Charm",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "requiresPerk": [],
+    "requiresOnePerk": [
+        "Curse of Oblivion",
+        "Curse of Exhaustion",
+        "Curse of Shadows",
+        "Curse of Weakness"
+    ],
+    "unusableIfPerk": [],
+    "power": "15",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "250",
+    "statusDuration": "5",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "OrgasmCheck",
+    "miss": "",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|VeneficaCombatEvents|/|PowerWord|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

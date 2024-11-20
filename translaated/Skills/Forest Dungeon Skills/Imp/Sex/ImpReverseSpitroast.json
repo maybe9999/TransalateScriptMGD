@@ -1,0 +1,55 @@
+{
+    "name": "Imp Reverse Spitroast",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Ass"
+    ],
+    "fetishTags": [
+        "Sex"
+    ],
+    "startsStance": "",
+    "requiresStance": "Face Sit",
+    "unusableIfStance": [
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Face Sit",
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "100",
+    "statusDuration": "10",
+    "statusPotency": "5",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] muele su coño goteando en la boca de [TargetName] mientras [AttackerName2] monta [TargetHisOrHer] Cock por todo lo que vale la pena.Los gemidos de [TargetName] se amortiguan cuando [TargetHeOrShe] se ve obligado a beber los jugos de coño rellenos de Afrodisiac de [AttackerName].",
+    "miss": "[TargetName] ¿[TargetHisOrHer] es mejor soportar [AttackerName] moliendo su coño goteando en la cara [TargetHisOrHer] mientras [AttackerName2] monta [TargetHisOrHer] CODH por todo lo que vale la pena.",
+    "statusOutcome": "Los jugos afrodisíacos de [AttackerName] comienzan a afectarte ...",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

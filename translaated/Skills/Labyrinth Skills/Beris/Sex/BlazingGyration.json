@@ -1,0 +1,57 @@
+{
+    "name": "Blazing Gyration",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Magic"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob",
+        "Breast Smother",
+        "Nursing"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "40",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "20",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "75",
+    "statusDuration": "11",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] deja escapar una exhalación lenta y calurosa mientras se toma un momento para moler sus caderas en pequeños círculos, su apretada [SexWord] apretando y masajeando la polla dolorosa de [TargetName], todo mientras parpadeaba las llamas azules en cascada y su piel desnuda y su piel desnuda yLame [TargetHimOrHer] para burlarse de las olas de placer indulgentemente caliente.",
+    "miss": "[AttackerName] deja escapar una exhalación lenta y caliente mientras se toma un momento para moler sus caderas en pequeños círculos, su apretado coño apretando y masajeando la polla dolorosa de [TargetName], ¡pero [TargetName] soporta las burlas sexuales!",
+    "statusOutcome": "Encuentras que tus músculos se aflojan a medida que el calor ardiente se extiende a través de todo tu cuerpo, dejándote felizmente encantado con la dominación caliente y pesada de Beris.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

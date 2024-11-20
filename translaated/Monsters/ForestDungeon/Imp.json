@@ -1,0 +1,2601 @@
+{
+    "name": "Imp",
+    "IDname": "Imp",
+    "species": "Demon",
+    "gender": "female",
+    "description": "Una mujer de aspecto joven con pequeños cuernos demoníacos brotando desde los lados de su cabeza y una sonrisa casi malvada en su rostro, pero estos rasgos están contrastados por su cabello rosa pálido y sus ojos traviesos azules brillantes, haciéndola parecer un tramposo que cualquier otra cosa.Pequeñas alas de murciélagos brotan de su espalda y una gruesa cola espeluznada se balancea de la parte trasera.Sus senos son bastante pequeños, una taza pert a la que apenas están cubiertas por unas pocas correas de tela rosa con volantes.Su falda muy corta está hecha de un material idéntico, que muestra mucho más de lo que ocultan, y una estrecha gargantilla negra está alrededor de su cuello.",
+    "encyclopedia": "Low ranking demons who rely on numbers, magic, and/or trickery to capture men. Imps are usually more mischievous than outright malicious, and enjoy playing pranks on anyone and everyone they can.\n\nAny men they do capture are often shared amongst groups of imps living in a dwelling to sate everyone's hunger for spiritual energy, not just kept for the individual or individuals that managed to subdue the male.\n\nDue to their low standing in the demonic hierarchy, they can subsist on normal foods to survive, they will just not be happy about it. Similarly due to their low standing and weak willed nature, they are easily bullied into doing work by higher ranking demons, but the promise of eros and/or men is enough to entice them to stick around more often than not.\n\nAs with many demons, their vaginal fluids have an aphrodisiac effect if consumed.",
+    "tags": "none",
+    "generic": "True",
+    "requires": [
+        "Sigil Of Allure"
+    ],
+    "skillList": [
+        "Sensitize",
+        "Imp Binding Magic",
+        "Nipple Tease",
+        "Pinch Nipples",
+        "Teasing Seduction",
+        "Teasing Seduction",
+        "Impish Blowjob",
+        "Impish Blowjob",
+        "Double Blowjob",
+        "Playful Tease",
+        "Glans Teasing",
+        "Mischievous Suction",
+        "Triple Blowjob",
+        "Ravenous Blowjob Assault",
+        "Naughty Oral Synergy",
+        "Impish Cock Worship",
+        "Imp Pussy Altar",
+        "Imp Pussy Altar",
+        "Impish Face Grind",
+        "Impish Insert",
+        "Impish Insert",
+        "Playful Grind",
+        "Mischievous Tighten",
+        "Imp Reverse Spitroast",
+        "Impish Reverse Spitroast",
+        "Impish Encouragement",
+        "Impish Encouragement"
+    ],
+    "perks": [
+        "Semen Eater"
+    ],
+    "stats": {
+        "lvl": "4",
+        "Exp": "25",
+        "max_hp": "90",
+        "max_ep": "40",
+        "max_sp": "1",
+        "Power": "2",
+        "Technique": "5",
+        "Intelligence": "4",
+        "Allure": "7",
+        "Willpower": "3",
+        "Luck": "5"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "90",
+        "Ass": "90",
+        "Breasts": "100",
+        "Mouth": "90",
+        "Seduction": "100",
+        "Magic": "100",
+        "Pain": "200",
+        "Holy": "250",
+        "Unholy": "25"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "moneyDropped": "100",
+    "ItemDropList": [
+        {
+            "name": "Insomnia Potion",
+            "dropChance": "40"
+        },
+        {
+            "name": "Imp Juice",
+            "dropChance": "25"
+        },
+        {
+            "name": "Energy Potion",
+            "dropChance": "15"
+        },
+        {
+            "name": "Rune Of Action",
+            "dropChance": "15"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "One Imp Start",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Imp"
+            ],
+            "theScene": [
+                "GetEventAndIfChoice",
+                "Imp Den",
+                "1",
+                "HordeBattle",
+                "DenLossTransition",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "Imp Den",
+                "1",
+                "Multi Imp Start",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Panic",
+                "As you fall over exhausted, the lone imp looks down at you, her eyes sparkling with amazement.",
+                "ChangeImageLayer",
+                "Blush",
+                "1",
+                "",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "ComicalPanic",
+                "Speaks",
+                "I-I {i}won{/i}?",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Shy",
+                "She seems surprised by the fact that she managed to win her bout against you alone.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cooing",
+                "As you look up at the diminutive monster girl looming over you, you realize just how bad your situation is. A single imp was enough to incapacitate you? You're not sure if your pride can take this...",
+                "She seems to come to some sort of conclusion just as you finish your thought.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "Speaks",
+                "Well, the others aren't here right now to pass you around, so... That means I get you all to myself, r-right?",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "Speaks",
+                "At the very least, I don't have to share you if the others don't find out! Hehehe.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cooing",
+                "She quietly mutters a couple of words as she casts a levitation spell. Your weakened body hovers off the ground steadily, a couple feet in the air.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Confused",
+                "Speaks",
+                "I don't really use this spell, so, uh, just hang on, alright? Cause I'm definitely not carrying you.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "She turns around humming excitedly to herself and starts to float off down one of the halls, with you hovering a few feet behind her.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "As you float behind her basically at eye level to her rear, your eyes are drawn to her shapely hips and pleasantly peach-shaped ass, barely concealed by her short skirt. She throws a smug glance over her shoulder, wiggling her hips as she walks, making her butt jiggle enticingly.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "Speaks",
+                "Enjoying the view? Hehe, pervert.♪",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "She's clearly keeping you at eye level to her rear intentionally, and is most likely appreciating your eyes on her. But you manage to get your mind off her tempting ass, and find your voice.",
+                "PlayerSpeaks",
+                "Hey, where are you taking me?",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Wink",
+                "Speaks",
+                "My home!♪",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Panic",
+                "You both come to an abrupt stop. Well, she did. The magic holding you in the air suddenly falters as you bump into her soft butt face first, and you both yelp in surprise, leaving you suddenly dropping a few feet before suddenly being caught once more with your face mere inches from the ground.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Panic",
+                "Speaks",
+                "O-oops... sorry. Ehehe.♪",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "She gives you an apologetic grin and quickly taps a few stones on the wall in front of her in a quick sequence, causing it to fade away into nothingness before your eyes as if there was never anything there.",
+                "The spell holding you aloft tightens its grip around you once more as she begins to move into the newly opened entrance in the wall with you in her wake, and despite your weak struggles, you can't seem to break free of it.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Wink",
+                "Speaks",
+                "I won't drop you like that again, promise!♪",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "You get a quick look at your surroundings as you float in the air. It's a compact yet homey room, with a girly twin bed decorated with frilly pink sheets resting in a corner. A little desk sits right next to it, laden with a few stacks of books, notably featuring a pink diary locked with an honest-to-god padlock and golden key.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "Right, let's get to it.♪ I've kept you waiting long enough!",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "Speaks",
+                "{i}That{/i}, and I'm hungry.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "Your attention is drawn back to the grinning woman as she motions her hand towards the bed, and you drift towards it before being gently placed down upon it. All in all, being levitated around wasn't such a bad experience... aside from almost face-planting into the stone floor.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "ChangeImageLayer",
+                "Clothes",
+                "1",
+                "",
+                "Snapping back to the situation at hand, you attempt one last time to break free of the unseen force immobilizing your body as the imp stalks towards you, but in your weakened state you can't so much as twitch as you're pressed down onto the bed by her magic.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "She walks up to you with an eager grin and bends over in front of your groin, spreading your legs apart and letting out a giggle as your cock springs free, nearly hitting her in the face.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "XD",
+                "Speaks",
+                "Oh wow...♪ I've never had a dick all to myself before. This is so exciting!♪",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "She flashes you an elated smile before lewdly opening her mouth and closing her lips around the head of your cock, gliding her tongue over the underside of your shaft.",
+                "Sweet pleasure begins to radiate from your groin as she gently sucks on your throbbing manhood, sending shivers of pleasure racing down your spine as her tongue licks and laps at your tip while her hands tenderly squeeze your aching balls.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "OralOffer",
+                "You shudder as she suddenly increases her already intense suction, pulling your cock even deeper into her mouth as one of her hands begins to gently stroke the base of your manhood, expertly multi tasking as she keeps massaging your twitching balls with her other hand.",
+                "A moan escapes your lips as she continues to lick and suck on your painfully erect cock, and she lets out a few muffled sounds of happiness as she gives you particularly powerful suck before pulling herself off of your cock with a lewd, wet pop.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "Speaks",
+                "Mwah!♪♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "She looks up at you with an eager grin as a few strands of saliva connect her mouth to your tip, and you can't help but think of her as surprisingly cute as she gazes into your eyes with a cheerful smile.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "Speaks",
+                "Hey, wanna see if I can make it fit down my throat? I've always wanted to try it. You might even break my choker.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "OralOffer",
+                "She lovingly rubs her cheek against your cock for a few moments before leaning back and opening her mouth extra wide to show off the soft, pink depths of her throat, her gleaming white teeth, and her wiggling, seductive tongue.",
+                "PlayerSpeaks",
+                "A-Aren't you a bit small for that?",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "Despite your situation, you can't help but feel a little concerned for her, but she merely lets out a dismissive laugh as she shoots you a smug glance.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "Speaks",
+                "I'm tougher than I look.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "OralOffer",
+                "Before you can even respond, she suddenly brings her lips down onto your cock once more, forcing a moan from your lips as she takes almost half of your length into her mouth at once, slurping and sucking audibly as her hands suddenly begin to stroke and massage your manhood once more.",
+                "Shivers of ecstasy tear through you from the tight, wet suction pressing around your shaft as her tongue begins to eagerly lap and lick at your sensitive tip, and you start to feel the beginnings of a powerful orgasm welling in your groin as she excitedly stares up at you.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "Her expression gets more and more eager as she watches you tremble in pleasure, and she redoubles her efforts to force you to orgasm as she lets out a muffled giggle of happiness, making you moan as she bobs her head more intensely while eagerly twining her nimble tongue around your shaft, slowly taking you deeper and deeper into her mouth.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "OralOffer",
+                "You desperately try to hold off for as long as you can, but as her hand gives your aching balls a firm but gentle squeeze, and she fully hilts your throbbing cock down her tight throat, you're pushed over the edge.",
+                "PlayerOrgasm",
+                "1",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "As you cry out in ecstasy and let loose a massive load of semen into her, her eyes go wide from the unexpectedly large climax, her choker straining against your throbbing dick bulging in her throat.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Orgasm",
+                "ChangeImageLayer",
+                "Blush",
+                "1",
+                "LightBlush",
+                "All you can do is shudder in ecstasy as she only seems to speed up her oral assault while you cum, effortlessly extending your orgasm as she drinks down every last drop you give her while practically fucking her face with your rigid dick as she deepthroats you over and over.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "OralOffer",
+                "She suddenly looks up at you with a pleasure drunk expression as she begins to gently hum while continuing to powerfully suck on your shaft, making her throat vibrate and ripple in ecstasy inducing ways on top of the already mind-numbingly blissful suction of her mouth, and you shiver as you can feel another orgasm beginning to build in your groin immediately after the last one ebbs away.",
+                "PlayerOrgasm",
+                "1",
+                "Another moan tears itself from your lips as she begins to rock her head back and forth on top of everything else she's doing, and even if you weren't still immobilized by her magic, you doubt you'd be able to do anything but shudder in pleasure from the combined sensations racing through your body.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "ChangeImageLayer",
+                "Blush",
+                "1",
+                "Blush",
+                "She only continues to stare up at you with an enraptured expression as you tremble in bliss, and you notice that one of her hands has strayed down to her dripping pussy as she feverishly masturbates while continuing to suck and squeeze on your cock, pounding your length down her tight throat.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Orgasm",
+                "Speaks",
+                "Mmfffmmm!!!♥♥♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "She lets out a shivering moan of delight as a climax tears through her body, and her eyes suddenly gleam with burning, needy hunger as she suddenly stops and stares up at you.",
+                "You meet her gaze with a gulp and shakily place your suddenly freed hands on the back of her head, desperately trying to brace yourself for what you know is about to come next.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "OralOffer",
+                "A broken howl of pleasure tears through you as she begins to powerfully bob her head down onto your shaft over and over again while intensely sucking and licking your entire length with more intensity than ever before, and you tremble as her hands begin to powerfully knead and massage your aching balls.",
+                "You can't do anything but gasp as every squeezing bob of her head pushes you closer and closer to another mind-numbing climax, and you can't help but love every second of it.",
+                "An overwhelming strong need for release begins to tear through you as your cock throbs with every delightfully pleasant movement of the now ravenously hungry imp's mouth, and you desperately try to get her to stop as you weakly try to pull her head off of your aching dick.",
+                "PlayerSpeaks",
+                "H-Hold on, I'm gonna-",
+                "PlayerOrgasm",
+                "1",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "You don't even manage to finish your sentence as her arms powerfully pull your waist into her as much as she can possibly manage while she gives your cock an overwhelmingly lewd suck, and your voice devolves into a incoherent mess of gasping moans as you're pushed into a mind-shatteringly powerful climax.",
+                "PlayerOrgasm",
+                "1",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "OralOffer",
+                "Shudders of orgasmic bliss tear through you as you pour a seemingly endless amount of semen into the waiting imp's throat, and she redoubles her efforts to suck every last drop from your twitching body as her hungry blue eyes continue to stare unblinkingly into yours as she lewdly gulps down load after load of your seed.",
+                "Even as exhaustion begins to overwhelm your body, the imp continues to drain your throbbing cock utterly dry with her heavenly mouth, and she continues to unendingly suck and lick your manhood long after you're completely spent, until eventually, she finally pulls her head off of shaft with a loud, satisfied sigh.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Teasing",
+                "Your vision is starting to go black as you see her smile down at you with a happy grin, and you can't even see a single drop of your semen remaining in her mouth as she playfully shows off her tongue for a moment.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Wink",
+                "Speaks",
+                "Ahh...♥ I think I might want to keep you all to myself if {i}this{/i} is what it's like...♥♥♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "The last thing you hear before unconsciousness takes you is the sound of her cheerful giggling...",
+                "ChangeSensitivity",
+                "Sex",
+                "5",
+                "ChangeFetish",
+                "Oral",
+                "5"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Multi Imp Start",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Imp",
+                "Imp"
+            ],
+            "theScene": [
+                "GetEventAndIfChoice",
+                "Imp Den",
+                "1",
+                "HordeBattle",
+                "DenLossTransition",
+                "You lay twitching on the ground, unable to fight back any more...",
+                "One of the imps snaps her finger and a flash of pink light envelopes you...",
+                "GetEventAndSetProgress",
+                "Imp Den",
+                "0",
+                "GetEventAndSetChoice",
+                "Imp Den",
+                "1",
+                "",
+                "ClearMonsterEncounter",
+                "JumpToLossEvent",
+                "ImpGangbang"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "DenLossTransition",
+            "move": "",
+            "stance": "noooono",
+            "includes": [
+                "Imp",
+                "Imp"
+            ],
+            "theScene": [
+                "GetEventAndSetProgress",
+                "Imp Den",
+                "0",
+                "GetEventAndSetChoice",
+                "Imp Den",
+                "1",
+                "",
+                "ClearMonsterEncounter",
+                "JumpToEventThenScene",
+                "ImpGangbang",
+                "HordeStart"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "StartOfCombat",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|Intro|n|"
+            ]
+        },
+        {
+            "lineTrigger": "EndOfRound",
+            "move": "",
+            "triggersOnce": "ForAllMonsters",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|EndOfRound"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Spank",
+                "Whip"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'EEEK!♥'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'¡H-hey!¡D-no me intimidan!",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'J-solo porque eres más fuerte- ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Demon Layer",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'EEEK!♥'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'EEEK!♥'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'¡H-hey!¡D-no me intimidan!",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n|'Ahhhhh!♥'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'J-solo porque eres más fuerte- ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'H-Holy Magic de un látigo no es justo ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Holy Headpat",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|ComicalPanic|n|'¡Wh-wha-h-hey lo cortó!'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Confused|n|'Y te estás burlando de mí, ¿no?",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'Th-this es {i} así {/i} vergonzoso ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Bondage Net",
+                "Magical Binding"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'¡H-Hold en un segundo!'",
+                "|f|ChangeImageLayer|/|Expression|/|ComicalPanic|n|'Uhm, Ah ... H-Help?¿Alguien?'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'Ah-Ahaha, M-Mercy?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pin",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|ComicalPanic|n|¿Eh?!¡G-Get Off!",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'¡H-Hold en un segundo!'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'¿No podrías tener una buena mamada en su lugar?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Sleep",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Confused|n|Bosteza, tambaleándose a un lado mientras sacude la cabeza, tratando de evitar su inevitable sueño.",
+                "|f|ChangeImageLayer|/|Expression|/|Confused|n|'E-Si me vas a hacer cosas, ¡al menos déjame estar despierto por eso!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Charm",
+                "Charm Wave"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Cooing|n|'Oh, eh ... wow ... estás realmente caliente ...'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|'Me vas a alimentar mucho, ¿verdad?",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Confused|n|'Ugh ... y pensé que estaba cachondo {i} antes {/i} ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Enfeeble",
+                "Sensitize"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Confused|n|'Oh, esto es malo ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'¡Wh- h-hey, eso no es justo!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Disarming Appeal"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿En serio?¿Eres tan débil?",
+                "|f|ChangeImageLayer|/|Expression|/|Teasing|n|'Bueno, supongo que puedo mostrarte {i} algunos {/i} misericordia'.",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Cooing|n|'Eres bastante lindo ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Lewd Bottle",
+                "Cloying Mist",
+                "Placebo Pheromone"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'¡Realmente no necesitaba estar {i} más {/i} excitado!'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Ahhh, eso me dio mucha hambre!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Electrify",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|ComicalPanic|n|'¿Qué tipo de magia era esa? ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Voy a hacer que pagues por esto! ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n|'W-Whaaaa-EEEEEE?!♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Arouse",
+                "Arousara",
+                "Arousero"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'M mi piernas siente que van a ceder ... ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'M-Magic es tan extraño ...'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n|'W-Whaaaa-EEEEEE?!♥'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'Wh-whoa, th-eso es intenso ...'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'I- uh, ¿puedes volver a hacer eso? ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|¿C-CAN me corro en serio sin ser tocado?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Seduce",
+                "Ear Tease",
+                "Enamor",
+                "Smoldering Seduction",
+                "Smoldering Flaunt",
+                "Massaging Seduction",
+                "Mass Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'W-Weirdo...'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'¿De verdad crees que soy sexy?'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'Eres uh ... realmente caliente ...'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Smile|n|'Entonces me vas a follar ahora, ¿verdad? ♪'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|LipLick|n|'Será mejor que me alimentes mucho. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithPre",
+            "move": "Penetrate",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|ImpCGPenetrate|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Penetrate",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|Penetrate|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|Thrust|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Haah!? ♥ Me voy a correr si esto sigue así! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|OrgasmHeavy|n|'S-estas siendo demasiado áspero! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|¡Te voy a pagar diez veces por esto! ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|BlushLight|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Haah!¡A este ritmo, podría correrme! ♥ '",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|'Vamos, ¡puedes hacerlo! ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Smug|n|\"Jejeje, debes ser un verdadero débil para ser tan gentil!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithPre",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|ImpCGPenetrate|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|PenetrateA|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|Thrust|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck",
+                "Anal Piston"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|OrgasmHeavy|n|'W-wait, sl-shown! ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'N-no F-fair! ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|BlushLight|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'T-este es malo! ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'¡Deja de ser tan gentil, me estás haciendo sentir raro! ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'N-no F-fair! ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|BlushLight|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'T-este es malo! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'S-tan grande! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Face Fuck",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|FaceFuck|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pinch Nipples",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'¡Eek! ♥ C-¡Camine!'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'MMM!♥'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'K-Knock it Off. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|1LightBlush|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'D-no besar a una chica casualmente ...'",
+                "|f|ChangeImageLayer|/|Blush|/|1LightBlush|n||f|ChangeImageLayer|/|Expression|/|Base|n|'No pienses que te iré tranquilo ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Make Out"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Teasing|n|'¿No podría ayudarse a sí mismo?'",
+                "|f|ChangeImageLayer|/|Expression|/|OralOffer|n|\"Jeje, hay mejores cosas que podría hacer con mi boca\"."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Deep Kiss",
+                "Lovingly Rough Kiss",
+                "Skillfully Passionate Kiss",
+                "Misty Kiss",
+                "Sensually Seductive Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Esto es realmente intenso ... ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'I- uh ... mmmm ... ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'N-no justo ...'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Mmmm...♥'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'D-no subestima mis habilidades de besos ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Grope Ass",
+                "Squeeze Ass",
+                "Massage Ass",
+                "Fondle Ass"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|GropeAss|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Breast Caress",
+                "Suckle",
+                "Breast Massage",
+                "Breast Knead",
+                "Breast Fondle"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|Breasts|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Finger",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Smile|n|'MMmmm♥.'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'...Ah...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pussy Worship",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|PussyWorship|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Dildo",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Smile|n|'MMmmm♥.'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Cooing|n|'Si tan solo pudiera alimentarme ...'"
+            ]
+        },
+        {
+            "lineTrigger": "Escape",
+            "move": [
+                "Distract",
+                "Teleport"
+            ],
+            "theText": [
+                "|f|PlayMotionEffect|/|CrashSmol|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Sensitize",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¡Vas a empezar a sentirte aún mejor ahora! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Wink|n|'¡Te vas a sentir tan bien! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Teasing|n|Ehehe, ¿qué pasa?¿Quieres correrse? ♥ '"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Imp Binding Magic",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¡Espera para que pueda ordeñar tu semen!",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Ehehe, ¿son lo suficientemente apretados?' ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¡Ahora mantente quieto!'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Pinch Nipples",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Oye, oye, ¿eres masoquista? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Ehehe!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Wink|n|'¿No sería genial si todo tu cuerpo fuera sensible? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Teasing|n|'Te gusta esto, ¿no? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Nipple Tease",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Teasing|n|'Te vamos a burlar de ti. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Ehehe!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¿Se siente bien? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Ehehe, te convertiremos en un pervertido. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Double Blowjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Vamos, conviértete en nuestra mascota! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¡No puedes resistirnos para siempre! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|OralOffer|n|'Mmmph. ♥' 'Ehehe! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|OralOffer|n|'¡Déjanos beber todo tu semen! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|OralOffer|n|Uno de ellos mordisquea la punta de tu polla mientras el otro lame y acaricia tus bolas doloridas."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Triple Blowjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Vamos, conviértete en nuestra mascota! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¡No puedes aguantar mucho más! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|OralOffer|n|'Mmmph. ♥' 'Ehehe! ♥' 'Mmmm. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|OralOffer|n|'¡Déjanos beber cada gota de tu semen! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Si no cedes pronto, podríamos romperte! ♥"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMovePre",
+            "move": "Imp Pussy Altar",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|ImpCGFaceSit|n|"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Imp Pussy Altar",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Te tengo ahora, humano!'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|¡No te dejo escapar!",
+                "|f|ChangeImageLayer|/|Expression|/|Wink|n|'¡Vas a engancharte al coño de Imp! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Teasing|n|'Te ves tan sediento ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Impish Face Grind",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|'Mmm ♥ su lengua se siente genial!'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Wink|n|'¡Vas a engancharte al coño de Imp! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Teasing|n|'Debes estar tan sediento ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Espero no quedarme dejado ...'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Imp Reverse Spitroast",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Wink|n|¡Vamos humanos!¡Déjate ir! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Teasing|n|'¡Tienes mucho trabajo por delante, Stud!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|¡Ehehe!¡Creo que su mente se está rompiendo! ♥ '",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Ahhh! ♥ ¡Esto es lo mejor!'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Impish Reverse Spitroast",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Wink|n|¡Vamos humanos!¡Déjate ir! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Teasing|n|'¡Tienes mucho trabajo por delante, Stud!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|¡Ehehe!¡Creo que su mente se está rompiendo! ♥ '",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Ahhh! ♥ ¡Esto es lo mejor!'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Impish Encouragement",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|XD|n|'¡Vamos!¡Fóllelo hasta que se rompe! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Engancharlo en el coño de Imp! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Date prisa y fóllelo sin sentido para que pueda darme un turno! ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Base|n|'¡No puede aguantar mucho más! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¡Vamos a convertirlo en nuestro placer esclavo! ♥"
+            ]
+        },
+        {
+            "lineTrigger": "usesMoveA",
+            "move": "Grind",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mmm ♥ i {i} realmente {/i} No quiero compartir esta polla. ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|OralOffer|n|'Oye, mi trasero tiene tanta hambre de tu semen. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Su trasero se aferra firmemente a tu polla."
+            ]
+        },
+        {
+            "lineTrigger": "usesMoveA",
+            "move": "Imp Reverse Spitroast",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|¡Vamos humanos!¡Déjate ir! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Tease|n|'¡Tienes mucho trabajo por delante, Stud!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|¡Ehehe!¡Creo que su mente se está rompiendo! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Tease|n|'¡Ahhh! ♥ ¡Esto es lo mejor!'"
+            ]
+        },
+        {
+            "lineTrigger": "usesMoveA",
+            "move": "Impish Reverse Spitroast",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Wink|n|¡Vamos humanos!¡Déjate ir! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Teasing|n|'¡Tienes mucho trabajo por delante, Stud!'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|¡Ehehe!¡Creo que su mente se está rompiendo! ♥ '",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Ahhh! ♥ ¡Esto es lo mejor!'"
+            ]
+        },
+        {
+            "lineTrigger": "usesMoveA",
+            "move": "Impish Encouragement",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|XD|n|'¡Vamos!¡Fóllelo hasta que se rompe! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Engancharlo en el coño de Imp! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Date prisa y fóllelo sin sentido para que pueda darme un turno! ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Base|n|'¡No puede aguantar mucho más! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¡Vamos a convertirlo en nuestro placer esclavo! ♥"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|'GHH ... ♥ No puedo aguantar por mucho más tiempo ...'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'M mi cuerpo entero está hormigueando! ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Shy|n|'D-damn h-human haciéndome sentir bien! ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Panic|n|¡D-Don no subestima los imps! '",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'No puedo pensar bien ...'"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¡Se está preparando para correrse! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Me pregunto cuántos imps puedes alimentar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'No puedes aguantar mucho más, ¿verdad? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Teasing|n|'Ehehe, ¿va a correr? ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Wink|n|'¡No te detengas!¡Cum como una fuente! ♥ '"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Impish Cock Worship ",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|MultiOralOrgasm|n|"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Ravenous Blowjob Assault",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|MultiOralOrgasm|n|"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Naughty Oral Synergy",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|MultiOralOrgasm|n|"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Triple Blowjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|OralOffer|n|Los tres imps chupan, lamen y mordisquean su eje, dejándote un desastre apenas coherente mientras el placer incesante cae en cascada a través de tu cuerpo.Muy pronto, los está eyaculando para ellos, ya que cada uno toma su parte justa de su orgasmo de contracción, bebiendo su semen directamente de la punta de su polla.",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|OralOffer|n|Tu polla no se deja sola, ya que tres bocas se burlan constantemente y chupan su longitud completa.Un orgasmo estremecido atraviesa su cuerpo, y uno de los imps atrapa su espesa carga en su boca antes de proceder a compartirlo con sus dos aliados con besos.Se vuelven hacia ti con una mirada hambrienta después de beber tu semilla."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Double Blowjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|LipLick|n|Los dos imps trabajan en su eje al unísono, ambas lenguas lamen y burlan la longitud completa de su polla.Cuando un orgasmo comienza a volar a través de ti, uno de los imps captura tu punta en la boca, bebiendo una gran carga de tu semen antes de pasar rápidamente tu eje de inicio a su aliado, quien bebe la segunda mitad de tu semen de chorro conUna expresión entusiasta en su rostro.",
+                "|f|ChangeImageLayer|/|Expression|/|OralOffer|n|Uno de los imps es chupar y lamer tus bolas doloridas mientras el otro espiral profundo tu eje palpitante.Pronto comienzas a ser superado con placer orgásmico y el imp chupando tu polla se aleja para mantener la mayor cantidad de semen como puede en su boca, y después de tu orgasmo disminuye, se aleja y besa su aliado, compartiendo su deliciosa recompensa."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Sex",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|SexOrgasm|n||c|"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|LipLick|n|'Ehehe ♥ ¡Puedo sentirte palpitando como loco dentro de mí!'Con un gemido, te eyaces en el culo apretado del Imp mientras te ondula a tu moción casi tragada.",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Smug|n|El Imp lentamente muele sus caderas contra las tuyas y te sientes acercándose la dicha orgásmica, pero ella te mantiene tambaleándose en el borde.'¡Digamos que quieres correrte! ♥' Intentas ignorarla, pero cada pensamiento en tu cerebro sigue siendo reemplazado por el placer y la necesidad de correrse.Lloras tu deseo de correrse, y ella felizmente obliga mientras te obliga al borde y su culo ordeña tu eje por cada última gota.",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|Ella monta tu polla más rápido y más rápido, el placer sube cada vez más en tu ingle hasta que tu polla finalmente estalla en la dicha orgásmica, alimentando su hambrienta carga de gilipollas después de la carga de tu semen mientras muele las caderas contra ti, tratando de ordeñar tanto comoElla puede de tu rígida virilidad."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Blowjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Smile|n|El Imp hábilmente lame y chupa tu eje, haciéndote gemir como pulsos de dicha orgásmica emanan de tu ingle hasta que te corres, alimentando al imp con el semen que desesperadamente desea.El Imp hace que algunos sonidos muy complacidos, si se amortiguan.",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Teasing|n|Tu polla palpita y se contrae de placer mientras descargas semen en la boca del impulso hambriento.Se aparta de tu polla con un pop lascivo antes de tragar tu carga con un suspiro satisfecho.Se vuelve hacia ti antes de abrir la boca para mostrarle que bebió todo tu semen.Ehehe, tienes más para mí, ¿verdad?",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|OralOffer|n|A medida que sus dolientes bolas son masajeadas por las hábiles manos del Imp mientras su boca chupa su polla sineleados, su eje comienza a convularse de placer mientras se eyaces en su boca hambrienta.Ella traga toda su carga sin quitarse la polla de su boca y rápidamente reanuda su mamada.",
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|OralOffer|n|Tu virilidad no puede tomar más de los labios suaves del Imp y burlarse de la lengua, y mientras toma la longitud completa de tu eje en su boca antes de alejarte lentamente, te arrojan a un orgasmo largo y tirado, disparando cuerdas de semenen su boca lasciva.Brota en voz alta cada una de tus cargas mientras sus atenuantes ojos azules miran hacia los tuyos."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|BaseOrgasm|n||c|"
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Blush|/|LightBlush|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n|'¡Ahh! ♥ I-Incredible! ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|OrgasmHeavy|n|'I-I'M Cumming! ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Mmm! ♥ ¡increíble! ♥'",
+                "|f|ChangeImageLayer|/|Blush|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n|'¡M-my Head se va en blanco! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "OnLoss",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|HordeDefeatCheck|n|",
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|HordeDefeatCheck|n|",
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|HordeDefeatCheck|n|",
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|HordeDefeatCheck|n|"
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|Ehehe, esto va a ser divertido. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Wink|n|¡Oh, estaré encantado de molestarte sin sentido! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Ahora que hago contigo? ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Teasing|n|Tu polla nunca se quedará sola nunca más. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|Ehehe ♥ No puedo esperar para probar tu semen. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|XD|n|¿Eh?¿Quieres ser un esclavo sexual de Imp?¡Impresionante! ♥"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Sex",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del coño apretado de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Sex",
+            "theText": [
+                "¡Pero [AttackerName] se niega a desalojarse de su polla y continúa montando su eje!",
+                "¡Pero con una fuerza sorprendente, [AttackerName] golpea sus caderas de regreso al tuyo!",
+                "Pero mientras agarras sus caderas para sacar, ella agarra firmemente tus bolas, ¡lo que te hace perder tu impulso, manteniendo tu polla ajustada dentro de ella!",
+                "¡Pero [AttackerName] sensibiliza brevemente a tu cuerpo con magia, haciéndote estremecer y gemir mientras detiene tu intento de escape en sus pistas!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Sex",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceStrugglePen"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Sex",
+            "theText": [
+                "¡Y elige sacar tu polla de su hendidura apretada!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Sex",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceEscapePen"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Anal",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del culo apretado de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Anal",
+            "theText": [
+                "¡Pero [AttackerName] se niega a desalojarse de su polla y continúa montando su eje!",
+                "¡Pero con una fuerza sorprendente, [AttackerName] golpea sus caderas de regreso al tuyo!",
+                "Pero mientras agarras sus caderas para sacar, ella agarra firmemente tus bolas, haciéndote perder tu impulso.¡Manteniéndote ajustado dentro de ella!",
+                "¡Pero [AttackerName] sensibiliza brevemente a tu cuerpo con magia, haciéndote estremecer y gemir mientras detiene tu intento de escape en sus pistas!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Anal",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceStrugglePen"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Anal",
+            "theText": [
+                "¡Y logra sacar su polla de su apretada trasera!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Anal",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceEscapePen"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Face Sit",
+            "theText": [
+                "[ThePlayerName] intenta empujar el culo redondo de [AttackerName] de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Face Sit",
+            "theText": [
+                "¡Pero ella firme firmemente su trasero hacia atrás en tu cara!",
+                "¡Pero cuando comienzas a empujarla, ella te agarra los brazos y los tira a los costados mientras procede a dejar caer su firme trasera en tu cara!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Face Sit",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Disfrutando de mis jugos de coño? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Teasing|n|'¿Qué ocurre?¿Tu cabeza está brotando? ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡No te vas a escapar! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Cooing|n|'¡Solo da por vencido!Sabes que quieres! ♥ '"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Face Sit",
+            "theText": [
+                "And manage to push [AttackerName]'s shapely rear away!|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceEscapeFace|n|",
+                "And as you free yourself from [AttackerName]'s firm behind, you gasp for some air!|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceEscapeFace|n|"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Face Sit",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Confused|n|'¿No puedes rendirte ya?'",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|¡Ugh, deja de luchar!",
+                "|f|ChangeImageLayer|/|Expression|/|ComicalPanic|n|¿Uwa?Basura, en realidad podrías ser bastante fuerte ... '",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Jeje, ¡apuesto a que ya quieres más de mis jugos! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Blowjob",
+            "theText": [
+                "[ThePlayerName] intenta empujar la boca de [AttackerName] lejos del eje rígido [TargetHisOrHer] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Blowjob",
+            "theText": [
+                "¡Pero ella le muerde ligeramente sobre tu polla, deteniéndote de inmediato mientras te mira por pensar en tratar de escapar antes de reanudarte de manera agradablemente burlona de tu virilidad!",
+                "¡Pero mientras agarras la cabeza para alejarla, ella te rodea las caderas y comienza a profundizar tu eje!Cada vez que intentas alejarla de tu eje, ¡solo lo lleva de vuelta a la empuñadura!",
+                "Pero el Imp se mueve hábilmente y comienza a lamer y burlarse de tus bolas, y mientras te mira, aprieta una de tus bolas en sus manos, te das cuenta de que tratar de empujarla ahora probablemente no terminaría bien.",
+                "¡Pero el Imp mantiene su boca firmemente sellada alrededor de su eje y continúa chupando y lamiendo el contenido de su corazón!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Blowjob",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceStruggleOral"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Blowjob",
+            "theText": [
+                "¡Y logra alejar su boca codiciosa de tu polla!",
+                "¡Y se las arregla para alejarse de su boca hambrienta!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Blowjob",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceEscapeOral"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Making Out",
+            "theText": [
+                "[ThePlayerName] intenta romper el beso profundo con [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Making Out",
+            "theText": [
+                "Pero ella mantiene un ajuste apretado [ThePlayerName], ¡y él permanece encerrado en un beso profundo!",
+                "Pero cuando comienzas a alejarla, ella envuelve un brazo alrededor de la parte posterior de tu cabeza, profundizando el beso mientras mira con lujuria en tus ojos."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceStruggleKiss"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Making Out",
+            "theText": [
+                "¡Y libera tu boca de los labios suaves de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|ImpCombatEvent|/|StanceEscapeKiss"
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "ImpsDefeated",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Imp",
+                "Imp"
+            ],
+            "theScene": [
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "Imp Den",
+                "1",
+                "NoVictoryScene",
+                "GetEventAndIfChoice",
+                "Imp Den",
+                "1",
+                "HordeBattle",
+                "NoVictoryScene",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Shy",
+                "ChangeBGM",
+                "music/Loss/reason.mp3",
+                "ClearMonsterEncounter",
+                "JumpToEventThenScene",
+                "Imp Defeated",
+                "AltIntro"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "ImpDefeated",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Imp"
+            ],
+            "theScene": [
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "Imp Den",
+                "1",
+                "NoVictoryScene",
+                "GetEventAndIfChoice",
+                "Imp Den",
+                "1",
+                "HordeBattle",
+                "NoVictoryScene",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Shy",
+                "ChangeBGM",
+                "music/Loss/reason.mp3",
+                "ClearMonsterEncounter",
+                "JumpToEvent",
+                "Imp Defeated"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "NoVictoryScene",
+            "move": "",
+            "stance": "NOACSESS",
+            "includes": [
+                "Imp"
+            ],
+            "theScene": [
+                "GetEventAndSetChoice",
+                "Imp Den",
+                "1",
+                "",
+                "ClearMonsterEncounter"
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Normal",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.315",
+                    "Images": [
+                        {
+                            "Name": "Body",
+                            "File": "Monsters/Imp/Imp_Body.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Clothes",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Clothing",
+                            "File": "Monsters/Imp/Imp_Clothing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Imp/Imp_Expressions_Happy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ComicalPanic",
+                            "File": "Monsters/Imp/Imp_Expressions_ComicalPanic.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Confused",
+                            "File": "Monsters/Imp/Imp_Expressions_Confused.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cooing",
+                            "File": "Monsters/Imp/Imp_Expressions_Cooing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Imp/Imp_Expressions_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OralOffer",
+                            "File": "Monsters/Imp/Imp_Expressions_OralOffer.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/Imp/Imp_Expressions_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OrgasmHeavy",
+                            "File": "Monsters/Imp/Imp_Expressions_OrgasmHeavy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Panic",
+                            "File": "Monsters/Imp/Imp_Expressions_Panic.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pleasured",
+                            "File": "Monsters/Imp/Imp_Expressions_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shy",
+                            "File": "Monsters/Imp/Imp_Expressions_Shy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sleeping",
+                            "File": "Monsters/Imp/Imp_Expressions_Sleeping.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/Imp/Imp_Expressions_SmileContent.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Imp/Imp_Expressions_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Teasing",
+                            "File": "Monsters/Imp/Imp_Expressions_Teasing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Wink",
+                            "File": "Monsters/Imp/Imp_Expressions_Wink.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "XD",
+                            "File": "Monsters/Imp/Imp_Expressions_XD.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Blush",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Imp/Imp_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LightBlush",
+                            "File": "Monsters/Imp/Imp_Blush_Light.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Sex",
+            "Set": [
+                {
+                    "Role": "FaceRider",
+                    "StanceRequired": "Face Sit",
+                    "MonsterRequired": "Imp",
+                    "CGTranslator": [
+                        {
+                            "In": "Expression",
+                            "Out": "FaceImpExpressionRide"
+                        },
+                        {
+                            "In": "Blush",
+                            "Out": "FaceImpBlush"
+                        }
+                    ],
+                    "TogglesLayers": [
+                        "FaceImpExpressionRide",
+                        "FaceImp",
+                        "FaceImpBlush"
+                    ],
+                    "ActiveRequirment": "Yes",
+                    "SpecificUIPlacementX": "0.60",
+                    "SpecificUIPlacementY": "0.34"
+                },
+                {
+                    "Role": "Sex",
+                    "StanceRequired": "Sex",
+                    "MonsterRequired": "Imp",
+                    "CGTranslator": [
+                        {
+                            "In": "Expression",
+                            "Out": "DickImpExpression"
+                        },
+                        {
+                            "In": "Blush",
+                            "Out": "DickImpBlush"
+                        }
+                    ],
+                    "TogglesLayers": [
+                        "DickImpExpression",
+                        "DickImp",
+                        "DickImpBlush"
+                    ],
+                    "ActiveRequirment": "Yes",
+                    "SpecificUIPlacementX": "0.4",
+                    "SpecificUIPlacementY": "0.4"
+                },
+                {
+                    "Role": "Anal",
+                    "StanceRequired": "Anal",
+                    "MonsterRequired": "Imp",
+                    "CGTranslator": [
+                        {
+                            "In": "Expression",
+                            "Out": "AnalDickImpExpression"
+                        },
+                        {
+                            "In": "Blush",
+                            "Out": "AnalDickImpBlush"
+                        }
+                    ],
+                    "TogglesLayers": [
+                        "AnalDickImpExpression",
+                        "AnalDickImp",
+                        "AnalDickImpBlush"
+                    ],
+                    "ActiveRequirment": "Yes",
+                    "SpecificUIPlacementX": "0.4",
+                    "SpecificUIPlacementY": "0.4"
+                },
+                {
+                    "Role": "Silhouette4",
+                    "StanceRequired": "",
+                    "MonsterRequired": "Imp",
+                    "CGTranslator": [],
+                    "TogglesLayers": [
+                        "ImpSilhouette4"
+                    ],
+                    "ActiveRequirment": "",
+                    "SpecificUIPlacementX": "0.15",
+                    "SpecificUIPlacementY": "0.35"
+                },
+                {
+                    "Role": "Silhouette1",
+                    "StanceRequired": "",
+                    "MonsterRequired": "Imp",
+                    "CGTranslator": [],
+                    "TogglesLayers": [
+                        "ImpSilhouette1"
+                    ],
+                    "ActiveRequirment": "",
+                    "SpecificUIPlacementX": "0.85",
+                    "SpecificUIPlacementY": "0.25"
+                },
+                {
+                    "Role": "Silhouette3",
+                    "StanceRequired": "",
+                    "MonsterRequired": "Imp",
+                    "CGTranslator": [],
+                    "TogglesLayers": [
+                        "ImpSilhouette3"
+                    ],
+                    "ActiveRequirment": "",
+                    "SpecificUIPlacementX": "0.9",
+                    "SpecificUIPlacementY": "0.9"
+                },
+                {
+                    "Role": "Silhouette2",
+                    "StanceRequired": "",
+                    "MonsterRequired": "Imp",
+                    "CGTranslator": [],
+                    "TogglesLayers": [
+                        "ImpSilhouette2"
+                    ],
+                    "ActiveRequirment": "",
+                    "SpecificUIPlacementX": "0.1",
+                    "SpecificUIPlacementY": "0.9"
+                },
+                {
+                    "Name": "CaveBackground",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Imp/SexCG/impCG_Background.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ImpSilhouette4",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Imp/SexCG/impCG_Silhouette4.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBody",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Imp/SexCG/impCG_Man.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HoverBoth",
+                            "File": "Monsters/Imp/SexCG/impCG_Man_ImpsHovering.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HoverDick",
+                            "File": "Monsters/Imp/SexCG/impCG_Man_ImpsHovering_DickOnly.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HoverFace",
+                            "File": "Monsters/Imp/SexCG/impCG_Man_ImpsHovering_FaceOnly.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RideBoth",
+                            "File": "Monsters/Imp/SexCG/impCG_Man_ImpsOn.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RideDick",
+                            "File": "Monsters/Imp/SexCG/impCG_Man_ImpsOn_DickOnly.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RideFace",
+                            "File": "Monsters/Imp/SexCG/impCG_Man_ImpsOn_FaceOnly.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBodySilhouette",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "PlayerBody",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Imp/SexCG/impCG_ManSilhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HoverBoth",
+                            "File": "Monsters/Imp/SexCG/impCG_ManSilhouette_ImpsHovering.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HoverDick",
+                            "File": "Monsters/Imp/SexCG/impCG_ManSilhouette_ImpsHovering_DickOnly.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HoverFace",
+                            "File": "Monsters/Imp/SexCG/impCG_ManSilhouette_ImpsHovering_FaceOnly.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RideBoth",
+                            "File": "Monsters/Imp/SexCG/impCG_ManSilhouette_ImpsOn.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RideDick",
+                            "File": "Monsters/Imp/SexCG/impCG_ManSilhouette_ImpsOn_DickOnly.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RideFace",
+                            "File": "Monsters/Imp/SexCG/impCG_ManSilhouette_ImpsOn_FaceOnly.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "FaceImp",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "FaceRide",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FaceHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_Hover.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "FaceImpBlush",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Face_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LightBlush",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Face_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_Hover_Face_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "FaceImpExpressionRide",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Teasing",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_Teasing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pleasured",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_OrgasmEyesClosed.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OrgasmHeavy",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cheerful",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ComicalPanic",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Confused",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cooing",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OralOffer",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_Teasing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Panic",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shy",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sleeping",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Wink",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_Teasing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "XD",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_On_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TeasingHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_Hover_Expression_Teasing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_Hover_Expression_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PleasuredHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_Hover_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OrgasmHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_Hover_Expression_OrgasmClosedEyes.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OrgasmHeavyHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_Hover_Expression_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLickHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_Hover_Expression_Liplick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "CheerfulHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpSit_Hover_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "DickImp",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "DickRide",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "DickHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "DickImpExpression",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Teasing",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Teasing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pleasured",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_OrgasmEyesClosed.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OrgasmHeavy",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cheerful",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TeasingHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Expression_Teasing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Expression_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PleasuredHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OrgasmEyesClosedHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Expression_OrgasmClosedEyes.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OrgasmHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Expression_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLickHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "CheerfulHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Expression_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ComicalPanic",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Confused",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cooing",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OralOffer",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Teasing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Panic",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shy",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sleeping",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Wink",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Teasing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "XD",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "DickImpBlush",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Face_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LightBlush",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Face_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Face_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "AnalDickImp",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "DickRide",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "DickHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "AnalDickImpExpression",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Teasing",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Teasing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pleasured",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_OrgasmEyesClosed.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OrgasmHeavy",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cheerful",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TeasingHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Expression_Teasing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Expression_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PleasuredHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OrgasmEyesClosedHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Expression_OrgasmClosedEyes.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OrgasmHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Expression_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLickHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "CheerfulHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Expression_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ComicalPanic",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Confused",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cooing",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OralOffer",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Teasing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Panic",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shy",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sleeping",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Wink",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Teasing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "XD",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Expression_Cheerful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "AnalDickImpBlush",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Face_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LightBlush",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_On_Face_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushHover",
+                            "File": "Monsters/Imp/SexCG/impCG_ImpRide_Hover_Face_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "SemenSex",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "SemenRide",
+                            "File": "Monsters/Imp/SexCG/impCG_Semen_ImpsOn.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SemenHover",
+                            "File": "Monsters/Imp/SexCG/impCG_Semen_ImpsUp.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ImpSilhouette3",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Imp/SexCG/impCG_Silhouette3.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ImpSilhouette2",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Imp/SexCG/impCG_Silhouette2.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ImpSilhouette1",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Imp/SexCG/impCG_Silhouette1.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

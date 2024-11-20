@@ -1,0 +1,204 @@
+{
+    "name": "Kotone Forest Dream",
+    "CardType": "Dream",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Kotone",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "KitsunesMentalHelp",
+                "1",
+                "Wandering"
+            ]
+        },
+        {
+            "NameOfScene": "Wandering",
+            "theScene": [
+                "StoreCurrentBG",
+                "ChangeBG",
+                "forestNight.png",
+                "StoreCurrentBGM",
+                "DisplayCharacters",
+                "EndLoop",
+                "ChangeBGM",
+                "music/Relaxing/Purple Planet Music - Gentle - Eastern Karma (2_16).mp3",
+                "Te encuentras caminando a través de un bosque oscuro, su vegetación sombreada solo iluminada por la luz de la luna débil mientras caminas sin rumbo, inseguro a dónde vas, solo que es {i} más profundo. {/i}",
+                "A pesar del bosque escalofriante y casi misterioso, te sientes perfectamente tranquilo mientras caminas más adentro, las luces parpadeantes débiles parecen bailar en la esquina de tus ojos, desapareciendo cuando los miras, pero aún así vas {i} más profundas {/i}, buscando algo que no puedas colocar en tu mente ...",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "KitsunesMentalHelp",
+                "2",
+                "Wandering2",
+                "PlayStoredBGM",
+                "UseHeldBG"
+            ]
+        },
+        {
+            "NameOfScene": "Wandering2",
+            "theScene": [
+                "El {i} más profundo {/i} caminas por el bosque, más cansado te sientes, el tenue eco de una risita femenina captando brevemente tu atención mientras cambias de instrucciones, tus pensamientos somnolientos se esforzan por recordar por qué estás aquí.",
+                "Pequeñas motas de fuego azul parpadeante comienzan lentamente a flotar en medio del aire del bosque, dando un leve brillo en medio de los árboles mientras sigues su sendero {i} más profundo {/i}, tus ojos ocasionalmente vieron la visión de alguien, alguien estás aquípara ver ...",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "KitsunesMentalHelp",
+                "3",
+                "Wandering3",
+                "PlayStoredBGM",
+                "UseHeldBG"
+            ]
+        },
+        {
+            "NameOfScene": "Wandering3",
+            "theScene": [
+                "Su dulce voz se filtra a través de los árboles, la risita ocasional que te lleva bien a medida que te profundizas en el bosque, tan cansado de tu largo viaje, sabiendo que el descanso está a la vuelta de la esquina que continúas, las motas de la luz se acercan másLlegue a su destino desconocido.",
+                "Luego finalmente rompes la línea de los árboles en un gran claro, las mocas de luz de la luz que guiñan, el dulce aroma de lavanda le hace cosquillas en la nariz mientras miras alrededor del prado iluminado por la luna, una pequeña y humilde casa sentada en una pequeña colina en el medio,Ríos delicados a través de la limpieza bien guardada, entrelazando con las rocas y los jardines.",
+                "ChangeBG",
+                "templeKotoneRoom.png",
+                "Pero a pesar de lo cansado que estás, aún no estás allí, así que te diriges un poco {i} más profundo {/i}, la noche estrellada clara brilla sobre ti mientras te mueves hacia la casa de aspecto acogedor, tus pensamientos simplemente se deslizanLejos cuanto más te acerques.Pero finalmente llegas a la entrada, mirando con una duda de momentos antes de abrir la puerta y caminar adentro.",
+                "DisplayCharacters",
+                "1",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Caring",
+                "Luego escuchas su dulce risita detrás de ti y date la vuelta, su seductora silueta enmarcada en la puerta, resaltada por la luna y protagoniza mientras te sonríe.Luego le pregunta si tendrías la amabilidad de invitarla al interior, lo que te confunde, ¿no es este su hogar?Sin embargo, ella solo continúa sonriendo dulcemente, esperando que la invite a adentro, su sombra se avecina con tentador sobre ti.",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "KitsunesMentalHelp",
+                "4",
+                "Wandering4",
+                "DisplayCharacters",
+                "EndLoop",
+                "PlayStoredBGM",
+                "UseHeldBG"
+            ]
+        },
+        {
+            "NameOfScene": "Wandering4",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "Tu pecho agita un poco mientras miras su belleza iluminada por la luna y casi tímidamente la invitas a tu casa.Ella te da una sonrisa de derretir el corazón y atraviesa el umbral, uniendo uno de sus brazos con los tuyos mientras comienza a guiarte en tu casa, su cola se cerró la puerta mientras se acaricia a tu lado, presionando su abundante cofre contra ti..",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "CaringSeductive",
+                "Pronto, ustedes dos caminan por un pasillo, se dirigen {i} más profundo {/i} en su hogar con poca luz, y ella se acurruca con amor a su lado, mientras caminas, guiándote incluso {i} más profundo {/i}por el pasillo.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Caring",
+                "Brevemente murmuras tu confusión, la casa no es tan grande, pero ella susurra tan dulcemente en tu oído, que puedes {i} siempre {/i} go {i} más profundo {/i}, y estás de acuerdoCon ella, parpadeando tus ojos cansados ​​mientras caminas por el salón oscuro con ella, yendo {i} más profundo {/i} y {i} más profundo {/i} ...",
+                "Luego finalmente te detienes en una puerta, con ella todavía acurrucada hacia tu lado, susurrando seductoramente en tu oído, y apenas puedes entender cómo {i} profundo {/i} estás ahora mismo, tan lejos de todo lo demás, yTe acompañas sin pensar para abrirle la puerta, lista para dejarla entrar incluso {i} más profundo {/i}.",
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "KitsunesMentalHelp",
+                "5",
+                "Wandering5",
+                "DisplayCharacters",
+                "EndLoop",
+                "PlayStoredBGM",
+                "UseHeldBG"
+            ]
+        },
+        {
+            "NameOfScene": "Wandering5",
+            "theScene": [
+                "ChangeBGM",
+                "music/Unknown/The Dark Eternal Night.mp3",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Kiss",
+                "Ella te da un bisagro ligero en la mejilla y te pide que la abra la puerta, y la sensación de sus suaves labios contra tu piel todavía hormiguea deliciosamente, tus pensamientos tan completamente perdidos en cómo {i} profundo {/i} tú ''Me he ido que te alcanzas sin pensar y abres la puerta con un suspiro soñador.",
+                "ChangeBG",
+                "templeKotoneDark.png",
+                "La pequeña habitación más allá del umbral es casi negra, pero se ve tan extrañamente atractiva.La mujer Foxy con usted te insta suavemente hacia adelante, y cuando ustedes dos entran en la pequeña cámara, el aire se vuelve lleno de la lavanda, haciéndote estremecer con la felicidad mientras su cola cierra la puerta detrás de ti, dejándote en la oscuridad de tono conElla, sus labios intoxicantes pastando tu cuello.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Caring",
+                "Su cola suave y esponjosa masajeando el lado opuesto de ella, es un toque celestial en tu piel desnuda, tu forma desnuda se abarca con excitación por su toque y susurros sensuales.En este momento, mientras ella se burla lentamente y tienta a tu cuerpo a una felicidad ansiosa y sumisa, te das cuenta de que ahora este es su hogar en el que te has vagado, te dejas llevarte {i} más profundo {/i} y {i} más profundo {/i} hasta que ni siquiera pudieras escapar.",
+                "O tal vez {i} fue {/i} tu casa una vez, antes de dejarla entrar, ahora eres suyo con quien jugar, pero sus palabras melosas afirman que aún puedes ir {i} más profundo {/i}, ySe siente tan bien ir {i} más profundo {/i}, por lo que ella pregunta si quieres ir {i} más profundo {/i}, y asientes y gemidos, tus pensamientos un desastre manchado de lavanda disperso mientras su control se filtra{i} más profundo {/i} en ti con cada caricia.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Deceptive",
+                "Lentamente, comienza a rodear alrededor de su cuerpo, deslizando sus manos sobre donde sea que decidan tocar, su suave cola enviando escalofríos a través de ti mientras arrastra tu piel, sus abundantes senos masajeados en tu cuerpo y sus labios regordetes besándose y susurrando seductorPalabras inteligibles a tu alrededor, una y otra vez, ella hace un círculo lentamente a tu alrededor, girando suavemente tu mente, dibujando alguna vez {i} más profundo {/i}.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "BaseDeceptive",
+                "Te sientes completamente rodeado de ella, la oscuridad solo te da vislumbres de su maravilloso cuerpo y sus ojos sensualmente engreídos mientras supera tu mente y cuerpo, y se nota que esta no es la primera vez que te ha hecho esto, pero se siente inclusoMejor que la última vez, cayendo así {i} profundo {/i} para ella.",
+                "Su voz plateada hace ecos en tu mente, pegajosamente pegándose a tu cerebro como una miel intoxicante, guiándote mientras sientes que la habitación prácticamente comienza a hundirse mientras susurra cómo {i} profundo {/i} te estás enamorando de ella, qué tan bienSe siente convertirse en el suyo, cómo el toque de su cuerpo deleita tus sentidos, y siempre puedes ir incluso {i} más profundo {/i}.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "KissDominant",
+                "Tu cuerpo se esconde y se contrae de placer mientras continúa rodeando a tu alrededor, su masaje burlón te rompió con un cuidado suave, sus curvas voluptuosas que te vuelven locas de deseo mientras presionan contra ti.Mientras que su suave cola esponjosa alivia tu emoción hacia abajo, sus besos susurrados golpean directamente en tu mente indefensa mientras da vueltas y vueltas, dejando una sonrisa maravillosa atrapada en tu rostro.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cooing",
+                "Ella es tentador y lo que debes amar sentirte así, y llorando un acuerdo, tu mente girando de alegría mientras se ríe bruscamente, por lo que te susurra a visitarla a menudo y derretirla una y otra vez, yendo {i}más profundo {/i} cada vez.Entonces ella puede dejarte un desastre gemido, vacía, excepto por ella y el placer del cerebro que te está dando, una y otra vez.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "BaseDeceptive",
+                "Luego deja de rodar justo detrás de ti, presionando sus suaves senos contra tu espalda, sus manos y cola burlándose de tu pecho desnudo mientras besa tu oreja entre susurros insidiosamente seductores que te dejan jadeando de felicidad, y una de sus manos se desliza hacia abajo hasta que esté firmemente hasta que esté firmementeEnvuelto alrededor de su dolor de virilidad, acariciándola suavemente, enviando oleadas de intenso éxtasis a través de ti, quemando sus palabras y tocando tu mente.",
+                "Quieres ir incluso {i} más profundo {/i}, quieres visitarla de nuevo, quieres que te burle y te tienta a la dicha derretida, te encanta el placer que te está dando, no puedes detener el orgasmo que se lava¡Usted, no puede dejar de ir incluso {i} más profundo {/i} mientras te corres por ella!Al instante estás maullando y gimiendo de ella, tu cuerpo se enciende en un maravilloso placer hipnótico, incapaz de tratar de contener la marea del éxtasis.",
+                "La euforia altas altas se sorprende a través de su cuerpo como pulsos constantes de rayos, su presencia con aroma a lavanda a su alrededor mientras brote por su mano ágil y su voz intoxicante, dejando caer {i} más profundo {/i} que nunca antes, y para ella, y¡El placer simplemente no se detendrá!Incluso cuando tu polla queda sacudida y goteando de su más mínimo toque, sus susurros siguen arrastrándote incluso {i} más profundo {/i} en la felicidad manchada de placer ...",
+                "GetEventAndIfChoice",
+                "KotonesRoom",
+                "30",
+                "Terapia de cola completa",
+                "WanderingCozyEnd",
+                "DisplayCharacters",
+                "EndLoop",
+                "PlayStoredBGM",
+                "UseHeldBG",
+                "GetEventAndIfChoice",
+                "Go to your room.",
+                "1",
+                "SleepingInRoom",
+                "RoomWakeUp"
+            ]
+        },
+        {
+            "NameOfScene": "WanderingCozyEnd",
+            "theScene": [
+                "ChangeBGM",
+                "music/Relaxing/Purple Planet Music - Gentle - Eastern Karma (2_16).mp3",
+                "Lentamente te despiertas en la cama, completamente agotada y gastada de lo profundo que te envió anoche, suspirando felizmente ante la sensación de sus curvas voluptuosas presionando suavemente contra tu espalda mientras se desliza silenciosamente, su gran cola esponjosa enrollada alrededor de tu parte delantera, dejándoteAfúrese firmemente su pelaje bajo como una almohada grande.",
+                "Con un contenido, suspiro, te atribuyes a ella y te entregas a la suavidad de su cola, dejándote volver a dormir, sonriendo felizmente por los juegos de placer girando con la mente que le gusta jugar contigo ...",
+                "...",
+                "DisplayCharacters",
+                "EndLoop",
+                "UseHeldBG",
+                "Lentamente y aturdidamente se despiertas en tu cama, tu cama real, todavía un poco aturdida por la dicha hipnótica que soñabas, la cercanía íntima de tus cuerpos mientras descansaba, apenas capaz de recordar detalles sólidos de ella, aparte de cómo{i} bueno {/i} todo se sintió.",
+                "Después de unos momentos más de tumbado en la euforia soñadora, temblando el placer mental que todavía te atraviesa en las réplicas, te las arreglas para salir de la cama con sudor y tomar un momento para recuperarte el aliento.Luego cambia su ropa de cama húmeda por completo antes de tomar un momento para regresar a ella y recuperarse un poco más, esperando en silencio otro sueño.",
+                "DisplayCharacters",
+                "EndLoop",
+                "PlayStoredBGM"
+            ]
+        },
+        {
+            "NameOfScene": "RoomWakeUp",
+            "theScene": [
+                "Lentamente se despierta aturdida en su cama, jadeando y jadeando en la felicidad, todo su cuerpo temblando de ese sueño brumoso e hipnótico, apenas capaz de recordar ningún detalle de ello, aparte de cómo {i} bueno {/i} se sintió.",
+                "Después de unos momentos más de temblar en la euforia soñadora, temblando el placer mental que todavía sorprende a tu cuerpo, te las arreglas para salir de tu cama empapada de sudor y tomarte un momento para recuperarte el aliento.Luego cambia su ropa de cama húmeda por completo antes de tomar un momento para regresar a ella y recuperarse un poco más, esperando en silencio otro sueño."
+            ]
+        }
+    ]
+}

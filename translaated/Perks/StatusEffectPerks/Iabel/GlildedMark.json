@@ -1,0 +1,25 @@
+{
+    "name": "Gilded Mark",
+    "description": "Iabel te ha marcado con algunos de sus besos dorados de lápiz labial, pulsa calurosamente con magia ... no se frotará, solo se puede quitar con el sueño ...",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "RemovablePersistantEffect",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "StatusIcons/IabelKiss1.png",
+        "",
+        "The golden lipstick mark vanishes."
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

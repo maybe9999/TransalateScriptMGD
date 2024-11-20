@@ -1,0 +1,56 @@
+{
+    "name": "Delicious Sin",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        "Oral"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "requiresPerkSelf": [
+        "Umbral Sucker"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "100",
+    "statusDuration": "10",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Acariciar a tu oponente.",
+    "outcome": "[AttackerName] chupa firmemente la piruleta en su boca mientras su lengua vuelve a la punta, enviando pulsos cálidos de sensaciones transferidas a lo largo de la polla de [TargetName], y cada vez más profundo la lleva a su boca, la sensación de sus suaves labiosDeslizarse a lo largo del eje de [TargetName] se vuelve cada vez más inquietante y seductor.",
+    "miss": "[AttackerName] chupa firmemente la piruleta en su boca mientras su lengua vuelve a la punta, enviando pulsos cálidos de sensaciones transferidas a lo largo de la polla de [TargetName], ¡pero [TargetHeOrShe] logra soportar la sensación burlona!",
+    "statusOutcome": "¡La extraña sensación de la mamada mágicamente inducida y el pulso arcano ocasional mientras lame y chupa la mente de [AttackerName] que se desvanecen dentro y fuera de una neblina rosada encantada!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

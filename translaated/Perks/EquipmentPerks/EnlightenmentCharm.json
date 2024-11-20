@@ -1,0 +1,21 @@
+{
+    "name": "Enlightenment Charm",
+    "description": "Aumente todas las ganancias de EXP en un 10%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "ExpBoost"
+    ],
+    "EffectPower": [
+        "10"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

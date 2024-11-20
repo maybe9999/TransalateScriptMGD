@@ -1,0 +1,27 @@
+{
+    "name": "Succubus Sex Toy",
+    "description": "Tu polla se mejora mágicamente para su placer y la tuya.Aumenta la excitación que aborda las habilidades de penetración en un 40%, pero también aumenta la sensibilidad de su polla en un 25% y el fetiche sexual en 25. Además, aumenta su virilidad en un 25%",
+    "LevelReq": "15",
+    "PerkReq": [
+        "Sex Expert"
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "PenetrationBoost",
+        "VirilityBoost",
+        "SexSensitivity",
+        "IncreaseFetish"
+    ],
+    "EffectPower": [
+        "40",
+        "25",
+        "25",
+        "Sex|/|25"
+    ],
+    "PlayerCanPurchase": "No"
+}

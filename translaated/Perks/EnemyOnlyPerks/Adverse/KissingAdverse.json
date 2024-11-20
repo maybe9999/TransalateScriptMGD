@@ -1,0 +1,21 @@
+{
+    "name": "Kissing Adverse",
+    "description": "Ai Guider Perk, hace que el enemigo intente salir de la postura de besar.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "KissingAdverse"
+    ],
+    "EffectPower": [
+        "0"
+    ],
+    "PlayerCanPurchase": ""
+}

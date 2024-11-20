@@ -1,0 +1,21 @@
+{
+    "name": "Contraceptive Curse",
+    "description": "Al usar una runa de anticoncepción, pierde 99 virilidad.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "VirilityBoost"
+    ],
+    "EffectPower": [
+        "-99"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

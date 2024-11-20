@@ -1,0 +1,53 @@
+{
+    "name": "Pinning Pounce",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Power",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Ass"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "EventRestrain",
+    "statusChance": "999",
+    "statusDuration": "2",
+    "statusPotency": "0",
+    "statusResistedBy": "Power",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|MikasCombatEvents|/|Pinning Pounce",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,54 @@
+{
+    "name": "Meditation",
+    "cost": "0",
+    "costType": "sp",
+    "requiredLevel": "0",
+    "learningCost": "2000",
+    "skillType": "HealingEP",
+    "statType": "Willpower",
+    "statusEffectScaling": "25",
+    "requiredStat": "20",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Meditar para recuperar algo de energía.No se puede usar mientras está en una postura y solo funciona en combate debido al flujo sexual de la magia en el que se basa.",
+    "outcome": "[AttackerName] medita y se basa en el espíritu [AttackerHisOrHer] para la energía.",
+    "miss": "",
+    "statusOutcome": "CombatOnly",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

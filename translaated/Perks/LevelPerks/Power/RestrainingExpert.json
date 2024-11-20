@@ -1,0 +1,23 @@
+{
+    "name": "Restraining Expert",
+    "description": "Eres un experto en mantener a las personas justo donde las quieres, aumenta tu capacidad de mantener a las personas en posturas o contenerlas en un 20% cada una.",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Grappler"
+    ],
+    "StatReq": [
+        "Power"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "RestraintBoost",
+        "StanceBoost"
+    ],
+    "EffectPower": [
+        "20",
+        "20"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

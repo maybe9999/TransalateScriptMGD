@@ -1,0 +1,53 @@
+{
+    "name": "Slimy Submerging Sex",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth"
+    ],
+    "fetishTags": [
+        "Sex"
+    ],
+    "startsStance": "Slimed 50%",
+    "requiresStance": "Sex",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Slimed 100%"
+    ],
+    "removesStance": "Slimed",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "125",
+    "statusDuration": "2",
+    "statusPotency": "10",
+    "statusResistedBy": "Willpower",
+    "statusText": "aphrodisiac",
+    "descrip": "Forzar a un afrodisíaco intoxicante en su presa.",
+    "outcome": "Mientras [AttackerName] folla lenta y húmeda en la polla rígida de [TargetName], [AttackerHeOrShe] dibuja fácilmente a [TargetHimOrHer] más profundo en la piscina viscosa, sumergiendo gradualmente el cuerpo [TargetHisOrHer] mientras continúa balanceando sus caderas seductoramente anchas.",
+    "miss": "[AttackerName] presiona gentilmente [TargetName] de espaldas contra el grupo de limo mientras [AttackerHeOrShe] perezosamente balancea sus caderas hacia arriba y hacia abajo, ¡pero [TargetYouOrMonsterName] resiste el placer!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

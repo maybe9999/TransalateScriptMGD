@@ -1,0 +1,55 @@
+{
+    "name": "Enchanting Jiggle",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction",
+        "Magic"
+    ],
+    "fetishTags": [
+        "HypnosisAddict",
+        "Ass"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Trance",
+    "statusChance": "100",
+    "statusDuration": "1",
+    "statusPotency": "1",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Mientras que [TargetName] está restringido por la hermana de [AttackerName], [TargetHeOrShe] se ve obligado a baja, y [AttackerName] le da a [AttackerHisOrHer] un culo perfectamente voluptuoso una bofetada de burlas de [TargetName] 'Opción sino de mirar impotente a la carne de fusión mental [AttackerHisOrHer] mientras se sacude y rebota, dejando a [AttackerHisOrHer] mente débil y [AttackerHisOrHer] que palpita con necesidad.",
+    "miss": "Mientras que [TargetName] está restringido por la hermana de [AttackerName], [TargetHeOrShe] se ve forzado, y [AttackerName] le da a [AttackerHisOrHer] un culo perfectamente voluptuoso una bofetada burlona de la cara de [TargetName], pero [TargetHeOrShe] administracerrar los ojos [TargetHisOrHer] antes de que la pantalla hipnótica pueda afianzarse.",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|OniCombatEvents|/|Close Range Hypnotic Butt|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,53 @@
+{
+    "name": "Feral Slash",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Pain"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "100",
+    "statusDuration": "10",
+    "statusPotency": "20",
+    "statusResistedBy": "Technique",
+    "statusText": "aphrodisiac",
+    "descrip": "",
+    "outcome": "[AttackerName] repentinamente se lanza hacia adelante con la velocidad cegadora, haciendo que [TargetName] yelp como [AttackerHeOrShe] corta [TargetHimOrHer] con [AttackerHisOrHer] aguas afiladas y afiladas, y a pesar de que no dejan un solo corte en [TargetHisOrHer] piel, una extraña piel, una extrañamente extrañadaEl dolor agradable se extiende desde donde [AttackerHeOrShe] golpeó ...",
+    "miss": "[AttackerName] de repente se lanza hacia adelante con la velocidad cegadora, pero [TargetName] logra evitar estrechamente [AttackerHisOrHer] deslizamiento salvaje como [AttackerHeOrShe] se tambalea de la falta de resistencia antes de girar para enfrentar [TargetHimOrHer] con una expresión esforzada.",
+    "statusOutcome": "[TargetName] Deja escapar un jadeo ya que un potente afrodisíaco comienza a curso a través del cuerpo [TargetHisOrHer]!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

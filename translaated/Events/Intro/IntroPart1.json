@@ -1,0 +1,44 @@
+{
+    "name": "Intro Part 1",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "???",
+            "postName": "",
+            "SpeakerType": "?"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "HideHealth",
+                "A pesar de toda la historia conocida, los humanos han sido prisados ​​por Monster Girls.",
+                "Las mujeres se convirtieron en monstruos, los hombres fueron esclavizados como stock reproductivo, y los niños nacidos de estos sindicatos impíos nunca serían humanos.",
+                "Era una era de terror, y los monstruos, liderados por la legendaria 'Demon Queen', casi trajeron a la humanidad al borde de la extinción.",
+                "Cuando toda esperanza parecía perdida, un héroe elegido, empuñando el poder de la diosa Venereae, surgió y derrotó a la reina del demonio.",
+                "Después de reunir a la humanidad debajo del estandarte de la diosa, el héroe obligó a las invasores monstruosas a regresar a su continente hogar de Lucidia.",
+                "La paz y la prosperidad reinaban en Fertilia, las tierras de los humanos.",
+                "Pero esta paz no duraría mucho, ya que los rumores comenzaron a difundirse de que una nueva reina demoníaca había aumentado en las tierras de Lucidia, decidido a vengarse de la derrota de su predecesor ...",
+                "Y así, comenzó una era de guerra interminable.Los héroes se levantaron y cayeron, y Demon Queens fue y se fue.El mundo mismo tembló a raíz de los brutales conflictos.",
+                "¡Pero esta edad sangrienta ha pasado desde hace mucho tiempo, y ahora vivimos en una era de aventura!",
+                "Las chicas monstruosas han sido confinadas a su continente en el hogar de Lucidia, un lugar miserable y de ensueño que se usa en magia oscura y una intención más oscura.",
+                "Este continente oscuro es donde enviamos a jóvenes aventureros, para que el tesoro y la fama esperen a quienes tienen éxito.Los que fallan, sin embargo, nunca se escuchan de nuevo ...",
+                "Sin embargo, uno nunca debe olvidar el verdadero objetivo de un aventurero: ¡derrotar a la reina del demonio!",
+                "Si logras tener éxito en este objetivo, te asegurarás de que la humanidad se mantenga a salvo, al menos hasta que surja la próxima reina demoníaca.",
+                "...",
+                "Este es el discurso dado a todos los que ingresan a la escuela de aventuras conocida como Adventum, donde te graduaste recientemente, superior a tu clase.",
+                "Sin embargo, el discurso no menciona que muchos aventureros masculinos regresan, a menudo con una 'esposa trofeo' a cuestas.",
+                "Muchos desaprueban tales relaciones, pero se ha demostrado que las niñas monstruosas pueden ser \"domesticadas\", aunque esto se aplica principalmente a los tipos más comunes de niñas monstruosas como niñas de vacas y niñas de gatos.",
+                "Un desarrollo reciente en la magia moderna incluso ha comenzado a permitir que las niñas monstruosas tengan niños humanos.",
+                "Pero la actual reina demoníaca ve este desarrollo como una amenaza para el status quo y ha comenzado a actuar en su disgusto, estimulando a los aventureros y héroes a todas partes para viajar a Lucidia para detenerla sin duda planes nefastos.",
+                "Así que ahora viaja en barco de Fertilia a Lucidia, ansioso por comenzar su aventura.Es un viaje largo, así que duermes bien ..."
+            ]
+        }
+    ]
+}

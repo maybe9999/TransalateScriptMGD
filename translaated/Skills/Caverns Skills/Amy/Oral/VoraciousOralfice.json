@@ -1,0 +1,55 @@
+{
+    "name": "Voracious Oralfice",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Oral",
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Blowjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Blowjob"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "60",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "100",
+    "statusDuration": "2",
+    "statusPotency": "10",
+    "statusResistedBy": "Power",
+    "statusText": "",
+    "descrip": "Chupar la polla.",
+    "outcome": "Las cinco lenguas largas de [AttackerName] envuelven alrededor de [TargetName] atrapada y bombeada al unísono como un orificio apretado y retorcido, retorciéndose mientras aprieta la polla [TargetHisOrHer] espasmante, todo mientras [AttackerName] chupa con intensidad [TargetHisOrHer] Bolas agitadas y virilidad palpitante, dejando [TargetHisOrHer] Cuerpo que se contrae por una intensa sobreestimulación.",
+    "miss": "Las cinco lenguas largas de [AttackerName] envuelven la polla de [TargetName] atrapada y bombeada al unísono como un orificio retorcido apretado, girando a medida que exprime [TargetHisOrHer] espasming polla, pero [TargetName] logra poner el dulce¡Sensaciones!",
+    "statusOutcome": "[TargetName] gime con una necesidad enloquecedora ya que la ingle [TargetHisOrHer] está empapada en la saliva afrodisíaca de [AttackerName], la necesidad de ebullición de correrse burbujea en la ingle [TargetHisOrHer].",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

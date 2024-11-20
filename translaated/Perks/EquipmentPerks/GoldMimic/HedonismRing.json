@@ -1,0 +1,25 @@
+{
+    "name": "Hedonism Ring",
+    "description": "",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "IndulgentBoost",
+        "DamageReduction",
+        "RegenMaxArousal"
+    ],
+    "EffectPower": [
+        "30",
+        "-5",
+        "-5"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Taunted",
+    "description": "La burla escala infligida en usted deja su ofensa y defensa reducida en un 25%, ¡y te queda un 5% más de probabilidades de ser crítico!Tal vez hay alguna forma de volver a ellos ... | Perkduration |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "DamageReduction",
+        "DamageBoost",
+        "CritChanceBoostSelf",
+        "TurnDuration",
+        "NonPersistentEffect",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "StatusIcons/AtkDefDownIcon.png",
+        "-25",
+        "-25",
+        "5",
+        "21",
+        "",
+        "The effect of the stinging words fade..."
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Pawjob",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Power",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Nursing"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Titfuck",
+        "Footjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] llega hacia adelante con una mano con garra y la envuelve firmemente alrededor de la longitud rígida de [TargetName] con un cuidado suave antes de bombear hacia arriba y hacia abajo a un ritmo constante, trazos lentos y poderosos que hacen que [TargetHisOrHer] se produzca la polla de deleite desde el deleite de la delicia.Sensación única del [AttackerHisOrHer] gran pata monstruosa deslizándose a lo largo del eje [TargetHisOrHer].",
+    "miss": "[AttackerName] se extiende con una mano garra para agarrar la polla de [TargetName], pero [TargetHeOrShe] mantiene el gran apéndice alejado.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

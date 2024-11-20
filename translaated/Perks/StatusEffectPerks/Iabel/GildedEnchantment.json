@@ -1,0 +1,29 @@
+{
+    "name": "Gilded Enchantment",
+    "description": "¡Estás desesperadamente encantado con Iabel y su cuerpo impecable! ♥ Ansiosamente recibes un 30% más de daño, y te encanta tener una oportunidad 15% más alta para ser golpeado críticamente. ♥ No puedes evitar fantasear con lo que te va a hacer. ♥ | Perkduration |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "DamageReduction",
+        "CritChanceBoostSelf",
+        "RemovablePersistantEffect",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "StatusIcons/IabelEnchanted.png",
+        "-30",
+        "15",
+        "",
+        "The captivating charm ends."
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

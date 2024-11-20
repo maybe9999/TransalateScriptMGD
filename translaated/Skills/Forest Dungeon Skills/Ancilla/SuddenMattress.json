@@ -1,0 +1,54 @@
+{
+    "name": "Sudden Mattress",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        ""
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Sleep",
+        ""
+    ],
+    "power": "10",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "250",
+    "statusDuration": "0",
+    "statusPotency": "10",
+    "statusResistedBy": "Technique",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|AncillaCombatEvents|/|Sudden Mattress",
+    "statusMiss": "",
+    "restraintStruggle": "[TargetName] struggles against the unnaturally snug blanket...",
+    "restraintStruggleCharmed": "[TargetName] squirms against the tantalizingly comfortable blankets, barely resisting the urge to sink deeper into the comfortable mattress...",
+    "restraintEscaped": "And tears the blanket off, unrestricting their movement!",
+    "restraintEscapedFail": "But can't seem to get the warm and cozy blanket off, and [AttackerName] only cuddles closer, enhancing the comfort..."
+}

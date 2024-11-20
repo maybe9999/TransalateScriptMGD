@@ -1,0 +1,23 @@
+{
+    "name": "Insightful Wit",
+    "description": "Ya sabes lo que tú y tu oponente probablemente harán antes de que lo sepan, ¡por al menos 3 pasos!¡Obtenga 25 iniciativa y aumente su capacidad de escapar en un 25%!A veces pensar en el futuro significa que sabes cuándo correr.",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Quick Witted"
+    ],
+    "StatReq": [
+        "Intelligence"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "InitiativeBonus",
+        "RunChance"
+    ],
+    "EffectPower": [
+        "25",
+        "20"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

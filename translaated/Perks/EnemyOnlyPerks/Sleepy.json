@@ -1,0 +1,21 @@
+{
+    "name": "Sleepy",
+    "description": ".",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "SleepAmp"
+    ],
+    "EffectPower": [
+        "25"
+    ],
+    "PlayerCanPurchase": "No"
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Golden Marking",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "50",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction",
+        "Magic"
+    ],
+    "fetishTags": [
+        "Kissing"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Blowjob",
+        "Face Sit",
+        "Footjob",
+        "Titfuck",
+        "Thighjob",
+        "Footjob",
+        "Making Out",
+        "Sex"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Face Sit"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "999",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Besa a tu oponente.",
+    "outcome": "Iabel se dirige con un ronroneo lascivo y planta rápidamente un beso largo y amoroso en tu mejilla, enviando hormigueo mágico en toda tu cabeza antes de que se separe con un golpe húmedo de sus suaves labios, dejando una cálida marca de besos dorada detrás ...",
+    "miss": "Iabel se dirige con un ronroneo lascivo, pero [TargetHeOrShe] se mantiene fuera de su alcance.",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|IabelCombatEvents|/|KissStack|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

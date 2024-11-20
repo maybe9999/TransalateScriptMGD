@@ -1,0 +1,26 @@
+{
+    "name": "Iabel Gold Heart Tile",
+    "CardType": "Event",
+    "CardLimit": "9",
+    "Description": "Gold tiles will conjure Iabel who will enchantingly smooch you into a stupor.",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ceris",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Triggered",
+            "theScene": [
+                "JumpToEventThenScene",
+                "GoldenHeartTile",
+                "GoldenTile"
+            ]
+        }
+    ]
+}

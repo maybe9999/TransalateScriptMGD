@@ -1,0 +1,25 @@
+{
+    "name": "Treasure Watcher",
+    "description": "Aumenta la posibilidad de encontrar tesoros y que ese tesoro sea una rareza más alta mientras explora, la posibilidad de botín de los monstruos de los monstruos y todos los EROS encontrados en un 50%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "ErosBoost",
+        "ItemDropChance",
+        "TreasureFindChance"
+    ],
+    "EffectPower": [
+        "50",
+        "50",
+        "50"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

@@ -1,0 +1,259 @@
+{
+    "name": "Red Oni",
+    "IDname": "Red Oni",
+    "species": "Demon",
+    "gender": "female",
+    "description": "Una mujer imponente con piel roja y ojos amarillos penetrantes.\n\nElla tiene colmillos de aspecto agudo que se vuelven muy notables cuando su boca está abierta, orejas puntiagudas, y un solo cuerno que se curva hacia arriba de su frente, en ángulo ligeramente hacia un lado que separa su largo y salvaje cabello blanco plateado en la parte delantera mientras no hace nadaPara evitar que fluya por su espalda.\n\nSu cuerpo es increíblemente musculoso por todas partes, desde sus impresionantes abdominales hasta sus brazos y piernas intimidantemente grandes, pero no hacer nada para reducir su obvia feminidad.\n\nSu cofre está firmemente obligado por múltiples vendajes, pero a pesar de su intento de encubrirlos, todavía son impresionantemente grandes, y estimas que probablemente estén alrededor de una copa G sin restricciones.\n\nSu trasero es firme y tonificado, al igual que sus brazos y piernas.Junto con varias vendas que se cubren su pecho, antebrazos, manos y parte inferior de las piernas, lleva un gran tapadero blanco que fluye sobre sus rodillas, atada alrededor de sus caderas con un arco de cuerda roja bastante impresionante y decorativo y una calabaza considerable atada a ella..",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        ""
+    ],
+    "perks": [
+        ""
+    ],
+    "stats": {
+        "lvl": "1",
+        "Exp": "10",
+        "max_hp": "100",
+        "max_ep": "10",
+        "max_sp": "1",
+        "Power": "5",
+        "Technique": "5",
+        "Intelligence": "5",
+        "Allure": "5",
+        "Willpower": "5",
+        "Luck": "5"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "100",
+        "Ass": "100",
+        "Breasts": "100",
+        "Mouth": "100",
+        "Seduction": "100",
+        "Magic": "100",
+        "Pain": "100",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "moneyDropped": "0",
+    "ItemDropList": [
+        {
+            "name": "Anaph Herb",
+            "dropChance": "75"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Tighten",
+            "theText": [
+                "''",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        }
+    ],
+    "victoryScenes": [],
+    "pictures": [
+        {
+            "Name": "Base",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.105",
+            "Images": [
+                {
+                    "Name": "Clothed",
+                    "File": "Monsters/Himika/Body_Himika_Clothed.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Topless",
+                    "File": "Monsters/Himika/Body_Himika_Topless.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Nude",
+                    "File": "Monsters/Himika/Body_Himika_Nude.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Face",
+            "StartOn": "0",
+            "AlwaysOn": "0",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Blush",
+                    "File": "Monsters/Himika/Face_Himika_Blush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Himika/Expressions_Himika_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "LaughBoisterous",
+                    "File": "Monsters/Himika/Expressions_Himika_BoisterousLaugh.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Caring",
+                    "File": "Monsters/Himika/Expressions_Himika_Caring.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Cocky",
+                    "File": "Monsters/Himika/Expressions_Himika_Cocky.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Determined",
+                    "File": "Monsters/Himika/Expressions_Himika_Determined.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Dominant",
+                    "File": "Monsters/Himika/Expressions_Himika_Dominant.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "DrunkDazed",
+                    "File": "Monsters/Himika/Expressions_Himika_DrunkDazed.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "DrunkHorny",
+                    "File": "Monsters/Himika/Expressions_Himika_DrunkHorny.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Flustered",
+                    "File": "Monsters/Himika/Expressions_Himika_Flustered.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Orgasm",
+                    "File": "Monsters/Himika/Expressions_Himika_Orgasm.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Panic",
+                    "File": "Monsters/Himika/Expressions_Himika_Panic.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "PanicSilly",
+                    "File": "Monsters/Himika/Expressions_Himika_PanicSilly.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pleasured",
+                    "File": "Monsters/Himika/Expressions_Himika_Pleasured.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pout",
+                    "File": "Monsters/Himika/Expressions_Himika_Pout.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pout",
+                    "File": "Monsters/Himika/Expressions_Himika_Seductive.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Shy",
+                    "File": "Monsters/Himika/Expressions_Himika_Shy.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}

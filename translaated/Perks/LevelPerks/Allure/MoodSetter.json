@@ -1,0 +1,21 @@
+{
+    "name": "Mood Setter",
+    "description": "Sabes cómo volver a entrenar a las damas.Cada habilidad de juego previo que usa disminuye sus defensas a la excitación en un 5% durante 3 turnos, este efecto puede apilarse sobre sí mismo y se combina con los efectos similares que tenga.",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Seductive Touch"
+    ],
+    "StatReq": [
+        "Allure"
+    ],
+    "StatReqAmount": [
+        "20"
+    ],
+    "PerkType": [
+        "ForeplayDefDown"
+    ],
+    "EffectPower": [
+        "5"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

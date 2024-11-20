@@ -1,0 +1,55 @@
+{
+    "name": "Empowered Thrust",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "attack",
+    "statType": "Intelligence",
+    "requiredStat": "20",
+    "skillTags": [
+        "Penetration",
+        "Magic"
+    ],
+    "fetishTags": [
+        "Penetration",
+        "Cock"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "50",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "50",
+    "statusDuration": "6",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Mejora mágicamente tu amor a medida que empujas a tu objetivo.Puede encantar.",
+    "outcome": "[AttackerName] empuja su polla mágicamente cargada en [TargetName] [SexAdjective] [SexWord], y [TargetHeOrShe] gime como cursos mágicos eróticos en ellos con cada empuje.",
+    "miss": "[AttackerName] empuja su polla mágicamente cargada en [TargetName] [SexAdjective], pero [SexWord] es capaz de resistir [TargetHeOrShe] de sexo con infusión de magia erótica!",
+    "statusOutcome": "Los ojos de [TargetName] de repente tienen corazones en ellos y [TargetHeOrShe] mira a [AttackerName] con amor.¡La magia erótica ha encantado [TargetHimOrHer]!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

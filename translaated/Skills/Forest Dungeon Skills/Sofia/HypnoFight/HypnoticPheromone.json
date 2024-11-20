@@ -1,0 +1,53 @@
+{
+    "name": "Hypnotic Pheromone",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "HypnosisAddict"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Trance",
+    "statusChance": "150",
+    "statusDuration": "1",
+    "statusPotency": "1",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] se extiende perezosamente con un suave gemido erótico, mostrando curvas voluptuosas [AttackerHisOrHer] como una nube rosa visible de feromonas brillantes se filtra de [AttackerHisOrHer].La atractiva nube de fragancia dulce abruma los sentidos de [TargetName] en una mente instantánea e inundada [TargetHisOrHer] con el dolor doloroso, dejando los pensamientos [TargetHisOrHer] a la deriva.",
+    "miss": "[AttackerName] se extiende perezosamente con un suave gemido erótico, mostrando curvas voluptuosas [AttackerHisOrHer] como una nube rosa visible de feromonas brillantes se filtra de [AttackerHisOrHer].¡El nombre de TargetNe] logra no inhalar el dulce aroma empalagoso!",
+    "statusOutcome": "[TargetName]'s mind feels so blissfully empty as it fills with [AttackerName]'s potent intoxicating pheromones...|f|CallCombatEventAndScene|/|AwakeSofiaCombatEvents|/|SmotheringPheromones|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

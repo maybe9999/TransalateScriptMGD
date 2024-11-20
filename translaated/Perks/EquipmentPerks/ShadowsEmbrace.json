@@ -1,0 +1,27 @@
+{
+    "name": "Shadows Embrace",
+    "description": "Supuestamente usando una capa de sombras, puedes moverte a la velocidad de la oscuridad, lo que sea que eso signifique.Le brinda un 10% adicional de posibilidades de esquivar los ataques y evitar los efectos de estado cuando no en una postura.¡También aumenta su capacidad para salir de las posturas y liberarse de las restricciones en un 10%, así como una bonificación del 25% para escapar de las peleas!",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        "Technique"
+    ],
+    "StatReqAmount": [
+        "5"
+    ],
+    "PerkType": [
+        "OutOfStanceEvade",
+        "RunChance",
+        "GetOutOfStance",
+        "RemoveRestraints"
+    ],
+    "EffectPower": [
+        "10",
+        "25",
+        "10",
+        "10"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

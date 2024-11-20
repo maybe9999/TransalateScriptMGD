@@ -1,0 +1,27 @@
+{
+    "name": "Ate Hearty Meal",
+    "description": "La maravillosa tortilla de arpía con tocino y gofres que comiste está aumentando tu excitación máxima y máxima energía en +10.| Perkduration |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "GainArousal",
+        "GainEnergy",
+        "TimeDuration",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "10",
+        "10",
+        "6",
+        "The effects of your meal have worn off."
+    ],
+    "PlayerCanPurchase": "No"
+}

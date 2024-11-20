@@ -1,0 +1,58 @@
+{
+    "name": "Jellowy Squeeze",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts",
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Titfuck",
+    "unusableIfStance": [
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Tailjob",
+        "Slimed",
+        "Slimed 50%"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] apreta estrechamente la polla de [TargetHisOrHer] entre [AttackerHisOrHer] tetas pegajosas antes de acariciar húmedamente [TargetHisOrHer] Longitud con un vigor alegre!Targethisorher] retrocede suavemente exprime y masajes [TargetHisOrHer] por todas partes, eliminando cada onza de tensión del cuerpo de [TargetHisOrHer].",
+    "miss": "[AttackerName] apreta estrechamente la polla de [TargetName] entre [AttackerHisOrHer] tetas pegajosas antes de acariciar húmedamente [TargetHisOrHer] ¡con un ligero vigor!¡Pero [TargetHeOrShe] logra ignorar el placer de ajuste en el cuerpo [TargetHisOrHer]!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

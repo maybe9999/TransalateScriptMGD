@@ -1,0 +1,62 @@
+{
+    "name": "Vili's Playful Tittyfuck",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts",
+        "Vili's Curse"
+    ],
+    "startsStance": "",
+    "requiresStance": "Titfuck",
+    "unusableIfStance": [
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Tailjob"
+    ],
+    "unusableIfTargetHasTheseSets": [
+        [
+            "Titfuck",
+            "Titfuck"
+        ]
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "70",
+    "statusDuration": "6",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] Rolls bruscamente [AttackerHisOrHer] tetas generosas alrededor de la polla de [TargetName] en círculos alternativos lentos, antes de rebotar sus pechos pesados ​​hacia arriba y hacia abajo [TargetHisOrHer] polla rígida, enviando una sacudida de dicha melosa a través de [TargetHimOrHer] con cada trazo de[AttackerHisOrHer] tentador de escisión!",
+    "miss": "[AttackerName] Rolls bruscamente [AttackerHisOrHer] tetas abundantes alrededor de la polla de [TargetName] en círculos alternativos lentos, antes de rebotar sus pechos pesados ​​hacia arriba y hacia abajo [TargetHisOrHer] Dick rígido, pero [TargetHeOrShe] logran ignorar las sacudidas de placer.Targethisorher] Guora!",
+    "statusOutcome": "[TargetName] No puedo evitar enamorarse de la suavidad celestial ordeñando su virilidad contraproducente, volviéndose completamente encantado con las tetas de almohada de [AttackerName]!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

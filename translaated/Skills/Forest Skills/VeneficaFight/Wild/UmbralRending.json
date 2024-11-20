@@ -1,0 +1,55 @@
+{
+    "name": "Umbral Rending",
+    "cost": "20",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "2500",
+    "skillType": "attack",
+    "statType": "Power",
+    "requiredStat": "40",
+    "statusEffectScaling": "25",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain",
+        "Stun"
+    ],
+    "power": "40",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Stun",
+    "statusChance": "50",
+    "statusDuration": "2",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Poderoso magia erótica que despierta a tu objetivo.Puede encantar.",
+    "outcome": "[AttackerName] se lanza hacia adelante con deslizamientos salvajes de sus garras destrozando al aire libre, enviando rayas de crepitantes de magia negra de tinta en amplios arcos en [TargetName], y [TargetHeOrShe] es golpeado por las ondas arcanas de Scything, que envían un placer desorientadorpensé erráticamente [TargetHisOrHer] todo el cuerpo, dejando [TargetHimOrHer] contracciones y jadeo.",
+    "miss": "[AttackerName] se lanza hacia adelante con golpes salvajes de sus garras que se rasgan a través del aire libre, enviando rachas de crepitantes de magia negra de tinta en amplios arcos en [TargetName], ¡pero [TargetHeOrShe] evita por poco el óleo!",
+    "statusOutcome": "¡El mágico arcan a través de la piel de [TargetName], dejando el cuerpo [TargetHisOrHer] que se apoderan de las placenteras placenteras en cascada a través de [TargetHimOrHer]!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

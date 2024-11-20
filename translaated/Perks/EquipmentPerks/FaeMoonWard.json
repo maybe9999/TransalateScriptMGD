@@ -1,0 +1,21 @@
+{
+    "name": "Fae Moon Ward",
+    "description": "¡Aumenta sus posibilidades de ignorar una parálisis aturdida en un 10%!",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "ParalysisAmp"
+    ],
+    "EffectPower": [
+        "-10"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

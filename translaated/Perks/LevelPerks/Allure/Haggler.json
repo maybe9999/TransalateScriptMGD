@@ -1,0 +1,21 @@
+{
+    "name": "Haggler",
+    "description": "Afree su lengua plateada, bajando los precios de la compra de artículos, habilidades y equipos en un 20% al tiempo que aumenta el valor de los artículos vendidos en un 20%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        "Allure"
+    ],
+    "StatReqAmount": [
+        "20"
+    ],
+    "PerkType": [
+        "BetterPrices"
+    ],
+    "EffectPower": [
+        "20"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

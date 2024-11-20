@@ -1,0 +1,58 @@
+{
+    "name": "Opulent March",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob",
+        "Breast Smother",
+        "Nursing",
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "45",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "20",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "40",
+    "statusDuration": "11",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Con un ronroneo depredador, Iabel se aferra firmemente mientras ella balancea elegantemente su cintura, acariciando su polla temblorosa con su exquisito y real coño, enviando un timón constante de éxtasis intoxicante a través de sus caderas con cada impacto húmedo resonante.pliegues enrollando y retorciéndose inhumanamente alrededor de su virilidad cada vez que su punta de fuga se estrella contra su cuello uterino, bloqueando su mente con sacudida tras sacudida de euforia.",
+    "miss": "Con un ronroneo depredador, Iabel se aferra fuertemente hacia ti mientras ella gira elegantemente su cintura, acariciando tu polla temblorosa con su exquisito y real coño, pero [TargetName] soporta las burlas sexuales.",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|IabelCombatEvents|/|SexCharmStack|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

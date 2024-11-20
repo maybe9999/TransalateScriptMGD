@@ -1,0 +1,59 @@
+{
+    "name": "Gates of Hell",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Power",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "Titfuck",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Making Out",
+        "Blowjob",
+        "Breast Smother",
+        "Nursing"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Tailjob",
+        "Blowjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Event",
+    "statusChance": "999",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] se lanza hacia adelante y envuelve sus grandes garras alrededor de la parte posterior de la cintura de [TargetName] mientras enterran la longitud [TargetHisOrHer] rígida en sus enormes senos suaves y suaves, envolviendo [TargetHisOrHer] polla en el calor dolorosamente cálido y almohado con una sonrisa tímida comoElla usa solo su agarre en [TargetName] y los movimientos de su parte superior del cuerpo para rebotar su pecho pesado.",
+    "miss": "[AttackerName] se lanza hacia adelante con sus grandes garras descubiertas, ¡pero [TargetName] logra evitar su comprensión firme!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|CerisCombatEvents|/|SwapToHellishInvitation|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

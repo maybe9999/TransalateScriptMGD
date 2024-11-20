@@ -1,0 +1,60 @@
+{
+    "name": "Manticore Venom Injection",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Pain"
+    ],
+    "fetishTags": [
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Tail Fuck",
+    "unusableIfStance": [
+        "Blowjob",
+        "Sex",
+        "Anal",
+        "Titfuck"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Blowjob",
+        "Sex",
+        "Anal",
+        "Tailjob",
+        "Footjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "100",
+    "statusDuration": "10",
+    "statusPotency": "25",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "OrgasmCheck",
+    "miss": "La cola de [AttackerName] se aprieta en el eje de [TargetName] y lo acaricia con sus internos antinaturales, ¡pero [TargetName] logra soportarlo!",
+    "statusOutcome": "[AttackerName] le da a [TargetHimOrHer] una sonrisa siniestra, que se aferraba fuertemente a [TargetHimOrHer] mientras [AttackerHisOrHer] la cola es incansable [TargetHisOrHer] Dick, [AttackerName] regresa y toma una de [AttackerHisOrHer] de las espinas llenas de refrodisíaco de [AttackerHisOrHer] cola de cola de cola de [AttackerHisOrHer], y lo inyecta gentilmente directamente en el cuello de [TargetHimOrHer], haciendo que [TargetHimOrHer] jadee como el cuerpo de veneno inunda el cuerpo [TargetHisOrHer].",
+    "statusMiss": "[AttackerName] gives [TargetName] a sinister smile, and reaches back, taking one of [AttackerHisOrHer] aphrodisiac filled spines off of [AttackerHisOrHer] tail, but [TargetName] thrashes too much, making [AttackerName] drop the venom filled needle.",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

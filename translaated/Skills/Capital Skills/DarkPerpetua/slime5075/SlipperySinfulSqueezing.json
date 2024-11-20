@@ -1,0 +1,61 @@
+{
+    "name": "Slippery Sinful Squeezing",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction",
+        "Foreplay"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "None",
+        "Making Out",
+        "Sex",
+        "Anal",
+        "Slimed 25%",
+        "Slimed 100%"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Sleep"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "critChance": "5",
+    "accuracy": "50",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "110",
+    "statusDuration": "99",
+    "statusPotency": "5",
+    "statusResistedBy": "Power",
+    "statusText": "aphrodisiac",
+    "descrip": "Acariciar la polla de tus oponentes.",
+    "outcome": "Ahora con ustedes, rodeados de las mujeres pegajosas, arrullan y le susurran dulces nada mientras presionan sus curvas resbaladizas contra usted por todos lados, atrapándolo entre ellas mientras se frota sus senos resbaladizos arriba y abajo de su cuerpo en un masaje erótico de cuerpo completoEso deja tus pensamientos espaciando con la lujuria melty.",
+    "miss": "Ahora con ustedes, rodeados de las mujeres pegajosas, arrullan y le susurran dulces nada mientras presionan sus curvas resbaladizas contra usted por todos lados, atrapándolo entre ellas mientras se frota sus senos resbaladizos arriba y abajo de su cuerpo en un masaje erótico de cuerpo completo, ¡pero te las arreglas para soportar su abrazo sincronizado!",
+    "statusOutcome": "La delgada afrodisíaca brillante que cubre las curvas pegajosas del trío se filtra en su piel, inundando con calor pecaminoso mientras la felicidad espeluznante se irradia sobre usted ...",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

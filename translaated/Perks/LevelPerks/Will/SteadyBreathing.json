@@ -1,0 +1,21 @@
+{
+    "name": "Steady Breathing",
+    "description": "Con el ritmo y la práctica adecuados, ahora puede frenar su excitación durante el combate, haciendo que su excitación disminuya en un 1% de su máximo en cada turno.La rendición elimina este beneficio.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        "Willpower"
+    ],
+    "StatReqAmount": [
+        "20"
+    ],
+    "PerkType": [
+        "RegenMaxArousal"
+    ],
+    "EffectPower": [
+        "1"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

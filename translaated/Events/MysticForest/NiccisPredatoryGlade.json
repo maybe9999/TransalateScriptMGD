@@ -1,0 +1,51 @@
+{
+    "name": "Nicci's Predatory Glade",
+    "CardType": "Event",
+    "CardLimit": "1",
+    "Description": "Nicci awaits in her flowery glade. She'll happily milk you dry, pampering you with her nectar.♥",
+    "requires": [
+        ""
+    ],
+    "requiresEvent": [
+        {
+            "NameOfEvent": "Nectar Delivery",
+            "Progress": "1",
+            "ChoiceNumber": "-1",
+            "Choice": ""
+        }
+    ],
+    "Speakers": [
+        {
+            "name": "Nicci",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Fight",
+            "theScene": [
+                "DisplayCharacters",
+                "1",
+                "EndLoop",
+                "StoreCurrentBG",
+                "ChangeBG",
+                "forest.png",
+                "ChangeImageLayer",
+                "Expression",
+                "Nicci",
+                "SmileSeductive",
+                "A medida que avanza a través de las profundidades oscuras del laberinto, de repente te encuentras en un campo cubierto de hierba con Nicci en el centro, la alta Alraune te mira con lujuria por un momento antes de sonreír y pasar las manos sobre su cuerpo curvilíneo y manchado dulce.",
+                "Speaks",
+                "Ven aquí, Cutie.¿Por qué no tener un descanso y tomar un buen baño de néctar?Esto se sentirá tan bien. ♥",
+                "CombatEncounter",
+                "RunningWontSkipEvent",
+                "NoRunning",
+                "Nicci",
+                "StartCombat",
+                "Con la voluptuosa mujer de flores derrotada, te encuentras de regreso del verbal glade al laberinto, inseguro de si eso realmente sucedió ...",
+                "UseHeldBG"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Blown Kisses Erosion",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "20",
+    "requiredStat": "6",
+    "skillTags": [
+        "Seduction",
+        "Magic",
+        "Unholy"
+    ],
+    "fetishTags": [
+        "Kissing"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "5",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Defence",
+    "statusChance": "40",
+    "statusDuration": "11",
+    "statusPotency": "-5",
+    "statusResistedBy": "Willpower",
+    "statusText": "Beso de erosión",
+    "descrip": "",
+    "outcome": "Contuctivamente trayendo dos dedos a su búsqueda de labios de felpa, el trío deja escapar una burla colectiva de 'Mwah ♥' al unísono perfecto mientras volando de manera convincente a los besos a tu manera, conjurando tres corazones flotantes que vuelan por el aire hacia ti, cada impacto mágico envía¡Una ola caliente de hormigueo encantador y meloso a través de tu piel mientras la sensación de besos suaves se irradia por todo el cuerpo!",
+    "miss": "Contuctivamente trayendo dos dedos a sus labios de felpa, el trío deja escapar una burla colectiva de 'Mwah ♥' al unísono perfecto mientras volan de manera convincente a los besos a tu manera, conjurando tres corazones flotantes que vuelan por el aire, pero logras evadir el pulsante¡Projiles!",
+    "statusOutcome": "Los besos cautivadores se derriten en tus sentidos como la dulce miel lujosa mientras se erosionan tu racionalidad con una creciente necesidad de placer ...",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

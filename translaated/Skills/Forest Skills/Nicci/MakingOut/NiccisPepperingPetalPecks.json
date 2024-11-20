@@ -1,0 +1,53 @@
+{
+    "name": "Nicci's Peppering Petal Pecks",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth"
+    ],
+    "fetishTags": [
+        "Kissing"
+    ],
+    "startsStance": "",
+    "requiresStance": "Making Out",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "10",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "150",
+    "statusDuration": "5",
+    "statusPotency": "10",
+    "statusResistedBy": "Willpower",
+    "statusText": "aphrodisiac",
+    "descrip": "Forzar a un afrodisíaco intoxicante en su presa.",
+    "outcome": "Nicci se convierte alegremente mientras taca la barbilla para plantar besos amantes en todo el rostro con sus labios regordetes, dejando las marcas de beso de color blanco puro sobre ti que sale muy bien con un afrodisíaco floral, la cálida sensación indulgente que se intercambia con la ducha mimos de la mente-besos de color.",
+    "miss": "Nicci se convierte alegremente mientras se topa delicadamente en la barbilla para plantar besos amantes en todo el rostro con sus labios regordetes, ¡pero te las arreglas para soportar la ducha de mimas de los besos florales!",
+    "statusOutcome": "[TargetName] puede sentir que las marcas de beso inculcan la lujuria vertiginosa directamente en su mente, el placer vertiginoso que rezume que lo convence de un suspiro irreflexivo de una feliz relajación.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

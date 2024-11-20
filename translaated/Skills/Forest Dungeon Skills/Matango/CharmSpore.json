@@ -1,0 +1,54 @@
+{
+    "name": "Charm Spores",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction",
+        "RestrainUsable"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Charm"
+    ],
+    "power": "10",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "100",
+    "statusDuration": "5",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] de repente deja escapar una explosión de esporas rosadas, y como [TargetName] las respira, [TargetHisOrHer] ¡La cabeza está llena de pensamientos lujuriosos!",
+    "statusMiss": "[AttackerName] suddenly lets out a burst of pink spores, but [TargetName] manages to hold [TargetHisOrHer] breath!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

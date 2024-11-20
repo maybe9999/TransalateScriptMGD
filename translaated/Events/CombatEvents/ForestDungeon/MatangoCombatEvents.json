@@ -1,0 +1,549 @@
+{
+    "name": "MatangoCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Matango",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Intro",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Drunk",
+                "¡Te encuentras con un Matango!"
+            ]
+        },
+        {
+            "NameOfScene": "AutoFuck",
+            "theScene": [
+                "IfMonsterHasStance",
+                "Sex",
+                "Fucking",
+                "IfMonsterHasStance",
+                "Ass",
+                "FuckingAnal"
+            ]
+        },
+        {
+            "NameOfScene": "Fucking",
+            "theScene": [
+                "JumpToRandomScene",
+                "intimate",
+                "willinginglyThrust",
+                "mindlesslyFucking",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "intimate",
+            "theScene": [
+                "HitPlayerWith",
+                "Grind",
+                "Tan íntimamente entrelazado con el matango, te quedas indefenso contra sus esporas inductoras de lujuria, y te encuentras empujando irreflexivamente en su apretado coño mientras aprieta tu longitud, tentándote a llenarla con tu semilla una y otra vez. [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "willinginglyThrust",
+            "theScene": [
+                "HitPlayerWith",
+                "Grind",
+                "Te encuentras empujando voluntariamente al coño apretado del Matango mientras una explosión de sus esporas de su gorra de hongos inunda tus pulmones, estás demasiado cerca de ella para evitar respirarlas, y ella se acarla más cerca de ti con un suspiro erótico queHace que tu polla se contrae con necesidad. [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "mindlesslyFucking",
+            "theScene": [
+                "HitPlayerWith",
+                "Grind",
+                "Más de las esporas de Matango llenan sus pulmones mientras jadeas con placer de su apretado coño apretado, y te encuentras agitando tus caderas buscando más placer, la dolorosa necesidad de llenarla con tu semen tomando tu mente. [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "FuckingAnal",
+            "theScene": [
+                "JumpToRandomScene",
+                "intimateA",
+                "willinginglyThrustA",
+                "mindlesslyFuckingA",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "intimateA",
+            "theScene": [
+                "HitPlayerWith",
+                "Grind",
+                "Tan íntimamente entrelazado con el Matango, te quedas indefenso contra sus esporas inductoras de lujuria, y te encuentras empujando irreflexivamente en su culo apretado mientras aprieta tu longitud, tentándote a llenarla con tu semilla una y otra vez. [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "willinginglyThrustA",
+            "theScene": [
+                "HitPlayerWith",
+                "Grind",
+                "Te encuentras voluntariamente en la parte trasera apretada del Matango mientras una explosión de sus esporas de su gorra de hongos inunda tus pulmones, estás demasiado cerca de ella para evitar respirarlas, y ella te acuesta con un suspiro erótico queHace que tu polla se contrae con necesidad. [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "mindlesslyFuckingA",
+            "theScene": [
+                "HitPlayerWith",
+                "Grind",
+                "Más de las esporas de Matango llenan sus pulmones mientras jadea con placer de su apretada trasera apretada, y te encuentras agotando tus caderas buscando más placer, la dolorosa necesidad de llenarla con tu semen tomando tu mente. [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "Mushroom Temptation",
+            "theScene": [
+                "SetPostName",
+                "- Tentación de hongos",
+                "ChangeImageLayer",
+                "Expression",
+                "Drunk",
+                "HitPlayerWith",
+                "Seduce",
+                "Una nube rosa de esporas sale de la gorra de hongos del Matango y se balancea ligeramente con una sonrisa cachonda antes de girar en el lugar y tentadoramente balanceándote su retaguardia, tratando de atraer tu deseo de criarla. [DamageToPlayer]",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "¿No quieres follarme todo el día? ♥",
+                "¡Ven a mí ♥ Déme! ♥♥♥",
+                "Quiero tu grueso hongo muuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuo.",
+                "¡Me duele mucho mi coño por tu polla! ♥",
+                "Fóllame, ♥ por favor? ♥",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "IfHasPerk",
+                "Mushroom Head",
+                "ForcedFail",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "25",
+                "ForcedCheck",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "25",
+                "ForcedCheck",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "ForcedCheck",
+                "JumpToScene",
+                "TemptedMenu"
+            ]
+        },
+        {
+            "NameOfScene": "ForcedCheck",
+            "theScene": [
+                "Tu mente nada con un deseo erótico de la atractiva batido de las caderas de Matango, haciendo que tu polla se contrae con la necesidad de ceder a su oferta lasciva.",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "50",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "75",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "100",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "50",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "75",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "100",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "4",
+                "Temptation",
+                "5",
+                "TemptedMenu",
+                "Fail",
+                "Fuck her!"
+            ]
+        },
+        {
+            "NameOfScene": "ForcedFail",
+            "theScene": [
+                "HitPlayerWith",
+                "Seduce",
+                "La mera vista de su coño goteante y sus amplias caderas se apaga instantáneamente cualquier motivo en su cerebro mientras su polla dolorosamente rígida palpita con necesidad, la cabeza hinchada de su virilidad se contrae mientras filtra precum con anticipación. [DamageToPlayer]",
+                "HitPlayerWith",
+                "Grind",
+                "ApplyStance",
+                "Sex",
+                "Te apresuras hacia adelante y sumerges tu polla dolorida en su maravillosamente apretado coño, besando su matriz con la punta de tu virilidad, suspirando felizmente mientras su orificio se tensa alrededor de tu polla sacudida con un apretón de bienvenida que te hace sentir como si sea casa. [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "TemptedMenu",
+            "theScene": [
+                "Menu",
+                "Fuck her!",
+                "Ignore her.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Ignore her.",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Submissive",
+                "Ignoras por completo la tentación del Matango, y finalmente logra salir de su estupor conducido por la lujuria.",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "I- ah uhm ...",
+                "Soy ... ¿no soy atractivo ..?",
+                "S-Sorry!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Fuck her!",
+            "theScene": [
+                "HitPlayerWith",
+                "Grind",
+                "ApplyStance",
+                "Sex",
+                "Te apresuras hacia adelante y sumerges tu polla en su apretado coño, y suspiras felizmente mientras se tensa alrededor de tu dolor de erección con un apretón de bienvenida. [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "ToxicSpores",
+            "theScene": [
+                "SetPostName",
+                "- esporas lujuriosas",
+                "ApplyStatusEffect",
+                "Charm",
+                "ChangeImageLayer",
+                "Expression",
+                "DominantHappy",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'Respira hondo.",
+                "'Mis esporas te ayudarán a energizarte. ♥' El tóxico Matango deja escapar una explosión de esporas moradas, y a medida que las respiras, ¡tu cuerpo se calienta lentamente a medida que está lleno de deseo doloroso!",
+                "'Mmmm, ♥ Puedo ver que tu polla se pone más dura. ♥' El tóxico Matango deja escapar una explosión de esporas moradas, y a medida que las respiras, ¡tu cuerpo se calienta lentamente a medida que está lleno de deseo dolorido!",
+                "'Esté un poco más cerca. ♥' El tóxico Matango deja escapar una explosión de esporas moradas, y a medida que las respiras, ¡tu cuerpo se calienta lentamente a medida que está lleno de deseo dolorido!",
+                "'Jejeje, ♥ ¿Están tus bolas llenas y dolientes? ♥' El Matango tóxico deja escapar una explosión de esporas moradas, y a medida que las respiras, ¡tu cuerpo se calienta lentamente a medida que está lleno de deseo doloroso!",
+                "'Si estás empezando a sentirte cachondo ... siéntete libre de follarme tanto como quieras. ♥' El tóxico Matango deja escapar una explosión de esporas moradas, y a medida que las respiras, tu cuerpo se calienta lentamente como está¡Lleno de dolor doloroso!",
+                "'No te importaría quedarse un poco más, ¿verdad? ♥' El tóxico Matango deja escapar una explosión de esporas moradas, y a medida que las respiras, ¡tu cuerpo se calienta lentamente a medida que está lleno de deseo dolorido!",
+                "EndLoop",
+                "SetPostName",
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "ToxicOrgasm",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "DominantHappy",
+                "ApplyStance",
+                "Sex",
+                "SwapLineIf",
+                "Random",
+                "Te quedas demasiado cachondo para pensar con la claridad mientras la espora de Matango llena la habitación, haciendo que tu polla latira y duele con el deseo.Entonces, tan pronto como ella, invitada, extiende su coño babeante, no puede evitar correr hacia adelante y sumergir su furiosa erección en ella, descargando instantáneamente una gruesa corriente de semen en su útero. [PlayerOrgasmLine]",
+                "Te balanceas de un lado a otro con un placer que se emborracha, y el Matango extiende su coño babeante y demasiado perdido en tus lujurias, te mueves impotente y penetras en su hendidura apretada, y tu polla está demasiado terriblemente excitada que descarga instantáneamente tu semilla en ella.[PlayerOrgasmLine]",
+                "El Matango extiende su coño babeante con una sonrisa lasciva, y sus esporas te han dejado tan cachonda que no puedes pensar con la claridad, así que te apresuras hacia adelante y sumerges tu dolor de virilidad en ella, descargando instantáneamente tus bolas de espesas en su ranura maravillosamente ajustada.. [PlayerOrgasmLine]",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Toxic Temptation",
+            "theScene": [
+                "SetPostName",
+                "- Tentación tóxica",
+                "HitPlayerWith",
+                "Seduce",
+                "ChangeImageLayer",
+                "Expression",
+                "Lewd",
+                "FocusedSpeaksSkill",
+                "El Matango extiende su coño babeante con una sonrisa obscena, balanceándose tentadoras de un lado a otro, tratando de atraer su deseo de follarla. [DamageToPlayer]",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "Te ves un poco caliente y molesto. ♥ ¿Quieres que me encargue de eso? ♥",
+                "No te detengas. ♥ Fuck Me. ♥",
+                "Vamos, ♥ Ravish mi coño. ♥",
+                "¿No quieres {i} quiero {/i} para bombearme de esperma? ♥",
+                "Un semental como no rechazarías un coño para follar, ♥ ¿quieres? ♥",
+                "Criarme, ♥ Sé que quieres. ♥",
+                "Te ves tan agitado. ♥ Puedes verterlo {i} todos {/i} dentro de mí. ♥",
+                "Me duele el coño de que lo llene con tu gran polla. ♥",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "IfHasPerk",
+                "Mushroom Head",
+                "ForcedFailToxic",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "25",
+                "ForcedCheckToxic",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "25",
+                "ForcedCheckToxic",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "ForcedCheckToxic",
+                "JumpToScene",
+                "TemptedMenuToxic"
+            ]
+        },
+        {
+            "NameOfScene": "ForcedCheckToxic",
+            "theScene": [
+                "Tu mente nada con un deseo erótico desde la atractiva visión de la matango que te presenta su coño, haciendo que tu polla se contrae con necesidad, dolor de ceder ante su oferta lasciva.",
+                "StatCheck",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "50",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "75",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Ass",
+                "100",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "50",
+                "2",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "75",
+                "3",
+                "ChangeStatCheckDifficulty",
+                "IfFetishLevelEqualOrGreater",
+                "Sex",
+                "100",
+                "5",
+                "ChangeStatCheckDifficulty",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "4",
+                "Temptation",
+                "10",
+                "TemptedMenuToxic",
+                "Fail",
+                "Fuck her!"
+            ]
+        },
+        {
+            "NameOfScene": "ForcedFailToxic",
+            "theScene": [
+                "HitPlayerWith",
+                "Seduce",
+                "La mera vista de su coño goteando y las caderas que se balancearon instantáneamente apagan cualquier motivo en su cerebro mientras su polla dolorosamente rígida palpita con necesidad, la cabeza hinchada de su virilidad se contrae mientras filtra precum con anticipación. [DamageToPlayer]",
+                "HitPlayerWith",
+                "Grind",
+                "ApplyStance",
+                "Sex",
+                "Te apresuras hacia adelante y sumerges tu polla dolorida en su maravillosamente apretado coño, besando su matriz con la punta de tu virilidad, suspirando felizmente mientras su orificio se tensa alrededor de tu polla sacudida con un apretón de bienvenida que te hace sentir como si sea casa. [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "TemptedMenuToxic",
+            "theScene": [
+                "Menu",
+                "Fuck her!",
+                "Ignore her. ",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Ignore her. ",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Dominant",
+                "Ignoras por completo la tentación tóxica de Matango, y ella te da un resplandor molesto antes de que una sonrisa lujuriosa se arrastra sobre su rostro.",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "¿Cuánto tiempo más crees que puedes resistirte? ♥",
+                "No puedes negar tu lujuria para siempre. ♥",
+                "Jeje, tal vez algunas esporas más cambiarán de opinión. ♥",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "IntroToxic",
+            "theScene": [
+                "¡Te encuentras con un Matango tóxico que te da una sonrisa lasciva!",
+                "IfHasPerk",
+                "Mushroom Head",
+                "WeaktoTheDick"
+            ]
+        },
+        {
+            "NameOfScene": "WeaktoTheDick",
+            "theScene": [
+                "ChangeMonsterFetish",
+                "Sex",
+                "50"
+            ]
+        },
+        {
+            "NameOfScene": "Penetrate",
+            "theScene": [
+                "IfHasPerk",
+                "Mushroom Head",
+                "PenetrateWeaktoTheDick",
+                "ChangeImageLayer",
+                "Expression",
+                "Lewd",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "'Puedes ser tan duro como quieras. ♥'",
+                "'Asegúrate de respirar profundamente mientras me follas. ♥' Puedes ver más de sus esporas que ya flotan ...",
+                "'Vas a romper mi coño si lo follas con eso. ♥' Su expresión es una burla bastante malvada.",
+                "'Oh no, no sé si puedo tomar esa gran polla. ♥' Su sonrisa lasciva dice lo contrario ...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "PenetrateWeaktoTheDick",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Lewder",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "'A-ah? ♥ w-wait ¿Por qué tu consejo presiona tanto contra mi matriz- ♥'",
+                "'H-how es tu polla haciendo que mi coño se sienta tan ... ♥'",
+                "'S-SO grueso- ♥ Ah?",
+                "'O-oh no, ♥ ¡No sé si puedo tomar tu gran polla! ♥' Su expresión está un poco nerviosa, pero eróticamente emocionada.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Thrust",
+            "theScene": [
+                "IfHasPerk",
+                "Mushroom Head",
+                "ThrustWeaktoTheDick",
+                "ChangeImageLayer",
+                "Expression",
+                "Lewd",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "'Eres tan grande. ♥'",
+                "'¡Fóllame todo el día! ♥'",
+                "'¡Nunca te topes! ♥'",
+                "'M-my Heart está corriendo ... ♥' Su sonrisa malvada dice Otro sabio.",
+                "'Vamos, ♥ más duro! ♥'",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Empowered Thrust",
+            "theScene": [
+                "IfHasPerk",
+                "Mushroom Head",
+                "ThrustWeaktoTheDick",
+                "ChangeImageLayer",
+                "Expression",
+                "Lewder",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "'A-ahh- ♥ th-que está jugando sucio! ♥'",
+                "'¡Ohhh! ♥ F-Fuck Me todo el día! ♥'",
+                "'Y tú estás haciendo mi cerebro mellllt! ♥'",
+                "'A-ah!F-Feels tan bien! ♥♥♥ '",
+                "'¡H-Harder! ♥ Break Me! ♥'",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Tantric Thrust",
+            "theScene": [
+                "IfHasPerk",
+                "Mushroom Head",
+                "ThrustWeaktoTheDick",
+                "ChangeImageLayer",
+                "Expression",
+                "Lewd",
+                "FocusedSpeaks",
+                "SwapLineIf",
+                "Random",
+                "'Jeje, yo también te amo ... ♥' Su sonrisa malvada dice otro sabio.",
+                "'Ah ... ♥ No te detengas ... ♥' Parece bastante no afectada ...",
+                "'M-my Heart está corriendo ... ♥' Su sonrisa malvada dice Otro sabio.",
+                "'Eres tan grande. ♥'",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "ThrustWeaktoTheDick",
+            "theScene": [
+                "ChangeMonsterFetish",
+                "Sex",
+                "25",
+                "ChangeImageLayer",
+                "Expression",
+                "PleasureStruck",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'¡Y, tan grande! ♥ ¡Puedo sentirte golpeando en mi cuello uterino! ♥♥♥' ¡cada empuje la hace más débil a tu polla hinchada!",
+                "'¡Fuck Me! ♥ ¡Fóllame todo el día! ♥' ¡Todos tus empujes la hacen más débil a tu polla rígida!",
+                "¡Solo puede gemir descuidada, ya que todos tus empujes la debilitan a tu polla hinchada!",
+                "'¡Y tú estás haciendo mi cerebro mellllt! ♥' ¡cada empuje la hace más débil a tu polla rígida!",
+                "'¡Ahhhh! ♥ I-¡No puedo pensar! ♥♥♥' ¡Todos tus empujes la hacen más débil a tu polla rígida!",
+                "'Vamos, ♥ ¡Más duro! ♥ ¡Rómbame! ♥' ¡Todos tus empujes la hagan más débil a tu polla rígida!",
+                "'¡A-Ahhh! ♥ ¡Me convertiré en tu manga de polla! ♥♥♥' ¡cada empuje la hace más débil a tu polla hinchada!",
+                "'¡T-la cabeza de tu polla! ♥♥♥ ¡Va a romper mi matriz!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "eventbreak",
+            "theScene": [
+                "el evento se rompió"
+            ]
+        }
+    ]
+}

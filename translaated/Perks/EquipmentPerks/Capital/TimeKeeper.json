@@ -1,0 +1,23 @@
+{
+    "name": "TimeKeeper",
+    "description": "",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "InitiativeBonus",
+        "RegenMaxEnergy"
+    ],
+    "EffectPower": [
+        "12",
+        "2"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

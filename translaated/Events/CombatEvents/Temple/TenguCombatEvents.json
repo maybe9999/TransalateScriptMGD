@@ -1,0 +1,1763 @@
+{
+    "name": "TenguCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Tengu",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Start Face Sit",
+            "theScene": [
+                "JumpToRandomScene",
+                "DontSit",
+                "SitOnFace",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "DontSit",
+            "theScene": [
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "SitOnFace",
+            "theScene": [
+                "ApplyStance",
+                "Cara sentarse",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "ChangeImageLayer",
+                "Base",
+                "Base",
+                "El Tengudo se cierne a su forma colapsada y jadeada, levanta sus túnicas y coloca su trasera bien formada en su cara.",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "FocusedSpeaks",
+                "Esperemos que al menos sepas cómo adorar a una verdadera diosa adecuadamente, humano patético."
+            ]
+        },
+        {
+            "NameOfScene": "CheckFaceSitting",
+            "theScene": [
+                "IfMonsterHasStance",
+                "Cara sentarse",
+                "Mind Melting Worship"
+            ]
+        },
+        {
+            "NameOfScene": "Mind Melting Worship",
+            "theScene": [
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Trance",
+                "11",
+                "Instant loss?",
+                "IfPlayerHasStatusEffectWithPotencyEqualOrGreater",
+                "Trance",
+                "4",
+                "Half way hypnotized",
+                "ApplyStatusEffect",
+                "Harpies Song",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "ChangeImageLayer",
+                "Base",
+                "Base",
+                "A medida que el Tengut muele sus caderas bien formadas sobre tu cara, tu cabeza se siente flotante y vacía, y te encuentras lamiendo sumisamente su coño y suaves mejillas ...",
+                "JumpToScene",
+                "Post Comment"
+            ]
+        },
+        {
+            "NameOfScene": "Post Comment",
+            "theScene": [
+                "IfHasFetish",
+                "Ass",
+                "Ass fetish mmW",
+                "IfHasFetish",
+                "Sex",
+                "Sex fetish mmW",
+                "Puedes sentir el tengu infiltrando tu mente ...",
+                "JumpToRandomScene",
+                "worComment1",
+                "worComment2",
+                "worComment3",
+                "worComment4",
+                "worComment5",
+                "worComment6",
+                "noComment",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Half way hypnotized",
+            "theScene": [
+                "JumpToRandomScene",
+                "InitialWorship1",
+                "InitialWorship2",
+                "InitialWorship3",
+                "InitialWorship4",
+                "InitialWorship5",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "InitialWorship1",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Harpies Song",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "Mientras el Tengut muele sus caderas perfectamente formadas en tu cara, tu cabeza se siente tan flotante y vacía ... te encanta adorar sumisamente su dulce coño y culo divino ...",
+                "JumpToScene",
+                "Post Comment"
+            ]
+        },
+        {
+            "NameOfScene": "InitialWorship2",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Harpies Song",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "El tengu juguetón le golpea la parte trasera, y te tembla como los sonidos y las sensaciones de su suave y ondulante culo en tu mente debilitante ...",
+                "JumpToScene",
+                "Post Comment"
+            ]
+        },
+        {
+            "NameOfScene": "InitialWorship3",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Harpies Song",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "Felizmente, terminaste en el coño del tengu, bebiendo sus dulces jugos, y puedes sentir tu mente desapareciendo mientras adoras su perfección ...",
+                "JumpToScene",
+                "Post Comment"
+            ]
+        },
+        {
+            "NameOfScene": "InitialWorship4",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Harpies Song",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "Glome, felizmente mientras tu mente se desvanece lentamente, y cualquier otro pensamiento que no sea adorar el culo perfecto del tengu y el jugoso coño comienzan a perder todo significado ...",
+                "JumpToScene",
+                "Post Comment"
+            ]
+        },
+        {
+            "NameOfScene": "InitialWorship5",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Harpies Song",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "Brevemente te las arreglas en la cara de la parte trasera dominante del tengu para respirar rápido, pero temblarás y gemirás mientras respiras en una nube intoxicante de su aroma femenino, en cambio, mientras tu mente se aleja en la dicha sin sentido ...",
+                "JumpToScene",
+                "Post Comment"
+            ]
+        },
+        {
+            "NameOfScene": "noComment",
+            "theScene": [
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "worComment1",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "Me pregunto cuánto tiempo más pasará antes de enviar ..."
+            ]
+        },
+        {
+            "NameOfScene": "worComment2",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "FocusedSpeaks",
+                "Solo adorarme, eso es lo que debes hacer ..."
+            ]
+        },
+        {
+            "NameOfScene": "worComment3",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "No luches, sirvenme y tal vez te recompense."
+            ]
+        },
+        {
+            "NameOfScene": "worComment4",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "FocusedSpeaks",
+                "¿No puedes dejar de pensar en lo bien que pruebo?Hmhmhm ..."
+            ]
+        },
+        {
+            "NameOfScene": "worComment5",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "Te convertirás en mi acólito a este ritmo ..."
+            ]
+        },
+        {
+            "NameOfScene": "worComment6",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "Jeje ... no te molestes en defender ... No puedes esperar vencer a la perfección de todos modos, así que solo cede."
+            ]
+        },
+        {
+            "NameOfScene": "Ass fetish mmW",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "ChangeImageLayer",
+                "Base",
+                "Base",
+                "IfHasFetish",
+                "Sex",
+                "Multi fetish mmW",
+                "Puedes sentir el tengu infiltrando tu mente mientras te fijas en su culo curvo ...",
+                "JumpToRandomScene",
+                "assWorComment1",
+                "assWorComment2",
+                "assWorComment3",
+                "assWorComment4",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "assWorComment1",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "Oh mi ... realmente te encanta estar debajo de mi culo ... bueno.",
+                "ApplyStatusEffect",
+                "Harpies Song",
+                "HitPlayerWith",
+                "Face Grind",
+                "Tu polla palpita en respuesta a que ella ponga más peso en tu cara, y sientes tu mente que se desvanece más rápido por el placer ... [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "assWorComment2",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "FocusedSpeaks",
+                "Solo adora mi trasero, eso es lo que estás ansioso por hacer ...",
+                "ApplyStatusEffect",
+                "Harpies Song",
+                "HitPlayerWith",
+                "Face Grind",
+                "Contra tu mejor juicio, obedeces su orden, y sientes tu mente desvaneciéndose más rápido mientras tu polla se contrae con deleite ... [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "assWorComment3",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "FocusedSpeaks",
+                "Eso es todo, servirme ... es una recompensa para ti {i} y {/i} tu mentalidad amorosa ...",
+                "ApplyStatusEffect",
+                "Harpies Song",
+                "HitPlayerWith",
+                "Face Grind",
+                "Te encuentras alegremente a tientas su suave trasera, lamiendo su coño, amando cómo su trasera bien formada domina tu vista.Tu mente se siente tan felizmente vacía que podrías flotar ... [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "assWorComment4",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "FocusedSpeaks",
+                "No puedes dejar de pensar en mi trasero ... supongo que {i} es {/i} perfecto ... hmhmhm ...",
+                "ApplyStatusEffect",
+                "Harpies Song",
+                "HitPlayerWith",
+                "Face Grind",
+                "Su trasero divino está nublando tus pensamientos, y cuanto más lo besas y lo lames, mejor te sientes y más vacía se vuelve tu mente a medida que te resulta más difícil detener ... [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "Sex fetish mmW",
+            "theScene": [
+                "IfHasFetish",
+                "Ass",
+                "Multi fetish mmW",
+                "Puedes sentir el tengu infiltrando tu mente mientras te fijas en su coño empapado ...",
+                "JumpToRandomScene",
+                "sexWorComment1",
+                "sexWorComment2",
+                "sexWorComment3",
+                "sexWorComment4",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "sexWorComment1",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "Oh mi ... No puedes tener suficiente de mis jugos ... Vamos, bebe, soy generoso.",
+                "ApplyStatusEffect",
+                "Harpies Song",
+                "HitPlayerWith",
+                "Face Grind",
+                "Tu polla paliza mientras bebes sus dulces jugos de coño de sabor, y tu mente se desvanece más con cada trago placentero que haces ... [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "sexWorComment2",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "FocusedSpeaks",
+                "Adora mi coño, considérelo un altar para sus oraciones.",
+                "ApplyStatusEffect",
+                "Harpies Song",
+                "HitPlayerWith",
+                "Face Grind",
+                "Observas sin pensar su mando, y sientes que tu mente se desvanece más rápido mientras vuelas a su sexo mientras tu polla palpita con deleite ... [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "sexWorComment3",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "FocusedSpeaks",
+                "Eso es todo, servirme ... Si haces un trabajo lo suficientemente bueno, incluso puedo permitirte correrte dentro del coño que tanto amas.",
+                "ApplyStatusEffect",
+                "Harpies Song",
+                "HitPlayerWith",
+                "Face Grind",
+                "El mismo pensamiento de follar potencialmente a esta verdadera diosa hace que tu polla duele con la necesidad, por lo que prodigas su coño con afecto, dejando que tu mente se desvanezca ... [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "sexWorComment4",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "FocusedSpeaks",
+                "No puedes dejar de pensar en mi coño ... supongo que {i} es {/i} perfecto ... hmhmhm ...",
+                "ApplyStatusEffect",
+                "Harpies Song",
+                "HitPlayerWith",
+                "Face Grind",
+                "La dulce Ambrosia que se filtra de su coño está nublando tus pensamientos, y mientras continúas lamiendo y bebiendo, comienzas a sentirte mejor y mejor mientras tu mente continúa alejándose, dejándote anhelando cada vez más ... [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "Multi fetish mmW",
+            "theScene": [
+                "Puedes sentir el tengu infiltrando tu mente mientras te fijas en su culo curvo y coño empapado ...",
+                "JumpToRandomScene",
+                "sexWorComment1",
+                "sexWorComment2",
+                "sexWorComment3",
+                "sexWorComment4",
+                "assWorComment1",
+                "assWorComment2",
+                "assWorComment3",
+                "assWorComment4",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Instant loss?",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "ChangeImageLayer",
+                "Base",
+                "Base",
+                "El Tengur presiona de su parte trasera curvada sobre su cara, y puede sentir que su mente desaparece por completo ...",
+                "Su voluntad está subsumiendo la tuya, y puedes sentirla arraigando casualmente en tu mente, lo que ocasionalmente te da una fantasía intoxicante de adorar a su cuerpo para que esparguen lo que queda poco de tus pensamientos ...",
+                "Si no haces algo pronto, ¡te convertirá en su títere completamente obediente!El último parpadeo de tu mente puede intentar luchar ...",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Becoming hers...",
+                "Menu",
+                "Worshiping her body...",
+                "Tenderly loving her...",
+                "Becoming hers...",
+                "Need to fuck her senseless!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Worshiping her body...",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "ChangeImageLayer",
+                "Base",
+                "Blush",
+                "El tengu suspira en la satisfacción, disfrutando de una mezcla de tus fantasías y realidad, permitiéndote adorar su cuerpo íntimamente.Puedes sentir que el Tengu de la que decepcionó a su guardia mental mientras se deleita en tu atención ...",
+                "JumpToScene",
+                "Instant Loss??"
+            ]
+        },
+        {
+            "NameOfScene": "Tenderly loving her...",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "ChangeImageLayer",
+                "Base",
+                "Blush",
+                "Concentas tu mente en fantasías de amor tierno y suavemente amante, besándose y acariciando al tengu, y ella parece tomar nota, permitiendo que su mente se entregue a tus fantasías bastante dulces, deleitando tu atención ...",
+                "JumpToScene",
+                "Instant Loss??"
+            ]
+        },
+        {
+            "NameOfScene": "Becoming hers...",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "Goteas ligeramente a medida que tu mente se desvanece por completo, deleitando la sensación de someterse a esta verdadera diosa ...",
+                "JumpToScene",
+                "INSTANT LOSS SCENE"
+            ]
+        },
+        {
+            "NameOfScene": "Need to fuck her senseless!",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Puedes sentir que el Tengute retrocede mentalmente sorprendido por tu voluntad restante para resistir, pero tu reacción hace que deje de jugar, y sientes que ella la apagará por la fuerza con una abrumadora ola de mentalidad, placer sumiso ...",
+                "JumpToScene",
+                "INSTANT LOSS SCENE"
+            ]
+        },
+        {
+            "NameOfScene": "Instant Loss??",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Overconfident",
+                "A medida que su mundo se oscurece, excepto por el paisaje mental bastante agradable, el Tengut te impone, te das cuenta débil de que parece pensar que ha ganado mientras juega con tu mente y cuerpo, pero todavía te estás aferrando a tus pensamientos, incluso como eso.se vuelve cada vez más difícil de hacerlo ...",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "Está tomando una cantidad gigantesca de esfuerzo para no ceder por completo, pero de alguna manera todavía estás manejando, y te das cuenta débilmente de que podrías cambiar esta situación a medida que tu mente se desplaza a una mezcla de sus fantasías y las tuyas ...",
+                "Menu",
+                "Focus on pleasuring her.",
+                "Being her loving slave...",
+                "Worshiping her perfection...",
+                "Making her your obedient slave!",
+                "Kissing and cuddling...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Worshiping her perfection...",
+            "theScene": [
+                "StatCheck",
+                "Temptation",
+                "10",
+                "PassWorship",
+                "Fail",
+                "FailWorship"
+            ]
+        },
+        {
+            "NameOfScene": "PassWorship",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "El tenguado gime de placer mientras adoras su cuerpo, y cuanto más la adoras, mejor te sientas ... ¡pero te las arreglas lo suficiente como para no caer en la fantasía!El tengu parece ya no prestar atención a sus pensamientos perdidos mientras se deleita en su supuesta victoria ...",
+                "JumpToScene",
+                "Instant loss???"
+            ]
+        },
+        {
+            "NameOfScene": "FailWorship",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "El Tengu de placer gime mientras adoras su cuerpo, y cuanto más la adoras, mejor te sientes, y pronto te encuentras perdiéndote por el placer de lamer y besar su cuerpo divino a medida que tus mentes se desvanecen por completo ...",
+                "JumpToScene",
+                "INSTANT LOSS SCENE"
+            ]
+        },
+        {
+            "NameOfScene": "Kissing and cuddling...",
+            "theScene": [
+                "StatCheck",
+                "Temptation",
+                "15",
+                "PassKissy",
+                "Fail",
+                "FailKissy"
+            ]
+        },
+        {
+            "NameOfScene": "PassKissy",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Bashful",
+                "ChangeImageLayer",
+                "Base",
+                "BlushFull",
+                "El tengu parece bastante tímido y avergonzado por tu fantasía, pero parece dejarse ir, dejándose disfrutar de un poco de afecto gentil ... pero lo más importante, dejar caer la guardia ...",
+                "JumpToScene",
+                "Instant loss???"
+            ]
+        },
+        {
+            "NameOfScene": "FailKissy",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Bashful",
+                "ChangeImageLayer",
+                "Base",
+                "BlushFull",
+                "El Tengut parece bastante tímido y avergonzada por esta fantasía, pero parece dejarse ir, dejando que disfrute de un afecto gentil ... pero tu mente está demasiado exhausta para resistirte por más tiempo y se desvanece por completo mientras te adoras irreflexivamente.cuerpo, amando cada momento ...",
+                "JumpToScene",
+                "INSTANT LOSS SCENE"
+            ]
+        },
+        {
+            "NameOfScene": "Being her loving slave...",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "El Tengur le sonríe mientras te sometes a sus deseos, y ella te recompensa con tanto placer ... Rápidamente te pierdes por completo a la fantasía a medida que tu mente desaparece ...",
+                "JumpToScene",
+                "INSTANT LOSS SCENE"
+            ]
+        },
+        {
+            "NameOfScene": "Making her your obedient slave!",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Angry",
+                "Puedes sentir que el Tengute retrocede mentalmente sorprendido por tu voluntad restante para resistir, pero tu reacción hace que deje de jugar, y sientes que ella la apagará por la fuerza con una abrumadora ola de mentalidad, placer sumiso ...",
+                "JumpToScene",
+                "INSTANT LOSS SCENE"
+            ]
+        },
+        {
+            "NameOfScene": "Focus on pleasuring her.",
+            "theScene": [
+                "StatCheck",
+                "Temptation",
+                "10",
+                "PassFocus",
+                "Fail",
+                "FailFocus"
+            ]
+        },
+        {
+            "NameOfScene": "PassFocus",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "ChangeImageLayer",
+                "Base",
+                "BlushFull",
+                "El Tengut se retorce y gime felizmente mientras disfrutas de su cuerpo, y ahora se está complaciendo por completo, bajando a su guardia mental mientras se deleita en su supuesta victoria.",
+                "JumpToScene",
+                "Instant loss???"
+            ]
+        },
+        {
+            "NameOfScene": "FailFocus",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "ChangeImageLayer",
+                "Base",
+                "BlushFull",
+                "El Tengut se retorce y gime felizmente mientras disfrutas de su cuerpo, y ahora se está complaciendo por completo, pero tu resolución se tambalea y se desmorona por el esfuerzo a medida que tu mente se desvanece a la adoración amorosa ...",
+                "JumpToScene",
+                "INSTANT LOSS SCENE"
+            ]
+        },
+        {
+            "NameOfScene": "Instant loss???",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "ChangeImageLayer",
+                "Base",
+                "Blush",
+                "El tengu parece completamente vulnerable ahora, y la inmensa presión sobre tu mente disminuye a medida que otra fantasía comienza a hacerse cargo ...",
+                "Menu",
+                "Just... Give in...",
+                "Marriage!",
+                "Making her submit!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Just... Give in...",
+            "theScene": [
+                "A pesar de sus mejores esfuerzos y su lucha mental, decide finalmente ceder en el placer de la sumisión mientras dejas que tu mente se desvanezca ...",
+                "JumpToScene",
+                "INSTANT LOSS SCENE"
+            ]
+        },
+        {
+            "NameOfScene": "Marriage!",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Bashful",
+                "Una imagen vívida aparece dentro de su mente de usted y el Tengu en el altar que se dice sus votos el uno al otro, y justo antes de besar su mente parece darse cuenta de lo que está pensando.",
+                "ChangeImageLayer",
+                "Expression",
+                "Panic",
+                "ChangeImageLayer",
+                "Base",
+                "BlushFullSevere",
+                "Todo su cuerpo se vuelve rojo brillante a medida que se enjuaga, y la conexión mental entre ustedes dos se rompe por completo mientras se asignan, claramente nerviosos y avergonzados por su imaginación.",
+                "JumpToScene",
+                "Mental Table Turned scene."
+            ]
+        },
+        {
+            "NameOfScene": "Making her submit!",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Bashful",
+                "Tu mente se centra en una fantasía de que follas al tengu sin sentido mientras ella gime y los pantalones debajo de ti en completa sumisión, y así como el Fantasy Tengu grita en el orgasmo, la mente real parece darse cuenta de lo que estás pensando.",
+                "ChangeImageLayer",
+                "Expression",
+                "Panic",
+                "ChangeImageLayer",
+                "Base",
+                "BlushFullSevere",
+                "Ella deja escapar un ruido estremecedor de placer en pánico mientras todo su cuerpo se enroja de rojo brillante, y la conexión mental entre ustedes dos se rompe por completo a medida que entra en pánico, claramente nerviosa, avergonzada y más que un poco encendida de su imaginación.",
+                "JumpToScene",
+                "Mental Table Turned scene."
+            ]
+        },
+        {
+            "NameOfScene": "INSTANT LOSS SCENE",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "ChangeBGM",
+                "music/Loss/reason.mp3",
+                "Completamente bajo el dominio del Tengum, ella fácilmente golpea las dulces fantasías sumisas en tu mente, y te adoras con amor su coño y culo con tu lengua.",
+                "FocusedSpeaks",
+                "Mmmm ... ya sabes tu lugar ahora, jeje.Supongo que te recompensaré.",
+                "ChangeImageLayer",
+                "Expression",
+                "Happy",
+                "Te tiemblas con la dicha mientras sus ágil dedos envuelven tu virilidad y comienzas a acariciar suavemente tu longitud mientras la atiendes con entusiasmo.",
+                "A medida que el Tengut bombea su eje lentamente, puede sentir la necesidad de correrse rápidamente construyendo en su ingle, y a medida que avanza sumisamente su coño, cada trago de sus dulces jugos envía un placer dulce y anestésico hormigueo sobre todo su cuerpo.",
+                "Los pensamientos y fantasías más sumisos están entretejidos en tu mente, haciendo que tu corazón latira y duele mientras actúas las fantasías que te está dando el tengu.",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "ChangeImageLayer",
+                "Base",
+                "Blush",
+                "Atando y masajea su trasero exactamente como quiere, lamer y burlarse de su coño como le gusta, y los suaves gemidos dejan sus labios como una recompensa por sus esfuerzos, y te tiemblas de emoción mientras su mente te dice su deseo de recompensarTus esfuerzos aún más ...",
+                "Su mano acaricia tu longitud más rápido y más duro, bailando ágilmente sus dedos sobre tu carne sensible a medida que avanza, y su otra mano se une con un solo dedo, rastreando suavemente la cabeza de tu polla.",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "FocusedSpeaks",
+                "Mnnn ... sigue adelante ... o no podrás correr.",
+                "Tu virilidad pulsa y palpas en el borde del orgasmo, pero se niega a repasar a pesar de las manos del Tengu de la longitud, enviando sacudidas tras un placer estupefacto en tus caderas.",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Fantasías de ser mantenido amorosamente al límite durante los días por su diosa asalta tu mente, por lo que ralentiza tus besos, lamiendo y a tientas de su impecable trasero y coño para deleitarse en la mente.Sin embargo, simultáneamente tan lejos ...",
+                "Ella mueve sus caderas en tu rostro, y para su diversión, tus propias caderas se mueven en respuesta mientras tu polla continúa palpitando poderosamente de placer.",
+                "Su eje está goteando precum sin parar como un placer enloquecedor electrifica todo su cuerpo mientras los sentimientos de sus manos se combinan con las sensaciones de éxtasis que ya inducen al simplemente adorar su coño divino y su culo.",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "El tengu thiva y deja escapar un gemido bajo cuando comienzas a lamer y burlarse de ella más desesperadamente, ya que tu mente nublada de fantasía cristaliza con la singular necesidad de correrse.",
+                "Ella trata de sofocar su voz mientras prodigas su coño con afecto, mientras que la dicha pura irradia a través de ti por hacer que tu diosa se sienta tan bien.",
+                "ChangeImageLayer",
+                "Expression",
+                "Pleasured",
+                "ChangeImageLayer",
+                "Base",
+                "BlushFullSevere",
+                "Pero eventualmente ya no puede retenerse mientras llora en éxtasis, arqueando la espalda mientras se escapa de placer y sus manos dejan su polla palpitante sola mientras tiembla y cría sobre ti.",
+                "SetSpirit",
+                "0",
+                "PlayerOrgasm",
+                "1",
+                "El placer orgásmico se vierte en su mente mientras finalmente logra cumplir su único objetivo de complacer a su diosa, y su cuerpo se convulsiona en éxtasis mientras sus caderas se reducen sin control mientras su polla se sufre su semen directamente en el aire y al tengua.",
+                "ChangeImageLayer",
+                "Expression",
+                "Happy",
+                "ChangeImageLayer",
+                "Base",
+                "Blush",
+                "Finalmente, ambos vienen de sus respectivos altos orgásmicos, jadeando de placer y los tenenos con felicidad ocasionalmente mientras continúan adorando su coño, a pesar de ser lavado en un dulce resplandor anestésico.",
+                "Te topas un poco mientras la escuchas recoger un poco de tu semen con un dedo y ella lo lame, bebiéndolo con un suspiro.",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "FocusedSpeaks",
+                "Hahhhh ... tienes una cantidad aceptable de energía en tu semen, humano ...",
+                "Ella se levanta temblorosa, dejando a tu mente vacía insegura de qué hacer como fantasías de complacer y complacer al tengu se desvanece de él ...",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "Levántate, vamos a mis habitaciones.Creo que voy a disfrutar de tenerte como mi esclavo.",
+                "La sigues sin demora, lista y dispuesta a convertirse en un esclavo completo del tengu y su cuerpo perfecto, y amas cada minuto ...",
+                "Pero justo antes de pasar por una puerta oculta después del Tengu de, su piedra de retiro de repente se destaca, haciéndote jadear mientras tu mente de repente se convierte en tuya nuevamente y te obligue rápidamente inconsciente mientras el abrupto shock de tener pensamientos una vez más demuestra ser demasiadopara que tu cuerpo cansado se maneje ...",
+                "ChangeFetish",
+                "Ass",
+                "5",
+                "ChangeFetish",
+                "Sex",
+                "5",
+                "GameOver"
+            ]
+        },
+        {
+            "NameOfScene": "Mental Table Turned scene.",
+            "theScene": [
+                "RemoveStatusEffect",
+                "Trance",
+                "ChangeImageLayer",
+                "Expression",
+                "Panic",
+                "ChangeBGM",
+                "music/Loss/reason.mp3",
+                "El tengu se aleja de ti en pánico antes de colapsar en el suelo en un montón de jadeos mientras te sientas cansado con la sensación de tu cabeza ... ¿perfectamente bien?",
+                "FocusedSpeaks",
+                "A-ah-o-oh no- i-i-i rompió la conexión demasiado repentinamente y ahora los efectos están revertiendo por completo?",
+                "ChangeImageLayer",
+                "Expression",
+                "Pleasured",
+                "ChangeImageLayer",
+                "Base",
+                "BlushFullSevere",
+                "Ella jadea, geme, y comienza a masturbarse furiosamente mientras te mira con un deseo fundido.",
+                "FocusedSpeaks",
+                "T-this no era ... no era como ... mnnnn ... mast- i-yo no ... yo ... ahhh ... su polla es tan ...",
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "ChangeImageLayer",
+                "Base",
+                "Blush",
+                "Ella se esconde cuando sus ojos se aceleran con completa adoración, y de repente deja de masturbarse y se sienta pacientemente ante ti, estremeciéndose ligeramente mientras te mira con necesidad pura y sin adulterar.",
+                "FocusedSpeaks",
+                "M-Master ... ♥ C-CAN I ... ¿Puede este humilde siervo adorar su polla perfecta?Por favor? ♥",
+                "Menu",
+                "Yes.",
+                "No. (Carry on with your adventuring.)",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Yes.",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Happy",
+                "Se ve absolutamente eufórica al escucharte decir eso, y rápidamente se pone de rodillas antes de tu eje, y comienza a lamer, chupar y besar lo más que puede.",
+                "El Tengu usa una de sus manos para masajear suavemente sus bolas mientras besa la base de su virilidad, avanzando lentamente en su longitud con un cuidado reverente, casi adorando.",
+                "Ella te mira sumisamente, con la esperanza de que esté haciendo un trabajo satisfactorio de complacerte, y tus gemidos suaves la hacen deleite mientras se corren ligeramente.",
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "El tengu da ansiosamente la longitud de tu eje, unas largas y amorosas lamidas antes de lamer la punta de tu virilidad, haciendo que sus ojos se nublaran en dicha mientras bebe gotas de tu precum.",
+                "Pero si bien esto se siente increíble, las burlas sexuales anteriores del Tengu cuando era más dominante te ha dejado acumulando y queriendo más ...",
+                "Para sorpresa del tengu, te agarras de la cabeza con ambas manos mientras ella lame la cabeza de tu polla y empuja toda tu longitud por la garganta.",
+                "ChangeImageLayer",
+                "Expression",
+                "Shock",
+                "ChangeImageLayer",
+                "Base",
+                "BlushFull",
+                "FocusedSpeaks",
+                "Mphmm?!♥♥♥",
+                "El cuerpo del tengues tensos y escalofríos en éxtasis mientras dominas su ansiosa boca, y su coño arroja algunos de sus jugos en el suelo mientras casi se corre solo por las sensaciones.",
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "Ella obedientemente chupa y me lame a lo largo mientras le mueves la cabeza sobre tu polla con una expresión maravillosa en su rostro, y cada vez que te golpeas la parte posterior de su garganta, un pulso de placer atraviesa tu palidez virgen.",
+                "El tengu parece completamente llevado contigo y tu polla, y mientras empuja afecto a tu virilidad con sus apretados labios y lengua ágil, comienzas a follarla adecuadamente.",
+                "Su cuerpo critica y escalofríos mientras empujas a su boca, pero ella obedientemente continúa atendiéndote, tu polla palpita ya que ya no puedes contener.",
+                "PlayerOrgasmNoSpiritLoss",
+                "ChangeImageLayer",
+                "Expression",
+                "OrgasmClose",
+                "ChangeImageLayer",
+                "Base",
+                "BlushFullSevere",
+                "Con un gemido, te empuñes por su garganta, y sus ojos se parecen en éxtasis mientras deja escapar algunos mewls complacidos antes de descargar tu espeso espeso por su garganta, y todo su cuerpo se tensa y terremotos en un orgasmo explosivamente poderoso mientras ellaGulpes ansiosamente por tu increíble carga.",
+                "ChangeImageLayer",
+                "Base",
+                "BlushFull",
+                "ChangeImageLayer",
+                "Expression",
+                "Happy",
+                "Después de un momento largo y abrumadoramente encantador, lentamente comienzas a alejar al tengu de tu eje, y ella apesta y limpia sumisamente tu virilidad mientras lo haces, recibiendo algunas fotos finales de semen en su boca por sus esfuerzos.",
+                "Cuando finalmente la sacas de la punta de tu polla sacudida, lo que hizo con poca cantidad de dudas, te mira con rapto, temblando en el resplandor del intenso orgasmo que tuvo mientras te atendía.",
+                "ChangeImageLayer",
+                "Expression",
+                "Loving",
+                "ChangeImageLayer",
+                "Base",
+                "Blush",
+                "FocusedSpeaks",
+                "Jajhh ... ♥ m-Master ... No pensé que sería digno de darte servicio como eso, ♥ o ser lo suficientemente digna como para beber tu increíble semen. ♥ Gracias ... ♥",
+                "Tu saliva costada la virilidad todavía palpita en el aire frío, pero comienza a marcar después de tu intenso orgasmo, y el Tengut le da una apariencia melancólica cuando lentamente comienza a desaparecer después de su propio orgasmo antes de mirar hacia atrás con el deseo.",
+                "ChangeImageLayer",
+                "Expression",
+                "Bashful",
+                "FocusedSpeaks",
+                "Uhm ... ¿Maestro?La próxima vez que nos encontremos, recuérdame mi lugar. ♥",
+                "A medida que el Tengur desaparece por completo, deja escapar un feliz suspiro, y te preguntaste ociosamente cómo va a reaccionar ante lo que acaba de suceder una vez que su magia desaparezca ...",
+                "DefeatMonster"
+            ]
+        },
+        {
+            "NameOfScene": "No. (Carry on with your adventuring.)",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Bashful",
+                "El Tengues se ve abatido mientras ella se contrae y temblece con necesidad delante de ti, pero de todos modos se inclina sumisamente la cabeza mientras te preparas para irse.",
+                "FocusedSpeaks",
+                "O-Of Curse Master.Uno como yo no es digno de tal recompensa ...",
+                "Dejas el tengu, teniendo la sensación de que su magia esclavizada desaparecerá eventualmente ...",
+                "DefeatMonster"
+            ]
+        },
+        {
+            "NameOfScene": "Restrained Lovemaking",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "ChangeImageLayer",
+                "Base",
+                "Base",
+                "El Tengu lentamente se pavonea a su forma restringida y lo golpea ligeramente sobre su espalda antes de comenzar a mirar su polla.",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "FocusedSpeaks",
+                "Hmmm ... hmph, demasiado pequeño para uno como yo, pero estoy de humor, así que seré misericordioso y te daré una bendición temporal.",
+                "HitPlayerWith",
+                "Teasing Winds",
+                "¡Agitan suavemente su fanático de tu virilidad, y gemirás cuando tu polla comienza a crecer!Las sensaciones que lo atraviesan son bastante agradables, y hormiguea con una mayor sensibilidad ... [DamageToPlayer]",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Wait...",
+                "Menu",
+                "Wait...",
+                "Try to struggle free from the magical restraints!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Try to struggle free from the magical restraints!",
+            "theScene": [
+                "IfHasPerk",
+                "Escape Artist",
+                "struggleFreePlus",
+                "StatCheck",
+                "Power",
+                "15",
+                "Pass Break Free",
+                "Fail",
+                "Fail Break Free"
+            ]
+        },
+        {
+            "NameOfScene": "struggleFreePlus",
+            "theScene": [
+                "Tus habilidades como artista de escape deberían hacer esto más fácil ...",
+                "StatCheck",
+                "Power",
+                "10",
+                "Pass Break Free",
+                "Fail",
+                "Fail Break Free"
+            ]
+        },
+        {
+            "NameOfScene": "Pass Break Free",
+            "theScene": [
+                "RemoveStatusEffect",
+                "Restrain",
+                "ChangeImageLayer",
+                "Expression",
+                "Panic",
+                "Desarrolle las restricciones luminosas, y el Tengut salta con un grito a medida que su eje vuelve a su tamaño normal."
+            ]
+        },
+        {
+            "NameOfScene": "Fail Break Free",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Luchas contra las restricciones en vano, y el tengu sonreys sonreír con sus intentos fallidos de escapar.",
+                "JumpToScene",
+                "Wait..."
+            ]
+        },
+        {
+            "NameOfScene": "Wait...",
+            "theScene": [
+                "HitPlayerWith",
+                "Teasing Winds",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "El tengu continúa avivando tu polla aún creciente, haciéndola tirar con cálido placer ... [DamageToPlayer]",
+                "HitPlayerWith",
+                "Teasing Winds",
+                "Estás empezando a sentirte un poco de luz mientras toda tu sangre se apresura a tu ingle, o tal vez sea por cuánto te duele la polla ... [DamageToPlayer]",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "FocusedSpeaks",
+                "Casi perfecto ...",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Feels so good...",
+                "Menu",
+                "Feels so good...",
+                "Try to break free from the magical restraints!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Try to break free from the magical restraints!",
+            "theScene": [
+                "IfHasPerk",
+                "Escape Artist",
+                "breakFreePlus",
+                "StatCheck",
+                "Power",
+                "15",
+                "Pass Break Free",
+                "Fail",
+                "Fail Break Free2"
+            ]
+        },
+        {
+            "NameOfScene": "breakFreePlus",
+            "theScene": [
+                "Tus habilidades como artista de escape deberían hacer esto más fácil ...",
+                "StatCheck",
+                "Power",
+                "10",
+                "Pass Break Free",
+                "Fail",
+                "Fail Break Free2"
+            ]
+        },
+        {
+            "NameOfScene": "Fail Break Free2",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Luchas infructuosamente contra las restricciones mágicas, pero permanece atrapado, y el Tenguramente sonríe con huelgas por sus intentos fallidos de escapar.",
+                "JumpToScene",
+                "Feels so good..."
+            ]
+        },
+        {
+            "NameOfScene": "Feels so good...",
+            "theScene": [
+                "HitPlayerWith",
+                "Teasing Winds",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "Tu virilidad palpita mientras el tengu continúa usando su ventilador de hoja, haciéndote gemir sin aliento y te retorces contra tus restricciones mientras el aire que cepillaba tu polla se siente increíble ... [DamageToPlayer]",
+                "HitPlayerWith",
+                "Teasing Winds",
+                "El Tengu Finalmente deja de avivar su gran erección, ahora más de doce pulgadas de largo, ya que pulsa y palpita con necesidad ... [DamageToPlayer]",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "HitPlayerWith",
+                "Teasing Winds",
+                "Ella se inclina hacia abajo, persigue sus labios y exhala su cálido aliento a tu eje, enviando ondas de placer a tus caderas ... [DamageToPlayer]",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "FocusedSpeaks",
+                "Jeje ... ahora tu polla es perfecta para mí.Lástima que no eres naturalmente tan grande.",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Solo relájate y deja que haga lo que quiera.",
+                "Menu",
+                "Solo relájate y deja que haga lo que quiera.",
+                "'You can't take any more than this? I was expecting better from a great Tengu.'",
+                "Try to get free from the magical restraints!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Try to get free from the magical restraints!",
+            "theScene": [
+                "IfHasPerk",
+                "Escape Artist",
+                "getFreePlus",
+                "StatCheck",
+                "Power",
+                "15",
+                "Pass Break Free",
+                "Fail",
+                "Fail Break Free3"
+            ]
+        },
+        {
+            "NameOfScene": "getFreePlus",
+            "theScene": [
+                "Tus habilidades como artista de escape deberían hacer esto más fácil ...",
+                "StatCheck",
+                "Power",
+                "10",
+                "Pass Break Free",
+                "Fail",
+                "Fail Break Free3"
+            ]
+        },
+        {
+            "NameOfScene": "Fail Break Free3",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Te retuerces contra las restricciones mágicas, pero sigue incapaz de liberarse, y el Tengu de la risa condescendiente de sus intentos fallidos de escapar.",
+                "JumpToScene",
+                "Solo relájate y deja que haga lo que quiera."
+            ]
+        },
+        {
+            "NameOfScene": "'You can't take any more than this? I was expecting better from a great Tengu.'",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Indignant",
+                "ChangeImageLayer",
+                "Base",
+                "Blush",
+                "FocusedSpeaks",
+                "¿Qué te atreves!¡Puedo tomar cualquier polla!",
+                "HitPlayerWith",
+                "Teasing Winds",
+                "ChangeImageLayer",
+                "Expression",
+                "Happy",
+                "ChangeImageLayer",
+                "Base",
+                "BlushFull",
+                "Su cuerpo se vuelve un ligero tinte de rojo mientras se abarca un poco más de tu polla palpitante.Jadeas mientras tu virilidad se contrae y se hincha aún más ... [DamageToPlayer]",
+                "HitPlayerWith",
+                "Teasing Winds",
+                "Se está volviendo imposible no pensar en el sexo como fantasías de dejar que el Tengu Ronte los sin sentido, sujetándola y deslumbrándola, y otras visiones inmensamente lascivas flitan en tu mente como tu dolores de polla ahora masivos por la estimulación sexual ... [DamageToPlayer]",
+                "ChangeImageLayer",
+                "Expression",
+                "Bashful",
+                "La Tenguda mira nerviosamente a su enorme miembro mientras ella lentamente se encuentra a horcajadas sobre su cintura antes de alinear su coño goteando sobre su monstruosa virilidad, y no puede evitar jadear ansiosamente con anticipación.",
+                "HitMonsterWith",
+                "Pound",
+                "HitPlayerWith",
+                "Bounce",
+                "ChangeImageLayer",
+                "Expression",
+                "OrgasmClose",
+                "Ella golpea con gracia sus caderas hasta la base de su eje en un movimiento suave, y su polla se abulta lastimas contra su estómago mientras golpea su cuello uterino, haciendo que su interior se estire fácilmente para acomodar la inserción mientras las convulsiones de su coño apretado envían ondas deplacer acelerando por toda tu virilidad. [DamageToPlayer]",
+                "HitMonsterWith",
+                "Pound",
+                "ChangeImageLayer",
+                "Expression",
+                "Orgasm",
+                "FocusedSpeaks",
+                "¡Oh?! ♥ ¡Ohhhhh! ♥♥♥",
+                "HitMonsterWith",
+                "Pound",
+                "El tengu parece rápidamente disfrutar y lamentar hacer que su eje sea tan grande como su expresión orgullosa se tuerce rápidamente en una de una puta ansiosa.",
+                "ChangeImageLayer",
+                "Expression",
+                "Bashful",
+                "FocusedSpeaks",
+                "A-ahhhh. ♥♥♥ o-okay! ♥ m-Maybe ¡No puedo manejar esto!",
+                "Ella comienza a luchar para desalojar tu masiva virilidad de su coño de espasmo ...",
+                "Menu",
+                "Must... FUCK!",
+                "Too tight! Undo! Undo!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Must... FUCK!",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Panic",
+                "Una necesidad primaria lo llena y su lucha contra sus restricciones, lo que hace que el Tengu lo mire por un momento con una mezcla de miedo y anticipación.",
+                "FocusedSpeaks",
+                "E-Eh?!",
+                "StatCheck",
+                "Power",
+                "15",
+                "Must... FUCK!Pass",
+                "Fail",
+                "Fail Break Free4"
+            ]
+        },
+        {
+            "NameOfScene": "Must... FUCK!Pass",
+            "theScene": [
+                "RemoveStatusEffect",
+                "Restrain",
+                "ChangeBGM",
+                "music/Loss/reason.mp3",
+                "Rompes las restricciones mágicas y agarras al tengu antes de fijarla con tu enorme virilidad todavía alojada en el fondo de su coño.",
+                "ChangeImageLayer",
+                "Expression",
+                "Bashful",
+                "FocusedSpeaks",
+                "E-eh?¡Mnnn!H-Hold On!¡Lo siento!J-solo déjame ir y te dejaré solo, prometí",
+                "Empiezas a empujar tu enorme polla en su coño aún convulsionando, con todos los pensamientos dedicados por completo a la necesidad singular de follar al tengu.",
+                "ChangeImageLayer",
+                "Expression",
+                "Orgasm",
+                "FocusedSpeaks",
+                "¡Ahhhh! ♥♥♥ W-Wait! ♥ P-PLESE!I-es demasiado bi- eeeek! ♥♥♥",
+                "El Tengut lucha por mantenerse coherente a medida que golpeas sin piedad su matriz con tu inmensa polla mientras su coño se contrae y se arroja en pequeños orgasmos cada vez que te empujas.",
+                "ChangeImageLayer",
+                "Expression",
+                "OrgasmClose",
+                "FocusedSpeaks",
+                "Mnnnn! ♥♥♥ c-¿¡¿Incluso me escuchas?Ahhh! ♥♥♥ ghhh ... ♥ o-oh n-no ... ¡ja! ♥ Y-you básicamente j-solo una bestia correcta n-ahora!Ohhh! ♥",
+                "ChangeImageLayer",
+                "Expression",
+                "Pleasured",
+                "Ella trata de sofocar sus gemidos en vano, y se arrugó la cara en un débil intento de evitar parecer que le encanta ser tu manga personal de polla.",
+                "PlayerOrgasmNoSpiritLoss",
+                "ChangeImageLayer",
+                "Expression",
+                "Orgasm",
+                "Con un poderoso empuje, empiezas tu longitud completa dentro de su coño, obligándolo a estirarse y acomodar tu enorme polla, y dejas escapar un aullido bestial mientras la bombea llena de tu viril semen.",
+                "El tengu grita en éxtasis cuando su estómago se abulta ligeramente hacia afuera de su enorme carga y lo poco del orgullo en su rostro se disuelve en una de las dicha complacida.",
+                "Te sientas, liberando tu agarre en los brazos de Tengut de Tengu mientras ambos jadean y te bañan en el resplandor de tus respectivos orgasmos, pero tu polla continúa latiendo dentro de su apretado coño, y te dueles por más ...",
+                "ChangeImageLayer",
+                "Expression",
+                "OrgasmClose",
+                "Los jadeos y gemidos de Tengu por debajo de ti mientras comienza a recomponarse, y ella te arregla con un resplandor altivo incluso mientras su cuerpo todavía temblaba de placer.",
+                "FocusedSpeaks",
+                "¡Debes estar satisfecho ahora, así que solo saque y-",
+                "ChangeImageLayer",
+                "Expression",
+                "Panic",
+                "El sonido de su voz empuja cualquier pequeño sentido que tenías fuera de tu mente mientras agarras poderosamente sus caderas curvas y comienzas a empujarla una vez más, sintiendo una necesidad ardiente de follarla sin sentido e inundarla con tu esperma una y otra vez.y más.",
+                "FocusedSpeaks",
+                "¡Eeek! ♥♥♥ A-ah? ♥♥♥ y-¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡enAsí que golpea",
+                "ChangeImageLayer",
+                "Expression",
+                "OrgasmClose",
+                "Ella gime de manera incoherente, ya que su voz solo te impulsa a golpearla cada vez más, y entre sus espasmos estremecedores comienza a mirar frenéticamente a su alrededor para salir de su situación.",
+                "Temblando, el Tengut intenta extenderse para agarrar a su ventilador que se telló en el suelo cuando la fijó por primera vez al suelo, pero cada vez que la virilidad golpea en su cuello uterino todo su cuerpo se tensa en éxtasis y nunca puede alcanzarlo.",
+                "Sus piernas se envuelven instintivamente alrededor de su cintura, cerrando estrechamente sus caderas mientras continúa follando poderosamente su coño espasmando, y las manos del tengua rápidamente se dan por vencido al tratar de encontrar un camino libre mientras las lleva a su boca, tratando de reprimir infructuosamente para suprimirSus gemidos gemelos mientras la dominas.",
+                "Pero no tarda mucho en que sus brazos se aflojaran, descansando en el suelo mientras se are a su tonto, dejando que sus gemidos lujuriosos resonan libremente a través de la habitación.",
+                "ChangeImageLayer",
+                "Expression",
+                "Pleasured",
+                "FocusedSpeaks",
+                "¡HAAAAHHHHH! ♥♥♥ se siente muuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuá¡N-No!¡Can- Mnn, ♥ Dure!¡A-un gran t-ygu no perderá t-to esto!",
+                "FocusedSpeaks",
+                "Aaaah !!! ♥♥♥ mmmm! ♥ i-i j-just- mnnn! ♥ ¡TIENE QUE HACER!¡Ohhh! ♥ Hasta que H-él se agotó, ¡hhe debe terminar pronto!Mnnff! ♥♥",
+                "ChangeImageLayer",
+                "Expression",
+                "Orgasm",
+                "Finalmente, con algunos empujes más poderosos, descargas otra carga de semen en el dolor de dolor del tengut, haciendo que su estómago se abultan aún más mientras deja escapar un aullido de placer sin palabras, mientras que todo su cuerpo está lleno de espasmos de éxtasis.",
+                "ChangeImageLayer",
+                "Expression",
+                "OrgasmClose",
+                "FocusedSpeaks",
+                "Ohhhh !!! ♥♥♥ ahhh ... ♥ y-tu polla ... ♥♥♥ C-C-no me diría ... Gi-Give Me Mo- Ghk!D-Damn It!Casi lo pierde ...",
+                "ChangeImageLayer",
+                "Expression",
+                "Panic",
+                "Ella se retorce débilmente e intenta liberarse, pero deja escapar un grito de sorpresa cuando comienzas a empujarla una vez más, tu eje aún rígido y doloroso por más.",
+                "FocusedSpeaks",
+                "¿Eeek!? ♥♥♥ W-¿Qué?Y no puedes mnn! ♥♥ b-be en serio?",
+                "Ella te mira con una mezcla de miedo, lujuria y anticipación en su rostro mientras se da cuenta de que no planeas reducir la velocidad en absoluto, ya que su magia te ha llevado a un jodido frenesí.",
+                "ChangeImageLayer",
+                "Expression",
+                "OrgasmClose",
+                "FocusedSpeaks",
+                "A-ah?",
+                "FocusedSpeaks",
+                "¿No te vas a parar?",
+                "Implacablemente follas a su coño mientras se corre de nuevo, rompiendo rápidamente los restos fracturados de su orgullo y reemplazándolo por placer y lujuria.",
+                "ChangeImageLayer",
+                "Expression",
+                "Orgasm",
+                "FocusedSpeaks",
+                "¡Y-Yes! ♥♥♥ ohhh! ♥ tu polla! ♥ más! ♥♥♥",
+                "Mientras la bombea llena de tu semen nuevamente, sus gemidos se vuelven completamente incoherentes y comienza a moverse a tiempo con tus empujes mientras se une a ti en tu lujuria bestial ...",
+                "...",
+                "ChangeImageLayer",
+                "Base",
+                "BlushFullSevere",
+                "Cuando finalmente vuelves a tus sentidos, lo primero que ves es el tengu que yace inconsciente en el suelo frente a ti, todavía espasmando en un desastre destrozado, y su estómago está hinchado con tu semen, incluso mientras rezuma lentamentede su coño que sigue siendo sacudiendo.",
+                "ChangeEnergyQuietly",
+                "25",
+                "ChangeSpiritQuietly",
+                "1",
+                "No estás seguro de cuánto tiempo terminaste follando el tengu, pero sabes con certeza que finalmente te detuviste hace un tiempo y que tu eje ha regresado a su tamaño normal.Curiosamente, te sientes algo revitalizado después de todo lo que sucedió ...",
+                "Mientras revisa el tengu inconsciente, notas una sonrisa borracha y borracha aún en su rostro, y su cuerpo todavía está cubierto de sudor y una cantidad excesiva de líquidos sexuales.",
+                "ChangeArousalQuietly",
+                "25",
+                "Te enjuagas profundamente mientras tu virilidad palpita ligeramente, ya que solo mirarla en este estado está empezando a excitarte nuevamente, pero sin que sea consciente, dudas, puedes hacer que tu polla sea lo suficientemente grande como para reanudar el sexo intenso de todos modos ...",
+                "DefeatMonster"
+            ]
+        },
+        {
+            "NameOfScene": "Fail Break Free4",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "ChangeImageLayer",
+                "Base",
+                "Blush",
+                "Pero desafortunadamente no puedes liberarte de las restricciones luminosas, y el Tengu de alivio respira alivio.",
+                "JumpToScene",
+                "Too tight! Undo! Undo!"
+            ]
+        },
+        {
+            "NameOfScene": "Too tight! Undo! Undo!",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Bashful",
+                "ChangeImageLayer",
+                "Base",
+                "Blush",
+                "El Tengut logra levantarse de su enorme eje, temblando y jadeando por un momento mientras se recupera de su reciente error.",
+                "Ella saluda a su ventilador, haciendo que tu polla vuelva a la longitud de doce pulgadas más razonable.",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "¡No creo que te deje ir!Ahora estoy lleno de ...",
+                "Menu",
+                "Solo relájate y deja que haga lo que quiera.",
+                "Try to get free from the magical restraints!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Just relax, and let her do what she wants.",
+            "theScene": [
+                "HitPlayerWith",
+                "Bounce",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "El tengu huelga a horcajadas en su cintura cuidadosamente alineando sus caderas con su erección agrandada antes de lanzarla en un movimiento suave ... [DamageToPlayer]",
+                "IfPlayerOrgasm",
+                "Insertion Cum Loss",
+                "HitPlayerWith",
+                "Bounce",
+                "Callas de placer mientras su coño envuelve tu dolor dolente, y el tengu a su propio gemido de la inserción rápida, claramente tratando de jugarlo ... [DamageToPlayer]",
+                "HitPlayerWith",
+                "Bounce",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "El tengu comienza a montar lentamente tu enorme eje, caminando cuidadosamente, enviando constantes sacudidas de éxtasis a tus caderas. [DamageToPlayer]",
+                "FocusedSpeaks",
+                "No tiene sentido resistir ahora, tu polla no puede resistir la perfección.",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Feels so good... So sensitive...",
+                "Menu",
+                "Need to get free!",
+                "Feels so good... So sensitive...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Need to get free!",
+            "theScene": [
+                "IfHasPerk",
+                "Escape Artist",
+                "NeedFreePlus",
+                "StatCheck",
+                "Power",
+                "15",
+                "Pass Break Free Fucking",
+                "Fail",
+                "Feels so good... So sensitive..."
+            ]
+        },
+        {
+            "NameOfScene": "NeedFreePlus",
+            "theScene": [
+                "StatCheck",
+                "Power",
+                "10",
+                "Pass Break Free Fucking",
+                "Fail",
+                "Feels so good... So sensitive..."
+            ]
+        },
+        {
+            "NameOfScene": "Pass Break Free Fucking",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Panic",
+                "RemoveStatusEffect",
+                "Restrain",
+                "¡Deshazes las restricciones luminosas!El tengu rápidamente desmonta su eje rígido, saltando con un grito en pánico, y su eje vuelve a su tamaño normal casi al instante."
+            ]
+        },
+        {
+            "NameOfScene": "Feels so good... So sensitive...",
+            "theScene": [
+                "JumpToRandomScene",
+                "Riding Scene 1",
+                "Riding Scene 2",
+                "Riding Scene 3",
+                "Riding Scene 4",
+                "Riding Scene 5",
+                "Riding Scene 6",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Riding Scene 1",
+            "theScene": [
+                "HitPlayerWith",
+                "Bounce",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "El Tengut rebota rítmicamente en su polla palpitante, y su exquisito coño se siente divino mientras acaricia su longitud sensible, enviando sacudidas de placer en su eje cada vez que golpea su cuello uterino ... [DamageToPlayer]",
+                "JumpToScene",
+                "PostRideCheck"
+            ]
+        },
+        {
+            "NameOfScene": "Riding Scene 2",
+            "theScene": [
+                "HitPlayerWith",
+                "Bounce",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "El tengu lentamente muele sus caderas sobre tu eje, haciendo que su coño se aprieta fuertemente alrededor de tu polla mientras masajea cada centímetro de tu palidez de la palanca ... [DamageToPlayer]",
+                "JumpToScene",
+                "PostRideCheck"
+            ]
+        },
+        {
+            "NameOfScene": "Riding Scene 3",
+            "theScene": [
+                "HitPlayerWith",
+                "Bounce",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "Gemes mientras el tengu permanece inmóvil, dejando que los músculos internos de su coño carguen y apriete tu eje, ya que ocasionalmente hace un maniobra de sus caderas ... [DamageToPlayer]",
+                "JumpToScene",
+                "PostRideCheck"
+            ]
+        },
+        {
+            "NameOfScene": "Riding Scene 4",
+            "theScene": [
+                "HitPlayerWith",
+                "Bounce",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "El sonido del sexo resuena húmedamente en la habitación mientras el tengu golpee sus caderas sobre su gran eje, sonriéndole con pizca mientras se contrae de placer debajo de ella ... [DamageToPlayer]",
+                "JumpToScene",
+                "PostRideCheck"
+            ]
+        },
+        {
+            "NameOfScene": "Riding Scene 5",
+            "theScene": [
+                "HitPlayerWith",
+                "Bounce",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "El Tengut se ríe orgullosamente mientras gira sus caderas en un círculo lento y sensual antes de levantar las caderas y golpearlas nuevamente en su dolor de dolor, enviando una maravillosa ola de placer en su cuerpo ... [DamageToPlayer]",
+                "JumpToScene",
+                "PostRideCheck"
+            ]
+        },
+        {
+            "NameOfScene": "Riding Scene 6",
+            "theScene": [
+                "HitPlayerWith",
+                "Bounce",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "El Tengut monta lentamente tu polla sacudida, jadeando ocasionalmente mientras se camina, y a pesar de que tu virilidad está completamente a merced de su coño, te estás amando cada segundo ... [DamageToPlayer]",
+                "JumpToScene",
+                "PostRideCheck"
+            ]
+        },
+        {
+            "NameOfScene": "PostRideCheck",
+            "theScene": [
+                "IfPlayerOrgasm",
+                "Cum Loss",
+                "IfPlayerHasStatusEffect",
+                "Surrender",
+                "Feels so good... So sensitive...",
+                "Menu",
+                "Need to get free!",
+                "...",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "...",
+            "theScene": [
+                "JumpToScene",
+                "Feels so good... So sensitive..."
+            ]
+        },
+        {
+            "NameOfScene": "Cum Loss",
+            "theScene": [
+                "PlayerOrgasm",
+                "1",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Ya no puedes disfrutar de un placer, gimiendo mientras te pones las caderas hacia arriba, haciendo que tu polla se apague mientras brota el semen caliente en el apretado coño del tengua.",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "El Tengu de se ríe orgullosamente mientras meneaba sus caderas triunfante, apretando su coño en tu sensible virilidad.",
+                "FocusedSpeaks",
+                "Jejeje, entraste dentro de mí.No como si pudieras resistir mi coño perfecto de todos modos.Ahora es {i} todos {/i} para ti ...",
+                "JumpToScene",
+                "Restrained Lovemaking Instant Loss"
+            ]
+        },
+        {
+            "NameOfScene": "Insertion Cum Loss",
+            "theScene": [
+                "PlayerOrgasm",
+                "1",
+                "Llomas de placer mientras las sensaciones de simplemente que su dolor de eje ingrese a su coño te envía al límite, y el tengu jadea sorprendido cuando tu semen caliente comienza a llenarla.",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "FocusedSpeaks",
+                "Jejeje, qué triste, todas las burlas deben haberte hecho tan furioso que viniste tan pronto como lo puse. Ya lo has perdido.",
+                "JumpToScene",
+                "Restrained Lovemaking Instant Loss"
+            ]
+        },
+        {
+            "NameOfScene": "Restrained Lovemaking Instant Loss",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "ChangeBGM",
+                "music/Loss/reason.mp3",
+                "Su coño se aprieta más bien mientras masajea su gran polla, tratando de retirar hasta la última gota de semen de sus bolas.",
+                "PlayerOrgasm",
+                "1",
+                "¡Gima confusión como el placer orgásmico en las ondas de tu ingle y envía una cascada de éxtasis a través de tu eje extra sensible, lo que te obliga a otro alto orgásmico!",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "PlayerSpeaks",
+                "A-ahhh?",
+                "PlayerOrgasm",
+                "1",
+                "ChangeImageLayer",
+                "Base",
+                "Blush",
+                "El Tengut se ríe arrogante mientras la inundas con más semen, y ella brilla con una ligera luz roja mientras absorbe mágicamente tu semen en su cuerpo, y dejas escapar un aullido de placer cuando el menor meneo de sus caderas obliga a tu eje a brotar aMás de tu espeso semen en ella.",
+                "FocusedSpeaks",
+                "Esto requiere bastante concentración, mnnn, ♥, por lo que será mejor que estés agradecido.Te convertirás en mi consolador vivo.",
+                "PlayerOrgasm",
+                "1",
+                "Ella comienza a montar tu virilidad aún orgeasming, enviando todas las nuevas alturas de locura induciendo placer a través de tus caderas.",
+                "ChangeImageLayer",
+                "Expression",
+                "Pleasured",
+                "FocusedSpeaks",
+                "Al mantener ese placer orgásmico rebotando alrededor de tu cuerpo, ohhh ... ♥ te estoy haciendo correrte una y otra vez, así que puedo ... ♥ para poder empaparme con toda tu energía gruesa.",
+                "PlayerSpeaks",
+                "C-CAN'T T-pensamiento! ♥♥♥",
+                "PlayerOrgasm",
+                "3",
+                "El placer sigue anulando sus pensamientos como orgasmo después de que el orgasmo arruine su cerebro, haciendo que su visión se vuelva blanca con éxtasis.",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "FocusedSpeaks",
+                "Y esas interminables olas de placer, jajhh, ♥ se derretirán por tu cerebro en una bonita pizarra en blanco para que yo me diga como quiera.",
+                "PlayerOrgasm",
+                "3",
+                "Su exquisito coño se siente increíble, y cada vez que rebota en su eje todo su cuerpo está electrificada por el éxtasis que induce la dicha mientras se corres sin cesar por ella.",
+                "PlayerOrgasm",
+                "3",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "Ella se extiende suavemente con las manos y comienza a burlarse lentamente de sus pezones con sus dedos, enviando aún más sacudidas de la mente a través de su cuerpo.",
+                "PlayerSpeaks",
+                "A-AH?!♥♥♥",
+                "FocusedSpeaks",
+                "Te voy a convertir en mi juguete sexual perfecto.Mmm ... ♥ No me merezco nada menos.Ohhh ... ♥ jejeje, tu cabeza estará completamente vacía de todo, excepto el placer y la obediencia interminables para mí. ♥",
+                "PlayerOrgasm",
+                "5",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Ella monta tu palanca de virilidad y orgasmo más rápido, electrificando tu cerebro circuito ya corto con una ola tras ola de placer paralizante, haciendo que tus ojos se enrollen en éxtasis y tu lengua se extiende cuando una expresión estupefitada cruza tu rostro.",
+                "ChangeImageLayer",
+                "Expression",
+                "Pleasured",
+                "FocusedSpeaks",
+                "El proceso comenzó en el momento en que entraste en mí, mffnnn, ♥ y va a terminar cuando me corro con esta gruesa polla. ♥",
+                "PlayerOrgasm",
+                "7",
+                "Su coño comienza a espasmo alrededor de tu polla agrandada mientras ella rebota continuamente en tu polla dolorosa y palpitante.",
+                "PlayerOrgasm",
+                "20",
+                "ChangeImageLayer",
+                "Expression",
+                "OrgasmClose",
+                "ChangeImageLayer",
+                "Base",
+                "BlushFull",
+                "Hasta que con una mente final rompa el golpe de sus caderas, el Tengur la arquea hacia atrás con un grito de placer extático, poniendo cada nervioso que termina en su cuerpo en llamas de éxtasis mientras brotas una carga final, climática y mental en su coño perfecto.",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "ChangeImageLayer",
+                "Base",
+                "Blush",
+                "A medida que el placer en su cuerpo comienza a desaparecer lentamente, así que para hacer sus pensamientos, dejándote lleno de una necesidad sin sentido de servir a tu diosa mientras te bañas en el cálido resplandor del placer.",
+                "FocusedSpeaks",
+                "Mnnnn ... perfecto. ♥",
+                "ChangeImageLayer",
+                "Expression",
+                "Happy",
+                "Ella mantiene tu gran eje arremetido dentro de su coño mientras se acuesta en tu torso antes de darte un besque rápido en la mejilla.",
+                "FocusedSpeaks",
+                "Buen trabajo, esclavo.Después de un descanso rápido, vuelve a mi lugar para finalizar su entrenamiento ...",
+                "ChangeImageLayer",
+                "Expression",
+                "Smug",
+                "Ella deja escapar un suspiro mientras te acaricia, y actúas alegremente como una almohada corporal para tu amante sin un solo pensamiento que no sea cómo servirla mejor en tu mente vacía.",
+                "ChangeImageLayer",
+                "Expression",
+                "Pout",
+                "FocusedSpeaks",
+                "Aunque dudo que pueda mantenerte tanto tiempo ...",
+                "El Tengut lentamente comienza a quedarse dormido, y una vez que está dormida en tus brazos, el agotamiento de repente te abruma por el esfuerzo de tu sesión de orgasmo constante, y lo último que notas antes de quedarte en un sueño profundo y maravilloso es el suave brillo de tu retiradaPiedra mientras se activa ...",
+                "...",
+                "ChangeFetish",
+                "Sex",
+                "5",
+                "ChangeSensitivity",
+                "Sex",
+                "5",
+                "ChangeSensitivity",
+                "Breasts",
+                "1",
+                "GameOver"
+            ]
+        },
+        {
+            "NameOfScene": "Nothing",
+            "theScene": []
+        },
+        {
+            "NameOfScene": "No Restraints",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "Nothing",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "Nothing",
+                "SkipPlayerAttack",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "Con un movimiento de su fan, el Tengu envía vientos de corte que separan las restricciones que le arrojó antes de que incluso la alcanzaran."
+            ]
+        },
+        {
+            "NameOfScene": "No Pin",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "Nothing",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "Nothing",
+                "IfMonsterHasStance",
+                "Cara sentarse",
+                "FaceSitPinVer",
+                "SkipPlayerAttack",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "¡Con un movimiento de su fan, el Tengu envía una ráfaga de viento aterrador que te envía volando hacia atrás antes de que logres acercarte a ella!",
+                "FocusedSpeaks",
+                "Como si te hubiera dejado cerca de mí."
+            ]
+        },
+        {
+            "NameOfScene": "FaceSitPinVer",
+            "theScene": [
+                "SkipPlayerAttack",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "A medida que comienzas a agarrar las caderas bien formadas del Tengut para atravesarla, hay un pulso de magia de la mente y ella presiona su culo perfecto en tu rostro, dejando que tus brazos se establezcan por la ola de placer disparando a través de tu cuerpo que dejaTus pensamientos flotando en un aturdimiento.",
+                "FocusedSpeaks",
+                "Debes aprender tu lugar humano, adorarme."
+            ]
+        },
+        {
+            "NameOfScene": "No Sex",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "Nothing",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "Nothing",
+                "SkipPlayerAttack",
+                "ChangeImageLayer",
+                "Expression",
+                "Haughty",
+                "¡Con un movimiento de su fan, el Tengu envía una ráfaga de viento aterrador que te envía volando hacia atrás antes de que logres acercarte a ella!",
+                "FocusedSpeaks",
+                "¿Realmente pensaste que te dejaría poner esa patética polla tuya dentro de mí?"
+            ]
+        },
+        {
+            "NameOfScene": "No Touch Pussy",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "Nothing",
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "Nothing",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "Nothing",
+                "SkipPlayerAttack",
+                "ChangeImageLayer",
+                "Expression",
+                "Indignant",
+                "¡Con un movimiento de su fan, el Tengu envía una ráfaga de viento aterrador que te envía volando hacia atrás antes de que logres acercarte a ella!",
+                "FocusedSpeaks",
+                "¡No te dejaré tocarme libremente allí!¡Tonto!"
+            ]
+        }
+    ]
+}

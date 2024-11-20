@@ -1,0 +1,55 @@
+{
+    "name": "Gooey Face Grind",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth"
+    ],
+    "fetishTags": [
+        "Ass",
+        "Sex"
+    ],
+    "startsStance": "",
+    "requiresStance": "Face Sit",
+    "unusableIfStance": [
+        "Penetration",
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Making Out"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "15",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "Stun",
+    "statusChance": "40",
+    "statusDuration": "2",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] muele su culo regordete y viscoso en la cara de [TargetName], obligando a [TargetHimOrHer] a lamer su sexo pegajoso, conectando la nariz y la boca húmeda a medida que se vuelve cada vez más difícil de respirar ...",
+    "miss": "[AttackerName] muele su culo regordete viscoso en la cara de [TargetName], ¡pero [TargetName] logra alejar brevemente y tomar algo de aire!",
+    "statusOutcome": "[TargetName] comienza a desmayarse brevemente por la falta de aire![TargetName] está atónito!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

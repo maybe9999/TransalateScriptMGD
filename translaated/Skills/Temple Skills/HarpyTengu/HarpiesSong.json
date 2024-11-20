@@ -1,0 +1,54 @@
+{
+    "name": "Harpies Song",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction",
+        "RestrainUsable"
+    ],
+    "fetishTags": [
+        "HypnosisAddict"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Trance",
+    "statusChance": "110",
+    "statusDuration": "1",
+    "statusPotency": "1",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] canta una melodía dulce y sin sentido, y cada nota [AttackerHeOrShe] canta envía un escalofrío de la felicidad que aturde las carreras a través de [TargetName].",
+    "miss": "[AttackerName] canta una melodía dulce y sin sentido, pero [TargetName] logra ignorar [AttackerHisOrHer] una canción fascinante.",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|TenguHarpyCombatEvents|/|SongCheck|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

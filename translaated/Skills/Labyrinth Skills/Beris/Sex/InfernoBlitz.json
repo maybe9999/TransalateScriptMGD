@@ -1,0 +1,56 @@
+{
+    "name": "Inferno Blitz",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "statusEffectScaling": "20",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Pain"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "120",
+    "recoil": "10",
+    "critChance": "5",
+    "targetType": "5Hits",
+    "statusEffect": "Stun",
+    "statusChance": "10",
+    "statusDuration": "2",
+    "statusPotency": "0",
+    "statusResistedBy": "Power",
+    "statusText": "Infierno ardiente",
+    "descrip": "",
+    "outcome": "Beris golpea salvajemente sus caderas en un ritmo depredador primario mientras las llamas lamen y giran de su cuerpo en forma, aprovechando por completo su bodega dominante en el cuerpo de [TargetName] para follar [TargetHisOrHer] palpitando y sacudiendo la polla en la sumisión de melodías calientes.",
+    "miss": "Beris golpea salvajemente sus caderas en un ritmo depredador primario mientras las llamas lamen y se retuerzan su cuerpo en forma, ¡pero [TargetName] logra soportar el ataque sexual!",
+    "statusOutcome": "¡El ritmo animalista frenético de la mente de la cintura balanceada de Beris giran y aturde el placer dolorido!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

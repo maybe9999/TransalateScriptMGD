@@ -1,0 +1,47 @@
+{
+    "name": "Suit and Necktie of Authority",
+    "itemType": "Accessory",
+    "cost": "250000",
+    "descrip": "Un traje y un conjunto de corbata diabólicamente guapo e infundido de manera demoníaca que refuerza la confianza de uno, lo que te hace sentir como el hombre más importante de Lucidia.Aumenta la fuerza de voluntad en 50.",
+    "requires": [
+        ""
+    ],
+    "perks": [
+        ""
+    ],
+    "hp": "0",
+    "ep": "0",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "50",
+    "Luck": "0",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "useOutcome": "",
+    "useMiss": ""
+}

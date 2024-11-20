@@ -1,0 +1,55 @@
+{
+    "name": "Destructive Gooey Mating",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Penetration",
+        "Slimed 100%"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "60",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "5",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "150",
+    "statusDuration": "99",
+    "statusPotency": "10",
+    "statusResistedBy": "Power",
+    "statusText": "aphrodisiac",
+    "descrip": "",
+    "outcome": "Te encuentras atrapado entre la cama pegajosa debajo de ti y el limo rosa mirando lujuriosamente sobre ti mientras ella condenadamente sacude sus caderas curvas a un ritmo enloquecedor, inundando tu cintura con una sensación de almíbar alucinante mientras los sonidos húmedos obscenos se desplazan por el aire.| n | Con entusiasmo depredador, los otros dos perpetuas presionan contra sus costados, su sándwich voluptuoso que lo abarca todo lo que evita todo el escape mientras susurran y arrugan en sus oídos, alentándote a olvidarte de ganar y estar allí y ser un amor ansiosoesclavo se hunde deliciosamente en la depravación corrupta encantadora.",
+    "miss": "Te encuentras atrapado entre la cama pegajosa debajo de ti y el limo rosa que mira con lujuria sobre ti mientras ella sacude con sus caderas con curvas a un ritmo enloquecedor, ¡pero te las arreglas para soportar su aderezo!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|DarkPerpetuaCombatEvent|/|DestructiveMatingCorruption|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

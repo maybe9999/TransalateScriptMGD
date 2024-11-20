@@ -1,0 +1,53 @@
+{
+    "name": "Ninja Art: Sensual Tease",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "150",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Sex"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Mientras que [AttackerName2] está montando la virilidad de [TargetName], [AttackerName] se acuesta al lado [TargetHisOrHer], presionando [AttackerHisOrHer] suaves de senos contra [TargetHimOrHer] como [AttackerHeOrShe] comienza a frotar gentilmente [AttackerHisOrHer] cuerpo contra [TargetName]con una mirada sensual y seductora en los ojos [AttackerHisOrHer].",
+    "miss": "Mientras [AttackerName2] está montando la virilidad de [TargetName], [AttackerName] trata de abrazarse al lado [TargetHisOrHer] con una mirada seductora en los ojos [AttackerHisOrHer], ¡pero [TargetHeOrShe] logra mantener [AttackerName] lejos!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

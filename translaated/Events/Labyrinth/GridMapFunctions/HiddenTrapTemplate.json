@@ -1,0 +1,41 @@
+{
+    "name": "HiddenTrap",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ceris",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "HiddenTrap",
+            "theScene": [
+                "A medida que avanza en el mosaico, ¡hay un clic ominoso!",
+                "JumpToRandomScene",
+                "Trap1",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Trap1",
+            "theScene": [
+                "JumpToEventThenScene",
+                "HiddenTrapPink",
+                "Triggered"
+            ]
+        },
+        {
+            "NameOfScene": "EventBreak",
+            "theScene": [
+                "Evento Broko"
+            ]
+        }
+    ]
+}

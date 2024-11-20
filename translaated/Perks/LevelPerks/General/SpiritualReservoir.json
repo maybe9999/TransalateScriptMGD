@@ -1,0 +1,21 @@
+{
+    "name": "Spiritual Reservoirs",
+    "description": "Al entrenar intensamente a su cuerpo, ha ganado mayores reservas espirituales, ganando 1 espíritu.",
+    "LevelReq": "20",
+    "PerkReq": [
+        "Spiritual Reserves"
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "GainSpirit"
+    ],
+    "EffectPower": [
+        "1"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

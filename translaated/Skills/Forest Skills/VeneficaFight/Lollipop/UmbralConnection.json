@@ -1,0 +1,59 @@
+{
+    "name": "Umbral Connection",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        "Oral"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "requiresPerkSelf": [
+        "Umbral Sucker"
+    ],
+    "unusableIfPerk": [
+        "Curse of Oblivion"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "999",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Acariciar a tu oponente.",
+    "outcome": "Con una sonrisa engreída [AttackerName] sale lentamente la piruleta de su boca mojada, lamiéndose los labios cuando [TargetName] escalofríos de la conmoción de las sensaciones de eco que complacen la erección [TargetHisOrHer], y luego le da a la punta de los dulces un beso ligero,Eso envía una impactante sacudida de magia a través de la conexión, dejando la polla de [TargetName] espasmo en éxtasis mientras ella la desliza entre sus labios.",
+    "miss": "Con una sonrisa engreída [AttackerName] sale lentamente la piruleta de su boca mojada, lamiéndose los labios mientras [TargetName] se escapa de la conmoción de sensaciones de eco que complacen [TargetHisOrHer] erección, ¡pero [TargetHeOrShe] gana para soportar la sensación de burlas!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|VeneficaCombatEvents|/|UmbralSuckerCurse|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

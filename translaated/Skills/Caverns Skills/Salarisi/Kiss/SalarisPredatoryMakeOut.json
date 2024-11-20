@@ -1,0 +1,60 @@
+{
+    "name": "Salaris Predatory Make Out",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "statusEffectScaling": "50",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth"
+    ],
+    "fetishTags": [
+        "Kissing",
+        "Monstrous"
+    ],
+    "startsStance": "Making Out",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Sex",
+        "Anal",
+        "Face Sit",
+        "Footjob",
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Blowjob"
+    ],
+    "unusableIfTarget": [
+        "Face Sit",
+        "Making Out"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        ""
+    ],
+    "power": "15",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "Paralysis",
+    "statusChance": "100",
+    "statusDuration": "99",
+    "statusPotency": "1",
+    "statusResistedBy": "Power",
+    "statusText": "",
+    "descrip": "Besa a tu oponente.",
+    "outcome": "Con otro salario chupando el gallo de [TargetName], [AttackerName] Fácilmente fuerza [TargetHimOrHer] a un beso profundo, llenando la boca [TargetHisOrHer] con [AttackerHisOrHer] de [AttackerHeOrShe] como [TargetName] domina agresivamente, lamiendo cada parte de la boca [TargetHisOrHer] mientras enreda con amor las lenguas.",
+    "miss": "A pesar de otro salaris que chupa el pollo de [TargetName], [TargetHeOrShe] logra evitar que [AttackerName] forzue a [TargetHimOrHer] a un beso profundo!",
+    "statusOutcome": "A medida que [AttackerName] bebe la saliva empapada del veneno de [AttackerName], el cuerpo [TargetHisOrHer] se siente cada vez más entumecido e insensible a medida que la toxina paralítica se filtra en el cuerpo [TargetHisOrHer]!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,79 @@
+{
+    "name": "Sofia Cuddle Dream",
+    "CardType": "Dream",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Sofia",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "IfFetishLevelEqualOrGreater",
+                "Adicto a Sofía",
+                "25",
+                "DreamScene"
+            ]
+        },
+        {
+            "NameOfScene": "DreamScene",
+            "theScene": [
+                "StoreCurrentBGM",
+                "ChangeBGM",
+                "music/Loss/Falling Down.mp3",
+                "StoreCurrentBG",
+                "DisplayCharacters",
+                "EndLoop",
+                "ChangeBG",
+                "blankScreen.png",
+                "Estás acostado de lado en una cama suave y lujosa, mirando a un abismo estrellado.",
+                "DisplayCharacters",
+                "1",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Sleeping",
+                "Una sofia dormida te está acurrucando por detrás, la mera sensación de sus curvas diabólicas presionando contra ti como esto te está volviendo loco de deseo, y solo se acerca con un dulce murmullo irreflexivo en tu oído que hace que todo tu cuerpo se contrae con deleite.",
+                "Sus abundantes senos se sienten maravillosos contra tu espalda desnuda, sus ágiles brazos envueltos perezosamente alrededor de tus hombros y brazos te llenan de hormigueo de éxtasis puro, y mientras envuelve una de sus piernas largas y flexibles alrededor de tu cintura, solo puedes hacer gusto, ella, ella.Forma sensual contra usted, erosionando su razón.",
+                "Ella te sostiene con fuerza como una almohada, cada ligero cambio en su sueño enviando un temblor de placer atravesando, sus suaves senos frotando contra ti, su larga pierna te acariciando, su voz dulce de miel es irreflexivamente en tu oído con un suspiro somnoliento, Sientes que te vas a enojar por el éxtasis de este simple abrazo.",
+                "Pero no importa cuánto palpaten su polla o espasmos que no pueda alcanzar el clímax, solo parece escapar de usted a pesar de todo su cuerpo que irradiaba la dicha completa, derritiéndolo de la cabeza a los dedos de la piel suave con el contacto con la piel, dejándote dolor de ella.hacer algo.{i} cualquier cosa. {/i} para sacarte y liberarte de este tormento maravillosamente dolorido.",
+                "A pesar de sus gemidos y gemidos, aunque no le importa despertarse, manteniéndolo encerrado en una sesión acurrucada de éxtasis puro sin adulterar, eso parece extenderse durante horas, dejándote babear y cachonda, anhelando la liberación como no puedesDuerme debido a las olas de dicha flotando a través de ti.",
+                "Eventualmente te instalas en el hormigueo que sacude todo tu cuerpo, deleitando en cada caricia irreflexiva, perdiéndote en la sensación de sus curvas contra ti, sus suspiros pecaminosamente dulces te derriten durante toda la noche, dejándote disfrutar de un altibajos celestiales constantes deéxtasis que nunca quieres terminar.",
+                "DisplayCharacters",
+                "EndLoop",
+                "PlayStoredBGM",
+                "UseHeldBG",
+                "GetEventAndIfChoice",
+                "Go to your room.",
+                "1",
+                "SleepingInRoom",
+                "RoomWakeUp"
+            ]
+        },
+        {
+            "NameOfScene": "_RoomWakeUporiginal",
+            "theScene": [
+                "Te despiertas jadeando con excitación, el sueño intoxicante aún asolando tus pensamientos mientras te sientas y te deslizas al borde de la cama, tu polla palpita con necesidad, ya que no puedes evitar masturbarte con el pensamiento de Sofía, sus abundantes senos, sus suaves piernas flexibles, sus laboriosos labios de beso, sus caderas anchas y su seductor culo derritiendo tus pensamientos.",
+                "No lleva mucho tiempo a su mano para traer un clímax tembloroso y desordenado que deleite su mente mientras reflexiona sobre la forma perfecta de Sucúcubo de Sofía, sabiendo que este placer palidece en comparación con lo que podría hacerle.Con un suspiro, limpias el desastre, tratando de sacudir la inquietante necesidad del placer que ofrece y tu polla ya rígida.",
+                "Te vuelves en la cama por un momento, tomando un tiempo para relajar tu cuerpo sexual, dejando que Sofía se desvanezca lentamente de tus pensamientos."
+            ]
+        },
+        {
+            "NameOfScene": "RoomWakeUp",
+            "theScene": [
+                "Te despiertas jadeando con excitación, el sueño intoxicante aún asolando tus pensamientos mientras te sientas y te deslizas al borde de la cama, tu polla palpita con necesidad, ya que no puedes evitar masturbarte con el pensamiento de Sofía, sus abundantes senos, sus suaves piernas flexibles, sus laboriosos labios de beso, sus caderas anchas y su seductor culo derritiendo tus pensamientos.",
+                "Pero a pesar del placer encantador atravesando tu mente mientras te rigas con la idea de la forma perfecta de Sucúcubo de Sofía, tu imaginación simplemente palidece en comparación con su verdadero toque, dejándote colgado de la dolor de clímax, anhelando su toque.",
+                "Te vuelves en la cama con un gemido mientras tu polla dura dura palpita con necesidad, recorre la cama para tratar de relajar tu cuerpo sexual, dejando que Sofía se desvanezca lentamente de tus pensamientos mientras te alejas de regreso a dormir ..."
+            ]
+        }
+    ]
+}

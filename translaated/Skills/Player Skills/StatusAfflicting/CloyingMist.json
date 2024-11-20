@@ -1,0 +1,54 @@
+{
+    "name": "Cloying Mist",
+    "cost": "25",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "2500",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "statusEffectScaling": "25",
+    "requiredStat": "40",
+    "skillTags": [
+        "Afflictions"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "60",
+    "maxRange": "115",
+    "recoil": "0",
+    "targetType": "all",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "75",
+    "statusDuration": "11",
+    "statusPotency": "10",
+    "statusResistedBy": "Power",
+    "statusText": "aphrodisiac",
+    "descrip": "Conjúrese una neblina mágica de afrodisíaco, llenando a todos tus oponentes con una creciente lujuria.No puede estar en una postura.",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "Con un canto rápido y hábiles mágicos [AttackerName] envía una neblina rosa nebulosa que se filtra en los pulmones y el cuerpo de [TargetName] de [TargetName].",
+    "statusMiss": "With quick chant and deft magical motions [AttackerName] sends out a hazy pink mist that seeps into [TargetName]'s lungs and body, but [TargetHeOrShe] seems completely unaffected!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

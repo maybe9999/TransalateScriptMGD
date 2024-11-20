@@ -1,0 +1,21 @@
+{
+    "name": "Amazing Legs",
+    "description": "",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "LegUseBoost"
+    ],
+    "EffectPower": [
+        "20"
+    ],
+    "PlayerCanPurchase": "No"
+}

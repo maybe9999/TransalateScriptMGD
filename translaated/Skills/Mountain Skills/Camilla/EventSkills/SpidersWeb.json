@@ -1,0 +1,54 @@
+{
+    "name": "SpidersWeb",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        ""
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Restrain",
+    "statusChance": "50",
+    "statusDuration": "0",
+    "statusPotency": "25",
+    "statusResistedBy": "Power",
+    "statusText": "bound",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "¡Entras en algo pegajoso y de repente te encuentras inmovilizado!",
+    "statusMiss": "",
+    "restraintStruggle": "[TargetName] struggles against the web trapping [TargetHimOrHer]...",
+    "restraintStruggleCharmed": "[TargetName] squirms against the web trapping [TargetHimOrHer]...",
+    "restraintEscaped": "And tears free of the webbing!",
+    "restraintEscapedFail": "But the web holds, and [TargetHeOrShe] remains stuck to it!"
+}

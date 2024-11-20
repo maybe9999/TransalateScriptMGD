@@ -1,0 +1,54 @@
+{
+    "name": "Sensual Draught",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "500",
+    "skillType": "statusEffect",
+    "statType": "None",
+    "statusEffectScaling": "0",
+    "requiredStat": "15",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Damage",
+    "statusChance": "100",
+    "statusDuration": "11",
+    "statusPotency": "20",
+    "statusResistedBy": "",
+    "statusText": "Sensual Draught",
+    "descrip": "¡Aumenta cuánta excitación infliges a tus enemigos!",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "Bebes por el draft sensual y puedes sentir que tu destreza sexual crece, o tal vez esa es solo la magia de Pocions.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

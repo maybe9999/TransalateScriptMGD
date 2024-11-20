@@ -1,0 +1,54 @@
+{
+    "name": "Sleep",
+    "cost": "20",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "2500",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "statusEffectScaling": "15",
+    "requiredStat": "20",
+    "skillTags": [
+        "Afflictions"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Sleep"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Sleep",
+    "statusChance": "60",
+    "statusDuration": "6",
+    "statusPotency": "10",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Usa la magia para enviar lentamente a tu oponente a un sueño pacífico.",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] Lentamente teje magia y la envía a [TargetYouOrMonsterName], haciendo que [TargetHimOrHer] bostezo del hechizo inductor de sueño a medida que comienza a hacer que [TargetHimOrHer] se duerma.",
+    "statusMiss": "[TargetName] shakes off the drowsiness from the sleep spell cast by [AttackerYouOrMonsterName].",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

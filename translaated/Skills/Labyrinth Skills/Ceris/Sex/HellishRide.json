@@ -1,0 +1,55 @@
+{
+    "name": "Hellish Ride",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Power",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Pain"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "45",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "20",
+    "targetType": "single",
+    "statusEffect": "Defence",
+    "statusChance": "50",
+    "statusDuration": "5",
+    "statusPotency": "-15",
+    "statusResistedBy": "Power",
+    "statusText": "Hellish Ride",
+    "descrip": "",
+    "outcome": "[AttackerName] rebota salvajemente sobre la polla de [TargetName], golpeando [AttackerHisOrHer] caderas anchas a un ritmo frenético, enviando ondas resonantes de dolor de calor doloroso a través de [TargetHisOrHer] TODA WIEST¡coño!",
+    "miss": "[AttackerName] rebota salvajemente sobre la polla de [TargetName], golpeando [AttackerHisOrHer] caderas anchas a un ritmo frenético, ¡pero [TargetName] logra soportar el ataque sexual!",
+    "statusOutcome": "Los pesados ​​impactos amortiguados de los movimientos desenfrenados de [AttackerName] que palpitan débilmente, y las caderas [TargetHisOrHer] dolieron, disminuyendo la defensa de [AttackerName]!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

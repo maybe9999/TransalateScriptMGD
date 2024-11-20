@@ -1,0 +1,88 @@
+{
+    "name": "Falling Dream",
+    "CardType": "Dream",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Harpy",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "GetEventAndIfChoice",
+                "Go to your room.",
+                "1",
+                "SleepingInRoom",
+                "RandomDream"
+            ]
+        },
+        {
+            "NameOfScene": "RandomDream",
+            "theScene": [
+                "StoreCurrentBGM",
+                "ChangeBGM",
+                "music/Relaxing/Purple Planet Music - Gentle - Meltwater (1_38) (L).mp3",
+                "JumpToRandomScene",
+                "Trip",
+                "FallingOutOfBed",
+                "RequiresMinimumProgressFromEvent",
+                "Visit the Campers",
+                "1",
+                "HarpyRide",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Trip",
+            "theScene": [
+                "Estás caminando por un camino de prado pacífico, los pájaros están cantando, el sol brilla a través de las hojas y todo se siente bien con el mundo.",
+                "PlayStoredBGM",
+                "Pero con un paso perdido, te deslizas y te caes hacia atrás, dejando tus ojos de par en par y tu corazón acelerando, preparándote para el duro impacto del suelo.",
+                "Solo para que se despierte en su cama en la noche de la noche, jadeando por el aire momentáneamente, ya que su pánico se reemplaza rápidamente con molestias mientras se recuesta e intenta dormir un poco más ..."
+            ]
+        },
+        {
+            "NameOfScene": "FallingOutOfBed",
+            "theScene": [
+                "Estás flotando en una cama de estrellas, cada una brillando maravillosamente por encima de ti, así que sonríes y te recuestas, disfrutando de la vista.",
+                "PlayStoredBGM",
+                "Pero la parte posterior de tu mente recuerda que no puedes dejar nada, por lo que inmediatamente comienzas a deslizarse a través del vacío hasta que te dejes caer en el camino hacia abajo",
+                "Te pones despierto y miras hacia el techo, solo una pierna que queda en tu cama mientras la luz de la mañana brilla, con un gruñido que vuelves a la cama para tratar de dormir un poco más, pero fue en vano."
+            ]
+        },
+        {
+            "NameOfScene": "HarpyRide",
+            "theScene": [
+                "¡Estás volando!Alzando a través del cielo, el viento acariciando su piel y el sol brillando sobre usted mientras rayas sobre el bosque de abajo.",
+                "DisplayCharacters",
+                "1",
+                "EndLoop",
+                "Bueno, en realidad estás siendo llevado por una arpía bastante alegre, y su pequeño cuerpo está haciendo lo mejor para darte el viaje de tu vida.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Clueless",
+                "ChangeBGM",
+                "music/Forest Dungeon/New Step.mp3",
+                "Pero una fuerte ráfaga de viento los golpea a los dos, golpeándola del rumbo, su diminuta fuerza incapaz de corregir y no puede soportar su peso correctamente, enviándolos a ambos hacia adelante a velocidades que ninguna arpía debería poder alcanzar.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Panic",
+                "Ambos se quedan gritando en pánico mientras se alzan hacia el suelo a velocidades increíbles, la pequeña mujer de pájaros se aferró fuertemente a su vida.",
+                "PlayStoredBGM",
+                "DisplayCharacters",
+                "EndLoop",
+                "Luego te rompes despierto con su sudor en tu frente, parpadeando varias veces mientras te das cuenta de que era solo un sueño."
+            ]
+        }
+    ]
+}

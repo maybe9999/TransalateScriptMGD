@@ -1,0 +1,54 @@
+{
+    "name": "Twisting Gooey Sex",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "7",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Penetration",
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "El limo viscoso de [AttackerName] gira alrededor de la polla de [TargetName] mientras muele suavemente sus caderas en un círculo, ¡creando un intenso placer de base a punta!Mientras que el resto del cuerpo [AttackerHisOrHer] de recubrimiento [AttackerHisOrHer] [AttackerHisOrHer] masajea suavemente todo lo que toca.",
+    "miss": "El limo viscoso de [AttackerName] gira alrededor de la polla de [TargetName] mientras muele suavemente sus caderas en un círculo, ¡pero [TargetHeOrShe] logra resistir el intenso placer!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

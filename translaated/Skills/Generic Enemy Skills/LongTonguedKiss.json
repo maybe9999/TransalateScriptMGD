@@ -1,0 +1,53 @@
+{
+    "name": "Long Tongued Kiss",
+    "cost": "2",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "50",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth"
+    ],
+    "fetishTags": [
+        "Kissing"
+    ],
+    "startsStance": "",
+    "requiresStance": "Making Out",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Making Out"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "2",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Los ojos de [TargetName] se extienden cuando la lengua de [AttackerName] invade la boca [TargetHisOrHer], acariciando agresivamente cada esquina de la boca de [TargetName]!",
+    "miss": "Los ojos de [TargetName] se extienden cuando [AttackerName] de la lengua no naturalmente larga invade la boca [TargetHisOrHer], ¡pero [TargetHeOrShe] logra soportar la estimulación extrañamente intensa!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

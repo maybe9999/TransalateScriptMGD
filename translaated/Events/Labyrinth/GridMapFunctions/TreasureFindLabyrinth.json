@@ -1,0 +1,54 @@
+{
+    "name": "TreasureTile",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ushris",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "TreasureRare",
+            "theScene": [
+                "¡Abre el cofre del tesoro y ...!",
+                "GiveTreasure",
+                "Rare",
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "TreasureUncommon",
+            "theScene": [
+                "¡Abre el cofre del tesoro y ...!",
+                "GiveTreasure",
+                "Uncommon",
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "TreasureCommon",
+            "theScene": [
+                "¡Abre el cofre del tesoro y ...!",
+                "GiveTreasure",
+                "Common",
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "EventBreak",
+            "theScene": [
+                "Evento Broko"
+            ]
+        }
+    ]
+}

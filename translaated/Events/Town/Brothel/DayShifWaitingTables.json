@@ -1,0 +1,33 @@
+{
+    "name": "DayShiftWaiter",
+    "CardType": "DayShift",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Elf",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "ChangeBG",
+                "Bar.png",
+                "Terminas sirviendo comida y bebida a los clientes, y va de manera bastante suave.",
+                "ChangeBG",
+                "Inn.png",
+                "Al final, estás bastante cansado de toda la carrera y charlando, pero te pagaron.",
+                "ChangeEros",
+                "100",
+                "AdvanceTime",
+                "1"
+            ]
+        }
+    ]
+}

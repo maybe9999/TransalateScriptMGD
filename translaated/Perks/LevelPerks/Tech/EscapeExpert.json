@@ -1,0 +1,25 @@
+{
+    "name": "Escape Expert",
+    "description": "¡Se vuelve aún más esquivo, aumentando las posibilidades de salir de las posturas en un 20%, su capacidad para salir de las restricciones en un 20%y su oportunidad de escapar con éxito de las peleas en un 20%!",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Escape Artist"
+    ],
+    "StatReq": [
+        "Technique"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "GetOutOfStance",
+        "RemoveRestraints",
+        "RunChance"
+    ],
+    "EffectPower": [
+        "20",
+        "20",
+        "20"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

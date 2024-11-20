@@ -1,0 +1,51 @@
+{
+    "name": "Touch of Ecstasy",
+    "description": "Aumenta la excitación de los juegos previos en 10 y aumenta el beso, el seno, el dolor y el culo y el coño de las habilidades de orientación de coño en un 25%.Pero aumenta su polla, pezón, boca, dolor y sensibilidad al culo en un 20%, aumenta la cantidad de daño de retroceso que recibe en un 10%.Aumenta su oportunidad crítica en un 5% y el impulso de daños críticos en un 50%, pero también para todos los ataques contra usted.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "ForeplayFlatDamage",
+        "RecoilDamageTaken",
+        "PainBoost",
+        "KissBoost",
+        "NonPenSexBoost",
+        "BreastBoost",
+        "NonPenAssBoost",
+        "CritChanceBoost",
+        "CritDamageBoost",
+        "CritChanceBoostSelf",
+        "CritDamageBoostSelf",
+        "SexSensitivity",
+        "AssSensitivity",
+        "BreastsSensitivity",
+        "MouthSensitivity",
+        "PainSensitivity"
+    ],
+    "EffectPower": [
+        "10",
+        "10",
+        "25",
+        "25",
+        "25",
+        "25",
+        "25",
+        "5",
+        "50",
+        "5",
+        "50",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "PlayerCanPurchase": "No"
+}

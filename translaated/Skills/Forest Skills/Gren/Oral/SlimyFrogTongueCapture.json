@@ -1,0 +1,57 @@
+{
+    "name": "Slimy Frog Tongue Capture",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "statusEffectScaling": "5",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Oral"
+    ],
+    "startsStance": "Blowjob",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Making Out",
+        "Blowjob",
+        "Thighjob"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "12",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Damage",
+    "statusChance": "30",
+    "statusDuration": "3",
+    "statusPotency": "-20",
+    "statusResistedBy": "Power",
+    "statusText": "Moco de rana",
+    "descrip": "Chupar la polla.",
+    "outcome": "¡La lengua de Gren sale de su boca, atrapando [ThePlayerName] por sorpresa!Con la precisión de Deadeye, aterriza y se adhiere a su polla, y su dueño es rápidamente seguir, sus labios reclamando a su miembro viril.",
+    "miss": "[AttackerName] trata de obtener la polla de [TargetName] en la boca viscosa [AttackerHisOrHer], ¡pero [TargetName] se aleja!",
+    "statusOutcome": "[ThePlayerName] jadea y se estremece cuando la mucos de Gren entra en efecto en su cuerpo, haciéndolo sentir calmado y pacífico.¡Tu ataque ha sido bajado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

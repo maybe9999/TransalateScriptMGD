@@ -1,0 +1,54 @@
+{
+    "name": "Luminous Bonds",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "300",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "statusEffectScaling": "25",
+    "requiredStat": "7",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Restrain",
+    "statusChance": "80",
+    "statusDuration": "0",
+    "statusPotency": "20",
+    "statusResistedBy": "Technique",
+    "statusText": "bound",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] Los cantos bajo [AttackerHisOrHer] respirando como [AttackerHeOrShe] aprovecha el fondo del personal [AttackerHisOrHer] en el suelo, y la energía dorada aparece repentinamente alrededor de las muñecas y los tobillos de [TargetName], restringiendo [TargetHimOrHer]!",
+    "statusMiss": "[AttackerName] chants under [AttackerHisOrHer] breath as [AttackerHeOrShe] taps the bottom of [AttackerHisOrHer] staff on the ground and... Nothing happens? [AttackerName] taps [AttackerHisOrHer]  staff a few more times in frustration, but [AttackerHeOrShe] seems to give up after a few more uneventful moments.",
+    "restraintStruggle": "[TargetName] struggles against the golden bindings...",
+    "restraintStruggleCharmed": "[TargetName] squirms against the golden bindings...",
+    "restraintEscaped": "And breaks free, shattering the restraints into tiny motes of light!",
+    "restraintEscapedFail": "But can't break free of the shining restraints!"
+}

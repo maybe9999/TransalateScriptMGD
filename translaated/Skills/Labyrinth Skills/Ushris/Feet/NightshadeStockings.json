@@ -1,0 +1,53 @@
+{
+    "name": "Nightshade Stockings",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Feet"
+    ],
+    "startsStance": "",
+    "requiresStance": "Footjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Paralysis",
+    "statusChance": "60",
+    "statusDuration": "99",
+    "statusPotency": "1",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Ushris levanta sus dos delicados pies de almacenamiento y los presiona en su desventurada cara, inundando sus sentidos con su fragancia cremosa de caramelo mientras masajea cariñosamente su cara, burlándose de la nariz con sus dedos ágiles, asegurando que todo lo que pueda respirar es su mente.Fundando el aroma, conocer la boca abierta con una suela pecaminosamente suave, convenciéndolo de lamerlo instintivamente, enviando un hormigueo intoxicante a través de todo su cuerpo.",
+    "miss": "Ushris levanta sus dos delicados pies de almacenamiento y los presiona en su desventurada cara, inunda sus sentidos con su fragancia cremosa de caramelo mientras ella masajea cariñosamente su cara, pero [TargetName] se molesta [TargetHisOrHer] dientes e ignora el placer.",
+    "statusOutcome": "El cuerpo de [TargetName] se siente cada vez más entumecido e insensible, ya que el aroma perfumado de la mujer del Hellhound y el sabor empalagoso se detienen [TargetHisOrHer] con necesidad primitiva y cachonda ...",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

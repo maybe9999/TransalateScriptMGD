@@ -1,0 +1,23 @@
+{
+    "name": "Heroic Touch",
+    "description": "¡El poder de un héroe resuena en tu toque!¡Cada vez que usa una habilidad de juego anterior, pierde la excitación igual al 5% de su excitación máxima!También aumente la excitación de la base tratada por todas sus habilidades de juego previo en 5.",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Seductive Touch"
+    ],
+    "StatReq": [
+        "Power"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "ForeplayArousalRegen",
+        "ForeplayFlatDamage"
+    ],
+    "EffectPower": [
+        "5",
+        "5"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

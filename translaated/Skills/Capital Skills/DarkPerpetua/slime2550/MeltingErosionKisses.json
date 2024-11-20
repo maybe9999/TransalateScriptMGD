@@ -1,0 +1,62 @@
+{
+    "name": "Melting Erosion Kisses",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "20",
+    "requiredStat": "6",
+    "skillTags": [
+        "Seduction",
+        "Magic",
+        "Unholy"
+    ],
+    "fetishTags": [
+        "Kissing"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "None",
+        "Making Out",
+        "Sex",
+        "Anal",
+        "Slimed 75%",
+        "Slimed 100%"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "10",
+    "minRange": "90",
+    "maxRange": "110",
+    "critChance": "5",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Defence",
+    "statusChance": "60",
+    "statusDuration": "11",
+    "statusPotency": "-5",
+    "statusResistedBy": "Willpower",
+    "statusText": "Beso de erosión",
+    "descrip": "",
+    "outcome": "El trío de las voluptuosas mujeres de limo se inclina y bañan todo el cuerpo con besos, vorazmente besos a lo largo de los muslos, el pecho y la cara, cada uno de los herméticos dejando atrás un hormigueo de sus suaves labios, engañosamente dulce magia que se derrite a través de su cuerpo con ondas unidasque deja que tu polla palpite necesariamente.",
+    "miss": "El trío de mujeres de limo voluptuosas se inclina y ducha todo el cuerpo con besos, vorazmente besos a lo largo de los muslos, el pecho y la cara, ¡pero logras soportar la cascada de suaves besos!",
+    "statusOutcome": "Los besos cautivadores se derriten en tus sentidos como la dulce miel lujosa mientras se erosionan tu racionalidad con una creciente necesidad de placer ...",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

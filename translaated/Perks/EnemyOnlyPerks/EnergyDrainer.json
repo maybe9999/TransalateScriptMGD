@@ -1,0 +1,21 @@
+{
+    "name": "Energy Drainer",
+    "description": "Drume la energía de un oponente cuando tienen un orgasmo.Requiere sexo, anal, mamada o postura de titfuck.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "SemenEnergyDrain"
+    ],
+    "EffectPower": [
+        "10"
+    ],
+    "PlayerCanPurchase": "No"
+}

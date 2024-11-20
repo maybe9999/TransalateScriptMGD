@@ -1,0 +1,62 @@
+{
+    "name": "Obscene Ripple Wave Enchantment",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "5",
+    "skillTags": [
+        "Magic",
+        "Unholy"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "None",
+        "Sex",
+        "Anal",
+        "Slimed 25%",
+        "Slimed 100%"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Penetration",
+        "Titfuck",
+        "Blowjob",
+        "Thighjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "0",
+    "accuracy": "100",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "100",
+    "statusDuration": "11",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Lanza un encanto a tu oponente.",
+    "outcome": "Mientras estás sumergido en su verdadero mar de Goo, los perpetuas dejaron escapar una risa perversamente juguetona mientras envían pulsos reverberantes de magia oscura en cascada en su cuerpo amorfo, las ondas ondulantes temblando a través de tus sentidos como cada parte de tu cuerpo en contacto conEl limo pecaminoso está inundado de un placer jerio.Allí y dejarte hundirse en la depravación.",
+    "miss": "Mientras estás sumergido en su verdadero mar de Goo, los perpetuas dejaron escapar una risa perversamente juguetona mientras envían pulsos reverberantes de magia oscura en cascada en su cuerpo amorfo, ¡pero de alguna manera te las arreglas para resistir el hechizo pecaminoso!",
+    "statusOutcome": "Las caricias pegajosas mágicamente cargadas lo lavan una y otra vez en un bucle pulsante ondulante hasta que no puede evitar que una sonrisa de placer se conformara con su cara sin seres enchufados ...",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

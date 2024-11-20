@@ -1,0 +1,162 @@
+{
+    "name": "CharmShooter",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ceris",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "SpawnHeartRight",
+            "theScene": [
+                "SpawnGridNPC",
+                "CharmChaserRight",
+                "Here"
+            ]
+        },
+        {
+            "NameOfScene": "PrimeRight",
+            "theScene": [
+                "SpawnGridNPC",
+                "CharmShooterRightOverlayPrimed",
+                "Here"
+            ]
+        },
+        {
+            "NameOfScene": "UnPrimeRight",
+            "theScene": [
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "SpawnHeartLeft",
+            "theScene": [
+                "SpawnGridNPC",
+                "CharmChaserLeft",
+                "Here"
+            ]
+        },
+        {
+            "NameOfScene": "PrimeLeft",
+            "theScene": [
+                "SpawnGridNPC",
+                "CharmShooterLeftOverlayPrimed",
+                "Here"
+            ]
+        },
+        {
+            "NameOfScene": "UnPrimeLeft",
+            "theScene": [
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "SpawnHeartUp",
+            "theScene": [
+                "SpawnGridNPC",
+                "CharmChaserUp",
+                "Here"
+            ]
+        },
+        {
+            "NameOfScene": "PrimeUp",
+            "theScene": [
+                "SpawnGridNPC",
+                "CharmShooterUpOverlayPrimed",
+                "Here"
+            ]
+        },
+        {
+            "NameOfScene": "UnPrimeUp",
+            "theScene": [
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "SpawnHeartDown",
+            "theScene": [
+                "SpawnGridNPC",
+                "CharmChaserDown",
+                "Here"
+            ]
+        },
+        {
+            "NameOfScene": "PrimeDown",
+            "theScene": [
+                "SpawnGridNPC",
+                "CharmShooterDownOverlayPrimed",
+                "Here"
+            ]
+        },
+        {
+            "NameOfScene": "UnPrimeDown",
+            "theScene": [
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "SpawnDanceHeartUp",
+            "theScene": [
+                "SpawnGridNPC",
+                "DanceChaserUp",
+                "Here"
+            ]
+        },
+        {
+            "NameOfScene": "PrimeDanceUp",
+            "theScene": [
+                "SpawnGridNPC",
+                "DanceShooterUpOverlayPrimed",
+                "Here"
+            ]
+        },
+        {
+            "NameOfScene": "UnPrimeDanceUp",
+            "theScene": [
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "SpawnDanceHeartDown",
+            "theScene": [
+                "SpawnGridNPC",
+                "DanceChaserDown",
+                "Here"
+            ]
+        },
+        {
+            "NameOfScene": "PrimeDanceDown",
+            "theScene": [
+                "SpawnGridNPC",
+                "DanceShooterDownOverlayPrimed",
+                "Here"
+            ]
+        },
+        {
+            "NameOfScene": "UnPrimeDanceDown",
+            "theScene": [
+                "RemoveGridNPC",
+                "Current"
+            ]
+        },
+        {
+            "NameOfScene": "EventBreak",
+            "theScene": [
+                "Evento Broko"
+            ]
+        }
+    ]
+}

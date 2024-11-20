@@ -1,0 +1,29 @@
+{
+    "name": "Honeymoon Blessing",
+    "description": "Has sido bendecido por la diosa durante una semana, aumentando tu virilidad en un 50%, aumenta la excitación que aborda las habilidades de penetración en un 5%, pero tendrás dificultades para no pensar en el sexo, ganando 2 niveles de fetiche sexual.La bendición está destinada a lunas de miel después de todo.| Perkduration |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "VirilityBoost",
+        "PenetrationBoost",
+        "IncreaseFetish",
+        "TimeDuration",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "50",
+        "5",
+        "Sex|/|20",
+        "42",
+        "Your Honeymoon Blessing has ended."
+    ],
+    "PlayerCanPurchase": "No"
+}

@@ -1,0 +1,74 @@
+{
+    "name": "PlayerEndOfTurn",
+    "CardType": "EndOfTurn",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "requiresEvent": [
+        {
+            "NameOfEvent": "",
+            "Progress": "-99",
+            "ChoiceNumber": "-1",
+            "Choice": ""
+        }
+    ],
+    "Speakers": [
+        {
+            "name": "character",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "CallNextSceneJumpThenReturn",
+                "GetEventAndIfChoice",
+                "PlayerCombatEvents",
+                "1",
+                "",
+                "SetPoundCountTo0",
+                "GetEventAndSetChoice",
+                "PlayerCombatEvents",
+                "1",
+                "",
+                "VirilityEqualsOrGreater",
+                "200",
+                "BlueBallsStepCheck",
+                "JumpToScene",
+                "EndCheck"
+            ]
+        },
+        {
+            "NameOfScene": "SetPoundCountTo0",
+            "theScene": [
+                "GetEventAndSetProgress",
+                "PlayerCombatEvents",
+                "0"
+            ]
+        },
+        {
+            "NameOfScene": "BlueBallsStepCheck",
+            "theScene": [
+                "CallEventAndSceneThenReturn",
+                "TimePassed",
+                "BlueBallsStep",
+                "JumpToScene",
+                "EndCheck"
+            ]
+        },
+        {
+            "NameOfScene": "EndCheck",
+            "theScene": []
+        },
+        {
+            "NameOfScene": "EventBroke",
+            "theScene": [
+                "Aaaaa se rompió"
+            ]
+        }
+    ]
+}

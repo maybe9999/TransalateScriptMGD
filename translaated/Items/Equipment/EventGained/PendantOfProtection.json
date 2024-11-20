@@ -1,0 +1,48 @@
+{
+    "name": "Pendant Of Protection",
+    "itemType": "Accessory",
+    "cost": "2500",
+    "descrip": "Un colgante de plata con incrustado con un bendito diamante.Reduce todas las ganancias de excitación en un 10% y aumenta todas las resistencias de estado en un 10%.",
+    "requires": [
+        ""
+    ],
+    "perks": [
+        "Blessed Protection"
+    ],
+    "hp": "0",
+    "ep": "0",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "0",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "10",
+        "Charm": "10",
+        "Aphrodisiac": "10",
+        "Restraints": "10",
+        "Sleep": "10",
+        "Trance": "10",
+        "Paralysis": "10",
+        "Debuff": "10"
+    },
+    "useOutcome": "",
+    "useMiss": ""
+}

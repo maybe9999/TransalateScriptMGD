@@ -1,0 +1,59 @@
+{
+    "name": "Wild Mating Pounce",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Sex"
+    ],
+    "startsStance": "Sex",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Blowjob",
+        "Penetration",
+        "Face Sit",
+        "Titfuck",
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Penetration",
+        "Tailjob",
+        "Footjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "¡Mierda!Simplemente no te dejes llevar.",
+    "outcome": "[AttackerName] se agacha antes de saltar hacia adelante con una velocidad increíble, saltando directamente a [TargetName]!Mientras [TargetHeOrShe] se tambalea pero logra mantenerse en posición vertical, [AttackerName] envuelve rápidamente las piernas [AttackerHisOrHer] firmemente alrededor de la cintura [TargetName], [AttackerName] brazos fuertemente alrededor de [TargetHisOrHer] Back, y logran empujar [TargetHisOrHer] el gallo dentro [AttackerHisOrHer] Pussy poderosamente apretado.",
+    "miss": "[AttackerName] se agacha antes de saltar hacia adelante con una velocidad increíble, pero [TargetName] logra evitar estrechamente [AttackerHisOrHer] lavazos repentinos, lo que hace que [atacante) tropiece como [AttackerHisOrHer] gira para enfrentar [AttackerHeOrShe] con un gruñido molesto.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

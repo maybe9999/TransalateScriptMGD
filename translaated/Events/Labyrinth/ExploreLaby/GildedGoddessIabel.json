@@ -1,0 +1,46 @@
+{
+    "name": "Gilded Goddess Iabel",
+    "CardType": "Event",
+    "CardLimit": "5",
+    "Description": "Iabel is hounding you through the labyrinthine pathways, set on coiling around you and mesmerizing you into her eager servant and acolyte.\n\n{i}There’s a small note on the page mentioning that unlike the regular Labyrinth challenge, the hellhounds won't get stronger in the course of your exploration, since their lustful inner flames have time to abate from one encounter to the next.{/i}",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Iabel",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Fight",
+            "theScene": [
+                "DisplayCharacters",
+                "1",
+                "EndLoop",
+                "GetEventAndSetProgress",
+                "IabelPower",
+                "0",
+                "GetEventAndSetChoice",
+                "IabelCombatEvents",
+                "8",
+                "",
+                "ChangeImageLayer",
+                "Expression",
+                "Iabel",
+                "LipLick",
+                "A medida que avanza por los oscuros pasillos del laberinto, escuchas un ronroneo silbante detrás de ti mientras un imponente muro de llamas moradas bloquea de repente el camino del que te espera.Girando, te encuentras cara a cara con Iabel, que lame con avidez sus labios lujosos mientras sus serpientes de cabello miran atentamente.",
+                "Speaks",
+                "Ahí estás, humano.Listo para adorarme? ♥",
+                "CombatEncounter",
+                "RunningWontSkipEvent",
+                "NoRunning",
+                "Iabel",
+                "StartCombat",
+                "Con el regal serpentine Hellhound tratado, las llamas parpadean y desaparecen, dejándote libre para continuar ..."
+            ]
+        }
+    ]
+}

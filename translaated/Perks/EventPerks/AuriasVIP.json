@@ -1,0 +1,27 @@
+{
+    "name": "Auria's VIP",
+    "description": "Una cresta dorada en tu cuello muestra tu compañía con el empapado emprendedor Auria, y mejora tus habilidades para buscar tesoros.{i} badatata! {/i} aumenta su suerte en 7 y las tasas de caída de artículos en un 20%.Sin embargo, el 10% de los EROS que saqueos se canalizan a Auria para mantener su vínculo ... y fuera de su propio disfrute de que su dinero se agote.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "ErosBoost",
+        "ItemDropChance",
+        "TreasureFindChance",
+        "Luck"
+    ],
+    "EffectPower": [
+        "-10",
+        "20",
+        "20",
+        "7"
+    ],
+    "PlayerCanPurchase": "No"
+}

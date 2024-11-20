@@ -1,0 +1,53 @@
+{
+    "name": "Box of Assorted Deluxe Chocolates",
+    "itemType": "Consumable",
+    "tags": [
+        "Healing"
+    ],
+    "cost": "500",
+    "requires": [
+        ""
+    ],
+    "perks": [
+        ""
+    ],
+    "skills": [
+        "UseableItem"
+    ],
+    "hp": "0",
+    "ep": "100",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "0",
+    "statusEffect": "Sleep",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "descrip": "Una caja de chocolates de lujo que, cuando se consume, restaura la energía [ItemEnergy], y limpia el efecto del estado del sueño con su bondad azucarada.Aunque probablemente no deberías comerlos todos a la vez así ...",
+    "useOutcome": "[AttackerName] consume una caja completa de chocolates de alta calidad!¡La dulzura empalagosa le da al instante [AttackerHimOrHer] un azúcar!",
+    "useMiss": ""
+}

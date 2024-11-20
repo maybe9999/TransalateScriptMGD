@@ -1,0 +1,58 @@
+{
+    "name": "Suckle",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "skillTags": [
+        "Breasts",
+        "RestrainUsable"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Breast Smother",
+        "Footjob",
+        "Making Out",
+        "Face Sit"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Blowjob",
+        "Titfuck"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Lame y chupa los pezones de tu objetivo.",
+    "outcome": "[AttackerName] apesta intensamente uno de los pezones de [TargetName], haciendo que [TargetHimOrHer] gimiera suavemente como una carne sensible [AttackerName] [AttackerName].",
+    "miss": "[AttackerName] apesta atentamente uno de los pezones de [TargetName], pero [TargetHeOrShe] logra ignorar la estimulación.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,1056 @@
+{
+    "name": "Harpy",
+    "IDname": "Harpy",
+    "species": "Avian",
+    "gender": "female",
+    "description": "Una mujer joven delgada con orejas cortas y puntiagudas y cabello castaño corto azotado.Sus alegres ojos verdes y su sonrisa alegre enmarcan su linda cara, mostrando una cantidad abundante de energía burbujeante en su cuerpo delgado.En lugar de brazos y manos, tiene dos alas grandes cubiertas de un gran plumaje marrón esponjoso.Sus pechos de la taza B están cubiertos con un bucle de tela de seda azul, lo que hace que su pecho rebote deliciosamente con cada aleta de sus alas.Un pequeño aparato de plumas de cola brota desde justo por encima de su firme trasera.Un simple tapón de seda azul apenas cubre su coño, la tela firmemente envuelta alrededor de sus alas caderas de aspecto.Comenzando desde sus caderas bajando, sus muslos están cubiertos con más de su suave plumaje marrón, terminando poco antes de alcanzar sus garras en forma de pájaro donde normalmente estarían sus pies y tobillos.",
+    "encyclopedia": "A race of bird women who tend to inhabit locations with vast amounts of open air, like forests and mountains. Many are friendly, cheerful, and carefree, often trying to simply enjoy life rather than try to actively seek conflict.\n\nTheir bodies are much lighter than they appear, due to a combination of natural magic and a hollow bone structure, allowing for flight. Due to their inherent magical nature, they are fairly resistant to outside magical sources, though many still believe the misconception that harpies are too air headed to be affected by magic, despite many studies done showing the contrary.\n\nHarpies will often form complex societies due in part to necessity, as their lack of hands often inhibits their ability to perform what humans can do easily, often forcing them to rely on outside sources for commodities such as clothing, but also due in part for an intense inherent desire to socialize and be around other individuals, be they harpies, other monsters, or humans.\n\nHarpies, due to their need for socialization, will often share anything and everything they have, including food, clothing, and even mates, and it isn't uncommon to have harems form around males taken back to their nests. Due to their extreme sociability and cheerful nature, harpies often live in harmony with other species of monsters and humans, frequently establishing trade routes with other settlements around them and often acting as intermediaries between hostile factions.\n\nCare should be taken when dealing with them, however, as they are notorious thieves due to their impulsive nature and lack of understanding of personal belongings from to their social structure, which can manifest in either small belongings going missing to (rarely) attractive males being carried away as mates. Caution should always be a priority when dealing with them!",
+    "tags": "none",
+    "generic": "True",
+    "requires": [
+        "Temple Checkpoint Gem"
+    ],
+    "skillList": [
+        "Kiss",
+        "Feather Tease",
+        "Dive Bomb",
+        "Feather Job",
+        "Feather Job",
+        "Face Grind",
+        "Harpy Double Trouble",
+        "Harpy Double Team",
+        "Harpy Insert",
+        "Grind",
+        "Energetic Bounce"
+    ],
+    "perks": [
+        "Swift"
+    ],
+    "stats": {
+        "lvl": "9",
+        "Exp": "50",
+        "max_hp": "200",
+        "max_ep": "50",
+        "max_sp": "1",
+        "Power": "5",
+        "Technique": "14",
+        "Intelligence": "3",
+        "Allure": "7",
+        "Willpower": "3",
+        "Luck": "8"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "100",
+        "Ass": "100",
+        "Breasts": "200",
+        "Mouth": "100",
+        "Seduction": "100",
+        "Magic": "50",
+        "Pain": "50",
+        "Holy": "50",
+        "Unholy": "50"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "25",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "moneyDropped": "200",
+    "ItemDropList": [
+        {
+            "name": "Harpy Feather",
+            "dropChance": "75"
+        },
+        {
+            "name": "Harpy Feather",
+            "dropChance": "50"
+        },
+        {
+            "name": "Harpy Egg",
+            "dropChance": "25"
+        },
+        {
+            "name": "Soothing Potion",
+            "dropChance": "25"
+        },
+        {
+            "name": "Anti-Magic Rune",
+            "dropChance": "10"
+        },
+        {
+            "name": "Wind Rune",
+            "dropChance": "10"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "One Harpy Scene",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Harpy"
+            ],
+            "theScene": [
+                "Unable to fight back anymore, you lay back, gasping for air.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks",
+                "I did it!♪ Uhm... But I don't think I can carry you home by myself... I'd probably drop you...",
+                "You give her a nervous look and she smiles bashfully.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Embarrassed",
+                "Speaks",
+                "Don't worry! Don't worry! I won't try it! We can just mate here for now!♪",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Before you can react, she wraps her soft wings around you and pulls you into a deep kiss.",
+                "At the same time, she positions her slender hips above your rigid manhood before spearing herself on it and starting to slowly ride its length.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Excited Blush",
+                "She continues to energetically kiss you while her brilliant green eyes stare lovingly into yours for a short while longer before breaking the kiss and letting out a happy sigh as her hips continue their slow, delightful movements.",
+                "Speaks",
+                "Your cock is hitting me so deeply.♥ It's like we were meant for each other.♥",
+                "As if to punctuate her statement, she slowly lifts her hips before slamming them back down, shuddering in delight as your manhood hits her cervix.",
+                "She cuddles closer to you as she begins to speed up the pace of her hips, fucking your shaft with every ounce of her energy.",
+                "Clinging so close to you, her gasps and moans entice you to stop trying to resist any longer and to just enjoy her body, making your cock throb and twitch with her every movement.",
+                "As she tightens her hold on you with a cute moan, her affections finally get to you, and you can't help but instinctively wrap your arms around her.",
+                "A loving gasp escapes her mouth as you embrace her, and she suddenly kisses you deeply, her eyes filled with love.",
+                "She redoubles her efforts to fuck your shaft senseless, and soon the stimulation is too much as your balls tighten and your cock shoots load after load into her.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewd",
+                "PlayerOrgasm",
+                "1",
+                "As your cum enters her womb, she desperately clings to you as her body shakes in pleasure, barely managing to maintain the kiss as she gently moans into your mouth.",
+                "She finally breaks the kiss as you both come down from your respective orgasms and rests her head in the crook of your neck as she recovers, letting her erotic gasps go straight into your ear.",
+                "Speaks",
+                "That was incredible...♥",
+                "Her pussy tightens around your shaft, keeping it hard and ready.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Excited Blush",
+                "Speaks",
+                "Ah! You're still hard!♥ Well I can't leave it like that, now can I?♪",
+                "Before you can respond, she pulls you into another deep kiss and resumes fucking your shaft with energetic fervor.",
+                "Your body does its best to thrust back in time with her movements, but your shaft is still oversensitive from its last orgasm, quickly leaving you spasming and twitching in pleasure underneath her.",
+                "PlayerOrgasm",
+                "1",
+                "It doesn't take long for your cock to be overwhelmed with pleasure and spray the harpy's pussy full of more semen.",
+                "Without breaking the deep, romantic kiss she has you in, the harpy continues to wiggle her hips and, upon feeling your erection still going strong, continues to fuck you without rest.",
+                "PlayerOrgasm",
+                "1",
+                "Determined to satisfy you, she relentlessly bounces her hips, not even stopping when you cum, leaving you twitching and moaning into her mouth.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewd",
+                "She has her own fair share of orgasms while mating with you, and she eventually breaks the long kiss as both of your breathing becomes labored from the exhaustion and pleasure racing through the both of you.",
+                "Speaks",
+                "W-Why won't it go d-down? I-I can't keep going like this...",
+                "You can only gasp in pleasure, hardly able to think straight after what she put you through.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Clueless",
+                "The harpy stares off in a tired daze for a moment before something finally clicks and her face flushes in bashful embarrassment.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Embarrassed",
+                "Speaks",
+                "Oh... Oh yeah... Ehehe...",
+                "She slowly frees your exhausted shaft from her pussy, and your erection finally subsides.",
+                "Speaks",
+                "I uh, forgot that my pussy does that... Ehehe...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "She smiles at you apologetically as you exhaustedly glare at her for a moment.",
+                "Trying to make it up to you, she gently nuzzles against you and lovingly wraps her wings around you.",
+                "Speaks",
+                "Here, we can both rest for a while.♪",
+                "Her warm embrace is too much for your overused and pleasurably sore body to deny, so you cuddle with the harpy until you both fall asleep...",
+                "ChangeSensitivity",
+                "Sex",
+                "3",
+                "ChangeSensitivity",
+                "Mouth",
+                "3"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Two Harpies",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Harpy",
+                "Harpy"
+            ],
+            "theScene": [
+                "You lay twitching on the ground, unable to fight back anymore...",
+                "The harpies look proudly at one another over their victory.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Excited Blush",
+                "Speaks",
+                "Let's take him somewhere more comfortable!♪",
+                "They quickly grab you with their talons and take off into the air.",
+                "You can't help but nervously stare down at the ground as you ascend.",
+                "ClearMonsterEncounter",
+                "JumpToLossEvent",
+                "HarpyHaremLoss"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "HitWith",
+            "move": "Spank",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|La arpía deja escapar sonidos de pájaros en pánico.",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|¿Kya!?¡Ey!¡No estaba tratando de hacer nada malo!",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'¡Ey!¡Corta eso!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Whip",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|¿Eh-ehhhh?¡No soy un mal monstruo!",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|¡Oh, eso es genial!¿Eres un poco de demonios Hunt-kya!",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'Eeek, uh, ah.D-do tenemos una palabra segura?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Demon Layer",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|¿Eh-ehhhh?¡No soy un mal monstruo!",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|¡Oh, eso es genial!¿Eres un poco de demonios Hunt-kya!",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|¡Oh, eso es genial!¿Eres un poco de demonios Hunt-kya!",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'Eeek, uh, ah.D-do tenemos una palabra segura?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Holy Headpat",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Clueless|n|'...?'La arpía parece confundida por sus acciones, pero no infeliz.",
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|'¡Oh, oye!¡Esto es un poco agradable!Quieres aparecer ahora, ¿verdad?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Bondage Net",
+                "Magical Binding"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|La arpía deja escapar sonidos de pájaros en pánico.",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'¡TH-esto es raro!¡No puedo mover mis alas!",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|La arpía deja escapar un graznido en pánico."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pin",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|La arpía deja escapar un graznido sorprendido.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|La arpía te mira a los ojos mientras su rostro se vuelve rojo brillante.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Uhm ... ah ... ¿ser gentil?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Lewd Bottle",
+                "Cloying Mist",
+                "Placebo Pheromone"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'W-wow ... mi cuerpo se siente tan caliente ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'H-hey, ¡apresurémonos y compañeros! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Clueless|n|'Siento que estoy volando ... ♥ espera ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Arouse",
+                "Arousara",
+                "Arousero"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Clueless|n|La arpía escasa con placer ligeramente por tu magia, pero en general parece confundido.",
+                "|f|ChangeImageLayer|/|Expression|/|Clueless|n|'Uh ... ¿sucedió algo?",
+                "|f|ChangeImageLayer|/|Expression|/|Clueless|n|¿Hubo una brisa realmente agradable de repente?",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¿Era eso magia? ♪'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Electrify",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'¡Ahhhh!W-¿Por qué harías algo tan aterrador?",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|¡EEE!Debería volar ... B pero no puedo rendirme tan fácilmente!",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|La arpía deja escapar un grito de dolor."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Soy lindo, ¿verdad? ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Te gusto! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|Mientras rompes el beso, la arpía mira al suelo tímidamente."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Make Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Oh, Dios mío, esto es romántico! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Bésame mucho. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|La arpía se sonroja profundamente mientras la besas profundamente."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Deep Kiss",
+                "Lovingly Rough Kiss",
+                "Skillfully Passionate Kiss",
+                "Misty Kiss",
+                "Sensually Seductive Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Mmmm. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Siento que voy a volar ... ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Esto es tan romántico ... ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Realmente debes gustarte ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Penetrate",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Mmmh?",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Asegúrese de no retirarse. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Sabía que te gustaba! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Ahhh! ♥ me estás llenando por completo! ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ahhh, ♥ ¡Esto es increíble! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Mmmm, ♥ ¡Creo que me estoy enamorando de ti! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ja ja, ♥ puedes follarme más duro si quieres. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|Asegúrate de correrse por dentro, ¿de acuerdo?",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ahhh ♥ mmmmm ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Mmmmm.♪'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'MMM!♥ Yes!♥ More!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡No puedo pensar! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Ahhhh!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'S-So good!♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Mmmm, ♥ ¡Creo que me estoy enamorando de ti! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ja ja, ♥ puedes follarme más duro si quieres. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|Asegúrate de correrse por dentro, ¿de acuerdo?",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Mmmmm.♪'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Some of the other girls talked about this... It feels weird... But in a good way.♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Ahhh ... eso no es para aparearse ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|¿Estoy realmente bien hacerlo así?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ahhh, ♥ ¡Esto es increíble! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ja ja, ♥ puedes follarme más duro si quieres. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Ahhh♥ Mmmmm♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Mmmmm. ♪'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck",
+                "Anal Piston"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Mmm! ♥ sí! ♥ más! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡No puedo pensar! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Ahhhh!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'S-tan bueno! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Mmmm, ♥ ¡Creo que me estoy enamorando de ti! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ja ja, ♥ puedes follarme más duro si quieres. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|Asegúrate de correrse por dentro, ¿de acuerdo?",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Mmmmm.♪'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Breast Caress",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Ah!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Uhm ... S-Sorry no son muy grandes ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Mmmm! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'D-no te molestó! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Esto se siente realmente bien. ♪'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Breast Knead",
+                "Breast Massage",
+                "Breast Fondle"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ohh ... ♥ t-¡se siente súper bien! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Mmmm!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|¿Ha hecho algo?¡O-oh, claro, dejándote jugar con mis pechos! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¿Es esto realmente solo un juego previo? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Suckle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡Eeek! ♥ ¡Ah!D-don-no parar! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|Ella envuelve suavemente sus suaves alas alrededor de tu cabeza.",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Estoy tan feliz de que te gusten mis senos! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'T-toase más! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pinch Nipples",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|'EEEP!'",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'¡C de CAREFULE!¡Mis senos son sensibles!",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Mmmm!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'D-no te molestó! ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Grope Ass",
+                "Squeeze Ass",
+                "Massage Ass",
+                "Fondle Ass"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|Ella mueve su trasero en tu mano.",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Esto me está emocionando mucho. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|Ella tararea con satisfacción mientras la tientas."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Finger",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ya estoy mojado ... ¡Entonces mate! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Mmmm!♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Dildo",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Mmmm!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|Lo preferiría si usabas tu polla.Pero esto es un poco agradable ... '",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Debería obtener uno de estos ... ¡práctica!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Seduce",
+                "Enamor",
+                "Smoldering Seduction",
+                "Smoldering Flaunt",
+                "Massaging Seduction",
+                "Mass Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|¿Eh?!Uhm ... ah ... '",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|La mujer de pájaros mira con toque al suelo.",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'R-Really?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Ear Tease",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|¿Eh?Ah ... ♥ ohhh ... ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|¡Jejeje!Se hace cosquillas.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|Ella parece espaciar un poco ..."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pussy Worship",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¿Mi aroma te está abrumando?'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Hmmm ... probablemente deberíamos follar pronto'.",
+                "|f|ChangeImageLayer|/|Expression|/|Clueless|n|'Ahhh ... ♥ ¿Qué se suponía que debía hacer después de derribarte de nuevo ...?",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Whoa ... esto se siente genial ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Sleep",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|\"Vaya ... estoy ... realmente cansado ... debería aterrizar para no caerme del acantilado\".Ella bosteza.'De nuevo...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Charm",
+                "Charm Wave"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Veamos, ahora mismo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Oh, creo que estoy enamorado! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Mi corazón está corriendo ... ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Enfeeble",
+                "Sensitize"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Clueless|n|¿Me siento un poco mareado?",
+                "|f|ChangeImageLayer|/|Expression|/|Clueless|n|'Me siento raro ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|¿Era eso magia?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Disarming Appeal"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Podemos tomarlo con calma si quieres. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Oh, más suave?Puedo hacer eso."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|'Oye, ¿quieres divertirte un poco? ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Eres realmente guapo. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|'¡Esto va a ser genial! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Creo que podrías ser un guardián."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Feather Tease",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|'Ehehe♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Una vez que hayamos terminado, te acurrucaré sin sentido. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿No son las plumas las mejores? ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Puedo hacerte sentir realmente bien si no te defienden. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Vamos! ♪ Quiero oírte gemir. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Dive Bomb",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|'WEEEEEE!♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|'Ahhhh, ¡no puedo esperar más! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|'Hold State' Kay! ♪ '",
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|'¡Vas a ser míos! ♪'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Feather Job",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Tu polla es tan dura ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'El consejo es el más sensible, ¿verdad?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Hands no puede hacer {i} this {/i}! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Oye, si te quedas conmigo, prometo hacer esto cuando quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Casi no puedo esperar a que esto vaya en mí. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Face Grind",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¿Mi aroma te está abrumando?'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Apuesto a que quieres aparecer conmigo ahora! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Esto se siente bien. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Clueless|n|'Ahhh ... ♪ ¿Qué se suponía que debía hacer después de derribarte de nuevo ...?"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Harpy Double Trouble",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Ey!¡No quiero quedarme fuera!",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|¡Tengo su polla a continuación!",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Oye, nos casemos con él juntos! ♪"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Harpy Double Team",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Dibs en su polla! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Puedes tener su polla después! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Oye, nos casemos con él juntos! ♪'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Harpy Insert",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|'¡Ah! ♪ ¡Correcto, deberíamos follar!'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|'¡Voy a mostrarte cuánto quiero que seas mía! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|'¡Vamos a aparearse hasta que apenas podamos movernos! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|'¡Espero que estés listo! ♪'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Grind",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Ahhh! ♪ ¡Tu polla es tan grande! ♥ ¡Esto es increíble! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Siéntete libre de correrse cuando quieras! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ehehe, ♪ esto es lo mejor!'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Mmmmm.♪'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Energetic Bounce",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Oye, ¿puedes seguir el ritmo? ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Vamos! ♥ empuje! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Ahhhh! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Mmmmm. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ehehe. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Vamos a follar todo el día! ♥"
+            ]
+        },
+        {
+            "lineTrigger": "usesMoveA",
+            "move": "Grind",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Ahhh! ♪ ¡Tu polla es tan grande! ♥ ¡Esto es increíble! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Siéntete libre de correrse cuando quieras! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ehehe, ♪ esto es lo mejor!'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Mmmmm.♪'"
+            ]
+        },
+        {
+            "lineTrigger": "usesMoveA",
+            "move": "Energetic Bounce",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Oye, ¿puedes seguir el ritmo? ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Vamos! ♥ empuje! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Ahhhh! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Mmmmm. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ehehe. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡Vamos a follar todo el día! ♥"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Ahhh, ♪ No puedo tomar mucho más de esto ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Todo mi cuerpo está hormigueando. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|'Si esto sigue así, no podré volar directamente por un tiempo. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ehehe, ♪ tu polla se está sacudiendo como loca. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡No te detengas, corre tanto como quieras! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Oye, después de que te corras, ¿quieres volver a mi casa y casarte? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|A medida que el placer lo supera, la arpía continúa montando su eje con energía ilimitada incluso mientras llena su útero con su semilla gruesa.Ella deja escapar un sonido de alegría y rebota en tu virilidad aún más rápido, lo que obliga a algunas cargas más de tu semen.",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|A medida que la arpía continúa rebotando sus caderas sobre tu polla, acaricia suavemente tu pecho con sus suaves alas emplumadas.Tu cuerpo espasmos de la estimulación combinada a medida que tus caderas se reducen a las suyas, desatando un torrente de semen en su coño que espera mientras llora de alegría.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|La arpía muele sus caderas hacia ti, dejando a ambos gimiendo mientras tu eje agita su coño.Ella te mira, suplicando.'¡Por favor, corre! ♥ ¡Llena mi matriz! ♥ Pleasseeeee! ♥' Su mendicidad necesitada envía tus instintos primarios sobre el borde, anulando cualquier pequeña razón por la que te quedas mientras vierte la carga después de la carga en su apretado coño."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|A medida que el placer lo supera, la arpía continúa montando su eje con energía ilimitada incluso mientras llena su trasero con su gruesa semilla.Ella deja escapar un sonido de alegría y rebota en tu virilidad aún más rápido, lo que obliga a algunas cargas más de tu semen.",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|A medida que la arpía continúa rebotando sus caderas sobre tu polla, acaricia suavemente tu pecho con sus suaves alas emplumadas.Tu cuerpo espasmos de la estimulación combinada a medida que tus caderas se reducen a las suyas, desatando un torrente de semen en su culo que espera mientras llora de alegría.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|La arpía muele sus caderas hacia ti, dejando a ambos gimiendo mientras tu eje agita su apretado culo.Ella te mira, suplicando.'¡Por favor, corre! ♥ Pleasseeeee! ♥' Su mendicidad necesitada envía sus instintos primarios sobre el borde, anulando cualquier pequeña razón por la que le quedara mientras vierte la carga después de la carga en su apretada trasera."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Feather Job",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|La arpía se ríe mientras se burla cuidadosamente de su eje con sus plumas, su polla tan sobreestimulada que una sola pluma derrota desde la base de su virilidad hasta la punta lo envía al borde en un orgasmo que cae en cascada en todo su cuerpo.",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|La arpía se burla y acaricia su palmada con su suave plumaje, y mientras rastrea los círculos alrededor de la cabeza de su polla, no puedes tomar más mientras disparas cuerdas de semen sobre su ala emplumada.'¡Ah! ♥ ohhhh, ♪ ♪ ♪ ¡Las otras chicas estarán tan celosas! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Face Sit",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|A medida que la arpía continúa moliendo su coño en su cara, su aroma y la falta de aire lo afectan lentamente, intensificando las sensaciones de su cuerpo, y pronto su polla palpita y se contrae mientras brota su semen en un orgasmo electrizante."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Clueless|n|Incapaz de aguantar más, su eje estalla de placer, cubriendo una de las alas de la arpía en semen mientras deja escapar un ruido de chillido sorprendido.'... Ahhh ... ¿es difícil de limpiar de plumas?",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|Apenas capaz de resistir el placer corriendo por tu cuerpo, la arpía te empuja fácilmente a un beso profundo y romántico mientras atrapa tu eje entre sus muslos.Ella acaricia suavemente y se burla de ti con amor hasta esto hasta que el eje brota una carga gruesa."
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡Estoy cumminng! ♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡Ahhhhh! ♥ Yessss! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡No quiero que esto termine! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|¿Eh?¿Ehh?¿Te gusta tanto?Uhm, ah.¡Bueno!¡Haré lo mejor que pueda!",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¿R-realmente?¡Yay! ♪ ¡Te voy a mostrar cuánto te amo ahora mismo! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|¿Te gusto?¡Entonces comencemos a nuestra familia juntos de inmediato!",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|Vaya, realmente quieres hacer esto entonces, ¿no ...?Espero que no te importe si te comparto con algunos amigos más tarde. ♪"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Sex",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del coño apretado de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Sex",
+            "theText": [
+                "¡Pero [AttackerName] se niega a ser desalojado de su polla y continúa montando enérgicamente su eje!",
+                "Pero con una fuerza sorprendente, [AttackerName] golpea sus caderas de regreso a las tuyas antes de darle a sus caderas un pequeño movimiento encantador mientras se acomoda en su polla.",
+                "Pero mientras agarras sus caderas para sacarte, ella te hace cosquillas con sus alas emplumadas, haciéndote reír y agredirte con una sensación extraña pero encantadora.",
+                "Pero cuando empuja a la arpía, ella deja escapar algunos ruidos tristes que te hacen pausa, pero ella anima de nuevo a tus dudas y rápidamente lleva tu eje a su coño."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Sex",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Clueless|n|'¿Por qué querrías dejar de aparearse?",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|¿Eh?!Uhm, realmente me gustas, así que no me alejes, ¿de acuerdo?",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ehehe! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¡No tengas miedo de correrse por dentro! ♪'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Sex",
+            "theText": [
+                "¡Y elige sacar tu polla de su hendidura apretada!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|¿Ehhhh?!Y, ¿no quieres aparecer conmigo?",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|¿Ah?!Hmmm, ¿es esto lo que significan con jugar duro para conseguir?",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|Ella deja escapar algunos sonidos de chillido en pánico mientras la alejas.",
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|'Hmph ... bueno, no me voy a rendir todavía! ♪'",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Anal",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del culo apretado de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Anal",
+            "theText": [
+                "¡Pero [AttackerName] se niega a ser desalojado de su polla y continúa montando enérgicamente su eje!",
+                "Pero con una fuerza sorprendente, [AttackerName] golpea sus caderas de regreso a las tuyas antes de darle a sus caderas un pequeño movimiento encantador mientras se acomoda en su polla.",
+                "Pero mientras agarras sus caderas para sacarte, ella te hace cosquillas con sus alas emplumadas, haciéndote reír y agredirte con una sensación extraña pero encantadora.",
+                "Pero cuando empujas a la arpía, ella deja escapar algunos ruidos tristes que te dan una pausa, pero ella anima de nuevo a tus dudas y rápidamente lleva tu eje a su culo apretado."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|'¿Por qué querrías parar?'",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|¿Eh?!Uhm, realmente me gustas, así que no me alejes, ¿de acuerdo?",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ehehe! ♥"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Anal",
+            "theText": [
+                "¡Y logra sacar su polla de su apretada trasera!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|¿Ehhhh?!Pero tú fuiste quien lo puso allí ... '",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|¿Ah?!Hmmm, ¿es esto lo que significan con jugar duro para conseguir?",
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|Ella deja escapar algunos sonidos de chillido en pánico mientras la alejas.",
+                "|f|ChangeImageLayer|/|Expression|/|Excited|n|'Hmph ... bueno, no me voy a rendir todavía! ♪'",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Face Sit",
+            "theText": [
+                "[ThePlayerName] intenta empujar el coño húmedo de [AttackerName] de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Face Sit",
+            "theText": [
+                "¡Pero ella vuelve firmemente a las caderas sobre tu cara!",
+                "¡Pero ella se queda firmemente sentada en tu cara!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Face Sit",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'¿Mi aroma te está abrumando?'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Hmmm ... probablemente deberíamos follar pronto'.",
+                "|f|ChangeImageLayer|/|Expression|/|Clueless|n|'Ahhh ... ♪ ¿Qué se suponía que debía hacer después de derribarte de nuevo ...?"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Face Sit",
+            "theText": [
+                "¡Y logra empujar [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Face Sit",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Panic|n|Ella deja escapar algunos sonidos de chillido en pánico mientras la alejas.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Hmph ... bueno, no me voy a rendir todavía! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Embarrassed|n|¿Ah?!Oh ... estaba exagerando, ¿no?¡Lo siento! ♪ '"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Making Out",
+            "theText": [
+                "[ThePlayerName] intenta romper el beso profundo con [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Making Out",
+            "theText": [
+                "Pero ella mantiene un ajuste apretado [ThePlayerName] con sus alas plumosas, ¡y él permanece encerrado en un beso profundo!",
+                "Pero cuando comienzas a alejarla, envuelve sus alas alrededor de tu espalda, profundizando el beso mientras mira con amor en tus ojos."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Making Out",
+            "theText": [
+                "",
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Mmm, esto es bueno ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|'Ahhh ... ¡ya somos tan amorosos! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Entonces ... ¿vamos a tener relaciones sexuales pronto?'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Making Out",
+            "theText": [
+                "¡Y libera tu boca de los labios suaves de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|¿Eh?Pero primero me besaste ... '",
+                "|f|ChangeImageLayer|/|Expression|/|Excited Blush|n|¡Ah!¿Me vas a follar ahora? ♥ Eeeee!esto es tan romántico! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|Ella no parece darse cuenta de que la alejó, y continúa besándose con el aire por un momento antes de darse cuenta de lo que está sucediendo."
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Harpy/Harpy-Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Clueless",
+                    "File": "Monsters/Harpy/Harpy-Clueless.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Embarrassed",
+                    "File": "Monsters/Harpy/Harpy-Embarassed.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Excited",
+                    "File": "Monsters/Harpy/Harpy-Excited.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Excited Blush",
+                    "File": "Monsters/Harpy/Harpy-Excited 2.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Lewd",
+                    "File": "Monsters/Harpy/Harpy-Lewd.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Panic",
+                    "File": "Monsters/Harpy/Harpy-Panic.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}

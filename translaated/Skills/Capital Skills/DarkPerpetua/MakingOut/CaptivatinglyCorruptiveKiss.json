@@ -1,0 +1,57 @@
+{
+    "name": "Captivatingly Corruptive Kiss",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "25",
+    "requiredStat": "6",
+    "skillTags": [
+        "Seduction",
+        "Magic",
+        "Unholy"
+    ],
+    "fetishTags": [
+        "Kissing"
+    ],
+    "startsStance": "",
+    "requiresStance": "Making Out",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "10",
+    "minRange": "90",
+    "maxRange": "110",
+    "critChance": "20",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "75",
+    "statusDuration": "11",
+    "statusPotency": "-5",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Uno de los tres perpetuas presiona contra ti y envuelve sus brazos alrededor de los hombros mientras se frota las tetas contra tu pecho en medio de la apasionada sesión de besos, mirando a tus ojos posesivamente mientras su lengua enreda bruscamente la tuya.A los costados y susurra palabras de atracción dulces en tus oídos entre besos suaves que parecen sonar directamente en tu cerebro derretido.",
+    "miss": "Uno de los tres perpetuas presiona contra usted y envuelve sus brazos alrededor de los hombros mientras se frota sus tetas contra su pecho en medio de la apasionada sesión de besos, ¡pero logra soportar el íntimo de carrocería a cuerpo!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|DarkPerpetuaCombatEvent|/|CorruptiveKissCharm|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

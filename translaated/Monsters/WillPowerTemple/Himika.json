@@ -1,0 +1,1259 @@
+{
+    "name": "Himika",
+    "IDname": "Himika",
+    "species": "Demon",
+    "gender": "female",
+    "description": "Una mujer imponente con piel roja y ojos amarillos penetrantes.\n\nElla tiene colmillos de aspecto agudo que se vuelven muy notables cuando su boca está abierta, orejas puntiagudas, y un solo cuerno que se curva hacia arriba de su frente, en ángulo ligeramente hacia un lado que separa su largo y salvaje cabello blanco plateado en la parte delantera mientras no hace nadaPara evitar que fluya por su espalda.\n\nSu cuerpo es increíblemente musculoso por todas partes, desde sus impresionantes abdominales hasta sus brazos y piernas intimidantemente grandes, pero no hacer nada para reducir su obvia feminidad.\n\nSu cofre está firmemente obligado por múltiples vendajes, pero a pesar de su intento de encubrirlos, todavía son impresionantemente grandes, y estimas que probablemente estén alrededor de una copa G sin restricciones.\n\nSu trasero es firme y tonificado, al igual que sus brazos y piernas.Junto con varias vendas que se cubren su pecho, antebrazos, manos y parte inferior de las piernas, lleva un gran tapadero blanco que fluye sobre sus rodillas, atada alrededor de sus caderas con un arco de cuerda roja bastante impresionante y decorativo y una calabaza considerable atada a ella..",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        "Sigil Of Will-Power"
+    ],
+    "skillList": [
+        "Rough Handjob",
+        "Blazing Oni Overcharge",
+        "Oni Mating Press",
+        "Wild Oni Mating",
+        "Oni Spitroast Mating",
+        "Oni's Lovemaking",
+        "Oni Pelvis Breaker",
+        "Grasp Of The Oni",
+        "Tormenting Oni",
+        "Teasing Oni",
+        "Explosive Tackle",
+        "Paizuri Inferno",
+        "Volcanic Paizuri",
+        "Intoxicating Melons",
+        "Inebriating Melons"
+    ],
+    "perks": [
+        "Unbounded",
+        "Pacing",
+        "Bond Breaker",
+        "Unshackled",
+        "DelayedStunned",
+        "Aphrodisiac Tolerant",
+        "Enduring Body",
+        "Grappler",
+        "Sex Adept",
+        "Great Tits"
+    ],
+    "stats": {
+        "lvl": "25",
+        "Exp": "300",
+        "max_hp": "250",
+        "max_ep": "100",
+        "max_sp": "3",
+        "Power": "40",
+        "Technique": "5",
+        "Intelligence": "5",
+        "Allure": "20",
+        "Willpower": "10",
+        "Luck": "3"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "75",
+        "Ass": "150",
+        "Breasts": "100",
+        "Mouth": "100",
+        "Seduction": "150",
+        "Magic": "150",
+        "Pain": "50",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "75",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "10",
+        "Trance": "0",
+        "Paralysis": "0",
+        "Debuff": "20"
+    },
+    "moneyDropped": "800",
+    "ItemDropList": [
+        {
+            "name": "Elixir",
+            "dropChance": "10"
+        },
+        {
+            "name": "Demon's Loincloth",
+            "dropChance": "15"
+        },
+        {
+            "name": "Oni Sake",
+            "dropChance": "75"
+        },
+        {
+            "name": "Twin Oni Rune",
+            "dropChance": "20"
+        },
+        {
+            "name": "Enlightenment Rune",
+            "dropChance": "5"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "Double Fight Loss.",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Himika",
+                "Mizuko"
+            ],
+            "theScene": [
+                "JumpToEventThenScene",
+                "Will-Power Final Boss",
+                "Double Oni Loss!"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Single Loss scene",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Himika"
+            ],
+            "theScene": [
+                "JumpToEventThenScene",
+                "Will-Power Final Boss",
+                "Himika Loss Check"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "StartOfCombat",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|OniCombatEvents|/|RedFightIntro|n|"
+            ]
+        },
+        {
+            "lineTrigger": "AnyCounter",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|OniCombatEvents|/|Himika Worship Counter Check|n|"
+            ]
+        },
+        {
+            "lineTrigger": "EndOfRound",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|OniCombatEvents|/|Himika Bouncy Titnosis Temptation|n|"
+            ]
+        },
+        {
+            "lineTrigger": "SetMusicTo",
+            "move": "",
+            "theText": [
+                "music/Temple/Battle-SAMURAI_loop.ogg"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Spank",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'Eeek! ♥' A pesar de su reacción, estás bastante seguro de que eso duele más tu mano de lo que la dolió ...",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'¡H-hey!¡Si te gustan las cosas de Butt, ve a luchar contra mi hermana!",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'Apenas sentí eso ... pero todavía se sentía un poco ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Whip",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¡Ja!¿Realmente crees que puedes domar a un oni?",
+                "|f|ChangeImageLayer|/|Expression|/|LaughBoisterous|n|'¡Jajaja!¿Es todo eso?",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|\"¡Por eso, creo que voy a tener que follarte hasta que tu pelvis se rompe!\"",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|¡El látigo ni siquiera deja una marca en su cuerpo musculoso!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Demon Layer",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|El látigo ni siquiera deja una marca en su cuerpo musculoso, pero se esconde con placer sin embargo.",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡No sentí nada de eso!'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|¡M mi hermana es la masoquista!¡G-go látala en su lugar!",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|\"¡Por eso, creo que voy a tener que follarte hasta que tu pelvis se rompe!\"",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Mmmmm! ♥ i-es eso todo?'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'St-stupid Magic!'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Aahh! ♥ D-Damn tú ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Holy Headpat",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Uh ... eso parecía mucho esfuerzo solo para alcanzar y hacer {i} que {/i} ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Uh ... realmente no me importa ... pero no creo que ahora sea el momento de esto?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Bondage Net",
+                "Magical Binding",
+                "Pin"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Te mostraré ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Una vez que sea libre, te mostraré el verdadero poder de un oni!'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¡JA!¿Realmente crees que esto puede contener {b} me?! {/b} '"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Finger",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Hmmm...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Su coño se aprieta firmemente alrededor de tu dedo ..."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Dildo",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿Qué?¿Demasiado miedo de poner tu polla en mí?",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Tal vez debería romper ese pequeño juguete antes de romper tu polla ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|\"Como si eso me vaya a hacer correrme\"."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Arouse",
+                "Arousara",
+                "Arousero"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'St-stupid Magic!'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Aahh! ♥ D-Damn tú ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|¡No creo que un truco de magia tonto me detendrá!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Electrify",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'St-stupid Magic!'",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'Khhhhh!'",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'Hmhmhm!¡AHAHAHAHA!¡Voy a tener que pagarte el doble por esto!",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'B-Bastard!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Grope Ass",
+                "Squeeze Ass",
+                "Massage Ass",
+                "Fondle Ass"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|¡L-Leve mi trasero de esto!",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'¡C-corta!'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'S-Seriously?'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|¡Mi trasero es firme y Muscley!¡Ni siquiera es sexy como el de mi hermana!¡Déjalo solo!",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'¡Si quieres tocar el trasero de alguien, ve a tocar mi hermana!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Breast Caress",
+                "Breast Knead",
+                "Breast Massage",
+                "Breast Fondle"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Solo porque mis senos son grandes no significa que sean mi punto débil, idiota ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¿Qué?¿Quieres que te rompa la polla con mis tetas o algo así?",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Hmmm ... ♥ No eres malo con tus manos ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Hahhh...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡¿HOW HOW LARGO, estás planeando jugar con mis tetas?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Suckle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Hahhh...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Solo porque mis senos son grandes no significa que sean mi punto débil, idiota ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡TH-esto es vergonzoso!¡C-Corta ya!",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡HOW HOW LARGO, ¿estás planeando chupar mis tetas?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Tit Fucking",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Determined|n|¿Je, ya roto por mis tetas?No es que realmente te culpe.",
+                "|f|ChangeImageLayer|/|Expression|/|Determined|n|'¡Ja ja!¿Qué ocurre?¿Tu polla siente que va a explotar? ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Huh?! Are you just giving up? ...Actually, this feels kind of nice...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pinch Nipples",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'¡Ten cuidado con esos!'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|Ella te da un gruñido de ira bastante intimidante.",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|¿Kya?...¡Bueno!{i} ¡Te voy a hacer pagar por eso! {/i} '",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'¡Eep! ♥ ​​... ¡Muy bien!¡Voy a romper tu polla por hacerme sonar así!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|¡Hold en eso es lo de mi hermana!Eeek! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'¡WHA- W-WAIT!I- kya! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|¡D-Don no te atreves!¡Mmmmnnn! ♥ ... ¡Todavía voy a follar tu cerebro!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Penetrate",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Ja ja!Bueno, ¡dile adiós a tu polla!",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'Bueno ... es tu' funeral de pelvis ... '",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¡Jajaja!¿Eres estúpido?",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¿Realmente crees que puedes superarme?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¡Jajaja!¿En serio?¡Apenas puedo sentir eso!",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¿Eh?Lo siento, ¿estabas empujando tu polla?¡Ja!'",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¡Ja ja!¡Espero que estés listo para mi contraataque!",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'Je.¿Eso es todo lo que tienes?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Carrying Fuck"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ja ja ... ♥ ¡No está mal!'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Yes!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Jeje, voy a tener que follarte el doble de duro!'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'Mnnn ... ♥ ¿Realmente crees que puedes manejarme?",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'More!♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Empowered Thrust",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Jajhh ... ♥ F-Fuck! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Sí! ♥ ¡Sí! ♥ ¡Sí! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'D-Damn You! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Magia fucking! ♥ Te haré pagar ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'M-More!♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'D-Damn You! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Th-this es- ♥ jajhh! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Q-quit siendo tan gentil! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¿Es que todo tienes? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Y-Yes!♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ja hahhh ... ♥ n-no malo!'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Y-Yes!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'H-hehehe ... ♥ I-¡Definitivamente voy a follarte en el suelo por esto!'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¿Es que todo tienes? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ahhhh!♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck",
+                "Anal Piston"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Jajhh ... ♥ F-Fuck! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Sí! ♥ ¡Sí! ♥ ¡Sí! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'D-Damn You! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'M-More!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'H-hehehe ... ♥ I-¡Definitivamente voy a follarte en el suelo por esto!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'D-Damn You! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Th-this es- ♥ jajhh! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Q-quit siendo tan gentil! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Jajhh ... ♥ F-Fuck! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¡Sí! ♥ ¡Sí! ♥ ¡Sí! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Charm",
+                "Charm Wave"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'I-i ... u-uhm ... ah ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'¿Qué demonios hiciste d-do ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Sleep",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|DrunkDazed|n|'Pfft, como si un hechizo de sueño hiciera ... yo ...' bosteza en voz alta."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Enfeeble",
+                "Sensitize"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡No me subestimes!'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Ja!¡Como si Magic como esa me detendrá!",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'Ghhh ... cobarde ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Disarming Appeal"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Oh, basura, había terminado haciendo, ¿no?¿Estás bien?",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Oh, uh, puedo reducir la velocidad un poco, no soy {i} realmente {/i} voy a romper tu pelvis por cierto ... probablemente'.",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'¿Alguien ha mencionado que eres lindo antes?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Kiss",
+                "Make Out"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'¿Qué diablos crees que estás haciendo ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|¡D-no creo que los besos funcionarán en mí!",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|Su rostro arde un rojo intenso de tu beso."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Deep Kiss",
+                "Lovingly Rough Kiss",
+                "Sensually Seductive Kiss",
+                "Skillfully Passionate Kiss",
+                "Misty Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|Ella se pierde momentáneamente en el beso.",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Idiota ... siendo super íntimo ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Esto es demasiado amoroso Dovey ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'M-Maybe podemos hacer esto mientras yo te monto ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Seduce",
+                "Enamor",
+                "Smoldering Seduction",
+                "Smoldering Flaunt",
+                "Massaging Seduction",
+                "Mass Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Yo ... uh ... s-shut up ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'D-No me llames lindo!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|Su rostro arde un rojo intenso de tus palabras."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Ear Tease",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'W-wha- st-stoooppp! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'L-Let g-g-go de mi perrrrrrr! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "Escape",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'Yo ... uh ... w-wait!¡Vuelve aquí!",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'Tú ... um ... ¡H-hey!...¡Maldita sea!'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Rough Handjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|Jeje, ¿qué pasa?¿Demasiado áspero para ti?",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|No te atreves a correr todavía.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Ja ja!Tu polla palpita como una locura.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¿Es solo mi mano suficiente para romper tu polla?",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Ya estás filtrando precum ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|\"Jeje, si ya estás sacudiendo de esto, entonces el sexo conmigo te hará volar\"."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Blazing Oni Overcharge",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LaughBoisterous|n|'¡Jajaja!¡Te terminaré con un movimiento!",
+                "|f|ChangeImageLayer|/|Expression|/|LaughBoisterous|n|'¡Jajaja!¡Prepararse!'",
+                "|f|ChangeImageLayer|/|Expression|/|LaughBoisterous|n|'¡Veamos que intentes soportar esto!'",
+                "|f|ChangeImageLayer|/|Expression|/|LaughBoisterous|n|¡Estás a punto de correrse tus cerebros!",
+                "|f|ChangeImageLayer|/|Expression|/|LaughBoisterous|n|¡Gwahaha!¡Has terminado!"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Captivating Shake",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|\"Hmhmhm, te estás perdiendo a mis tetas\".",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Oye, no seas tímido, mira mis pechos'.",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|\"No te preocupes, soy {i} solo {/i} esclavizando tu mente a mis tetas\".",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Venc y adelante. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'¡Vamos, mantente concentrado! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Amas mis tetas, ¿no? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Enthralling Display",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|\"Hmhmhm, te estás perdiendo a mis tetas\".",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Oye, no seas tímido, mira mis pechos'.",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|\"No te preocupes, soy {i} solo {/i} esclavizando tu mente a mis tetas\".",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Alrededor y alrededor. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'¡Vamos, mantente concentrado! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Amas mis tetas, ¿no? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Titnotizing Drop",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Deja, ve. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Mira mis tetas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Concéntrese en mis tetas. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Prepárate para caer. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Oni Mating Press",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'Gotcha!'",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|¡Es hora de joderte tonto!",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¡Ja ja!¡No te preocupes, intentaré {i} no {/i} para romper tu pelvis!",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Esta pelea ya ha terminado!'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡No te estás alejando de esto!'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Jeje, creo que escucho tu polla mendigando a la misericordia ya!"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Oni Spitroast Mating",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Buen trabajo sis!'",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|¡Es hora de joderte tonto!",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¡Ja ja!¡No te preocupes, intentaré {i} no {/i} para romper tu pelvis!",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Esta pelea ya ha terminado!'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡No te estás alejando de nosotros ahora!'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Jeje, creo que escucho tu polla mendigando a la misericordia ya!"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Oni's Lovemaking",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|\"Ven aquí, ♥ Te daré un descanso rápido.",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'HAA ... ♥ Mejor recuperar tu aliento mientras puedas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|\"Jejeje, eres bastante lindo cuando estás indefenso\".",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Mmmm ... ♥ tu polla se siente realmente cálida dentro de mí ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|No creo que hayamos terminado todavía.",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Ja ja ... ♥ ahí ... solo te voy a follar sin sentido. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|Ella se rasca la parte posterior de tu cabeza."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Wild Oni Mating",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¡Incluso si me ruegas que pare, no lo haré!'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Jajaja!¡Todo tu cuerpo está temblando!",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¿Qué pasa? ♥ ¿No puedes soportarlo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Vas a estar adolorido por una semana después de esto! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|\"Jejeje, vas a caminar divertido por un tiempo después de esto!",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'No te preocupes, una vez que tus caderas se adormecen, ¡comienza a sentirse aún mejor!",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¡¿Esperar?!D-Did, ¿solo escucho una ruptura de huesos?...¿No?¡Muy bien, sigamos adelante!",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'Cada vez que empujé tu polla en mí, tu polla se contrae como loca. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|Ella jadea y gime bastante fuerte con una sonrisa dominante en su rostro."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Oni Pelvis Breaker",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¡Incluso si me ruegas que pare, no lo haré!'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Jajaja!¡Todo tu cuerpo está temblando!",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¿Qué pasa? ♥ ¿No puedes soportarlo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Vas a estar adolorido por una semana después de esto! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|\"Jejeje, vas a caminar divertido por un tiempo después de esto!",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'No te preocupes, una vez que tus caderas se adormecen, ¡comienza a sentirse aún mejor!",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¡¿Esperar?!D-Did, ¿solo escucho una ruptura de huesos?...¿No?¡Muy bien, sigamos adelante!",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'Cada vez que empujé tu polla en mí, tu polla se contrae como loca. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|Ella jadea y gime bastante fuerte con una sonrisa dominante en su rostro."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Mind Crushing Lovemaking",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|Ven aquí, ♥ Te daré un descanso a tu mente.",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|\"Jejeje, eres bastante lindo cuando estás indefenso\".",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|\"Mis tetas van a derretir tu mente\".",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Ja ja ... ♥ ahí ... solo voy a follar tu cerebro. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|Ella se rasca la parte posterior de tu cabeza."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Mesmerizing Oni Mating",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Jeje, no podrás sacarme de tu cabeza durante semanas!",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¿Qué pasa? ♥ ¿No puedes soportarlo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'No te preocupes, una vez que tu mente se entumece, ¡te sentirás aún mejor!",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|\"No me aparten de mis tetas, deje que llenen su mente\".",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|\"No puedes evitar que mis tetas invadan tus pensamientos\".",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'Mis tetas están derritiendo tu mente'.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Jeje, estás rompiendo. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Oni Mind Breaker",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Jeje, no podrás sacarme de tu cabeza durante semanas!",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¿Qué pasa? ♥ ¿No puedes soportarlo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'No te preocupes, una vez que tu mente se entumece, ¡te sentirás aún mejor!",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|\"No me aparten de mis tetas, deje que llenen su mente\".",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|\"No puedes evitar que mis tetas invadan tus pensamientos\".",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'Mis tetas están derritiendo tu mente'.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Jeje, estás rompiendo. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Grasp Of The Oni",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'Gotcha!'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Jeje, es mejor que empiecen a luchar!'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Tormenting Oni",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¿Qué pasa? ♥ ¿No puedes soportarlo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Jajaja!¡Todo tu cuerpo está temblando!",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¿Te gusta ser intimidado o algo así? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Me pregunto si puedes correrte solo de tus pezones que te molestan ...'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Teasing Oni",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Oye ... ¿te gustan mis senos?",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Si te rindes, seré gentil contigo ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Jeje, tus gemidos son tan lindos. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Puedes sentir tu polla palpitando mientras te burlo de ti? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Explosive Tackle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LaughBoisterous|n|'Gotcha!'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Esta pelea ya ha terminado!'",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|'¡No te estás alejando de esto!'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¡Es hora de hacerte estallar!'",
+                "|f|ChangeImageLayer|/|Expression|/|LaughBoisterous|n|'Hahaha!'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Paizuri Inferno",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|\"No puedes soportar esto por mucho tiempo\".",
+                "|f|ChangeImageLayer|/|Expression|/|Determined|n|'Oye, oye, ¿puedes resistirme a mis tetas? ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Hmmm, ♥ estás completamente enterrado en mis tetas ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Tu polla va a estallar pronto. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Determined|n|'Jajaja ... ♥ tu polla se siente bastante caliente. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Voy a hacer que tu polla se corra como una locura'."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Volcanic Paizuri",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|\"No puedes soportar esto por mucho tiempo\".",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'Jajaja. ♥ Continúa, dispara todo ese semen caliente!'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, tu cuerpo sigue creciendo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Tu polla va a brotar como una locura pronto. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Determined|n|'Jajaja ... ♥ tu polla se siente bastante cálida. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Enticing Molten Squeeze",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|\"No puedes resistir esto por mucho tiempo\".",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jajaja. ♥ Continúa, brota tu cerebro de tu polla. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, estás babeando. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Vas a enamorarte de mis tetas pronto. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|\"Tu polla no puede esperar golpear mis senos\"."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Blazing Titnosis Vortex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|\"No puedes resistir esto por mucho tiempo\".",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jajaja. ♥ Continúa, brota tu cerebro de tu polla. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, estás babeando. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Vas a enamorarte de mis tetas pronto. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|\"Tu polla no puede esperar golpear mis senos\"."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Intoxicating Melons",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|\"Parece que podrías usar una bebida. ♥ No te preocupes, es básicamente alcohol\".",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Aquí, ten un poco de sudor. ♥ Sabe bien, prometo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Vamos, emborrachado! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Creo que necesitas un descanso de mi' culo 'de mi hermana."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Inebriating Melons",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|\"Parece que podrías usar una bebida. ♥ No te preocupes, es básicamente alcohol\".",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Aquí, ten un poco de sudor. ♥ Sabe bien, prometo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Vamos, emborrachado! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Creo que necesitas un descanso de mi' culo 'de mi hermana."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Romantic Escape",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Uhm ... ah ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Jeje! ♥ aquí! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|No creas que puedas distraerme con un beso.",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'T-Demasiado romántico ...'"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmmm! ♥ ahhhh ... ♥ i-estoy tan cerca ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Yo-me siento tan cálido por dentro ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Todo mi cuerpo está hormigueando ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Ah ... ♥ basura ... ♥ No puedo tomar mucho más de esto ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Ahhh ... ♥ S-Eres bastante bueno en esto ...'"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Jeje, parece que estás a punto de corro como un grifo roto!",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Tus gemidos son muy lindos cuando estás al límite! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Me pregunto cuántas rondas puedes durar ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Estás temblando tanto ... vas a cummmm. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¡Jajaja! ♥ No puedes tomar mucho más, ¿verdad? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Intoxicating Melons",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Mizuko lentamente monta tu polla, y mientras rebota arriba y abajo de tu palpitante virilidad, tus ojos siguen impotentes su voluptuoso trasero, observando atentamente mientras su carne se ondula con cada impacto.|n|A wave of pleasure washes over you each time her hips meet yours, and your mind is left spinning with images of her curvy rear, filling you with a burning need to cum for Mizuko and her perfect ass.|n|She speeds up the pace of her bouncing, and your dick almost immediately begins to spurt inside her forcing you to moan in mindless bliss as images of her full ass pulse into your mind with each wave of orgasmic pleasure.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Tus ojos siguen impotentes la retaguardia regordeta de Mizuko mientras ella muele en broma sus caderas con curvas de un lado a otro, cada una batida cautivadora de su delicioso trasero envía una sacudida de éxtasis a través de todo tu cuerpo, haciéndote temblar y gemir.|n|The jolts feel better and better with each jiggle, leaving your cock throbbing with need and your mind inebriated from the sight of Mizuko's intoxicatingly plump ass. Even when you blink you can still see her perfect ass shaking back and forth, leaving you smiling blissfully and drooling slightly.|n|The pleasure coursing through you finally becomes too much to endure, and with an incoherent moan your hips buck up instinctively as you spurt your hot cum inside Mizuko, the image of her perfect ass burning into your mind with orgasmic bliss.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Mizuko deja de rebotar en tu polla dolorida, pero no puedes encontrar la voluntad de apartar la mirada de su voluptuoso trasero, tu cuerpo llena de placer y al borde del orgasmo.|n|Helplessly you find your hands mindlessly moving forward, gently feeling up Mizuko's plump rear, and as your hands sink into her plush flesh a wave of bliss washes over you.|n|Your dick pulses with ecstasy every moment you lovingly rub her soft rear, causing ecstasy to build across your entire body as you revel in the feeling of her plump butt.|n|Mizuko slowly lifts her womanly hips up and teasingly sways them back and forth, and eagerly you grip her and pull her back down onto your throbbing erection, sending a cascade of orgasmic pleasure through every fiber of your being.|n|You cry out incoherently as you pour load after load into Mizuko, and she teasingly grinds her hips to draw out your mind-numbing orgasm, letting you revel in the pulsing ecstasy coursing through your very core, and letting the image and feeling of her heavenly ass ingrain into your mind."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Inebriating Melons",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Mizuko lentamente monta tu polla, y mientras rebota arriba y abajo de tu palpitante virilidad, tus ojos siguen impotentes su voluptuoso trasero, observando atentamente mientras su carne se ondula con cada impacto.|n|A wave of pleasure washes over you each time her hips meet yours, and your mind is left spinning with images of her curvy rear, filling you with a burning need to cum for Mizuko and her perfect ass.|n|She speeds up the pace of her bouncing, and your dick almost immediately begins to spurt inside her forcing you to moan in mindless bliss as images of her full ass pulse into your mind with each wave of orgasmic pleasure.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Tus ojos siguen impotentes la retaguardia regordeta de Mizuko mientras ella muele en broma sus caderas con curvas de un lado a otro, cada una batida cautivadora de su delicioso trasero envía una sacudida de éxtasis a través de todo tu cuerpo, haciéndote temblar y gemir.|n|The jolts feel better and better with each jiggle, leaving your cock throbbing with need and your mind inebriated from the sight of Mizuko's intoxicatingly plump ass. Even when you blink you can still see her perfect ass shaking back and forth, leaving you smiling blissfully and drooling slightly.|n|The pleasure coursing through you finally becomes too much to endure, and with an incoherent moan your hips buck up instinctively as you spurt your hot cum inside Mizuko, the image of her perfect ass burning into your mind with orgasmic bliss.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Mizuko deja de rebotar en tu polla dolorida, pero no puedes encontrar la voluntad de apartar la mirada de su voluptuoso trasero, tu cuerpo llena de placer y al borde del orgasmo.|n|Helplessly you find your hands mindlessly moving forward, gently feeling up Mizuko's plump rear, and as your hands sink into her plush flesh a wave of bliss washes over you.|n|Your dick pulses with ecstasy every moment you lovingly rub her soft rear, causing ecstasy to build across your entire body as you revel in the feeling of her plump butt.|n|Mizuko slowly lifts her womanly hips up and teasingly sways them back and forth, and eagerly you grip her and pull her back down onto your throbbing erection, sending a cascade of orgasmic pleasure through every fiber of your being.|n|You cry out incoherently as you pour load after load into Mizuko, and she teasingly grinds her hips to draw out your mind-numbing orgasm, letting you revel in the pulsing ecstasy coursing through your very core, and letting the image and feeling of her heavenly ass ingrain into your mind."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|CallCombatEventAndScene|/|OniCombatEvents|/|PlayerOrgasmSexCheck|n|Con un escalofrío intentas recordarte a ti mismo.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|CallCombatEventAndScene|/|OniCombatEvents|/|PlayerOrgasmSexCheck|n|Con un gemido intentas recuperarte del placer que te atraviesa."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|CallCombatEventAndScene|/|OniCombatEvents|/|PlayerOrgasmSexCheck|n|Con un escalofrío intentas recordarte a ti mismo.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|CallCombatEventAndScene|/|OniCombatEvents|/|PlayerOrgasmSexCheck|n|Con un gemido intentas recuperarte del placer que te atraviesa."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Titfuck",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|CallCombatEventAndScene|/|OniCombatEvents|/|PlayerOrgasmTitfuckCheck|n|Con un escalofrío intentas recordarte a ti mismo.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|CallCombatEventAndScene|/|OniCombatEvents|/|PlayerOrgasmTitfuckCheck|n|Con un gemido intentas recuperarte del placer que te atraviesa."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|CallCombatEventAndScene|/|OniCombatEvents|/|PlayerOrgasmNoStanceCheck|n|Con un escalofrío intentas recordarte a ti mismo.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|CallCombatEventAndScene|/|OniCombatEvents|/|PlayerOrgasmNoStanceCheck|n|Con un gemido intentas recuperarte del placer que te atraviesa."
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|'¡Sí! ♥ ¡Sí! ♥ Yesssss !!! ♥♥♥'|f|CallCombatEventAndScene|/|OniCombatEvents|/|MizukoPhaze2Check1|n|",
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|'I-yo no puedo- ¡Ahhhhh! ♥♥♥'|f|CallCombatEventAndScene|/|OniCombatEvents|/|MizukoPhaze2Check1|n|",
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|'Ohhhhhh! ♥ mnnnn ... ♥ ughhh ... d-did te subestima ...'|f|CallCombatEventAndScene|/|OniCombatEvents|/|MizukoPhaze2Check1|n|",
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|'Ahhh-aaahhhh !!! ♥♥♥ mmm ... ♥ Creo que realmente necesitaba eso en realidad ...'|f|CallCombatEventAndScene|/|OniCombatEvents|/|MizukoPhaze2Check1|n|",
+                "|f|ChangeImageLayer|/|Expression|/|Orgasm|n|Ella aulla y gime en un placer incoherente.|f|CallCombatEventAndScene|/|OniCombatEvents|/|MizukoPhaze2Check1|n|"
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'... ¡¿Te estás dando por vencido?Eso ... es un poco patético ... ¡N-no para ser malo al respecto!Pero solo tendré que {i} castigar {/i} por eso.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|¿Eh?!¡No puedes simplemente rendirte!... ugh, bien!Ahora cómo jugar con tu polla ... '",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Uhm ... no tengo tanto miedo que te rindas ... ¿verdad?"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Sex",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del coño poderoso de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Sex",
+            "theText": [
+                "¡Pero [AttackerName] te atrapa fácilmente al suelo y golpea aproximadamente sus caderas en tu dolor de dolor para mantenerte abajo!",
+                "¡Pero a medida que [AttackerName] continúa montando implacablemente a su longitud, solo puede gemir del intenso placer lavar sus dolor de caderas!",
+                "¡Pero [AttackerName] te folla sin piedad al suelo con cada poderoso golpe de sus propias caderas femeninas!Dejándote aturdido y dolorido.",
+                "¡Pero mientras agarras sus caderas para sacar, ella te golpea fácilmente las manos y continúa viajando sin sentido!",
+                "Pero cuando ella ralentiza los poderosos golpes de sus caderas a un movimiento de molienda dulce y suave, dejas escapar un suspiro y te permites relajarte en el breve respiro."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Sex",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¿Realmente pensaste que podrías escapar de {i} me? {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Jeje, eres bastante lindo cuando estás indefenso ...",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|Ella te da una sonrisa bastante arrogante.",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'No puedes escapar de mí.Entonces es mejor que te empujes. ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'No luches tanto, no es como si estuviera {i} intentando {/i} romper tus caderas.",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Hmmm ... tal vez debería reducir la velocidad ... nah'."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Sex",
+            "theText": [
+                "¡Y logra sacar tu polla de su hendidura apretada!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'¿Wh- H-How?'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'S-Seriously?!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Tal vez te subestimé ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'¡Y tienes suerte!'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'I-Impossible!'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|¡Pfft, supongo que tu polla no pudo manejarme!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Anal",
+            "theText": [
+                "[ThePlayerName] intenta retirarse de la parte trasera del músculo Finley de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Anal",
+            "theText": [
+                "¡Pero [AttackerName] te atrapa fácilmente al suelo y golpea aproximadamente sus caderas en tu dolor de dolor para mantenerte abajo!",
+                "¡Pero a medida que [AttackerName] continúa montando implacablemente a su longitud, solo puede gemir del intenso placer lavar sus dolor de caderas!",
+                "¡Pero [AttackerName] te folla sin piedad al suelo con cada poderoso golpe de sus propias caderas femeninas!Dejándote aturdido y dolorido.",
+                "¡Pero mientras agarras sus caderas para sacar, ella te golpea fácilmente las manos y continúa viajando sin sentido!",
+                "Pero cuando ella ralentiza los poderosos golpes de sus caderas a un movimiento de molienda dulce y suave, dejas escapar un suspiro y te permites relajarte en el breve respiro."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Anal",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Determined|n|'Khhh ... ¡no creo que me rindiera!'",
+                "|f|ChangeImageLayer|/|Expression|/|Determined|n|¡No te perderé contigo!¡E-PENOS si estás jodiendo mi trasero!",
+                "|f|ChangeImageLayer|/|Expression|/|Determined|n|Su rostro está tenso de concentración.",
+                "|f|ChangeImageLayer|/|Expression|/|Dominant|n|¡Te tengo que superarte primero!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Anal",
+            "theText": [
+                "¡Y logra sacar tu polla de su apretado culo!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'S-Seriously?!'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|¡I-yo estaba ganando eso!¡Ponlo de vuelta en mí!",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'¡Y tienes suerte!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'P probablemente para lo mejor ...'",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Making Out",
+            "theText": [
+                "[ThePlayerName] intenta romper el beso profundo con [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Making Out",
+            "theText": [
+                "Pero ella mantiene sus poderosos brazos firmados alrededor de [ThePlayerName], ¡y él permanece encerrado en un profundo beso amoroso!",
+                "Pero ella te mira a los ojos con una mirada determinada, y sus brazos se encerraron firmemente alrededor de tu espalda, evitando que te alejes."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Making Out",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'W-WAIT ... ¿Es esta una especie de distracción?",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Mmmm...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Te mostraré quién es el mejor besador ...'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Making Out",
+            "theText": [
+                "¡Y libera tu boca de los labios suaves de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'... ¡Espera, ¿fue esa una especie de distracción o algo así?'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'¡Ja!¡Supongo que gano esa sesión de besos!",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Deberías alegrarte de dejarte besarme en primer lugar ...'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Titfuck",
+            "theText": [
+                "[ThePlayerName] intenta tirar de [TargetHisOrHer] Manodidad libre de los cálidos senos con curvas de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Titfuck",
+            "theText": [
+                "Pero mantiene tu polla firmemente enterrada entre sus enormes tetas, y le da a tu polla un apretón dominante con su suave cofre con una sonrisa bastante petulada en su rostro.",
+                "Pero mientras acaricia más o menos tu rígida erección de su busto completo, solo puedes gemir mientras el calor fundido rezuma en tus caderas, dejando tu polla torciéndose y ansioso por estallar.",
+                "Pero jadea de la implacable sensación de que ella rodando sus suaves senos alrededor de su dolor de polla, el dulce placer te dejó inmóvil y se contrae con necesidad.",
+                "Pero solo puedes suspirar mientras sus senos se ajustan suavemente y en broma tu dolidosa erección, el repentino cambio hacia movimientos lentos y sensuales que te arrojan, y te encuentras relajándote en el placer."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Titfuck",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡No te estás escapando de mis tetas!'",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¡Vamos ya!¡Purra tu semen sobre mí!",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|\"¡Supongo que esto solo demuestra que mis tetas son más fuertes que tu polla!\"",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|'¿Realmente pensaste que podrías escapar de {i} me? {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Jeje, eres bastante lindo cuando estás indefenso ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Titfuck",
+            "theText": [
+                "¡Y logra liberar tu polla del toque atractivo de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Titfuck",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'¿Wh- H-How?'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'S-Seriously?!'",
+                "|f|ChangeImageLayer|/|Expression|/|Shy|n|'Tal vez te subestimé ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'¡Y tienes suerte!'",
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'I-Impossible!'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|¡Pfft, supongo que tu polla no pudo manejarme!"
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Base",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.105",
+            "Images": [
+                {
+                    "Name": "Clothed",
+                    "File": "Monsters/Himika/Body_Himika_Clothed.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Topless",
+                    "File": "Monsters/Himika/Body_Himika_Topless.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Nude",
+                    "File": "Monsters/Himika/Body_Himika_Nude.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Face",
+            "StartOn": "0",
+            "AlwaysOn": "0",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Blush",
+                    "File": "Monsters/Himika/Face_Himika_Blush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Himika/Expressions_Himika_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "LaughBoisterous",
+                    "File": "Monsters/Himika/Expressions_Himika_BoisterousLaugh.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Caring",
+                    "File": "Monsters/Himika/Expressions_Himika_Caring.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Cocky",
+                    "File": "Monsters/Himika/Expressions_Himika_Cocky.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Determined",
+                    "File": "Monsters/Himika/Expressions_Himika_Determined.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Dominant",
+                    "File": "Monsters/Himika/Expressions_Himika_Dominant.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "DrunkDazed",
+                    "File": "Monsters/Himika/Expressions_Himika_DrunkDazed.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "DrunkHorny",
+                    "File": "Monsters/Himika/Expressions_Himika_DrunkHorny.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Flustered",
+                    "File": "Monsters/Himika/Expressions_Himika_Flustered.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Orgasm",
+                    "File": "Monsters/Himika/Expressions_Himika_Orgasm.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Panic",
+                    "File": "Monsters/Himika/Expressions_Himika_Panic.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "PanicSilly",
+                    "File": "Monsters/Himika/Expressions_Himika_PanicSilly.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pleasured",
+                    "File": "Monsters/Himika/Expressions_Himika_Pleasured.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pout",
+                    "File": "Monsters/Himika/Expressions_Himika_Pout.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Seductive",
+                    "File": "Monsters/Himika/Expressions_Himika_Seductive.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Shy",
+                    "File": "Monsters/Himika/Expressions_Himika_Shy.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}

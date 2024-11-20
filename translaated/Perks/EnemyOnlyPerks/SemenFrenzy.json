@@ -1,0 +1,21 @@
+{
+    "name": "Semen Frenzy",
+    "description": "Aumenta tu daño cuando tu oponente orgasmos.Requiere sexo, anal, mamada o postura de titfuck.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "SemenAttackBoost"
+    ],
+    "EffectPower": [
+        "30"
+    ],
+    "PlayerCanPurchase": "No"
+}

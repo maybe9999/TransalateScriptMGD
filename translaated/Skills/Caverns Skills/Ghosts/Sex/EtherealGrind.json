@@ -1,0 +1,56 @@
+{
+    "name": "Ethereal Grind",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Core",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Cock"
+    ],
+    "fetishTags": [
+        "Sex",
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Sex",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Sex",
+        "Sex"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "45",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] y [AttackerName2] giran sus caderas en direcciones opuestas, su apretado entero, acariciando cada centímetro de la polla rígida de [TargetName], ya que se dobla suavemente en múltiples direcciones a la vez por sus orificios ondulantes, incapaz de averiguar de quién es el agujero.En, [TargetName] se queda gimiendo en sorpresa cuando la estimulación que rodea [TargetHisOrHer] Director de polla cambia constantemente de sus caderas que se balancearon.",
+    "miss": "[AttackerName] y [AttackerName2] giran sus caderas en direcciones opuestas, su apretado entero, acariciando cada centímetro de la polla rígida de [TargetName] mientras se doblan suavemente en múltiples direcciones a la vez por sus orificios ondulantes, pero [TargetHeOrShe] logra ignorarla estimulación imposible.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

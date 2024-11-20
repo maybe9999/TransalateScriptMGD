@@ -1,0 +1,21 @@
+{
+    "name": "Umbral Chain Necklace",
+    "description": "",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusEffectDuration"
+    ],
+    "EffectPower": [
+        "20"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

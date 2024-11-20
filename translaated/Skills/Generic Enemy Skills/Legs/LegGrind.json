@@ -1,0 +1,58 @@
+{
+    "name": "Leg Grind",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "100",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "4",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Legs"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Blowjob",
+        "Titfuck",
+        "Footjob",
+        "Tailjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Muele tu muslo en la entrepierna de tus oponentes.",
+    "outcome": "[AttackerName] empuja su muslo a la ingle de [TargetName] y se mueve contra ella.",
+    "miss": "[AttackerName] intenta empujar su muslo contra [TargetName], pero [TargetHeOrShe] logra mantener la pierna [AttackerHisOrHer] lejos de la entrepierna [TargetHisOrHer].",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,24 @@
+{
+    "name": "DreamOfbutt",
+    "CardType": "Dream",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "character",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "Sueñas con Big Butt"
+            ]
+        }
+    ]
+}

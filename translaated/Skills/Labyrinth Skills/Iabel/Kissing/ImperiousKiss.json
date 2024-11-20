@@ -1,0 +1,61 @@
+{
+    "name": "Imperious Kiss",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "50",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction",
+        "Magic",
+        "Mouth"
+    ],
+    "fetishTags": [
+        "Kissing"
+    ],
+    "startsStance": "",
+    "requiresStance": "Making Out",
+    "unusableIfStance": [
+        "Blowjob",
+        "Face Sit",
+        "Footjob",
+        "Titfuck",
+        "Thighjob",
+        "Footjob"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Face Sit"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "999",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Besa a tu oponente.",
+    "outcome": "Iabel ronrona dulcemente mientras rueda su lengua larga alrededor de su boca con precisión dominante, enredando perfectamente su lengua en sumisión mientras se mancha la boca con su reluciente lápiz labial, dejando rápidamente que su cabeza girara mientras la magia seductora se vierte en la sesión de la sesión apasionada.",
+    "miss": "Isabel ronrona dulcemente mientras rueda su lengua larga alrededor de la boca con precisión dominante, pero [TargetHeOrShe] soporta el dulce placer.",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|IabelCombatEvents|/|KissStack|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

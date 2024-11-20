@@ -1,0 +1,47 @@
+{
+    "name": "Wildcat Jacket",
+    "itemType": "Accessory",
+    "cost": "15000",
+    "descrip": "Una chaqueta de estampado de leopardo que luce un collar esponjoso infundido con magia felina primaria, que te hace sentir suave, elegante y ajustado, pero lo imbuye con una arrogancia orgullosa.Aumenta la técnica, el poder y el encanto en 15, y la excitación máxima y la energía en 50, pero hace que sea un 25% más difícil de correr de batallas.",
+    "requires": [
+        ""
+    ],
+    "perks": [
+        "Lion's Pride"
+    ],
+    "hp": "50",
+    "ep": "50",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "15",
+    "Technique": "15",
+    "Intelligence": "0",
+    "Allure": "15",
+    "Willpower": "0",
+    "Luck": "0",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "useOutcome": "",
+    "useMiss": ""
+}

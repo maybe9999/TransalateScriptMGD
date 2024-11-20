@@ -1,0 +1,21 @@
+{
+    "name": "Seductive Touch",
+    "description": "Aumente la excitación base tratada por todas sus habilidades de juego previo por 5.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "ForeplayFlatDamage"
+    ],
+    "EffectPower": [
+        "5"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

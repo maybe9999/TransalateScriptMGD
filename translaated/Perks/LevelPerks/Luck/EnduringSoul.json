@@ -1,0 +1,21 @@
+{
+    "name": "Enduring Soul",
+    "description": "Ya sea por suerte, el destino o el espíritu puro, la posibilidad crítica de ataques realizados en ti se reduce en un 10%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        "Luck"
+    ],
+    "StatReqAmount": [
+        "20"
+    ],
+    "PerkType": [
+        "CritChanceBoostSelf"
+    ],
+    "EffectPower": [
+        "-10"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

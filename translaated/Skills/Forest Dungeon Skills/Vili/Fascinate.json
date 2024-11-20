@@ -1,0 +1,53 @@
+{
+    "name": "Fascinate",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "attack",
+    "statType": "Intelligence",
+    "requiredStat": "5",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "75",
+    "statusDuration": "5",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Lanza un encanto a tu oponente.",
+    "outcome": "[AttackerName] hace un corazón con los dedos [AttackerHisOrHer] y dispara un rayo de magia rosa a [TargetName], ¡enviando una maravillosa sensación cálida y placentera a través de donde golpea!",
+    "miss": "[AttackerName] hace un corazón con [AttackerHisOrHer] dedos y dispara un rayo de magia rosa en [TargetName], ¡pero [TargetHeOrShe] logra esquivarlo!",
+    "statusOutcome": "¡El hechizo teje alrededor de los pensamientos de [TargetName], dejando a [TargetHimOrHer] encantados de [AttackerName]!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

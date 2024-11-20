@@ -1,0 +1,54 @@
+{
+    "name": "Melting Gooey Mating",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Slimed 100%"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "100",
+    "statusDuration": "99",
+    "statusPotency": "5",
+    "statusResistedBy": "Power",
+    "statusText": "aphrodisiac",
+    "descrip": "",
+    "outcome": "Amoramente, la seductora rosada viscosa se toma su tiempo derritiéndote de placer, balanceándose lánguidamente y girando sus caderas curvas mientras su [SexWord] antinatural gira y chupa tu erección.Sentimiento de jarabe, mientras que los otros dos perpetuas susurran y arrullan en sus oídos, alentándote a seguir disfrutando del apareamiento indulgente.",
+    "miss": "La seductora holgada rosa se balancea y gira sus caderas con curvas mientras su [SexWord] antinatural gira y chupa su erección sacudida, ¡pero logras soportar su ordeño codicioso!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|DarkPerpetuaCombatEvent|/|MeltyMatingCorruption|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

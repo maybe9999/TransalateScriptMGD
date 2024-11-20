@@ -1,0 +1,47 @@
+{
+    "name": "Umbral Rune",
+    "itemType": "Rune",
+    "cost": "2500",
+    "descrip": "Una runa oscura y pulsante hecha por una poderosa bruja, aumenta el daño mágico en un 10%, aumenta la energía en 25, aumenta la posibilidad del efecto de estado en un 7%, el daño crítico en un 7%y la suerte en 7, pero te sientes extrañamente vulnerable a la luz..",
+    "requires": [
+        ""
+    ],
+    "perks": [
+        "Umbral Sign"
+    ],
+    "hp": "0",
+    "ep": "25",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "7",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "25",
+        "Unholy": "-10"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "useOutcome": "",
+    "useMiss": ""
+}

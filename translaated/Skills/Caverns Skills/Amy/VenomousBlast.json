@@ -1,0 +1,54 @@
+{
+    "name": "Venomous Blast",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        ""
+    ],
+    "fetishTags": [
+        "Monstrous"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Stun",
+        "Restrain"
+    ],
+    "power": "5",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "75",
+    "statusDuration": "3",
+    "statusPotency": "25",
+    "statusResistedBy": "Willpower",
+    "statusText": "venom",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] se erige, inclinado hacia atrás con un silbido gruñido antes de que ella se lance hacia adelante y su boca y mandíbula se abran mientras arroja una gota de afrodisíaco venenoso en [ThePlayerName]!Pero [TargetHeOrShe] no puede evitar evitarlo a tiempo, y se estremece a medida que el calor comienza a inundar el cuerpo [TargetHisOrHer] con excitación, el afrodisíaco empapado en el cuerpo [TargetHisOrHer].",
+    "statusMiss": "[AttackerName] stands upright, leaning back with a growling hiss before she darts forward and her mouth and jaw both split open as she spews a blob of venomous aphrodisiac right at [ThePlayerName]! But [TargetHeOrShe] manages to completely avoid it!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

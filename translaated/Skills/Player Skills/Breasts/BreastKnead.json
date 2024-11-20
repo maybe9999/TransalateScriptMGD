@@ -1,0 +1,55 @@
+{
+    "name": "Breast Knead",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "attack",
+    "statType": "Power",
+    "statusEffectScaling": "25",
+    "requiredStat": "20",
+    "skillTags": [
+        "Breasts"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Face Sit",
+        "Footjob"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Defence",
+    "statusChance": "50",
+    "statusDuration": "6",
+    "statusPotency": "-10",
+    "statusResistedBy": "Willpower",
+    "statusText": "Aproximadamente burlado",
+    "descrip": "Exprime poderosamente y burla las tetas de tu oponente.Puede reducir la defensa.",
+    "outcome": "[AttackerName] más o menos amasada, pero cuidadosamente amasan los senos de [TargetName] con los dedos [AttackerHisOrHer] fuertes, provocando un gemido de [TargetHisOrHer] como [AttackerHeOrShe] apretones y juega con [TargetHisOrHer] tits.",
+    "miss": "[AttackerName] trata de exprimir los senos de [TargetName], pero [TargetHeOrShe] los mantiene fuera de alcance.",
+    "statusOutcome": "[TargetName] se deja aturdido y vulnerable de las intensas burlas!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,53 @@
+{
+    "name": "Teasing Winds",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "attack",
+    "statType": "Intelligence",
+    "requiredStat": "5",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] Ligeramente derriba a [AttackerHisOrHer] ventilador con un movimiento agudo de su muñeca, haciendo que [TargetName] sea de placer cuando un gentil viento acaricia suavemente el cuerpo [TargetHisOrHer].",
+    "miss": "[AttackerName] Ligeramente derriba a [AttackerHisOrHer] ventilador con un movimiento agudo de su muñeca, pero [TargetName] logra ignorar los gentiles vientos acariciando suavemente el cuerpo [TargetHisOrHer].",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Oblivion Milk",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Intelligence",
+    "requiredStat": "7",
+    "skillTags": [
+        "Seduction",
+        "Magic"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "",
+    "requiresStance": "Nursing",
+    "unusableIfStance": [
+        "Titfuck",
+        "Blowjob",
+        "Making Out",
+        "Breast Smother"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "requiresPerk": [
+        "Curse of Oblivion"
+    ],
+    "scalesWithStatusEffect": "Aphrodisiac",
+    "flatDamageSF-FlatScaling": "0",
+    "flatDamageSF-PercentScaling": "0.2",
+    "totalDamageSF-PercentScaling": "0",
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "200",
+    "statusDuration": "10",
+    "statusPotency": "50",
+    "statusResistedBy": "Willpower",
+    "statusText": "aphrodisiac",
+    "descrip": "",
+    "outcome": "[AttackerName] aprieta suavemente el seno [TargetName] está amamantando sin pensar con un pulso mágico embriagador que resuena con la maldición oscura, y su pezón arroja una suave corriente de leche de sabor a chocolate obsceno y pecaminosamente dulce que [TargetHeOrShe] no puede traer[TargetHimOrHer] Self para dejar de tragar incluso mientras erosiona [TargetHisOrHer] Mente derretida con la dicha jarabia caliente.",
+    "miss": "[AttackerName] aprieta suavemente la mama [TargetName] está amamantando sin pensar con un pulso mágico embriagador que resuena con la maldición oscura, y su pezón arroja una suave corriente de leche de sabor a chocolate obsceno y pecaminosamente dulce pero [TargetHeOrShe] para soportar el¡Efectos de la leche!",
+    "statusOutcome": "El cuerpo de la leche maldita y maravillosamente cremosa [TargetName] con necesidad pulsante que hace que [TargetHisOrHer] la polla latir con un deseo con fugas, holgazándose euforia que se filtra en cada parte del cuerpo [TargetHisOrHer] ...",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

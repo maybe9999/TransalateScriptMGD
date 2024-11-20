@@ -1,0 +1,23 @@
+{
+    "name": "Powerful Hips",
+    "description": "A través de un entrenamiento sexual intensivo, ahora se ocupa de un 10% más de excitación penetrativa y toma un 20% menos de excitación de retroceso.",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Sex Expert"
+    ],
+    "StatReq": [
+        "Power"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "PenetrationBoost",
+        "RecoilDamageTaken"
+    ],
+    "EffectPower": [
+        "10",
+        "20"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

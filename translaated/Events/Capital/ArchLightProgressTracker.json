@@ -1,0 +1,29 @@
+{
+    "name": "ArchlightProgressTracker",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Imp",
+            "postName": "",
+            "SpeakerType": "Monster"
+        },
+        {
+            "name": "Catherine",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventBroke",
+            "theScene": [
+                "El evento se rompió."
+            ]
+        }
+    ]
+}

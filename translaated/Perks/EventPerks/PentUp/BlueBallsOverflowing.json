@@ -1,0 +1,29 @@
+{
+    "name": "Overflowing Blue Balls",
+    "description": "Tu polla no deja de filtrar por lo llenas de tus bolas, quieres correrte, así que {i} malo! {/i} hasta que te corras tu virilidad aumenta en un 50%, toma un 50% más de excitación y pierdes cincoveces el espíritu en tu próximo orgasmo.Eliminado en el orgasmo.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "VirilityBoost",
+        "DamageReduction",
+        "MultiplySpiritLoss",
+        "RemovedOnOrgasm"
+    ],
+    "EffectPower": [
+        "StatusIcons/blueballs3.png",
+        "50",
+        "-50",
+        "5",
+        "0"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

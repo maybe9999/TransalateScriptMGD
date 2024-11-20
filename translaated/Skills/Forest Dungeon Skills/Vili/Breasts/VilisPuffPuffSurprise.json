@@ -1,0 +1,64 @@
+{
+    "name": "Vili's Puff Puff Surprise",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "7",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Breasts",
+        "Vili's Curse"
+    ],
+    "startsStance": "Breast Smother",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Titfuck",
+        "Blowjob",
+        "Making Out",
+        "Sex",
+        "Breast Smother"
+    ],
+    "requiresTargetStance": [
+        "Breast Smother"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "unusableIfTargetHasTheseSets": [
+        [
+            "Breast Smother",
+            "Breast Smother"
+        ]
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "50",
+    "statusDuration": "3",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] se teletransporta detrás de [TargetName] y presiona sus enormes tetas contra la parte posterior de la cabeza [TargetHisOrHer], atrapando [TargetHimOrHer] entre dos conjuntos de sus senos perfectos, apretando, masajeando y sofocando [TargetHisOrHer] resistencia con la suavidad del cielo.",
+    "miss": "[AttackerName] se teletransporta detrás de [TargetName], pero [TargetHeOrShe] logra mantener [AttackerHimOrHer] lejos!",
+    "statusOutcome": "[TargetName] no puedo evitar disfrutar de la abrumadora sensación de ser encarcelado en dos series de deliciosos escote.[TargetName] está encantado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

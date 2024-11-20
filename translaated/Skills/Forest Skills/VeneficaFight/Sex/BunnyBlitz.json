@@ -1,0 +1,54 @@
+{
+    "name": "Bunny Blitz",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Power",
+    "statusEffectScaling": "0",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "75",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "40",
+    "targetType": "single",
+    "statusEffect": "Stun",
+    "statusChance": "75",
+    "statusDuration": "2",
+    "statusPotency": "0",
+    "statusResistedBy": "Power",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] gruñe a la ligera mientras golpea rápidamente sus caderas a un ritmo salvaje y frenético, dejando los sonidos húmedos de las caderas que resonan en el aire, y [TargetName] paliza con necesidad como su vicio] aprieta más y más apretado con cada impacto, tratando de retirar la semilla [SexWord].",
+    "miss": "[AttackerName] gruñe a la ligera mientras golpea rápidamente sus caderas a un ritmo salvaje y frenético, dejando los sonidos húmedos de sus caderas que se resonan en el aire, ¡pero [TargetYouOrMonsterName] resiste el placer!",
+    "statusOutcome": "[TargetName] rápidamente encuentra [TargetHimOrHer] Auturos bajo [AttackerName], ya que no suelta su apareamiento rápido ni un segundo, dejando a [TargetHimOrHer] jadeando y retorciéndose mientras [TargetHisOrHer] las caderas comienzan a dolor agradablemente.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,290 @@
+{
+    "name": "Work at Vivian's Bar and Brothel.",
+    "CardType": "Inn",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        "Brothel Employee Pass"
+    ],
+    "Speakers": [
+        {
+            "name": "Vivian",
+            "postName": "",
+            "SpeakerType": "Monster"
+        },
+        {
+            "name": "Belle",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Intro",
+            "theScene": [
+                "GetEventAndSetChoice",
+                "Enter the Bar.",
+                "2",
+                "",
+                "IfProgressEqualsOrGreater",
+                "1",
+                "Repeat",
+                "ChangeProgress",
+                "1",
+                "DisplayCharacters",
+                "2",
+                "EndLoop",
+                "Te diriges al alto y brusco camarero de Minotaur aún no está seguro de qué hacer todavía, y mientras caminas hacia el bar, se lanzan algunas miradas lujuriosas en tu dirección.",
+                "Speaks2",
+                "SwapLineIf",
+                "OtherEventsChoice",
+                "Enter the Bar.",
+                "1",
+                "MetBelle",
+                "Hola [ThePlayerName] ... desearía que el jefe me dijera que ibas a comenzar a trabajar aquí, alguien podría haberte agarrado y ni siquiera hubiera sabido que estabas aquí en primer lugar.",
+                "1",
+                "",
+                "Eres nuevo ... soy Belle.Ojalá el jefe me dijo que estábamos haciendo que alguien nuevo, alguien podría haberte agarrado y ni siquiera hubiera sabido que estabas aquí.",
+                "EndLoop",
+                "Belle limpia un vaso mientras ella habla contigo y te mira brevemente.",
+                "Speaks2",
+                "... ¿Estás seguro de que quieres trabajar aquí?",
+                "Usted asiente y Belle sacude la cabeza despectivamente antes de continuar.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Sigh",
+                "Speaks2",
+                "Lo que sea.Aquí está el trato, eliges uno de los trabajos, y te ayudaré lo mejor que pueda, o puedes hacer el trabajo que quiera.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speaks2",
+                "Por supuesto, si alguien te contrata personalmente, estarás en una habitación con ellos haciendo lo que te diga que hagas en lugar de tu turno.",
+                "Speaks2",
+                "Si alguien se pone demasiado duro contigo, grita por ayuda.Este es un establecimiento respetable, y no queremos alborotadores.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Scoff",
+                "Speaks2",
+                "Así que sí, si alguien te da problemas, te rescataré.Si sé que estás trabajando y uh ... si realmente te escucho, eso es ...",
+                "Asiente un poco nerviosamente.Eso no fue muy tranquilizador.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Ella se aclara la garganta.",
+                "Speaks2",
+                "SwapLineIf",
+                "IfTimeIs",
+                "Night",
+                "Muy bien, entonces, ¿dónde quieres trabajar primero?Detrás de la barra conmigo?Como camarero?¿O actuar como un grifo en los agujeros de gloria?",
+                "Day",
+                "Muy bien, normalmente te dejaría elegir dónde trabajar entre la barra, como camarero o como un grifo en los agujeros de gloria, pero los agujeros de gloria están cerrados durante el día, y no está demasiado ocupado, así que solo enviaréTú donde necesito que estés ahora mismo.",
+                "EndLoop",
+                "IfTimeIs",
+                "Day",
+                "Day Random.",
+                "JumpToScene",
+                "PickMenu"
+            ]
+        },
+        {
+            "NameOfScene": "Repeat",
+            "theScene": [
+                "ChangeBG",
+                "Bar.png",
+                "Te diriges a Belle para descubrir qué harás para tu turno, y mientras caminas hacia el bar, se lanzan algunas miradas lujuriosas en tu dirección.",
+                "DisplayCharacters",
+                "2",
+                "EndLoop",
+                "Speaks2",
+                "SwapLineIf",
+                "IfTimeIs",
+                "Night",
+                "Oh, de vuelta para otro turno, ¿eh [ThePlayerName]?¿Alguna preferencia por dónde quieres trabajar hoy?",
+                "Day",
+                "Oh, de vuelta para otro turno, ¿eh [ThePlayerName]?Debería estar bastante tranquilo hasta que llegue la noche, por lo que realmente no importará dónde trabajes ... veamos ...",
+                "EndLoop",
+                "IfTimeIs",
+                "Day",
+                "Day Random.",
+                "JumpToScene",
+                "PickMenu"
+            ]
+        },
+        {
+            "NameOfScene": "PickMenu",
+            "theScene": [
+                "Menu",
+                "Work as a waiter.",
+                "Work behind the bar with Belle.",
+                "RequiresTime",
+                "Night",
+                "Work at the glory holes.",
+                "Belle Picks",
+                "I've changed my mind actually.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Work as a waiter.",
+            "theScene": [
+                "Belle asiente y le dice que recibirá pedidos de los clientes antes de entregarle un gran plato de comida y bebidas.",
+                "Ella te dice en broma que intentes y no te dejes a la vista antes de enviarte.",
+                "JumpToScene",
+                "Waiter Random."
+            ]
+        },
+        {
+            "NameOfScene": "Work behind the bar with Belle.",
+            "theScene": [
+                "Belle asiente y te hace comenzar a ayudarla detrás del bar, limpiar vasos y hacer bebidas para cualquiera que ordena uno.",
+                "SwapLineIf",
+                "IfTimeIs",
+                "Night",
+                "Ella también te recuerda que trabajar detrás de la barra no significa que no puedas ser contratado por ningún cliente que desee tu empresa ...",
+                "Day",
+                "Ella comenta sobre que sea bastante lento durante el día, por lo que es posible que te aburres.",
+                "EndLoop",
+                "JumpToScene",
+                "Bar Random."
+            ]
+        },
+        {
+            "NameOfScene": "Work at the glory holes.",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Sigh",
+                "Belle te da una mirada un poco extraña antes de enviarte a la trastienda para trabajar como un toque de semen para las chicas monstruosas que se alimentan de semen y lo prefieren directamente de la fuente.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Ella te suena a una pequeña caja acolchada en la parte posterior, y las únicas características que puedes ver mientras se restringen son manijas para agarrar y el agujero en la barra que tu polla acaba de pasar.",
+                "Belle te dice que solo vas a estar aquí durante una hora y luego cierra la puerta detrás de ti.",
+                "JumpToScene",
+                "Glory Holes Random."
+            ]
+        },
+        {
+            "NameOfScene": "I've changed my mind actually.",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Sigh",
+                "Belle pone los ojos en blanco ante tus palabras, pero no se opone, permitiéndote considerar lo que quieres hacer a continuación.",
+                "DisplayCharacters",
+                "EndLoop",
+                "ChangeBG",
+                "Inn.png"
+            ]
+        },
+        {
+            "NameOfScene": "Belle Picks",
+            "theScene": [
+                "DisplayCharacters",
+                "EndLoop",
+                "JumpToRandomScene",
+                "Belle sends you to work as waiter.",
+                "Belle gets you to work behind the bar with her.",
+                "Belle sends you to work at a glory hole.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Belle sends you to work as waiter.",
+            "theScene": [
+                "Belle decide que trabajes como camarero y te dice que recibirás pedidos de los clientes antes de entregarte una gran fuente de alimentos y bebidas.",
+                "Ella te dice en broma que intentes que no te quedes a tientas antes de enviarte.",
+                "JumpToScene",
+                "Waiter Random."
+            ]
+        },
+        {
+            "NameOfScene": "Belle gets you to work behind the bar with her.",
+            "theScene": [
+                "Belle decide que la ayudes detrás de la barra, y rápidamente comienzas a ayudarla limpiando vasos y haciendo bebidas para cualquiera que ordena uno.",
+                "SwapLineIf",
+                "IfTimeIs",
+                "Night",
+                "Ella también te recuerda que trabajar detrás de la barra no significa que no puedas ser contratado por ningún cliente que desee tu empresa ...",
+                "Day",
+                "Ella comenta sobre que sea bastante lento durante el día, por lo que es posible que te aburres.",
+                "EndLoop",
+                "JumpToScene",
+                "Bar Random."
+            ]
+        },
+        {
+            "NameOfScene": "Belle sends you to work at a glory hole.",
+            "theScene": [
+                "IfTimeIs",
+                "Day",
+                "Belle Picks",
+                "Belle te lleva a una habitación trasera y explica sin rodeos que vas a trabajar en un agujero de gloria para tu turno como un toque de semen para la chica monstruosa que se alimenta de semen y prefiere directamente de la fuente.",
+                "Ella te suena a una pequeña caja acolchada en la parte posterior, y las únicas características que puedes ver mientras se restringen son manijas para agarrar y el agujero en la barra que tu polla acaba de pasar.",
+                "Belle te dice que solo vas a estar aquí una hora y luego cierra la puerta detrás de ti.",
+                "JumpToScene",
+                "Glory Holes Random."
+            ]
+        },
+        {
+            "NameOfScene": "Waiter Random.",
+            "theScene": [
+                "DisplayCharacters",
+                "EndLoop",
+                "IfTimeIs",
+                "Day",
+                "BoringShiftWaiter",
+                "GoToRandomBrothelWaiterScene"
+            ]
+        },
+        {
+            "NameOfScene": "BoringShiftWaiter",
+            "theScene": [
+                "JumpToNPCEvent",
+                "EasyShiftWaiter"
+            ]
+        },
+        {
+            "NameOfScene": "Bar Random.",
+            "theScene": [
+                "DisplayCharacters",
+                "EndLoop",
+                "IfTimeIs",
+                "Day",
+                "BoringShiftBar",
+                "GoToRandomBrothelBarScene"
+            ]
+        },
+        {
+            "NameOfScene": "BoringShiftBar",
+            "theScene": [
+                "JumpToNPCEvent",
+                "EasyShiftBar"
+            ]
+        },
+        {
+            "NameOfScene": "Glory Holes Random.",
+            "theScene": [
+                "DisplayCharacters",
+                "EndLoop",
+                "GoToRandomBrothelHoleScene"
+            ]
+        },
+        {
+            "NameOfScene": "Day Random.",
+            "theScene": [
+                "DisplayCharacters",
+                "EndLoop",
+                "GoToRandomBrothelDayScene"
+            ]
+        }
+    ]
+}

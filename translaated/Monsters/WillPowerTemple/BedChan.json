@@ -1,0 +1,593 @@
+{
+    "name": "Bed-Chan",
+    "IDname": "Bed-Chan",
+    "species": "Construct",
+    "gender": "female",
+    "description": "Una mujer increíblemente voluptuosa con ojos rosados ​​suaves, cabello blanco y sexy desordenado y piel rosa claro.Su rostro es increíblemente suave y feliz, y ella es una sonrisa alegre y aparentemente permanente.\n\nSu delicioso cuerpo parece mezclarse con las mantas, fusionándose libremente con ellas mientras controla fácilmente cada uno de sus movimientos.Sus delicados brazos son largos y sedosos, terminando con sus dedos finamente delicados.\n\nSus pechos de almohada son una taza G impresionantemente grande, y sus pezones parecen mezclarse con el resto de su piel, mientras que su cintura y caderas curvilíneas son agradablemente lujosas, y se ven atractivamente suaves al tacto.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "True",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        ""
+    ],
+    "perks": [
+        ""
+    ],
+    "stats": {
+        "lvl": "1",
+        "Exp": "10",
+        "max_hp": "100",
+        "max_ep": "10",
+        "max_sp": "1",
+        "Power": "5",
+        "Technique": "5",
+        "Intelligence": "5",
+        "Allure": "5",
+        "Willpower": "5",
+        "Luck": "5"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "100",
+        "Ass": "100",
+        "Breasts": "100",
+        "Mouth": "100",
+        "Seduction": "100",
+        "Magic": "100",
+        "Pain": "100",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "moneyDropped": "0",
+    "ItemDropList": [
+        {
+            "name": "Anaph Herb",
+            "dropChance": "75"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "HitWith",
+            "move": "Spank",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Base",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "-0.055",
+                    "setYalign": "0.23",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/BedChan/Body_BedChan.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Tempt",
+                            "File": "Monsters/BedChan/Body_BedChan_Tempt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Bed",
+                            "File": "Monsters/BedChan/Body_BedChan_Bed.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BedZoomedOut",
+                            "File": "Monsters/BedChan/Body_BedChan_BedZoomedOut.png",
+                            "setXalign": "0.0",
+                            "setYalign": "-0.075"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/BedChan/Face_BedChan_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/BedChan/Face_BedChan_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushPleasure",
+                            "File": "Monsters/BedChan/Face_BedChan_BlushPleasure.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pout",
+                            "File": "Monsters/BedChan/Face_BedChan_Pout.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sadist",
+                            "File": "Monsters/BedChan/Face_BedChan_Sadist.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/BedChan/Expression_BedChan_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "AraAra",
+                            "File": "Monsters/BedChan/Expression_BedChan_AraAra.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Caring",
+                            "File": "Monsters/BedChan/Expression_BedChan_Caring.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "JoySilly",
+                            "File": "Monsters/BedChan/Expression_BedChan_Joy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Kiss",
+                            "File": "Monsters/BedChan/Expression_BedChan_Kiss.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/BedChan/Expression_BedChan_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pleasured",
+                            "File": "Monsters/BedChan/Expression_BedChan_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pout",
+                            "File": "Monsters/BedChan/Expression_BedChan_Pout.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/BedChan/Expression_BedChan_Smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/BedChan/Expression_BedChan_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugHappy",
+                            "File": "Monsters/BedChan/Expression_BedChan_SmugHappy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugSadist",
+                            "File": "Monsters/BedChan/Expression_BedChan_SmugSadist.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "CG",
+            "Set": [
+                {
+                    "Name": "BG",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0",
+                    "setYalign": "0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Backing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0",
+                    "setYalign": "0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBody",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "PlayerBody",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_MC.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBodySilhouette",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Body",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_MCSil.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Sadist",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_ShadowedFace.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Blush",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushLight",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_BlushLight.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushHeavy",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_BlushHeavy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "GuyHair",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Hair",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Hair.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Semen",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Semen",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Semen.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Motion1",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "HipSwing",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_HipSwing1.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Motion2",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "HipSwing",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_HipSwing2.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Expression_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "AraAra",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Expression_AraAra.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Caring",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Expression_Caring.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Kiss",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Expression_Kiss.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Expression_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pleasured",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Expression_Pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Expression_Smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Expression_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugHappy",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Expression_SmugOpenMouth.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "JoySilly",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Expression_Smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pout",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Expression_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugSadist",
+                            "File": "Monsters/BedChan/CG/BedChan_CG_Expression_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

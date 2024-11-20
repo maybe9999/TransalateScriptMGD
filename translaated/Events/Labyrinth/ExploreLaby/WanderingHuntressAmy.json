@@ -1,0 +1,51 @@
+{
+    "name": "Wandering Huntress Amy",
+    "CardType": "Event",
+    "CardLimit": "1",
+    "Description": "Amy prowls within the Labyrinth, ready to pounce and milk you dry with her many tongues!",
+    "requires": [
+        ""
+    ],
+    "requiresEvent": [
+        {
+            "NameOfEvent": "Voracious Huntress Amy",
+            "Progress": "0",
+            "ChoiceNumber": "1",
+            "Choice": "ClearedLabyMatch"
+        }
+    ],
+    "Speakers": [
+        {
+            "name": "Amy",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Fight",
+            "theScene": [
+                "ChangeBG",
+                "Caverns.png",
+                "A medida que sigues caminando más profundamente en la tinky tinkness del laberinto, de repente te encuentras dentro de las cavernas, rodeadas de todos los lados por caminos rocosos que serpentea y giran confusamente, formando un verdadero laberinto natural.",
+                "¡Perplejo, se enfrenta con cautela en este nuevo e inesperado entorno, luego de repente tenso con el sonido lejano de las garras que corren sobre piedra, el ruido de rectificado que hace eco envía un escalofrío de miedo primario en la columna vertebral!",
+                "DisplayCharacters",
+                "1",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "Amy",
+                "Seductive",
+                "Antes de que puedas decidir qué vas a hacer, hay una gran avalancha de movimiento y Amy salta frente a ti con un ronroneo depredador, sus ojos brillan con lujuria y su cola se balanceaba con entusiasmo mientras mortea más cerca, claramente más interesada¡Al ordeñarte seco que en una conversación!",
+                "CombatEncounter",
+                "RunningWontSkipEvent",
+                "NoRunning",
+                "Amy",
+                "StartCombat",
+                "ChangeBG",
+                "dungeon.png",
+                "Con la derrota climática de Amy, las cavernas rocosas se derriten a tu alrededor, devolviéndote a la dura oscuridad del profundo laberinto para continuar tus tribulaciones ..."
+            ]
+        }
+    ]
+}

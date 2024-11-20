@@ -1,0 +1,56 @@
+{
+    "name": "Melty Sweet Domination",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "7",
+    "skillTags": [
+        "Seduction",
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts",
+        "Legs"
+    ],
+    "startsStance": "",
+    "requiresStance": "Breast Smother",
+    "unusableIfStance": [
+        "Penetration"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "45",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "critChance": "15",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "0",
+    "statusDuration": "3",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] Dominualmente mantiene la cara de [TargetName] atrapada entre su suave escote, sacudiendo ligeramente su abundante cofre de un lado a otro mientras frota bruscamente su suave muslo hacia arriba y hacia abajo a lo largo de [TargetHisOrHer] contraproducción, cuidadosamente y metódicamente inculcando una dicha sumisa en todo [TargetHisOrHer] cuerpo.",
+    "miss": "[AttackerName] Dominualmente mantiene la cara de [TargetName] atrapada entre su suave escote, sacudiendo ligeramente su abundante pecho de un lado a otro mientras se frota bruscamente su suave muslo hacia arriba y hacia abajo a lo largo de [TargetHisOrHer] Twitching Cock, pero [TargetHeOrShe] logra soportar el dulce¡estímulo!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,21 @@
+{
+    "name": "DelayedStunned",
+    "description": "Aumenta el retraso de quedarse aturdido nuevamente.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StunDelay"
+    ],
+    "EffectPower": [
+        "1"
+    ],
+    "PlayerCanPurchase": ""
+}

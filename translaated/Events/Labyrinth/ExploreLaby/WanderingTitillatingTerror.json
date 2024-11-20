@@ -1,0 +1,72 @@
+{
+    "name": "Wandering Titillating Terror",
+    "CardType": "Event",
+    "CardLimit": "1",
+    "Description": "Vili wanders these halls, eager to make a mess of you with her breasts!",
+    "requires": [
+        ""
+    ],
+    "requiresEvent": [
+        {
+            "NameOfEvent": "Titillating Terror Vili",
+            "Progress": "0",
+            "ChoiceNumber": "1",
+            "Choice": "ClearedLabyMatch"
+        }
+    ],
+    "Speakers": [
+        {
+            "name": "Vili",
+            "postName": "",
+            "SpeakerType": ""
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Fight",
+            "theScene": [
+                "En lo profundo del laberinto miasmico, de repente te encuentras en la mazmorra del bosque por un breve momento ... luego el aire temblora y la imponente mampostería se desmorona rápidamente a tu alrededor en una vorágine de energía demoníaca.",
+                "DisplayCharacters",
+                "1",
+                "EndLoop",
+                "ChangeBG",
+                "darkCombat.png",
+                "ChangeImageLayer",
+                "Expression",
+                "Vili",
+                "Smug",
+                "... dando paso a la aparición de Vili el vivacious Arch-Imp, que parece claramente la intención de convertirte en su amoroso juguete adicto a Tit, las tetas hechizantes del burbujeante jefe de Buxom que rebotan descaradamente delante de ti.",
+                "Speaks",
+                "¡Kyahaha! ♪ ¡Bienvenido al reino de mis sueños!{i} ¡Tu pesadilla excitante! ♥ {/i}",
+                "GetEventAndSetChoice",
+                "ViliLossScenes",
+                "1",
+                "FightingFinalVili",
+                "GetEventAndSetChoice",
+                "ViliLossScenes",
+                "2",
+                "LabyrinthBattle",
+                "CombatEncounter",
+                "RunningWontSkipEvent",
+                "NoRunning",
+                "Vili",
+                "Phantasmal Vili PuffPuff",
+                "StartCombat",
+                "GetEventAndSetChoice",
+                "ViliLossScenes",
+                "1",
+                "",
+                "GetEventAndSetChoice",
+                "ViliLossScenes",
+                "2",
+                "",
+                "SetChoice",
+                "1",
+                "ClearedLabyMatch",
+                "ChangeBG",
+                "dungeon.png",
+                "Con la derrota climática de Vili, la memoria umbral se dispersa, dejándote solo una vez más en los salones oscuros del laberinto, libre para continuar con tus juicios ..."
+            ]
+        }
+    ]
+}

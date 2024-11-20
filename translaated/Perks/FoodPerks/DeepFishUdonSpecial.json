@@ -1,0 +1,25 @@
+{
+    "name": "Deep Fish Udon Special",
+    "description": "Debido a la naturaleza extraña y perspicaz de la tempura de udon de peces profundos, sus efectos de estado duran un 25% más, así como al aumento de la magia no penetrativa, y las habilidades indulgentes de excitación se ocuparon en un 10%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusEffectDuration",
+        "IndulgentBoost",
+        "NonPenMagicBoost"
+    ],
+    "EffectPower": [
+        "25",
+        "10",
+        "10"
+    ],
+    "PlayerCanPurchase": "No"
+}

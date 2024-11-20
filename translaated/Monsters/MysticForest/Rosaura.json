@@ -1,0 +1,1000 @@
+{
+    "name": "Rosaura",
+    "IDname": "Rosaura",
+    "species": "Plant",
+    "gender": "female",
+    "description": "En el centro de una rosa roja grande y hermosa, una mujer joven con piel bronceada seductora, ojos de color ámbar y cabello escarlata reside.\n\nLas vides y las hojas espinas están tejidas sensualmente sobre su gran cofre y el resto de su cuerpo, pero apenas esconden nada y acentúan su forma sexual.",
+    "encyclopedia": "Plant women who live in the center of beautiful flowers. Contrary to popular belief, these flowers are actually parts of their bodies, and no such thing exists as an alraune without a flower.\n\nThey attack humans by using their sweet fragrance and sweeter nectar to draw them in before striking. Alraune nectar is a known aphrodisiac with powerful effects, so consumption of it is not advised.",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        "Rose Pheromone",
+        "Rose Pheromone",
+        "Rose Pheromone",
+        "Rose Pheromone",
+        "Rosaura's Titillating Temptation",
+        "Titillating Rose",
+        "Loving Rose",
+        "Rosaura's Invitation",
+        "Swaying Rose",
+        "Tempting Rose",
+        "Rosaura's Oral Invitation",
+        "Nectar Laden Vacuum Blowjob",
+        "Nectar Soaking Deepthroat"
+    ],
+    "perks": [
+        "Undeniable Pleasure",
+        "Monster Pacing",
+        "Kissing Adverse",
+        "Honey Trap",
+        "Alluring",
+        "Sex Adept",
+        "Bond Breaker",
+        "Bond Breaker",
+        "Bond Breaker"
+    ],
+    "stats": {
+        "lvl": "15",
+        "Exp": "150",
+        "max_hp": "400",
+        "max_ep": "50",
+        "max_sp": "1",
+        "Power": "8",
+        "Technique": "8",
+        "Intelligence": "15",
+        "Allure": "20",
+        "Willpower": "5",
+        "Luck": "8"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "30",
+        "Ass": "30",
+        "Breasts": "90",
+        "Mouth": "150",
+        "Seduction": "90",
+        "Magic": "150",
+        "Pain": "35",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "20",
+        "Charm": "100",
+        "Aphrodisiac": "150",
+        "Restraints": "10",
+        "Sleep": "150",
+        "Trance": "0",
+        "Paralysis": "0",
+        "Debuff": "10"
+    },
+    "moneyDropped": "400",
+    "ItemDropList": [
+        {
+            "name": "Ugli Herb",
+            "dropChance": "25"
+        },
+        {
+            "name": "Alraune Nectar",
+            "dropChance": "75"
+        },
+        {
+            "name": "Alraune Nectar",
+            "dropChance": "25"
+        },
+        {
+            "name": "Alraune Nectar",
+            "dropChance": "25"
+        },
+        {
+            "name": "Alraune Nectar",
+            "dropChance": "25"
+        },
+        {
+            "name": "Anaph Herb",
+            "dropChance": "50"
+        },
+        {
+            "name": "Anaph Rune",
+            "dropChance": "10"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "Loss Scene",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Rosaura"
+            ],
+            "theScene": [
+                "JumpToEventThenScene",
+                "RosauraCombatEvent",
+                "EdgedSillyLoss"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "StartOfRound",
+            "move": [
+                ""
+            ],
+            "theText": [
+                "|f|DenyPlayerOrgasm|n|"
+            ]
+        },
+        {
+            "lineTrigger": "StartOfCombat",
+            "move": "",
+            "theText": [
+                "|f|GetEventAndSetProgress|/|RosauraCombatEvent|/|0|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|Rosaura acaricia y se burla de su propio cuerpo mientras te da una dulce sonrisa, una maravillosa fragancia de rosa que se extiende por el aire."
+            ]
+        },
+        {
+            "lineTrigger": "SetMusicTo",
+            "move": "",
+            "theText": [
+                "music/Casino/07 After the act.mp3"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Arouse",
+                "Arousara",
+                "Arousero"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¡Ohhhh! ♥ Cutie, ¡eso no es justo!",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmmm! ♥ cariño, ¿no preferirías hacer {i} tú {/i} te sientes bien?'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¡Ahhhh! ♥ oh- ♥ ahora estoy hormigueando por todas partes'.",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mnnn-! ♥ Boy Naughty, ♥ Tal vez debería castigarte por eso. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Electrify",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¿Kya?",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¡Eeeek! ♥ ¡Oh, te voy a castigar por eso!",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¡Ahh! ♥ no tienes {i} otros {/i} magia?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Finger",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Tu polla se sentiría mucho mejor en mí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Vamos, deja de burlarse de mí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Solo fóllame ya cariño. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Dildo",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Tu polla se sentiría mucho mejor en mí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Preferiría lo real. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Solo fóllame ya cariño. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Spank",
+                "Whip"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Mocking|n||f|ChangeImageLayer|/|Face|/|Base|n|'¿Debería decirle a Venefa que estés en el juego de dolor?'",
+                "|f|ChangeImageLayer|/|Expression|/|Mocking|n||f|ChangeImageLayer|/|Face|/|Base|n|'Eso no funcionará en mí, Cutie."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Bondage Net",
+                "Magical Binding"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n||f|ChangeImageLayer|/|Face|/|Base|n|'¡Wh- oye!No puedo placer que te guste exactamente así.",
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n||f|ChangeImageLayer|/|Face|/|Base|n|'Cutie, es mejor que me destaques'.",
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n||f|ChangeImageLayer|/|Face|/|Base|n|Estás en muchos problemas ahora."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Pin"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n||f|ChangeImageLayer|/|Face|/|Base|n|'¡Wh- oye!No puedo placer que te guste exactamente así.",
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n||f|ChangeImageLayer|/|Face|/|Base|n|'Cutie, es mejor que me desanimes'.",
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n||f|ChangeImageLayer|/|Face|/|Base|n|Estás en muchos problemas ahora."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Holy Headpat",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Suspicious|n||f|ChangeImageLayer|/|Face|/|Base|n|'Sabes, el dicho es' detener y oler las flores ', no acariciarlas, ¿verdad?",
+                "|f|ChangeImageLayer|/|Expression|/|Suspicious|n||f|ChangeImageLayer|/|Face|/|Base|n|\"Estoy bastante seguro de que debería ser el que te sostenga y te acaricié la cabeza, cariño\"."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Demon Layer",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¿Kya?",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¡Eeeek! ♥ ¡Oh, te voy a castigar por eso!",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¡Ohhh! ♥ Vamos cariño, no seas así. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¡Oh! ♥ hphm ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Breast Caress",
+                "Breast Massage",
+                "Breast Knead",
+                "Breast Fondle"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmm ... ♥ Juega con mis pechos todo lo que quieras cariño. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Ellos se desbordan en tus manos hm? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Jeje, ♥ No te detengas, sientas y los aprietas al contenido de tus corazones. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Maravillosamente suave, ¿no? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mi, Cutie, eres bastante hábil con tus manos. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Suckle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmm, eres adorable'.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Es como si estuvieras perdido en tu propio pequeño mundo ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Simplemente relájate, succiona todo el tiempo que quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Apuesto a que quieres un poco de néctar. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Grope Ass",
+                "Squeeze Ass",
+                "Massage Ass",
+                "Fondle Ass"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Oh? ♥ ¿Mis caderas llamaron tu atención?Siéntelos todo lo que quieras. ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Soy muy suave al tacto, ¿no? ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Atando mi culo todo lo que quieras, cariño. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'No te detengas, ♥ disfruta de sí. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Seduce",
+                "Enamor",
+                "Smoldering Seduction",
+                "Smoldering Flaunt",
+                "Massaging Seduction",
+                "Mass Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mhmhm, ♥ ¿Crees que puedes hablar dulce? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Oh cariño, me estás haciendo sonrojar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Jeje, eres tan dulce. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Sigue hablando así, y tendré que comerte. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmm, ♥ ahora te quiero {i} mal {/i}. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Ear Tease"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Oh cariño, me estás haciendo sonrojar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|Ella se ríe dulcemente ante tus atenciones.",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmm, eres tan dulce. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¿Quieres que me susurra en tu oído, cariño? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Enfeeble",
+                "Sensitize"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'O-oh querido, hablas en serio ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Qué travieso, ♥ necesitas castigo ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Disarming Appeal"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¿Voy a ayunar cariño? ♥ Te lo llevaré con calma entonces. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Eres tan adorable. ♥ Gente el aliento un poco. ♥ Entonces te burlaré de ti tonto. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Te burlaré bien y lento que Cutie. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Make Out"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Ah? ♥ H-Hold On- ♥' Ella solo puede dejar escapar un gemido amortiguado en tu boca después de eso.",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Oh- ♥ ah- ♥ cutie- ♥' Ella rápidamente comienza a derretirse en el beso.",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmmm. ♥' Ella mira soñadamente a tus ojos mientras tus lenguas se entrelazan."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Kiss",
+                "Deep Kiss",
+                "Lovingly Rough Kiss",
+                "Skillfully Passionate Kiss",
+                "Misty Kiss",
+                "Sensually Seductive Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|Sientes su dulce hormigueo de néctar en tu lengua mientras dominas fácilmente su boca.",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Ah- ♥ cutie- ♥ bésame más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Y-eres un asombroso besador-mmmph-! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Y estás haciendo mi cabeza ir en blanco cariño- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmmm. ♥' Ella mira soñadamente a tus ojos mientras tus lenguas se entrelazan."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Tit Fucking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Ahí tienes cariño, solo disfruta de mis senos suaves. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'No puedes evitarlo, ¿puedes lindo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Jeje, ♥ puedo sentir tu polla palpitando entre mis pechos cada vez que empujas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'No pienses en nada de otro agradecimiento de mi escote. ♥ ¿Está bien cariño? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'Mmm, ♥ No te detengas, disfruta cariño'."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Face Fuck"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|Rosaura solo puede gemir de emoción mientras follas su rostro, sus labios chupan ansiosamente tu longitud mientras su lengua te brinda tentamente.",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|Rosaura gime maravillosamente mientras te arrebata la garganta, su boca firmemente chupando la boca lo que te lleva salvaje con cada empuje, sus ojos te miran con amor.",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|Rosaura ronroneado felizmente mientras empujas sus suaves labios, y ella chupa con amor y lame toda tu longitud mientras tembla de placer."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Penetrate",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n||f|ChangeImageLayer|/|Face|/|Blush|n|Ella gira con una sonrisa, dejándote llevarla por detrás.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Oh, ¿no estás ansioso? ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'No te detengas, ♥ fóllame todo lo que quieras. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Thrust",
+                "Channeling Thrust",
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Jeje, ♥ no pienses en nada más que sexo, ♥ ¿de acuerdo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Eso es, es decir, empujado así. ♥ uno dos, ♥ uno dos. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmmm. ♥ Sigue adelante, solo fóllame. ♥ Juega con mis tetas también si quieres. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmm, parece que te estás divirtiendo. ♥ no te detengas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'No te detengas cariño, dame todo lo que tienes. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Carrying Fuck"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'O-oh mi, ♥ ¿estás perdiendo tu autocontrol? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmmm- ♥ te estás volviendo loco ahora. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Ohhh, ♥ estás haciendo maravilloso cariño. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Debes estar tan reprimido. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'No te detengas cariño, dame todo lo que tienes. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Empowered Thrust",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Ahh?",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Me pregunto cuánto tiempo puedes mantener esto al alza- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¡Ahhh! ♥ Oh, esto es peligroso- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmmm-! ♥ esto es maravilloso- ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n||f|ChangeImageLayer|/|Face|/|Blush|n|Ella gira con una sonrisa, dejándote llevarla por detrás.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Oh, no estás ansioso. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'No te detengas, ♥ fóllame todo lo que quieras. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Thrust",
+                "Channeling Thrust",
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Jeje, ♥ no pienses en nada más que sexo, ♥ ¿de acuerdo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Eso es, es decir, empujado así. ♥ uno dos, ♥ uno dos. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmmm. ♥ Sigue adelante, solo fóllame. ♥ Juega con mis tetas también si quieres. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmm, parece que te estás divirtiendo. ♥ no te detengas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'No te detengas cariño, dame todo lo que tienes. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Carrying Fuck",
+                "Anal Piston"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'O-oh mi, ♥ ¿estás perdiendo tu autocontrol? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmmm- ♥ te estás volviendo loco ahora. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Ohhh, ♥ estás haciendo maravilloso cariño. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Debes estar tan reprimido. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'No te detengas cariño, dame todo lo que tienes. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": "Empowered Thrust",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Ahh?",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Me pregunto cuánto tiempo puedes mantener esto al alza- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¡Ahhh! ♥ Oh, esto es peligroso- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmmm-! ♥ esto es maravilloso- ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Rose Pheromone",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Face|/|Base|n|'Solo relájate cariño, nos diviertamos juntos. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'¿Te gustan las rosas cutie? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Face|/|Base|n|'¿Podrías respirar profundamente a mis feromonas, por favor, Cutie? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'El amor está en el aire cariño. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Tu polla va a estar doliendo por mí pronto. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'No pasará mucho tiempo hasta que todo lo que puedas pensar soy yo. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Titillating Rose",
+                "Loving Rose"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Tu polla se está sacudiendo tanto. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Mmm. ♥ Puedo sentir tu polla palpitando entre mis senos. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'¿Te encanta lo suaves que son, cariño? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'Cariño, ¿sienten que tus caderas se están derritiendo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'Cutie, ♥ No te detengas, solo diviértete. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Nectar Laden Vacuum Blowjob",
+                "Nectar Soaking Deepthroat"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Mmmm, cariño, sabes increíble. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Oh, mi, ♥ tu polla no dejará de tirar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'Me encanta cómo tu polla se desliza por mi garganta. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'Jeje, ¿tu mente va a en blanco? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'Mi néctar te está haciendo aún más duro. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Una vez que mi afrodisíaco lo establece, no podrás ayudarte a ti mismo. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Swaying Rose",
+                "Tempting Rose"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Face|/|Base|n|'Mmmm, ♥ Cada vez que nuestras caderas se encuentran, mi corazón fluta. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Cariño, ♥ no te detengas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'Puedo sentir que te vuelves y palpitando dentro de mí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'Complacer todo lo que quieras lindo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'Cariño, sigue empujando. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'No pienses en nada más que en mí. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Ah- ♥ oh my- ♥ eres bastante hábil. ♥ me estoy acercando ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Ah- ♥ a este ritmo- ♥ Seré el que pierda- ♥"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerEdge",
+            "move": "Sex",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|RosauraCombatEvent|/|EdgedSex|n||c|"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerEdge",
+            "move": "Anal",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|RosauraCombatEvent|/|EdgedAnal|n||c|"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerEdge",
+            "move": "Titfuck",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|RosauraCombatEvent|/|EdgedTitfuck|n||c|"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerEdge",
+            "move": "Blowjob",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|RosauraCombatEvent|/|EdgedBJ|n||c|"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerEdge",
+            "move": "Making Out",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|RosauraCombatEvent|/|Edged|n||c|"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerEdge",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|RosauraCombatEvent|/|Edged|n||c|"
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'¡No puedo aguantar más! ♥ {i} aaaahhh! ♥♥♥ {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'A-Amazzzinggg!♥♥♥'"
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Oh mi? ♥ bueno, me aseguraré de burlarte mucho. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Bueno, supongo que solo tendré que hacerte sentir tan bien que no puedes pensar bien. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Jeje, eres tan adorable cuando estás necesitado. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Sex",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del apretado coño de Rosaura ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Sex",
+            "theText": [
+                "Pero las maravillosas feromonas perfumadas de rosa que llenan sus pulmones te mantienen ausente empujando las caderas, dejándolo con entusiasmo follándola, y su coño le da a tu longitud un apretón apreciativo.",
+                "Pero cuando comienzas a alejarte, encuentras tus manos perdiéndose en la suavidad de su delicioso culo, ¡inconscientemente apretándolo para aprovechar tu agarre en sus anchas caderas para follarla un poco más fuerte!",
+                "Pero intente, como puedas, no puedes dejar de follarla, sus amplias caderas y su coño apretando demasiado tentador para dejar de disfrutar mientras el placer irradia a través de tu ingle.",
+                "Pero de repente se recuesta hacia atrás y te atrapa en un beso apasionado, haciéndote congelarte mientras vierte el dulce néctar en tu boca y los dos follan suavemente, e inconscientemente envuelves tus brazos alrededor de ella.",
+                "Pero ella vuelve hábilmente sus caderas hacia ti, acariciando tu polla sacudida con su honeypot tipo vicio, dejándote temblando de alegría cuando comienzas a empujar a tiempo con ella, el aroma de rosa empalagoso te dejó olvidando lo que estabas haciendo.",
+                "Pero te quedas gimiendo mientras le da a sus caderas anchas un balanceo seductor, apretando y burlándose de tu longitud dentro de ella mientras giraba su cintura, frotando su suave culo contra ti, ¡dejándote espaciado por un momento!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Sex",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'No puedes ayudarte a ti mismo, ¿verdad? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Cariño, ♥ no te detengas todavía. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Solo sigue empujando tus caderas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Mmmm ... ♥ Estamos empezando lindo. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Sex",
+            "theText": [
+                "¡Y logra liberarse de la ranura de goteo de Rosaura!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'Jeje, ♥ Vamos cariño, ♥ póngalo de nuevo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'Eres tan lindo cuando intentas resistir la tentación. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Mmm, ♥ No pienses que te estás escapando tan fácil. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Con cómo tu polla se está sacudiendo, ♥ no pasará mucho tiempo hasta que hayas vuelto por más. ♥'",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Anal",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del culo apretado de la Rosaura ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Anal",
+            "theText": [
+                "Pero las maravillosas feromonas perfumadas con rosa que llenan sus pulmones te mantienen ausente empujando las caderas, dejándolo con entusiasmo follándola, ¡y su trasero le da a tu longitud un apretón apreciativo!",
+                "Pero cuando comienzas a alejarte, encuentras tus manos perdiéndose en la suavidad de su delicioso culo, ¡inconscientemente apretándolo para aprovechar tu agarre en sus anchas caderas para follarla un poco más fuerte!",
+                "Pero de repente se recuesta hacia atrás y te atrapa en un beso apasionado, haciéndote congelarte mientras vierte el dulce néctar en tu boca y los dos follan suavemente, e inconscientemente envuelves tus brazos alrededor de ella.",
+                "Pero te quedas gimiendo mientras le da a sus caderas anchas un balanceo seductor, apretando y burlándose de tu longitud dentro de ella mientras giraba su cintura, frotando su suave culo contra ti, ¡dejándote espaciado por un momento!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Anal",
+            "theText": [
+                "",
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'No puedes ayudarte a ti mismo, ¿verdad? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Cariño, ♥ no te detengas todavía. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Solo sigue empujando tus caderas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Mmmm ... ♥ Estamos empezando lindo. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Anal",
+            "theText": [
+                "¡Y logra sacar su polla de su apretada trasera!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'Jeje, ♥ Vamos cariño, ♥ póngalo de nuevo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'Eres tan lindo cuando intentas resistir la tentación. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Mmm, ♥ No pienses que te estás escapando tan fácil. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Base|n|'Con cómo tu polla se está sacudiendo, ♥ no pasará mucho tiempo hasta que hayas vuelto por más. ♥'",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Making Out",
+            "theText": [
+                "[ThePlayerName] intenta alejarse del beso sumiso de Rosaura ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Making Out",
+            "theText": [
+                "Pero ella presiona ansiosamente nuevamente en el beso con una mirada soñadora en los ojos, tentándolo a consentirla un poco más, ¡y se escapa feliz mientras dominas su boca!",
+                "Pero cuando te alejas, te encuentras anhelando su boca empapada de néctar, y no puedes evitar tirar de [AttackerHimOrHer] de regreso a un beso profundo.",
+                "Pero con el sabor holgazán del néctar y el aroma de rosa dulce en el aire, no puedes alejarte del intoxicante beso."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Making Out",
+            "theText": [
+                "",
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmmm, ♥ no te detengas ahora lindo ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Estás haciendo girar mi cabeza. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Ahh- ♥ Debería ser el que te haga sentir bien ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Making Out",
+            "theText": [
+                "¡Y se las arregla para liberarte de la boca empapada del néctar de Rosaura!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mn- ♥ ah- ♥ realmente debería concentrarme más en ti. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Base|n|'Ahhh ... ♥ ¿Realmente vas a burlarse de mí así? ♥'",
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Titfuck",
+            "theText": [
+                "[ThePlayerName] intenta alejarse de los enormes y suaves senos de la Rosaura que coloca su polla ...",
+                "[ThePlayerName] intenta alejarse de los enormes y almohados pechos de Rosaura sofocando su polla ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Titfuck",
+            "theText": [
+                "Pero, en cambio, te encuentras incapaz de alejarse, sus manos superponen con amor a las tuyas mientras te guía a apretar y tientas sus tetas desbordantes, tentándote a empujar a su profundo escote aún más.",
+                "Pero el encantador aroma de rosa en el aire te llena de deseo por ella, y en su lugar, empujas ansiosamente tu polla entre sus deliciosas tetas, gimiendo felizmente mientras te pierdes en las sensaciones indulgentes y espeluznantes.",
+                "Pero ella simplemente se inclina hacia abajo y comienza a chuparte la cabeza de la polla para mantenerte justo donde te quiere, la sensación de que ella lentamente roda sus voluptuosas tetas en círculos seductores lentos, lo que te hace tirar mientras su lengua vuela a tu punta con fugas.",
+                "Pero Rosaura de repente se vuelve más asertiva con una risita, bombeando rápidamente la longitud de su roca con sus lujosas tetas, y su mente está en blanco un momento mientras jadea, sus pulmones se llenan con sus feromonas perfumadas con rosas.",
+                "Pero en su lugar te encuentras simplemente a tientas regordetas, disfrutando de cómo tus dedos se hunden en su suavidad, sin irreflexión follando su escote mientras ella te sonríe dulcemente hacia ti, te importa que se avise lentamente con el deseo.",
+                "Pero cada vez que vas a alejarte te encuentras empujando instintivamente hacia atrás en su escote celestial, sus manos cubren con amor las tuyas mientras tus palmas permanecen hundidas en sus lujosas tetas, dejándolo lentamente olvidando por qué te gustaría alejarte."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Titfuck",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Cariño, ♥ Sigue acosando mis senos, ♥ ¿De acuerdo? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Oh mi, ♥ eres adorable cuando intentas resistir lo que quieres. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Está bien que no puedas evitarte, ♥ así que sigue follando mis tetas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Parece que lo estás perdiendo. ♥ Continúa, te cuidaré bien. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmm, ♥ ya estás filtrando tanto precum. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Assertive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Hmhmhm, ♥ Cutie, ♥ Si no puedes escapar pronto, ♥ No vas a querer escapar. ♥ Simplemente seguirás follando con ansias mis tetas. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Assertive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Jejeje, ♥ eres {i} no {/i} Escapando mis senos, Cutie. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Titfuck",
+            "theText": [
+                "¡Y logra liberarse del seno maravillosamente suave de Rosaura!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Titfuck",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n||f|ChangeImageLayer|/|Face|/|Base|n|'Hmph, lindo, deberías saber mejor ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Jeje, ♥ Me pregunto cuánto tiempo puedes resistirte a Cutie. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'¿De verdad crees que puedes evitar que tu pene hacia atrás entre mi escote? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'Cariño, ♥ los dos sabemos que quieres seguir jodiendo mis tetas. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Blowjob",
+            "theText": [
+                "[ThePlayerName] intenta alejarse del suave labio de Rosaura envuelto alrededor de su polla ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Blowjob",
+            "theText": [
+                "Pero con la forma en que su cálido néctar pegajoso cubre su longitud de contracción, lo que lo hace más difícil y palpitante con necesidad, te encuentras simplemente empujando su boca, haciéndola ronronear con deleite mientras ella sorbe y chupa tu dolor de polla.",
+                "Pero mientras se balancea hacia arriba y hacia abajo a lo largo, en su lugar, dejas que tu mano descanse en la parte posterior de su cabeza, ayudando a guiarla mientras chupa con amor a tu miembro rígido, lo que lo hice por su apretada garganta una y otra vez.",
+                "Pero el aroma de rosa empalagoso en el aire te deja aturdido y enamorado, felizmente mirando mientras se desliza hacia arriba y hacia abajo de tu polla, sus labios lujosos perfectamente sellados en una forma encantadora mientras su lengua se burla de la parte inferior de tu longitud.",
+                "Pero a medida que una de sus manos comienza a masajear ociosamente tus dolor de dolor, te encuentras mirando a su polla, la sensación de que la boca y la lengua hábil te hacen temblar.",
+                "Pero a medida que se aleja, ella apesta intensamente su punta, haciendo que jadee y dude antes de que la empuje hacia la empuñadura con un gemido intoxicado, y ronronee felizmente mientras lo mira seductoramente.",
+                "Pero mientras su lengua buce y gira alrededor de su eje, frotando su néctar cálido en su piel, solo puede temblar y jadear mientras su polla palpita con placer, el deseo fundido en su cuerpo construye aún más."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Blowjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Mmmm, ♥ más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Hmhmh.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'No te detengas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Sabes muy bien. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Estás filtrando mucho. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Blowjob",
+            "theText": [
+                "¡Y se las arregla para liberarte de la boca llena de néctar de Rosaura!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Blowjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Frown|n||f|ChangeImageLayer|/|Face|/|Base|n|'Solo quería que te sintieras bien cariño ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n||f|ChangeImageLayer|/|Face|/|Blush|n|'Jeje, ♥ Me pregunto cuánto tiempo puedes resistirte a Cutie. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'No es necesario ser tímido. ♥ Podemos seguir adelante. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Face|/|Base|n|'Cariño, los dos sabemos que querías que continuara.'"
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "None",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Base",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.2",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Rosaura/Body_Rosaura.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Face",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Rosaura/Face_Rosaura_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Blush",
+                    "File": "Monsters/Rosaura/Face_Rosaura_Blush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Evil",
+                    "File": "Monsters/Rosaura/Face_Rosaura_Evil.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Rosaura/Expression_Rosaura_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Assertive",
+                    "File": "Monsters/Rosaura/Expression_Rosaura_Assertive.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Caring",
+                    "File": "Monsters/Rosaura/Expression_Rosaura_Caring.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Dominant",
+                    "File": "Monsters/Rosaura/Expression_Rosaura_Dominant.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "DominantLipLick",
+                    "File": "Monsters/Rosaura/Expression_Rosaura_DominantLipLick.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Frown",
+                    "File": "Monsters/Rosaura/Expression_Rosaura_Frown.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Mocking",
+                    "File": "Monsters/Rosaura/Expression_Rosaura_Mocking.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pleasured",
+                    "File": "Monsters/Rosaura/Expression_Rosaura_Pleasured.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Satisfied",
+                    "File": "Monsters/Rosaura/Expression_Rosaura_Satisfied.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Seductive",
+                    "File": "Monsters/Rosaura/Expression_Rosaura_Seductive.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Smug",
+                    "File": "Monsters/Rosaura/Expression_Rosaura_Smug.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Surprise",
+                    "File": "Monsters/Rosaura/Expression_Rosaura_Surprise.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Suspicious",
+                    "File": "Monsters/Rosaura/Expression_Rosaura_Suspicious.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}

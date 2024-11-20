@@ -1,0 +1,21 @@
+{
+    "name": "Evasive",
+    "description": "Aumenta su capacidad de esquivar en combate, mientras que no en una postura en un 10%, incluidos los efectos de estado.",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Slippery"
+    ],
+    "StatReq": [
+        "Technique"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "OutOfStanceEvade"
+    ],
+    "EffectPower": [
+        "10"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

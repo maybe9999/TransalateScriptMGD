@@ -1,0 +1,54 @@
+{
+    "name": "Numb Self",
+    "cost": "20",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "statusEffectScaling": "25",
+    "requiredStat": "20",
+    "skillTags": [
+        "Buffs"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Defence",
+    "statusChance": "100",
+    "statusDuration": "11",
+    "statusPotency": "10",
+    "statusResistedBy": "",
+    "statusText": "Numb Self",
+    "descrip": "¡Disminuye la cantidad de excitación que toma!",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] canaliza la magia para reducir su sensibilidad!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

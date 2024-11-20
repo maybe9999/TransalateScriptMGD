@@ -1,0 +1,47 @@
+{
+    "name": "Rune of Temptation",
+    "itemType": "Rune",
+    "cost": "2000",
+    "descrip": "¡Una runa rara infundida con poder seductor!¡Aumenta Allure por 15!Pero te hace ansioso por el placer sexual, aumentando tu seducción y la sensibilidad de la polla en un 10% al tiempo que reduce tu fuerza de voluntad a las 6.",
+    "requires": [
+        ""
+    ],
+    "perks": [
+        ""
+    ],
+    "hp": "0",
+    "ep": "0",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "15",
+    "Willpower": "-6",
+    "Luck": "0",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "10",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "10",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "useOutcome": "",
+    "useMiss": ""
+}

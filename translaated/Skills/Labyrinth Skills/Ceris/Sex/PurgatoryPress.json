@@ -1,0 +1,55 @@
+{
+    "name": "Purgatory Press",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Power",
+    "statusEffectScaling": "20",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Pain"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "70",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "Defence",
+    "statusChance": "25",
+    "statusDuration": "11",
+    "statusPotency": "-10",
+    "statusResistedBy": "Power",
+    "statusText": "Purgatory Press",
+    "descrip": "",
+    "outcome": "Manteniendo [TargetName] firmemente cubierto debajo de su poderoso cuerpo, Ceris golpea sus caderas con impactos pesados ​​y húmedos, un miembro deslumbrante [TargetHisOrHer] con su coño caliente increíblemente apretado y humeante, enviando ondas de placer reverberantes a través de [TargetName] 'es'.¡Cada vez más dolores de caderas, mientras que la necesidad de correrse burbujas en la ingle [TargetHisOrHer] en medio de la intensa creación de amor!",
+    "miss": "Manteniendo [TargetName] firmemente cubierto debajo de su poderoso cuerpo, Ceris golpea sus caderas con impactos pesados ​​y húmedos, ¡pero [TargetName] logra soportar el ataque sexual!",
+    "statusOutcome": "El impacto constante y salvaje de las caderas de [AttackerName] deja la paliza de [TargetName] en la sumisión necesitada, cálida, [TargetHisOrHer] Wisting dolida por más del tratamiento áspero de Ceris, disminuyendo la defensa de [TargetName] '.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

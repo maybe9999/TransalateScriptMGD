@@ -1,0 +1,35 @@
+{
+    "name": "Resilient",
+    "description": "A través de un entrenamiento riguroso, ha ganado una resistencia del 10% contra todos los efectos de estado.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        "Willpower"
+    ],
+    "StatReqAmount": [
+        "20"
+    ],
+    "PerkType": [
+        "StunRes",
+        "CharmRes",
+        "AphrodisiacRes",
+        "RestraintsRes",
+        "SleepRes",
+        "TranceRes",
+        "ParalysisRes",
+        "DebuffRes"
+    ],
+    "EffectPower": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

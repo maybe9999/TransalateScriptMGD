@@ -1,0 +1,33 @@
+{
+    "name": "Imp Curry Special",
+    "description": "Gracias al curry dulce y picante especialmente sazonado, por el 25%: ¡recibe menos daño afrodisíaco, salga de sueño, resistiría los efectos de la parálisis, resistir los aturdimientos y salir de las posturas y las restricciones más fáciles!¡También obtienes 5 suerte!Los IMP prácticamente vibran con energía después de comer ese curry.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "AphrodisiacAmp",
+        "SleepAmp",
+        "ParalysisAmp",
+        "StunRes",
+        "RemoveRestraints",
+        "GetOutOfStance",
+        "Luck"
+    ],
+    "EffectPower": [
+        "-25",
+        "-25",
+        "-25",
+        "25",
+        "25",
+        "25",
+        "5"
+    ],
+    "PlayerCanPurchase": "No"
+}

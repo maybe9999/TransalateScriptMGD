@@ -1,0 +1,23 @@
+{
+    "name": "Honey Trap",
+    "description": "¡Aumenta la excitación de retroceso a base de encanto a los oponentes en un 25%, y la excitación de retroceso total se ocupó en un 10%!",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Pleasure for Pleasure"
+    ],
+    "StatReq": [
+        "Allure"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "AllureRecoilBoost",
+        "RecoilBoost"
+    ],
+    "EffectPower": [
+        "25",
+        "10"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

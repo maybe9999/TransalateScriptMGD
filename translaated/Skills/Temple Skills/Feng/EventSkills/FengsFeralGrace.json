@@ -1,0 +1,54 @@
+{
+    "name": "Feng's Feral Grace",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "500",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "statusEffectScaling": "0",
+    "requiredStat": "10",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Technique",
+    "statusChance": "100",
+    "statusDuration": "9999",
+    "statusPotency": "15",
+    "statusResistedBy": "Willpower",
+    "statusText": "Feng's Feral Grace",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "¡Esto no necesita mensaje de texto!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Paizuri Inferno",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Power",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "",
+    "requiresStance": "Titfuck",
+    "unusableIfStance": [
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Tailjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "40",
+    "statusDuration": "3",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] lanza aproximadamente [AttackerHisOrHer] senos enormes alrededor de la polla de [TargetName], generando una intensa calidez fundida, haciendo que las tetas de [AttackerName] sean más calientes y más cómodas como [AttackerHeOrShe] se burlan implacablemente de [TargetName] \".",
+    "miss": "[AttackerName] roda aproximadamente [AttackerHisOrHer] enormes senos alrededor de la polla de [TargetName], generando intenso calor fundido.Pero [TargetName] logra soportar el placer atractivo.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

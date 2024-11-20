@@ -1,0 +1,56 @@
+{
+    "name": "Possessively Draining Sex",
+    "cost": "2",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "50",
+    "skillType": "attack",
+    "statType": "Intelligence",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        "Unholy",
+        "Sex"
+    ],
+    "fetishTags": [
+        "Sex"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob",
+        "Entrapping"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": " ",
+    "statusChance": "60",
+    "statusDuration": "6",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Con cada ritmo de la cintura de [AttackerName], sus tatuajes ocultos se destacan misteriosamente con luz oscura, cada impacto que rebota en la polla de [TargetName] que envía un pulso pegajoso de magia desagradable que drena directamente a través de [TargetHisOrHer] todo el cuerpo, envuelto [TargetHimOrHer] en un placer constante que lo hace {i} así que {/i} tentador simplemente llenarla con cada gota [TargetHeOrShe] puede darle.",
+    "miss": "Con cada ritmo de la cintura de [AttackerName], sus tatuajes ocultos se destacan misteriosamente con luz oscura, cada impacto que rebota en [TargetName] envía un pulso pegajoso de magia desagradable que drena directamente a través de [TargetHisOrHer] entero en la parte inferior del cuerpo, pero [TargetName] se las arregla para resistir las sensaciones eufóricas!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|MimicCombatEvents|/|PossessivelyDrainingSex|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

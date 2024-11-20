@@ -1,0 +1,54 @@
+{
+    "name": "Ninja Art: Tornado Suction",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Oral"
+    ],
+    "startsStance": "",
+    "requiresStance": "Blowjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Blowjob"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] Hilts [TargetName] de la virilidad en la boca [AttackerHisOrHer] antes de chuparla poderosamente, haciendo que [TargetName] gime de la sensación intensa como [AttackerHisOrHer] lame la lengua y se arremoline alrededor de [TargetHisOrHer] toda la longitud con la destreza inhumana.",
+    "miss": "[AttackerName] Hilts [TargetName] de la virilidad en la boca [AttackerHisOrHer] antes de chuparla poderosamente como [AttackerHisOrHer] lame la lengua y gira alrededor de [TargetHisOrHer] toda la longitud con la dexteridad inhumana, pero [TargetName] Griss [TargetHisOrHer] dientes y maneja hasta que se manejan con hasta¡Resisten las sensaciones agradables!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

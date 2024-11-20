@@ -1,0 +1,444 @@
+{
+    "name": "FishingCalculator",
+    "CardType": "Event",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Blue Slime",
+            "postName": "",
+            "SpeakerType": "Monster"
+        },
+        {
+            "name": "Perpetua",
+            "postName": "",
+            "SpeakerType": "Monster"
+        },
+        {
+            "name": "???",
+            "postName": "",
+            "SpeakerType": "?"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Trade in fish to Seafoam.",
+            "theScene": [
+                "DisplayCharacters",
+                "1",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Excited",
+                "Speak",
+                "Seafoam",
+                "Oh, ¿tienes pescado a mano que quieres donar?¿Seguro?Recuerde que donar vale un 50% más para el pueblo que su valor base.¡Muy útil para comerciar y tambalear a los visitantes!",
+                "JumpToScene",
+                "TradeInMenu"
+            ]
+        },
+        {
+            "NameOfScene": "Done trading in fish.",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Base",
+                "Speak",
+                "Seafoam",
+                "¡Bueno!¡Diviértete pescando aún más!",
+                "DisplayCharacters",
+                "EndLoop",
+                "JumpToEventThenScene",
+                "BigLakeFishing",
+                "FishingMenu"
+            ]
+        },
+        {
+            "NameOfScene": "TradeInMenu",
+            "theScene": [
+                "SetProgress",
+                "0",
+                "SetChoice",
+                "1",
+                "",
+                "Menu",
+                "MaxMenuSlots",
+                "4",
+                "Trade in one Deep Fish.",
+                "Trade in one Dragon Trout.",
+                "Trade in one Dream Eels.",
+                "Trade in all fish items.",
+                "FinalOption",
+                "Done trading in fish.",
+                "Trade in all Deep Fish.",
+                "Trade in all Dragon Trout.",
+                "Trade in all Dream Eels.",
+                "Trade in all fish items.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "PostTradeValue",
+            "theScene": [
+                "IfProgressEqualsOrGreater",
+                "1",
+                "TradedIn",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "Speak",
+                "Seafoam",
+                "Uhm ... ¿no parece tener ningún pez para comerciar?",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Excited",
+                "Speak",
+                "Seafoam",
+                "¡Eso significa que deberías ir a pescar!",
+                "JumpToScene",
+                "TradeInMenu"
+            ]
+        },
+        {
+            "NameOfScene": "TradedIn",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "Speak",
+                "Seafoam",
+                "¡Ese es [ProgressDisplay] Eros de peces!¡Muchas gracias!La plata hará un buen uso.",
+                "JumpToScene",
+                "TradeInMenu"
+            ]
+        },
+        {
+            "NameOfScene": "Trade in all fish items.",
+            "theScene": [
+                "SetChoice",
+                "1",
+                "AllFish",
+                "JumpToScene",
+                "Trade in all Deep Fish."
+            ]
+        },
+        {
+            "NameOfScene": "Trade in all Deep Fish.",
+            "theScene": [
+                "IfHasItem",
+                "Deep Fish",
+                "TradeInDeepFish",
+                "IfChoice",
+                "1",
+                "AllFish",
+                "Trade in all Dragon Trout.",
+                "JumpToScene",
+                "PostTradeValue"
+            ]
+        },
+        {
+            "NameOfScene": "TradeInDeepFish",
+            "theScene": [
+                "IfHasItemInInventory",
+                "Deep Fish",
+                "250",
+                "TradeIn250DeepFish",
+                "IfHasItemInInventory",
+                "Deep Fish",
+                "100",
+                "TradeIn100DeepFish",
+                "IfHasItemInInventory",
+                "Deep Fish",
+                "50",
+                "TradeIn50DeepFish",
+                "IfHasItemInInventory",
+                "Deep Fish",
+                "10",
+                "TradeIn10DeepFish",
+                "ChangeProgress",
+                "200",
+                "GetEventAndChangeProgress",
+                "SleimVllge",
+                "200",
+                "GiveItemQuietly",
+                "-1",
+                "Deep Fish",
+                "JumpToScene",
+                "Trade in all Deep Fish."
+            ]
+        },
+        {
+            "NameOfScene": "TradeIn10DeepFish",
+            "theScene": [
+                "ChangeProgress",
+                "2000",
+                "GetEventAndChangeProgress",
+                "SleimVllge",
+                "2000",
+                "GiveItemQuietly",
+                "-10",
+                "Deep Fish",
+                "JumpToScene",
+                "Trade in all Deep Fish."
+            ]
+        },
+        {
+            "NameOfScene": "TradeIn50DeepFish",
+            "theScene": [
+                "ChangeProgress",
+                "10000",
+                "GetEventAndChangeProgress",
+                "SleimVllge",
+                "10000",
+                "GiveItemQuietly",
+                "-50",
+                "Deep Fish",
+                "JumpToScene",
+                "Trade in all Deep Fish."
+            ]
+        },
+        {
+            "NameOfScene": "TradeIn100DeepFish",
+            "theScene": [
+                "ChangeProgress",
+                "20000",
+                "GetEventAndChangeProgress",
+                "SleimVllge",
+                "20000",
+                "GiveItemQuietly",
+                "-100",
+                "Deep Fish",
+                "JumpToScene",
+                "Trade in all Deep Fish."
+            ]
+        },
+        {
+            "NameOfScene": "TradeIn250DeepFish",
+            "theScene": [
+                "ChangeProgress",
+                "50000",
+                "GetEventAndChangeProgress",
+                "SleimVllge",
+                "50000",
+                "GiveItemQuietly",
+                "-250",
+                "Deep Fish",
+                "JumpToScene",
+                "Trade in all Deep Fish."
+            ]
+        },
+        {
+            "NameOfScene": "Trade in one Deep Fish.",
+            "theScene": [
+                "IfHasItem",
+                "Deep Fish",
+                "TradeInDeepFishOne",
+                "JumpToScene",
+                "PostTradeValue"
+            ]
+        },
+        {
+            "NameOfScene": "TradeInDeepFishOne",
+            "theScene": [
+                "ChangeProgress",
+                "200",
+                "GetEventAndChangeProgress",
+                "SleimVllge",
+                "200",
+                "GiveItemQuietly",
+                "-1",
+                "Deep Fish",
+                "JumpToScene",
+                "PostTradeValue"
+            ]
+        },
+        {
+            "NameOfScene": "Trade in all Dragon Trout.",
+            "theScene": [
+                "IfHasItem",
+                "Dragon Trout",
+                "TradeInDragonTrout",
+                "IfChoice",
+                "1",
+                "AllFish",
+                "Trade in all Dream Eels.",
+                "JumpToScene",
+                "PostTradeValue"
+            ]
+        },
+        {
+            "NameOfScene": "TradeInDragonTrout",
+            "theScene": [
+                "IfHasItemInInventory",
+                "Dragon Trout",
+                "50",
+                "TradeIn50DragonTrout",
+                "IfHasItemInInventory",
+                "Dragon Trout",
+                "10",
+                "TradeIn10DragonTrout",
+                "ChangeProgress",
+                "7500",
+                "GetEventAndChangeProgress",
+                "SleimVllge",
+                "7500",
+                "GiveItemQuietly",
+                "-1",
+                "Dragon Trout",
+                "JumpToScene",
+                "Trade in all Dragon Trout."
+            ]
+        },
+        {
+            "NameOfScene": "TradeIn10DragonTrout",
+            "theScene": [
+                "ChangeProgress",
+                "75000",
+                "GetEventAndChangeProgress",
+                "SleimVllge",
+                "75000",
+                "GiveItemQuietly",
+                "-10",
+                "Dragon Trout",
+                "JumpToScene",
+                "Trade in all Dragon Trout."
+            ]
+        },
+        {
+            "NameOfScene": "TradeIn50DragonTrout",
+            "theScene": [
+                "ChangeProgress",
+                "375000",
+                "GetEventAndChangeProgress",
+                "SleimVllge",
+                "375000",
+                "GiveItemQuietly",
+                "-50",
+                "Dragon Trout",
+                "JumpToScene",
+                "Trade in all Dragon Trout."
+            ]
+        },
+        {
+            "NameOfScene": "Trade in one Dragon Trout.",
+            "theScene": [
+                "IfHasItem",
+                "Dragon Trout",
+                "TradeInDragonTroutOne",
+                "JumpToScene",
+                "PostTradeValue"
+            ]
+        },
+        {
+            "NameOfScene": "TradeInDragonTroutOne",
+            "theScene": [
+                "ChangeProgress",
+                "7500",
+                "GetEventAndChangeProgress",
+                "SleimVllge",
+                "7500",
+                "GiveItemQuietly",
+                "-1",
+                "Dragon Trout",
+                "JumpToScene",
+                "PostTradeValue"
+            ]
+        },
+        {
+            "NameOfScene": "Trade in all Dream Eels.",
+            "theScene": [
+                "IfHasItem",
+                "Dream Eel",
+                "TradeInDreamEel",
+                "JumpToScene",
+                "PostTradeValue"
+            ]
+        },
+        {
+            "NameOfScene": "TradeInDreamEel",
+            "theScene": [
+                "IfHasItemInInventory",
+                "Dream Eel",
+                "50",
+                "TradeIn50DreamEel",
+                "IfHasItemInInventory",
+                "Dream Eel",
+                "10",
+                "TradeIn10DreamEel",
+                "ChangeProgress",
+                "7500",
+                "GetEventAndChangeProgress",
+                "SleimVllge",
+                "7500",
+                "GiveItemQuietly",
+                "-1",
+                "Dream Eel",
+                "JumpToScene",
+                "Trade in all Dream Eels."
+            ]
+        },
+        {
+            "NameOfScene": "TradeIn10DreamEel",
+            "theScene": [
+                "ChangeProgress",
+                "75000",
+                "GetEventAndChangeProgress",
+                "SleimVllge",
+                "75000",
+                "GiveItemQuietly",
+                "-10",
+                "Dream Eel",
+                "JumpToScene",
+                "Trade in all Dream Eels."
+            ]
+        },
+        {
+            "NameOfScene": "TradeIn50DreamEel",
+            "theScene": [
+                "ChangeProgress",
+                "375000",
+                "GetEventAndChangeProgress",
+                "SleimVllge",
+                "375000",
+                "GiveItemQuietly",
+                "-50",
+                "Dream Eel",
+                "JumpToScene",
+                "Trade in all Dream Eels."
+            ]
+        },
+        {
+            "NameOfScene": "Trade in one Dream Eels.",
+            "theScene": [
+                "IfHasItem",
+                "Dream Eel",
+                "TradeInDreamEelOne",
+                "JumpToScene",
+                "PostTradeValue"
+            ]
+        },
+        {
+            "NameOfScene": "TradeInDreamEelOne",
+            "theScene": [
+                "ChangeProgress",
+                "7500",
+                "GetEventAndChangeProgress",
+                "SleimVllge",
+                "7500",
+                "GiveItemQuietly",
+                "-1",
+                "Dream Eel",
+                "JumpToScene",
+                "PostTradeValue"
+            ]
+        }
+    ]
+}

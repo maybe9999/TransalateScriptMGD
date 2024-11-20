@@ -1,0 +1,25 @@
+{
+    "name": "ForeplayGloves",
+    "description": "Aumente todas las ganancias de EXP en un 10%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "ForeplayDefDown",
+        "ForeplayBoost",
+        "ForeplayEnergyRegen"
+    ],
+    "EffectPower": [
+        "10",
+        "20",
+        "5"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

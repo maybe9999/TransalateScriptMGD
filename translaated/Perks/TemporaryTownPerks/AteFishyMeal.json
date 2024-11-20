@@ -1,0 +1,27 @@
+{
+    "name": "Ate Fishy Meal",
+    "description": "El maravilloso filete de pescado asado al fuego con gordillo de limo que comiste está aumentando tu fuerza de voluntad por 2 y tu energía máxima en +5.| Perks Duración |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "Willpower",
+        "GainEnergy",
+        "TimeDuration",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "2",
+        "5",
+        "6",
+        "The effects of your meal have worn off."
+    ],
+    "PlayerCanPurchase": "No"
+}

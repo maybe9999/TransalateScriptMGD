@@ -1,0 +1,54 @@
+{
+    "name": "Sense Weakness",
+    "cost": "20",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "statusEffectScaling": "25",
+    "requiredStat": "20",
+    "skillTags": [
+        "Buffs"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Crit",
+    "statusChance": "100",
+    "statusDuration": "6",
+    "statusPotency": "15",
+    "statusResistedBy": "",
+    "statusText": "Sense Weakness",
+    "descrip": "¡Encuentra las áreas sensibles de tu oponente más fácilmente, aumentando tu oportunidad crítica!",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "Los sentidos de [AttackerName] se afilan, y pueden ver exactamente cómo placer [AttackerHisOrHer] enemigos!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

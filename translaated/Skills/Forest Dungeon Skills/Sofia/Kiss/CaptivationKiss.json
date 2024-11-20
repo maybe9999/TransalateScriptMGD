@@ -1,0 +1,58 @@
+{
+    "name": "Captivation Kiss",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "50",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth"
+    ],
+    "fetishTags": [
+        "Kissing"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Blowjob",
+        "Face Sit",
+        "Footjob",
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Face Sit"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Sleep",
+        "Charm"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "70",
+    "statusDuration": "6",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Besa a tu oponente.",
+    "outcome": "[AttackerName] breve brevemente [TargetName] en los labios como la lengua [AttackerHisOrHer] de la lengua invadiendo sensualmente la boca [TargetHisOrHer] antes de alejarse, dejando atrás una marca de lápiz labial húmedo.",
+    "miss": "[AttackerName] intenta besar [TargetName], pero [TargetHeOrShe] se mantiene fuera del alcance.",
+    "statusOutcome": "¡La mentalidad de [TargetName] es rosa![TargetName] está encantado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

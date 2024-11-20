@@ -1,0 +1,77 @@
+{
+    "name": "Elven Ambush",
+    "Addition": "Yes",
+    "Speakers": [
+        {
+            "name": "Blue Slime",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "EventStart",
+            "theScene": [
+                "Mientras camina pacíficamente por el bosque, no puedes evitar sentir que estás siendo observado ... aparte del limo azul que intenta esconderte en el arbusto detrás de ti.",
+                "Menu",
+                "Keep your wits about you. (Int)",
+                "Trust in your reflexes. (Tech)",
+                "Walk forward without a care in the world.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Step over it.",
+            "theScene": [
+                "Pasas cuidadosamente el cable y continúas en tu camino, solo para escuchar a algunos elfos gritando no mucho después.",
+                "DisplayCharacters",
+                "1",
+                "2",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Shock",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "Sonrojo de choque",
+                "Te giras, listo para pelear, solo para ver cómo dos elfos, que presumiblemente establecen la trampa en primer lugar, desencadenan el Trip -Wire y se elevan al aire.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Flustered",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "Tsun Blush",
+                "Parecen bastante avergonzados por ser atrapados por su propia trampa.Te miran torpemente mientras colgan suavemente en el aire.",
+                "Speaks",
+                "Uhm ... y no estaría dispuesto a bajarnos desde aquí, ¿verdad?¿Merculoso héroe?",
+                "Speaks2",
+                "Sabemos que hay un limo escondido en ese arbusto allí, por favor no nos deje a sus caprichos ...",
+                "Speaks3",
+                "{i}Sneaking..!{/i}~",
+                "Menu",
+                "Get them down.",
+                "Leave them there.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Leave them there.",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Tsun Blush",
+                "ChangeImageLayer",
+                "Expression",
+                "2",
+                "Tsun Blush",
+                "Decides continuar en tu camino, ignorando las súplicas de los elfos.Intentaron atraparte en esa trampa, después de todo.Se merecen un sabor de su propia medicina, ¿no?",
+                "A medida que te alejas, estás bastante seguro de que escuchas el sonido de los ruidos gelatinales detrás de ti, los gemidos lascivos de los elfos que resonan en el bosque ..."
+            ]
+        }
+    ]
+}

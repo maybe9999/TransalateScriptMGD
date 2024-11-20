@@ -1,0 +1,55 @@
+{
+    "name": "Smothering Purgatory",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Penetration",
+        "Breasts"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "55",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "50",
+    "statusDuration": "11",
+    "statusPotency": "1",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Por un breve momento, Ceris libera las manos de [TargetName] de su alcance, pero antes de [TargetHeOrShe] puede aprovechar esto, se apodera firmemente de los tobillos [TargetHisOrHer] y aprovecha la cintura [TargetHisOrHer] en una posición recién indefensa,Mientras se inclina lo suficiente como para enterrar por completo la cara [TargetHisOrHer] en sus pesadas tetas. | N | Reduciendo la velocidad de sus caderas balanceándose, se ríe dulcemente viendo a [TargetHimOrHer] tratar de empujar sus lujosas tetas para obtener espacio para respirar, solo para fallar y fallarEn su lugar, encontrar la cara [TargetHisOrHer] cubierta por sus abundantes tetas, la posición que hace que [TargetHimOrHer] inhale irresistiblemente cada vez más de sus feromonas humeantes que se nubla [TargetHisOrHer] con la lujuria indulgente, dejando [TargetHimOrHer] aturdido en su toque de almohada mientras se acumulan indulgenteEn un desastre de placer ... | N | Eventualmente, la lujuria que atraviesa la cabeza sofocada de [TargetName] se vuelve tan intoxicantemente escalofriante que [TargetHeOrShe] comienza a marear, lo que lleva a The Hellhound a moverse con un reír y en su lugar amorosamenteInterlocking sus manos mientras deja que [TargetHimOrHer] se recupere momentáneamente con pesados ​​tragos aturdidos de aire.",
+    "miss": "Por un breve momento, Ceris libera las manos de [TargetName] de su alcance, pero como [TargetHeOrShe] trata de aprovechar esto, ella obliga a [TargetHimOrHer] de regreso a esa posición dominante.",
+    "statusOutcome": "La sensación de sus enormes tetas cargadas de feromonas y las caderas que oscilan implacablemente deja una sonrisa aturdida y feliz en la cara de [TargetName], ya que [TargetHeOrShe] es encantada por la mujer Hellhound.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

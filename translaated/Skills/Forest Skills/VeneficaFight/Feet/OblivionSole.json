@@ -1,0 +1,58 @@
+{
+    "name": "Oblivion Sole",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Intelligence",
+    "requiredStat": "7",
+    "skillTags": [
+        "Sex",
+        "Magic"
+    ],
+    "fetishTags": [
+        "Feet"
+    ],
+    "startsStance": "",
+    "requiresStance": "Footjob",
+    "unusableIfStance": [
+        "Penetration"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "requiresPerk": [
+        "Curse of Oblivion"
+    ],
+    "power": "50",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "critChance": "15",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "999",
+    "statusDuration": "3",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Con una dulce risa [AttackerName] se desliza lentamente de su bota de tacón de su pierna suave y larga frente a [TargetName], antes de presionar su pie ahora descal.de magia oscura a través de la cintura [TargetHisOrHer] que dejan [TargetHisOrHer] caderas sacudiéndose en busca de una sumisión más dulce.",
+    "miss": "Con una dulce risa [AttackerName] se desliza lentamente de su bota de tacón de su pierna suave y larga frente a [TargetName], antes de presionar su pie ahora descalzo sobre [TargetHisOrHer] polla rígida, metódicamente acariciándola hacia arriba y hacia abajo, pero [TargetHeOrShe] se las arregla para soportar la placentera dominación!",
+    "statusOutcome": "The dark magic pulses with the insidious curse laid upon [TargetName], gradually melting away all reason with a heart skipping infatuation for feet as the skilled sole teasing [TargetHimOrHer] leaves [TargetHimOrHer] increasingly sensitive by the moment.|f|ChangeFetish|/|Feet|/|10|n||f|ChangeSensitivity|/|Sex|/|2|n|With a laugh Venefica stops her assault and slides her long boot back on, letting your captivated eyes watch.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

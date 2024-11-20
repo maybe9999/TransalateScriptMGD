@@ -1,0 +1,27 @@
+{
+    "name": "Ate Jumbo Feast",
+    "description": "La maravillosa pierna de jabalí asada jumbo con una mezcla de especias.Comió está aumentando su potencia en 5, y su excitación máxima en +10.| Perkduration |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "Power",
+        "GainArousal",
+        "TimeDuration",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "5",
+        "10",
+        "6",
+        "The effects of your meal have worn off."
+    ],
+    "PlayerCanPurchase": "No"
+}

@@ -1,0 +1,2236 @@
+{
+    "name": "Ceris",
+    "IDname": "Ceris",
+    "species": "Demonic Beast",
+    "gender": "female",
+    "description": "Una mujer impresionantemente alta e imponente con piel de carbón y músculos poderosos.\n\nSu cabello negro hasta la cadera es salvaje, esponjoso y sin cuellas, enmarcando su rostro mientras se coloca sobre sus hombros.Su cabeza está cubierta con dos grandes orejas de lobo que están ligeramente con punta con piel roja naranja, y la pelusa interna coincide con este color ardiente.\n\nSus llamativos ojos son de rojo sangre, que brillan terriblemente en su esclera negra, mientras que las llamas rojas parpadean en los bordes exteriores.Su sonrisa cálida, acogedora y es compensada por sus impresionantes fauces de dientes afilados que parece estar interesado en presumir.\n\nSu cuello y su hueso de cuello están enmarcados por un gran mechón de piel esponjoso que casi parece una pequeña boa de plumas alrededor de su cuello, y con las rayas de pelaje rojo-naranja casi parece fuego.Justo debajo de eso se encuentran sus firmes senos DD Cup, que apenas están cubiertos por su apretada camiseta de tanque roja, que muestra su generoso escote y termina justo antes de sus impresionantes abdominales.\n\nSus brazos tienen grandes mechones esponjosos y rojos teñidos poco después de sus hombros, y el resto de sus brazos están cubiertos de piel negra, antes de terminar en grandes y aterradoras garras con forma de pata.\n\nSu sección media está en exhibición completa, mostrando sus abdominales esculpidos, antes de que su cintura se curva en sus atractivas caderas, vestida de pantalones cortos increíblemente recortados que prácticamente cubren solo unas pocas pulgadas de ancho sobre sus caderas, manteniendo su abdomen y muslos tentadores visibles.\n\nSus piernas lisas continúan hasta justo antes que sus rodillas, donde luego se vuelven pelados con rojo y negro, terminando en monstruosos pies con garras.Desde detrás de su trasero se aferran a una cola enorme y esponjosa, estampada con mechones rojos y naranjas.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        "Pawjob",
+        "Hellish Heft",
+        "Hellish Temptation",
+        "Hellish Invitation",
+        "Hellish Kiss",
+        "Passionate Hell",
+        "Infernal Grind",
+        "Hellish Ride",
+        "Infernal Impact",
+        "Purgatory Pin",
+        "Hellish Prison",
+        "Infernal Compulsion",
+        "Hellish Rub",
+        "Purgatory Press",
+        "Loving Purgatory",
+        "Smothering Purgatory"
+    ],
+    "perks": [
+        "Unshackled",
+        "Unbounded",
+        "Bond Breaker",
+        "Uncontainable",
+        "Grappler",
+        "Restraining Expert",
+        "Nerves Of Steel",
+        "Aphrodisiac Tolerant",
+        "Loving",
+        "Intimate Lover",
+        "Intimate Lover",
+        "Alluring",
+        "Pleasure for Pleasure",
+        "Honey Trap",
+        "Lovers Passion",
+        "Great Tits",
+        "Sex Adept",
+        "Monster Pacing",
+        "Monster Pacing",
+        "Hellhounds Hunt"
+    ],
+    "stats": {
+        "lvl": "40",
+        "Exp": "600",
+        "max_hp": "666",
+        "max_ep": "200",
+        "max_sp": "1",
+        "Power": "45",
+        "Technique": "20",
+        "Intelligence": "10",
+        "Allure": "40",
+        "Willpower": "25",
+        "Luck": "5"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "90",
+        "Ass": "90",
+        "Breasts": "130",
+        "Mouth": "100",
+        "Seduction": "130",
+        "Magic": "100",
+        "Pain": "1",
+        "Holy": "125",
+        "Unholy": "75"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "50",
+        "Charm": "0",
+        "Aphrodisiac": "10",
+        "Restraints": "50",
+        "Sleep": "25",
+        "Trance": "0",
+        "Paralysis": "0",
+        "Debuff": "10"
+    },
+    "moneyDropped": "1000",
+    "ItemDropList": [
+        {
+            "name": "Tranquility Jelly",
+            "dropChance": "10"
+        },
+        {
+            "name": "Inferno Rune",
+            "dropChance": "15"
+        },
+        {
+            "name": "Hellfire Hat",
+            "dropChance": "5"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "InSexLoss",
+            "move": "",
+            "stance": "Sex",
+            "includes": [
+                "Ceris"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Grin",
+                "Ceris lets out a low laugh as she leans back while bouncing on your throbbing hot cock, giving you a brief respite despite your twitching spent state, unable to even try and squirm much at this point.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "Speaks",
+                "Looks like that's it for you. But don't worry, you did your best.♪ Now,♪ Let's go for at least a {i}few more rounds.♥{/i}",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "SmugKnowing",
+                "Her tail sways behind her as she takes a moment to slowly gyrate her wide hips in a slow circle, drawing a moan from you as the pleasure pulses through your spasming erection.",
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "1",
+                "Sex",
+                "PlayMotionEffect",
+                "Crash",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "Speaks",
+                "Oh, and by a few, I mean at least {i}ten.♥{/i}",
+                "ChangeImageLayer",
+                "Motion",
+                "1",
+                "Motion",
+                "PlayMotionEffect",
+                "BounceOnce",
+                "After letting her husky voice hang in the air for a moment she starts to swing her waist at a rapid tempo, slamming her wide hips down on your aching dick at an unrelenting pace, sending ricocheting bolts of pleasure through through entire waist while she excitedly growls.",
+                "JumpToScene",
+                "SexLossScene"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "TitfuckLoss",
+            "move": "",
+            "stance": "Titfuck",
+            "includes": [
+                "Ceris"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "SmugKnowing",
+                "With your still fully erect cock trapped between Ceris' pillowy, steamy tits, she languidly bounces her heavy bust with a smirk, making you twitch and moan powerlessly as she settles between your legs, the victorious monster girl looking upon you with a soft seductive chuckle as she wraps her powerful clawed hands around your body, her big fluffy tail wagging excitedly behind her.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "Speaks",
+                "Mmmm.♥ Looks like you can't struggle anymore.♥ That's okay, you did your best.♪ Hmm...♪",
+                "The hellhound woman slowly slides her paws from behind your waist to her bountiful tits, firmly squeezing them together, the hot vice of cleavage around your sensitive erection coaxing out a surprised gasp from you as your hips jerk up thoughtlessly on pleasured instinct and your trembling cock spurts a single defeated rope of semen that splatters on her bust and face, drawing a purring growl from the ravenous lady.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Speaks",
+                "Hmm...♥ You know... normally, I'd just push you down and ride you until your hips feel like they might break...♥ {i}But{/i}...♪",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "She licks her lips to lap up your stray seed while the rest evaporates steamily from her hellishly warm body, your cock throbbing eagerly between her huge tits as her infectious warmth seeps into your manhood and down to your very core, eroding away at your sense of reason with increasingly heated lust that leaves you heavily gasping.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "Speaks",
+                "You're just {i}too cute{/i}.♥ Your sultry moans, your blissful face, your huggable body, the way you shiver in climax...♥ Hahhh,♥ it just makes me want to pamper and tease you way too much.♥",
+                "She rolls her heavy pillowy tits in slow circles all through her amorous praise, massaging your dick from every angle and imbuing it with her indulgent soft warmth while you lay helplessly on the ground, her half-lidded gaze never leaving your face as she watches you enjoy her enveloping prison of steamy cleavage, smiling and cooing as you gasp and moan from the irresistible swelling pleasure.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "Speaks",
+                "So I'll service you {i}tenderly{/i} and {i}lovingly{/i}... and you can just relax and enjoy yourself...♪",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Speaks",
+                "... While I milk out load after load from your dick until my tits are alllll you can think about.♥",
+                "With a low and seductive domineering hum, she resumes languidly bouncing her heavy breasts while tightly squeezing them together like a cushiony hug over your whole dick, instantly making you yelp from the sudden influx of hot and heavy ecstasy melting into your waist, more and more of Ceris' hellish heat infectiously spreading through your lower body, your needy throbbing erection uncaring for how spent and exhausted you feel.",
+                "Ceris' tits obscenely jiggle every time they impact your trembling hips, your mind blanking out as you can't help but lose yourself in the doting hellhound's smoldering eyes and bouncing cleavage, your face going slack from the mind-numbingly hot bliss you're being filled with.",
+                "It's not long before your resistance breaks again and you shiver and moan as your manhood erupts thick spurts of cum all over her tits like a geyser... but your moans only intensify with a strangled noise of helpless pleasure as she keeps pumping her steam-and-cum-slicked cleavage up and down, watching your reactions with predatory affection.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "Speaks",
+                "Mmmmhh, just bask in that warmth... and let it overflow... okay?♥",
+                "She cooingly whispers in her mesmerizingly husky voice, slowing her bouncing breasts to asynchronous rolls of her cleavage before tightly sandwiching them together again as your seed evaporates to be immediately replaced with fresh precum dribbling from your pulsing rock-hard manhood.",
+                "Blinking blearily, you realize with a gasp that you're dumbly thrusting up into her heavy tits despite your weakness, hot cascades of pleasure spreading through you as you blindly, unresistingly indulge in her bust, yielding to the aching heat overtaking you.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "SmugKnowing",
+                "Speaks",
+                "See? It feels {i}so{/i} good.♥ Just let me take care of alllll that naughty lust for you.",
+                "In your warm steamy confusion, you thoughtlessly keep fucking her pillowy tits, losing yourself in the increasingly ruinous sensations, the hellhound woman giving her tits a teasing shake back and forth while they wobble from your wanton thrusting, your eyes always drifting back to the jiggling sight of her indulgent bosom as the hot steamy warmth conquers your body, your tongue lolling out as you gasp and pant mindlessly.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "While she keeps her cleavage tightly pressed together for you in a warm prison of self-indulgence, she purrs happily at your huffing surrender to the heated lust swelling inside you and your blissfully slack face. Shortly, your mind blanks out again, your thoughtless thrusting rapidly pushing you over the edge once more as you break yourself against her tits, throwing your head back in delight as you coat her in more semen.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "But when you slump and gasp to recover from the dizzying orgasm, she denies you any rest and starts wildly pumping her tits up and down again, making you jerk and twitch in incoherent mewling pleasure.",
+                "Your helpless reaction of bliss-addled powerlessness obviously stoking her dominant inclinations, she licks her lips hungrily, your hot and spastically throbbing manhood starting to feel like it might not stop cumming at all if she keeps bouncing her intoxicatingly soft and heavy bust like this, the curvy hellhound smiling up at you as she unrelentingly continues to milk you stupid with more doting coaxing.",
+                "Speaks",
+                "Just {i}relaxxxx{/i}, cum out all those cares and worries and just {i}enjoy yourself{/i}. You're doing {i}great{/i}.",
+                "In response, you can only whine as her hellishly pleasurable prison of steamy cleavage threatens to overwhelm you entirely. Gathering up what little lucidity you have left, you reach up despite your weakness to try and push her breasts away in a desperate effort to escape your steamy-hot smothering fate...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "...but she purrs amusedly in response and deftly snatches your hands in hers, pressing your palms into her pillowy tits as she keeps bouncing them, letting your greedy fingers feel every jiggly impact rippling through her plush softness with a triumphantly horny expression.",
+                "Speaks",
+                "Touch them allllll you want... and don't hesitate to keep thrusting those hips... You know you want to.♥",
+                "With her sensually purring voice melting through your hell-heated, pleasure-drunk senses, and your hands trapped against her plump tits, your last shreds of reason melt away, growing fainter with each downward slap of her cleavage. Despite your exhaustion, you obey her honeyed incitement and dumbly hump her breasts in time with her movements, every jiggle-inducing thrust emptying out your mind, leaving only a hot, needy urge for sex.",
+                "With your head burning and spinning, you happily accept the melty embrace of Ceris' warm breath and hands, her very gaze seeming to bore into you and fill your mind with more vapidly submissive urges to just keep basking in the luxurious titfucking and cum for her again and again and again, the mere idea driving you to another explosive orgasm.",
+                "You throw your head back with a pleasure-drunk cry as you erupt again between her tits, but can't bring yourself to stop thrusting this time either, your throbbing erection too overheated and lusting for more of Ceris' tits, the hellhound purring as she presses her weight forward, pinning your waist partially against the floor with a smile while she languidly helps you squeeze and massage her bust against your shaft while you thrust.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Speaks",
+                "Good boy.♥ Doesn't that feel so wonderful?♥",
+                "As you spurt all over her warm intoxicating cleavage again after just a few frantic thrusts this time, all you can manage is a messy, pleasure-drunk 'Yesh!' as you keep eagerly indulging in her huge sweltering tits, your aching erection not abating in the slightest as Ceris lets you lose yourself in her body, the slow teasing squeezes and caresses of her bountiful tits making you swoon with oozing pleasure as you spurt again and again...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "Everything becomes but a steamy blur of bliss as your world reduces itself to Ceris' warm presence, the silken vice of her tits, her big comforting hands against yours, the burning-hot love radiating from her gaze, and the continued indulgent incitement she lavishes you with, making you feel like you could just stay lying there and cum for her without end...",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "...Until your body eventually can't take any more and you crumple back on the floor with a shuddering series of exhausted gasps, your vision spinning on the brink of losing consciousness. Rumbling in unabated arousal, the hellhound licks her lips as she stands up to free your still impossibly hard cock from her bust, and moves to straddle your hips with her drooling pussy.",
+                "Speaks",
+                "Hmmhmm, you really enjoyed that.♥ Now let's-",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Surprised",
+                "Looking down, she realizes that you're well and truly spent, your body fading away after more titfucking orgasms than you can count.",
+                "Speaks",
+                "Aw- wait- I'm really horny after that!",
+                "As everything goes dark and you disappear completely, you can faintly hear her husky warm voice chasing after you temptingly, almost demandingly.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Sigh",
+                "Speaks",
+                "You tease!♥ You better come back and fuck me!♥♥",
+                "...",
+                "ChangeSensitivity",
+                "Sex",
+                "10",
+                "ChangeSensitivity",
+                "Seduction",
+                "5",
+                "ChangeFetish",
+                "Breasts",
+                "10"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "SexLoss",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Ceris"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Sigh",
+                "You lay trembling on the ground, completely exhausted and spent while Ceris towers over you with a lazy stretch, sighing contentedly, her heavy tits bouncing along with her movements.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "SmugKnowing",
+                "Speaks",
+                "Mnng-♥ well,♪ it looks like you're {i}all{/i} tuckered out.♥ But I'm sure you can manage a {i}few{/i} more rounds for me.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Grin",
+                "She excitedly straddles your waist, her large fluffy tail swishing back and forth behind her as she lines up her drooling pussy to your still achingly hard cock, a throbbing residual heat still pulsing through you from her touch.",
+                "ChangeImageLayer",
+                "ImageSetDontCarryOver",
+                "1",
+                "Sex",
+                "PlayMotionEffect",
+                "Crash",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "Speaks",
+                "Oh, and by a few, I mean at least {i}ten.♥{/i}",
+                "ChangeImageLayer",
+                "Motion",
+                "1",
+                "Motion",
+                "PlayMotionEffect",
+                "BounceOnce",
+                "After letting her husky voice hang in the air for a few moments she slams her hips down and starts to ride your aching cock at an unrelenting pace, sending waves of melty pleasure through your waist with each wet impact while she growls with excitement.",
+                "JumpToScene",
+                "SexLossScene"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "SexLossScene",
+            "move": "theScene",
+            "stance": "NoEntry",
+            "includes": [
+                "Ceris"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "PlayMotionEffect",
+                "BounceOnce",
+                "You can only twitch and moan under the powerful hellhound woman as she bounces on your throbbing shaft, a warm, molten heat slowly filling your entire waist, your jaw slightly slack as you ride the pleasure running through you in a constant rhythm of shockwaves.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "PlayMotionEffect",
+                "BounceOnce",
+                "Ceris lets out blissful gasps of pleasure as she rides your rigid length like her own personal sex toy, her heavy tits bouncing alluringly with each swing of her waist while she looks down at you with raw lust.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "Speaks",
+                "You're doing great.♥ Just let me do {i}all{/i} the work.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Horny",
+                "ChangeImageLayer",
+                "Face",
+                "1",
+                "Blush",
+                "PlayMotionEffect",
+                "SwayOnce",
+                "PlayVisualEffect2",
+                "ScreenPulse",
+                "pink.png",
+                "You shiver and moan as she sways and grinds her wide hips on occasion amid her wild pumping tempo, the warm desire ridden heat completely taking your entire lower body, your aching cock hotly pulsing inside her as it eagerly stays as hard and large for her as it can, despite the soreness already in your pelvis.",
+                "Speaks",
+                "Mmmm-♥ I really love the way you moan-♥ It's cute.♥ Hey, come on,♥ you can thrust still, right?♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "PlayMotionEffect",
+                "BounceOnce",
+                "PlayVisualEffect2",
+                "ScreenPulse",
+                "pink.png",
+                "Her low voice sends a shiver through you as she teasingly compliments you, and you barely register your warm, melty waist as it starts to eagerly swing up into Ceris's movements, leaving you moaning in a daze with each upward thrust of your cock into her tight, squeezing pussy, as she slams her hips down onto you, doubling the resonating pleasure in your waist.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Horny",
+                "Speaks",
+                "Mnn-!♥ That's it-♥ Amazing-♥ Haao-♥ I want more-!♥",
+                "PlayMotionEffect",
+                "BounceOnce",
+                "PlayVisualEffect2",
+                "ScreenPulse",
+                "pink.png",
+                "With little warning she suddenly descends on you, grabbing your hands with hers and sloppily crashing her soft lips into yours, forcing you into a sudden make out session while she wantonly rides you into the ground, her thick hips bouncing wildly into your feeble, instinctive thrusts, her huge tits pressing softly against your chest all the while.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Orgasm",
+                "ChangeImageLayer",
+                "Face",
+                "1",
+                "BlushHeavy",
+                "PlayVisualEffect",
+                "OrgasmPulse",
+                "white.png",
+                "PlayMotionEffect",
+                "Crash",
+                "Your eyes roll up slightly as the extra bit of smothering affection pushes you over the edge, leaving you moaning into her mouth as she dominates your tongue with hers, your hips bucking up against hers as you start to spurt thick ropes of cum into her intoxicatingly warm pussy, making her swinging waist tensing up along with her firmly squeezing hole, moaning blissfully into you from the a small climax running through her powerful body.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "ChangeImageLayer",
+                "Face",
+                "1",
+                "Blush",
+                "PlayMotionEffect",
+                "BounceOnce",
+                "PlayVisualEffect2",
+                "ScreenPulse",
+                "pink.png",
+                "She keeps riding you all through your shared orgasm, with slow impactful movements that make you tense up in redoubled pleasure, until she breaks the messy kiss with a happy sigh, a bit of saliva still connecting you. You lay gasping under her while she takes the moment to appreciate your pleasure drunk face, her claws tightening around your inert hands.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "Speaks",
+                "That was wonderful.♥ But, we're not done yet [ThePlayerName].♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Seductive",
+                "PlayMotionEffect",
+                "SwayOnce",
+                "The insatiable woman starts to slowly ride your twitching shaft again, lovingly rubbing her tits against you with a playful growl, and your hips weakly jerk up into her movements, hot needy lust from your intimate connection now permeating your entire body like an unquenchable flame.",
+                "Speaks",
+                "I want to keep going until I've had my fill, and you're just a twitching sex driven mess.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "PlayMotionEffect",
+                "BounceOnce",
+                "PlayVisualEffect2",
+                "ScreenPulse",
+                "pink.png",
+                "You gasp as she bounces on your spasming cock with increasing speed and force, leaning in to affectionately nibble and bite along your shoulder and neck, her powerful claws keeping your arms helplessly pinned as she fucks you into a hot and bothered stupor, the warmth of her plush body only fanning the lustful fire in your body to greater heights.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "Speaks",
+                "Sadly, you'll probably vanish- Nm-♥ on me before I'm {i}fully{/i} satisfied- Mnn-♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Predatory",
+                "Speaks",
+                "Hahh-♥ But let's see how long we can go before then.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "PlayMotionEffect",
+                "BounceOnce",
+                "PlayVisualEffect2",
+                "ScreenPulse",
+                "pink.png",
+                "She pulls back slightly from her claiming nibbles, and stares lewdly into your eyes before taking your lips once more, hotly breathing with excitement as she sloppily toys with your tongue, leaving your mind blank with the passionate need for sex, weakly thrusting up into her roughly swinging hips, moaning happily as you interlock your fingers with hers as she rides your sore hips into the ground.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Pleasured",
+                "PlayMotionEffect",
+                "BounceOnce",
+                "PlayVisualEffect2",
+                "ScreenPulse",
+                "pink.png",
+                "You both moan in shared pleasure amid your affectionate, wild lovemaking, greedily kissing each other, even as she easily overwhelms you with her burning lust and overpowering body, she's clearly enjoying this with you, every wet meeting of your hips drawing out a gasp from her, and her pussy tightens lovingly around your spasming erection with each mind numbing swing of her waist.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Horny",
+                "Speaks",
+                "Mnnmmm-♥ Come on-♥ Haaa-♥ Give it to me-♥ Mnnaa-♥ Empty your balls inside me-♥ Hooo-♥ I want {i}every{/i} drop-♥ You're {i}mine.♥♥♥{/i}",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "ChangeImageLayer",
+                "Semen",
+                "Ceris",
+                "Semen",
+                "PlayMotionEffect",
+                "Crash",
+                "PlayVisualEffect",
+                "OrgasmPulse",
+                "white.png",
+                "Amid the messy kiss she lewdly encourages you, intermixed with moans, her husky voice melting right into your vulnerable mind, until your oversensitive cock to gives in to the constant thrumming impacts of her wide hips, erupting inside her again, leaving you both mewling in blissful sexual pleasure, but she doesn't stop breathlessly making out with you, or bouncing on your aching dick all through your climax.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LipLick",
+                "Speaks",
+                "Hahhhnn- More!♥ Grrnnn-!♥",
+                "PlayMotionEffect",
+                "Crash",
+                "PlayVisualEffect",
+                "OrgasmPulse",
+                "white.png",
+                "You whine into her as she keeps riding you, leaving your mind spinning into an overstimulated mess as she fucks you with every bit of force her body can muster, pampering you with loving kisses and her heavy tits while forcibly milking out load after load of cum from you, clearly not satisfied no matter how much she fucks you.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Loving",
+                "By the time you're completely spent, and her hellhound warmth can no longer keep you going due to the interference of your recall stone making you start to fade out, she's rolled onto her back, with her arms and legs wrapped around you while you lazily thrust into her at your own pace, your face buried in her pillowy cleavage, lost in a meltingly lewd cuddle-fuck session as you slowly fade away.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Caring",
+                "Speaks",
+                "Hahhh-♥ Be sure to come back soon [ThePlayerName],♥ I'd love to do this again sometime.♥ You're wonderful.♥",
+                "She affectionately strokes the back of your head with a powerful claw as you erupt inside her again, sex the only thing inside your head as you black out while clinging to her powerful, curvy body in one last spurting climax...",
+                "...",
+                "ChangeSensitivity",
+                "Sex",
+                "10",
+                "ChangeSensitivity",
+                "Pain",
+                "5",
+                "ChangeFetish",
+                "Sex",
+                "10"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "StartOfCombat",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|CerisCombatEvents|/|Intro|n|"
+            ]
+        },
+        {
+            "lineTrigger": "EndOfRound",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|CerisCombatEvents|/|OverheatContactTimer|n|"
+            ]
+        },
+        {
+            "lineTrigger": "SetMusicTo",
+            "move": "",
+            "theText": [
+                "music/Battle/Purple_Planet_Music_-_Imminent_Danger.mp3"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Holy Headpat",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|CerisCombatEvents|/|HeadpatReact|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Suckle",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|CerisCombatEvents|/|SuckleCounter|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Whip"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Grin|n|\"Sí, eso no va a funcionar\".",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"Recuerda, se supone que debes estar tratando de {i} placer {/i} me.",
+                "|f|ChangeImageLayer|/|Expression|/|Sigh|n|'Vamos, no seas así ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Sigh|n|'Un poco molesto ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Demon Layer",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Haaahhhh ??? ♥ Bueno, eso es algo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmmm- ♥ La energía santa está jugando sucia. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Mhhhhph- ♥ jeje, no tengas una gran cabeza con esa cosa. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Bueno, eso es picante. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mnnn- ♥ que me pone a trabajar, ahora {i} realmente {/i} quiero asombrarte-! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Mnnnggg- ♥ Te voy a pagar por eso. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Oh, te voy a follar en el suelo por {i} que {/i}. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Bondage Net",
+                "Magical Binding"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿Ahora puedes {i} mantener {/i} me así?'",
+                "|f|ChangeImageLayer|/|Expression|/|Sigh|n|'¿En serio?Esto es solo una molestia.",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Oye, no está mal. ♪ Pero no me cuentes. ♪'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pin",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'¡Oh, oye, lindo! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Alguien es atrevido.'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Oh, eres divertido ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿Ahora puedes {i} mantener {/i} me así?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Lewd Bottle",
+                "Cloying Mist",
+                "Placebo Pheromone"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Jaja, ¿estás seguro de que quieres que me ponga más caliente?'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Solo tienes que culpar si salgo de control. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¿Estás tratando de hacer que te rompa la polla? ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmm? ♪ que huele bastante bien. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Spank"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Confused|n|'¿Está bien tu mano?'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|\"Deberías intentar ser más suave\".",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Prefiero que te toques y me burles de mí. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Grope Ass",
+                "Squeeze Ass",
+                "Massage Ass",
+                "Fondle Ass"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Realmente deja que tus dedos {i} se hundan {/i} in. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmmmmnn- ♥ eres bastante bueno con tus manos. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Me estás poniendo tan nervioso. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Tócame todo lo que quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mnngg- ♥ manténgalo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¿Seguro que no quieres jugar con mis tetas en su lugar? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Son mis caderas o mi culo que te gusta tanto? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Breast Caress",
+                "Breast Massage",
+                "Breast Knead",
+                "Breast Fondle"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Realmente deja que tus dedos {i} se hundan {/i} in. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmmmmnn- ♥ eres bastante bueno con tus manos. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Tócame todo lo que quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mnngg- ♥ manténgalo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Cuidado no pierdas el enfoque. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmmmmnn- ♥ no te detengas. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Jajaja- ♥ son bastante sensibles, ¿sabes? ♥"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Tit Fucking",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmmm? ♥ el calor te alcanza? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Continúa, ♥ Sigue empujando, ♥ Diviértete. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmmmm. ♥ sigue adelante. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'No te burles de mis pezones mientras empujas- ♥ te burlas- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Puedo sentirte latiendo entre mi escote. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'No pensé que esto pudiera sentirse tan bien. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pinch Nipples",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Sigh|n|'Me gustaría más si fueras un poco más cariñoso con mis tetas ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Sigh|n|'Un poco demasiado duro ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Sigh|n|'¿Quizás intentes tocarlos a tientas?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Finger",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Tenga cuidado de no quemar los dedos. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Vamos a follar ya. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Mmmm- ♥ vamos, ♥ pégalo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Quiero más que eso. ♥ No seas tímido. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Dildo",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'Nunca tan bueno como lo real ...'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Vamos a follar ya. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Mmmm- ♥ vamos, ♥ pégalo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Quiero más que eso. ♥ No seas tímido. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Si vamos a besar, debería ser caliente y pesado. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Hm? ♥ Puedes besarte mejor que eso, ¿verdad? ♥ Puedo enseñarte. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Vamos a ser un poco más íntimos que eso. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Si no hay lengua, ¿es realmente un beso? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Make Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mmmm- ♥ cuidadoso, ♥ podría comerte. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mnn- ♥ vamos a follar {i} así {/i} mucho- ♥ mientras se besan- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Será mejor que estés listo para estar sin aliento- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Prometo no morder- ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Deep Kiss",
+                "Lovingly Rough Kiss",
+                "Skillfully Passionate Kiss",
+                "Misty Kiss",
+                "Sensually Seductive Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mnnwa- ♥ Eso es ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmmph- ♥ mantenlo al revés- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Crees que puedes besarme? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Sabes bien. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Todos los míos. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Arouse",
+                "Arousara",
+                "Arousero"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Oh- ♥ eso es agradable- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmmm- ♥ ahora eso es diferente- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Sigue al revés- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Ohhh- ♥ como eso- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Usa eso todo lo que quieras- ♥ No me importa- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmm- ♥ ahora quiero follar ... ♥ o tal vez abrazar? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Me pregunto, ♪ ¿Puedes seguir lanzando magia mientras te llevo al suelo? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Electrify",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Confused|n|'Qué diablos, amigo'.",
+                "|f|ChangeImageLayer|/|Expression|/|Confused|n|'¿Sabes alguno, en realidad {i} divertido {/i} magia?",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|'¿No podrías?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Seduce",
+                "Enamor",
+                "Smoldering Seduction",
+                "Smoldering Flaunt",
+                "Massaging Seduction",
+                "Mass Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Bueno, ¿no eres el encantador? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Espero escucharte gemir mi nombre. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Y pensé que no podía excitarme más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'{i} oh, {/i} Solo quiero comerte. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Será mejor que no exageres. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Deberíamos ir ten- no, {i} cincuenta {/i} rondas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Deberías tener cuidado con lo que dices. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Hmmm- ♥ está bien, somos {i} definitivamente {/i} follando. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Ear Tease",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Confused|n|'¡Oh! ♪ Esto se siente extrañamente bien'.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Tal vez debería mordisquear tus oídos también? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Hmmmm-?♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'Esto me hace querer abrazar ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmm, ♥ lo estás haciendo maravilloso. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Charm",
+                "Charm Wave"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Ahora mi corazón no deja de correr- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Digamos, ¿cuántas rondas crees que puedes ir? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Creo que me tienes demasiado emocionado- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No necesitas caminar mañana, ¿verdad? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Qué tal si te deleito en un charlatán maullando? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Enfeeble",
+                "Sensitize"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'¡Oh!Esto es interesante! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Huh, hormigueante. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿Esto realmente me detendrá?'",
+                "|f|ChangeImageLayer|/|Expression|/|Confused|n|'Esto se siente un poco extraño ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Disarming Appeal"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Awww, ♥ no tengas miedo, te mimaré un poco. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Siéntete libre de mimarse con mis tetas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Shhh, te cuidaré bien. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Sleep",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Confused|n|'Oh ... ¿ahora quiero tomar una siesta?",
+                "|f|ChangeImageLayer|/|Expression|/|Sigh|n|'Mnnn, tal vez deberíamos tomar un descanso para acurrucarse ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Sigh|n|'Mnngmng...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Penetrate",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Oh, estás {i} ansioso. ♥ {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmmm, ♥ no te detengas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Realmente crees que puedes manejarme? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Espero que estés listo para el sexo sin parar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'{i} intentar {/i} no romper tu pelvis. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Puedes hacerlo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Pon un poco más de fuerza. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Lo estás haciendo muy bien. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'No tengas miedo de ser más áspero. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Continúa, siente mis tetas mientras me follas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Golpear un poco más profundo- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmm- ♥ solo quiero envolverte y follarte tonto- ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mnnnn-! ♥ ¿Realmente crees que puedes superarme? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Ven- ♥ más duro. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Mmmm- ♥ asombroso-! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Eso es todo- ♥ puedes hacerlo- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jajhhh- ♥ jeje- mis tetas están rebotando por todo el lugar- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Voy a perder el control si mantienes esto al alza- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Sigue así: ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Me estás haciendo realmente trabajar- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¿Puedes seguir esto bien? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mnnn- ♥ no fair- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Lo estás haciendo maravilloso ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Eres asombroso ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Ahh- ♥ Mnn- ♥ Soy el que {i} suponía {/i} hacer los mimos- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¿No eres cariñoso-? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Me estás haciendo sentir más caliente de lo normal- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Lástima que no puedo relajarme y disfrutar esto- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Sí- ♥ empuje como eso- ♥♥♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Oh, estás {i} ansioso. ♥ {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmmm, ♥ no te detengas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Realmente crees que puedes manejarme? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Espero que estés listo para el sexo sin parar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'{i} intentar {/i} no romper tu pelvis. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Puedes hacerlo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Pon un poco más de fuerza. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Lo estás haciendo muy bien. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'No tengas miedo de ser más áspero. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Continúa, siente mis tetas mientras me follas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Golpear un poco más profundo- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmm- ♥ solo quiero envolverte y follarte tonto- ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck",
+                "Anal Piston"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mnnnn-! ♥ ¿Realmente crees que puedes superarme? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Ven- ♥ más duro. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Mmmm- ♥ asombroso-! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Eso es todo- ♥ puedes hacerlo- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jajhhh- ♥ jeje- mis tetas están rebotando por todo el lugar- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Voy a perder el control si mantienes esto al alza- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Sigue así: ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Me estás haciendo realmente trabajar- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¿Puedes seguir esto bien? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mnnn- ♥ no fair- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Lo estás haciendo maravilloso ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Eres asombroso ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Ahh- ♥ Mnn- ♥ Soy el que {i} suponía {/i} hacer los mimos- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'¿No eres cariñoso-? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Me estás haciendo sentir más caliente de lo normal- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Lástima que no puedo relajarme y disfrutar esto- ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Sí- ♥ empuje como eso- ♥♥♥'"
+            ]
+        },
+        {
+            "lineTrigger": "Escape",
+            "move": [
+                "Distract",
+                "Teleport"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|ImageSetDontCarryOver|/|Base|n||f|ChangeImageLayer|/|Expression|/|Confused|n|¿Huwah?Aw, vamos, vuelve aquí.",
+                "|f|ChangeImageLayer|/|ImageSetDontCarryOver|/|Base|n||f|ChangeImageLayer|/|Expression|/|Angry|n|'¡Wh- oye!'",
+                "|f|ChangeImageLayer|/|ImageSetDontCarryOver|/|Base|n||f|ChangeImageLayer|/|Expression|/|Confused|n|'Wh- oh {i} Come {/i} on ...'",
+                "|f|ChangeImageLayer|/|ImageSetDontCarryOver|/|Base|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|'No puedes correr para siempre. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Pawjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Grin|n|'Hmmm, ♪ bien. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Vamos a divertirnos mucho. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Seré gentil. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Me pregunto para cuántas rondas eres buena? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Hm, ♪ joder ahora, abrazar más tarde? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Hellish Heft",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Puedes tocarlos todo lo que quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|¿Quieres que envuelva tu polla con estos? ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'No mires hacia otro lado [ThePlayerName]. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|¿Quieres enterrar tu cara en mi escote? ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿Crees que puedes manejar estos? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Debería mimarte con estos? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Te verías {i} Entonces {/i} lindo atrapado en mi escote. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Gates of Hell",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Grin|n|'¡Te tengo! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Creo que puedes liberarte de {i} esto? ♥ {/i} jeje, ¿incluso {i} quieres {/i} a? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Una vez que haya terminado de ordeñarte con mis tetas, es mejor que estés listo para al menos diez rondas de sexo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No puedo esperar a ver que tu cara se derrita con placer. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'¿Cálido y acogedor? ♥ Bien. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Es hora de mimar tu polla {i} sin sentido. ♥ {/i}'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Hellish Prison",
+                "Hellish Rub"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Te ves tan lindo como este ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Ahí, ♥ solo disfrútate. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Jeje, te ves adorable. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Me pregunto qué tan trabajado puedo conseguirte. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Puedo sentirte palpitando en mi escote. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Oye, ♥ Si no te escapas, ♥ te vas a convertir en un desastre cachondo y necesitado. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'El calor de mi cuerpo te está llegando, ♥ ¿no? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Por qué no intentas empujar tus caderas un poco? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Infernal Compulsion",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'¿Hmm? ♥ ¿Perdiste todo el autocontrol? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Continúa, resuelve todo ese estrés travieso. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Tus gemidos son tan lindos. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmm, ♥ tu polla sigue palpitando. ♥ ¿Amas tanto mis tetas? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Eso es todo, disfrútate. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Puedes empujar más fuerte si quieres. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Infernal Embrace",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'¡Te tengo! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Una vez que haya terminado de mimarte con mis tetas, es mejor que esté listo para al menos diez rondas de sexo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Suenas tan lindo amortiguado con mis tetas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'¿Cálido y acogedor? ♥ Bien. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Es hora de mimarte {i} sin sentido. ♥ {/i}'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Smothering Pawjob",
+                "Infernal Milking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Solo relájate y déjame cuidar todo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Tus gemidos suenan adorables. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Estás chupando tan necesariamente. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Tu polla sigue sacudiendo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmm- ♥ chupa y lame todo lo que quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Esto se siente maravilloso, ¿no? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Infernal Coaxing"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Bebe todo lo que quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, ♥ Déjame escuchar esos gemidos amortiguados mientras bebes. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Solo relájate, ♥ Te cuidaré. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Una vez que bebes suficiente leche, ♥ tu polla se volverá loca. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Deja que mi leche tibia simplemente lave tus preocupaciones. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Infernal Pillows"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Solo relájate, ♥ Te cuidaré. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, ♥ Déjame escuchar esos gemidos amortiguados. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmm- ♥ chupa y lame todo lo que quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Esto se siente maravilloso, ¿no? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Tu mente se va en blanco? ♥ Déjalo. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Hellish Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Mmmmmwa.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Sabes bien. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Mnnnnmmmph.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Me estoy poniendo tan nervioso. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Passionate Hell"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Besarme me hace {i} realmente {/i} cachonda. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'No nos detengamos en {i} justo {/i} Principio. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Querías follar, ¿verdad? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Infernal Impact",
+                "Hellish Ride"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'More!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Eres {i} todos {/i} mío! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|'No necesitas un respiro, ¿verdad? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¡Tus gemidos me están poniendo tan nervioso! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'La forma en que te retorces es una actitud tan excitada. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'¿Cuánto tiempo puedes resistirte? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'¿Tus caderas mirando a dolor? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Solo relájate y déjame montarte al suelo. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Infernal Grind"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Te dejaré recuperar el aliento. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, casi me dejan llevar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Será mejor que estés listo para más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Siéntete libre de mimarse con mis senos. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'No voy a parar. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Hellish Pampering"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Jeje, ♥ ¿Todavía puedes respirar con una cara llena de tetas? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, casi me dejan llevar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Chupa un poco más duro mientras yo te voy. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Siéntete libre de mimarse con mis senos. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Lo estás haciendo maravilloso ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, ♥ Déjame escuchar esos gemidos amortiguados. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Hellish Lactation"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Caring|n|'Jeje, ♥ ¿Todavía puedes respirar con una cara llena de tetas lechosas? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, casi me dejan llevar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Chupa un poco más duro mientras yo te voy. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Siéntete libre de mimarse con mis senos. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Lo estás haciendo maravilloso ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Jeje, ♥ Déjame escuchar esos gemidos amortiguados. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Bebe. ♥ No vas a tener muchos descansos. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Purgatory Press"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'More!♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Eres {i} todos {/i} mío! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Tu polla se está domesticando por completo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¡Tus gemidos son adorables! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Lucha más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'¿Tus caderas mirando a dolor? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": [
+                "Loving Purgatory"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Mmmm. ♥ Asombroso. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Vamos, ♥ en blanco. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Sabes muy bien. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Me encanta hacer esto. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'No voy a parar. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Horny|n|'Mnnn, ♥ Casi allí. ♥'",
+                "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Horny|n|'Eres asombroso ♥'",
+                "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Horny|n|'Ja, ♥ no puedo tomar mucho más. ♥'",
+                "|f|ChangeImageLayer|/|Face|/|Blush|n||f|ChangeImageLayer|/|Expression|/|Pleasured|n|'Vamos, ♥ un poco más. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No puedes tomar mucho más, ¿verdad? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'No te detengas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Vas a {i} spurt {/i}. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Continúa, sopla tu carga para mí. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": [
+                "Purgatory Press",
+                "Loving Purgatory",
+                "Smothering Purgatory"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|Te retorces impotentes bajo Ceris, su abrazo íntimo e íntimo, manteniéndote justo donde te quiere mientras golpea húmedamente sus caderas sobre tu espasmo, una polla sobreestimulada, enviando ola tras ola de mentalidad que aturde el placer lavado a través de toda tu cintura mientras mira hacia abajotú con hambre en los ojos.|n||f|ChangeImageLayer|/|Expression|/|LipLick|n|Ella gruñe con la emoción depredadora cuando su cara comienza a aflojar de su orgasmo que burbujea rápidamente, y aprieta su agarre en sus manos antes de redobar salvajemente el balanceo de su cintura, follando bruscamente en el suelo con impactos rápidos y reverberantes que se separan rápidamente de lo pocoResistencia que le habías dejado, y la erupción de su espasmo estalla dentro de ella como un grifo roto mientras tiemblas y gemiste incoherentemente del placer constante de tu reunión de caderas.|n||f|ChangeImageLayer|/|Expression|/|LipLick|n|Luchas para tratar de conseguirte a ti mismo, ya que Ceris no deja de montarte por un segundo, atormentando tu polla dolorida con las sensaciones calientes y apretadas de su coño bombeando tu eje con fugas en sumisión.|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Vamos, ♥ ¡Ni siquiera estamos cerca de hacerlo todavía! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|Mientras jadeas y gemes, tratando desesperadamente de soportar a Ceris jodiéndote sin sentido, se aprovecha de tu boca abierta, presionando sus suaves labios hacia los tuyos, enredando de su lengua con la tuya, haciendo que tu cintura se mueva un poco, empujando débilmente tu polla torcida.Sus golpes descendentes.|n|Your thoughts get distant and hazy as she slowly renders you increasingly kiss drunk, the warm, pulsing heat of her body seeping into you with each passing moment, the feeling of her heavy tits rubbing against your chest, and her caring kiss, a blissful oasis of pleasure amid the constant ecstasy of her riding you into the ground with all her strength.|n|Until finally you let out meek, desperate gasps into her mouth as hot, melty euphoria overtakes your entire waist, a spurting, mind blanking climax drained out of you with a few forceful impacts of her wide hips, but she keeps bouncing on your spasming cock regardless, pulling away from the kiss with a happy sigh, leaving a string of saliva connecting your mouths.|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Te ves tan lindo cuando no puedes pensar con claridad. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Desesperadamente, intentas retorcerse para hacer cierta distancia de la bodega dominante de Ceris, sintiendo tu clímax rápidamente brotando en tu ingle, pero solo ronrona la emoción, inclinándose hacia adelante mientras libera las manos de las suyas, solo para agarrar tus tobillos para aprovechar la menteAnestante el golpe de sus espesas caderas y enterrando tu cara en su escote de lujoso.|n|With your hands free you try to push Ceris' huge tits away, but only manage to sink your fingers into the soft, pliable flesh before you're left letting out muffled moans into her overflowing bust from the intense impacts of her swinging waist, your dick throbbing and spurting thick loads of cum into her with each wet, hilting motion.|n|For a few moments she slows her wild pace, giving you a chance to dazedly indulge in groping and nuzzling her bountiful tits, completely pleasure drunk from your climax, thoughtlessly breating in her fiery scent before she roughly retakes your hands in hers, forces your hips back to the ground, and drags her plush rack down your face and back onto your chest.|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Break ha terminado. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|Ceris gruñe seductoramente cuando comienzas a visitar alcanzar tu límite, inclinándote a mordisquear y morder suavemente el hombro y el cuello mientras balanceo salvajemente su cintura, abrumando tu polla espasmante con su coño calentado y apretado, sus mordeduras de amor que te obligan a perder el enfoqueY gime desordenadamente mientras ella te reclama por completo.|n|Unable to even think amid the aching pleasure Ceris is forcing on you, a few final hip melting impacts are all it takes to finish you off and wring out a thick load from your tensing balls, a firm, comforting bite on your neck leaving your entire trembling body going slack while you fill her with your seed.|n||f|ChangeImageLayer|/|Expression|/|Loving|n|'Mnn, me dejé un poco ... ♥'|n|She gives you a few moments to recollect yourself, affectionately licking along your neck and shoulder, tightening her hold on your interlocked hands while gently gyrating her hips, before eventually resuming her rapid and wild mating with you."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|Ceris deja salir felices suspiros de placer mientras gira lentamente sus caderas, su coño caliente y humeante apretando masajeando su polla contracción desde todos los ángulos, sus anchos caderas suaves círculo, los movimientos de círculo gradualmente lo empujan más cerca y más cerca del borde hasta que sale en el clímax, vierteuna espesa carga de semen en ella.|n||f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmmm, vamos, dame más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Estás en tu límite. ♥'|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|Ceris prácticamente extrae sus palabras mientras rebota en su erección palpitante, golpeando sus anchas caderas femeninas con toda fuerza que puede, haciendo que la cintura duele con una cálida felicidad mientras el placer te deja temblando e impotente, hasta que la constanteRough Fucking expulsa una serie de gruesos chorros, vaciando tus dolor en ella.|n||f|ChangeImageLayer|/|Expression|/|Horny|n|Pero incluso mientras tiemblas con la felicidad climática, ella no deja de montarte ni siquiera por un momento, presionando de manera dominante sobre ti mientras te ve llorar con una dicha aversible.|n|'You're so cute.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|Ceris gruñe con entusiasmo mientras su polla palpita dentro de ella, sintiendo su clímax que se aproxima rápidamente, cambia sus espesas caderas, dejando que su coño caliente fundido bombee su longitud de espasmo por todo lo que vale, cada impacto que se aprieta y lo que le hace tirar en Ecsasy hasta que ustedFinalmente estalló dentro de ella en largas cuerdas de semillas, tu cintura se loza mientras te pierdes en el placer.|f|ChangeImageLayer|/|Expression|/|LipLick|n|Ella deja escapar un bajo suspiro y descansa encima de ti por unos momentos, dejándote jadear y recuperar el aliento mientras su coño masajea y ordeña tu gastado, antes de comenzar a montarte con un vigor renovado.|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Ni siquiera estamos cerca. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|Te aprietas los dientes y tratas de soportar el implacable placer de que Ceris monte tu dolor de polla, tus bolas se tensan a medida que se preparan para descargar, tratando desesperadamente de suprimir ese impulso con cada intenso impacto de sus caderas en las tuyas.|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No me aferres a mí. ♥'|f|ChangeImageLayer|/|Expression|/|Horny|n|De repente envuelve sus brazos con garra y obliga a su rostro a su escote de almohada, obligándolo a disfrutar de un abrazo de vapor y adormecedora con sus enormes tetas.|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Cum para mí. ♥'|n|You let out a muffled groan as the tension and resistance drains out of you from the warm comfort of her bosom, her cooing voice snapping the last hold out of your resistance, and with a few final swaying swings of her waist you're left moaning out in climax, spurting a thick load of cum into her hot, squeezing pussy while you indulge in her soft breasts, shivering while she gently strokes the back of your head with a claw.|n||f|ChangeImageLayer|/|Expression|/|Loving|n|'Buen trabajo ♥ Ahora dame otro, ¿de acuerdo? ♥'|n|She lets you fall back to lay on the ground without her pillow tits as she starts to ride you again with an excited glint in her eyes, your hips feeling warm and melty as she starts working you to your next climax."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n|Ceris deja salir felices suspiros de placer mientras gira lentamente sus caderas, su apretado culo masajeando su polla sacudida desde todos los ángulos, sus anchos movimientos de círculo de caderas te empujan gradualmente más cerca y más cerca del borde hasta que salgas en clímax, vierte un grueso grueso.carga de semen en ella.|n||f|ChangeImageLayer|/|Expression|/|Horny|n|'Mmmm, vamos, dame más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Estás en tu límite. ♥'|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|Ceris prácticamente extrae sus palabras mientras rebota en su erección palpitante, golpeando sus anchas caderas femeninas con toda fuerza que puede, haciendo que la cintura duele con una cálida felicidad mientras el placer te deja temblando e impotente, hasta que la constanteRough Fucking expulsa una serie de gruesos chorros, vaciando tus dolor en ella.|n||f|ChangeImageLayer|/|Expression|/|Horny|n|Pero incluso mientras tiemblas con la felicidad climática, ella no deja de montarte ni siquiera por un momento, presionando de manera dominante sobre ti mientras te ve llorar con una dicha aversible.|n|'You're so cute.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|Ceris gruñe con entusiasmo mientras su polla palpita dentro de ella, sintiendo su clímax que se aproxima rápidamente, cambia rápidamente sus espesas caderas, dejando que su culo bombee su longitud de espasmo por todo lo que vale, cada impacto que aprieta y lo que le hace tirar en la ecsasy hasta que finalmente erupcioneDentro de ella en largas cuerdas de semilla, tu cintura se agrega en ella mientras te pierdes en el placer.|f|ChangeImageLayer|/|Expression|/|LipLick|n|Ella deja escapar un bajo suspiro y descansa encima de ti por unos momentos, dejándote jadear y recuperar el aliento mientras el culo masajea y ordeña tu gastado, antes de comenzar a montarte con un vigor renovado.|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Ni siquiera estamos cerca. ♥"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Nursing",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|CerisCombatEvents|/|NursingOrgasm|n||c|"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Titfuck",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|Atento de los enormes pechos de almohadillas de Ceris mientras balancea las caderas con lujuria, follando ansiosamente su escote desbordante mientras su lujuria y su deseo se hinchan de manera calurosa dentro de usted, cada impacto brusco en sus tetas enviando un pulso palpitante de deleite a través de toda su cintura.|f|ChangeImageLayer|/|Expression|/|LipLick|n|Hasta que con un último poderoso empuje, tenso con un gemido jadeado, temblando mientras su polla se contrae y brote la cuerda tras la cuerda de esperma entre el enorme busto del Hellhound, algunas rachas logran escapar de la suave y humeante prisión para cubrir su rostro, su pecho, suSemilla lentamente en su cuerpo mientras ella se lame los labios, y comienzas a encabezar sus abundantes tetas nuevamente, el calor desenfrenado de su piel te llena de una necesidad constante.",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Ceris te sonríe lascieramente mientras señala tu polla palpitante que alcanza su límite, y le aprieta con amor las tetas, rodando lentamente y sacudiéndolas de un lado a otro, masajeando tu dolor de virilidad desde todos los ángulos con su piel caliente humeante, hasta que tus bolas de contracción finalmente no puedenManténgase atrás y descargue un lío grueso en todo su escote que absorbe rápidamente.",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|A medida que tembla con la creciente debilidad, Ceris gruñe de manera asertiva y firme presiona sus enormes senos como un vicio caluroso y meloso antes de rebotarlos rápidamente hacia arriba y hacia abajo de su eje de contracción, dejándolo jadeando y retorciéndose de placer mientras bombea implacablemente su polla por todo lo que vale la pena.con su profundo escote.|f|ChangeImageLayer|/|Expression|/|Seductive|n|Con su ritmo rápido enviando un placer constante de rebotes a través de toda su cintura, no hace mucho tiempo hasta que se gemen de manera incoherente y pintando sus senos de lujo con su semen, dejándote tirar y maullar mientras no ralentiza sus golpes de ordeño en lo más mínimo, usando su escote.Para drenar cada gota que puede."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Con tu eje sacudiendo y palpitando al borde del clímax, Ceris se mueve fácilmente para terminar con una sonrisa, envolviendo una de sus poderosas patas alrededor de tu longitud mientras presiona sus suaves curvas contra ti, colocando su brazo libre alrededor de la espaldaMientras ella susurra respiraciones calientes en la oreja, haciendo coincidir los golpes de su gran garra apretando tu polla dolorida.|n||f|ChangeImageLayer|/|Expression|/|Seductive|n|'Vamos, brotáralo- ♥ No lo detengas, solo sopla una carga desordenada por toda mi mano. ♥'|n|Her husky voice offer teasing encouragement is too much to endure with her warm, seductive form pressed against you, each pump of her firm paw leaving your legs weak as pleasure floods your entire waist, until you moan out in bliss, coating her hand, and the floor, with long ropes of cum, trembling in euphoria as she gently eases you down until you can stand on your own again.|f|ChangeImageLayer|/|Expression|/|Loving|n|'Buen trabajo. ♥ Ahora, ordeñemos a otro. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|Todo su cuerpo queda caluroso y necesitado por las burlas cálidas y seductoras de Ceris, respirando fuertemente que intenta suprimir su lujuria burbujeante, pero sus ojos son fácilmente atrapados al ver los enormes senos de la mujer del infierno mientras usa sus grandes garras para rebotar,Agite y apriétalos por ti.|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No te retrases [ThePlayerName], debes ser {i} dyring {/i} para la liberación. ♥'|n|You dumbly nod amid the warm gooey haze filling you from head to toe, and start to absent mindedly pump your twitching erection to the sight of her pillowy tits as she shows them off to you.|n|Jiggling them a bit more before pulling up her top to show off her bare skin in all its supple glory, kneading and swaying them in front of you, until the throbbing heat in your groin erupts, leaving you moaning sloppily as you unload long spurts of semen for her pillowy bust.|f|ChangeImageLayer|/|Expression|/|Loving|n|'Ahora, la próxima vez, ¿qué tal si envolvemos tu polla en mi escote? ♥'|n|With a few last tempting words, she skillfully tucks her tits back under her tight shirt."
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Face|/|BlushHeavy|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n|'{i} ahhhh! ♥♥♥ {/i} mnnn ... ♥'|f|ChangeImageLayer|/|Expression|/|Bashful|n|'Ya quiero ir de nuevo ... ♥'",
+                "|f|ChangeImageLayer|/|Face|/|BlushHeavy|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n|'{i} ohhhh! ♥♥♥ {/i} jahhh ... ♥'|f|ChangeImageLayer|/|Expression|/|Bashful|n|'Es una pena que no podamos seguir adelante ... ♥'",
+                "|f|ChangeImageLayer|/|Face|/|BlushHeavy|n||f|ChangeImageLayer|/|Expression|/|Orgasm|n|'{i} yesss! ♥♥♥ {/i} ahhh ... ♥'|f|ChangeImageLayer|/|Expression|/|Horny|n|'Buen trabajo ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Confused|n|'¿Estás ... te das por vencido?'|f|ChangeImageLayer|/|Expression|/|Happy|n|\"¡Bueno, bien! ♥ tu pelvis podría odiarte más tarde.",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Oho? ♥ ¿Entonces {i} quieres {/i} para que se follen en el suelo y luego se acurruquen y mimado? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|Te rindes, ¿eh?Supongo que eres mi juguete sexual entonces. ♥ Intentaré no romperte. ♥ '"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Sex",
+            "theText": [
+                "[ThePlayerName] intenta separarse del abrazo íntimo de Ceris y el gallo libre de Ceris [TargetHisOrHer] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Sex",
+            "theText": [
+                "Pero te quedas indefenso mientras presiona su peso completo y musculoso sobre ti, dejándote luchando para empujar mientras ella golpea sus caderas sobre tu polla sacudida a un ritmo rápido.",
+                "Pero no puedo alejarte de su cálido cuerpo, sus feromonas humeantes que nublan tu juicio, por lo que en lugar de alejarte, te tomas un momento para enterrar tu rostro entre sus abundantes tetas mientras empujas ansiosamente tus caderas.",
+                "Pero el calor cálido que irradia en su cintura desde su cuerpo nubla su juicio, y pronto la está empujando ansiosamente a ella con un aturdimiento sexual, disfrutando de sus poderosamente lujosas curvas.",
+                "Pero ella envuelve sus garras a tu alrededor en un abrazo apretado, presionando sus enormes tetas contra ti con una sonrisa engreída en sus labios, frotando tentador contra tu forma brevemente atrapada, persuadiéndote para relajarte y disfrutar.",
+                "Pero cada poderoso ritmo de sus caderas en las tuyas mientras ella te monta te morde la fuerza para alejarla mientras te lleva con una sonrisa cachonda, innecesariamente puesta en follarte en el suelo.",
+                "Pero antes de que puedas alejarte, se las arregla para entrelazar sus garras con las manos y empujarte hacia abajo, tomando un momento para besar apasionadamente tu boca indefensa en sumisión mientras ella te folla sin sentido.",
+                "Pero tus intentos de escapar solo parecen excitar más al Hellhound, y con un brillo salvaje en los ojos te empuja y te golpea las caderas sobre tu longitud de espasmo a un ritmo frenético, atrapándote debajo de ella.",
+                "Pero cuando comienzas a escapar, Ceris envuelve firmemente sus brazos y piernas a tu alrededor antes de retroceder, obligándolo a una posición misionera apretada por unos momentos, empujándola irreflexivamente por un instinto por unos momentos antes de volver a rodar sobre ticon una sonrisa."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No te vas tan fácil. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Acuéstese y disfruta. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Te acostumbrarás al calor. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Es divertido verte luchar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¿Seguro que quieres escapar? ♥ tu polla parece muy feliz dentro de mí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'No vas a ir a ninguna parte [ThePlayerName]. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Mmm, tu polla se está tumbando como loca. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|ImageSetDontCarryOver|/|Base|n|¡Y logra liberar tu polla de su coño caliente fundido!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Surprised|n|'Oh, tú {i} en realidad {/i} se escapó'.|f|ChangeImageLayer|/|Expression|/|Happy|n|'¡Buen trabajo! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Jeje, qué emocionante. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Me estás poniendo más emocionado. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Hmmm, ♥ ¿Querías tomarte un descanso y mimarte con mis tetas? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'¿Demasiado caliente para ti? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Encantado de ver que no estás fuera de esto todavía! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Anal",
+            "theText": [
+                "[ThePlayerName] intenta separarse del abrazo íntimo de Ceris y el gallo libre de Ceris [TargetHisOrHer] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Anal",
+            "theText": [
+                "Pero te quedas indefenso mientras presiona su peso completo y musculoso sobre ti, dejándote luchando para empujar mientras ella golpea sus caderas sobre tu polla sacudida a un ritmo rápido.",
+                "Pero no puedo alejarte de su cálido cuerpo, sus feromonas humeantes que nublan tu juicio, por lo que en lugar de alejarte, te tomas un momento para enterrar tu rostro entre sus abundantes tetas mientras empujas ansiosamente tus caderas.",
+                "Pero el calor cálido que irradia en su cintura desde su cuerpo nubla su juicio, y pronto la está empujando ansiosamente a ella con un aturdimiento sexual, disfrutando de sus poderosamente lujosas curvas.",
+                "Pero ella envuelve sus garras a tu alrededor en un abrazo apretado, presionando sus enormes tetas contra ti con una sonrisa engreída en sus labios, frotando tentador contra tu forma brevemente atrapada, persuadiéndote para relajarte y disfrutar.",
+                "Pero cada poderoso ritmo de sus caderas en las tuyas mientras ella te monta te morde la fuerza para alejarla mientras te lleva con una sonrisa cachonda, innecesariamente puesta en follarte en el suelo.",
+                "Pero antes de que puedas alejarte, se las arregla para entrelazar sus garras con las manos y empujarte hacia abajo, tomando un momento para besar apasionadamente tu boca indefensa en sumisión mientras ella te folla sin sentido.",
+                "Pero tus intentos de escapar solo parecen excitar más al Hellhound, y con un brillo salvaje en los ojos te empuja y te golpea las caderas sobre tu longitud de espasmo a un ritmo frenético, atrapándote debajo de ella.",
+                "Pero cuando comienzas a escapar, Ceris envuelve firmemente sus brazos y piernas a tu alrededor antes de retroceder, obligándolo a una posición misionera apretada por unos momentos, empujándola irreflexivamente por un instinto por unos momentos antes de volver a rodar sobre ticon una sonrisa."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No te vas tan fácil. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Acuéstese y disfruta. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Te acostumbrarás al calor. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Es divertido verte luchar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¿Seguro que quieres escapar? ♥ tu polla parece muy feliz dentro de mí. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'No vas a ir a ninguna parte [ThePlayerName]. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Mmm, tu polla se está tumbando como loca. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|ImageSetDontCarryOver|/|Base|n|¡Y logra liberar tu polla de su culo apretado!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Surprised|n|'Oh, tú {i} en realidad {/i} se escapó'.|f|ChangeImageLayer|/|Expression|/|Happy|n|'¡Buen trabajo! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Jeje, qué emocionante. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Me estás poniendo más emocionado. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Hmmm, ♥ ¿Querías tomarte un descanso y mimarte con mis tetas? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'¿Demasiado caliente para ti? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Encantado de ver que no estás fuera de esto todavía! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Nursing",
+            "theText": [
+                "[ThePlayerName] intenta tirar de [TargetHisOrHer] Boca lejos del pezón Pert ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Nursing",
+            "theText": [
+                "Pero la poderosa garra colocada en la espalda en tu cabeza te mantiene justo donde ella te quiere, rodando sin pensar tu lengua alrededor de su cálida tetina.",
+                "Pero el tentador calor de su carne de almohada te mantiene ansioso sobre su tetina, chupando y lamiéndolo en un aturdimiento cachondo.",
+                "Pero antes de que puedas alejarte por completo, Ceris usa una garra para forzar tus labios separados de nuevo en su pizca rígida, e instintivamente te vuelves a la carne suave.",
+                "Pero solo puedes retorcerse contra su poderoso agarre en tu cuerpo, dejándote lamer y chupar su pecho pesado mientras su cálido cuerpo se erosiona a tu razón.",
+                "Pero en cambio, empuja tu cara más profundamente en su pez de almohada, la suavidad desbordante te dejó en blanco y dócil por un momento mientras te mimos."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Nursing",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No te vas tan fácil. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Solo relájate. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Te acostumbrarás al calor. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Es divertido verte luchar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¿Estás seguro de que quieres escapar? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'No vas a ir a ninguna parte [ThePlayerName]. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Nursing",
+            "theText": [
+                "¡Y maneje la separación de la tetina de Ceris!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Nursing",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Surprised|n|'Oh, tú {i} en realidad {/i} se escapó'.|f|ChangeImageLayer|/|Expression|/|Happy|n|'¡Buen trabajo! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Jeje, qué emocionante. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Me estás poniendo más emocionado. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'¿Estás seguro de que no quieres enterrar tu cara en mis tetas un poco más? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'¿Demasiado caliente para ti? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Encantado de ver que no estás fuera de esto todavía! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Titfuck",
+            "theText": [
+                "[ThePlayerName] intenta tirar de [TargetHisOrHer] eje libre de los senos cálidos de almohada de Ceris ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Titfuck",
+            "theText": [
+                "Pero el calor cálido y acogedor de su piel suave te convence para que te quedes justo donde estás, empujando débilmente tu polla contraproducente en su profundo escote, disfrutando del placer meloso.",
+                "Pero Ceris apreta firmemente su enorme busto, dejándote tensarse en la dicha mientras ella bombea su erección palpitante en sumisión con sus tetas regordetas",
+                "Pero Ceris agarra con fuerza la parte posterior de la cintura con sus enormes garras, obligando a su longitud rígida a permanecer atrapada en su escote desbordante, dejando que su calentamiento se filtre en su necesitada ingle.",
+                "Pero el lento placer seductor de Ceris rodando lentamente sus tetas regordetas en gentiles círculos te alivia en un estado de placer pliante y aturdido, lujoso de su calidez humeante y piel suave.",
+                "Pero Ceris de repente aprovecha el peso considerablemente de su cuerpo para presionarlo, manteniendo su polla firmemente atrapada en sus pesadas tetas amantes del vicio como acaricia su longitud a un ritmo rápido y anestésico."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Titfuck",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No te vas tan fácil. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Deja de luchar y vuelve loco. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Te acostumbrarás al calor. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Es divertido verte luchar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¿Seguro que quieres escapar? ♥ Podría atacarte y follarte en el suelo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'No vas a ir a ninguna parte [ThePlayerName]. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n|'Mmm, tu polla se está tumbando como loca. ♥ ¿No puedes manejar mis tetas? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Titfuck",
+            "theText": [
+                "¡Y logra liberar su polla del enorme busto de Ceris!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Titfuck",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Surprised|n|'Oh, tú {i} en realidad {/i} se escapó'.|f|ChangeImageLayer|/|Expression|/|Happy|n|'¡Buen trabajo! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Jeje, qué emocionante. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Me estás poniendo más emocionado. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Querías follar en su lugar, {i} ¿verdad? ♥ {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'¿Demasiado caliente para ti? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Encantado de ver que no estás fuera de esto todavía! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Making Out",
+            "theText": [
+                "[ThePlayerName] intenta romper el beso descuidado con [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Making Out",
+            "theText": [
+                "Pero ella mantiene sus brazos firmemente envueltos alrededor de su cuello, salpicando su rostro con besos que dejan su lápiz labial hormigueo en su piel.",
+                "Pero cuando comienzas a alejarla, presiona su cofre regordete contra ti, haciéndote vacilar mientras tu corazón salta un ritmo, dejándote abierto a más de sus cálidos besos.",
+                "Pero como ella te da un beso largo y cálido, y parece que no puedes recordar por qué alguna vez quisiste alejarte en primer lugar ...",
+                "Pero encuentras tus brazos envolviendo con fuerza a su alrededor, no queriendo dejar su cálido cuerpo atrás mientras te peppe con besos deliciosamente agradables ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Making Out",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'No te vas tan fácil. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'Querías ponerte íntimo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Es divertido verte luchar. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'¿Estás seguro de que quieres escapar? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'No vas a ir a ninguna parte [ThePlayerName]. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Making Out",
+            "theText": [
+                "¡Y libera tu boca de los labios voraces de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Surprised|n|'Oh, tú {i} en realidad {/i} se escapó'.|f|ChangeImageLayer|/|Expression|/|Happy|n|'¡Buen trabajo! ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Jeje, qué emocionante. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|LipLick|n|'Me estás poniendo más emocionado. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Seductive|n|'Querías follar en su lugar, {i} ¿verdad? ♥ {/i}'",
+                "|f|ChangeImageLayer|/|Expression|/|SmugKnowing|n|'¿Demasiado caliente para ti? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Predatory|n|'Encantado de ver que no estás fuera de esto todavía! ♥'"
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Base",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.15",
+                    "Images": [
+                        {
+                            "Name": "Clothed",
+                            "File": "Monsters/Ceris/Ceris_Body_Clothed.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Nude",
+                            "File": "Monsters/Ceris/Ceris_Body_Nude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "SmugKnowing",
+                            "File": "Monsters/Ceris/Ceris_Expression_knowing smug grin.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Angry",
+                            "File": "Monsters/Ceris/Ceris_Expression_angry.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Bashful",
+                            "File": "Monsters/Ceris/Ceris_Expression_bashful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Caring",
+                            "File": "Monsters/Ceris/Ceris_Expression_caring.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Confused",
+                            "File": "Monsters/Ceris/Ceris_Expression_confused.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Happy",
+                            "File": "Monsters/Ceris/Ceris_Expression_happy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Horny",
+                            "File": "Monsters/Ceris/Ceris_Expression_horny.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Laugh",
+                            "File": "Monsters/Ceris/Ceris_Expression_laugh.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Ceris/Ceris_Expression_Lip lick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Loving",
+                            "File": "Monsters/Ceris/Ceris_Expression_loving.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/Ceris/Ceris_Expression_Orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pleasured",
+                            "File": "Monsters/Ceris/Ceris_Expression_pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Predatory",
+                            "File": "Monsters/Ceris/Ceris_Expression_predatory.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Seductive",
+                            "File": "Monsters/Ceris/Ceris_Expression_seductive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Serious",
+                            "File": "Monsters/Ceris/Ceris_Expression_serious.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sigh",
+                            "File": "Monsters/Ceris/Ceris_Expression_sigh.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/Ceris/Ceris_Expression_smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Ceris/Ceris_Expression_smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Surprised",
+                            "File": "Monsters/Ceris/Ceris_Expression_surprised.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cocky",
+                            "File": "Monsters/Ceris/Ceris_Expression_toothy grin.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Ceris/Ceris_Face_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushHeavy",
+                            "File": "Monsters/Ceris/Ceris_Face_BlushHeavy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "WallPress",
+            "Set": [
+                {
+                    "Name": "Body",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Clothed",
+                            "File": "Monsters/Ceris/GlassPressCG/ceris_cg_1.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Nude",
+                            "File": "Monsters/Ceris/GlassPressCG/ceris_cg_2.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "SmugKnowing",
+                            "File": "Monsters/Ceris/GlassPressCG/exp smug knowing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Horny",
+                            "File": "Monsters/Ceris/GlassPressCG/exp horny.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Ceris/GlassPressCG/exp lip lick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Loving",
+                            "File": "Monsters/Ceris/GlassPressCG/exp loving.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/Ceris/GlassPressCG/exp orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pleasured",
+                            "File": "Monsters/Ceris/GlassPressCG/exp pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Seductive",
+                            "File": "Monsters/Ceris/GlassPressCG/exp seductive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/Ceris/GlassPressCG/exp smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Ceris/GlassPressCG/exp smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Angry",
+                            "File": "Monsters/Ceris/GlassPressCG/exp smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Bashful",
+                            "File": "Monsters/Ceris/GlassPressCG/exp horny.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Caring",
+                            "File": "Monsters/Ceris/GlassPressCG/exp loving.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Confused",
+                            "File": "Monsters/Ceris/GlassPressCG/exp smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Laugh",
+                            "File": "Monsters/Ceris/GlassPressCG/exp smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Predatory",
+                            "File": "Monsters/Ceris/GlassPressCG/exp seductive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Serious",
+                            "File": "Monsters/Ceris/GlassPressCG/exp smug knowing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sigh",
+                            "File": "Monsters/Ceris/GlassPressCG/exp smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Surprised",
+                            "File": "Monsters/Ceris/GlassPressCG/exp smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cocky",
+                            "File": "Monsters/Ceris/GlassPressCG/exp smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Steam",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Light",
+                            "File": "Monsters/Ceris/GlassPressCG/light fog.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Heavy",
+                            "File": "Monsters/Ceris/GlassPressCG/heavy fog.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Glass",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "glass",
+                            "File": "Monsters/Ceris/GlassPressCG/glass.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Sex",
+            "Set": [
+                {
+                    "Name": "PlayerBody",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Yes",
+                    "Images": [
+                        {
+                            "Name": "Body",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 Body 2.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "PlayerBodySilhouette",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Player": "Silhouette",
+                    "Images": [
+                        {
+                            "Name": "Body",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 Body 2 Silhouette.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Body",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Body",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 Body 1.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Semen",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Semen",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 Climax.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Motion",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Motion",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR motion.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "SmugKnowing",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR smug knowing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Horny",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR horny.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR lip lick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Loving",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR loving.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pleasured",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Seductive",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR seductive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Predatory",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR predatory.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cocky",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR cocky.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Caring",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR caring.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Bashful",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR bashful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Angry",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR predatory.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Confused",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR bashful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Laugh",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Serious",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sigh",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR loving.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Surprised",
+                            "File": "Monsters/Ceris/SexCG/Ceris CG2 GR bashful.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Blush",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushHeavy",
+                            "File": "blankButton.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "name": "Warming Kisses",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth"
+    ],
+    "fetishTags": [
+        "Kissing"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Blowjob",
+        "Face Sit",
+        "Footjob",
+        "Titfuck",
+        "Sex",
+        "Anal"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Face Sit"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Sleep",
+        "Charm"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "5",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "65",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Besa a tu oponente.",
+    "outcome": "[AttackerName] besos húmedamente [TargetName] en los labios, llenando [TargetHisOrHer] Cabeza con un cálido placer antes de alejarse abruptamente para reírse amorosamente ante la cálida marca de lápiz labial que dejó en la boca de [TargetName], luego se mueve hacia atrás para plantar másBesos en la cara [TargetHisOrHer].",
+    "miss": "[AttackerName] presiona sus labios e intenta besar [TargetName], pero [TargetHeOrShe] logra alejarse de ella, manteniendo fuera de su alcance.",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|AikoCombatEvents|/|Kissing Temptation",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

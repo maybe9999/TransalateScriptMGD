@@ -1,0 +1,53 @@
+{
+    "name": "Rising Evil Tide",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Power",
+    "requiredStat": "7",
+    "skillTags": [
+        ""
+    ],
+    "fetishTags": [
+        "Monstrous"
+    ],
+    "startsStance": "Slimed 75%",
+    "requiresStance": "Slimed 50%",
+    "unusableIfStance": [
+        "Slimed 75%"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "Slimed 50%",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "10",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "60",
+    "statusDuration": "0",
+    "statusPotency": "10",
+    "statusResistedBy": "Power",
+    "statusText": "gooed",
+    "descrip": "Lidiar con Goo",
+    "outcome": "Con usted rodeado y hasta la cintura en limo rezumante, el trío de mujeres es fácilmente lujoso y cubierto con más de la estafa atrapada, el líquido vivo que tira y lo restringe a medida que se arrastra por su cuerpo, el gran mar de limones se eleva lentamenteY constantemente remodelando ...",
+    "miss": "Con usted rodeado y hasta la cintura en limo rezumando, el trío de mujeres intenta proponerlo y cubrirlo con más de la estafa atrapada, ¡pero logras sacudirte el enredo almibarado!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

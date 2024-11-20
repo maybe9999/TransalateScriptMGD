@@ -1,0 +1,33 @@
+{
+    "name": "NaraCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Nara",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Intro",
+            "theScene": [
+                "RemovePerkFromMonster",
+                "Moonlit Allure",
+                "RemovePerkFromMonster",
+                "Moonlit Glamor",
+                "RemovePerkFromMonster",
+                "Moonlit Mystique",
+                "ChangeImageLayer",
+                "Expression",
+                "Seductive",
+                "Nara se acerca más a los pasos sensuales que hacen alarde de las anchas caderas de la bailarina y los senos rebotando, una dulce sonrisa seductora en sus labios mientras sus adornos dorados crean música improvisada mientras se unen armoniosamente de cada pequeño batido de su cuerpo que te distrae de su obvio intención hastaderrotarte en la batalla sexual."
+            ]
+        }
+    ]
+}

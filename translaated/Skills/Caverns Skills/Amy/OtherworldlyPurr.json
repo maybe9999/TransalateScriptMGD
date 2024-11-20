@@ -1,0 +1,55 @@
+{
+    "name": "Otherworldly Purr",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "100",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "5",
+    "skillTags": [
+        "Seduction",
+        "RestrainUsable"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Stun",
+        "Charm"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "75",
+    "statusDuration": "4",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] deja escapar de un ronroneo sensual que deja la mente de [TargetName] que vibra con el placer tembloroso a medida que [AttackerHeOrShe] se acerca, casi aturdiendo [TargetHimOrHer] con la afluencia de excitación.",
+    "miss": "[AttackerName] Deja escapar un ronroneo sensual, ¡pero [TargetName] no se ve afectado!",
+    "statusOutcome": "[TargetName] ¡No puede sacudirse su repentina necesidad de [AttackerName]![TargetName] ha sido encantado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

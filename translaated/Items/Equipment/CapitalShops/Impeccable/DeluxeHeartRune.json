@@ -1,0 +1,47 @@
+{
+    "name": "Deluxe Heart Rune",
+    "itemType": "Rune",
+    "cost": "5000",
+    "descrip": "Una compleja runa demoníaca en forma de corazón que tiene las palabras 'creadas por Succubi, con amor extra. ♥' grabado en la parte posterior.Aumenta el espíritu en 2 y la virilidad en un 25%adicional, pero reduce la excitación máxima en 150.",
+    "requires": [
+        ""
+    ],
+    "perks": [
+        "Minor Fertility Blessing"
+    ],
+    "hp": "-150",
+    "ep": "0",
+    "sp": "2",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "0",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "useOutcome": "",
+    "useMiss": ""
+}

@@ -1,0 +1,57 @@
+{
+    "name": "Helpless Prey Oral Capture",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Oral"
+    ],
+    "startsStance": "Blowjob",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Making Out",
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Footjob",
+        "Titfuck"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "15",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Chupar la polla.",
+    "outcome": "[AttackerName] Chirps juguetonamente antes de abrirse de repente abrir su boca y envolver completamente la polla de [TargetName] y las bolas doloridas, usando sus largas lenguas para ayudar a tirarlos mientras sus labios se sellaron a su alrededor, dejando a [TargetHimOrHer] llorando con felicidadA medida que [AttackerName] comienza a chupar intensamente mientras sus lenguas continúan ordeñando [TargetHisOrHer] Longitud!",
+    "miss": "[AttackerName] simplemente mira la longitud de [TargetName] con un ronroneo hambriento.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "[TargetName] tries to pry [AttackerName]'s firmly sealed mouth off [TargetHisOrHer] rigid and spasming cock...",
+    "restraintStruggleCharmed": "[TargetName] weakly tries to pry [AttackerName]'s firmly sealed mouth off [TargetHisOrHer] rigid and spasming cock, quickly becoming lost in the pleasure...",
+    "restraintEscaped": "And finally manages to break free, and [AttackerName] lets out a chirp of surprise as you force her mouth open, but her long tongues are still firmly wrapped around [TargetName]'s dick!",
+    "restraintEscapedFail": "But manage to get free of [AttackerName]'s seamlessly sealed lips, leaving [TargetHimOrHer] dick hopelessly trapped inside with [AttackerHisOrHer] five long tongues!"
+}

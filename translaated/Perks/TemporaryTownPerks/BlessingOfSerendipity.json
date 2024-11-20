@@ -1,0 +1,25 @@
+{
+    "name": "Blessing of Serendipity",
+    "description": "Has sido bendecido por la Diosa durante una semana, ganas 1 uso adicional del favor de la Diosa.| Perkduration |",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "FavorBoost",
+        "TimeDuration",
+        "EndMessage"
+    ],
+    "EffectPower": [
+        "1",
+        "42",
+        "Your Blessing of Serendipity has ended."
+    ],
+    "PlayerCanPurchase": "No"
+}

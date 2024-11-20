@@ -1,0 +1,23 @@
+{
+    "name": "ServiceRune",
+    "description": "Aumente todas las ganancias de EXP en un 10%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "ForeplayBoost",
+        "OralBoost"
+    ],
+    "EffectPower": [
+        "10",
+        "10"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

@@ -1,0 +1,54 @@
+{
+    "name": "Depraved Entangling Temptation",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Unholy"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Slimed 100%"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "10",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "100",
+    "statusDuration": "11",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "La tentadora púrpura posesivamente enreda tus brazos con sus largos tendrils de cabello y se inclina con un balanceo de sus caderas, mostrando una sonrisa sensual antes de tirarse poderosamente, todo pero lo que te obliga a sumergirte en ella, tu involuntaria, tu involuntaria¡Empujes haciendo que su culo regordete se mueva con cada impacto, su orificio pegajoso se aprieta y chupa con avidez a tu polla erecta! | N | atrapado contra ella, tienes pocas opciones más que balancear tus caderas con cada movimiento que haces mientras ella se reúne y se ríe de un mal tiempo,Los otros dos perpetuas se adhieren a sus lados para susurrar la depravación dulce de la meltía directamente en sus oídos mientras se frotan sus cuerpos voluptuosos contra usted en medio de los impactos húmedos de Jellowy del sexo.",
+    "miss": "La tentadora púrpura intenta enredar posesivamente tus brazos con sus largos tendrils de cabello, ¡pero te las arreglas para evadir su agarre tipo lazo!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|DarkPerpetuaCombatEvent|/|SexEntanglingCharm|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

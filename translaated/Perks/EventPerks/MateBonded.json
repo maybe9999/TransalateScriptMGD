@@ -1,0 +1,37 @@
+{
+    "name": "Mate Bonded",
+    "description": "¡De la unión con Kaia, ganó 1 espíritu y una virilidad adicional del 15%, 3 técnicas y 1 fuerza de voluntad de su mayor conciencia!Además, su cuerpo puede procesar todos los afrodisíacos de manera mucho más efectiva, reduciendo su potencia en 2 cada turno y reduciendo el daño tomado de los afrodisíacos en un 10%.Sin embargo, el proceso de unión ha dejado su polla 10% más sensible, su cuerpo 50% más susceptible a los efectos afrodisíacos y aumentó su fetiche monstruoso en 10.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "VirilityBoost",
+        "AphrodisiacTurnCure",
+        "AphrodisiacAmp",
+        "GainSpirit",
+        "Technique",
+        "Willpower",
+        "AphrodisiacRes",
+        "IncreaseFetish",
+        "SexSensitivity"
+    ],
+    "EffectPower": [
+        "15",
+        "2",
+        "-10",
+        "1",
+        "3",
+        "1",
+        "-50",
+        "Monstrous|/|10",
+        "10"
+    ],
+    "PlayerCanPurchase": "No"
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Curse of Weakness",
+    "description": "Venefa ha comenzado a tejer un hexadecimal complicado sobre usted, agitando su técnica y potencia por 15. No se puede eliminar por elementos, tal vez si le rompió su enfoque o su resolución al defender que podría eliminar la magia.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "StatusIcon",
+        "Power",
+        "Technique",
+        "NonPersistentEffect"
+    ],
+    "EffectPower": [
+        "StatusIcons/Curse1.png",
+        "-15",
+        "-15",
+        "0"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

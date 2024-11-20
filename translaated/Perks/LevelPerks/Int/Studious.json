@@ -1,0 +1,21 @@
+{
+    "name": "Studious",
+    "description": "¡Por la diosa que amas aprender, leer y pensar!Aumenta sus ganancias de EXP en un 25%.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        "Intelligence"
+    ],
+    "StatReqAmount": [
+        "10"
+    ],
+    "PerkType": [
+        "ExpBoost"
+    ],
+    "EffectPower": [
+        "25"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

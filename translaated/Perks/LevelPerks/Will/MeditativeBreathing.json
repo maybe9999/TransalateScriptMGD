@@ -1,0 +1,21 @@
+{
+    "name": "Meditative Breathing",
+    "description": "¡Su capacidad para estabilizar su lujuria durante el combate ha alcanzado un título en forma de Zen, lo que hace que su excitación disminuya en un 1% adicional de su máximo en cada turno!La rendición elimina este beneficio.",
+    "LevelReq": "0",
+    "PerkReq": [
+        "Steady Breathing"
+    ],
+    "StatReq": [
+        "Willpower"
+    ],
+    "StatReqAmount": [
+        "40"
+    ],
+    "PerkType": [
+        "RegenMaxArousal"
+    ],
+    "EffectPower": [
+        "1"
+    ],
+    "PlayerCanPurchase": "Yes"
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Lazy Slime Insert",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Sex"
+    ],
+    "startsStance": "Sex",
+    "requiresStance": "Slimed 100%",
+    "unusableIfStance": [
+        "Blowjob",
+        "Penetration",
+        "Face Sit",
+        "Titfuck"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Penetration"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "30",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "20",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "¡Mierda!Simplemente no te dejes llevar.",
+    "outcome": "Con [TargetName] increíblemente profundo en el grupo de limo [AttackerName], monta fácilmente [TargetHisOrHer] erección rígida, hundiéndola profundamente en su suave pegajosa [SexWord], sacudiéndose de deleite mientras golpea su núcleo flotante bajo antes de que ella comience a comenzar aperezosamente balancea sus caderas en un tempo constante y meloso.",
+    "miss": "[AttackerName] trata de empujar a [TargetName] 's Dick' en su viscoso [SexWord], ¡pero [TargetHeOrShe] lucha lo suficiente como para mantenerse libre!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

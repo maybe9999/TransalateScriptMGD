@@ -1,0 +1,370 @@
+{
+    "name": "AncillaCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ancilla",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Intro",
+            "theScene": [
+                ""
+            ]
+        },
+        {
+            "NameOfScene": "Fluff Step Counter Call",
+            "theScene": [
+                "SetChoice",
+                "1",
+                "CounterCheckEndTurn"
+            ]
+        },
+        {
+            "NameOfScene": "EndOfRoundCounterCheck",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "Remove Counter Checks",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "Remove Counter Checks",
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "Remove Counter Checks",
+                "IfChoice",
+                "2",
+                "set de mostrador",
+                "CounterEnd",
+                "IfChoice",
+                "2",
+                "Countered!",
+                "ResumeFight",
+                "IfChoice",
+                "1",
+                "CounterCheckEndTurn",
+                "CounterSetCheck"
+            ]
+        },
+        {
+            "NameOfScene": "Remove Counter Checks",
+            "theScene": [
+                "SetChoice",
+                "1",
+                "",
+                "SetChoice",
+                "2",
+                "",
+                "ResumeMonsterAttack"
+            ]
+        },
+        {
+            "NameOfScene": "CounterSetCheck",
+            "theScene": [
+                "SetChoice",
+                "1",
+                "",
+                "IfMonsterHasStance",
+                "Any",
+                "DoAttack",
+                "SetChoice",
+                "2",
+                "set de mostrador",
+                "SkipMonsterAttack",
+                "ChangeImageLayer",
+                "Expression",
+                "Threat",
+                "Ancilla de repente te da un resplandor escalofriante mientras se queda completamente quieto ..."
+            ]
+        },
+        {
+            "NameOfScene": "DoAttack",
+            "theScene": [
+                "CallMonsterAttack"
+            ]
+        },
+        {
+            "NameOfScene": "CounterEnd",
+            "theScene": [
+                "SetChoice",
+                "2",
+                "",
+                "ResumeMonsterAttack",
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "La postura de Ancilla se suaviza y ella gira suavemente un poco de polvo de su atuendo de mucama."
+            ]
+        },
+        {
+            "NameOfScene": "ResumeFight",
+            "theScene": [
+                "SetChoice",
+                "2",
+                "",
+                "ResumeMonsterAttack"
+            ]
+        },
+        {
+            "NameOfScene": "CallCounterAttack",
+            "theScene": [
+                "IfMonsterHasStatusEffect",
+                "Sleep",
+                "Remove Counter Checks",
+                "IfMonsterHasStatusEffect",
+                "Stun",
+                "Remove Counter Checks",
+                "IfMonsterHasStatusEffect",
+                "Restrain",
+                "Remove Counter Checks",
+                "IfChoice",
+                "2",
+                "set de mostrador",
+                "FluffstepCounterAttack!"
+            ]
+        },
+        {
+            "NameOfScene": "FluffstepCounterAttack!",
+            "theScene": [
+                "SetChoice",
+                "2",
+                "Countered!",
+                "SkipPlayerAttack",
+                "ChangeImageLayer",
+                "Expression",
+                "Frown",
+                "SetPostName",
+                "- Paso de pelusa",
+                "FocusedSpeaksSkill",
+                "Tan pronto como intentas moverte sobre Ancilla, te arroja una ráfaga de almohadas antes de desaparecer de tu vista detrás de ellos, y mientras miras dónde estaba, ¡solo unas pocas mocas de pelusa quedan atrás!",
+                "FocusedSpeaksSkill",
+                "Las almohadas en sí no te causan problemas, pero mientras buscas a Ancilla te das cuenta demasiado tarde de que ella está justo detrás de ti.¡Con un elegante barrido de sus piernas, ella te quita los pies de debajo de ti!",
+                "ApplyStance",
+                "Footjob",
+                "SetAttack",
+                "Foot Grind",
+                "HitPlayerWith",
+                "Foot Grind",
+                "ApplyStatusEffect",
+                "Spank",
+                "FocusedSpeaksSkill",
+                "A medida que cae sobre la pila de almohadas recién aterrizadas en el suelo, dejándote solo un poco sin aliento, y ella se desliza un zapato y presiona su pie cubierto de medias sobre tu ingle, lo que lo moldea en tu erección titular. [DamageToPlayer]",
+                "SetPostName",
+                "",
+                "IfHasFetish",
+                "Feet",
+                "ConterWithExtraHit"
+            ]
+        },
+        {
+            "NameOfScene": "ConterWithExtraHit",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Disgust",
+                "HitPlayerWith",
+                "Foot Stroke",
+                "Jadeas y se retuerces en un aturdimiento del dominio sin emociones de Ancilla, su hermoso pie presionando tu polla, y aprovecha tu aturdimiento inducido por el pie para comenzar a acariciar suavemente tu pie con su pie. [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "Sudden Mattress",
+            "theScene": [
+                "SetPostName",
+                "- colchón repentino",
+                "FocusedSpeaksSkill",
+                "Ancilla se extiende detrás de su espalda, ¡y de alguna manera saca un colchón de tamaño completo!¡Con una velocidad y fuerza increíbles, lo envía deslizando por el piso hacia usted!",
+                "SetPostName",
+                "",
+                "Menu",
+                "Try to knock it aside! (Power)",
+                "Dodge it! (Technique)",
+                "Accept its cuddly embrace!",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Try to knock it aside! (Power)",
+            "theScene": [
+                "StatCheck",
+                "Power",
+                "15",
+                "SwattedTheMatress!",
+                "Fail",
+                "FailedDestroy."
+            ]
+        },
+        {
+            "NameOfScene": "FailedDestroy.",
+            "theScene": [
+                "¡Pero el colchón no se ralentiza en lo más mínimo por sus esfuerzos!",
+                "JumpToScene",
+                "HitByMatress."
+            ]
+        },
+        {
+            "NameOfScene": "SwattedTheMatress!",
+            "theScene": [
+                "Golpes el colchón, eliminándolo y desaparece en una explosión de pelusa.Pero Ancilla no te da reacción."
+            ]
+        },
+        {
+            "NameOfScene": "Dodge it! (Technique)",
+            "theScene": [
+                "StatCheck",
+                "Technique",
+                "15",
+                "DodgedMatress!",
+                "Fail",
+                "FailedToDodgeMatress."
+            ]
+        },
+        {
+            "NameOfScene": "FailedToDodgeMatress.",
+            "theScene": [
+                "¡Pero no puedes salir del camino del colchón a tiempo!",
+                "JumpToScene",
+                "HitByMatress."
+            ]
+        },
+        {
+            "NameOfScene": "DodgedMatress!",
+            "theScene": [
+                "Se las arreglas para esquivar el colchón de deslizamiento, haciendo que se estrellara contra una pared y desaparezca en una explosión de pelusa."
+            ]
+        },
+        {
+            "NameOfScene": "Accept its cuddly embrace!",
+            "theScene": [
+                "JumpToScene",
+                "HitByMatress."
+            ]
+        },
+        {
+            "NameOfScene": "HitByMatress.",
+            "theScene": [
+                "ApplyStatusEffect",
+                "Tied to Bed",
+                "ApplyStance",
+                "Cuddle",
+                "El colchón grande golpea tus pies desde debajo de ti, y cuando caes sobre su increíble suavidad, Ancilla salta encima de ti, envolviendo rápidamente una manta alrededor de ustedes dos con una mirada sin emociones, acurrucando más cerca de ti."
+            ]
+        },
+        {
+            "NameOfScene": "Ancilla's Service Invitation",
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "Base",
+                "SetPostName",
+                "- Invitación de servicio de Ancilla",
+                "FocusedSpeaksSkill",
+                "SwapLineIf",
+                "Random",
+                "'¿Necesitas servicio?'Ancilla extiende sus brazos invitados con una expresión fría en su rostro.",
+                "'Ven aquí.'Ancilla extiende sus brazos invitados con una expresión fría en su rostro.",
+                "'Me ocuparé de sus impulsos'.Ancilla extiende sus brazos invitados con una expresión fría en su rostro.",
+                "EndLoop",
+                "SetPostName",
+                "",
+                "IfPlayerHasStatusEffect",
+                "Drowsy",
+                "SleepyCheck",
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "CharmCheck",
+                "JumpToScene",
+                "TemptationMenu"
+            ]
+        },
+        {
+            "NameOfScene": "SleepyCheck",
+            "theScene": [
+                "IfPlayerHasStatusEffect",
+                "Charm",
+                "SleepyCharmCheck",
+                "Tu cabeza gira con una dicha de sueño cada vez mayor, y tratas de reorientarte lo suficiente como para no entrar en su atractivo abrazo ...",
+                "StatCheck",
+                "Temptation",
+                "10",
+                "PassOfferCheck",
+                "Fail",
+                "Approach her."
+            ]
+        },
+        {
+            "NameOfScene": "CharmCheck",
+            "theScene": [
+                "Le duele el corazón al ver su invitación, y tratas de recuperar el control de ti mismo antes de entrar en su tentador abrazo ...",
+                "StatCheck",
+                "Temptation",
+                "10",
+                "PassOfferCheck",
+                "Fail",
+                "Approach her."
+            ]
+        },
+        {
+            "NameOfScene": "SleepyCharmCheck",
+            "theScene": [
+                "Le duele el corazón de su estado encantador, y su cabeza tan flotante y feliz por invadir el sueño, está teniendo dificultades para bajar su abrazo ...",
+                "StatCheck",
+                "Temptation",
+                "15",
+                "PassOfferCheck",
+                "Fail",
+                "Approach her."
+            ]
+        },
+        {
+            "NameOfScene": "PassOfferCheck",
+            "theScene": [
+                "¡Logras despejar la cabeza lo suficiente como para decidir qué hacer!",
+                "JumpToScene",
+                "TemptationMenu"
+            ]
+        },
+        {
+            "NameOfScene": "TemptationMenu",
+            "theScene": [
+                "Menu",
+                "Approach her.",
+                "Ignore Her.",
+                "EndLoop"
+            ]
+        },
+        {
+            "NameOfScene": "Approach her.",
+            "theScene": [
+                "ApplyStance",
+                "Thighjob",
+                "ApplyStatusEffect",
+                "Ancilla's Thigh Trap",
+                "HitPlayerWith",
+                "Thighjob",
+                "Caminas hacia adelante, y Ancilla de repente se lanza con la extraña velocidad, dejando un débil rastro de pelusa detrás de ella.Rápidamente te agarra las muñecas y las gira detrás de tu espalda, y atrapa tu polla rígida entre sus suaves muslos mientras te mira fríamente a los ojos. [DamageToPlayer]"
+            ]
+        },
+        {
+            "NameOfScene": "Ignore Her.",
+            "theScene": [
+                "Ignoras la oferta de Ancilla, y ella reanuda a su criada prima y adecuada como pose con una cara ilegible."
+            ]
+        },
+        {
+            "NameOfScene": "BreakFree!",
+            "theScene": [
+                "ClearStances",
+                "¡Y te las arreglas para evitar la bodega de Ancilla en tus muñecas!Ella salta hacia atrás con gracia calculada y cepilla suavemente su atuendo de criada limpia."
+            ]
+        }
+    ]
+}

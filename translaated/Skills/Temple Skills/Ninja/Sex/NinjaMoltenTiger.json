@@ -1,0 +1,55 @@
+{
+    "name": "Ninja Art: Molten Tiger",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Intelligence",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Magic"
+    ],
+    "fetishTags": [
+        "Penetration"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "25",
+    "targetType": "single",
+    "statusEffect": "Damage",
+    "statusChance": "150",
+    "statusDuration": "3",
+    "statusPotency": "25",
+    "statusResistedBy": "",
+    "statusText": "Ninja Art: Molten Tiger",
+    "descrip": "",
+    "outcome": "Un calor intenso llena la [AttackerName] de [SexWord] mientras [AttackerHeOrShe] lentamente gira sus caderas alrededor] Dick.",
+    "miss": "Un intenso calor llena la [AttackerName] de [SexWord] como [AttackerHeOrShe] gira lentamente sus caderas alrededor de la polla de [TargetName], ¡pero [TargetYouOrMonsterName] resiste el placer!",
+    "statusOutcome": "[AttackerName] parece bombeado y lleno de energía sexual, aumentando el ataque [AttackerHisOrHer]!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

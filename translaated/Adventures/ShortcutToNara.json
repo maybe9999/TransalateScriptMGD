@@ -1,0 +1,84 @@
+{
+    "name": "Shortcut To Nara",
+    "Description": "Use the checkpoint at the temple to go straight to see Nara!",
+    "MusicList": [
+        "music/Mountain/Purple Planet Music - Chilled - Desert Winds (3_12).mp3"
+    ],
+    "requires": [
+        "Temple Checkpoint Gem"
+    ],
+    "Deck": [
+        "Event",
+        "Meet With Nara"
+    ],
+    "RandomEvents": [
+        ""
+    ],
+    "RandomMonsters": [
+        "Lizard Girl",
+        "Harpy",
+        "Minotaur"
+    ],
+    "MonsterGroups": [
+        {
+            "Group": [
+                "Lizard Girl"
+            ]
+        },
+        {
+            "Group": [
+                "Minotaur"
+            ]
+        },
+        {
+            "Group": [
+                "Harpy"
+            ]
+        },
+        {
+            "Group": [
+                "Harpy",
+                "Harpy"
+            ]
+        }
+    ],
+    "Treasure": [
+        {
+            "Common": [
+                "Calming Potion",
+                "Anaph Herb",
+                "Ugli Herb"
+            ]
+        },
+        {
+            "Uncommon": [
+                "Calming Potion",
+                "Energy Potion",
+                "Unbound Rune",
+                "Stoic Rune",
+                "Luck Rune",
+                "Soothing Potion"
+            ]
+        },
+        {
+            "Rare": [
+                "Luck Rune",
+                "Stoic Rune",
+                "Gloves of Skill",
+                "Cock Ring of Justice",
+                "Power Belt"
+            ]
+        }
+    ],
+    "Eros": [
+        {
+            "Common": "35"
+        },
+        {
+            "Uncommon": "85"
+        },
+        {
+            "Rare": "200"
+        }
+    ]
+}

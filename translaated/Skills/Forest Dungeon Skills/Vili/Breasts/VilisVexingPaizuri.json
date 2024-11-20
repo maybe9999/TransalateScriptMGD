@@ -1,0 +1,62 @@
+{
+    "name": "Vili's Vexing Paizuri",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "0",
+    "requiredStat": "7",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts",
+        "Vili's Curse"
+    ],
+    "startsStance": "",
+    "requiresStance": "Titfuck",
+    "unusableIfStance": [
+        "Blowjob",
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTargetHasTheseSets": [
+        [
+            "Titfuck",
+            "Titfuck"
+        ]
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Defence",
+    "statusChance": "70",
+    "statusDuration": "6",
+    "statusPotency": "-20",
+    "statusResistedBy": "Willpower",
+    "statusText": "Vili's Vexing Paizuri",
+    "descrip": "",
+    "outcome": "[AttackerName] se ríe y brilla con magia verde verde azulado mientras bombea la polla de [TargetHisOrHer] de [TargetHisOrHer] con sus abundantes tetas, golpeando la seducción arcana directamente en las caderas [TargetName] con intensos impactos, sus enormes senos rompiendo cualquier resistencia [TargetHisOrHer] intenta areunión.",
+    "miss": "[AttackerName] se ríe y brilla con magia verde azulado mientras bombea la polla de [TargetName] con sus abundantes tetas, golpeando la seducción arcana directamente en las caderas [TargetHisOrHer], ¡pero [TargetName] logra ignorar las sensaciones de fusión mental!",
+    "statusOutcome": "[TargetName] gime dichoso cuando [TargetHeOrShe] se siente abrumado por los senos pesados ​​de Vili, [TargetHisOrHer] palpitando y sacudiendo la polla, ansioso por correrse por ella, bajando las defensas [TargetHisOrHer].",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

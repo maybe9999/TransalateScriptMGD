@@ -1,0 +1,54 @@
+{
+    "name": "MikaWallPin",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "200",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "statusEffectScaling": "25",
+    "requiredStat": "7",
+    "skillTags": [
+        "Pain"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Restrain",
+    "statusChance": "75",
+    "statusDuration": "0",
+    "statusPotency": "15",
+    "statusResistedBy": "Technique",
+    "statusText": "bloqueado",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": " ",
+    "statusMiss": " ",
+    "restraintStruggle": "[TargetName] struggles against [AttackerName] as she keeps [TargetHimOrHer] firmly pressed against the wall, teasing [TargetHisOrHer] twitching manhood with her soft thighs...",
+    "restraintStruggleCharmed": "[TargetName] weakly struggles against [AttackerName] as she keeps [TargetHimOrHer] firmly pressed against the wall, teasing [TargetHisOrHer] twitching manhood with her soft thighs...",
+    "restraintEscaped": "|f|CallCombatEventAndScene|/|MikasCombatEvents|/|BreakFree!",
+    "restraintEscapedFail": "But [TargetName] can't get free of [AttackerName]'s squeezing embrace, and [TargetHeOrShe] finds [TargetHisOrHer] hands settling back down on her bountiful ass."
+}

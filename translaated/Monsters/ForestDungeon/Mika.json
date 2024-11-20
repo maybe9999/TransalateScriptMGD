@@ -1,0 +1,1949 @@
+{
+    "name": "Mika",
+    "IDname": "Mika",
+    "species": "Beast",
+    "gender": "female",
+    "description": "Una niña gato de piel oscura con cabello negro salvaje de los hombros y orejas de gato esponjosas.Su rostro está acentuado por varios tatuajes puntiagudos, llamando la atención sobre sus ojos amarillos sorprendentemente brillantes con hendiduras negras verticales.No lleva ropa, mostrando sus amplios pechos de la Copa C, el abdomen tonificado y su culo increíblemente llamativo que se mueve incluso con el más mínimo movimiento.Su larga cola de gato está perpetuamente de lado a lado de una manera juguetona, incluso cuando está parado.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        "Assjob",
+        "Purr",
+        "Mika's Seductive Sway",
+        "Pinning Pounce",
+        "Tempting Thigh Prison",
+        "Wall Pinned Thighjob",
+        "Tailjob",
+        "Tail Stroke",
+        "Mika's Anal Capture",
+        "Tighten",
+        "Grind",
+        "Mika's Tail Cuffs",
+        "Mika's Relentless Anal"
+    ],
+    "perks": [
+        "Sex Adverse",
+        "Swift",
+        "Great Ass",
+        "Alert"
+    ],
+    "stats": {
+        "lvl": "8",
+        "Exp": "75",
+        "max_hp": "300",
+        "max_ep": "50",
+        "max_sp": "1",
+        "Power": "5",
+        "Technique": "13",
+        "Intelligence": "7",
+        "Allure": "12",
+        "Willpower": "5",
+        "Luck": "9"
+    },
+    "Fetishes": [
+        "Sex|/|50"
+    ],
+    "BodySensitivity": {
+        "Sex": "100",
+        "Ass": "25",
+        "Breasts": "100",
+        "Mouth": "100",
+        "Seduction": "100",
+        "Magic": "100",
+        "Pain": "25",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "moneyDropped": "200",
+    "ItemDropList": [
+        {
+            "name": "Anaph Herb",
+            "dropChance": "75"
+        },
+        {
+            "name": "Wind Rune",
+            "dropChance": "20"
+        },
+        {
+            "name": "Cat Rune",
+            "dropChance": "20"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "LossSceneSexCheck",
+            "move": "",
+            "stance": "Sex",
+            "includes": [
+                "Mika"
+            ],
+            "theScene": [
+                "GetAnEventsProgressThenIfEqualsOrGreater",
+                "MikasCombatEvents",
+                "100",
+                "LossSceneSexGo",
+                "JumpToScene",
+                "LossScene"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "LossSceneSexGo",
+            "move": "",
+            "stance": "Sex",
+            "includes": [
+                "Mika"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "You shudder with exhaustion, and Mika suddenly pins you to the floor with a smug grin, your cock still firmly lodged inside her tight pussy as she rides your length.",
+                "Speaks",
+                "Awww what's wrong [ThePlayerName]? Fucked me a bit too much?",
+                "You're left in a slight daze from suddenly being shoved flat on your back and the pleasure radiating through your hips as Mika bounces on your cock, allowing her to easily guide your hands to her hips.",
+                "Speaks",
+                "But your dick's still rock hard.♥ So let's keep going.♥",
+                "You give her wide hips an unconscious squeeze, thoughtlessly guiding her down your shaft while you grope her bountiful butt, your fingers sinking deeply into her soft skin.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewd",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "Blush",
+                "Mika lets out a gasp of pleasure every time your tip strikes her cervix, and a jolt of bliss strikes through your throbbing cock, urging you to pump her full of your seed, leaving you lost in a haze of pleasure.",
+                "Speaks",
+                "Nyaaa...♥ I should probably switch you to my ass... But I need to pay you back for making my pussy like this.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "You groan as she starts to gyrate her hips and bounce, stirring up her pussy with your rigid erection, massaging every inch of your length with her tightly clinging pussy, leaving you quivering with the urge to cum as she rides you faster.",
+                "The wild pace leaves you gasping and moaning, constant waves of electric bliss crashing through your hips every time she hilts herself on your aching dick, the warm embrace of her pussy feeling like it's shaped to your rigid manhood.",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "BlushSweat",
+                "Mika gives you a smug, cocky smile as she rides your twitching erection, driving you closer and closer to your mind-blanking orgasm, while all you can manage to do is grope her shapely hips and voluptuous ass in a pleasure drunk haze.",
+                "Speaks",
+                "Hehe, didn't you stick your dick in me to fuck me senseless? Well look who's getting fucked silly now-",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewded",
+                "PlayerOrgasm",
+                "1",
+                "You use your remaining strength to slam her hips down, breaking the pace she set and making her squeal with ecstasy as you flood her womb with your seed, leaving you both crying out in orgasmic bliss.",
+                "For a few moments, you both only gasp for air and attempt to recover from your respective climaxes, the occasional aftershock running through you as Mika's pussy spasms with ecstasy.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Horny",
+                "She then gives you a look mixing lust, annoyance, and a measure of wild ferocity as she grinds her hips against you.",
+                "Speaks",
+                "Oh? So {i}that's{/i} how you're going to fucking be, huh?!",
+                "Mika brushes away your hands' hold on her waist and spins around to reverse cowgirl, making you gasp in pleasurable shock as she doesn't bother to dismount your twitching dick. Then she grabs your wrists and forces you into a sitting position behind her, making you wrap your arms around her.",
+                "Speaks",
+                "If you want to fuck me so bad, then fine!♥",
+                "She then finally sends herself forward, going onto all fours and forcing you into doggystyle with her, your aching cock throbbing with desire in the more 'dominant' position.",
+                "Speaks",
+                "Fuck me {i}allll{/i} you want!♥ Until you pass out.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewd",
+                "She teasingly grinds her voluptuous hips against you and you're so aroused and pleasure drunk you can't resist the temptation to fuck her, tightening your hold on her you start to wildly pound her drenched pussy, making her gasp blissfully while you pant with arousal.",
+                "Speaks",
+                "Mnnn-♥ I won't lie, hahhhh,♥ this position is better than missionary, Nyaaaa...♥♥♥, if only because it lets you appreciate my ass.♥",
+                "You grunt with pleasure, already understanding her meaning, every thrust you make into her is met by the cushioning impact of her bountiful butt, the jiggly soft flesh feels absolutely divine against your hips as you hilt yourself, blanking out your mind with an even deeper need to pump her full of your cum.",
+                "Despite your exhaustion, you just can't stop yourself, the need to fuck her tight pussy overwhelming all reason, the flitting thought that maybe you can turn things around on her your excuse for indulging in this ecstasy with her, your baser mind flooding you with the urge to breed her.",
+                "Speaks",
+                "Haaaah!♥ Hehe- come on! Can't a stud like you fuck me any harder?♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewded",
+                "You let out a growl of lust as you start to wildly piston your raging erection into her form-fitting pussy, slamming your tip into her sensitive womb, making her entire body quake in ecstasy as her arms give out from under her.",
+                "Speaks",
+                "Wh-F-Fuck!♥ I-I wasn't trying to egg you on th-that- much!♥♥♥ F-Fuck it! Don't stop!♥ Yes!♥ {i}Keep hitting right there!♥♥♥{/i}",
+                "Pleasure bubbles in your hips with every wild thrust, Mika's slutty voice driving you on to fuck her harder and faster, urging you to unload your semen into her with every meeting of your hips.",
+                "Her plump rear cushions your animalistic fucking, the jiggly impacts delighting your sex-driven mind as you relentlessly pound her from behind, the erotic cries of her voice and the lewd sounds of your mating echoing through the small stone chamber.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "LewdedSilly",
+                "PlayerOrgasm",
+                "1",
+                "Finally with a bestial howl you powerfully thrust into her one final time as your orgasm crashes over you, and you spurt thick loads of your seed directly into her womb, making Mika join you in your orgasmic scream as a climactic bolt of pleasure strikes up from her pussy into her brain.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewd",
+                "You both tremble with ecstasy, whimpering from your respective orgasms, warm pleasure radiating through you as you're submerged in a heavenly afterglow.",
+                "Gradually you roll onto your side with Mika, the two of you gasping in exertion, and she slowly sits up with a hungry lick of her lips as she deftly straddles you even with her shaky legs.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Horny",
+                "Speaks",
+                "Alright! Next round!♥",
+                "You stare up at her for a moment, the sheer exhaustion permeating your body instantly tells you are beyond spent, and you lay back and accept your fate... of blacking out.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Shock",
+                "Speaks",
+                "SwapLineIf",
+                "OtherEventsChoice",
+                "Visiting Mika",
+                "41",
+                "spar",
+                "Eh? Wh- Hey don't go passing out on me right after getting me this riled up! You jackass!",
+                "41",
+                "",
+                "Eh? Wh- Hey don't go vanishing on me after getting me this riled up! You jackass!",
+                "EndLoop",
+                "You vision blacks out completely, the last thing you see is a rather frustrated Mika.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Flustered",
+                "Speaks",
+                "SwapLineIf",
+                "OtherEventsChoice",
+                "Visiting Mika",
+                "41",
+                "spar",
+                "Gah! Fuck! Now I'm going to be really horny while you're knocked out! Hmph, you better want a round two when you wake up...",
+                "41",
+                "",
+                "Gah! Fuck! Now I'm going to be horny all day! Y-You better come back and help deal with this, this is your fault!",
+                "EndLoop",
+                "...",
+                "GetEventAndIfChoice",
+                "Visiting Mika",
+                "41",
+                "spar",
+                "WakeUpPostLoss",
+                "ChangeFetish",
+                "Sex",
+                "5",
+                "ChangeSensitivity",
+                "Sex",
+                "5"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "ThighjobLossScene",
+            "move": "",
+            "stance": "Thighjob",
+            "includes": [
+                "Mika"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cocky",
+                "You slump against Mika, her thick thighs still trapping your spasming erection while she keeps you pinned against the wall, easily supporting your weight.",
+                "Speaks",
+                "Hehehe, guess that's it for you.♥ Enjoying the feel of my ass overflowing out of your hands?♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "You moan as you squeeze her bountiful rear, too exhausted to think straight, her soft butt demanding you to grope it while Mika's smooth thighs massage your aching manhood.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "Speaks",
+                "Purrrr...♥ I can feel your cock twitching against my pussy.♥ It's so hot.♥",
+                "Her cooing whisper in your ear blanks out your thoughts with tingly bliss, and you start to unconsciously thrust your hips as best you can in your pinned state, only managing shallow movements.",
+                "You sigh with pleasure from the feeling of the heat from her pussy radiating down on your cock as you fuck her soft thighs and grind against her dripping slit, and Mika purrs sweetly in your ear in return.",
+                "Speaks",
+                "Mmmm,♥ go on, fuck yourself silly with my thighs.♥ Just squeeze my ass and use it to move my hips.♥",
+                "You eagerly take her suggestion, groping her plump rear with your hands and start to fuck her soft thighs with everything you have, sending the rippling erotic sounds of flesh meeting echoing through the room as you indulge in Mika's thick thighs.",
+                "She rubs her soft breasts against your chest while you fuck her soft thighs, her soft legs tightening around your dick like a pillowy vice, keeping your cock firmly pressed against her warm pussy as you thrust.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Mocking",
+                "You yelp as a jolt of pleasure strikes through your hips from Mika's tail playfully flicking your tip as your manhood manages to poke out the other side of her leg's soft hold on you, and you squeeze her voluptuous rear tighter as your body tenses.",
+                "Mika's sweet purring in your ear leaves you hopelessly horny as your body goes numb with pleasure as you continue to break your resistance with Mika's bountiful ass and soft thighs, your cock twitching eagerly as your climax starts to wash over you.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Submissive",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "Blush",
+                "With a final thrust, you cry out as your manhood erupts like a fountain, spurting thick ropes of cum out the other side of Mika's soft thighs while you tremble with ecstasy. In your thoughtless haze, you eagerly grope Mika's plump rear, indulging in its pillowy curves.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "While keeping you pinned to the wall Mika leans back a little and gazes into your eyes with a slight pout that slowly turns into a smug grin.",
+                "Speaks",
+                "Hey,♥ I want to cum too.♥",
+                "She nuzzles into your neck with a seductive purr as she starts to massage your length with her soft thighs, pumping your length and rubbing it against her dripping slit. You gasp and tremble with overstimulation from your recent orgasm, and your cock twitches like mad from the teasing stimulation.",
+                "You grope her bountiful ass while you twitch from the shocking pleasure striking through you from Mika's slow pumping strokes with her thighs, her sweet purr reverberating in your mind like a tingly wave of bliss.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Submissive",
+                "Completely lost in a haze of horny lust you start to thrust into her thighs again, and Mika moans gleefully as you use your hold on her plump butt as leverage again, fucking yourself senseless with her thighs all over again.",
+                "Speaks",
+                "Purrrr...♥ That's it.♥ Don't stop.♥ Mmmmm!♥",
+                "Mika shivers with pleasure as you rub against her warm pussy, her soft thighs squeezing your aching cock a little tighter as you fuck them to your heart's content, her plump rear accepting every grope of your fingers.",
+                "Her lewd gasps only increase in intensity as she squirms against you, slowly but surely working her way towards orgasm as you pound her pillowy thighs' tight squeezing vice with your manhood, every rub of your rigid manhood against her dripping slit making her twitch.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewded",
+                "She finally cries out in ecstasy as you continue to thrust against her, your hands squeezing her plump rear only intensifying her cry of pleasure as her back arches and her body quivers, almost threatening to send you both collapsing to the floor.",
+                "Mika's left quivering with bliss while you keep thrusting against her pussy, until with a final mind-blanking thrust you cum again, coating her legs and the floor with your seed as you tremble with climactic ecstasy.",
+                "With both of you lost in the throes of orgasm you, the two of you slowly sink down onto the ground sighing with pleasure, but Mika quickly stands up as you start to fade away. She languidly stretches with a relaxed smile.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "NyaSmug",
+                "Speaks",
+                "Mmmmm...♥ That actually felt pretty good.♥",
+                "She leaves you twitching on the ground as she slowly walks away, glancing down at her cum coated thighs and ass.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Confused",
+                "Speaks",
+                "Ugh, but the clean up is a pain... Time to get this wiped off...",
+                "You finally pass out, your mind still eagerly thinking about her soft ass in your hands and her thick thighs wringing you dry.",
+                "...",
+                "GetEventAndIfChoice",
+                "Visiting Mika",
+                "41",
+                "spar",
+                "WakeUpPostLoss",
+                "ChangeFetish",
+                "Ass",
+                "5",
+                "ChangeFetish",
+                "Legs",
+                "5",
+                "ChangeSensitivity",
+                "Sex",
+                "5"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "LossScene",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Mika"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "With a groan, your legs give out and you collapse to the ground, unable to resist any longer.",
+                "Speaks",
+                "Hehehe!♥ Not going anywhere now are you?♥ Now it's time for {i}your{/i} punishment.♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Cocky",
+                "She gracefully straddles your waist before forcing you into a sitting position as she moves your hands to her curvy rear.",
+                "Now face to face with Mika, you cannot help but flush from the feeling of her warm breath on your neck, her soft breasts pressing into your chest, and your hands unconsciously feeling up her soft voluptuous rear as your shaft stands at attention.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "With a smug grin, she tightly wraps her tail around the base of your cock and gently grinds her bountiful ass against your rigid manhood.",
+                "Speaks",
+                "Don't worry, you're going to love this. I mean, you {i}do{/i} want to fuck my tight ass, don't you?",
+                "As your flush deepens under her intense stare, you avert your eyes to try to ignore the question, but she takes advantage of your embarrassment to move close to your now easily accessible ear.",
+                "You shudder as she sensually purrs into your ear, the sound reverberating throughout your entire body as she tightly embraces you.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "Speaks",
+                "Come on, don't deny it.♥ I can feel your cock throbbing and twitching.♥",
+                "She continues to gently purr into your ear as she grinds and rubs her overwhelming ass against your cock leaving it aching with need, and you panting with lust.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "Your hands refuse to stop feeling up her luscious rear, and you can't help but enjoy the feeling of your fingers sinking into her soft flesh.",
+                "She purrs sweetly and nibbles on your ear, making you shudder with primal need. You slowly realize that she's not going to stop teasing you until you ask her for more.",
+                "It doesn't take much longer for lust to overtake your reasoning, leaving you groaning and needy from her sensual caresses giving way to primal lust tingling through your body.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Mocking",
+                "PlayerSpeaks",
+                "I-I want to fuck your ass...",
+                "Still tightly embracing you and purring gently, she brings her mouth right up to your ear, her warm breath sending shivers down your spine.",
+                "Speaks",
+                "See?♥ That wasn't so hard, was it?♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "She slowly raises her hips before guiding your shaft into her tight rear with her flexible tail and with one swift motion she fully takes your shaft into her inviting backdoor.",
+                "You let out a shuddering moan as you're completely overwhelmed from the sensation of penetrating her tight squeezing rear, your balls tighten and you instantly ejaculate into her, too lustful and aroused from all the prior teasing.",
+                "Speaks",
+                "You could've just fucked my ass while I was in the stockade you know. {i}Maybe{/i} you wanted me to dominate you instead?♥",
+                "Giving you no rest, Mika begins to ride your shaft, leaving you gasping as you tighten your grip on her plush rear.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewd",
+                "Speaks",
+                "Mmmmm,♥ I'm going to get you so hooked on my ass, just the sight of it is going to drive you wild.♥",
+                "She purrs lewdly into your ear, making your whole body twitch in pleasure as the vibrations reverberate through you, giving you a seductive wave of tingling bliss.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "Speaks",
+                "So just give in to your carnal desires.♥ Let that primal aching need take over.♥",
+                "Her tight ass feels heavenly as she rides you, clinging perfectly to your twitching cock, feeling like it's the perfect match for your rigid dick, or maybe your manhood was made for fucking her ass? Your heads starting to spin with delirious lust.",
+                "Every meeting of your hips scatters your thoughts and sends a tingling wave of ecstasy through you, and soon orgasmic pleasure cascades through your body, but just before you reach blissful climax she suddenly stops riding your shaft, merely keeping you deeply hilted in her perfect ass.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Mocking",
+                "She moves away from your ear before gently grabbing your face and forcing you to look her deep in her yellow eyes with a sly smile on her face.",
+                "Speaks",
+                "Say you want to cum.♥",
+                "As you begin to regain some semblance of reason from the lack of stimulation, she begins to slowly and carefully grind against your shaft, keeping you on the very edge of release and what remaining willpower you have left quickly melts away as the intoxicating pleasure overwhelms you.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "PlayerSpeaks",
+                "M-Make me cum!♥",
+                "She releases your face with a purring laugh and she cuddles up to your ear again purring sweetly as she increases the tempo of her hips once more, sending bolts of electric pleasure shooting through your spine, and your brain blanks out with ecstasy.",
+                "You tightly grip her plump rear as orgasmic pleasure ricochets through your whole body and you start to spurt load after load into the cat girl's tight rear as she bounces on your twitching cock relentlessly, milking out thick ropes of cum out of you.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewd",
+                "Mika shows no sign of slowing her hips as you uncontrollably buck into her, her ass gripping tighter and tighter onto your shaft with each meeting of your hips drawing out even more of your thick cum. You can feel your expression turning into one of loose ecstasy, but you no longer care, her voluptuous ass is completely dominating your brain and your twitching manhood.",
+                "Even as the orgasm finally starts to ebb away, you can already feel the next orgasm quickly approaching like a tidal wave, and Mika purrs directly into your ear, causing intense pleasure to reverberate through your whole body as she effortless forces you into your next powerful orgasm in an instant.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "Speaks",
+                "Thats it,♥ let it all out.♥ Give in completely.♥",
+                "She stops bouncing on your spurting dick and starts to sensually roll her hips as the next mind-blanking orgasm hits you, gently coaxing your cum out of you with her tight rear, greedily soaking in every last drop of your semen.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "Mika purrs sweetly in your ear, making your bodies vibrate together in sweet unison, leaving your whole body feeling as sensitive as your twitching manhood. Her sensual gyrations and perfectly tight ass leave your cock twitching with bliss, her cooing purr sending you to orgasmic heights over and over, and each orgasm that hits you is rapidly followed by another as she slowly sways her hips.",
+                "Her impossibly tight ass refuses to let your shaft go soft, sucking and squeezing you with it's powerful muscles, keeping you achingly hard, and your mind-blanking out in ecstasy. You tightly cling to Mika as she wrings you completely dry, and you slowly drift into unconsciousness in a sea of pleasure, smiling with intoxicated bliss.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "Speaks",
+                "Your punishment is almost over.♥ But you're going to be thinking about it for weeks.♥",
+                "With one final sensual purr in your ear and a squeezing gulp from her tight rear, your entire body spasms as multiple orgasms strike through your body at the same time, making your entire world go white as pleasure overwhelms your mind one last time and you pour load after load into Mika's tight ass until you completely black out...",
+                "...",
+                "GetEventAndIfChoice",
+                "Visiting Mika",
+                "41",
+                "spar",
+                "WakeUpPostLoss",
+                "ChangeFetish",
+                "Ass",
+                "5",
+                "ChangeSensitivity",
+                "Sex",
+                "5"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "WakeUpPostLoss",
+            "move": "OnlyJumpedTo",
+            "stance": "Sex",
+            "includes": [
+                "Mika"
+            ],
+            "theScene": [
+                "CallLossLevelUp",
+                "ClearStances",
+                "ClearPlayerStatusEffects",
+                "Drowsily you register Mika dragging you back into her room and pulling you onto her bed before cuddling up to you, letting you rest...",
+                "ClearMonsterEncounter",
+                "GetEventAndSetChoice",
+                "Visiting Mika",
+                "41",
+                "",
+                "JumpToEventThenScene",
+                "Visiting Mika",
+                "PostSexWakeup"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "SetMusicTo",
+            "move": "",
+            "theText": [
+                "music/Battle/Shiva_Dance.mp3"
+            ]
+        },
+        {
+            "lineTrigger": "StartOfCombat",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|MikasCombatEvents|/|Intro|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Spank",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Mhmhm, ¿quería ver mi culo rebotar?No puedo culparte.",
+                "|f|ChangeImageLayer|/|Expression|/|Amused|n|'¿Oh?¿Se suponía que eso dolía, o simplemente te gusta ver mi culo masturbarse?",
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|Ve a Nya, me azoté de nuevo, solo asegúrate de verlo jiggar. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|\"Mmmm, ♥ Siéntete libre de seguir haciendo eso\"."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Whip",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|'Está bien, estás tomando' castigar 'un poco demasiado literalmente'.",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|¿Nya?¡Oye, oye, note!",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|'¿Puedes joder con eso?Si quieres ponerme duro, ¡azota mi trasero!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Demon Layer",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Mmmm ... ♥ Bueno, eso es mucho más divertido que un látigo normal ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Shock|n|'N-Nya!?♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Shock|n|'N-Nya!?♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Shock|n|'N-Nya!?♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'A-ah, ♥ hey, ¿puedes atenuar el' castigo 'un poco?'",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|¡D-no creo que puedas domesticarme o algo con eso!",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'Ohhh ... ♥ th-eso dejó mi cabeza en blanco por un segundo ... ♥ nyaaaa ... ♥♥♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Holy Headpat",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|'Oye, ¿cuál es el {b} {i} joder! {/i} {/b}'|f|CallCombatEventAndScene|/|PlayerCombatEvents|/|Enraged|n|",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|'No dije que pudieras {b} {i} fucking {/i} {/b} toque mis oídos!'|f|CallCombatEventAndScene|/|PlayerCombatEvents|/|Enraged|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Bondage Net",
+                "Magical Binding"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Flustered|n|'H-hehe, ¿más un tipo de cuerda que un tipo de empalme?",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|¿Nya?Uhh ... ¿podrías dejarme ir n-nya?",
+                "|f|ChangeImageLayer|/|Expression|/|NyaNya|n|¿Vas a castigar mi trasero ahora, Nya?",
+                "|f|ChangeImageLayer|/|Expression|/|NyaNya|n|'S-SO ¿Qué planeas hacer conmigo Nya?¿Vas a follar mi culo apretado?",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|¿Nya?Uhh ... ¿podrías dejarme ir n-nya?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pin",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|NyaNya|n|¿Nya?Uhh ... ¿podrías dejarme ir n-nya?",
+                "|f|ChangeImageLayer|/|Expression|/|NyaNya|n|¿Vas a castigar mi trasero ahora, Nya?",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'S-SO ¿Qué planeas hacer conmigo Nya?¿Vas a follar mi culo apretado?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Lewd Bottle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shock|n|'Nya?!'",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|'¡Lo hiciste en serio solo!-'|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Oh, eso fue un afrodisíaco ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'D-Damn ... ahora solo quiero follar ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Cloying Mist",
+                "Placebo Pheromone"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shock|n|'Nya?!'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'D-Damn ... ahora solo quiero follar ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Grope Ass",
+                "Squeeze Ass",
+                "Massage Ass",
+                "Fondle Ass"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'Prrrrrr♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Nya ... ♥ No te detengas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Mmm, siente mi culo al contenido de tu corazón. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Nya|n|'¡Tus manos se hunden en mí nya! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Atando mi trasero tanto como quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Mmmmmm.♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Breast Caress",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|¿Un tipo de pecho, ¿eh?Apuesto a que puedo hacerte un hombre de culo. ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'Prrrrrr♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'¿No preferirías sentir mi trasero?'",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'Mi trasero es mejor, lo prometo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Mmmmmm.♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Breast Knead",
+                "Breast Massage",
+                "Breast Fondle"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|¿Un tipo de pecho, ¿eh?Apuesto a que puedo hacerte un hombre de culo. ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'Prrrrrr♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'¿No preferirías sentir mi trasero?'",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'Mi trasero es mejor, lo prometo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Mmmmmm. ♥ Eres bastante bueno con tus manos nya. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Suckle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Confused|n|'¿Nya? ♥ Ah ... bueno, esta no es realmente mi especialidad, pero supongo ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'Prrrrrr♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Mmmmmm.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Amused|n|'Jeje, diviértete? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pinch Nipples",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|'¿Nyaaa?! ... te arrepentirás de eso.",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|¿Ah?!¡Oww!¡Brusco!'",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|'MROAW!?'",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|'Si quieres ponerme duro, ¡azota mi trasero!Deja mis pezones en paz."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Finger",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Prrrrrr♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Mmmmmm.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'No estás pensando en ponerlo allí, ¿verdad?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Dildo",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Mmmmnnn.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Simplemente no es lo mismo que lo real ... Ah, pero realmente deberías follarme el culo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Maldita sea ... ahora realmente quiero follar ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Kiss",
+                "Make Out"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Bueno, ¿no eres dulce? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Eres bastante romántico nya. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Mmmmmm.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Prrrrrr♥♥♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Deep Kiss",
+                "Lovingly Rough Kiss",
+                "Skillfully Passionate Kiss",
+                "Misty Kiss",
+                "Sensually Seductive Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Nya, ¿estás tratando de emborracharme? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Eres un buen besador Nya. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Deberías tocar mi trasero mientras besamos, Nya. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Mmmmmm.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Prrrrrr♥♥♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Arouse",
+                "Arousara",
+                "Arousero"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Me siento tan cálido ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Ohhhh ... ♥ La magia se siente muy bien Nya ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Nyaaa ... ♥ no puedo pensar bien ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Mmmmmm.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Prrrrrr♥♥♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Electrify",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|¿Nyaaa?¡No te atrevas a hacer eso de nuevo!",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|¿Mroaw!?¡Yu, imbécil!",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|'¿Puedes joder con eso?Si quieres ponerme duro, ¡azota mi trasero!"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Seduce",
+                "Enamor",
+                "Smoldering Seduction",
+                "Smoldering Flaunt",
+                "Massaging Seduction",
+                "Mass Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Bueno, ¿no eres un coqueteo?Nya. '",
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Hmmmmm.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Me estás poniendo caliente y molesto Nya. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Eres un dulce hablador, ¿no eres Nya? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Puedes tientas en mi trasero todo lo que quieras, no me enojaré, Nya. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Ear Tease",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'Meeeowwwww♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'Mmmmmm.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'Prrrrrr♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Ny-nya ... ♥ c-¿¿Dejas mis oídos en paz?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Charm",
+                "Charm Wave"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|Ella invita a extender su coño.'Nya! ♥ por favor créeme! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'¡Fóllame! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Te voy a montar tan duro. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Shock|n|'¡D-Did, solo entra al calor?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Enfeeble",
+                "Sensitize"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'I- uh- ¿podemos llamar a un tiempo de espera?'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Oh, bueno, eso no es justo'.",
+                "|f|ChangeImageLayer|/|Expression|/|Shock|n|'Nya?!'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Disarming Appeal"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Nya|n|'Bueno eres bastante guapo, nya. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Nya|n|\"Aw, bueno, concéntrate en mi trasero por un momento y te sentirás mejor\".",
+                "|f|ChangeImageLayer|/|Expression|/|Nya|n|'Oh, ¿te estoy abrumando demasiado, Nya?"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Sleep",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Sleepy|n|'Prrrr ... m-maybe una siesta rápida ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'¡No te detengas! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Sabía que no podías resistirte el culo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Nya|n|'Va a {i} castigar {/i} me ahora nya?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Nya|n|'¡Eres tan grande Nya! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡Sé más áspero! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡Sigue castigándome a Nya! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡No te detengas! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Sigue adelante! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck",
+                "Anal Piston"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewded|n|'¡Eres tan duro! ♥ nya! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡Sí! ♥ más! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡Más duro! ♥ más profundo! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡No te detengas! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|Los sonidos lascivos de la carne que se encuentran con el eco de carne en toda la habitación."
+            ]
+        },
+        {
+            "lineTrigger": "HitWithA",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'Prrrrrr♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'' Prrrrrrr, ♥♥♥ no te detengas. ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Nyaaa...♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'E-esto me está haciendo sentir un poco raro, nyaaa ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n|'Puedo sentir cada empuje ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Penetrate",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|MikasCombatEvents|/|Penetrated|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Thrust",
+                "Channeling Thrust"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|MikasCombatEvents|/|Thrust|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Pound",
+                "Multi Thrust",
+                "Empowered Thrust",
+                "Carrying Fuck",
+                "Anal Piston"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|MikasCombatEvents|/|ThrustTeir2|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Tantric Thrust",
+                "Passionate Lovemaking"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|MikasCombatEvents|/|TantricThrust|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Analyze",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|NyaNya|n|¿N-Nya?H-Hey, lo que sea que ese hechizo te acaba de decir, ¡mi trasero es definitivamente mi lugar realmente débil, Nya!",
+                "|f|ChangeImageLayer|/|Expression|/|Laugh|n|\"Ehehe ... y, debes ignorar lo que sea que el hechizo analice te acaba de decir!\""
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Assjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smile|n|'Tu polla es tan cálida. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"Apenas puedes ver tu eje entre mis nalgas\".",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'Adelante y póngalo en mi trasero, Nya. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Mmmmmm.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'No creo que tu polla quiera irse. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Purr",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'Meeeowwwww♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|NyaNya|n|'Nyaaaaa♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'Prrrrrr♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'Prrrrrr♥♥♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Tempting Thigh Prison",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿No se siente esto bien? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Atando mi trasero tanto como quieras. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Joder mis muslos nyaaaa. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'No te detengas. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Prrrrrr♥♥♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Prrrrrr♥♥♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Wall Pinned Thighjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿No se siente esto bien? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Mis muslos son casi tan impresionantes como mi trasero. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"No puedes escapar ahora. ♥ mis gruesos muslos van a apretar tu polla\".",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Sigue a tientas mi culo Nya. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Mocking|n|'Estás completamente acorralado ahora. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Prrrrrr♥♥♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Tailjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿No es mi cola tan suave? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Vamos a prepararte para mi trasero.",
+                "|f|ChangeImageLayer|/|Expression|/|NyaSmug|n|'Voy a burlarte de tu polla Nya. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Tail Stroke",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Amused|n|\"Apuesto a que no esperabas que esto se sintiera tan bien\".",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Hmhmhm.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"Tal vez debería apretarlo más\".",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Intenta aguantar hasta que estés en mi culo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Eres tan grueso y rígido para mí. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Mika's Anal Capture",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Tengo tu polla! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿Estás listo para que tu mentalidad establezca?'",
+                "|f|ChangeImageLayer|/|Expression|/|Mocking|n|'No creo que tu polla esté lista para mi trasero. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'¿No quieres follar mi cerebro Nya? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|'¿No deberías estar castigándome a Nya? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "usesMoveA",
+            "move": "Tighten",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Mmm, creo que tu polla está enamorada'.",
+                "|f|ChangeImageLayer|/|Expression|/|Horny|n|'Voy a montar tu polla sin sentido'.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Puedo hacerlo aún más estricto. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Un ajuste tan apretado para tu gruesa polla. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "usesMoveA",
+            "move": "Grind",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Hmhmhm.♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Tu polla no puede seguir el ritmo de mi botín. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Solo me jodan el culo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|Vamos Nya. ♥ No te detengas. ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Amused|n|'¿Te están rompiendo mis espesas caderas? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Mika's Relentless Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Mocking|n|'¡Vamos!¡Germinar para mí! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Es demasiado tarde para salir ahora! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Te vas a enganchar por completo! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡No pasará mucho tiempo hasta que te enamores irremediablemente de mi trasero! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Amused|n|'¿Te están rompiendo mis espesas caderas? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Mika's Relentless Mating",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Mocking|n|'¡Vamos!¡Germinar para mí! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Es demasiado tarde para salir ahora! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Querías follar {i} ¿verdad {/i}? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Solo mira mi culo rebotar mientras te jodo sin sentido! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Amused|n|'¿Te están rompiendo mis espesas caderas? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|Blush|n|'N-nyaa ♥ ... ghk- no puedo creer que me vayas ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Submissive|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Creo que subestimé tus habilidades ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewded|n||f|ChangeImageLayer|/|Base|/|Blush|n|'D-Damn ... No puedo dejar de pensar en aparearse contigo ..."
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Jeje, parece que estás a punto de estallar. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Tu polla palpita tanto. ♪ ¿Listo para rendirse? ♪",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'No puedes resistirte mucho más. ♪"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Mika's Relentless Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|No puedes evitar gemir mientras Mika continúa golpeando sus caderas en tu ingle, perdiéndote al placer mientras miras impotentes a su cautivador trasero, sacudiéndose con cada poderoso impacto, quemando la deliciosa vista en tu mente mientras te ahogaséxtasis.|n|Your moans intensify as Mika picks up the pace, leveraging her tail wrapped around your wrists to force you to meet her slamming hips, and your body cascades with orgasmic ecstasy, but even as you start to cum Mika doesn't stop fucking you, she doesn't even slow down, leaving you drooling in oversensitive pleasure as you spurt more and more of you thick cum into her tight rear, getting every drop wrung out of your aching balls.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|La cola de Mika te empuja agresivamente hacia adelante, obligándolo a empujar a su culo apretado, tentándote a que te dispuestos a follar a su parte trasera abundante mientras rebota ante tus ojos, y con el culo arriba y su cara tan abajo casi se siente como si estuvieras eluno en la posición dominante.|n|The baser parts of your mind let the primal lust take over and you eagerly pound her tight ass in time with her slamming hips, leaving you reveling in your perverse situation as you finally blow your load into the cat girl's perfectly tight ass, leaving you eager to fill her with even more of your seed as you thoughtlessly continue to fuck her.",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|Mika golpea implacablemente sus caderas en su ingle, su culo perfectamente apretado trabajando para retorcer su polla dolorida completamente seca, y cada impacto brusco está amortiguado por su voluptuoso culo, enviando hormigueo de placer ondulante a través de sus caderas cada vez que se inclina su erección palpitante.|n|You find yourself lost in the wild rhythm of her hips fucking your cock senseless, the almost entrancing sight of her bouncing ass keeping a hold of your focus as you mindlessly try to meet her thrusts, completely lost to your aching desires, until you finally cry out in ecstasy and flood her tight rear with a thick load of your cum."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Mika's Relentless Mating",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|No puedes evitar gemir mientras Mika continúa golpeando sus caderas en tu ingle, perdiéndote al placer mientras miras impotentes a su cautivador trasero, sacudiéndose con cada poderoso impacto, quemando la deliciosa vista en tu mente mientras te ahogaséxtasis.|n|Your moans intensify as Mika picks up the pace, leveraging her tail wrapped around your wrists to force you to meet her slamming hips, and your body cascades with orgasmic ecstasy, but even as you start to cum Mika doesn't stop fucking you, she doesn't even slow down, leaving you drooling in oversensitive pleasure as you spurt more and more of you thick cum into her tight pussy, getting every drop wrung out of your aching balls.",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|La cola de Mika te empuja agresivamente hacia adelante, obligándolo a empujar a su apretado coño, tentando a que estés dispuesto a follarla mientras su trasero abundante rebota hipnóticamente ante tus ojos, y con el culo arriba y su cara tan abajo casi se siente como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvieras como si estuvierasel que está en la posición dominante.|n|The baser parts of your mind let the primal lust take over and you eagerly pound her tight pussy in time with her slamming hips, leaving you reveling in your perverse situation as you finally blow your load into the cat girl's womb with a final mind-blanking thrust, leaving you eager to fill her with even more of your seed as you thoughtlessly continue to fuck her.",
+                "|f|ChangeImageLayer|/|Expression|/|Cocky|n|Mika golpea implacablemente sus caderas en su ingle, su coño perfectamente apretado que trabaja para retorcer su polla dolorida completamente seca, y cada impacto brusco está acolcado por su voluptuoso culo, enviando hormigueo de placer ondulante a través de sus caderas cada vez que se encoge de su erección palpitante.|n|You find yourself lost in the wild rhythm of her hips fucking your cock senseless, the almost entrancing sight of her bouncing ass keeping a hold of your focus as you mindlessly try to meet her thrusts, completely lost to your aching desires, until you finally cry out in ecstasy and flood her womb with a thick load of your cum."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Con tu eje atrapado en la parte trasera casi imposiblemente apretada de Mika, tu polla comienza a tirar y latir con necesidad mientras ella continúa mastando sus caderas contra ti.'¡Continúa! ♥ Cum! ♥' Como por orden, su cuerpo se convulsiona de placer y llenas su apretada trasera con tu semen grueso.Poco después de que termine su orgasmo, ella se reanuda a moler sus caderas en su eje, dejando que su polla temblante le duela volver a chorrear.",
+                "|f|ChangeImageLayer|/|Expression|/|NyaSmug|n|'¡Vamos, nya! ♥ deja escapar todo tu semen! ♥' El culo de Mika de repente tensa alrededor de tu dolor de virilidad dolorida, haciendo que el placer se extienda por todo tu cuerpo mientras apenas aguantas un orgasmo, pero sus músculos internos chupan tu eje más dentro de ella dentro de ellaEl electrificación de su cuerpo en éxtasis como un orgasmo intenso lo supera y te corres en el fondo de su deliciosa trasera.|n|You're left gasping and delirious as her tight ass keeps wringing your throbbing erection for every drop, feeling perfectly shaped for your manhood, begging to be filled with more of your cum.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Agarras las caderas con curvas de Mika y comienzas a empujar salvajemente en su trasero, ya no puedes decir si estás haciendo esto para tratar de golpearla o simplemente para bombear su culo increíblemente apretado lleno de semen.Incapaz de contener su lujuria de alboroto, solo requiere unos pocos empujes finales finales para que alcance su pico orgásmico con una reunión de sus caderas a medida que comienza a eyacular dentro de ella.|n|Mika playfully grinds against you with a soft laugh, her tight ass seeming to gulp down every drop of semen you unload into her, and you're left quivering in bliss from her perfect butt pressed against your groin.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Mika coincide perfectamente con el ritmo de sus empujes, haciendo que su culo regordete se mueva deliciosamente cada vez que sus caderas se encuentran, y cada impacto suave parece que está reverberando a través de sus caderas en una ola de felicidad, haciendo que su polla se contrae y palmee con anticipación.|n|You find yourself completely lost in the moment, watching Mika's perfect ass jiggle and bounce as you fuck her, indulging in the feeling of her voluptuous rear wringing your cock dry, and you moan loudly as your orgasm suddenly strikes through you like a bolt of lightning, leaving you pouring a thick load into Mika's tight ass."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Sex",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Con tu eje atrapado en el coño desesperadamente aferrado de Mika, tu polla comienza a tirar y latir con necesidad mientras continúa mastando sus caderas contra ti.'¡Continúa! ♥ Cum! ♥' Como por orden, su cuerpo se convulsiona de placer y llenas su hendidura apretada con tu semen grueso.Poco después de que termine su orgasmo, ella se reanuda a moler sus caderas en su eje, dejando que su polla temblante le duela volver a chorrear.",
+                "|f|ChangeImageLayer|/|Expression|/|NyaSmug|n|'¡Vamos, nya! ♥ deja escapar todo tu semen! ♥' El coño de Mika de repente tensa alrededor de tu dolor de virilidad, haciendo que el placer se extienda por todo tu cuerpo mientras apenas aferras a un orgasmo, pero sus músculos internos chupan tu eje más dentro de ellaEl electrificación de su cuerpo en éxtasis como un orgasmo intenso lo supera y usted se corre directamente a su útero.|n|You're left gasping and delirious as her tight pussy keeps wringing your throbbing erection for every drop, feeling perfectly shaped for your manhood, begging to be filled with more of your cum.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Agarras las caderas con curvas de Mika y comienzas a empujar salvajemente a su coño, ya no puedes decir si estás haciendo esto para tratar de vencerla o simplemente para bombear su matriz lleno de semen.Incapaz de contener su lujuria de alboroto, solo requiere unos pocos empujes finales finales para que alcance su pico orgásmico con una reunión de sus caderas a medida que comienza a eyacular dentro de ella.|n|Mika playfully grinds against you with a soft laugh, her tight pussy seeming to soak in every drop of semen you unload into her, and you're left quivering in bliss from her perfect butt pressed against your groin.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Mika coincide perfectamente con el ritmo de sus empujes, haciendo que su culo regordete se mueva deliciosamente cada vez que sus caderas se encuentran, y cada impacto suave parece que está reverberando a través de sus caderas en una ola de felicidad, haciendo que su polla se contrae y palmee con anticipación.|n|You find yourself completely lost in the moment, watching Mika's perfect ass jiggle and bounce as you fuck her, indulging in the feeling of her tight pussy wringing your cock dry, and you moan loudly as your orgasm suddenly strikes through you like a bolt of lightning, leaving you pouring a thick load directly into Mika's womb."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Thighjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|No puedes soportarlo más, la lujuria te lleva y pones todo el esfuerzo que puedes en los muslos suaves de Mika, y ella ronroneado dulcemente mientras te pierdes a ella abrumadoramente suave carne, usando tu apretada culo tan abundante comoAproveche para empujar en sus piernas cálidas vicio de su polla.|n|With a final powerful thrust you cry out in ecstasy, spurting thick ropes of cum all over her legs and out the other side of her legs' squeezing hold. Leaving you trembling and gasping in pleasure for a few moments in Mika's pinning grasp while she squeezes your aching dick with her thick thighs...",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Mika ronrona dulcemente en la oreja mientras se frota la longitud dolorida con sus suaves muslos, y no puedes evitar establecerse en su abrazo, a tientas su lujosa trasera con un suspiro feliz como burbujas de placer orgásmico dentro de tu ingle.|n|You moan as Mika tightly squeezes her thick thighs together, wringing out thick ropes of cum from your twitching cock while you squeeze her bountiful ass, leaving you in a horny daze even as the ecstasy ebbs away.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Puedes sentir la calidez del coño de Mika irradiándose sobre tu eje mientras bombea tu polla dolorida con sus suaves muslos, haciendo que tu polla se contrae con emoción y tus manos apreten su culo regordete mientras la emoción comienza a superarte.|n|Unable to think clearly through a haze of lust you forcibly press Mika's hips into yours as you grope her curvy butt, the final powerful stroke of her thighs making your over-eager cock erupt spurts of cum all over her thighs and the ground. You gasp and moan deliriously as your manhood aches for more, the heat of her pussy enticing your primal desires.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Mika ronrona dulcemente mientras se frota su cuerpo contra ti, moviendo sus anchas caderas para masajear tu polla con sus suaves muslos, y te quedas aturdido por el placer y su calidez, con tientas irreflexivas su abundante culo, disfrutando de la sensaciónde tus dedos hundiéndose en su lujoso trasero.|n|With a tight squeeze of her overwhelming thighs you moan and your twitching cock spurts thick ropes of cum over her soft thighs and onto the ground while she gently gyrates her hips, wringing out as much cum as she can."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Assjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|Las mejillas suaves y curvilíneas de Mika han envuelto su eje en su placentero abrazo.Al borde del orgasmo, intentas alejarse desesperadamente, pero Mika extiende hacia atrás y presiona sus manos hacia atrás, creando una presión como un eje.|f|ChangeImageLayer|/|Expression|/|Smug|n|La sensación resulta demasiado para su virilidad sobreestimulada mientras te corres sobre su espalda, tus caderas se rompen instintivamente en éxtasis.Mika te mira con una sonrisa petulante en su rostro antes de continuar mastando su trasero contra tu polla rígida.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|La parte trasera curvilínea de la niña de la gata continúa acariciando tu virilidad mientras aumenta lentamente su tempo, tu eje enterrado en su suave carne.Inmovilizado con placer, solo puedes anticipar la dulce liberación que se acerca rápidamente, y cuando comienza a acariciar febrilmente tu eje, finalmente te orgasmo, estimulando tu carga sobre su culo curvilíneo y de regreso.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Con tu virilidad, que es tan incesante por las suaves nalgas de Mika, sientes que la necesidad de superarte, pero justo antes de que puedas, de repente ralentiza su estimulación, manteniéndote tambaleándose en el borde del orgasmo.|n|Despite the opportunity to turn the tables, the only thing on your pleasure addled mind is the pressing need to cum as you grab Mika's curvy rear and thrust hard, burying your cock in her soft flesh as you spray her back with your seed."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Tailjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Su cola suave acaricia firmemente tu virilidad rígida cada vez más rápido hasta que todo lo que puedas hacer es contraver, gemir e intentar en vano detener tu orgasmo inminente.'¡Se acabó! ♥' Con un último tira y poderoso tira de su cola, tu polla estalla en la dicha orgásmica y cubres la lujosa trasera de Mika con tu semen.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¡Parece que estás justo en el borde! ♥' La punta de la cola de Mika, firmemente enrollada alrededor de la base de tu eje, envuelve hábilmente tus bolas y comienza a apretar suavemente y masajearlas mientras el resto de su cola continúaAterrice su eje, enviando placer eléctrico a través de sus caderas mientras la estimulación combinada lo envía al borde, disparando semen por todo el culo curvilíneo de Mika."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Purr",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|Mika presiona sensualmente contra su cuerpo mientras ronrona directamente en su oído, haciéndolo jadear con necesidad, ya que su cerebro adegado de lujuria ya no puede resistirla.Sus caderas empujan involuntariamente al aire mientras ella se burla implacablemente de su cuerpo, y con un ronroneo seductor final que vibra a través de usted, su eje estalla de placer, rociando su espesa carga mientras Mika se aleja, una sonrisa poca en su rostro.",
+                "|f|ChangeImageLayer|/|Expression|/|Beg|n|Mika te abraza, ronroneando sensualmente en tu oreja mientras fuerza tu polla entre sus suaves muslos.Ella muele contra tu eje, acariciando tu virilidad con su coño goteando y muslos mientras maullo dulce en tus oídos hasta que tu miembro palpitante no pueda tomar más y te eyaculas entre sus piernas."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|El placer en tu ingle se vuelve insoportable y volas tu carga para la chica de gato lasciva.'No estás cansado todavía, ¿verdad?Todavía tienes que follarme el culo. ♥ '"
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Lewded|n|'¡Ohnono! ♥ ¡Estoy c-comming! ♥ n-nyaaa! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'I-i Can- no puedo- Nyaaahhhh ♥!",
+                "|f|ChangeImageLayer|/|Expression|/|Lewded|n|'¡Y tú Q-quite el st-Stud!Ah?! ♥ ahhhh !!! ♥ '"
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Amused|n|'Voy a jugar contigo hasta que tu polla no pueda tomar más. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Después de que termine contigo, te engancharás en mi trasero. ♪'",
+                "|f|ChangeImageLayer|/|Expression|/|Amused|n|'Supongo que puedo {i} castigarte {/i} por rendirte."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Anal",
+            "theText": [
+                "[ThePlayerName] intenta retirarse de la parte trasera curvilínea de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Anal",
+            "theText": [
+                "¡Pero mientras intentas alejarla, ella te agarra los brazos y te empuja de vuelta en ella mientras te mira con una expresión engreída en su rostro!",
+                "¡Pero con una fuerza sorprendente, [AttackerName] golpea su deliciosa trasera en su ingle!La forma en que se mueve es casi fascinante ...",
+                "¡Pero mientras agarras sus caderas para sacar, tus manos se hunden en su culo flexible y terminas masajeando solo su regordete trasero!",
+                "Pero cuando la aleja, su cola se envuelve alrededor de su muñeca y lo empuja hacia atrás hacia ella, dejándola enterrar su polla en su culo nuevamente."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Amused|n|'Tal vez deberías pasar más tiempo follando mi trasero y menos tiempo tratando de salir de él. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|NyaSmug|n|'¿Qué ocurre?¿Se siente demasiado bien?Cum todo lo que quieras, no me importa, nya! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Oh, no te vas a alejar tan fácilmente. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡Vamos!¡Fóllame duro! ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Lewd|n|'¡Deja que tus deseos corran salvajes! ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Anal",
+            "theText": [
+                "¡Y liberarse del culo abrumador de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Anal",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|NyaSmug|n|'¿Qué pasa? Deberías estar castigando mi trasero, ♥ Nya! ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Puedo decir que quieres más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Amused|n|¿Fue demasiado para ti?",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Te atraparé de nuevo pronto. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Sex",
+            "theText": [
+                "[ThePlayerName] intenta retirarse del coño apretado de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Sex",
+            "theText": [
+                "¡Pero ella desesperadamente muele sus caderas con curvas en su ingle, llena de necesidades primarias!",
+                "¡Pero mientras intentas alejarla, ella te agarra los brazos y te empuja de vuelta en ella mientras te mira con ojos lujuriosos!",
+                "¡Pero con una fuerza sorprendente, [AttackerName] golpea su deliciosa trasera en su ingle!La forma en que se mueve es casi fascinante ...",
+                "¡Pero mientras agarras sus caderas para sacar, tus manos se hunden en su culo flexible y terminas masajeando solo su regordete trasero!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Sex",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|MikasCombatEvents|/|FailedEscapeSex|n|"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Sex",
+            "theText": [
+                "¡Y liberarse de la hendidura húmeda de [AttackerName]!",
+                "¡Y alejarse del apretón de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Sex",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|MikasCombatEvents|/|EscapedSex|n|"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Tailjob",
+            "theText": [
+                "[ThePlayerName] trata de sacar la suave cola de [AttackerName] lejos de su eje ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Tailjob",
+            "theText": [
+                "Pero a pesar de sus mejores esfuerzos, ¡su cola se mantiene firmemente envuelta alrededor de su polla!",
+                "Pero cuando sacas la cola de tu eje, ¡simplemente escapa de tu agarre y bobina alrededor de tu rígida virilidad!",
+                "¡Pero a medida que haces tu intento, Mika de repente retrocede y muele su llanura de botín contra tu virilidad!Las sensaciones agradables te dejan con ganas más ...",
+                "Pero cuando tiras de su cola, solo parece apretarse alrededor de tu eje, ¡y termina gratamente tirando de tu virilidad!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Tailjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Amused|n|'Oh, no te vas a alejar tan fácilmente. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Mmm, tire de mi cola todo lo que quieres. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'¿Mi cola te está afectando? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Mmm apuesto a que quieres ponerlo en mi trasero, ¿verdad? ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Tailjob",
+            "theText": [
+                "¡Y saca la cola suave de [AttackerName] lejos de tu polla!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Tailjob",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|\"Realmente debes querer que juegue con tu polla\".",
+                "|f|ChangeImageLayer|/|Expression|/|Amused|n|¿Se sentía demasiado bien?",
+                "|f|ChangeImageLayer|/|Expression|/|Amused|n|¿Fue demasiado para ti?",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Puedo decir que quieres más. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Te atraparé de nuevo pronto. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Making Out",
+            "theText": [
+                "[ThePlayerName] intenta romper el beso con [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Making Out",
+            "theText": [
+                "Pero mantiene sus brazos firmemente envueltos alrededor de la parte posterior del cuello de [ThePlayerName], manteniendo [TargetHimOrHer] en un beso apasionado.",
+                "Pero cuando comienzas a alejarla, ella guía tus manos a su trasero curvilíneo y te pierdes al a tientas su delicioso trasero."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n|'Mmm...♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Happy|n|'Prrrrrr.♥"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Making Out",
+            "theText": [
+                "¡Y se libera de sus labios!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Hmm, ¡eso no estaba tan mal! ♥",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|'Hay cosas más importantes en las que te concentres. ♥'"
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "Mika Defeated Anal",
+            "move": "",
+            "stance": "Anal",
+            "includes": [
+                "Mika"
+            ],
+            "theScene": [
+                "GetEventAndIfChoice",
+                "MikasCombatEvents",
+                "7",
+                "LostInReversal",
+                "EndTheVictoryEvent",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewded",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "Blush",
+                "ChangeImageLayer",
+                "BodyPart",
+                "1",
+                "Hand",
+                "Speaks",
+                "D-Did I just cum from my ass?",
+                "Mika seems rather dazed and out of it as you continue to pound her voluptuous rear, your cock aching for release now that you've won, her tightly squeezing orifice clinging to your throbbing manhood.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Horny",
+                "Speaks",
+                "Fuuuuccckkkkk...♥ Don't stop!♥",
+                "She looks back at you with intense desire filled eyes, and you oblige, groping her plump ass as you pound her rear senseless, leaving Mika mewling in blissful pleasure.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewded",
+                "Speaks",
+                "Mmmmm!♥ You wouldn't believe, Ahhh!♥ How hard it is for me to cum like this!",
+                "As you roughly fuck Mika's tight rear you can tell she's starting to get a second wind, clearly you need to switch it up or you're going to have to fight her all over again!",
+                "She lets out a surprised meow as you sweep your arms under her thighs and lift her into the air, leaving her legs hanging in an M shape as you pound her curvy ass from below, bouncing her on your rigid cock.",
+                "Speaks",
+                "Wh- H-Hold on this is a bit humiliatin-Ohhhhh♥ yes!♥♥♥ You're hitting so deep!♥ keep going!♥",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "BlushSweat",
+                "She lets out a shivering sigh and lifts her arms to reach back and wrap them around your neck as you fuck her squeezing and spasming rear, your aching manhood throbbing with need from every thrust.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewd",
+                "Mika's clearly losing herself in the moment, moaning like a whore as you pound her bountiful ass, each impact cushioned by her plump rear in soft pillowy perfection.",
+                "Your balls are twitching and aching as you try to endure her tight rear as you bring her ever-closer to another climax, her body twitching with shocks of pleasure.",
+                "Speaks",
+                "I-I'm right on the edge!♥ Ohhhh!♥ Come on fill me with your cum!♥♥♥",
+                "PlayerOrgasmNoSpiritLoss",
+                "Her words coax you over the edge, and with a final hilting thrust of your rigid cock in her tight rear you erupt inside her, flooding her squeezing rear with your seed, and Mika cries out in shivering bliss as she too is sent over the edge, her entire body quivering with electrifying orgasmic pleasure.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewded",
+                "Slowly the tensing pleasure ebbs away from your bodies, and she leans back into you with a happy sigh, nuzzling your cheek while her tight rear doesn't let a single drop of your cum escape.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smile",
+                "Speaks",
+                "Hahhh...♥ Hahhh...♥ Fuck that was great!♥",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Caring",
+                "Despite her clear craving for another round, she's starting to fade away, and she gives you a peck on the cheek and a smile.",
+                "Speaks",
+                "Mmmmm,♥ don't be a stranger [ThePlayerName].♥",
+                "She finally vanishes leaving your arms free of her bodies weight, and you gasp with exertion, taking a quick break...",
+                "GetEventAndIfChoice",
+                "MikasCombatEvents",
+                "5",
+                "AnalOrgasm",
+                "EndTheVictoryEvent",
+                "GetEventAndSetChoice",
+                "MikasCombatEvents",
+                "5",
+                "AnalOrgasm",
+                "GetEventAndChangeProgress",
+                "Commander's Pet",
+                "10",
+                "GetAnEventsProgressThenIfEqualsOrLess",
+                "Commander's Pet",
+                "25",
+                "EarlyAffection"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "EndTheVictoryEvent",
+            "move": "",
+            "stance": "nanona",
+            "includes": [
+                "Mika"
+            ],
+            "theScene": [
+                "GetAnEventsProgressThenIfEqualsOrLess",
+                "Commander's Pet",
+                "25",
+                "EarlyAffection"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Mika Defeated Sex",
+            "move": "",
+            "stance": "Sex",
+            "includes": [
+                "Mika"
+            ],
+            "theScene": [
+                "GetEventAndIfChoice",
+                "MikasCombatEvents",
+                "7",
+                "LostInReversal",
+                "EndTheVictoryEvent",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewded",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "Blush",
+                "ChangeImageLayer",
+                "BodyPart",
+                "1",
+                "Hand",
+                "GetEventAndChangeProgress",
+                "MikasCombatEvents",
+                "10",
+                "You relentlessly pound Mika's quivering pussy, eager to unload your seed into her after fucking all her resistance out, leaving her a mewling puddle of lust and need.",
+                "Speaks",
+                "Nyaaaaaaa!♥ Fill me with your cummmm!♥♥♥",
+                "Your cock twitches from her lustful cries and her pussy clamps down on your erection as she's struck with another chain of orgasms from your manhood striking her cervix, and you can't help but enjoy the sight of her bountiful ass jiggle with every thrust.",
+                "Her tight slit refuses to let go of your twitching cock, practically sucking you back in with every thrust as it conforms to the shape of your raging erection, and Mika purrs with mindless bliss as you build her towards another mind-blanking orgasm.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewd",
+                "PlayerOrgasmNoSpiritLoss",
+                "With a few final thrusts you start to fill her tight pussy with your seed and she mewls incoherently as her body spasms with shocks of orgasmic pleasure, and you can't help but moan as her teasing slit tightly squeezes your length as it tries to wring out every last drop of your load.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewded",
+                "Her pussy is clamped down so tight around your length that you can't even try to pull out, your attempts leaving your manhood pulled back into its clinging depths while Mika twitches from the still-potent waves of pleasure washing through her.",
+                "Speaks",
+                "Nyaaaaa...♥",
+                "Slowly but surely her body loosens and you can pull your aching dick free from her soaking wet pussy as she starts to fade away from her mind-melting orgasm.",
+                "Speaks",
+                "SwapLineIf",
+                "OtherEventsChoice",
+                "Commander's Pet",
+                "15",
+                "SexReversal",
+                "F-Fuck... Really thought I was going to get you that time... Damn that felt great though...",
+                "15",
+                "",
+                "F-Fuck... I'm going to be thinking about this for a while... D-Damn my stupid sensitive pussy...",
+                "EndLoop",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "She gives you a bit of a glare as she finally fades away, managing in a last few words before disappearing.",
+                "Speaks",
+                "SwapLineIf",
+                "OtherEventsChoice",
+                "Commander's Pet",
+                "15",
+                "SexReversal",
+                "But next time I'm going to be the one fucking you silly.",
+                "15",
+                "",
+                "I'm going to get you back for this next time I see you.",
+                "EndLoop",
+                "GetEventAndSetChoice",
+                "Commander's Pet",
+                "1",
+                "Pussy",
+                "GetAnEventsProgressThenIfEqualsOrLess",
+                "Commander's Pet",
+                "25",
+                "EarlyAffection"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Mika Defeated",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Mika"
+            ],
+            "theScene": [
+                "GetEventAndIfChoice",
+                "MikasCombatEvents",
+                "7",
+                "LostInReversal",
+                "EndTheVictoryEvent",
+                "ChangeImageLayer",
+                "BodyPart",
+                "1",
+                "Hand",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Lewded",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "Blush",
+                "Mika quivers and moans as you tease her body, purring with bliss from her recent orgasm, until she cries out again in tensing orgasmic bliss, fading away from your groping and caressing hands...",
+                "GetAnEventsProgressThenIfEqualsOrLess",
+                "Commander's Pet",
+                "25",
+                "EarlyAffection"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "EarlyAffection",
+            "move": "",
+            "stance": "nanona",
+            "includes": [
+                "Mika"
+            ],
+            "theScene": [
+                "GetEventAndChangeProgress",
+                "Commander's Pet",
+                "2"
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Normal",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.215",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Mika/Body_Mika_Nude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sweat",
+                            "File": "Monsters/Mika/Body_Mika_Sweat.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Mika/Body_Mika_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushSweat",
+                            "File": "Monsters/Mika/Body_Mika_BlushSweating.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "BodyPart",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Hand",
+                            "File": "Monsters/Mika/Hand_Mika_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HandO",
+                            "File": "Monsters/Mika/Hand_Mika_OSign.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HandV",
+                            "File": "Monsters/Mika/Hand_Mika_VSign.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "BodyExtra",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Socks",
+                            "File": "Monsters/Mika/Clothes_Mika_Socks.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Extra",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Thong",
+                            "File": "Monsters/Mika/Clothes_Mika_Thong.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shorts",
+                            "File": "Monsters/Mika/Clothes_Mika_Shorts.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Effect",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "TankTop",
+                            "File": "Monsters/Mika/Clothes_Mika_TankTop.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TiedShirt",
+                            "File": "Monsters/Mika/Clothes_Mika_ShirtTied.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ComboTop",
+                            "File": "Monsters/Mika/Clothes_Mika_ShirtCombo.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Mika/Expression_Mika_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smile",
+                            "File": "Monsters/Mika/Expression_Mika_Smile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Caring",
+                            "File": "Monsters/Mika/Expression_Mika_Caring.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Beg",
+                            "File": "Monsters/Mika/Expression_Mika_Beg.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Angry",
+                            "File": "Monsters/Mika/Expression_Mika_Angry.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Flustered",
+                            "File": "Monsters/Mika/Expression_Mika_Flustered.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shock",
+                            "File": "Monsters/Mika/Expression_Mika_Shock.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Confused",
+                            "File": "Monsters/Mika/Expression_Mika_Confused.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Mika/Expression_Mika_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cocky",
+                            "File": "Monsters/Mika/Expression_Mika_Cocky.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Frown",
+                            "File": "Monsters/Mika/Expression_Mika_Frown.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Dour",
+                            "File": "Monsters/Mika/Expression_Mika_Dour.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pout",
+                            "File": "Monsters/Mika/Expression_Mika_Pout.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PoutMad",
+                            "File": "Monsters/Mika/Expression_Mika_PoutMad.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Bored",
+                            "File": "Monsters/Mika/Expression_Mika_Bored.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sad",
+                            "File": "Monsters/Mika/Expression_Mika_Sad.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SadAngry",
+                            "File": "Monsters/Mika/Expression_Mika_SadAngry.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Mocking",
+                            "File": "Monsters/Mika/Expression_Mika_Mock.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Amused",
+                            "File": "Monsters/Mika/Expression_Mika_Amused.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Laugh",
+                            "File": "Monsters/Mika/Expression_Mika_Laugh.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Nya",
+                            "File": "Monsters/Mika/Expression_Mika_Nya.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "NyaExcited",
+                            "File": "Monsters/Mika/Expression_Mika_NyaExcited.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "NyaLikeYaKnow",
+                            "File": "Monsters/Mika/Expression_Mika_NyaLike.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "NyaNya",
+                            "File": "Monsters/Mika/Expression_Mika_NyaNya.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "NyaSmug",
+                            "File": "Monsters/Mika/Expression_Mika_NyaSmug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Lewd",
+                            "File": "Monsters/Mika/Expression_Mika_Lewd.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Lewded",
+                            "File": "Monsters/Mika/Expression_Mika_Lewded.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LewdedSilly",
+                            "File": "Monsters/Mika/Expression_Mika_LewdedSilly.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Submissive",
+                            "File": "Monsters/Mika/Expression_Mika_Submissive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sleepy",
+                            "File": "Monsters/Mika/Expression_Mika_Sleepy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "MikaAss",
+            "Set": [
+                {
+                    "Name": "Ass",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Mika/MikaButt/mikabutt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shake",
+                            "File": "Monsters/Mika/MikaButt/mikabutt_shake.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ShakeLight",
+                            "File": "Monsters/Mika/MikaButt/mikabutt_shakeLight.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sit",
+                            "File": "Monsters/Mika/MikaButt/mikabutt_sit.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

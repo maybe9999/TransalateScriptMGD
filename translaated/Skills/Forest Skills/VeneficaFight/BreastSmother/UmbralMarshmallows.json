@@ -1,0 +1,57 @@
+{
+    "name": "Umbral Marshmallows",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "7",
+    "skillTags": [
+        "Seduction",
+        "Magic"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "",
+    "requiresStance": "Breast Smother",
+    "unusableIfStance": [
+        "Penetration"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "unusableIfPerk": [
+        "Curse of Oblivion"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "",
+    "statusChance": "999",
+    "statusDuration": "3",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] aprieta y frota sus enormes tetas de malvavisco contra la cara cada vez más encantada de [TargetName], derritiendo gradualmente toda la resistencia con pulsos de magia, feromonas y una simple sensación dulce, dejando [TargetHimOrHer] aturdiendo ansiosamente en su escisión intoxicante.",
+    "miss": "[AttackerName] aprieta y frota sus enormes tetas de malvavisco contra la cara cada vez más encantada de [TargetName], derribando gradualmente toda la resistencia con pulsos de magia, feromonas y una simple sensación dulce, pero [TargetHeOrShe] se libera de la encantadora haze de la encantadora haze!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|VeneficaCombatEvents|/|UmbralMarshmallows|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

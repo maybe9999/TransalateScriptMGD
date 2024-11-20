@@ -1,0 +1,55 @@
+{
+    "name": "Hypnotic Sway",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Seduction",
+        "Magic"
+    ],
+    "fetishTags": [
+        "HypnosisAddict",
+        "Ass"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Any"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Titfuck"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Trance",
+    "statusChance": "100",
+    "statusDuration": "1",
+    "statusPotency": "1",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] se influye y sacude [AttackerHisOrHer] en la parte trasera regordeta delante de [TargetName], y los ojos [TargetHisOrHer] se sienten atraídos por la exhibición intoxicante, dejando [TargetHisOrHer] la mente girando y [TargetHisOrHer] de gallo palpitando.",
+    "miss": "[AttackerName] se balancea y sacude [AttackerHisOrHer] en la parte trasera regordeta frente a [TargetName], pero [TargetName] logra mirar hacia otro lado de la atractiva vista.",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|OniCombatEvents|/|Hypnotic Butt|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Face Fuck",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "10",
+    "learningCost": "250",
+    "skillType": "attack",
+    "statType": "Power",
+    "requiredStat": "0",
+    "skillTags": [
+        "Mouth"
+    ],
+    "fetishTags": [
+        "Cock",
+        "Indulgent"
+    ],
+    "startsStance": "",
+    "requiresStance": "Blowjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Blowjob"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "60",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Tome el control de una mamada follando la cara del objetivo.Inflige excitación moderada, pero también lo despertará.Esta es una habilidad indulgente.",
+    "outcome": "[AttackerName] agarra la cabeza de [TargetName] y se empuja profundamente en la boca [TargetHisOrHer] húmeda, y [TargetName] deja salir a los gemidos amortiguados como [AttackerHeOrShe] domina la garganta [TargetHisOrHer].",
+    "miss": "[AttackerName] agarra la cabeza de [TargetName] e intenta empujar profundamente en la boca [TargetHisOrHer], pero [TargetName] se resiste [AttackerHisOrHer] intentos y permanece en control de la mamada.",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

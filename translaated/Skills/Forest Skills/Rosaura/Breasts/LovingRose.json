@@ -1,0 +1,55 @@
+{
+    "name": "Loving Rose",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "",
+    "requiresStance": "Titfuck",
+    "unusableIfStance": [
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal",
+        "Tailjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "none",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "[AttackerName] roda suavemente sus enormes y suaves senos en círculos suaves, inclinándose hacia abajo para envolver sus suaves labios alrededor de la punta de [TargetName], lamiendo y chupando intensamente, dejando [TargetHimOrHer] jadeando y congelado con placer cuando el aroma de rosaEl aire llena [TargetHimOrHer] con el deseo de disfrutar de sus atenciones.",
+    "miss": "[AttackerName] rodea suavemente sus enormes y suaves senos en círculos suaves, inclinándose hacia abajo para envolver sus suaves labios alrededor del consejo de contracción [TargetName], ¡pero [TargetHeOrShe] logra ignorar las sacudidas de placer en el groin [TargetHisOrHer]!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

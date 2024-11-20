@@ -1,0 +1,21 @@
+{
+    "name": "BigBangBell",
+    "description": "",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "SexBoost"
+    ],
+    "EffectPower": [
+        "15"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

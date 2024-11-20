@@ -1,0 +1,57 @@
+{
+    "name": "Ear Tease",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "10",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Foreplay"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Face Sit",
+        "Making Out"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Blowjob",
+        "Nursing",
+        "Breast Smother",
+        "Footjob"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "20",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "50",
+    "statusDuration": "5",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Morea las orejas de un oponente con la boca.Pueden encantar oponentes.Es una habilidad de juego previo.",
+    "outcome": "[AttackerName] mordisque, lame y respira en las orejas de [TargetName], haciendo que [TargetHimOrHer] se estremezca con deleite.",
+    "miss": "[AttackerName] va a las orejas [TargetName], pero ella no permite que [AttackerName] se acerque lo suficiente.",
+    "statusOutcome": "[TargetName] se calienta y se preocupa por las burlas ... [TargetName] ha sido encantado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

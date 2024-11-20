@@ -1,0 +1,58 @@
+{
+    "name": "Intoxicating Embrace",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Allure",
+    "requiredStat": "7",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Breasts"
+    ],
+    "startsStance": "Breast Smother",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Titfuck",
+        "Blowjob",
+        "Making Out",
+        "Breast Smother",
+        "Nursing"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "Restrain",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "85",
+    "statusDuration": "2",
+    "statusPotency": "10",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "OrgasmCheck",
+    "miss": "",
+    "statusOutcome": "[AttackerName] se carretera en vides [AttackerHisOrHer], tirando de tu forma restringida hacia [AttackerHisOrHer] respire [AttackerHisOrHer] ¡dulces feromonas intoxicantes!",
+    "statusMiss": "[AttackerName] reels in [AttackerHisOrHer] vines, pulling your restrained form towards [AttackerHisOrHer], but [TargetYouOrMonsterName] manage to resist the traction and hastily back away!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

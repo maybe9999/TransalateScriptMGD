@@ -1,0 +1,26 @@
+{
+    "name": "Iabel Purple Heart Tile",
+    "CardType": "Event",
+    "CardLimit": "4",
+    "Description": "Purple tiles will conjure Iabel, who will flaunt her voluptuous body and seduce you into horny putty.",
+    "requires": [
+        ""
+    ],
+    "Speakers": [
+        {
+            "name": "Ceris",
+            "postName": "",
+            "SpeakerType": "Monster"
+        }
+    ],
+    "EventText": [
+        {
+            "NameOfScene": "Triggered",
+            "theScene": [
+                "JumpToEventThenScene",
+                "PurpleHeartTile",
+                "PurpleTile"
+            ]
+        }
+    ]
+}

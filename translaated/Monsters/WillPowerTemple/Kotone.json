@@ -1,0 +1,1758 @@
+{
+    "name": "Kotone",
+    "IDname": "Kotone",
+    "species": "Beast",
+    "gender": "female",
+    "description": "Una mujer alta, hermosa, de piel pálida y curvilínea con cabello largo de color miel que cuelga de su cintura, separándose de su frente y alrededor de sus dos orejas de zorro con punta blanca de aspecto esponjoso que brotan desde la parte superior de su cabeza.\n\nSus ojos son un azul profundo, acentuado por su delineador oscuro.Ella tiene una cara suave y amable, y sus labios completos y deliciosos están cubiertos con un sutil lápiz labial de color melocotón.\n\nUn collar de orbes cristalinos oscuros se cuelga libremente alrededor de su cuello con una orbe más grande y más llamativa que descansa en el medio justo por encima de su suave escote DD, atrapando la luz de una manera bellamente fascinante.\n\nLleva un kimono azul real que se ha aflojado deliberadamente alrededor de su cautivador cofre mientras permanece elegante y elegante al mismo tiempo.Una pieza intrincadamente diseñada de tela azul se teje en un arco apretado alrededor de su cintura, presionando sus caderas con curvas de una manera increíblemente sensual.\n\nEl dobladillo de su lujoso kimono se pone de pie y se aferra a sus largas piernas cada vez que se mueve de manera llamativa.\n\nLleva un par de tabi blanco de seda en sus pies, y una gran cola de zorro de color miel con una punta blanca brota de un agujero discreto en su kimono justo encima de su trasero, girando suavemente de lado a lado de detrás de ella.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        ""
+    ],
+    "perks": [
+        ""
+    ],
+    "stats": {
+        "lvl": "1",
+        "Exp": "10",
+        "max_hp": "100",
+        "max_ep": "10",
+        "max_sp": "1",
+        "Power": "5",
+        "Technique": "5",
+        "Intelligence": "5",
+        "Allure": "5",
+        "Willpower": "5",
+        "Luck": "5"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "100",
+        "Ass": "100",
+        "Breasts": "100",
+        "Mouth": "100",
+        "Seduction": "100",
+        "Magic": "100",
+        "Pain": "100",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "moneyDropped": "0",
+    "ItemDropList": [
+        {
+            "name": "Anaph Herb",
+            "dropChance": "75"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "HitWith",
+            "move": "Spank",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "''"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                ""
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Base",
+            "Set": [
+                {
+                    "Name": "Tail",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "TailOne",
+                            "File": "Monsters/Kotone/tail_kotone_oneMofu.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TailBig",
+                            "File": "Monsters/Kotone/tail_kotone_bigMofu.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TailFive",
+                            "File": "Monsters/Kotone/tail_kotone_fiveMofu.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TailSix",
+                            "File": "Monsters/Kotone/tail_kotone_sixMofu.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TailSeven",
+                            "File": "Monsters/Kotone/tail_kotone_sevenMofu.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TailEight",
+                            "File": "Monsters/Kotone/tail_kotone_eightMofu.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TailNine",
+                            "File": "Monsters/Kotone/tail_kotone_nineMofu.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "1",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0055",
+                    "Images": [
+                        {
+                            "Name": "BaseClothed",
+                            "File": "Monsters/Kotone/body_kotone_base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BaseNude",
+                            "File": "Monsters/Kotone/body_kotone_baseNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BreastSqueezeClothed",
+                            "File": "Monsters/Kotone/body_kotone_breastSqueeze.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BreastSqueezeNude",
+                            "File": "Monsters/Kotone/body_kotone_breastSqueezeNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FondleClothed",
+                            "File": "Monsters/Kotone/body_kotone_fondle.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FondleNude",
+                            "File": "Monsters/Kotone/body_kotone_fondleNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FondleAltClothed",
+                            "File": "Monsters/Kotone/body_kotone_fondleAlt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FondleAltNude",
+                            "File": "Monsters/Kotone/body_kotone_fondleAltNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HandClothed",
+                            "File": "Monsters/Kotone/body_kotone_hand.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HandNude",
+                            "File": "Monsters/Kotone/body_kotone_handNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RollClothed",
+                            "File": "Monsters/Kotone/body_kotone_roll.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RollNude",
+                            "File": "Monsters/Kotone/body_kotone_rollNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RollAltClothed",
+                            "File": "Monsters/Kotone/body_kotone_rollAlt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RollAltNude",
+                            "File": "Monsters/Kotone/body_kotone_rollAltNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SeanceClothed",
+                            "File": "Monsters/Kotone/body_kotone_seance.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SeanceNude",
+                            "File": "Monsters/Kotone/body_kotone_seanceNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Legs",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "Base",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "BaseClothed",
+                            "File": "Monsters/Kotone/body_kotone_legs.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BaseNude",
+                            "File": "Monsters/Kotone/body_kotone_legsNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BreastSqueezeClothed",
+                            "File": "Monsters/Kotone/body_kotone_legs.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BreastSqueezeNude",
+                            "File": "Monsters/Kotone/body_kotone_legsNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FondleClothed",
+                            "File": "Monsters/Kotone/body_kotone_legs.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FondleNude",
+                            "File": "Monsters/Kotone/body_kotone_legsNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FondleAltClothed",
+                            "File": "Monsters/Kotone/body_kotone_legs.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FondleAltNude",
+                            "File": "Monsters/Kotone/body_kotone_legsNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HandClothed",
+                            "File": "Monsters/Kotone/body_kotone_legs.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HandNude",
+                            "File": "Monsters/Kotone/body_kotone_legsNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RollClothed",
+                            "File": "Monsters/Kotone/body_kotone_legs.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RollNude",
+                            "File": "Monsters/Kotone/body_kotone_legsNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RollAltClothed",
+                            "File": "Monsters/Kotone/body_kotone_legs.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RollAltNude",
+                            "File": "Monsters/Kotone/body_kotone_legsNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SeanceClothed",
+                            "File": "Monsters/Kotone/body_kotone_legs.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SeanceNude",
+                            "File": "Monsters/Kotone/body_kotone_legsNude.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Thong",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "ThongOn",
+                            "File": "Monsters/Kotone/clothing_kotone_thong.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Kotone/Face_kotone_base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Kotone/Face_kotone_blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushHeavy",
+                            "File": "Monsters/Kotone/Face_kotone_blushHeavy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BlushLight",
+                            "File": "Monsters/Kotone/Face_kotone_blushLight.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shade",
+                            "File": "Monsters/Kotone/Face_kotone_shade.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ShadeHeavy",
+                            "File": "Monsters/Kotone/Face_kotone_shadeHeavy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "HairCover",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Hair",
+                            "File": "Monsters/Kotone/haircover_kotone.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Flame",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "FlameFull",
+                            "File": "Monsters/Kotone/fire_kotone_Big.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlameDwindling",
+                            "File": "Monsters/Kotone/fire_kotone_Dwindling.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlameFlickering",
+                            "File": "Monsters/Kotone/fire_kotone_Flickering.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "FlameGlow",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "HandGlow",
+                            "File": "Monsters/Kotone/fire_kotone_HandGlow.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SeanceGlow",
+                            "File": "Monsters/Kotone/fire_kotone_seanceGlow.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Ears",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Kotone/ears_kotone_base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Angry",
+                            "File": "Monsters/Kotone/ears_kotone_angry.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Curious",
+                            "File": "Monsters/Kotone/ears_kotone_curious.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Excited",
+                            "File": "Monsters/Kotone/ears_kotone_excited.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sad",
+                            "File": "Monsters/Kotone/ears_kotone_sad.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Kotone/expression_kotone_base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "AvertingGaze",
+                            "File": "Monsters/Kotone/expression_kotone_avertingGaze.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BaseDominant",
+                            "File": "Monsters/Kotone/expression_kotone_baseDominant.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BaseDeceptive",
+                            "File": "Monsters/Kotone/expression_kotone_BaseDeceptive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Caring",
+                            "File": "Monsters/Kotone/expression_kotone_caring.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "CaringSeductive",
+                            "File": "Monsters/Kotone/expression_kotone_caringSeductive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cold",
+                            "File": "Monsters/Kotone/expression_kotone_Cold.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ColdSmile",
+                            "File": "Monsters/Kotone/expression_kotone_coldSmile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ColdCalm",
+                            "File": "Monsters/Kotone/expression_kotone_ColdCalm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cooing",
+                            "File": "Monsters/Kotone/expression_kotone_cooing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Crying",
+                            "File": "Monsters/Kotone/expression_kotone_Crying.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "CryingOpenMouth",
+                            "File": "Monsters/Kotone/expression_kotone_CryingOpenMouth.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "CryingPain",
+                            "File": "Monsters/Kotone/expression_kotone_CryingPain.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "CryingSmile",
+                            "File": "Monsters/Kotone/expression_kotone_cryingSmile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Curious",
+                            "File": "Monsters/Kotone/expression_kotone_curious.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Dominant",
+                            "File": "Monsters/Kotone/expression_kotone_dominant.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Deceptive",
+                            "File": "Monsters/Kotone/expression_kotone_Deceptive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Guilt",
+                            "File": "Monsters/Kotone/expression_kotone_Guilt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Happy",
+                            "File": "Monsters/Kotone/expression_kotone_happy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Kiss",
+                            "File": "Monsters/Kotone/expression_kotone_kiss.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KissDominant",
+                            "File": "Monsters/Kotone/expression_kotone_kissDominant.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Kotone/expression_kotone_lipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Loving",
+                            "File": "Monsters/Kotone/expression_kotone_loving.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Orgasm",
+                            "File": "Monsters/Kotone/expression_kotone_orgasm.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PanicComical",
+                            "File": "Monsters/Kotone/expression_kotone_panicComical.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pleasured",
+                            "File": "Monsters/Kotone/expression_kotone_pleasured.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PleasuredGasping",
+                            "File": "Monsters/Kotone/expression_kotone_pleasuredGasping.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pout",
+                            "File": "Monsters/Kotone/expression_kotone_pout.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shame",
+                            "File": "Monsters/Kotone/expression_kotone_shame.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmileOpenMouth",
+                            "File": "Monsters/Kotone/expression_kotone_smallSmile.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Kotone/expression_kotone_smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugEvil",
+                            "File": "Monsters/Kotone/expression_kotone_smugEvil.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugKnowing",
+                            "File": "Monsters/Kotone/expression_kotone_smugKnowing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugMocking",
+                            "File": "Monsters/Kotone/expression_kotone_smugMocking.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugOpenMouth",
+                            "File": "Monsters/Kotone/expression_kotone_smugOpenMouth.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugOpenMouthGaze",
+                            "File": "Monsters/Kotone/expression_kotone_smugOpenMouthGaze.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugDominant",
+                            "File": "Monsters/Kotone/expression_kotone_smugDominant.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sparkling",
+                            "File": "Monsters/Kotone/expression_kotone_sparkling.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Stern",
+                            "File": "Monsters/Kotone/expression_kotone_stern.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Surprise",
+                            "File": "Monsters/Kotone/expression_kotone_Surprise.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thinking",
+                            "File": "Monsters/Kotone/expression_kotone_thinking.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "CryingVerge",
+                            "File": "Monsters/Kotone/expression_kotone_vergeOfTears.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Vulnerable",
+                            "File": "Monsters/Kotone/expression_kotone_vulnerable.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Hypno",
+            "Set": [
+                {
+                    "Name": "Tail",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "TailOne",
+                            "File": "Monsters/Kotone/Hypno/Tail_hypnoCloseup_Kotone_OneTail.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TailMulti",
+                            "File": "Monsters/Kotone/Hypno/Tail_hypnoCloseup_Kotone_multiTail.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "BaseClothed",
+                            "File": "Monsters/Kotone/Hypno/Body_hypnoCloseup_KotoneClothed_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BreastSqueezeClothed",
+                            "File": "Monsters/Kotone/Hypno/Body_hypnoCloseup_KotoneClothed_BreastSqueeze.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "GropeClothed",
+                            "File": "Monsters/Kotone/Hypno/Body_hypnoCloseup_KotoneClothed_Grope.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "GropeAltClothed",
+                            "File": "Monsters/Kotone/Hypno/Body_hypnoCloseup_KotoneClothed_GropeAlt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HandClothed",
+                            "File": "Monsters/Kotone/Hypno/Body_hypnoCloseup_KotoneClothed_Hand.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RollClothed",
+                            "File": "Monsters/Kotone/Hypno/Body_hypnoCloseup_KotoneClothed_Roll.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RollAltClothed",
+                            "File": "Monsters/Kotone/Hypno/Body_hypnoCloseup_KotoneClothed_RollAlt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SeanceClothed",
+                            "File": "Monsters/Kotone/Hypno/Body_hypnoCloseup_KotoneClothed_Seance.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BaseNude",
+                            "File": "Monsters/Kotone/Hypno/Body_hypnoCloseup_KotoneNude_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Flame",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "FlameFull",
+                            "File": "Monsters/Kotone/Hypno/Flame_hypnoCloseup_Kotone_Big.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlameDwindling",
+                            "File": "Monsters/Kotone/Hypno/Flame_hypnoCloseup_Kotone_Dwindling.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlameFlickering",
+                            "File": "Monsters/Kotone/Hypno/Flame_hypnoCloseup_Kotone_Flickering.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlameFullHand",
+                            "File": "Monsters/Kotone/Hypno/Flame_hypnoCloseup_Kotone_HandBig.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlameDwindlingHand",
+                            "File": "Monsters/Kotone/Hypno/Flame_hypnoCloseup_Kotone_HandDwindling.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlameFlickeringHand",
+                            "File": "Monsters/Kotone/Hypno/Flame_hypnoCloseup_Kotone_HandFlickering.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlameFullSeance",
+                            "File": "Monsters/Kotone/Hypno/Flame_hypnoCloseup_Kotone_SeanceBig.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlameDwindlingSeance",
+                            "File": "Monsters/Kotone/Hypno/Flame_hypnoCloseup_Kotone_SeanceDwindling.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlameFlickeringSeance",
+                            "File": "Monsters/Kotone/Hypno/Flame_hypnoCloseup_Kotone_SeanceFlickering.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlameFlickeringOrb",
+                            "File": "Monsters/Kotone/Hypno/Flame_hypnoCloseup_Kotone_FlickeringOrb.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Face",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Kotone/Hypno/face_hypnoCloseup_Kotone_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Blush",
+                            "File": "Monsters/Kotone/Hypno/face_hypnoCloseup_Kotone_Blush.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Shade",
+                            "File": "Monsters/Kotone/Hypno/face_hypnoCloseup_Kotone_Shade.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ShadeHeavy",
+                            "File": "Monsters/Kotone/Hypno/face_hypnoCloseup_Kotone_ShadeHeavy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BaseDominant",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_BaseDominant.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BaseDeceptive",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_BaseDeceptive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Caring",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_Caring.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "CaringSeductive",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_CaringSeductive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cold",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_Cold.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cooing",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_Cooing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Curious",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_Curious.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Dominant",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_Dominant.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Deceptive",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_Deceptive.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Happy",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_Happy.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Kiss",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_Kiss.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "KissDominant",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_KissDominant.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Loving",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_Loving.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PleasuredGasping",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_PleasuredGasping.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pout",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_Pout.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmileOpenMouth",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_SmileOpenMouth.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugEvil",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_SmugEvil.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugKnowing",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_SmugKnowing.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugMocking",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_SmugMocking.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugOpenMouth",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_SmugOpenMouth.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugOpenMouthGaze",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_SmugOpenMouthGaze.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugDominant",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_SmugDominant.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Sparkling",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_Sparkling.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Stern",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_Stern.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Thinking",
+                            "File": "Monsters/Kotone/Hypno/Expression_hypnoCloseup_Kotone_Thinking.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "HairCover",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "ButtStraight",
+                            "File": "Monsters/Kotone/Hypno/hair_hypnoCloseup_Kotone.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "FlameGlow",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "EyesGlow",
+                            "File": "Monsters/Kotone/Hypno/FlameGlow_hypnoCloseup_Kotone_Eyes.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OrbGlow",
+                            "File": "Monsters/Kotone/Hypno/FlameGlow_hypnoCloseup_Kotone_Orb.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Boobs",
+            "Set": [
+                {
+                    "Name": "Tail",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "TailOne",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_Tail_One.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "TailMulti",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_Tail_Multi.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "BaseClothed",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_Pose_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BreastSqueezeClothed",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_Pose_BreastSqueeze.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FondleClothed",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_Pose_Fondle.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FondleAltClothed",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_Pose_FondleAlt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "HandClothed",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_Pose_Hand.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RollClothed",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_Pose_Roll.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RollAltClothed",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_Pose_RollAlt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BaseNude",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_PoseNude_Base.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BreastSqueezeNude",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_PoseNude_BreastSqueeze.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FondleNude",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_PoseNude_Fondle.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FondleAltNude",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_PoseNude_FondleAlt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RollNude",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_PoseNude_Roll.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "RollAltNude",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_PoseNude_RollAlt.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Flame",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "FlameFull",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_Flame_Big.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlameDwindling",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_Flame_Smaller.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlameFlickering",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_Flame_Flickering.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "FlameFlickeringOrb",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_Flame_FlickeringOrb.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "FlameGlow",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "0",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "HandGlow",
+                            "File": "Monsters/Kotone/Chest/ChestFocus_Flame_HandGlow.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "OrbGlow",
+                            "File": "Monsters/Kotone/Hypno/ChestFocus_Flame_OrbGlow.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Step",
+            "Set": [
+                {
+                    "Name": "Body",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "BodyNoBlur",
+                            "File": "Monsters/Kotone/Step/Step_KotoneBody_NoBlur.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BodyBlur",
+                            "File": "Monsters/Kotone/Step/Step_KotoneBody_Blur.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Expression",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "BaseDominant",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsNoBlur_BaseDominant.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Caring",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsNoBlur_Caring.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cold",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsNoBlur_Cold.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Dominant",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsNoBlur_Dominant.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsNoBlur_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsNoBlur_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugGrin",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsNoBlur_SmugGrin.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugGrin",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsNoBlur_SmugGrinWide.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "ExpressionBlur",
+                    "StartOn": "0",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "BaseDominant",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsBlur_BaseDominant.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Caring",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsBlur_Caring.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Cold",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsBlur_Cold.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Dominant",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsBlur_Dominant.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "LipLick",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsBlur_LipLick.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Smug",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsBlur_Smug.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugGrin",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsBlur_SmugGrin.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "SmugGrinWide",
+                            "File": "Monsters/Kotone/Step/Step_KotoneExpressionsBlur_SmugGrinWide.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Foot",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "Base",
+                            "File": "Monsters/Kotone/Step/Step_Kotone_Foot.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "BaseCloseUp",
+                            "File": "Monsters/Kotone/Step/Step_Kotone_FootCloseUp.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "Pressed",
+                            "File": "Monsters/Kotone/Step/Step_Kotone_FootPressed.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "PressedCloseUp",
+                            "File": "Monsters/Kotone/Step/Step_Kotone_FootPressedCloseUp.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Butt",
+            "Set": [
+                {
+                    "Name": "Base",
+                    "StartOn": "1",
+                    "AlwaysOn": "1",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "No",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "ButtStraight",
+                            "File": "Monsters/Kotone/Butt/Butt_Kotone_Straight.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ButtStraightPress",
+                            "File": "Monsters/Kotone/Butt/Butt_Kotone_StraightPress.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ButtSwayLeft",
+                            "File": "Monsters/Kotone/Butt/Butt_Kotone_SwayLeft.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ButtSwayLeftGrope",
+                            "File": "Monsters/Kotone/Butt/Butt_Kotone_SwayLeftGrope.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ButtSwayLeftSlap",
+                            "File": "Monsters/Kotone/Butt/Butt_Kotone_SwayLeftSlap.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ButtSwayRight",
+                            "File": "Monsters/Kotone/Butt/Butt_Kotone_SwayRight.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Kimono",
+                    "StartOn": "1",
+                    "AlwaysOn": "0",
+                    "IsScene": "1",
+                    "TheBody": "0",
+                    "Overlay": "Base",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0",
+                    "Images": [
+                        {
+                            "Name": "ButtStraight",
+                            "File": "Monsters/Kotone/Butt/Butt_Kotone_StraightKimono.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ButtStraightPress",
+                            "File": "Monsters/Kotone/Butt/Butt_Kotone_StraightKimono.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ButtSwayLeft",
+                            "File": "Monsters/Kotone/Butt/Butt_Kotone_SwayLeftKimono.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ButtSwayLeftGrope",
+                            "File": "Monsters/Kotone/Butt/Butt_Kotone_SwayLeftSlapGrabKimono.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ButtSwayLeftSlap",
+                            "File": "Monsters/Kotone/Butt/Butt_Kotone_SwayLeftSlapGrabKimono.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        },
+                        {
+                            "Name": "ButtSwayRight",
+                            "File": "Monsters/Kotone/Butt/Butt_Kotone_SwayRightKimono.png",
+                            "setXalign": "0.0",
+                            "setYalign": "0.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "name": "Black Cat Plushie",
+    "itemType": "Accessory",
+    "cost": "15000",
+    "descrip": "Un gato negro de peluche cosida a mano en un estilo cursi y con acentos morados profundos.Como si actuara como una especie de sustituto de un lanzador familiar, aumenta la energía máxima en 250 y aumenta la duración del efecto de estado y la posibilidad de la aplicación en un 15%, pero su naturaleza enferma disminuye la suerte en 9.",
+    "requires": [
+        ""
+    ],
+    "perks": [
+        "BlackCatBlessing"
+    ],
+    "hp": "0",
+    "ep": "250",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "-9",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "useOutcome": "",
+    "useMiss": ""
+}

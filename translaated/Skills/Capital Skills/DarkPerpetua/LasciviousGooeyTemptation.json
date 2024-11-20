@@ -1,0 +1,59 @@
+{
+    "name": "Lascivious Gooey Temptation",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "250",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "6",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Ass",
+        "Sex"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Making Out",
+        "Sex",
+        "Anal",
+        "Slimed 50%",
+        "Slimed 75%",
+        "Slimed 100%"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "15",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "40",
+    "statusDuration": "11",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Las tentadoras rosadas y púrpuras viscosas se apoyan contra la roja con suspiros calurosos mientras levantan sus anchas caderas, mirándote lujuriosamente mientras influyen a sus resbaladizos asaltos, arrullando una corriente de promesas sexuales acogedoras mientras que uno en el centro usa unoMano para extender su coño con una mirada deseada.",
+    "miss": "Las tentadoras rosadas y púrpuras viscosas se apoyan contra la roja con suspiros calientes mientras levantan sus amplias caderas, mirándote con lujuria mientras influyen a su resbaladizo asalto, ¡pero logras ignorar la exhibición atractiva!",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|DarkPerpetuaCombatEvent|/|ButtTempt|n|",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

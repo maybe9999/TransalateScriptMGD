@@ -1,0 +1,833 @@
+{
+    "name": "Tengu",
+    "IDname": "Tengu",
+    "species": "Avian",
+    "gender": "female",
+    "description": "Una mujer alta, imponente y de aspecto severo con cabello negro de aspecto corto y refinado y piel blanca pálida.Un pequeño sombrero rojo de forma extraña descansa perfectamente en la parte superior de su cabeza, y dos piezas de cuerda cuelgan de su costado con tres pompones blancos, cada uno que viajan por él a intervalos pares.\n\nSu cara orgullosa es elegantemente hermosa, y sus ojos son un color caoba y cautivador que llama su atención hacia ellos a pesar de que parecen mirarlo periódicamente con desdén desenmascarado.\n\nSus orejas son un poco más largas que los humanos, y se reducen a un punto en las puntas.Lleva una bata blanca de estilo oriental con un dobladillo rojo recortado en los bordes que se ajusta elegantemente a su forma ligeramente musculosa, acentuando sus senos de la taza C y terminando justo por encima de sus rodillas.\n\nSus mangas son cortas y muestran sus brazos bien definidos, y dos aberturas en su ropa alrededor de su espalda permiten un par de alas de plumas negras imponentes y grandes para salir detrás de ella.\n\nUna faja roja apretada está envuelta alrededor de su cintura en un arco ordenado, y el exceso de telas se arrastra hacia un lado por una de sus piernas tonificadas y delgadas.Lleva calcetines negros y un par de lo que parece ser grandes sandalias de madera roja que están ligeramente elevadas del suelo con una base de madera.\n\nElla sostiene lo que parece ser un ventilador hecho de hojas rojas con un mango de madera marrón oscuro en una mano y un largo personal de metal con un gran anillo de metal en el extremo, que tiene varios aros más pequeños en el interior del anillo más grande., ocasionalmente se junta mientras se mueve.",
+    "encyclopedia": "A species of highly magical bird women who have enough innate potential that many of the more proficient ones have been known to be referred to as 'gods'. Due to their prideful and self-important attitudes, however, very few Tengu have been able to reach that particular level of skill, as they believe themselves to already be perfect and rarely, if ever, train to their fullest potential.\n\nTengu often look down at humans and most other monster species as lesser beings due to their innate power and prowess, and often refuse to admit that others are better than them in any aspect even if proven otherwise.\n\nThey are known to be very critical of others if they make the slightest mistake, but are often very keen on correcting incompetence whenever they see it through teaching. Tengu dislike pride in others, and even though they themselves are often very prideful and arrogant, it is worth noting that not all Tengu are like this.\n\nOther commonly found traits in Tengu are their trickster natures, their love of alcohol, an intense sense of curiosity when something they don't know or understand happens around them, and an inability to back down from challenges. Often oni will challenge Tengu to drinking contests, knowing they won't refuse, and far more often than not the Tengu end up losing these challenges, much to the obvious enjoyment of the oni who challenge them.\n\nTengu tend to be overly emotional and fussy, especially when it comes to men, and despite their pride they easily become flustered around men they like, which is often manifested in their skin color turning bright red, which can be either from embarrassment, arousal, or anger. Be sure to read the mood carefully and be sure to watch the face of any Tengu you meet to be able to tell the differences between their emotional states.\n\nTheir powerful magics and physical prowess make them tough opponents, so do your best to avoid angering them, but despite their immense power, Tengu are fairly easy to deal with if you catch them off guard or trick them somehow, which can be very easy to do due to their pride.\n\nLegends say that long ago many monsters were sick of the Tengu's pride and spread several nasty rumors about them having long, unsightly noses. This fact, while untrue, still stung the pride of Tengu, and while they are often a bit sharp, they do not have the exceedingly long noses they are often associated with. Tengu generally do not react well to being told they have long or large noses.",
+    "tags": "none",
+    "generic": "True",
+    "requires": [
+        "Sigil Of Will-Power"
+    ],
+    "skillList": [
+        "Wind's Blessing",
+        "Gale Force",
+        "Teasing Winds",
+        "Feather Tease",
+        "'Sword' Handling",
+        "Luminous Bonds",
+        "Tengu's Luminescent Love Making",
+        "Feather Job",
+        "Face Grind"
+    ],
+    "perks": [
+        "Swift"
+    ],
+    "stats": {
+        "lvl": "20",
+        "Exp": "200",
+        "max_hp": "500",
+        "max_ep": "100",
+        "max_sp": "1",
+        "Power": "15",
+        "Technique": "15",
+        "Intelligence": "20",
+        "Allure": "10",
+        "Willpower": "20",
+        "Luck": "10"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "100",
+        "Ass": "100",
+        "Breasts": "100",
+        "Mouth": "150",
+        "Seduction": "150",
+        "Magic": "100",
+        "Pain": "50",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "200",
+        "Charm": "25",
+        "Aphrodisiac": "0",
+        "Restraints": "200",
+        "Sleep": "999",
+        "Trance": "0",
+        "Paralysis": "0",
+        "Debuff": "25"
+    },
+    "moneyDropped": "500",
+    "ItemDropList": [
+        {
+            "name": "Wind Rune",
+            "dropChance": "40"
+        },
+        {
+            "name": "Ofuda Rune",
+            "dropChance": "5"
+        },
+        {
+            "name": "Tengu Feather",
+            "dropChance": "60"
+        },
+        {
+            "name": "Tengu Feather",
+            "dropChance": "30"
+        },
+        {
+            "name": "Enlightenment Rune",
+            "dropChance": "15"
+        },
+        {
+            "name": "Mystic Hat",
+            "dropChance": "20"
+        },
+        {
+            "name": "Megami Staff",
+            "dropChance": "10"
+        }
+    ],
+    "lossScenes": [
+        {
+            "NameOfScene": "Tengu Scene",
+            "move": "",
+            "stance": "Face Sit",
+            "includes": [
+                "Tengu"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "Base",
+                "As the Tengu continues to ride your face, the last bit of your energy to fight back fades, as does your will to resist her...",
+                "Speaks",
+                "Oh? All out of energy, huh? I'll finish you off then.",
+                "It hardly takes her any effort to empty out your mind with her magic at this point, and wave after wave of submissive pleasure rolls over your body as you meekly lick her pussy.",
+                "Soon, not a single thought is left in your head other than servicing the veritable goddess' curved rear and intoxicating pussy as she presses into your face...",
+                "JumpToEventThenScene",
+                "TenguCombatEvents",
+                "INSTANT LOSS SCENE"
+            ],
+            "picture": ""
+        },
+        {
+            "NameOfScene": "Tengu Scene",
+            "move": "",
+            "stance": "",
+            "includes": [
+                "Tengu"
+            ],
+            "theScene": [
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Smug",
+                "ChangeImageLayer",
+                "Base",
+                "1",
+                "Base",
+                "You collapse onto the ground, twitching in pleasure as you can't resist the Tengu any longer, and she laughs pridefully before sitting her shapely rear down on your face.",
+                "Speaks",
+                "It won't take you long to learn your place if you're this exhausted.",
+                "You let out a muffled moan of surprise as pleasurable fantasies of servicing and worshipping the Tengu wash over your thoughts, drowning them out as your mind starts to fade.",
+                "For a moment you try to struggle against her magical onslaught, but you're far too spent to put up much of a fight anymore, and your resistance drains out of you as your eyes glaze over from the Tengu's mind numbing magic.",
+                "ChangeImageLayer",
+                "Expression",
+                "1",
+                "Happy",
+                "Speaks",
+                "Now, doesn't that feel much better? Let's flood that mind of yours with even more thoughts of me, hmmm?",
+                "She teasingly wiggles her hips into your face, making you shudder in thoughtless pleasure as the desire to serve this veritable goddess' curved rear and intoxicating pussy fills your entire being...",
+                "JumpToEventThenScene",
+                "TenguCombatEvents",
+                "INSTANT LOSS SCENE"
+            ],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [
+        {
+            "lineTrigger": "EndOfRound",
+            "move": "",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|TenguCombatEvents|/|CheckFaceSitting"
+            ]
+        },
+        {
+            "lineTrigger": "SetMusicTo",
+            "move": "",
+            "theText": [
+                "music/Temple/SAMURAI.mp3"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Spank",
+                "Whip"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n||f|ChangeImageLayer|/|Base|/|Base|n|'¡Cómo {i} DARE {/i} You!'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|Base|n|\"Hmph, qué débil\".",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|'¿Realmente pensaste que eso me afectaría?'",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Muestra cuán inferiores son los humanos {i} realmente {/i}."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Demon Layer",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n||f|ChangeImageLayer|/|Base|/|Base|n|'¡Cómo {i} DARE {/i} You!'",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n||f|ChangeImageLayer|/|Base|/|Evil|n|'Voy a hacerte pagar por eso ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n||f|ChangeImageLayer|/|Base|/|Evil|n|El Tengu te da una mirada despectiva.",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'D-Did, ¿realmente crees que eso me afectaría?'",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n||f|ChangeImageLayer|/|Base|/|Blush|n|Ella hace todo lo posible para sofocar su gemido."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Holy Headpat",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n||f|ChangeImageLayer|/|Base|/|Base|n|¡Yo- TU!¡Cómo {i} Dare {/i} You!|f|CallCombatEventAndScene|/|PlayerCombatEvents|/|Enraged|n|",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n||f|ChangeImageLayer|/|Base|/|Base|n|'¡No tomaré degradarse así tan a la ligera!'|f|CallCombatEventAndScene|/|PlayerCombatEvents|/|Enraged|n|"
+            ]
+        },
+        {
+            "lineTrigger": "AutoCounter",
+            "move": [
+                "Bondage Net",
+                "Magical Binding"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|TenguCombatEvents|/|No Restraints|n|"
+            ]
+        },
+        {
+            "lineTrigger": "AutoCounter",
+            "move": [
+                "Pin"
+            ],
+            "theText": [
+                "|f|CallCombatEventAndScene|/|TenguCombatEvents|/|No Pin|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Lewd Bottle",
+                "Cloying Mist",
+                "Placebo Pheromone"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n||f|ChangeImageLayer|/|Base|/|Blush|n|¿Es esta una especie de droga?¡Ustedes, demonios!",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Como si esto pudiera afectar a alguien como poderoso como yo ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n||f|ChangeImageLayer|/|Base|/|Blush|n|'Voy a hacerte pagar por esto ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Indignant|n||f|ChangeImageLayer|/|Base|/|Blush|n|El Tengut te dispara una mirada de ira indignada mientras se estremece ligeramente de placer."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Electrify",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n||f|ChangeImageLayer|/|Base|/|Base|n|'H-HOW {i} DARE {/i} TU!'",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n||f|ChangeImageLayer|/|Base|/|Evil|n|'Voy a hacerte pagar por eso ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n||f|ChangeImageLayer|/|Base|/|Evil|n|El Tengu te da una mirada despectiva."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Kiss",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'WH-WHA- ¿Qué te hace pensar que tienes derecho a besarme?'Todo su cuerpo gira brevemente un carmesí profundo.",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'H-HOW {i} DARE {/i} TU!'Todo su cuerpo gira brevemente un carmesí profundo.",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|Mientras rompes el beso, el Tengu solo puede mirarte con un rubor conmocionado.",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|Tu simple beso deja todo el cuerpo del Tengu de un rojo intenso."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Make Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'Wh-wha- ¿Qué te parece, mmph?'Todo su cuerpo gira brevemente un carmesí profundo.",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|Tu profundo beso deja los ojos del tengues de ancho con conmoción mientras todo su cuerpo se enrojece de un rojo intenso."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Deep Kiss",
+                "Lovingly Rough Kiss",
+                "Skillfully Passionate Kiss",
+                "Misty Kiss",
+                "Sensually Seductive Kiss"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'I-yo voy a ...' ¡Te las arreglas para silenciar sus débiles protestas con otro beso, dejándola sin aliento.",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|El tengu parece espaciarse desde el beso profundo.",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|Tu beso romántico deja todo el cuerpo del Tengu de un rojo intenso."
+            ]
+        },
+        {
+            "lineTrigger": "AutoCounter",
+            "move": "Penetrate",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|TenguCombatEvents|/|No Sex|n|"
+            ]
+        },
+        {
+            "lineTrigger": "AutoCounter",
+            "move": "Anal Penetration",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|TenguCombatEvents|/|No Sex|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Breast Caress",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|\"Hmph, como si sus manos débiles pudieran hacer que mis senos sientan algo\".",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|'¿Realmente pensaste que eso me afectaría?'",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Muestra cuán inferiores son los humanos {i} realmente {/i}."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Breast Knead",
+                "Breast Massage",
+                "Breast Fondle"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'Hmph, A-como si sus manos débiles pudieran hacer que mis senos se sientan algo. ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'D-Did, ¿realmente crees que eso me afectaría? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'Usted miserable Human ... ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Suckle",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'H-HOW {i} DARE {/i} TU!'Todo su cuerpo gira brevemente un carmesí profundo.",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'¡C-corta eso!'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'¿Realmente crees que me sentiré bien por esto?'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Pinch Nipples",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|'H-HOW {i} DARE {/i} TU!'",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|'Voy a hacerte pagar por eso ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Angry|n|El Tengu te da una mirada despectiva.",
+                "|f|ChangeImageLayer|/|Expression|/|Indignant|n|'Miserable humano ...'"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Grope Ass",
+                "Squeeze Ass",
+                "Massage Ass",
+                "Fondle Ass"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Indignant|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'¡C-corta eso!'",
+                "|f|ChangeImageLayer|/|Expression|/|Indignant|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'H-HOW {i} DARE {/i} TU!'",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'¿Realmente crees que me sentiré bien por esto?'"
+            ]
+        },
+        {
+            "lineTrigger": "AutoCounter",
+            "move": "Finger",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|TenguCombatEvents|/|No Touch Pussy|n|"
+            ]
+        },
+        {
+            "lineTrigger": "AutoCounter",
+            "move": "Dildo",
+            "theText": [
+                "|f|CallCombatEventAndScene|/|TenguCombatEvents|/|No Touch Pussy|n|"
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Seduce",
+                "Enamor",
+                "Smoldering Seduction",
+                "Smoldering Flaunt",
+                "Massaging Seduction",
+                "Mass Seduction"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Indignant|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'H-HOW {i} DARE {/i} ¡Insinúes eso!'A pesar de sus palabras indignadas, todo su cuerpo enjuague brevemente un carmesí profundo.",
+                "|f|ChangeImageLayer|/|Expression|/|Indignant|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|¡Y tú!¡I!¡Yo no lo haría!Ella no suena muy segura de sí misma ...",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|El Tengu Porta por un momento, incapaz de responder a sus palabras burlonas mientras su cuerpo se enroja de un rojo intenso.",
+                "|f|ChangeImageLayer|/|Expression|/|Shock|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|El Tengu solo puede mirarte con un sonrojo sorprendido.",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|El Tengur te mira a los ojos mientras su respiración se acelera y su cuerpo se vuelve de color rojo intenso, parece perderse en una fantasía de tus palabras ..."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": "Ear Tease",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'¿Qué crees que estás haciendo ... ooh ... ♥ que se siente ... bastante bien ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'C-cut ituuutttt",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|Los espinuos de indignación del tengut falsifican antes de transformarse gradualmente en tranquilos gemidos de placer.",
+                "|f|ChangeImageLayer|/|Expression|/|Indignant|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'Eeeek! ♥ s-stop que tontas! ♥' Su cuerpo parece estar ardiendo rojo con excitación."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Arouse",
+                "Arousara",
+                "Arousero"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Indignant|n|'A-como si tu patética magia humana funcionara en mí'.",
+                "|f|ChangeImageLayer|/|Expression|/|Indignant|n|\"Eso no era nada\".",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'¡Ahhh- ♥ I-yo no gemí!'",
+                "|f|ChangeImageLayer|/|Expression|/|Indignant|n|'Te mostraré magia real'."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Charm",
+                "Charm Wave",
+                "Enfeeble",
+                "Sensitize"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'H-how te atreves a usar una magia tan vil en mí ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n|'D-no ir a pensar que eso me afectó de ninguna manera.",
+                "|f|ChangeImageLayer|/|Expression|/|Indignant|n|'Humano tonto, necesito mostrarte tu lugar'."
+            ]
+        },
+        {
+            "lineTrigger": "HitWith",
+            "move": [
+                "Disarming Appeal"
+            ],
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n|'¿Mmm?Supongo que entiendes tu situación entonces.",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n|¿Vas a ser bueno para mí entonces?",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n|\"Supongo que puedo compadecerte por un momento.",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n|'Hmhmhm, soy bastante magnífico, ¿no?'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Wind's Blessing",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Supongo que todavía debería tomarlo con calma ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|¿Podrías incluso tocarme?",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|Base|n|'Hmmm...'",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Pobre, patético humano ...'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Feather Tease",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|Base|n|'¿Te estás bajando seriamente de mis alas?'",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Pobre, patético humano ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|Base|n|'Será mejor que no te corres de esto ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|\"Será mejor que estés agradecido por esto\"."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Gale Force",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|\"Vamos, al menos puedes manejar esto, ¿no?",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Apenas estoy poniendo esfuerzo en esto ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|¿Realmente crees que puedes ganar?",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|Base|n|\"Hmmm, tal vez esto sea demasiado para ti\"."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Teasing Winds",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|El Tengu te da una sonrisa bastante presumida.",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Humanos pobres y sensibles.Podrían correrse de una brisa rígida.",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Je, ¿vas a correr solo por el viento?",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|Base|n|'Tal vez estoy siendo demasiado gentil'."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "'Sword' Handling",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|'Hmm, tal vez debería usar {i} ambos {/i} de mis manos ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|\"Deberías ser honrado de estar tocando tu polla\".",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mis manos son {i} lejos {/i} más ágiles que cualquiera {i} humana {/i} mujer'.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|'¿Cuánto tiempo puedes soportar?'"
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Luminous Bonds",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Apenas estoy poniendo esfuerzo en esto ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|¿Realmente crees que puedes ganar?",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|\"Vamos, lucha libre, o voy a ordeñarte seco\".",
+                "|f|ChangeImageLayer|/|Expression|/|Base|n||f|ChangeImageLayer|/|Base|/|Base|n|\"Creo que eso es suficiente mudarse de ti\"."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Feather Job",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|'¿Te estás bajando seriamente de mis {i} alas {/i}?'",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Pobre, patético humano ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Overconfident|n||f|ChangeImageLayer|/|Base|/|Base|n|'Será mejor que no te corres de esto ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|\"Será mejor que estés agradecido por esto\"."
+            ]
+        },
+        {
+            "lineTrigger": "UsesMove",
+            "move": "Face Grind",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Overconfident|n||f|ChangeImageLayer|/|Base|/|Base|n|Será mejor que me adores.",
+                "|f|ChangeImageLayer|/|Expression|/|Cruel|n||f|ChangeImageLayer|/|Base|/|Base|n|Ella amenazan tu virilidad palpitante con su personal de metal.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|\"Continúa, acepta tu lugar debajo de mí.",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Pobre, patético humano ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|'Solo puedes pensar en mi trasero y mi coño, jejeje ...'"
+            ]
+        },
+        {
+            "lineTrigger": "LowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|OrgasmClose|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|Los jadeos de Tengu, temblan de placer mientras su cuerpo sonan un carmesí profundo.",
+                "|f|ChangeImageLayer|/|Expression|/|OrgasmClose|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'¿A-am, me voy a correr?N-no ... eso es imposible ... '",
+                "|f|ChangeImageLayer|/|Expression|/|OrgasmClose|n||f|ChangeImageLayer|/|Base|/|BlushFull|n|'¡Y, en realidad me vas a hacer un orgasmo?'"
+            ]
+        },
+        {
+            "lineTrigger": "PlayerLowHealth",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Overconfident|n||f|ChangeImageLayer|/|Base|/|Base|n|'¿Listo para correrse tan pronto?Que patético ... ♥ '",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|'Si vas a correrte, es mejor que sea suficiente para cumplir con mis estándares ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Estás temblando tanto ... qué triste. ♥'"
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Feather Job",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|El Tengut se ríe arrogante mientras se burla hábilmente de su eje con sus plumas, y su polla está tan sobreestimulada que una sola pluma que se extiende desde la base de su virilidad hasta la punta lo envía sobre el borde en un orgasmo que cae en cascada en todo su cuerpo.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|El Tengute se burla y acaricia su palmada con su suave plumaje, y mientras rastrea círculos rápidos alrededor de la cabeza de su polla palpitante, no puede tomar más mientras dispara cuerdas de semen sobre su ala emplumada.|n||f|ChangeImageLayer|/|Expression|/|Indignant|n|¿Eugh?¿Cómo te atreves a conseguir tu sucio semen en mis alas?¡Esto tomará horas para limpiar!Ella procede a redoblar el asalto de su ala a tu ingle, haciéndote estremecer en el placer sobreestimulado ..."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "Face Sit",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Dejas escapar un gemido amortiguado en la parte trasera bien formada del tengudo cuando su mano de repente comienza a acariciar firmemente tu polla, y tu cabeza se siente tan deliciosamente entumecida y vacía que no tarda mucho en que el placer orgásmico estén bien dentro de tus caderas, estremeciéndoseLa felicidad irreflexiva cuando tu virilidad estalla en el éxtasis blanco y caliente, disparando cuerdas de semen al aire.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Te encuentras inconscientemente lamiendo y adorando el coño del tengues mientras tu mente se inunda con placer irreflexivo, y el éxtasis se hierve dentro de ti mientras continúas acompañando a su sexo, gimiendo mientras tu eje se carga después de la carga de la carga en el aire sin siquiera estar inclusoTocado, para diversión del Tengu de Tengu mientras presiona sus caderas más fuerte sobre tu cara."
+            ]
+        },
+        {
+            "lineTrigger": "OnPlayerOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Mientras te sientes en el borde del orgasmo, el Tengut se mueve despectivamente su muñeca hacia ti, y todo tu cuerpo está repentinamente acariciado por un gentil viento, y cuando se enfoca alrededor de tu polla, dejas escapar un grito de dicha mientras tu masculinidad brotacuerdas de semen en el aire.|n|'How unsightly...'",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n|El Tengut se extiende y comienza a acariciar ágilmente su longitud, frotando magistralmente su virilidad con sus suaves dedos, ocasionalmente acariciando su punta sensible con su pulgar hasta que no pueda tomar más, gimiendo mientras descarga un desastre pegajoso de esperma en su mano.|n||f|ChangeImageLayer|/|Expression|/|Loving|n|El tengu mira por un momento a tu semen antes de llevarlo lentamente a la boca y lamerlo mientras tarareaba felizmente.|n||f|ChangeImageLayer|/|Expression|/|Bashful|n|Pero ella se congela cuando te ve mirándola, y rápidamente mueve su mano hacia un lado, quitando el resto de tu semen con una mirada de asco mientras su piel se desprende de color rosa claro.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n|Te quedas jadeando en el borde del orgasmo, y el Tengut arrastra lenta y sensualmente uno de los consejos de su ala a lo largo de tu masculinidad, y a medida que su suave pluma acaricia la cabeza de tu polla, tu ingle en tiros de placer, espesas cargas de espermaen el suelo."
+            ]
+        },
+        {
+            "lineTrigger": "OnOrgasm",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Base|/|BlushFullSevere|n|'Eeeek! ♥♥♥ H-HOW? ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Base|/|BlushFullSevere|n|'N-Nooo! ♥ C-Cumming f-de un humano ... Entonces ... humillante ... ♥'",
+                "|f|ChangeImageLayer|/|Expression|/|Pleasured|n||f|ChangeImageLayer|/|Base|/|BlushFullSevere|n|'Aaaaahhhh! ♥♥♥ I-¿Perdí?"
+            ]
+        },
+        {
+            "lineTrigger": "OnSurrender",
+            "move": "",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|'Hmph.Al menos conoces tu lugar.Ahora, que hacer contigo ... '",
+                "|f|ChangeImageLayer|/|Expression|/|Pout|n||f|ChangeImageLayer|/|Base|/|Base|n|'Bueno, si estás tan dispuesto a ser mío ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'¿Renunciar?Realmente ahora, cómo ... patético de tu parte."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Face Sit",
+            "theText": [
+                "[ThePlayerName] intenta empujar el coño húmedo de [AttackerName] de [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Face Sit",
+            "theText": [
+                "¡Pero ella se mueve firmemente su amplia parte trasera sobre tu cara!",
+                "¡Pero ella te ocurre con casi desprecio a su fan, y una ráfaga de viento te golpea al suelo!",
+                "Pero tu mente de repente está invadida por fantasías de adorar a su cuerpo perfectamente esculpido, e inconscientemente comienzas a lamer su coño sumisamente ...",
+                "¡Pero ella golpea el fondo de su personal en el suelo, y estás brevemente restringido por Golden Magic mientras reajusta su trasero en tu cara!",
+                "Pero ella comprende firmemente tu virilidad y le da algunos golpes hábiles con su ágil mano, haciéndote temblar de placer y establecerse de nuevo ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Face Sit",
+            "theText": [
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|'Vuelve a lamer'.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|\"Si dejas de luchar, te dejaré correrte\".",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|'Deberías aprender tu lugar'.",
+                "|f|ChangeImageLayer|/|Expression|/|Overconfident|n||f|ChangeImageLayer|/|Base|/|Base|n|\"Qué triste, ni siquiera puedes escapar\"."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Face Sit",
+            "theText": [
+                "¡Y logra empujar [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Face Sit",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Shock|n||f|ChangeImageLayer|/|Base|/|Base|n|Ella te da una apariencia sorprendida, claramente sin esperar que te escapes.",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|'Oh, ¿entonces todavía tienes alguna pelea en ti?Tal vez no seas una decepción después de todo.",
+                "|f|ChangeImageLayer|/|Expression|/|Haughty|n||f|ChangeImageLayer|/|Base|/|Base|n|Jeje, ¿qué pasa humano?¿Miedo de adorar a tus mejores?"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggle",
+            "move": "Making Out",
+            "theText": [
+                "[ThePlayerName] intenta romper el beso profundo con [AttackerName] ..."
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFail",
+            "move": "Making Out",
+            "theText": [
+                "Pero ella mantiene un ajuste apretado [ThePlayerName] con sus poderosos brazos, ¡y él permanece encerrado en un beso profundo!",
+                "Pero cuando comienzas a alejarla, ella envuelve sus brazos alrededor de tu cuello, profundizando el beso mientras te mira avergonzada a los ojos con el más leve brillo de excitación en la suya.",
+                "Pero cuando comienzas a alejarte de ella, ella indigna mueve a su ventilador, ¡y una repentina ráfaga de viento te empuja de nuevo a ella mientras te empuja de nuevo al beso!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleComment",
+            "move": "Making Out",
+            "theText": [
+                "",
+                "",
+                "|f|ChangeImageLayer|/|Expression|/|Smug|n||f|ChangeImageLayer|/|Base|/|Base|n|'Estás asumiendo la responsabilidad de esto ...'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n||f|ChangeImageLayer|/|Base|/|Base|n|'Mmmmm...'"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFree",
+            "move": "Making Out",
+            "theText": [
+                "¡Y libera tu boca de los labios suaves de [AttackerName]!"
+            ]
+        },
+        {
+            "lineTrigger": "StanceStruggleFreeComment",
+            "move": "Making Out",
+            "theText": [
+                "|f|ChangeImageLayer|/|Expression|/|Bashful|n||f|ChangeImageLayer|/|Base|/|Blush|n|¿E-eh?¡Oh!Uhm ... '",
+                "|f|ChangeImageLayer|/|Expression|/|Indignant|n||f|ChangeImageLayer|/|Base|/|Blush|n|'H-¿How, te atreves a dejar de besarme sin {i} mi {/i} permiso!'",
+                "|f|ChangeImageLayer|/|Expression|/|Loving|n||f|ChangeImageLayer|/|Base|/|Blush|n|No parece darse cuenta de que la alejaste, y continúa besándose con el aire por un momento antes de darse cuenta de lo que está sucediendo cuando un rubor rojo intenso cubre su cuerpo."
+            ]
+        }
+    ],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Base",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "0.05",
+            "setYalign": "0.18",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Tengu/body_tengu.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Blush",
+                    "File": "Monsters/Tengu/body_tenguBlush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "BlushSevere",
+                    "File": "Monsters/Tengu/body_tenguBlushSevere.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "BlushFull",
+                    "File": "Monsters/Tengu/body_tenguBlushFull.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "BlushFullSevere",
+                    "File": "Monsters/Tengu/body_tenguBlushFullSevere.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Evil",
+                    "File": "Monsters/Tengu/body_tenguEvil.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/Tengu/tengu_Expression_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Loving",
+                    "File": "Monsters/Tengu/tengu_Expression_Loving.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Happy",
+                    "File": "Monsters/Tengu/tengu_Expression_Happy.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pleasured",
+                    "File": "Monsters/Tengu/tengu_Expression_Pleasured.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Orgasm",
+                    "File": "Monsters/Tengu/tengu_Expression_Orgasm.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "OrgasmClose",
+                    "File": "Monsters/Tengu/tengu_Expression_OrgasmClose.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Bashful",
+                    "File": "Monsters/Tengu/tengu_Expression_Bashful.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Panic",
+                    "File": "Monsters/Tengu/tengu_Expression_Panic.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Shock",
+                    "File": "Monsters/Tengu/tengu_Expression_Shock.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Smug",
+                    "File": "Monsters/Tengu/tengu_Expression_Smug.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Overconfident",
+                    "File": "Monsters/Tengu/tengu_Expression_Overconfident.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Haughty",
+                    "File": "Monsters/Tengu/tengu_Expression_Haughty.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Pout",
+                    "File": "Monsters/Tengu/tengu_Expression_Pout.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Indignant",
+                    "File": "Monsters/Tengu/tengu_Expression_Indignant.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Angry",
+                    "File": "Monsters/Tengu/tengu_Expression_Angry.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Cruel",
+                    "File": "Monsters/Tengu/tengu_Expression_Cruel.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}

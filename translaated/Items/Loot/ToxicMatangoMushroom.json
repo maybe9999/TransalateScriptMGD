@@ -1,0 +1,56 @@
+{
+    "name": "Toxic Matango Mushroom",
+    "itemType": "Loot",
+    "cost": "150",
+    "requires": [
+        ""
+    ],
+    "requiresEvent": [
+        {
+            "NameOfEvent": "GhostSlimeAdventure",
+            "Progress": "0",
+            "ChoiceNumber": "3",
+            "Choice": "GhostsGet"
+        }
+    ],
+    "perks": [
+        ""
+    ],
+    "skills": [],
+    "hp": "0",
+    "ep": "0",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "0",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0"
+    },
+    "descrip": "Un hongo cubierto púrpura pequeño pero peligroso de un matango tóxico, que puede inducir una variedad de afectos cuando se ingieren, casi todo desagradable.Se puede usar para hacer venenos, afrodisíacos y el plato de comida ocasional.No se puede inducir la monstrificación en las mujeres.",
+    "useOutcome": "",
+    "useMiss": ""
+}

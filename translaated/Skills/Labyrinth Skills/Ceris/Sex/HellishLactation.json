@@ -1,0 +1,58 @@
+{
+    "name": "Hellish Lactation",
+    "cost": "5",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "25",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Penetration",
+        "Breasts"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob",
+        "Breast Smother"
+    ],
+    "requiresTargetStance": [
+        "Penetration",
+        "Nursing"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "Restrain"
+    ],
+    "power": "40",
+    "minRange": "85",
+    "maxRange": "115",
+    "recoil": "20",
+    "targetType": "single",
+    "statusEffect": "Aphrodisiac",
+    "statusChance": "150",
+    "statusDuration": "11",
+    "statusPotency": "20",
+    "statusResistedBy": "Willpower",
+    "statusText": "aphrodisiac",
+    "descrip": "",
+    "outcome": "[AttackerName] ralentiza el golpe salvaje de su cintura hasta un dominio gradual de [AttackerHisOrHer] de ancho de caderas de lado a lado, acariciando suavemente la parte posterior de la cabeza de [TargetName] mientras [TargetHeOrShe] aspira sin pensar en su lujoso seno, extrayendo su lujoso.Un vapor constante de leche tibia para tragar, enviando un calor lujurioso que se extiende por todo el cuerpo [TargetHisOrHer] todo el cuerpo.",
+    "miss": "[AttackerName] ralentiza el golpe salvaje de su cintura hasta un dominio gradual de [AttackerHisOrHer] de ancho de caderas de lado a lado, ¡pero [TargetName] soporta las burlas sexuales!",
+    "statusOutcome": "Los efectos de la crema cómodamente cálida llenan lentamente cada parte del cuerpo de [TargetName] con deseo sexual pulsante y necesitado, persuadiéndole para beber aún más.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

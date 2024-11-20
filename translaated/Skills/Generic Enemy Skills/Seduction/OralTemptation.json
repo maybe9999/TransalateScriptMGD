@@ -1,0 +1,55 @@
+{
+    "name": "Oral Temptation",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "100",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "5",
+    "skillTags": [
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Oral"
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Nursing",
+        "Breast Smother",
+        "Face Sit"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "15",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "30",
+    "statusDuration": "6",
+    "statusPotency": "0",
+    "statusResistedBy": "Willpower",
+    "statusText": "",
+    "descrip": "Haga un oponente caliente y molesto solo con tus palabras.Pueden encantar oponentes.Es una habilidad de juego previo.",
+    "outcome": "[AttackerName] se burla [TargetName] con promesas sexuales, y se enjuagan ante las implicaciones.",
+    "miss": "[AttackerName] se burla [TargetName] con promesas sexuales, pero parecen no verse afectados.",
+    "statusOutcome": "La mente de [TargetName] está llena de fantasías sexuales de las palabras de [AttackerName].[TargetName] ha sido encantado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

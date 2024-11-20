@@ -1,0 +1,56 @@
+{
+    "name": "Tantric Thrust",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "attack",
+    "statType": "Allure",
+    "statusEffectScaling": "25",
+    "requiredStat": "20",
+    "skillTags": [
+        "Penetration",
+        "Seduction"
+    ],
+    "fetishTags": [
+        "Penetration",
+        "Cock"
+    ],
+    "startsStance": "",
+    "requiresStance": "Penetration",
+    "unusableIfStance": [
+        "Blowjob"
+    ],
+    "requiresTargetStance": [
+        "Penetration"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "40",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "20",
+    "targetType": "single",
+    "statusEffect": "Defence",
+    "statusChance": "50",
+    "statusDuration": "6",
+    "statusPotency": "-20",
+    "statusResistedBy": "",
+    "statusText": "Tantric Thrust",
+    "descrip": "FOLLA BATIA Y SENSUAL FOLLA TU TABLO.Puede reducir la defensa.",
+    "outcome": "[AttackerName] empuja lentamente su virilidad en [TargetName] [SexAdjective] de [SexAdjective] con un cuidado suave, todo mientras acaricia bruscamente [TargetHisOrHer] cuerpo al rastrear sensualmente [AttackerHisOrHer] con los dedos sobre [TargetHisOrHer] Sensitive Skin, dejando [TargetName] suavemente suavegimiendo del placer del edificio.",
+    "miss": "[AttackerName] empuja lentamente su virilidad en [TargetName] [SexAdjective] [SexWord] con un cuidado suave, todo mientras acaricia bruscamente [TargetHisOrHer] cuerpo al rastrear sensualmente [AttackerHisOrHer] con los dedos sobre [TargetHisOrHer] Sensible Skin, pero [TargetHeOrShe] parece parecer parecido.¡inafectado!",
+    "statusOutcome": "Los temblores de [TargetName] con placer, jadeando con excitación, el trato amoroso está comenzando a hacer giro de la cabeza [TargetHisOrHer], bajando las defensas [TargetHisOrHer] a medida que se pierden en el momento.",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

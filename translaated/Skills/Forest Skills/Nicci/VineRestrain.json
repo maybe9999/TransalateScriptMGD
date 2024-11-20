@@ -1,0 +1,56 @@
+{
+    "name": "Vine Restrain",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "statusEffect",
+    "statType": "Technique",
+    "requiredStat": "7",
+    "skillTags": [
+        ""
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        "Sex",
+        "Titfuck",
+        "Anal",
+        "Nursing"
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "0",
+    "maxRange": "0",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Restrain",
+    "statusChance": "85",
+    "statusDuration": "0",
+    "statusPotency": "10",
+    "statusResistedBy": "Power",
+    "statusText": "bound",
+    "descrip": "",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] envía enredaderas [AttackerHisOrHer], ¡y se envuelven y restringen [TargetYouOrMonsterName]!",
+    "statusMiss": "[AttackerName] sends out [AttackerHisOrHer] vines, but [TargetYouOrMonsterName] manage to keep them off!",
+    "restraintStruggle": "[TargetName] struggles against [AttackerName]'s vines...",
+    "restraintStruggleCharmed": "[TargetName] squirms against [AttackerName]'s vines, barely resisting the urge to settle into the restraints...",
+    "restraintEscaped": "[TargetName] manages to tear off the restraining vines!",
+    "restraintEscapedFail": "But [TargetName] remains bound by the tight vines!"
+}

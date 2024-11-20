@@ -1,0 +1,54 @@
+{
+    "name": "Group Sensitize",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "500",
+    "skillType": "statusEffect",
+    "statType": "Intelligence",
+    "statusEffectScaling": "0",
+    "requiredStat": "15",
+    "skillTags": [
+        "Magic"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "0",
+    "minRange": "100",
+    "maxRange": "100",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Defence",
+    "statusChance": "150",
+    "statusDuration": "3",
+    "statusPotency": "-100",
+    "statusResistedBy": "",
+    "statusText": "Arcane Seduction Overdrive!",
+    "descrip": "¡Aumenta la sensibilidad del objetivo, bajando su defensa!Dura 6 turnos.",
+    "outcome": "",
+    "miss": "",
+    "statusOutcome": "[AttackerName] canaliza la magia y aumenta la sensibilidad de [TargetName], haciéndolos estremecer en placer ya que incluso el aire cepillado contra la piel [TargetHisOrHer] se vuelve estimulante.",
+    "statusMiss": "[AttackerName] channels magic to raise [TargetName] sensitivity, but [TargetName] resists the spell!",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

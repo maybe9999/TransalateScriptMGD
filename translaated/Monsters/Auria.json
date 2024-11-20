@@ -1,0 +1,207 @@
+{
+    "name": "Auria",
+    "IDname": "Auria",
+    "species": "Aberrant",
+    "gender": "female",
+    "description": "Una mujer con piso con salones de piel rosa alienígena dentro del lujoso cofre del tesoro dorado, grandes tentáculos morados que gotean con lociones afrodisíacas púrpuras rosadas que se deslizan mientras se deslizan dentro del cofre, adornados en collares y tesoras finas.Su cabello rubio dorado se hace en dos lazos laterales regios, mientras que el resto fluye detrás de ella y sobre su rostro seductoramente, una diadema de seda con un arco de seda con una corona sobre su cabeza, y sus orejas son largas y puntiagudas.Sus cejas tienen una forma de almendra y su exuberante mirada es una brilla morada y rosa, su sonrisa se ve atenta con su lápiz labial púrpura aplicado con buen gusto.Alrededor de su collar y sobre sus hombros hay una prenda corta con volantes y inclinadas con botones de oro, la que está sobre su escote grabado con un gran corazón amitista, atrayendo los ojos a su escote desbordante, sus enormes senos se quedaron libres de aparentemente constantemente resbaladizosAlguna loción obscena, la única cobertura para sus tetas es dos empanadas en forma de corazón aterciopelado.Sus manos usan guantes blancos de seda, sus dedos y palmeras reales también cubiertos con líquidos morados lascivos.Su cintura bien desnuda se curva hasta caderas anchas que se esconde en broma dentro de la caja del tesoro, levantando sus piernas cenizas que descansa para mostrar sus recortados altibajos blancos y los pies dorados con pies.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [
+        ""
+    ],
+    "skillList": [
+        ""
+    ],
+    "perks": [
+        ""
+    ],
+    "stats": {
+        "lvl": "35",
+        "Exp": "0",
+        "max_hp": "350",
+        "max_ep": "10",
+        "max_sp": "1",
+        "Power": "15",
+        "Technique": "15",
+        "Intelligence": "10",
+        "Allure": "40",
+        "Willpower": "10",
+        "Luck": "30"
+    },
+    "Fetishes": [
+        ""
+    ],
+    "BodySensitivity": {
+        "Sex": "100",
+        "Ass": "100",
+        "Breasts": "100",
+        "Mouth": "100",
+        "Seduction": "100",
+        "Magic": "100",
+        "Pain": "100",
+        "Holy": "100",
+        "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "0",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "0",
+        "Trance": "0",
+        "Paralysis": "0",
+        "Debuff": "0"
+    },
+    "moneyDropped": "0",
+    "ItemDropList": [],
+    "lossScenes": [
+        {
+            "NameOfScene": "Loss scene",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [],
+            "picture": ""
+        }
+    ],
+    "combatDialogue": [],
+    "victoryScenes": [
+        {
+            "NameOfScene": "",
+            "move": "",
+            "stance": "",
+            "includes": [
+                ""
+            ],
+            "theScene": [
+                ""
+            ],
+            "picture": ""
+        }
+    ],
+    "pictures": [
+        {
+            "Name": "Box",
+            "StartOn": "1",
+            "AlwaysOn": "1",
+            "IsScene": "0",
+            "TheBody": "1",
+            "Overlay": "No",
+            "setXalign": "-0.005",
+            "setYalign": "0.025",
+            "Images": [
+                {
+                    "Name": "ChestOpen",
+                    "File": "Monsters/MimicGolden/mimicGold_body.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Face",
+            "StartOn": "1",
+            "AlwaysOn": "0",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Base",
+                    "File": "Monsters/MimicGolden/mimicGold_face_Base.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Blush",
+                    "File": "Monsters/MimicGolden/mimicGold_face_Blush.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "BlushHeavy",
+                    "File": "Monsters/MimicGolden/mimicGold_face_BlushHeavy.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        },
+        {
+            "Name": "Expression",
+            "StartOn": "1",
+            "AlwaysOn": "0",
+            "IsScene": "0",
+            "TheBody": "0",
+            "Overlay": "No",
+            "setXalign": "0.0",
+            "setYalign": "0.0",
+            "Images": [
+                {
+                    "Name": "Pleasured",
+                    "File": "Monsters/MimicGolden/mimicGold_expression_FeelingPleasure.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Greedy",
+                    "File": "Monsters/MimicGolden/mimicGold_expression_Greedy.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "LipLick",
+                    "File": "Monsters/MimicGolden/mimicGold_expression_LipLick.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Mocking",
+                    "File": "Monsters/MimicGolden/mimicGold_expression_Mocking.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Orgasm",
+                    "File": "Monsters/MimicGolden/mimicGold_expression_Orgasm.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Overjoyed",
+                    "File": "Monsters/MimicGolden/mimicGold_expression_Overjoyed.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Seductive",
+                    "File": "Monsters/MimicGolden/mimicGold_expression_Seductive.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Smile",
+                    "File": "Monsters/MimicGolden/mimicGold_expression_Smile.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "SmileWink",
+                    "File": "Monsters/MimicGolden/mimicGold_expression_SmileWink.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                },
+                {
+                    "Name": "Smug",
+                    "File": "Monsters/MimicGolden/mimicGold_expression_Smug.png",
+                    "setXalign": "0.0",
+                    "setYalign": "0.0"
+                }
+            ]
+        }
+    ]
+}

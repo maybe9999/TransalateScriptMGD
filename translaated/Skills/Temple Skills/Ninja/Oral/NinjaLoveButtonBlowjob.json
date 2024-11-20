@@ -1,0 +1,55 @@
+{
+    "name": "Ninja Art: Love Button Blowjob",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Technique",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex",
+        "Ass"
+    ],
+    "fetishTags": [
+        "Oral"
+    ],
+    "startsStance": "",
+    "requiresStance": "Blowjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Blowjob"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "35",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusDuration": "0",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "",
+    "outcome": "Mientras [AttackerName] apesta obedientemente el gallo de [TargetName], uno de los dedos [AttackerHisOrHer], húmedos con lubricación, se abre paso hacia el culo de [TargetName] y comienza a masajear [TargetHisOrHer], enviando brotes de placer a través de [TargetHisOrHer] ingle.",
+    "miss": "Mientras [AttackerName] apesta obedientemente el gallo de [TargetName], uno de los dedos [AttackerHisOrHer], mojados con lubricación, trata de abrirse camino hacia el culo de [TargetName], pero [TargetHeOrShe] se retuerde demasiado¡De ingresar [AttackerHisOrHer]!",
+    "statusOutcome": "",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

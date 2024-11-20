@@ -1,0 +1,54 @@
+{
+    "name": "Massage Ass",
+    "cost": "10",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "1000",
+    "skillType": "attack",
+    "statType": "Technique",
+    "statusEffectScaling": "25",
+    "requiredStat": "20",
+    "skillTags": [
+        "Ass"
+    ],
+    "fetishTags": [
+        ""
+    ],
+    "startsStance": "",
+    "requiresStance": "Any",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Any"
+    ],
+    "unusableIfTarget": [
+        ""
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Damage",
+    "statusChance": "50",
+    "statusDuration": "6",
+    "statusPotency": "-10",
+    "statusResistedBy": "Willpower",
+    "statusText": "Desarmado",
+    "descrip": "Hábilmente masajea el trasero de tu oponente.Puede reducir el daño.",
+    "outcome": "[AttackerName] amasa lentamente y acaricia el culo [TargetName] con los dedos [AttackerHisOrHer] expertos, provocando gemidos suaves con cada uno de los cuidadosamente practicados.",
+    "miss": "[AttackerName] trata de masajear el culo de [TargetName], pero [TargetHeOrShe] lo mantiene fuera de alcance.",
+    "statusOutcome": "¡El [TargetName] se queda desenfocado y desorientado de las burlas de expertos!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}

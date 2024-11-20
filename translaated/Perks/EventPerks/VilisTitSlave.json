@@ -1,0 +1,27 @@
+{
+    "name": "Vili's Titty Slave",
+    "description": "Vili te ha cautivado por completo con sus enormes tetas fascinantes, aumentando el fetiche de los senos en 25 y reduciendo tu excitación máxima en 25. Pero el daño que aborda los senos aumenta en un 10% debido a tu obsesión, y ella aumentó tu espíritu en 1.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "BreastBoost",
+        "IncreaseFetish",
+        "GainArousal",
+        "GainSpirit"
+    ],
+    "EffectPower": [
+        "10",
+        "Breasts|/|25",
+        "-25",
+        "1"
+    ],
+    "PlayerCanPurchase": "No"
+}

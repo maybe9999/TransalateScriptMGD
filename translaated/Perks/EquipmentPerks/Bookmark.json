@@ -1,0 +1,21 @@
+{
+    "name": "Bookmark",
+    "description": "¡Obtenga el 20% del encuentro EXP cuando pierde en combate!Por si acaso.",
+    "LevelReq": "0",
+    "PerkReq": [
+        ""
+    ],
+    "StatReq": [
+        ""
+    ],
+    "StatReqAmount": [
+        "0"
+    ],
+    "PerkType": [
+        "LossExp"
+    ],
+    "EffectPower": [
+        "20"
+    ],
+    "PlayerCanPurchase": "HiddenCompletelyFromPlayer"
+}

@@ -1,0 +1,47 @@
+{
+    "name": "Headphones of Noise",
+    "itemType": "Accessory",
+    "cost": "5000",
+    "descrip": "Este cómodo par de auriculares especializados cancelados con sonido coloreados en una mezcla de ajustes negros y púrpuras cómodos sobre tu cabeza y te ayuda a cerrar el mundo que te rodea.Aumenta las resistencias de encanto y trance en un 50%, pero reduce la resistencia al sueño en un 25%.",
+    "requires": [
+        ""
+    ],
+    "perks": [
+        ""
+    ],
+    "hp": "0",
+    "ep": "0",
+    "sp": "0",
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "0",
+    "Willpower": "0",
+    "Luck": "0",
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+    "BodySensitivity": {
+        "Sex": "0",
+        "Ass": "0",
+        "Breasts": "0",
+        "Mouth": "0",
+        "Seduction": "0",
+        "Magic": "0",
+        "Pain": "0",
+        "Holy": "0",
+        "Unholy": "0"
+    },
+    "resistancesStatusEffects": {
+        "Stun": "0",
+        "Charm": "50",
+        "Aphrodisiac": "0",
+        "Restraints": "0",
+        "Sleep": "-25",
+        "Trance": "50",
+        "Paralysis": "0"
+    },
+    "useOutcome": "",
+    "useMiss": ""
+}

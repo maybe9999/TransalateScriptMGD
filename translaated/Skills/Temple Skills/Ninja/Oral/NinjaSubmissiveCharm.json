@@ -1,0 +1,54 @@
+{
+    "name": "Ninja Art: Submissive Charm",
+    "cost": "0",
+    "costType": "ep",
+    "requiredLevel": "0",
+    "learningCost": "0",
+    "skillType": "attack",
+    "statType": "Allure",
+    "requiredStat": "0",
+    "skillTags": [
+        "Sex"
+    ],
+    "fetishTags": [
+        "Oral"
+    ],
+    "startsStance": "",
+    "requiresStance": "Blowjob",
+    "unusableIfStance": [
+        ""
+    ],
+    "requiresTargetStance": [
+        "Blowjob"
+    ],
+    "unusableIfTarget": [
+        "Sex",
+        "Anal"
+    ],
+    "removesStance": "None",
+    "requiresStatusEffect": "None",
+    "requiresStatusPotency": "0",
+    "unusableIfStatusEffect": [
+        "None"
+    ],
+    "power": "25",
+    "minRange": "90",
+    "maxRange": "110",
+    "recoil": "0",
+    "targetType": "single",
+    "statusEffect": "Charm",
+    "statusChance": "85",
+    "statusDuration": "4",
+    "statusPotency": "0",
+    "statusResistedBy": "",
+    "statusText": "",
+    "descrip": "Chupar Dick más profundo.",
+    "outcome": "[AttackerName] mira a [TargetName] sumisamente como [AttackerHeOrShe] se sacude profundamente la cabeza hacia arriba y hacia abajo [TargetHisOrHer] Cock, y como [TargetName] mira a [AttackerHisOrHer] cara, pequeños corazones rosados ​​flashearon en [AttackerHisOrHer] ojos.",
+    "miss": "[TargetName] cierra los ojos [TargetHisOrHer] y los dientes [TargetHisOrHer] para resistir el placer, ya que la boca de [AttackerName] apesta intensamente sobre [TargetHisOrHer] COD!",
+    "statusOutcome": "[TargetName] sonríe y agarra suavemente la cabeza de [AttackerName], guiando [AttackerHisOrHer] boca abajo [TargetHisOrHer] eje ... [TargetName] ha sido encantado!",
+    "statusMiss": "",
+    "restraintStruggle": "",
+    "restraintStruggleCharmed": "",
+    "restraintEscaped": "",
+    "restraintEscapedFail": ""
+}
